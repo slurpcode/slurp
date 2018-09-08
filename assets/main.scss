@@ -11,6 +11,10 @@ article h1, article p {text-align: center}
 .site-footer {border-bottom: 5px solid #424242; border-top: 5px solid #424242; color:white}
 .footer-col-wrapper, .footer-col-wrapper span {color:white;}
 
+article span, article a, article a:visited {color: #FF0080;}
+article a:hover {color:blue;}
+
+
 .home {
   ul, h2, p {text-align: center}
   a {color: #FF0080;}

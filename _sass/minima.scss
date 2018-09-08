@@ -44,7 +44,7 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
-@import "_sass/minima/base",
-"_sass/minima/layout",
-"_sass/minima/syntax-highlighting"
+@import "minima/base",
+"minima/layout",
+"minima/syntax-highlighting"
 ;
