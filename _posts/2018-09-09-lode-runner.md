@@ -6,3 +6,5 @@ categories: GIF
 ---
 
 ![Lode Runner](/assets/images/gifs/lode-runner.gif "Lode Runner")
+
+<br>Created by: <a href="https://www.upwork.com/freelancers/~01abf139414e3d1c0d">Jorge</a>
