@@ -7,4 +7,5 @@ categories: GIF
 
 ![Police Quest](/assets/images/gifs/police-quest.gif "Police Quest")
 
-<br>Created by: <a href="https://www.upwork.com/freelancers/~01abf139414e3d1c0d">Jorge</a>
+<br>Created by: <a href="https://www.upwork.com/freelancers/~01abf139414e3d1c0d"
+                   target="_blank" rel="noopener">Jorge</a>
