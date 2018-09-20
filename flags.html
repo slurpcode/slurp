@@ -1,0 +1,13 @@
+---
+layout: page
+title: Flags
+permalink: /flags/
+---
+<h3>{%- include harley/harley.html -%}</h3>
+{% for image in site.static_files %}
+    {% if image.path contains 'assets/images/flags' %}
+    <img src="{{ site.baseurl }}{{ image.path }}"
+         alt="Fuchsia Programming"
+         title="Fuchsia Programming">
+    {% endif %}
+{% endfor %}
