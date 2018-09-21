@@ -6,8 +6,14 @@ permalink: /flags/
 <h3>{%- include harley/harley.html -%}</h3>
 {% for image in site.static_files %}
     {% if image.path contains 'assets/images/flags' %}
-    <img src="{{ site.baseurl }}{{ image.path }}"
-         alt="Fuchsia Programming"
-         title="Fuchsia Programming">
+        {% assign countries = image.path | split: "/" | last | split: "." | first %}
+        <br>
+        <p>
+            <a href="https://en.wikipedia.org/wiki/{{ countries }}"
+                target="_blank" rel="noopener">{{ countries  }}</a>
+        </p>
+        <img src="{{ site.baseurl }}{{ image.path }}"
+             alt="Fuchsia Programming"
+             title="Fuchsia Programming">
     {% endif %}
 {% endfor %}
