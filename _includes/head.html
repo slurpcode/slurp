@@ -15,4 +15,15 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function() {
+          window.setInterval(function(){
+              let r = Math.floor(Math.random() * 166);
+              $("#logo").attr("src", "/assets/images/logos/fuchsia-"+ r +".png")
+          }, 7000);
+      });
+  </script>
 </head>
