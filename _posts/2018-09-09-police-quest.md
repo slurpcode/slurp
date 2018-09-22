@@ -6,5 +6,5 @@ categories: GIF
 ---
 
 ![Police Quest](/assets/images/gifs/police-quest.gif "Police Quest")
-
+<br>
 {%- include jorge/jorge.html -%}

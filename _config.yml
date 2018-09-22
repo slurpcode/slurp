@@ -23,12 +23,17 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fuchsia-programming.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username: fuchsia-programming
+paginate: 5
+feed:
+  path: atom.xml
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
+  - jemoji
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

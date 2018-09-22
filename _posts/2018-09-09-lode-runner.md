@@ -6,5 +6,5 @@ categories: GIF
 ---
 
 ![Lode Runner](/assets/images/gifs/lode-runner.gif "Lode Runner")
-
+<br>
 {%- include jorge/jorge.html -%}

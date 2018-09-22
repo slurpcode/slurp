@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h2 class="page-heading">Animations</h2>
+
+    <ul class="post-list">
+        {% for post in paginator.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+            <h2>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <!-- Pagination links -->
+    <div class="pagination">
+        {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+        {% else %}
+        <span class="previous">Previous</span>
+        {% endif %}
+        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+        {% else %}
+        <span class="next ">Next</span>
+        {% endif %}
+    </div>
+    <br><br>
+    <p class="rss-subscribe">Subscribe via<a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank"> RSS </a> or
+        <a href="{{ "/atom.xml" | prepend: site.baseurl }}" target="_blank">Atom</a>
+    </p>
+</div>
