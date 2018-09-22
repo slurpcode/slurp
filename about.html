@@ -4,12 +4,25 @@ title: About
 permalink: /about/
 ---
 
-A small gathering of <span class="fuchsia">Fuchsia</span>  enthusiasts:
-{%- include barnabus/link.html -%},
-{%- include jorge/link.html -%} and
-{%- include harley/link.html -%}
-came together for one sole purpose, which was to
-bring The <span class="fuchsia">Fuchsia</span> to the people.
+A small gathering of
+<span class="fuchsia">
+    <a href="https://en.wikipedia.org/wiki/Fuchsia" target="_blank" rel="noopener">Fuchsia</a>
+</span>
+enthusiasts came together for one sole purpose, which was to
+bring the <span class="fuchsia">Fuchsia</span> to the people.
 Please check out our sister site, the original
 <a href="https://fuchsia.herokuapp.com/" target="_blank" rel="noopener">Fuchsia Programming</a>.
- 
+
+{% assign contributors = "barney johnbampton,jorge ~01abf139414e3d1c0d,harley harleya" | split: "," %}
+<ul>
+    {% for contributor in contributors %}
+        {% assign name = contributor | split: " " | first  %}
+        {% assign display = name | capitalize %}
+        {% assign url = contributor | split: " " | last  %}
+        <li>
+            <a href="https://www.upwork.com/fl/{{ url }}" target="_blank" rel="noopener">
+                <img src="/assets/images/gophers/{{ name }}.png" alt="{{ display }}" title="{{ display }}">
+            </a>
+        </li>
+    {% endfor %}
+</ul>
