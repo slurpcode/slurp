@@ -5,9 +5,7 @@ permalink: /gallery/
 ---
 
 {% for image in site.static_files %}
-    {% if image.path contains 'assets/images/logos' %}
-        <img src="{{ site.baseurl }}{{ image.path }}"
-             alt="Fuchsia Programming"
-             title="Fuchsia Programming">
-    {% endif %}
+    {%- if image.path contains 'assets/images/logos' -%}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="{{site.title}}" title="{{site.title}}">
+    {%- endif -%}
 {% endfor %}
