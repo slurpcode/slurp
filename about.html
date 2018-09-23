@@ -12,16 +12,12 @@ enthusiasts came together for one sole purpose, which was to
 bring the <span class="fuchsia">Fuchsia</span> to the people.
 Please check out our sister site, the original
 <a href="https://fuchsia.herokuapp.com/" target="_blank" rel="noopener">Fuchsia Programming</a>.
-
-{% assign contributors = "barney johnbampton,jorge ~01abf139414e3d1c0d,harley harleya" | split: "," %}
 <ul>
-    {% for contributor in contributors %}
-        {% assign name = contributor | split: " " | first  %}
-        {% assign display = name | capitalize %}
-        {% assign url = contributor | split: " " | last  %}
+    {% for contributor in site.data.contributors %}
+        {% assign display = contributor.name | capitalize %}
         <li>
-            <a href="https://www.upwork.com/fl/{{ url }}" target="_blank" rel="noopener">
-                <img src="/assets/images/gophers/{{ name }}.png" alt="{{ display }}" title="{{ display }}">
+            <a href="https://www.upwork.com/fl/{{ contributor.upwork }}" target="_blank" rel="noopener">
+                <img src="/assets/images/gophers/{{ contributor.name }}.png" alt="{{ display }}" title="{{ display }}">
             </a>
         </li>
     {% endfor %}
