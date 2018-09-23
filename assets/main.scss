@@ -12,7 +12,9 @@ article h1, article p {text-align: center}
 .site-footer {border-bottom: 5px solid #424242; border-top: 5px solid #424242; color:white; padding: 0;}
 .footer-col-wrapper, .footer-col-wrapper span {color:white; font-size: 13pt;}
 
-article span, article a, article a:visited {color: #FF0080; font-weight: bold;}
+article {
+  span, a, a:visited {color: #FF0080; font-weight: bold;}
+}
 article a:hover {color:blue;}
 main {background-color: #94AFD1;}
 
@@ -38,6 +40,4 @@ ul li {list-style: none;}
     color: white;
     padding: 0pt 5pt 0pt 5pt;
   }
-
 }
-
