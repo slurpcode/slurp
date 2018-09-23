@@ -1,5 +1,7 @@
 # Pink, Purple or Fuchsia
 
+![Lode Runner](assets/images/gifs/lode-runner.gif "Lode Runner")
+
 The original **`Fuchsia`** Programming on Heroku
 
 https://fuchsia.herokuapp.com/
