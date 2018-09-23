@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {% assign images = "139,165,141,140,41" | split: "," %}
+  {% assign images = "139,117,141,140,41" | split: "," %}
   {% for image in images %}
   <meta property="og:image" content="https://fuchsia-programming.github.io/assets/images/fav/jorge/fuchsia-{{ image }}.png">
   {% endfor %}
@@ -18,7 +18,7 @@
   <script>
       $(document).ready(function() {
           window.setInterval(function(){
-              let r = Math.floor(Math.random() * 163);
+              let r = Math.floor(Math.random() * 164);
               $("#logo").attr("src", "/assets/images/logos/fuchsia-"+ r +".png")
           }, 7000);
       });
