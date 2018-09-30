@@ -7,7 +7,12 @@ permalink: /favourites/
 {% assign w = "https://en.wikipedia.org/wiki/" %}
 <h3>{%- include jorge/jorge.html -%}</h3>
 {% for concept in site.data.favourites %}
-    {% assign display = concept.name | split: "_" | join: " " %}
+    {% assign title = concept.title | strip %}
+    {% if title != '' %}
+        {% assign display = concept.title %}
+    {% else %}
+        {% assign display = concept.name | split: "_" | join: " " %}
+    {% endif %}
     <p>
         <a href="{{w}}{{ concept.name }}" target="_blank" rel="noopener">{{ display }}</a>
         <br>
