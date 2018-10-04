@@ -1,5 +1,5 @@
 function eggs() {
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley', 'jorge', 'barney'];
     var keyHistory = '';
     var match;
     $(document).keypress(function (e) {
@@ -11,13 +11,19 @@ function eggs() {
                 //alert(match);
                 switch(match.toString()){
                     case 'reset':
-                        $("main").css({"background-image":"none","background-color":"#94AFD1"});
+                        $("main").css({"background-image":"none", "background-color":"#94AFD1"});
                         break;
                     case 'fuchsia':
-                        $("main").css({"background-image":"none","background-color":"#FF0080"});
+                        $("main").css({"background-image":"none", "background-color":"#FF0080"});
                         break;
                     case 'harley':
-                        window.open("https://www.upwork.com/fl/harleya","_self");
+                        window.open("https://www.upwork.com/fl/harleya", "_self");
+                        break;
+                    case 'jorge':
+                        window.open("https://www.upwork.com/freelancers/~01abf139414e3d1c0d", "_self");
+                        break;
+                    case 'barney':
+                        window.open("https://www.upwork.com/fl/johnbampton", "_self");
                         break;
                     default:
                         var url = "/assets/images/backgrounds/" + match + ".jpg";
