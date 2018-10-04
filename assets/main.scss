@@ -28,6 +28,8 @@ header.site-header {height: 360px;}
 }
 ul li {list-style: none;}
 
+main .wrapper {max-width: 360px;background-color: #94AFD1;}
+
 @media screen and (max-width:600px){
   .site-nav {
     position: absolute;
