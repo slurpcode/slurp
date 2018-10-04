@@ -1,5 +1,5 @@
 function eggs() {
-    var easterEggs = ['reset', 'king', 'winter', 'digger', 'matrix'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix'];
     var keyHistory = '';
     var match;
     $(document).keypress(function (e) {
@@ -12,6 +12,8 @@ function eggs() {
                 var url = "/assets/images/backgrounds/" + match + ".jpg";
                 if(match.toString()==='reset'){
                     $("main").css("background-image", "none");
+                }else if(match.toString()==='fuchsia'){
+                    $("main").css({"background-image":"none","background-color":"#FF0080"});
                 }else{
                     $("main").css("background-image", "url(" + url + ")");
                 }
