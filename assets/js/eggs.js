@@ -1,5 +1,5 @@
 function eggs() {
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley'];
     var keyHistory = '';
     var match;
     $(document).keypress(function (e) {
@@ -9,13 +9,19 @@ function eggs() {
             match = keyHistory.match(easterEggs[i]);
             if (match) {
                 //alert(match);
-                var url = "/assets/images/backgrounds/" + match + ".jpg";
-                if(match.toString()==='reset'){
-                    $("main").css("background-image", "none");
-                }else if(match.toString()==='fuchsia'){
-                    $("main").css({"background-image":"none","background-color":"#FF0080"});
-                }else{
-                    $("main").css("background-image", "url(" + url + ")");
+                switch(match.toString()){
+                    case 'reset':
+                        $("main").css({"background-image":"none","background-color":"#94AFD1"});
+                        break;
+                    case 'fuchsia':
+                        $("main").css({"background-image":"none","background-color":"#FF0080"});
+                        break;
+                    case 'harley':
+                        window.open("https://www.upwork.com/fl/harleya","_self");
+                        break;
+                    default:
+                        var url = "/assets/images/backgrounds/" + match + ".jpg";
+                        $("main").css("background-image", "url(" + url + ")");
                 }
                 keyHistory = match = '';
             } else if (keyHistory.length > 30) {
