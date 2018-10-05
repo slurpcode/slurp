@@ -4,7 +4,7 @@
 
 @import "minima";
 
-body {font-size: 13pt;}
+body {font-size: 13pt;background-color: #94AFD1;}
 article img {display: block; margin-left: auto; margin-right: auto;}
 article h1, article p {text-align: center}
 .site-header, .site-footer {background-color: #FF0080; border-bottom: 5px solid #424242;}
@@ -17,6 +17,13 @@ article {
 }
 article a:hover {color:blue;}
 main {background-color: #94AFD1;}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  visibility: hidden;
+  height: 0;
+}
 
 header.site-header {height: 360px;}
 .home, .post-content {
