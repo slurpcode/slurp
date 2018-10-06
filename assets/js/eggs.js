@@ -57,6 +57,7 @@ function stopPlay(){
 }
 
 function play(url){
+    $("iframe").remove();
     $("#youtube").css({"height":"315", "visibility":"visible"});
     $("#youtube").append('<iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
     var videoURL = url + "&amp;autoplay=1";
