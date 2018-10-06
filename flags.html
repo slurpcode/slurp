@@ -3,11 +3,11 @@ layout: page
 title: Flags
 permalink: /flags/
 ---
-{% assign w = "https://en.wikipedia.org/wiki/" %}
+{%- assign w = "https://en.wikipedia.org/wiki/" -%}
 <h3>{%- include harley/harley.html -%}</h3>
-{% for image in site.static_files %}
+{%- for image in site.static_files -%}
     {% if image.path contains 'assets/images/flags' %}
-        {% assign countries = image.path | split: "/" | last | split: "." | first %}
+        {%- assign countries = image.path | split: "/" | last | split: "." | first -%}
         <br>
         <p>
             <a href="{{w}}{{ countries }}"
@@ -20,4 +20,4 @@ permalink: /flags/
                  title="Fuchsia Programming">
         </a>
     {% endif %}
-{% endfor %}
+{%- endfor -%}

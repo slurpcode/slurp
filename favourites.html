@@ -6,8 +6,8 @@ permalink: /favourites/
 
 {% assign w = "https://en.wikipedia.org/wiki/" %}
 <h3>{%- include jorge/jorge.html -%}</h3>
-{% for concept in site.data.favourites %}
-    {% assign title = concept.title | strip %}
+{%- for concept in site.data.favourites -%}
+    {%- assign title = concept.title | strip -%}
     {% if title != '' %}
         {% assign display = concept.title %}
     {% else %}
@@ -20,7 +20,7 @@ permalink: /favourites/
             <img src="/assets/images/fav/jorge/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
         </a>
     </p>
-{% endfor %}
+{%- endfor -%}
 <h3>{%- include harley/harley.html -%}</h3>
 <p>
     <a href="{{w}}Australia" target="_blank" rel="noopener">Australia</a>
