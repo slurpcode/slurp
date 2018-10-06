@@ -22,7 +22,17 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+        <p>
+          <span class="typer" id="main"
+                data-words="{%- for sentences in site.data.info -%}
+                            {{sentences.sentence}};
+                            {%- endfor -%}"
+                data-colors="white"
+                data-delim=";"
+                data-delay="100"
+                data-deleteDelay="1000"></span>
+          <span class="cursor" data-owner="main"></span>
+          </p>
       </div>
     </div>
 
@@ -33,3 +43,4 @@
   </div>
 
 </footer>
+<script src="/assets/js/typer.js"></script>
