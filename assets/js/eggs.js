@@ -1,5 +1,5 @@
 function eggs() {
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley', 'jorge', 'barney', 'jedi'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley', 'jorge', 'barney', 'jedi', 'anjuna'];
     var keyHistory = '';
     var match;
     $(document).keypress(function (e) {
@@ -12,7 +12,7 @@ function eggs() {
                 switch(match.toString()){
                     case 'reset':
                         stopPlay();
-                        $("main").css({"background-image":"none", "background-color":"#94AFD1"});
+                        reset();
                         break;
                     case 'fuchsia':
                         stopPlay();
@@ -31,11 +31,12 @@ function eggs() {
                         window.open("https://www.upwork.com/fl/johnbampton", "_self");
                         break;
                     case 'jedi':
-                        $("main").css({"background-image":"none", "background-color":"#94AFD1"});
-                        $("iframe").css({"width":"560", "height":"315", "visibility":"visible"});
-                        var videoURL = $("iframe").prop('src');
-                        videoURL += "&autoplay=1";
-                        $("iframe").prop('src', videoURL);
+                        reset();
+                        play("https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11");
+                        break;
+                    case 'anjuna':
+                        reset();
+                        play("https://www.youtube-nocookie.com/embed/jiLkBxw2pbs?rel=0");
                         break;
                     default:
                         stopPlay();
@@ -51,9 +52,18 @@ function eggs() {
 }
 
 function stopPlay(){
-    $("iframe").css({"height":"0", "visibility":"hidden"});
-    var videoURL = $("iframe").prop("src");
-    videoURL = videoURL.replace("&autoplay=1", "");
-    $("iframe").prop("src", "");
-    $("iframe").prop("src", videoURL);
+    $("iframe").remove();
+    $("#youtube").css({"height":"0", "visibility":"hidden"});
+}
+
+function play(url){
+    $("#youtube").css({"height":"315", "visibility":"visible"});
+    $("#youtube").append('<iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+    var videoURL = url + "&amp;autoplay=1";
+    $("iframe").prop('src', videoURL);
+    $("iframe").css({"width":"560", "height":"315", "visibility":"visible"});
+}
+
+function reset(){
+    $("main").css({"background-image":"none", "background-color":"#94AFD1"});
 }
