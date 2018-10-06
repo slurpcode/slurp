@@ -1,5 +1,5 @@
 function eggs() {
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley', 'jorge', 'barney', 'jedi', 'anjuna'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley', 'jorge', 'barney', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
     var keyHistory = '';
     var match;
     $(document).keypress(function (e) {
@@ -31,14 +31,22 @@ function eggs() {
                         window.open("https://www.upwork.com/fl/johnbampton", "_self");
                         break;
                     case 'jedi':
-                        stopPlay();
-                        reset();
                         play("https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11");
                         break;
                     case 'anjuna':
-                        stopPlay();
-                        reset();
                         play("https://www.youtube-nocookie.com/embed/jiLkBxw2pbs?rel=0");
+                        break;
+                    case 'asot':
+                        play("https://www.youtube-nocookie.com/embed/pv4xBTrNeoQ?rel=0");
+                        break;
+                    case 'progressive':
+                        play("https://www.youtube-nocookie.com/embed/KvRVky0r7YM?rel=0");
+                        break;
+                    case 'chill':
+                        play("https://www.youtube-nocookie.com/embed/nUlazURAjDE?rel=0");
+                        break;
+                    case 'jazz':
+                        play("https://www.youtube-nocookie.com/embed/Vls4h1GAP-c?rel=0");
                         break;
                     default:
                         stopPlay();
@@ -59,6 +67,8 @@ function stopPlay(){
 }
 
 function play(url){
+    stopPlay();
+    reset();
     $("#youtube").css({"height":"315", "visibility":"visible"});
     $("#youtube").append('<iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
     var videoURL = url + "&amp;autoplay=1";
