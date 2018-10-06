@@ -62,7 +62,7 @@ function eggs() {
 }
 
 function stopPlay(){
-    $("iframe").remove();
+    $("#vid").remove();
     $("#youtube").css({"height":"0", "visibility":"hidden"});
 }
 
@@ -70,10 +70,10 @@ function play(url){
     stopPlay();
     reset();
     $("#youtube").css({"height":"315", "visibility":"visible"});
-    $("#youtube").append('<iframe width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+    $("#youtube").append('<iframe id="vid" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
     var videoURL = url + "&amp;autoplay=1";
-    $("iframe").prop('src', videoURL);
-    $("iframe").css({"width":"560", "height":"315", "visibility":"visible"});
+    $("#vid").prop('src', videoURL);
+    $("#vid").css({"width":"560", "height":"315", "visibility":"visible"});
 }
 
 function reset(){
