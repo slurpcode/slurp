@@ -1,5 +1,5 @@
 function eggs() {
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley', 'jorge', 'barney', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
     var keyHistory = '';
     var match;
     $(document).keypress(function (e) {
@@ -19,16 +19,16 @@ function eggs() {
                         $("main").css({"background-image":"none", "background-color":"#FF0080"});
                         break;
                     case 'harley':
-                        stopPlay();
-                        window.open("https://www.upwork.com/fl/harleya", "_self");
+                        loadUrl("https://www.upwork.com/fl/harleya");
                         break;
                     case 'jorge':
-                        stopPlay();
-                        window.open("https://www.upwork.com/freelancers/~01abf139414e3d1c0d", "_self");
+                        loadUrl("https://www.upwork.com/freelancers/~01abf139414e3d1c0d");
                         break;
                     case 'barney':
-                        stopPlay();
-                        window.open("https://www.upwork.com/fl/johnbampton", "_self");
+                        loadUrl("https://www.upwork.com/fl/johnbampton");
+                        break;
+                    case 'karine':
+                        loadUrl("https://www.upwork.com/freelancers/~016cd3dcf007c09abd");
                         break;
                     case 'jedi':
                         play("https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11");
@@ -78,4 +78,9 @@ function play(url){
 
 function reset(){
     $("main").css({"background-image":"none", "background-color":"#94AFD1"});
+}
+
+function loadUrl(url){
+    stopPlay();
+    window.open(url, "_self");
 }
