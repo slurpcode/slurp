@@ -50,8 +50,9 @@ function eggs() {
                         break;
                     default:
                         stopPlay();
+                        effect();
                         var url = "/assets/images/backgrounds/" + match + ".jpg";
-                        $("main").css("background-image", "url(" + url + ")");
+                        $("body").css("background", "url(" + url + ") 0px 50px");
                 }
                 keyHistory = match = '';
             } else if (keyHistory.length > 30) {
@@ -68,7 +69,7 @@ function stopPlay(){
 
 function play(url){
     stopPlay();
-    reset();
+    effect();
     $("#youtube").css({"height":"315", "visibility":"visible"});
     $("#youtube").append('<iframe id="vid" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
     var videoURL = url + "&amp;autoplay=1";
@@ -77,10 +78,19 @@ function play(url){
 }
 
 function reset(){
-    $("main").css({"background-image":"none", "background-color":"#94AFD1"});
+    location.reload();
 }
 
 function loadUrl(url){
     stopPlay();
     window.open(url, "_self");
+}
+
+function effect(){
+    $("header").css({"height":"50"});
+    $(".site-title").empty();
+    $(".site-title").append("Fuchsia Programming");
+    $("main").remove();
+    $("footer").remove();
+    $("body").css({"background-color":"black","height":"1080"});
 }
