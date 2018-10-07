@@ -99,4 +99,5 @@ function effect(n){
         $("body").css({"background-color":"#FF0080","height":"1080","background-image":"none"});
         $(".site-header").css({"border-bottom":"5px solid #FF0080","border-top":"5px solid #FF0080"});
     }
+    window.scrollTo(0,0);
 }
