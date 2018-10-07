@@ -16,7 +16,7 @@ function eggs() {
                         break;
                     case 'fuchsia':
                         stopPlay();
-                        $("main").css({"background-image":"none", "background-color":"#FF0080"});
+                        effect(2);
                         break;
                     case 'harley':
                         loadUrl("https://www.upwork.com/fl/harleya");
@@ -50,9 +50,9 @@ function eggs() {
                         break;
                     default:
                         stopPlay();
-                        effect();
+                        effect(1);
                         var url = "/assets/images/backgrounds/" + match + ".jpg";
-                        $("body").css("background", "url(" + url + ") 0px 50px");
+                        $("body").css("background", "url(" + url + ") 0px 65px");
                 }
                 keyHistory = match = '';
             } else if (keyHistory.length > 30) {
@@ -69,7 +69,7 @@ function stopPlay(){
 
 function play(url){
     stopPlay();
-    effect();
+    effect(1);
     $("#youtube").css({"height":"315", "visibility":"visible"});
     $("#youtube").append('<iframe id="vid" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
     var videoURL = url + "&amp;autoplay=1";
@@ -86,11 +86,17 @@ function loadUrl(url){
     window.open(url, "_self");
 }
 
-function effect(){
+function effect(n){
     $("header").css({"height":"50"});
     $(".site-title").empty();
     $(".site-title").append("Fuchsia Programming");
     $("main").remove();
     $("footer").remove();
-    $("body").css({"background-color":"black","height":"1080","background-image":"none"});
+    if(n===1){
+        $("body").css({"background-color":"black","height":"1145","background-image":"none"});
+        $(".site-header").css({"border-bottom":"5px solid #424242","border-top":"5px solid #424242"});
+    } else {
+        $("body").css({"background-color":"#FF0080","height":"1080","background-image":"none"});
+        $(".site-header").css({"border-bottom":"5px solid #FF0080","border-top":"5px solid #FF0080"});
+    }
 }
