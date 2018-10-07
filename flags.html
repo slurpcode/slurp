@@ -4,20 +4,24 @@ title: Flags
 permalink: /flags/
 ---
 {%- assign w = "https://en.wikipedia.org/wiki/" -%}
-<h3>{%- include harley/harley.html -%}</h3>
-{%- for image in site.static_files -%}
-    {% if image.path contains 'assets/images/flags' %}
-        {%- assign countries = image.path | split: "/" | last | split: "." | first -%}
-        <br>
-        <p>
-            <a href="{{w}}{{ countries }}"
-                target="_blank" rel="noopener">{{ countries  }}</a>
-        </p>
-        <a href="{{w}}{{ countries }}"
-            target="_blank" rel="noopener">
-            <img src="{{ site.baseurl }}{{ image.path }}"
-                 alt="Fuchsia Programming"
-                 title="Fuchsia Programming">
-        </a>
-    {% endif %}
+{%- for row in site.data.flags -%}
+    {% capture name %}
+    {%- if row.name == blank -%}
+        {% include harley/harley.html %}
+    {%- else -%}
+        {% include karine/karine.html %}
+    {%- endif -%}
+    {% endcapture %}
+    <br>
+    <p>
+        <a href="{{w}}{{ row.country }}"
+            target="_blank" rel="noopener">{{ row.country  }}</a>
+    </p>
+    <a href="{{w}}{{ row.country }}"
+        target="_blank" rel="noopener">
+        <img src="{{ site.baseurl }}/assets/images/flags/{{ row.country }}.png"
+             alt="Fuchsia Programming {{ row.country }}"
+             title="Fuchsia Programming {{ row.country }}">
+    </a>
+    <p>{{ name }}</p>
 {%- endfor -%}
