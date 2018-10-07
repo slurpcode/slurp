@@ -92,5 +92,5 @@ function effect(){
     $(".site-title").append("Fuchsia Programming");
     $("main").remove();
     $("footer").remove();
-    $("body").css({"background-color":"black","height":"1080"});
+    $("body").css({"background-color":"black","height":"1080","background-image":"none"});
 }
