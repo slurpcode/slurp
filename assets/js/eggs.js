@@ -83,6 +83,8 @@ function eggs() {
                         if(winter) {
                             stopPlay(true);
                             winter = false;
+                        } else {
+                            stopPlay(false);
                         }
                         effect(1);
                         var url = "/assets/images/backgrounds/" + match + ".jpg";
