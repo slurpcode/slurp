@@ -127,7 +127,7 @@ function rain(){
 //converting the string into an array of single characters
     chinese = chinese.split("");
 
-    var font_size = 10;
+    var font_size = 17;
     var columns = c.width/font_size; //number of columns for the rain
 //an array of drops - one per column
     var drops = [];
@@ -160,7 +160,7 @@ function rain(){
                 drops[i] = 0;
 
             //incrementing Y coordinate
-            drops[i]++;
+            drops[i] +=  Math.floor(Math.random()*2);
         }
     }
 
