@@ -6,5 +6,4 @@ categories: GIF
 ---
 
 <img src="/assets/images/gifs/star-wars-2.gif" alt="Star Wars Alternate Ending" title="Star Wars Alternate Ending">
-<br>
-{%- include jorge/jorge.html -%}
+{%- include default/jorge.html -%}

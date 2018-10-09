@@ -6,5 +6,4 @@ categories: GIF
 ---
 
 ![Space Invaders](/assets/images/gifs/space-invaders.gif "Space Invaders")
-<br>
-{%- include jorge/jorge.html -%}
+{%- include default/jorge.html -%}
