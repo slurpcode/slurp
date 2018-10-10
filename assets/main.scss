@@ -29,7 +29,7 @@ main {background-color: #94AFD1;}
 
 header.site-header {height: 360px;}
 .home, .post-content {
-  ul, h2, h3, p, .pagination {text-align: center}
+  ul, h1, h3, p, .pagination {text-align: center}
   a {color: #FF0080; font-weight: bold;}
   p a {
     font-size: 17pt;
@@ -55,6 +55,5 @@ main .wrapper {max-width: 360px;background-color: #94AFD1;}
 
 /*basic reset*/
 * {margin: 0; padding: 0;}
-/*adding a black bg to the body to make things clearer*/
 
 canvas {display: block;}
