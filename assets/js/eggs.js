@@ -41,6 +41,8 @@ function eggs() {
                         if(winter) {
                             stopPlay(true);
                             winter = false;
+                        } else {
+                            stopPlay(false);
                         }
                         effect(2);
                         break;
