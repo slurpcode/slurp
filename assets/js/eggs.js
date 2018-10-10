@@ -17,7 +17,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -114,6 +114,11 @@ function eggs() {
                             rain();
                         }
 
+                        if(match.toString()==='flowers'){
+                            $("#youtube").after("<canvas id=\"c\"></canvas>");
+                            flowers();
+                        }
+
                         if(match.toString()==='winter' && winter === false){
                             winter = true;
                             stopPlay(false);
@@ -130,6 +135,53 @@ function eggs() {
             }
         }
     });
+}
+
+function flowers(){
+    var c = document.getElementById("c");
+    var ctx = c.getContext("2d");
+    c.height = document.body.scrollHeight;
+    c.width = window.innerWidth;
+    var font_size = 32;
+    var columns = c.width/font_size;
+    var image = document.getElementById('source');
+    //an array of drops - one per column
+    var drops = [];
+//x below is the x coordinate
+//1 = y co-ordinate of the drop(same for every drop initially)
+    for(var x = 0; x < columns; x++)
+        drops[x] = 0;
+
+//drawing the characters
+    function draw()
+    {
+        //Black BG for the canvas
+        //translucent BG to show trail
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, c.width, c.height);
+
+        ctx.fillStyle = "#FF0080"; //green text
+        ctx.font = font_size + "px arial";
+        //looping over drops
+        for(var i = 0; i < drops.length; i++)
+        {
+            //a random chinese character to print
+            //var text = chinese[Math.floor(Math.random()*chinese.length)];
+            //x = i*font_size, y = value of drops[i]*font_size
+            //ctx.fillText(text, i*font_size, drops[i]*font_size);
+
+            ctx.drawImage(image, i*font_size, drops[i]*font_size);
+
+            //sending the drop back to the top randomly after it has crossed the screen
+            //adding a randomness to the reset to make the drops scattered on the Y axis
+            if(drops[i]*font_size > c.height && Math.random() > 0.975)
+                drops[i] = 0;
+
+            //incrementing Y coordinate
+            drops[i] +=  Math.floor(Math.random()*1.5);
+        }
+    }
+    setInterval(draw, 33);
 }
 
 function rain(){
