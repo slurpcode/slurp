@@ -1,4 +1,22 @@
+function animate_flower(){
+    $("#imgo").animate({
+        height: "+=550"
+    }, 4000, function() {
+        // Animation complete.
+    });
+}
+
 function eggs() {
+    $("#px").click(function () {
+        effect(1);
+        $("header").css({"visibility":"hidden"});
+        $("nav").css({"visibility":"hidden"});
+        $("#overlay").css({"display":"block"});
+        animate_flower();
+    });
+    $("#overlay").click(function () {
+        reset();
+    });
     var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
     var keyHistory = '';
     var match;
@@ -163,11 +181,11 @@ function rain(){
             drops[i] +=  Math.floor(Math.random()*2);
         }
     }
-
     setInterval(draw, 33);
 }
 
 function stopPlay(n){
+    $("#overlay").css({"display":"none"});
     if(n===true){snowStorm.toggleSnow();}
     $("#vid").remove();
     $("#youtube").css({"height":"0", "visibility":"hidden"});
@@ -197,6 +215,7 @@ function effect(n){
     $(".site-title").append("Fuchsia Programming");
     $("main").remove();
     $("footer").remove();
+    $("header").css({"visibility":"visible"});
     if(n===1){
         $("body").css({"background-color":"black","height":"1145","background-image":"none"});
         $(".site-header").css({"border-bottom":"5px solid #424242","border-top":"5px solid #424242"});
