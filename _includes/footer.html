@@ -53,3 +53,29 @@
 
 </footer>
 <script src="/assets/js/typer.js"></script>
+<script src="http://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
+<script src="//cdn.jsdelivr.net/mojs-player/latest/mojs-player.min.js"></script>
+<script>
+    const burst = new mojs.Burst({
+        radius:   { 0: 100 },
+        count:    25,
+        children: {
+            shape:      'polygon',
+            points:     25,
+            fill:       ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia', 'purple', 'navy', 'teal', 'aqua', 'maroon' ],
+            angle:      { 360: 0 },
+            duration:   2000,
+            delay:      'stagger( rand(0, 100) )'
+        }
+
+    });
+    document.addEventListener( 'click', function (e) {
+        burst
+            .tune({ x: e.pageX - ($("body").width() / 2), y: e.pageY - (window.innerHeight / 2) })
+            .setSpeed(3)
+            .replay();
+    });
+    $("a").removeEventListener("click", function (e) {
+
+    }, false);
+</script>
