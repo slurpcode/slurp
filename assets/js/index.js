@@ -3,9 +3,9 @@ document.addEventListener( 'click', function (e) {
     var x;
     if(+Cookies.get('clicks') === 25){
         // sonic boom
-        x = 7;
+        x = 9;
     }else {
-        x = Math.floor(Math.random()*7);
+        x = Math.floor(Math.random()*9);
     }
     if(+Cookies.get('clicks') === 25){
         Cookies.remove('clicks');
@@ -20,7 +20,7 @@ document.addEventListener( 'click', function (e) {
 
     // min 20 many colored circles spinning and fading out
     const burst1 = new mojs.Burst({
-        radius:   { 0: 120 },
+        radius:   { 0: 150 },
         count:    Math.floor(Math.random()*31) + 20,
         angle:    { 0: 90 },
         children: {
@@ -115,14 +115,31 @@ document.addEventListener( 'click', function (e) {
     });
     // sonic boom
     const burst7 = new mojs.Burst({
-        radius:   { 0: 100 },
+        radius:   { 0: 250 },
         count:    20,
-        degree:   {150: 180},
+        degree:   {0: 180},
         children: {
             shape:      'circle',
-            radius:     15,
-            fill:       { 'gold' : '#0BD0EC' },
-            stroke:     'ghostwhite',
+            radius:     {1: 50},
+            fill:       cols,
+            stroke:     stroker,
+            strokeWidth: {1: 15},
+            duration:   3000,
+        }
+    });
+
+    // sonic boom
+    const burst8 = new mojs.Burst({
+        radius:   { 0: 250 },
+        count:    20,
+        degree:   {0: 180},
+        angle:  180,
+        children: {
+            shape:      'circle',
+            radius:     {1: 65},
+            fill:       cols,
+            stroke:     stroker,
+            strokeWidth: {1: 25},
             duration:   3000,
         }
     });
@@ -147,6 +164,12 @@ document.addEventListener( 'click', function (e) {
             bur(burst6, e);
             break;
         case 6:
+            bur(burst7, e);
+            break;
+        case 7:
+            bur(burst8, e);
+            break;
+        case 8:
             const OPTS = {
                 fill:           'none',
                 radius:         25,
@@ -200,6 +223,7 @@ document.addEventListener( 'click', function (e) {
             bur(burst5, e);
             bur(burst6, e);
             bur(burst7, e);
+            bur(burst8, e);
     }
 });
 function bur(b, e){
