@@ -4,83 +4,94 @@ document.addEventListener( 'click', function (e) {
         Cookies.remove('clicks');
     }
     var x = +Cookies.get('clicks') % 7;
-    var cols = ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia', 'purple', 'navy', 'teal', 'aqua', 'maroon'];
-    var randomColor = cols[+Cookies.get('clicks') % 16];
 
+    var cols = ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia', 'purple', 'navy', 'teal', 'aqua', 'maroon'];
+    var randomColor = cols[Math.floor(Math.random()*16)];
+    var randomColor2 = cols[Math.floor(Math.random()*16)];
+    var filler = {};
+    var stroker = {};
+    stroker[randomColor2] = randomColor;
+    filler[randomColor] = randomColor2;
+
+    // min 20 many colored circles spinning and fading out
     const burst1 = new mojs.Burst({
-        radius:   { 0: 100 },
-        count:    20,
+        radius:   { 0: 120 },
+        count:    Math.floor(Math.random()*31) + 20,
         angle:    { 0: 90 },
         children: {
             shape:      'polygon',
-            radius:     25,
+            radius:     Math.floor(Math.random()*26) + 35,
             points:     200,
             fill:       cols,
             angle:      { 360: 0 },
             duration:   2000,
             delay:      'stagger( rand(0, 100) )',
-            stroke:     randomColor,
-            strokeWidth: 5
+            stroke:     stroker,
+            strokeWidth: Math.floor(Math.random()*10) + 5
         }
     });
+    // colored circles going straight out
+    // try min 4
     const burst2 = new mojs.Burst({
         radius:   { 0: 100 },
-        count:    5,
+        count:    Math.floor(Math.random()*17) + 4,
         children: {
-            radius:       25,
+            radius:       Math.floor(Math.random()*46) + 25,
             shape:        'circle',
-            fill:         ['green', 'cyan', 'yellow'],
-            strokeWidth:  5,
+            fill:         cols,
+            strokeWidth:  Math.floor(Math.random()*10) + 5,
             duration:     2000,
-            stroke:     randomColor,
-            strokeWidth: 5
+            stroke:       stroker
         }
     });
-// yellow and greenish pentagons fade out spin
+    // yellow and greenish pentagons spin and fade out spin
+    // try min 7
     const burst3 = new mojs.Burst({
         radius:   { 0: 100 },
-        count:    10,
+        count:    Math.floor(Math.random()*14) + 7,
         children: {
-            shape:      'polygon',
-            radius:     25,
-            points:     5,
-            fill:       { 'cyan' : 'yellow' },
-            angle:      { 360: 0 },
-            duration:   2000,
-            delay:      'stagger(0, 100)',
-            stroke: randomColor,
-            strokeWidth: 5
+            shape:          'polygon',
+            radius:         30,
+            points:         5,
+            fill:           filler,
+            angle:          { 360: 0 },
+            duration:       2000,
+            delay:          'stagger(0, 100)',
+            stroke:         stroker,
+            strokeWidth:    Math.floor(Math.random()*10) + 5
         }
     });
-// yellow circles fade out
+    // yellow circles fade out
+    // min 7
     const burst4 = new mojs.Burst({
         radius:   { 0: 100 },
-        count:    7,
+        count:    Math.floor(Math.random()*24) + 7,
         angle:    { 0: 90 },
         opacity:  { 1: 0 },
         children: {
-            radius: 50,
-            duration:   2000,
-            fill: 'yellow',
-            stroke: randomColor,
-            strokeWidth: 5
+            radius:         Math.floor(Math.random()*26) + 25,
+            duration:       2000,
+            fill:           filler,
+            stroke:         stroker,
+            strokeWidth:    Math.floor(Math.random()*10) + 5
         }
     });
+    // min 7
     const burst5 = new mojs.Burst({
         radius:   { 0: 100 },
-        count:    10,
+        count:    Math.floor(Math.random()*94) + 7,
         angle:    { 0: 90 },
         opacity:  { 1: 0 },
         children: {
-            shape: 'zigzag',
-            radius: 50,
-            duration:   2000,
-            fill: cols,
-            stroke: randomColor,
-            strokeWidth: 5
+            shape:          'zigzag',
+            radius:         50,
+            duration:       2000,
+            fill:           cols,
+            stroke:         stroker,
+            strokeWidth:    5
         }
     });
-// triangles many colors fade out
+    // triangles many colors fade out
     const burst6 = new mojs.Burst({
         radius:   { 0: 100 },
         count:    7,
@@ -89,8 +100,8 @@ document.addEventListener( 'click', function (e) {
             shape:      'polygon',
             radius:     50,
             points:     3,
-            fill:       ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white'],
-            stroke:     randomColor,
+            fill:       cols,
+            stroke:     stroker,
             strokeWidth:5,
             angle:      { 360: 0 },
             duration:   2000,
@@ -134,9 +145,9 @@ document.addEventListener( 'click', function (e) {
             });
 
             const smallCircles = [];
-            const colors = [ 'deeppink', 'magenta', 'yellow', '#00F87F' ];
+            const colors = cols;
 
-            for ( let i = 0; i < 4; i++ ) {
+            for ( let i = 0; i < 10; i++ ) {
                 smallCircles.push(new mojs.Shape({
                         ...OPTS,
                         parent:         mainCircle.el,
@@ -165,7 +176,8 @@ document.addEventListener( 'click', function (e) {
 });
 function bur(b, e){
     b
-        .tune({ x: e.pageX - ($("body").width() / 2), y: e.pageY - (window.innerHeight / 2) })
+        .tune({ x: e.pageX - ($("body").width() / 2),
+                y: e.pageY - (window.innerHeight / 2)})
         .setSpeed(3)
         .replay();
 }
