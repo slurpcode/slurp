@@ -5,7 +5,7 @@ document.addEventListener( 'click', function (e) {
     }
     var x = +Cookies.get('clicks') % 7;
     var cols = ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia', 'purple', 'navy', 'teal', 'aqua', 'maroon'];
-    var randomColor = cols[Math.floor(Math.random()*16)];
+    var randomColor = cols[+Cookies.get('clicks') % 16];
 
     const burst1 = new mojs.Burst({
         radius:   { 0: 100 },
