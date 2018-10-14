@@ -1,4 +1,6 @@
-var x = Math.floor(Math.random()*6);
+var x = Math.floor(Math.random()*7);
+var cols = ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia', 'purple', 'navy', 'teal', 'aqua', 'maroon'];
+var randomColor = cols[Math.floor(Math.random()*16)];
 
 const burst1 = new mojs.Burst({
     radius:   { 0: 100 },
@@ -8,10 +10,12 @@ const burst1 = new mojs.Burst({
         shape:      'polygon',
         radius:     25,
         points:     200,
-        fill:       ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia', 'purple', 'navy', 'teal', 'aqua', 'maroon' ],
+        fill:       cols,
         angle:      { 360: 0 },
         duration:   2000,
-        delay:      'stagger( rand(0, 100) )'
+        delay:      'stagger( rand(0, 100) )',
+        stroke:     randomColor,
+        strokeWidth: 5
     }
 });
 const burst2 = new mojs.Burst({
@@ -20,11 +24,14 @@ const burst2 = new mojs.Burst({
     children: {
         radius:       25,
         shape:        'circle',
-        fill:         [ 'green', 'cyan', 'yellow' ],
+        fill:         ['green', 'cyan', 'yellow'],
         strokeWidth:  5,
-        duration:     2000
+        duration:     2000,
+        stroke:     randomColor,
+        strokeWidth: 5
     }
 });
+// yellow and greenish pentagons fade out spin
 const burst3 = new mojs.Burst({
     radius:   { 0: 100 },
     count:    10,
@@ -35,18 +42,23 @@ const burst3 = new mojs.Burst({
         fill:       { 'cyan' : 'yellow' },
         angle:      { 360: 0 },
         duration:   2000,
-        delay:      'stagger(0, 100)'
+        delay:      'stagger(0, 100)',
+        stroke: randomColor,
+        strokeWidth: 5
     }
 });
+// yellow circles fade out
 const burst4 = new mojs.Burst({
     radius:   { 0: 100 },
     count:    7,
     angle:    { 0: 90 },
     opacity:  { 1: 0 },
     children: {
-        radius: 25,
+        radius: 50,
         duration:   2000,
-        fill: 'yellow'
+        fill: 'yellow',
+        stroke: randomColor,
+        strokeWidth: 5
     }
 });
 const burst5 = new mojs.Burst({
@@ -56,9 +68,28 @@ const burst5 = new mojs.Burst({
     opacity:  { 1: 0 },
     children: {
         shape: 'zigzag',
-        radius: 25,
+        radius: 50,
         duration:   2000,
-        fill: ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia', 'purple', 'navy', 'teal', 'aqua', 'maroon' ]
+        fill: cols,
+        stroke: randomColor,
+        strokeWidth: 5
+    }
+});
+// triangles many colors fade out
+const burst6 = new mojs.Burst({
+    radius:   { 0: 100 },
+    count:    7,
+    angle:    { 0: 90 },
+    children: {
+        shape:      'polygon',
+        radius:     50,
+        points:     3,
+        fill:       ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white'],
+        stroke:     randomColor,
+        strokeWidth:5,
+        angle:      { 360: 0 },
+        duration:   2000,
+        delay:      'stagger(0, 100)'
     }
 });
 
@@ -78,6 +109,9 @@ document.addEventListener( 'click', function (e) {
             break;
         case 4:
             bur(burst5, e);
+            break;
+        case 5:
+            bur(burst6, e);
             break;
         default:
             const OPTS = {
