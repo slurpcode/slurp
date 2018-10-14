@@ -1,10 +1,15 @@
 document.addEventListener( 'click', function (e) {
     Cookies.set('clicks', Cookies.get('clicks') && (+Cookies.get('clicks') + 1) || 0);
+    var x;
+    if(+Cookies.get('clicks') === 25){
+        // sonic boom
+        x = 7;
+    }else {
+        x = Math.floor(Math.random()*7);
+    }
     if(+Cookies.get('clicks') === 25){
         Cookies.remove('clicks');
     }
-    var x = +Cookies.get('clicks') % 7;
-
     var cols = ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia', 'purple', 'navy', 'teal', 'aqua', 'maroon'];
     var randomColor = cols[Math.floor(Math.random()*16)];
     var randomColor2 = cols[Math.floor(Math.random()*16)];
@@ -108,6 +113,19 @@ document.addEventListener( 'click', function (e) {
             delay:      'stagger(0, 100)'
         }
     });
+    // sonic boom
+    const burst7 = new mojs.Burst({
+        radius:   { 0: 100 },
+        count:    20,
+        degree:   {150: 180},
+        children: {
+            shape:      'circle',
+            radius:     15,
+            fill:       { 'gold' : '#0BD0EC' },
+            stroke:     'ghostwhite',
+            duration:   3000,
+        }
+    });
 
     switch (x) {
         case 0:
@@ -128,7 +146,7 @@ document.addEventListener( 'click', function (e) {
         case 5:
             bur(burst6, e);
             break;
-        default:
+        case 6:
             const OPTS = {
                 fill:           'none',
                 radius:         25,
@@ -172,6 +190,16 @@ document.addEventListener( 'click', function (e) {
                     .generate()
                     .replay();
             }
+            break;
+        default:
+            // sonic boom 25 clicks
+            bur(burst1, e);
+            bur(burst2, e);
+            bur(burst3, e);
+            bur(burst4, e);
+            bur(burst5, e);
+            bur(burst6, e);
+            bur(burst7, e);
     }
 });
 function bur(b, e){
