@@ -131,3 +131,20 @@ function bur(b, e){
         .setSpeed(3)
         .replay();
 }
+
+// animejs code
+var colorTestEls = document.querySelectorAll('.color-test');
+
+function createTest(el) {
+    var testValues = ['#FF0080', '#800080'];
+    anime({
+        targets: el,
+        backgroundColor: [testValues[0], testValues[1]],
+        direction: 'alternate',
+        easing: 'easeInOutSine',
+        duration: 4000,
+        loop: true
+    });
+}
+
+for (var i = 0; i < colorTestEls.length; i++) createTest(colorTestEls[i]);
