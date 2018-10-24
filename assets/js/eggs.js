@@ -17,7 +17,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -108,7 +108,11 @@ function eggs() {
                             stopPlay(false);
                         }
                         effect(1);
-                        var url = "/assets/images/backgrounds/" + match + ".jpg";
+                        var background = match.toString();
+                        if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='flowers'){
+                            background = 'flowers';
+                        }
+                        var url = "/assets/images/backgrounds/" + background + ".jpg";
                         $("body").css("background", "url(" + url + ") 0px 65px");
 
                         if(match.toString()==='matrix'){
@@ -119,6 +123,11 @@ function eggs() {
                         if(match.toString()==='flowers'){
                             $("#youtube").after("<canvas id=\"c\"></canvas>");
                             flowers();
+                        }
+
+                        if(match.toString()==='orange' || match.toString()==='yeti' || match.toString()==='min' || match.toString()==='alien' || match.toString()==='dino' || match.toString()==='bear'){
+                            $("#youtube").after("<canvas id=\"c\"></canvas>");
+                            beasts(match.toString());
                         }
 
                         if(match.toString()==='winter' && winter === false){
@@ -139,6 +148,66 @@ function eggs() {
     });
 }
 
+function beasts(background){
+    var c = document.getElementById("c");
+    var ctx = c.getContext("2d");
+    c.height = document.body.scrollHeight;
+    c.width = window.innerWidth;
+    var font_size = 32;
+    var columns = c.width/font_size;
+    $("#source").attr("src", "/assets/images/beasts/" + background + ".png");
+    var image = document.getElementById('source');
+    //an array of drops - one per column
+    var drops = [];
+    var fillColor = "";
+    switch (background) {
+        case 'min':
+            fillColor = "green";
+            break;
+        case '':
+            fillColor = "blue";
+            break;
+        default:
+            fillColor = "orange";
+    }
+
+//x below is the x coordinate
+//1 = y co-ordinate of the drop(same for every drop initially)
+    for(var x = 0; x < columns; x++)
+        drops[x] = 0;
+
+//drawing the characters
+    function draw()
+    {
+        //Black BG for the canvas
+        //translucent BG to show trail
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, c.width, c.height);
+
+        ctx.fillStyle = fillColor; //orange text
+        ctx.font = font_size + "px arial";
+        //looping over drops
+        for(var i = 0; i < drops.length; i++)
+        {
+            //a random chinese character to print
+            //var text = chinese[Math.floor(Math.random()*chinese.length)];
+            //x = i*font_size, y = value of drops[i]*font_size
+            //ctx.fillText(text, i*font_size, drops[i]*font_size);
+
+            ctx.drawImage(image, i*font_size, drops[i]*font_size);
+
+            //sending the drop back to the top randomly after it has crossed the screen
+            //adding a randomness to the reset to make the drops scattered on the Y axis
+            if(drops[i]*font_size > c.height && Math.random() > 0.975)
+                drops[i] = 0;
+
+            //incrementing Y coordinate
+            drops[i] +=  Math.floor(Math.random()*1.5);
+        }
+    }
+    setInterval(draw, 33);
+}
+
 function flowers(){
     var c = document.getElementById("c");
     var ctx = c.getContext("2d");
@@ -146,6 +215,7 @@ function flowers(){
     c.width = window.innerWidth;
     var font_size = 32;
     var columns = c.width/font_size;
+    $("#source").attr("src","/assets/images/icons/favicon-32x32.png");
     var image = document.getElementById('source');
     //an array of drops - one per column
     var drops = [];
