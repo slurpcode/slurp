@@ -159,17 +159,6 @@ function beasts(background){
     var image = document.getElementById('source');
     //an array of drops - one per column
     var drops = [];
-    var fillColor = "";
-    switch (background) {
-        case 'min':
-            fillColor = "green";
-            break;
-        case '':
-            fillColor = "blue";
-            break;
-        default:
-            fillColor = "orange";
-    }
 
 //x below is the x coordinate
 //1 = y co-ordinate of the drop(same for every drop initially)
@@ -184,7 +173,7 @@ function beasts(background){
         ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
         ctx.fillRect(0, 0, c.width, c.height);
 
-        ctx.fillStyle = fillColor; //orange text
+        //ctx.fillStyle = fillColor; //orange text
         ctx.font = font_size + "px arial";
         //looping over drops
         for(var i = 0; i < drops.length; i++)
