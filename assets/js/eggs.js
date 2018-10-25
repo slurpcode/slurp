@@ -91,7 +91,7 @@ function eggs() {
                             stopPlay(true);
                             winter = false;
                         }
-                        play("https://www.youtube-nocookie.com/embed/nUlazURAjDE?rel=0");
+                        play("https://www.youtube-nocookie.com/embed/8XjDmVzqVUc?rel=0");
                         break;
                     case 'jazz':
                         if(winter) {
