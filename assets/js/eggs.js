@@ -154,13 +154,15 @@ function eggs() {
 }
 
 function beasts(background){
+    $("#source").remove();
     var c = document.getElementById("c");
     var ctx = c.getContext("2d");
     c.height = document.body.scrollHeight;
     c.width = window.innerWidth;
     var font_size = 32;
     var columns = c.width/font_size;
-    $("#source").attr("src", "/assets/images/beasts/" + background + ".png");
+    var effectImage = "/assets/images/beasts/" + background + ".png";
+    $("#effect").append("<img id=\"source\" src=\"" + effectImage + "\">");
     var image = document.getElementById('source');
     //an array of drops - one per column
     var drops = [];
@@ -203,13 +205,15 @@ function beasts(background){
 }
 
 function beastsHorizontal(background){
+    $("#source").remove();
     var c = document.getElementById("c");
     var ctx = c.getContext("2d");
     c.height = document.body.scrollHeight;
     c.width = window.innerWidth;
     var font_size = 32;
     var rows = c.height/font_size;
-    $("#source").attr("src", "/assets/images/beasts/" + background + ".png");
+    var effectImage = "/assets/images/beasts/" + background + ".png";
+    $("#effect").append("<img id=\"source\" src=\"" + effectImage + "\">");
     var image = document.getElementById('source');
     //an array of drops - one per row
     var drops = [];
@@ -252,13 +256,14 @@ function beastsHorizontal(background){
 }
 
 function flowers(){
+    $("#source").remove();
     var c = document.getElementById("c");
     var ctx = c.getContext("2d");
     c.height = document.body.scrollHeight;
     c.width = window.innerWidth;
     var font_size = 32;
     var columns = c.width/font_size;
-    $("#source").attr("src","/assets/images/icons/favicon-32x32.png");
+    $("#effect").append("<img id=\"source\" src=\"/assets/images/icons/favicon-32x32.png\">");
     var image = document.getElementById('source');
     //an array of drops - one per column
     var drops = [];
