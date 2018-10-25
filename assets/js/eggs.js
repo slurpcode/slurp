@@ -17,7 +17,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'vader', 'thexder', 'fireball', 'space', 'police', 'karate', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'vader', 'thexder', 'fireball', 'space', 'police', 'karate', 'jaguar', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -109,7 +109,7 @@ function eggs() {
                         }
                         effect(1);
                         var background = match.toString();
-                        if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='bubble' || background==='ghost' || background==='vader' || background==='thexder' || background==='fireball' || background==='space' || background==='police' || background==='karate' || background==='flowers'){
+                        if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='bubble' || background==='ghost' || background==='vader' || background==='thexder' || background==='fireball' || background==='space' || background==='police' || background==='karate' || background==='jaguar' || background==='flowers'){
                             background = 'flowers';
                         }
                         var url = "/assets/images/backgrounds/" + background + ".jpg";
@@ -125,7 +125,7 @@ function eggs() {
                             flowers();
                         }
 
-                        if(match.toString()==='orange' || match.toString()==='yeti' || match.toString()==='min' || match.toString()==='alien' || match.toString()==='dino' || match.toString()==='bear' || match.toString()==='bubble' || match.toString()==='ghost' || match.toString()==='vader' || match.toString()==='thexder' || match.toString()==='space' || match.toString()==='police' || match.toString()==='karate'){
+                        if(match.toString()==='orange' || match.toString()==='yeti' || match.toString()==='min' || match.toString()==='alien' || match.toString()==='dino' || match.toString()==='bear' || match.toString()==='bubble' || match.toString()==='ghost' || match.toString()==='vader' || match.toString()==='thexder' || match.toString()==='space' || match.toString()==='police' || match.toString()==='karate' || match.toString()==='jaguar'){
                             $("#youtube").after("<canvas id=\"c\"></canvas>");
                             beasts(match.toString());
                         }
