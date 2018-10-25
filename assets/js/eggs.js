@@ -218,7 +218,6 @@ function beastsHorizontal(background){
     //an array of drops - one per row
     var drops = [];
 
-
 //j = x co-ordinate of the drop(same for every drop initially at x=0 moving left to right
     for(var j = 0; j < rows; j++)
         drops[j] = 0;
@@ -391,11 +390,10 @@ function effect(n){
     if(n===1){
         $("body").css({"background-color":"black","height":"1145","background-image":"none"});
         $(".site-header").css({"border-bottom":"5px solid #424242","border-top":"5px solid #424242"});
-        $("nav").css({"visibility":"visible"});
     } else {
         $("body").css({"background-color":"#FF0080","height":"1080","background-image":"none"});
         $(".site-header").css({"border-bottom":"5px solid #FF0080","border-top":"5px solid #FF0080"});
-        $("nav").css({"visibility":"hidden"});
     }
+    $("nav").css({"visibility":"hidden"});
     window.scrollTo(0,0);
 }
