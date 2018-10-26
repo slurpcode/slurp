@@ -21,6 +21,24 @@
 - [CSV](https://en.wikipedia.org/wiki/CSV)
 - [YAML](http://yaml.org/)
 
+## Find the hidden Fuchsia Beasts
+
+![alien](assets/images/beasts/alien.png "alien")
+![bear](assets/images/beasts/bear.png "bear")
+![bubble](assets/images/beasts/bubble.png "bubble")
+![dino](assets/images/beasts/dino.png "dino")
+![ghost](assets/images/beasts/ghost.png "ghost")
+![jaguar](assets/images/beasts/jaguar.png "jaguar")
+![karate](assets/images/beasts/karate.png "karate")
+![min](assets/images/beasts/min.png "min")
+![lion](assets/images/beasts/orange.png "lion")
+![police](assets/images/beasts/police.png "police")
+![punch](assets/images/beasts/punch.png "punch")
+![space](assets/images/beasts/space.png "space")
+![thexder](assets/images/beasts/thexder.png "thexder")
+![vader](assets/images/beasts/vader.png "vader")
+![yeti](assets/images/beasts/yeti.png "yeti")
+
 ## History
 
 The home of **`Fuchsia`** Programming on GitHub
