@@ -17,7 +17,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'vader', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'vader', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -109,7 +109,7 @@ function eggs() {
                         }
                         effect(1);
                         var background = match.toString();
-                        if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='bubble' || background==='ghost' || background==='vader' || background==='thexder' || background==='fireball' || background==='space' || background==='police' || background==='karate'  || background==='punch'  || background==='jaguar' || background==='flowers'){
+                        if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='bubble' || background==='ghost' || background==='vader' || background==='thexder' || background==='fireball' || background==='space' || background==='police' || background==='karate'  || background==='punch' || background==='jaguar' || background==='beasts' || background==='flowers'){
                             background = 'flowers';
                         }
                         var url = "/assets/images/backgrounds/" + background + ".jpg";
@@ -135,6 +135,11 @@ function eggs() {
                             beastsHorizontal(match.toString());
                         }
 
+                        if(match.toString()==='beasts'){
+                            $("#youtube").after("<canvas id=\"c\"></canvas>");
+                            allBeasts();
+                        }
+
                         if(match.toString()==='winter' && winter === false){
                             winter = true;
                             stopPlay(false);
@@ -151,6 +156,84 @@ function eggs() {
             }
         }
     });
+}
+
+function allBeasts(){
+    var c = document.getElementById("c");
+    var ctx = c.getContext("2d");
+    c.height = document.body.scrollHeight;
+    c.width = window.innerWidth;
+    var font_size = 32;
+    var columns = c.width/font_size;
+
+    $("#allBeast").append("<img id=\"img_orange\" src=\"/assets/images/beasts/orange.png\">");
+    $("#allBeast").append("<img id=\"img_alien\" src=\"/assets/images/beasts/alien.png\">");
+    $("#allBeast").append("<img id=\"img_vader\" src=\"/assets/images/beasts/vader.png\">");
+    $("#allBeast").append("<img id=\"img_jaguar\" src=\"/assets/images/beasts/jaguar.png\">");
+    $("#allBeast").append("<img id=\"img_min\" src=\"/assets/images/beasts/min.png\">");
+    $("#allBeast").append("<img id=\"img_ghost\" src=\"/assets/images/beasts/ghost.png\">");
+    $("#allBeast").append("<img id=\"img_bubble\" src=\"/assets/images/beasts/bubble.png\">");
+    $("#allBeast").append("<img id=\"img_bear\" src=\"/assets/images/beasts/bear.png\">");
+    $("#allBeast").append("<img id=\"img_thexder\" src=\"/assets/images/beasts/thexder.png\">");
+    $("#allBeast").append("<img id=\"img_dino\" src=\"/assets/images/beasts/dino.png\">");
+    $("#allBeast").append("<img id=\"img_space\" src=\"/assets/images/beasts/space.png\">");
+    $("#allBeast").append("<img id=\"img_yeti\" src=\"/assets/images/beasts/yeti.png\">");
+    $("#allBeast").append("<img id=\"img_police\" src=\"/assets/images/beasts/police.png\">");
+    $("#allBeast").append("<img id=\"img_karate\" src=\"/assets/images/beasts/karate.png\">");
+    $("#allBeast").append("<img id=\"img_punch\" src=\"/assets/images/beasts/punch.png\">");
+
+    //var image = document.getElementById('source');
+    // 13 images
+    var image0 = document.getElementById('img_orange');
+    var image1 = document.getElementById('img_alien');
+    var image2 = document.getElementById('img_vader');
+    var image3 = document.getElementById('img_jaguar');
+    var image4 = document.getElementById('img_min');
+    var image5 = document.getElementById('img_ghost');
+    var image6 = document.getElementById('img_bubble');
+    var image7 = document.getElementById('img_bear');
+    var image8 = document.getElementById('img_thexder');
+    var image9 = document.getElementById('img_dino');
+    var image10 = document.getElementById('img_bear');
+    var image11 = document.getElementById('img_space');
+    var image12 = document.getElementById('img_yeti');
+    var image13 = document.getElementById('img_police');
+    var image14 = document.getElementById('img_karate');
+    var image15 = document.getElementById('img_punch');
+
+    //an array of drops - one per column
+    var drops = [];
+
+//x below is the x coordinate
+//1 = y co-ordinate of the drop(same for every drop initially)
+    for(var x = 0; x < columns; x++)
+        drops[x] = 0;
+
+//drawing the characters
+    function draw()
+    {
+        //Black BG for the canvas
+        //translucent BG to show trail
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, c.width, c.height);
+
+        //ctx.fillStyle = fillColor; //orange text
+        ctx.font = font_size + "px arial";
+        //looping over drops
+        for(var i = 0; i < drops.length; i++)
+        {
+            ctx.drawImage(eval("image"+(i%16)), i*font_size, drops[i]*font_size);
+
+            //sending the drop back to the top randomly after it has crossed the screen
+            //adding a randomness to the reset to make the drops scattered on the Y axis
+            if(drops[i]*font_size > c.height && Math.random() > 0.975)
+                drops[i] = 0;
+
+            //incrementing Y coordinate
+            drops[i] +=  Math.floor(Math.random()*1.5);
+        }
+    }
+    setInterval(draw, 33);
 }
 
 function beasts(background){
