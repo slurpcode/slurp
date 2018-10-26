@@ -143,6 +143,18 @@ function eggs() {
                         if(match.toString()==='winter' && winter === false){
                             winter = true;
                             stopPlay(false);
+                            $("#audio").append("<audio id=\"my_audio\" src=\"/assets/audio/winter.mp4\" loop></audio>");
+                            promise = document.querySelector('audio').play();
+                            if (promise !== undefined) {
+                                promise.then(function (_) {
+                                    // Autoplay started!
+
+                                }).catch(function (error) {
+                                    // Autoplay was prevented.
+                                    // Show a "Play" button so that user can start playback.
+
+                                });
+                            }
                             $.getScript("/assets/js/snowstorm-min.js", function(){
                                 snowStorm.flakesMaxActive = 75;
                                 snowStorm.useTwinkleEffect = true;
@@ -391,6 +403,20 @@ function flowers(){
 }
 
 function rain(){
+    $("#audio").append("<audio id=\"my_audio\" src=\"/assets/audio/matrix.mp4\" loop></audio>");
+    promise = document.querySelector('audio').play();
+    if (promise !== undefined) {
+        promise.then(function (_) {
+            // Autoplay started!
+
+        }).catch(function (error) {
+            // Autoplay was prevented.
+            // Show a "Play" button so that user can start playback.
+
+        });
+    }
+
+
     var c = document.getElementById("c");
     var ctx = c.getContext("2d");
 
@@ -443,6 +469,7 @@ function rain(){
 }
 
 function stopPlay(n){
+    $("#my_audio").remove();
     $("#overlay").css({"display":"none"});
     if(n===true){snowStorm.toggleSnow();}
     $("#vid").remove();
