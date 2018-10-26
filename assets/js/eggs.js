@@ -17,7 +17,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'vader', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'vader', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -109,7 +109,7 @@ function eggs() {
                         }
                         effect(1);
                         var background = match.toString();
-                        if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='bubble' || background==='ghost' || background==='vader' || background==='thexder' || background==='fireball' || background==='space' || background==='police' || background==='karate'  || background==='punch' || background==='jaguar' || background==='beasts' || background==='flowers'){
+                        if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='bubble' || background==='ghost' || background==='vader' || background==='thexder' || background==='fireball' || background==='space' || background==='police' || background==='karate'  || background==='punch' || background==='jaguar' || background==='beasts' || match.toString()==='lucky' || background==='flowers'){
                             background = 'flowers';
                         }
                         var url = "/assets/images/backgrounds/" + background + ".jpg";
@@ -135,9 +135,9 @@ function eggs() {
                             beastsHorizontal(match.toString());
                         }
 
-                        if(match.toString()==='beasts'){
+                        if(match.toString()==='beasts' || match.toString()==='lucky'){
                             $("#youtube").after("<canvas id=\"c\"></canvas>");
-                            allBeasts();
+                            allBeasts(match.toString());
                         }
 
                         if(match.toString()==='winter' && winter === false){
@@ -158,7 +158,7 @@ function eggs() {
     });
 }
 
-function allBeasts(){
+function allBeasts(which){
     var c = document.getElementById("c");
     var ctx = c.getContext("2d");
     c.height = document.body.scrollHeight;
@@ -208,10 +208,14 @@ function allBeasts(){
 //1 = y co-ordinate of the drop(same for every drop initially)
     for(var x = 0; x < columns; x++)
         drops[x] = 0;
+        // single random image
+        var imgRand = Math.floor(Math.random()*16);
 
 //drawing the characters
     function draw()
     {
+
+
         //Black BG for the canvas
         //translucent BG to show trail
         ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
@@ -222,7 +226,7 @@ function allBeasts(){
         //looping over drops
         for(var i = 0; i < drops.length; i++)
         {
-            ctx.drawImage(eval("image"+(i%16)), i*font_size, drops[i]*font_size);
+            ctx.drawImage(eval("image"+(which==='beasts'?(i%16):imgRand)), i*font_size, drops[i]*font_size);
 
             //sending the drop back to the top randomly after it has crossed the screen
             //adding a randomness to the reset to make the drops scattered on the Y axis
