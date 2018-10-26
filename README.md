@@ -18,6 +18,8 @@
 - [Markdown](https://daringfireball.net/projects/markdown)
 - [Graphics Interchange Format - PNG](https://en.wikipedia.org/wiki/GIF)
 - [Portable Network Graphics - GIF](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
+- [CSV](https://en.wikipedia.org/wiki/CSV)
+- [YAML](http://yaml.org/)
 
 ## History
 
