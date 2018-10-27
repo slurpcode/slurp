@@ -1,11 +1,14 @@
 # Pink, Purple or Fuchsia
 
 ![Lode Runner](assets/images/gifs/lode-runner.gif "Lode Runner")
+![Star Wars](assets/images/gifs/star-wars-2.gif "Star Wars")
 
 ## Built With
 
+- [GitHub Pages](https://pages.github.com/)
 - [Jekyll](https://jekyllrb.com/)
 - [Liquid](https://shopify.github.io/liquid/)
+- [Minima](https://github.com/jekyll/minima)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [jQuery](https://jquery.com/)
 - [Typer.js](https://steven.codes/typerjs/)
@@ -18,8 +21,10 @@
 - [Markdown](https://daringfireball.net/projects/markdown)
 - [Graphics Interchange Format - PNG](https://en.wikipedia.org/wiki/GIF)
 - [Portable Network Graphics - GIF](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
+- [JPEG](https://en.wikipedia.org/wiki/JPEG)
 - [CSV](https://en.wikipedia.org/wiki/CSV)
 - [YAML](http://yaml.org/)
+- [Open Graph protocol](http://ogp.me/)
 
 ## Find the hidden Fuchsia Beasts
 
