@@ -1,3 +1,6 @@
 eslint:
   enabled: true
   ignore_file: .eslintignore
+
+reek:
+  enabled: true
