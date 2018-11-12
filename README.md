@@ -1,5 +1,7 @@
 # Pink, Purple or Fuchsia
 
+[![codebeat badge](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-fuchsia-programming-fuchsia-programming-github-io-master)
+
 ![Lode Runner](assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](assets/images/gifs/star-wars-2.gif "Star Wars")
 
@@ -22,9 +24,18 @@
 - [Graphics Interchange Format - PNG](https://en.wikipedia.org/wiki/GIF)
 - [Portable Network Graphics - GIF](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
 - [JPEG](https://en.wikipedia.org/wiki/JPEG)
+- [ICO](https://en.wikipedia.org/wiki/ICO_(file_format))
 - [CSV](https://en.wikipedia.org/wiki/CSV)
 - [YAML](http://yaml.org/)
 - [Open Graph protocol](http://ogp.me/)
+- [overcommit](https://github.com/brigade/overcommit)
+- [Rubocop](https://github.com/rubocop-hq/rubocop)
+- [Hound](https://houndci.com/)
+- [Sitemaps XML](https://www.sitemaps.org/protocol.html)
+- [RSS](https://en.wikipedia.org/wiki/RSS)
+- [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard))
+- [codebeat](https://codebeat.co)
+- [AccessLint](https://www.accesslint.com/)
 
 ## Find the hidden Fuchsia Beasts
 
