@@ -27,8 +27,8 @@
 - [Sass](https://sass-lang.com/)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [Markdown](https://daringfireball.net/projects/markdown)
-- [Graphics Interchange Format - PNG](https://en.wikipedia.org/wiki/GIF)
-- [Portable Network Graphics - GIF](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
+- [Graphics Interchange Format - GIF](https://en.wikipedia.org/wiki/GIF)
+- [Portable Network Graphics - PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
 - [JPEG](https://en.wikipedia.org/wiki/JPEG)
 - [ICO](https://en.wikipedia.org/wiki/ICO_(file_format))
 - [CSV](https://en.wikipedia.org/wiki/CSV)
@@ -45,6 +45,7 @@
 - [CodeFactor](https://www.codefactor.io/)
 - [Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
 - [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)
+- [YouTube](https://www.youtube.com/)
 
 ## Find the hidden Fuchsia Beasts
 
