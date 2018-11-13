@@ -1,6 +1,7 @@
 # Pink, Purple or Fuchsia
 
-[![codebeat badge](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-fuchsia-programming-fuchsia-programming-github-io-master)
+[![codebeat](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-fuchsia-programming-fuchsia-programming-github-io-master)
+[![CodeFactor](https://www.codefactor.io/repository/github/jbampton/fuchsia-programming.github.io/badge)](https://www.codefactor.io/repository/github/jbampton/fuchsia-programming.github.io)
 
 ![Lode Runner](assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](assets/images/gifs/star-wars-2.gif "Star Wars")
@@ -8,7 +9,9 @@
 ## Built With
 
 - [GitHub Pages](https://pages.github.com/)
+- [Bundler](https://bundler.io/)
 - [Jekyll](https://jekyllrb.com/)
+- [Jekyll Feed](https://github.com/jekyll/jekyll-feed)
 - [Liquid](https://shopify.github.io/liquid/)
 - [Minima](https://github.com/jekyll/minima)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
@@ -36,6 +39,9 @@
 - [Atom](https://en.wikipedia.org/wiki/Atom_(Web_standard))
 - [codebeat](https://codebeat.co)
 - [AccessLint](https://www.accesslint.com/)
+- [CodeFactor](https://www.codefactor.io/)
+- [Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
+- [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)
 
 ## Find the hidden Fuchsia Beasts
 
