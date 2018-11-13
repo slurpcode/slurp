@@ -9,11 +9,14 @@
 ## Built With
 
 - [GitHub Pages](https://pages.github.com/)
+- [Git](https://git-scm.com/)
+- [RubyMine](https://www.jetbrains.com/ruby/)
 - [Bundler](https://bundler.io/)
 - [Jekyll](https://jekyllrb.com/)
 - [Jekyll Feed](https://github.com/jekyll/jekyll-feed)
 - [Liquid](https://shopify.github.io/liquid/)
 - [Minima](https://github.com/jekyll/minima)
+- [Jemoji](https://github.com/jekyll/jemoji)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [jQuery](https://jquery.com/)
 - [Typer.js](https://steven.codes/typerjs/)
