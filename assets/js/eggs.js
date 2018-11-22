@@ -17,7 +17,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'vader', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'vader', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz','sugi'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -57,6 +57,9 @@ function eggs() {
                         break;
                     case 'karine':
                         loadUrl("https://www.upwork.com/freelancers/~016cd3dcf007c09abd");
+                        break;
+                    case 'sugi':
+                        loadUrl("https://www.upwork.com/freelancers/~01e12d81269df3013f");
                         break;
                     case 'jedi':
                         if(winter) {
