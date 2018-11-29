@@ -1,23 +1,31 @@
 ---
 layout: page
 title: Games
-permalink: /Games/
+permalink: /games/
 ---
 
 {% assign w = "https://en.wikipedia.org/wiki/" %}
-<h3>{%- include jorge/jorge.html -%}</h3>
-    {%- for concept in site.data.games -%}
-        {%- assign title = concept.title | strip -%}
-        {% if title != '' %}
-            {% assign display = concept.title %}
+
+{%- for concept in site.data.games -%}
+    {%- assign title = concept.title | strip -%}
+    {% if title != '' %}
+        {% assign display = concept.title %}
+    {% else %}
+        {% assign display = concept.name | split: "_" | join: " " %}
+    {% endif %}
+    <p>
+        <a href="{{w}}{{ concept.name }}" target="_blank" rel="noopener">{{ display }}</a>
+        <br>
+        <a href="{{w}}{{ concept.name }}" target="_blank" rel="noopener">
+            <img src="/assets/images/games/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
+        </a>
+    </p>
+    <h5>
+        {%- assign creator = concept.creator | strip -%}
+        {% if creator != '' %}
+            {%- include karine/karine.html -%}
         {% else %}
-            {% assign display = concept.name | split: "_" | join: " " %}
+            {%- include jorge/jorge.html -%}
         {% endif %}
-        <p>
-            <a href="{{w}}{{ concept.name }}" target="_blank" rel="noopener">{{ display }}</a>
-            <br>
-            <a href="{{w}}{{ concept.name }}" target="_blank" rel="noopener">
-                <img src="/assets/images/games/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
-            </a>
-        </p>
+    </h5>
 {%- endfor -%}

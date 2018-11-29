@@ -68,7 +68,7 @@ function eggs() {
                         play("https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11");
                         break;
                     case 'anjuna':
-                        play("https://www.youtube-nocookie.com/embed/jiLkBxw2pbs?rel=0");
+                        play("https://www.youtube-nocookie.com/embed/wO-r8yYivOA?rel=0");
                         break;
                     case 'asot':
                         play("https://www.youtube-nocookie.com/embed/pv4xBTrNeoQ?rel=0");
