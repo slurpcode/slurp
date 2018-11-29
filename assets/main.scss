@@ -90,3 +90,20 @@ main .wrapper {max-width: 360px;background-color: #94AFD1;}
 * {margin: 0; padding: 0;}
 canvas {display: block;}
 .page-link{display: block}
+
+#starfield {
+  width:100%;
+  height:100%;
+  z-index: -1;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#gamecontainer {
+  margin-left: auto;
+  margin-right: auto;
+}
+#gamecanvas {
+}
+#info{color:white; margin-left: auto;
+  margin-right: auto;}

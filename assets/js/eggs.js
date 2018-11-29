@@ -1,3 +1,5 @@
+var game;
+
 function animate_flower(){
     $("#imgo").animate({
         height: "+=550"
@@ -17,7 +19,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'vader', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz', 'sugi'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'darth', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'sugi', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz', 'invaders'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -29,21 +31,22 @@ function eggs() {
             if (match) {
                 //alert(match);
                 $('#c').remove();
+                $('#starfield').remove();
+                $('#gamecontainer').remove();
+                $('#info').remove();
+                if(game)game.stop();
+
+                if(winter) {
+                    stopPlay(true);
+                    winter = false;
+                } else {
+                    stopPlay(false);
+                }
                 switch(match.toString()){
                     case 'reset':
-                        if(winter) {
-                            stopPlay(true);
-                            winter = false;
-                        }
                         reset();
                         break;
                     case 'fuchsia':
-                        if(winter) {
-                            stopPlay(true);
-                            winter = false;
-                        } else {
-                            stopPlay(false);
-                        }
                         effect(2);
                         break;
                     case 'harley':
@@ -62,57 +65,27 @@ function eggs() {
                         loadUrl("https://www.upwork.com/freelancers/~01e12d81269df3013f");
                         break;
                     case 'jedi':
-                        if(winter) {
-                            stopPlay(true);
-                            winter = false;
-                        }
                         play("https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11");
                         break;
                     case 'anjuna':
-                        if(winter) {
-                            stopPlay(true);
-                            winter = false;
-                        }
                         play("https://www.youtube-nocookie.com/embed/jiLkBxw2pbs?rel=0");
                         break;
                     case 'asot':
-                        if(winter) {
-                            stopPlay(true);
-                            winter = false;
-                        }
                         play("https://www.youtube-nocookie.com/embed/pv4xBTrNeoQ?rel=0");
                         break;
                     case 'progressive':
-                        if(winter) {
-                            stopPlay(true);
-                            winter = false;
-                        }
                         play("https://www.youtube-nocookie.com/embed/KvRVky0r7YM?rel=0");
                         break;
                     case 'chill':
-                        if(winter) {
-                            stopPlay(true);
-                            winter = false;
-                        }
                         play("https://www.youtube-nocookie.com/embed/8XjDmVzqVUc?rel=0");
                         break;
                     case 'jazz':
-                        if(winter) {
-                            stopPlay(true);
-                            winter = false;
-                        }
                         play("https://www.youtube-nocookie.com/embed/Vls4h1GAP-c?rel=0");
                         break;
                     default:
-                        if(winter) {
-                            stopPlay(true);
-                            winter = false;
-                        } else {
-                            stopPlay(false);
-                        }
                         effect(1);
                         var background = match.toString();
-                        if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='bubble' || background==='ghost' || background==='vader' || background==='thexder' || background==='fireball' || background==='space' || background==='police' || background==='karate'  || background==='punch' || background==='jaguar' || background==='beasts' || match.toString()==='lucky' || background==='flowers'){
+                        if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='bubble' || background==='ghost' || background==='darth' || background==='thexder' || background==='fireball' || background==='space' || background==='police' || background==='karate'  || background==='punch' || background==='jaguar' || background==='beasts' || match.toString()==='lucky' || background==='flowers' || background==='invaders'){
                             background = 'flowers';
                         }
                         var url = "/assets/images/backgrounds/" + background + ".jpg";
@@ -123,12 +96,17 @@ function eggs() {
                             rain();
                         }
 
+                        if(match.toString()==='invaders'){
+                            $("#youtube").after("<div id=\"starfield\"></div><div id=\"gamecontainer\"><canvas id=\"gameCanvas\"></canvas></div><div id=\"info\"><p>Move with arrow keys, fire with the space bar.</p></div>");
+                            invaders();
+                        }
+
                         if(match.toString()==='flowers'){
                             $("#youtube").after("<canvas id=\"c\"></canvas>");
                             flowers();
                         }
 
-                        if(match.toString()==='orange' || match.toString()==='yeti' || match.toString()==='min' || match.toString()==='alien' || match.toString()==='dino' || match.toString()==='bear' || match.toString()==='bubble' || match.toString()==='ghost' || match.toString()==='vader' || match.toString()==='thexder' || match.toString()==='space' || match.toString()==='police' || match.toString()==='karate' || match.toString()==='punch' || match.toString()==='jaguar'){
+                        if(match.toString()==='orange' || match.toString()==='yeti' || match.toString()==='min' || match.toString()==='alien' || match.toString()==='dino' || match.toString()==='bear' || match.toString()==='bubble' || match.toString()==='ghost' || match.toString()==='darth' || match.toString()==='thexder' || match.toString()==='space' || match.toString()==='police' || match.toString()==='karate' || match.toString()==='punch' || match.toString()==='jaguar'){
                             $("#youtube").after("<canvas id=\"c\"></canvas>");
                             beasts(match.toString());
                         }
@@ -183,7 +161,7 @@ function allBeasts(which){
 
     $("#allBeast").append("<img id=\"img_orange\" src=\"/assets/images/beasts/orange.png\">");
     $("#allBeast").append("<img id=\"img_alien\" src=\"/assets/images/beasts/alien.png\">");
-    $("#allBeast").append("<img id=\"img_vader\" src=\"/assets/images/beasts/vader.png\">");
+    $("#allBeast").append("<img id=\"img_vader\" src=\"/assets/images/beasts/darth.png\">");
     $("#allBeast").append("<img id=\"img_jaguar\" src=\"/assets/images/beasts/jaguar.png\">");
     $("#allBeast").append("<img id=\"img_min\" src=\"/assets/images/beasts/min.png\">");
     $("#allBeast").append("<img id=\"img_ghost\" src=\"/assets/images/beasts/ghost.png\">");
@@ -513,4 +491,44 @@ function effect(n){
     }
     $("nav").css({"visibility":"hidden"});
     window.scrollTo(0,0);
+}
+
+function invaders(){
+    //  Create the starfield.
+    var container = document.getElementById('starfield');
+    var starfield = new Starfield();
+    starfield.initialise(container);
+    starfield.start();
+
+    //  Setup the canvas.
+    var canvas = document.getElementById("gameCanvas");
+    canvas.width = 800;
+    canvas.height = 600;
+    //  Create the game.
+    game = new Game();
+
+    //  Initialise it with the game canvas.
+    game.initialise(canvas);
+
+    //  Start the game.
+    game.start();
+
+    //  Listen for keyboard events.
+    window.addEventListener("keydown", function keydown(e) {
+        var keycode = e.which || window.event.keycode;
+        //  Supress further processing of left/right/space (37/29/32)
+        if(keycode == 37 || keycode == 39 || keycode == 32) {
+            e.preventDefault();
+        }
+        game.keyDown(keycode);
+    });
+    window.addEventListener("keyup", function keydown(e) {
+        var keycode = e.which || window.event.keycode;
+        game.keyUp(keycode);
+    });
+
+    function toggleMute() {
+        game.mute();
+        document.getElementById("muteLink").innerText = game.sounds.mute ? "unmute" : "mute";
+    }
 }

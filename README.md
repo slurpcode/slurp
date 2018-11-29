@@ -64,7 +64,7 @@
 ![punch](assets/images/beasts/punch.png "punch")
 ![space](assets/images/beasts/space.png "space")
 ![thexder](assets/images/beasts/thexder.png "thexder")
-![vader](assets/images/beasts/vader.png "vader")
+![vader](assets/images/beasts/darth.png "vader")
 ![yeti](assets/images/beasts/yeti.png "yeti")
 
 ## History
