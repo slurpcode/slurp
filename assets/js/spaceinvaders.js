@@ -578,7 +578,7 @@ PlayState.prototype.draw = function(game, dt, ctx) {
     //  Draw bombs.
     //ctx.fillStyle = '#ff5555';
     for(var i=0; i<this.bombs.length; i++) {
-        var fillStyle = ['#2ac940', '#ff4945', '#cbbeb5', '#dad3f2', '#ffdab9'][i % 5];
+        fillStyle = ['#2ac940', '#ff4945', '#cbbeb5', '#dad3f2', '#ffdab9'][i % 5];
 
         ctx.fillStyle = fillStyle;
         var bomb = this.bombs[i];

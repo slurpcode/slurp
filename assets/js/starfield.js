@@ -3,7 +3,7 @@
 
 */
 
-//	Define the starfield class.
+// Define the starfield class.
 function Starfield() {
 	this.fps = 30;
 	this.canvas = null;
@@ -15,16 +15,16 @@ function Starfield() {
 	this.intervalId = 0;
 }
 
-//	The main function - initialises the starfield.
+// The main function - initialises the starfield.
 Starfield.prototype.initialise = function(div) {
 	var self = this;
 
-	//	Store the div.
+	// Store the div.
 	this.containerDiv = div;
 	self.width = window.innerWidth;
 	self.height = window.innerHeight;
 
-	window.onresize = function(event) {
+	window.onresize = function() {
 		self.width = window.innerWidth;
 		self.height = window.innerHeight;
 		self.canvas.width = self.width;
@@ -32,7 +32,7 @@ Starfield.prototype.initialise = function(div) {
 		self.draw();
  	}
 
-	//	Create the canvas.
+	// Create the canvas.
 	var canvas = document.createElement('canvas');
 	div.appendChild(canvas);
 	this.canvas = canvas;
@@ -42,7 +42,7 @@ Starfield.prototype.initialise = function(div) {
 
 Starfield.prototype.start = function() {
 
-	//	Create the stars.
+	// Create the stars.
 	var stars = [];
 	for(var i=0; i<this.stars; i++) {
 		stars[i] = new Star(Math.random()*this.width, Math.random()*this.height, Math.random()*3+1,
@@ -51,7 +51,7 @@ Starfield.prototype.start = function() {
 	this.stars = stars;
 
 	var self = this;
-	//	Start the timer.
+	// Start the timer.
 	this.intervalId = setInterval(function() {
 		self.update();
 		self.draw();	
@@ -68,7 +68,7 @@ Starfield.prototype.update = function() {
 	for(var i=0; i<this.stars.length; i++) {
 		var star = this.stars[i];
 		star.y += dt * star.velocity;
-		//	If the star has moved from the bottom of the screen, spawn it at the top.
+		// If the star has moved from the bottom of the screen, spawn it at the top.
 		if(star.y > this.height) {
 			this.stars[i] = new Star(Math.random()*this.width, 0, Math.random()*3+1, 
 		 	(Math.random()*(this.maxVelocity - this.minVelocity))+this.minVelocity);
@@ -78,14 +78,14 @@ Starfield.prototype.update = function() {
 
 Starfield.prototype.draw = function() {
 
-	//	Get the drawing context.
+	// Get the drawing context.
 	var ctx = this.canvas.getContext("2d");
 
-	//	Draw the background.
+	// Draw the background.
  	ctx.fillStyle = '#000000';
 	ctx.fillRect(0, 0, this.width, this.height);
 
-	//	Draw stars.
+	// Draw stars.
 	ctx.fillStyle = '#ffffff';
 	for(var i=0; i<this.stars.length;i++) {
 		var star = this.stars[i];

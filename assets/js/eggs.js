@@ -161,7 +161,7 @@ function allBeasts(which){
 
     $("#allBeast").append("<img id=\"img_orange\" src=\"/assets/images/beasts/orange.png\">");
     $("#allBeast").append("<img id=\"img_alien\" src=\"/assets/images/beasts/alien.png\">");
-    $("#allBeast").append("<img id=\"img_vader\" src=\"/assets/images/beasts/darth.png\">");
+    $("#allBeast").append("<img id=\"img_darth\" src=\"/assets/images/beasts/darth.png\" alt=\"darth\">");
     $("#allBeast").append("<img id=\"img_jaguar\" src=\"/assets/images/beasts/jaguar.png\">");
     $("#allBeast").append("<img id=\"img_min\" src=\"/assets/images/beasts/min.png\">");
     $("#allBeast").append("<img id=\"img_ghost\" src=\"/assets/images/beasts/ghost.png\">");
@@ -179,7 +179,7 @@ function allBeasts(which){
     // 13 images
     var image0 = document.getElementById('img_orange');
     var image1 = document.getElementById('img_alien');
-    var image2 = document.getElementById('img_vader');
+    var image2 = document.getElementById('img_darth');
     var image3 = document.getElementById('img_jaguar');
     var image4 = document.getElementById('img_min');
     var image5 = document.getElementById('img_ghost');
