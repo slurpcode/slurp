@@ -568,19 +568,26 @@ PlayState.prototype.draw = function(game, dt, ctx) {
     //  Draw invaders.
 
     for(var i=0; i<this.invaders.length; i++) {
-        var fillStyle = ['#2ac940', '#ff4945', '#cbbeb5', '#dad3f2', '#ffdab9', '#f0f8ff'][i % 6];
+        var invader = this.invaders[i];
+        var fillStyle = ['#2ac940', '#ff4945', '#FFFF00', '#dad3f2', '#ffdab9', '#0033FF'][Math.floor(invader.y - invader.height/2) % 6];
 
         ctx.fillStyle = fillStyle;
-        var invader = this.invaders[i];
         ctx.fillRect(invader.x - invader.width/2, invader.y - invader.height/2, invader.width, invader.height);
     }
 
     //  Draw bombs.
     //ctx.fillStyle = '#ff5555';
     for(var i=0; i<this.bombs.length; i++) {
-        fillStyle = ['#2ac940', '#ff4945', '#cbbeb5', '#dad3f2', '#ffdab9'][i % 5];
+        //fillStyle = ['#2ac940', '#ff4945', '#cbbeb5', '#dad3f2', '#ffdab9'][i % 5];
 
-        ctx.fillStyle = fillStyle;
+        var gradient=ctx.createLinearGradient(0,0,170,0);
+        gradient.addColorStop(0, ['#2ac940', '#ff4945', '#cbbeb5', '#dad3f2', '#ffdab9', '#f0f8ff'][Math.floor(Math.random()*6)]);
+        gradient.addColorStop(0.5, ['#2ac940', '#ff4945', '#cbbeb5', '#dad3f2', '#ffdab9', '#f0f8ff'][Math.floor(Math.random()*6)]);
+        gradient.addColorStop(1.0, ['#2ac940', '#ff4945', '#cbbeb5', '#dad3f2', '#ffdab9', '#f0f8ff'][Math.floor(Math.random()*6)]);
+
+        ctx.fillStyle = gradient;
+
+        //ctx.fillStyle = fillStyle;
         var bomb = this.bombs[i];
         ctx.fillRect(bomb.x - 2, bomb.y - 2, 5, 5);
     }
