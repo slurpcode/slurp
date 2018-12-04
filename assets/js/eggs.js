@@ -19,7 +19,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'darth', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'sugi', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz', 'invaders'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'darth', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'sugi', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz', 'invaders', 'rain'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -88,12 +88,25 @@ function eggs() {
                         if(background==='orange' || background==='yeti' || background==='min' || background==='alien' || background==='dino' || background==='bear' || background==='bubble' || background==='ghost' || background==='darth' || background==='thexder' || background==='fireball' || background==='space' || background==='police' || background==='karate'  || background==='punch' || background==='jaguar' || background==='beasts' || match.toString()==='lucky' || background==='flowers' || background==='invaders'){
                             background = 'flowers';
                         }
-                        var url = "/assets/images/backgrounds/" + background + ".jpg";
-                        $("body").css("background", "url(" + url + ") 0px 65px");
+                        if(background==='rain'){
+                            $("body").css({background: "-moz-linear-gradient(top,  rgba(8,13,40,1) 0%, rgba(38,19,0,1) 100%)",
+                                            background: "-webkit-linear-gradient(top,  rgba(8,13,40,1) 0%,rgba(38,19,0,1) 100%)",
+                                            background: "linear-gradient(to bottom,  rgba(8,13,40,1) 0%,rgba(38,19,0,1) 100%)"});
+                        } else {
+                            var url = "/assets/images/backgrounds/" + background + ".jpg";
+                            $("body").css("background", "url(" + url + ") 0px 65px");
+                        }
 
                         if(match.toString()==='matrix'){
                             $("#youtube").after("<canvas id=\"c\"></canvas>");
-                            rain();
+                            matrix();
+                        }
+
+                        if(match.toString()==='rain'){
+                            $("#youtube").after("<canvas id=\"c\"></canvas>");
+                            $.getScript("/assets/js/raindrops.js", function(){
+
+                            });
                         }
 
                         if(match.toString()==='invaders'){
@@ -383,7 +396,7 @@ function flowers(){
     setInterval(draw, 33);
 }
 
-function rain(){
+function matrix(){
     $("#audio").append("<audio id=\"my_audio\" src=\"/assets/audio/matrix.mp4\" loop></audio>");
     promise = document.querySelector('audio').play();
     if (promise !== undefined) {
