@@ -13,11 +13,18 @@ bring the <span class="fuchsia">Fuchsia</span> 💓 💗 💕 💞 💘 💖 to 
 Please check out our sister site, the original
 <a href="https://fuchsia.herokuapp.com/" target="_blank" rel="noopener">Fuchsia Programming</a>.
 <ul>
-    {%- for contributor in site.data.contributors -%}
+    {%- for contributor in site.data.team -%}
         {%- assign display = contributor.name | capitalize -%}
+        {% capture filetype %}
+            {%- if display == 'Barney' -%}
+                gif
+            {%- else -%}
+                png
+            {%- endif -%}
+        {% endcapture %}
         <li>
             <a href="https://www.upwork.com/fl/{{ contributor.upwork }}" target="_blank" rel="noopener">
-                <img src="/assets/images/gophers/{{ contributor.name }}.png" alt="{{ display }}" title="{{ display }}">
+                <img src="/assets/images/gophers/{{ contributor.name }}.{{filetype}}" alt="{{ display }}" title="{{ display }}">
             </a>
         </li>
     {% endfor %}
