@@ -8,5 +8,5 @@ layout: null
   <Description>{% if site.google.cse_id %}Search{% else %}Use Google to search{% endif %} {{ site.title }}</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Url type="application/rss+xml"
-       template="{% if site.google.cse_id %}{{ '/search/?' | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}{% else %}{{ '&' | prepend: site.baseurl | prepend: site.url | prepend: 'https://www.google.com/search?as_sitesearch=' }}{% endif %}q={searchTerms}"/>
+       template="{% if site.google.cse_id %}{{ '/search/?' | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}{% else %}{{ '&amp;' | prepend: site.baseurl | prepend: site.url | prepend: 'https://www.google.com/search?as_sitesearch=' }}{% endif %}q={searchTerms}"/>
 </OpenSearchDescription>
