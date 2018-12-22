@@ -7,6 +7,6 @@ layout: null
   <ShortName>{{ site.title }}</ShortName>
   <Description>{% if site.google.cse_id %}Search{% else %}Use Google to search{% endif %} {{ site.title }}</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Url type="application/rss+xml"
-       template="{% if site.google.cse_id %}{{ '/search/?' | prepend: site.baseurl | replace: '//', '/' | prepend: site.url }}{% else %}{{ '&' | prepend: site.baseurl | prepend: site.url | prepend: 'https://www.google.com/search?as_sitesearch=' }}{% endif %}q={searchTerms}"/>
+  <Url method="get" type="text/html"
+       template="http://www.google.com/search?q={searchTerms}+site%3A{{site.url}}&amp;hl=en"/>
 </OpenSearchDescription>
