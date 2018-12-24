@@ -27,6 +27,9 @@ paginate: 5
 feed:
   path: atom.xml
 
+disqus:
+  shortname: fuchsia-programming
+
 # Build settings
 markdown: kramdown
 theme: minima
