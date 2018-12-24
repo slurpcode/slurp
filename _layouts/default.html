@@ -17,6 +17,10 @@
       <div class="wrapper">
         {{ content }}
 
+        {%- if site.disqus.shortname -%}
+          {%- include disqus_comments.html -%}
+        {%- endif -%}
+
         <img id="px" alt="&#9829;" title="&#9829;" src="/assets/images/FFFFFF-0.png">
       </div>
     </main>
