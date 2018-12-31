@@ -77,7 +77,7 @@ function eggs() {
                         play("https://www.youtube-nocookie.com/embed/KvRVky0r7YM?rel=0");
                         break;
                     case 'chill':
-                        play("https://www.youtube-nocookie.com/embed/8XjDmVzqVUc?rel=0");
+                        play("https://www.youtube-nocookie.com/embed/Ec7VUcdB-ww");
                         break;
                     case 'jazz':
                         play("https://www.youtube-nocookie.com/embed/Vls4h1GAP-c?rel=0");
