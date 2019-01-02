@@ -48,6 +48,7 @@
 - [Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
 - [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)
 - [YouTube](https://www.youtube.com/)
+- [OpenSearch](https://developer.mozilla.org/en-US/docs/Web/OpenSearch)
 
 ## Find the hidden Fuchsia Beasts
 
