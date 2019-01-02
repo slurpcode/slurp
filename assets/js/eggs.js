@@ -19,7 +19,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'darth', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'sugi', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz', 'invaders', 'rain'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'darth', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'sugi', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz', 'invaders', 'rain', 'adem', 'preston'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -64,6 +64,12 @@ function eggs() {
                     case 'sugi':
                         loadUrl("https://www.upwork.com/freelancers/~01e12d81269df3013f");
                         break;
+                    case 'adem':
+                        loadUrl("https://www.upwork.com/freelancers/~01f7de714857f22bab");
+                        break;
+                    case 'preston':
+                        loadUrl("https://www.upwork.com/freelancers/~012ab645e1d96a5c7f");
+                        break;
                     case 'jedi':
                         play("https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11");
                         break;
@@ -77,7 +83,7 @@ function eggs() {
                         play("https://www.youtube-nocookie.com/embed/KvRVky0r7YM?rel=0");
                         break;
                     case 'chill':
-                        play("https://www.youtube-nocookie.com/embed/8XjDmVzqVUc?rel=0");
+                        play("https://www.youtube-nocookie.com/embed/Ec7VUcdB-ww?rel=0");
                         break;
                     case 'jazz':
                         play("https://www.youtube-nocookie.com/embed/Vls4h1GAP-c?rel=0");
