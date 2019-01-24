@@ -3,16 +3,19 @@ document.addEventListener( 'click', function (e) {
     var x;
     if(+Cookies.get('clicks') === 25){
         // sonic boom
-        x = 9;
+        x = 12;
     }else {
         x = Math.floor(Math.random()*9);
     }
-    if(+Cookies.get('clicks') === 25){
+    if(+Cookies.get('clicks') >= 25){
         Cookies.remove('clicks');
     }
-    var cols = ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia', 'purple', 'navy', 'teal', 'aqua', 'maroon'];
-    var randomColor = cols[Math.floor(Math.random()*16)];
-    var randomColor2 = cols[Math.floor(Math.random()*16)];
+
+    var cols = ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia',
+                'purple', 'navy', 'teal', 'aqua', 'maroon', 'pink', 'deeppink', 'lightsalmon', 'teal', 'ivory',
+                'orange', 'peru', 'plum'];
+    var randomColor = cols[Math.floor(Math.random()*24)];
+    var randomColor2 = cols[Math.floor(Math.random()*24)];
     var filler = {};
     var stroker = {};
     stroker[randomColor2] = randomColor;
@@ -20,8 +23,8 @@ document.addEventListener( 'click', function (e) {
 
     // min 20 many colored circles spinning and fading out
     const burst1 = new mojs.Burst({
-        radius:   { 0: 150 },
-        count:    Math.floor(Math.random()*31) + 20,
+        radius:   { 0: 200 },
+        count:    Math.floor(Math.random()*31) + 25,
         angle:    { 0: 90 },
         children: {
             shape:      'polygon',
@@ -70,15 +73,15 @@ document.addEventListener( 'click', function (e) {
     // min 7
     const burst4 = new mojs.Burst({
         radius:   { 0: 100 },
-        count:    Math.floor(Math.random()*24) + 7,
-        angle:    { 0: 90 },
-        opacity:  { 1: 0 },
+        count:    Math.floor(Math.random()*24) + 8,
+        angle:    { 360: 0 },
+        opacity:  { 1: 1 },
         children: {
-            radius:         Math.floor(Math.random()*26) + 25,
-            duration:       2000,
+            radius:         Math.floor(Math.random()*26) + 75,
+            duration:       6000,
             fill:           filler,
             stroke:         stroker,
-            strokeWidth:    Math.floor(Math.random()*10) + 5
+            strokeWidth:    Math.floor(Math.random()*10) + 20
         }
     });
     // min 7
@@ -128,7 +131,7 @@ document.addEventListener( 'click', function (e) {
         }
     });
 
-    // sonic boom
+
     const burst8 = new mojs.Burst({
         radius:   { 0: 250 },
         count:    20,
@@ -141,6 +144,56 @@ document.addEventListener( 'click', function (e) {
             stroke:     stroker,
             strokeWidth: {1: 25},
             duration:   3000,
+        }
+    });
+
+    const burst9 = new mojs.Burst({
+        radius:   { 0: 250 },
+        count:    100,
+        angle:    { 360 : 0 },
+        children: {
+            shape:      'polygon',
+            radius:     100,
+            points:     4,
+            fill:       cols,
+            stroke:     stroker,
+            strokeWidth:15,
+            angle:      { 360: 0 },
+            duration:   2000,
+            delay:      'stagger(0, 10)'
+        }
+    });
+
+    const burst10 = new mojs.Burst({
+        radius:   { 0: 350 },
+        count:    Math.floor(Math.random()*94) + 75,
+        angle:    { 0: 270 },
+        opacity:  { 1: 0 },
+        children: {
+            shape:          'zigzag',
+            radius:         75,
+            duration:       3000,
+            fill:           cols,
+            stroke:         stroker,
+            strokeWidth:    15,
+            delay:      'stagger(0, 10)',
+            angle:      { 0 : 360 }
+        }
+    });
+
+    const burst11 = new mojs.Burst({
+        radius:   { 0: 150 },
+        count:    Math.floor(Math.random()*14) + 7,
+        children: {
+            shape:          'polygon',
+            radius:         100,
+            points:         5,
+            fill:           filler,
+            angle:          { 360: 0 },
+            duration:       3000,
+            delay:          'stagger(0, 1000)',
+            stroke:         stroker,
+            strokeWidth:    Math.floor(Math.random()*10) + 15
         }
     });
 
@@ -170,6 +223,15 @@ document.addEventListener( 'click', function (e) {
             bur(burst8, e);
             break;
         case 8:
+            bur(burst9, e);
+            break;
+        case 9:
+            bur(burst10, e);
+            break;
+        case 10:
+            bur(burst11, e);
+            break;
+        case 11:
             const OPTS = {
                 fill:           'none',
                 radius:         25,
@@ -224,6 +286,9 @@ document.addEventListener( 'click', function (e) {
             bur(burst6, e);
             bur(burst7, e);
             bur(burst8, e);
+            bur(burst9, e);
+            bur(burst10, e);
+            bur(burst11, e);
     }
 });
 function bur(b, e){
