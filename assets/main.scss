@@ -107,3 +107,22 @@ canvas {display: block;}
 }
 #info{color:white; margin-left: auto;
   margin-right: auto;}
+
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5em;
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.letters-fuchsia {color: #FF0080;}
+.letters-pink {color: #ff69b4;}
+.letters-purple {color: #551A8B;}
+
+.post-list {padding-top: 150px;}
