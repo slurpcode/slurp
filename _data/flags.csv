@@ -1,4 +1,5 @@
 country,name
+Afghanistan,K
 Algeria,K
 Angola,K
 Argentina,
@@ -8,6 +9,8 @@ Bahrain,
 Bangladesh,K
 Belgium,
 Bolivia,
+Bosnia and Herzegovina,K
+Botswana,K
 Brazil,
 Cambodia,
 Cameroon,
@@ -27,6 +30,7 @@ Ethiopia,
 Egypt,K
 Finland,K
 France,
+Georgia,K
 Germany,
 Greece,K
 Guatemala,
@@ -46,9 +50,11 @@ Jordan,
 Kazakhstan,K
 Kenya,
 Kuwait,K
+Laos,K
 Latvia,
 Libya,
 Malaysia,
+Mali,K
 Mexico,
 Morocco,
 Nepal,
@@ -69,6 +75,7 @@ Romania,K
 Russia,
 S Africa,
 Saudi Arabia,
+Senegal,K
 Singapore,
 Slovakia,
 South Korea,
@@ -78,6 +85,7 @@ Sweden,
 Switzerland,
 Syria,
 Thailand,
+Trinidad and Tobago,K
 Tunisia,
 Turkey,
 Turkmenistan,
@@ -88,4 +96,6 @@ Ukraine,
 USA,
 Venezuela,
 Vietnam,K
+Yemen,K
 Zambia,
+Zimbabwe,K
