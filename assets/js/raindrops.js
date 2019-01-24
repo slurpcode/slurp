@@ -72,7 +72,7 @@ demo.init = function() {
         //
         //const gui = new dat.GUI();
         //gui.add(demo, 'speed', 0.2, 2);
-
+/*
         // fade out instructions after a few seconds
         var instructions = document.getElementById('instructions');
         setTimeout(function() {
@@ -81,6 +81,8 @@ demo.init = function() {
                 instructions.parentNode.removeChild(instructions);
             }, 2000);
         }, 4000);
+
+        */
     }
 }
 
