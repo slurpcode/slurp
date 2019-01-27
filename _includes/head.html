@@ -18,9 +18,15 @@
   <script src="/assets/js/eggs.js"></script>
   <script>
       $(document).ready(function() {
+          let title = ['🌺 Pink', '💜 Purple', '👾 Fuchsia'];
+          let index = Math.floor(Math.random() * 3);
+          document.title = title[index];
           window.setInterval(function(){
-              let r = Math.floor(Math.random() * 284);
-              $("#logo").attr("src", "/assets/images/logos/fuchsia-"+ r +".png")
+            index = Math.floor(Math.random() * 3);
+            document.title = title[index];
+            console.log('Title Is ', title[index])
+            let r = Math.floor(Math.random() * 284);
+            $("#logo").attr("src", "/assets/images/logos/fuchsia-"+ r +".png")
           }, 7000);
           eggs();
       });
