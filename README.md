@@ -49,6 +49,8 @@
 - [MP4](https://en.wikipedia.org/wiki/MPEG-4_Part_14)
 - [YouTube](https://www.youtube.com/)
 - [OpenSearch](https://developer.mozilla.org/en-US/docs/Web/OpenSearch)
+- [Markdownlint](https://github.com/markdownlint/markdownlint)
+- [yamllint](https://yamllint.readthedocs.io/en/stable/index.html)
 
 ## Find the hidden Fuchsia Beasts
 
@@ -72,8 +74,8 @@
 
 The home of **`Fuchsia`** Programming on GitHub
 
-https://fuchsia-programming.github.io
+[https://fuchsia-programming.github.io](https://fuchsia-programming.github.io)
 
 The original **`Fuchsia`** Programming on Heroku
 
-https://fuchsia.herokuapp.com/
+[https://fuchsia.herokuapp.com/](https://fuchsia.herokuapp.com/)
