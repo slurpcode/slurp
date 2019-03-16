@@ -1,0 +1,23 @@
+---
+layout: page
+title: TV
+permalink: /tv/
+---
+
+{% assign w = "https://en.wikipedia.org/wiki/" %}
+<h3>{%- include harley/harley.html -%}</h3>
+    {%- for concept in site.data.tv -%}
+        {%- assign title = concept.title | strip -%}
+        {% if title != '' %}
+            {% assign display = concept.title %}
+        {% else %}
+            {% assign display = concept.name | split: "_" | join: " " %}
+        {% endif %}
+        <p>
+            <a href="{{w}}{{ concept.name }}" target="_blank" rel="noopener">{{ display }}</a>
+            <br>
+            <a href="{{w}}{{ concept.name }}" target="_blank" rel="noopener">
+                <img src="/assets/images/tv/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
+            </a>
+        </p>
+{%- endfor -%}
