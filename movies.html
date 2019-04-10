@@ -14,9 +14,9 @@ permalink: /movies/
         {% assign display = concept.name | split: "_" | join: " " %}
     {% endif %}
     <p>
-        <a href="{{w}}{{ concept.name }}" target="_blank" rel="noopener">{{ display }}</a>
+        <a href="{{w}}{{ concept.name }}">{{ display }}</a>
         <br>
-        <a href="{{w}}{{ concept.name }}" target="_blank" rel="noopener">
+        <a href="{{w}}{{ concept.name }}">
             <img src="/assets/images/movies/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
         </a>
     </p>
