@@ -101,6 +101,34 @@ jobs:
           command: |
             yamllint .
 
+  percy:
+    docker:
+      - image: circleci/ruby:2.6.2-node-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+      - run:
+          name: install dependencies
+          command: |
+            gem install bundler
+            bundle update --bundler
+            bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: Run percy snapshots
+          command: |
+            bundle exec jekyll build
+            bundle exec percy snapshot --widths "350,1200" _site/
+
 workflows:
   version: 2
   build:
@@ -108,3 +136,4 @@ workflows:
       - rubocop
       - markdown-lint
       - yaml-lint
+      - percy

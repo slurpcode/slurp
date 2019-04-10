@@ -30,6 +30,7 @@ end
 
 gem 'mdl'
 gem 'overcommit'
+gem 'percy-cli'
 gem 'rubocop', require: false
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
