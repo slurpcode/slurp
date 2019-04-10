@@ -4,6 +4,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e1f59ed4900747198ab1df798e85267c)](https://app.codacy.com/app/fuchsia-programming/fuchsia-programming.github.io?utm_source=github.com&utm_medium=referral&utm_content=fuchsia-programming/fuchsia-programming.github.io&utm_campaign=Badge_Grade_Dashboard)
 [![codebeat](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-fuchsia-programming-fuchsia-programming-github-io-master)
 [![CodeFactor](https://www.codefactor.io/repository/github/jbampton/fuchsia-programming.github.io/badge)](https://www.codefactor.io/repository/github/jbampton/fuchsia-programming.github.io)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/fuchsia-programming/fuchsia-programming.github.io.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/fuchsia-programming/fuchsia-programming.github.io/alerts/)
 
 ![Lode Runner](assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](assets/images/gifs/star-wars-2.gif "Star Wars")
