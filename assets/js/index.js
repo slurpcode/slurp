@@ -1,6 +1,6 @@
 document.addEventListener( 'click', function (e) {
     Cookies.set('clicks', Cookies.get('clicks') && (+Cookies.get('clicks') + 1) || 0);
-    var x;
+    let x;
     if(+Cookies.get('clicks') === 25){
         // sonic boom
         x = 12;
@@ -254,7 +254,6 @@ document.addEventListener( 'click', function (e) {
                 smallCircles.push(new mojs.Shape({
                         ...OPTS,
                         parent:         mainCircle.el,
-                        radius:         { 0 : 15 },
                         strokeWidth:    { 30: 0 },
                         left: '50%',    top: '50%',
                         stroke:         colors[ i % colors.length],
@@ -314,10 +313,10 @@ function createTest(el) {
     });
 }
 
-for (var i = 0; i < colorTestEls.length; i++) createTest(colorTestEls[i]);
+for (let i = 0; i < colorTestEls.length; i++) createTest(colorTestEls[i]);
 
 
-var ml4 = {};
+let ml4 = {};
 ml4.opacityIn = [0,1];
 ml4.scaleIn = [0.2, 1];
 ml4.scaleOut = 3;

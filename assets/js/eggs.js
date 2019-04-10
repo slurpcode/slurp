@@ -144,7 +144,7 @@ function eggs() {
                             winter = true;
                             stopPlay(false);
                             $("#audio").append("<audio id=\"my_audio\" src=\"/assets/audio/winter.mp4\" loop></audio>");
-                            promise = document.querySelector('audio').play();
+                            let promise = document.querySelector('audio').play();
                             if (promise !== undefined) {
                                 promise.then(function (_) {
                                     // Autoplay started!
@@ -404,7 +404,7 @@ function flowers(){
 
 function matrix(){
     $("#audio").append("<audio id=\"my_audio\" src=\"/assets/audio/matrix.mp4\" loop></audio>");
-    promise = document.querySelector('audio').play();
+    let promise = document.querySelector('audio').play();
     if (promise !== undefined) {
         promise.then(function (_) {
             // Autoplay started!
