@@ -816,7 +816,7 @@ function Sounds() {
 Sounds.prototype.init = function() {
 
     //  Create the audio context, paying attention to webkit browsers.
-    context = window.AudioContext || window.webkitAudioContext;
+    let context = window.AudioContext || window.webkitAudioContext;
     this.audioContext = new context();
     this.mute = false;
 };

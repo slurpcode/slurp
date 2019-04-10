@@ -1,5 +1,6 @@
 # Pink, Purple or Fuchsia
 
+[![Website](https://img.shields.io/website/https/fuchsia-programming.github.io.svg)](https://fuchsia-programming.github.io/)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/fuchsia-programming/fuchsia-programming.github.io/master.svg)](https://circleci.com/gh/fuchsia-programming/fuchsia-programming.github.io)
 [![Fuchsia Programming is GPL-3.0](https://img.shields.io/github/license/fuchsia-programming/fuchsia-programming.github.io.svg)](https://github.com/fuchsia-programming/fuchsia-programming.github.io/blob/master/LICENSE)
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
@@ -69,6 +70,7 @@
 - [Dependabot](https://dependabot.com/)
 - [CircleCI](https://circleci.com/)
 - [Shields IO](https://shields.io)
+- [Pull Request Size](https://github.com/marketplace/pull-request-size)
 
 ## Find the hidden Fuchsia Beasts
 
