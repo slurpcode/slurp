@@ -1,11 +1,21 @@
 # Pink, Purple or Fuchsia
 
+[![CircleCI branch](https://img.shields.io/circleci/project/github/fuchsia-programming/fuchsia-programming.github.io/master.svg)](https://circleci.com/gh/fuchsia-programming/fuchsia-programming.github.io)
+[![Fuchsia Programming is GPL-3.0](https://img.shields.io/github/license/fuchsia-programming/fuchsia-programming.github.io.svg)](https://github.com/fuchsia-programming/fuchsia-programming.github.io/blob/master/LICENSE)
 [![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=fuchsia-programming/fuchsia-programming.github.io)](https://dependabot.com)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e1f59ed4900747198ab1df798e85267c)](https://app.codacy.com/app/fuchsia-programming/fuchsia-programming.github.io?utm_source=github.com&utm_medium=referral&utm_content=fuchsia-programming/fuchsia-programming.github.io&utm_campaign=Badge_Grade_Dashboard)
 [![codebeat](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-fuchsia-programming-fuchsia-programming-github-io-master)
 [![CodeFactor](https://www.codefactor.io/repository/github/jbampton/fuchsia-programming.github.io/badge)](https://www.codefactor.io/repository/github/jbampton/fuchsia-programming.github.io)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/fuchsia-programming/fuchsia-programming.github.io.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/fuchsia-programming/fuchsia-programming.github.io/alerts/)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/fuchsia-programming/fuchsia-programming.github.io.svg)](https://github.com/fuchsia-programming/fuchsia-programming.github.io/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors-anon/fuchsia-programming/fuchsia-programming.github.io.svg)](https://github.com/fuchsia-programming/fuchsia-programming.github.io/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/fuchsia-programming/fuchsia-programming.github.io.svg)](https://github.com/fuchsia-programming/fuchsia-programming.github.io/commits/master)
+![GitHub repo size](https://img.shields.io/github/repo-size/fuchsia-programming/fuchsia-programming.github.io.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fuchsia-programming/fuchsia-programming.github.io.svg)
+![GitHub language count](https://img.shields.io/github/languages/count/fuchsia-programming/fuchsia-programming.github.io.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/fuchsia-programming/fuchsia-programming.github.io.svg)
+![GitHub search hit counter](https://img.shields.io/github/search/fuchsia-programming/fuchsia-programming.github.io/jekyll.svg)
 
 ![Lode Runner](assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](assets/images/gifs/star-wars-2.gif "Star Wars")
@@ -54,6 +64,11 @@
 - [OpenSearch](https://developer.mozilla.org/en-US/docs/Web/OpenSearch)
 - [Markdownlint](https://github.com/markdownlint/markdownlint)
 - [yamllint](https://yamllint.readthedocs.io/en/stable/index.html)
+- [Percy](https://percy.io)
+- [LGTM](https://lgtm.com)
+- [Dependabot](https://dependabot.com/)
+- [CircleCI](https://circleci.com/)
+- [Shields IO](https://shields.io)
 
 ## Find the hidden Fuchsia Beasts
 
