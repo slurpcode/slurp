@@ -19,7 +19,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'darth', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'sugi', 'jedi', 'anjuna', 'asot', 'progressive', 'chill', 'jazz', 'invaders', 'rain', 'adem', 'preston'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'darth', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'sugi', 'jedi', 'timecop', 'anjuna', 'asot', 'progressive', 'chill', 'jazz', 'invaders', 'rain', 'adem', 'preston'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -73,6 +73,9 @@ function eggs() {
                     case 'jedi':
                         play("https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11");
                         break;
+                    case 'timecop':
+                        play("https://www.youtube-nocookie.com/embed/651c5aqbqm4?rel=0");
+                        break;
                     case 'anjuna':
                         play("https://www.youtube-nocookie.com/embed/wO-r8yYivOA?rel=0");
                         break;
@@ -110,6 +113,17 @@ function eggs() {
 
                         if(match.toString()==='rain'){
                             $("#youtube").after("<canvas id=\"c\"></canvas>");
+                            stopPlay(false);
+                            $("#audio").append("<audio id=\"my_audio\" src=\"/assets/audio/rain.mp4\" loop></audio>");
+                            let promise = document.querySelector('audio').play();
+                            if (promise !== undefined) {
+                                promise.then(function (_) {
+                                    // Autoplay started!
+                                }).catch(function (error) {
+                                    // Autoplay was prevented.
+                                    // Show a "Play" button so that user can start playback.
+                                });
+                            }
                             $.getScript("/assets/js/raindrops.js", function(){
 
                             });
