@@ -5,19 +5,29 @@ permalink: /tv/
 ---
 
 {% assign w = "https://en.wikipedia.org/wiki/" %}
-<h3>{%- include harley/harley.html -%}</h3>
-    {%- for concept in site.data.tv -%}
-        {%- assign title = concept.title | strip -%}
-        {% if title != '' %}
-            {% assign display = concept.title %}
-        {% else %}
-            {% assign display = concept.name | split: "_" | join: " " %}
-        {% endif %}
-        <p>
-            <a href="{{w}}{{ concept.name }}">{{ display }}</a>
-            <br>
-            <a href="{{w}}{{ concept.name }}">
-                <img src="/assets/images/tv/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
-            </a>
-        </p>
+
+{%- for concept in site.data.tv -%}
+
+    {% capture who %}
+        {%- if concept.designer == blank -%}
+            {% include jorge/jorge.html %}
+        {%- else -%}
+            {% include harley/harley.html %}
+        {%- endif -%}
+    {% endcapture %}
+
+    {%- assign title = concept.title | strip -%}
+    {% if title != '' %}
+        {% assign display = concept.title %}
+    {% else %}
+        {% assign display = concept.name | split: "_" | join: " " %}
+    {% endif %}
+    <p>
+        <a href="{{w}}{{ concept.name }}">{{ display }}</a>
+        <br>
+        <a href="{{w}}{{ concept.name }}">
+            <img src="/assets/images/tv/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
+        </a>
+    </p>
+    <h5>{{ who }}</h5>
 {%- endfor -%}
