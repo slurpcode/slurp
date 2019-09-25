@@ -5,23 +5,22 @@ permalink: /games/
 ---
 
 {% assign w = "https://en.wikipedia.org/wiki/" %}
-
-{%- for concept in site.data.games -%}
-    {%- assign title = concept.title | strip -%}
+{%- for row in site.data.games -%}
+    {%- assign title = row.title | strip -%}
     {% if title != '' %}
-        {% assign display = concept.title %}
+        {% assign display = row.title %}
     {% else %}
-        {% assign display = concept.name | split: "_" | join: " " %}
+        {% assign display = row.name | split: "_" | join: " " %}
     {% endif %}
     <p>
-        <a href="{{w}}{{ concept.name }}">{{ display }}</a>
+        <a href="{{w}}{{ row.name }}">{{ display }}</a>
         <br>
-        <a href="{{w}}{{ concept.name }}">
-            <img src="/assets/images/games/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
+        <a href="{{w}}{{ row.name }}">
+            <img src="/assets/images/games/fuchsia-{{ row.image }}.png" alt="{{ display }}" title="{{ display }}">
         </a>
     </p>
     <h5>
-        {%- assign creator = concept.creator | strip -%}
+        {%- assign creator = row.creator | strip -%}
         {% if creator != '' %}
             {%- include karine/karine.html -%}
         {% else %}

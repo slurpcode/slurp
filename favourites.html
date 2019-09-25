@@ -6,26 +6,27 @@ permalink: /favourites/
 
 {% assign w = "https://en.wikipedia.org/wiki/" %}
 <h3>{%- include jorge/jorge.html -%}</h3>
-{%- for concept in site.data.favourites -%}
-    {%- assign title = concept.title | strip -%}
+{%- for row in site.data.favourites -%}
+    {%- assign title = row.title | strip -%}
     {% if title != '' %}
-        {% assign display = concept.title %}
+        {% assign display = row.title %}
     {% else %}
-        {% assign display = concept.name | split: "_" | join: " " %}
+        {% assign display = row.name | split: "_" | join: " " %}
     {% endif %}
     <p>
-        <a href="{{w}}{{ concept.name }}">{{ display }}</a>
+        <a href="{{w}}{{ row.name }}">{{ display }}</a>
         <br>
-        <a href="{{w}}{{ concept.name }}">
-            <img src="/assets/images/fav/jorge/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
+        <a href="{{w}}{{ row.name }}">
+            <img src="/assets/images/fav/jorge/fuchsia-{{ row.image }}.png" alt="{{ display }}" title="{{ display }}">
         </a>
     </p>
 {%- endfor -%}
+{% assign a = "Australia" %}
 <h3>{%- include harley/harley.html -%}</h3>
 <p>
-    <a href="{{w}}Australia">Australia</a>
+    <a href="{{w}}{{a}}">{{a}}</a>
     <br>
-    <a href="{{w}}Australia">
-        <img src="/assets/images/fav/harley/fuchsia-15.png" alt="Australia" title="Australia">
+    <a href="{{w}}{{a}}">
+        <img src="/assets/images/fav/harley/fuchsia-15.png" alt="{{a}}" title="{{a}}">
     </a>
 </p>

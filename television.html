@@ -5,28 +5,25 @@ permalink: /tv/
 ---
 
 {% assign w = "https://en.wikipedia.org/wiki/" %}
-
-{%- for concept in site.data.tv -%}
-
+{%- for row in site.data.tv -%}
     {% capture who %}
-        {%- if concept.designer == blank -%}
+        {%- if row.designer == blank -%}
             {% include jorge/jorge.html %}
         {%- else -%}
             {% include harley/harley.html %}
         {%- endif -%}
     {% endcapture %}
-
-    {%- assign title = concept.title | strip -%}
+    {%- assign title = row.title | strip -%}
     {% if title != '' %}
-        {% assign display = concept.title %}
+        {% assign display = row.title %}
     {% else %}
-        {% assign display = concept.name | split: "_" | join: " " %}
+        {% assign display = row.name | split: "_" | join: " " %}
     {% endif %}
     <p>
-        <a href="{{w}}{{ concept.name }}">{{ display }}</a>
+        <a href="{{w}}{{ row.name }}">{{ display }}</a>
         <br>
-        <a href="{{w}}{{ concept.name }}">
-            <img src="/assets/images/tv/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
+        <a href="{{w}}{{ row.name }}">
+            <img src="/assets/images/tv/fuchsia-{{ row.image }}.png" alt="{{ display }}" title="{{ display }}">
         </a>
     </p>
     <h5>{{ who }}</h5>
