@@ -25,6 +25,7 @@
 
 - [GitHub Pages](https://pages.github.com/)
 - [Git](https://git-scm.com/)
+- [IntelliJ IDEA Community](https://www.jetbrains.com/idea/)
 - [RubyMine](https://www.jetbrains.com/ruby/)
 - [Bundler](https://bundler.io/)
 - [Jekyll](https://jekyllrb.com/)
@@ -71,6 +72,7 @@
 - [CircleCI](https://circleci.com/)
 - [Shields IO](https://shields.io)
 - [Pull Request Size](https://github.com/marketplace/pull-request-size)
+- [Disqus](https://disqus.com/)
 
 ## Find the hidden Fuchsia Beasts
 

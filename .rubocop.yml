@@ -1,4 +1,4 @@
 ---
 
 AllCops:
-  TargetRubyVersion: 2.5.3
+  TargetRubyVersion: 2.5.4

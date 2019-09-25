@@ -6,18 +6,18 @@ permalink: /music/
 
 {% assign w = "https://en.wikipedia.org/wiki/" %}
 <h3>{%- include jorge/jorge.html -%}</h3>
-    {%- for concept in site.data.music -%}
-        {%- assign title = concept.title | strip -%}
-        {% if title != '' %}
-            {% assign display = concept.title %}
-        {% else %}
-            {% assign display = concept.name | split: "_" | join: " " %}
-        {% endif %}
-        <p>
-            <a href="{{w}}{{ concept.name }}">{{ display }}</a>
-            <br>
-            <a href="{{w}}{{ concept.name }}">
-                <img src="/assets/images/music/fuchsia-{{ concept.image }}.png" alt="{{ display }}" title="{{ display }}">
-            </a>
-        </p>
+{%- for row in site.data.music -%}
+    {%- assign title = row.title | strip -%}
+    {% if title != '' %}
+        {% assign display = row.title %}
+    {% else %}
+        {% assign display = row.name | split: "_" | join: " " %}
+    {% endif %}
+    <p>
+        <a href="{{w}}{{ row.name }}">{{ display }}</a>
+        <br>
+        <a href="{{w}}{{ row.name }}">
+            <img src="/assets/images/music/fuchsia-{{ row.image }}.png" alt="{{ display }}" title="{{ display }}">
+        </a>
+    </p>
 {%- endfor -%}
