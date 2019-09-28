@@ -19,7 +19,7 @@ function eggs() {
     $("#overlay").click(function () {
         reset();
     });
-    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'darth', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'sugi', 'jedi', 'timecop', 'anjuna', 'asot', 'progressive', 'chill', 'jazz', 'invaders', 'rain', 'adem', 'preston'];
+    var easterEggs = ['reset', 'fuchsia', 'king', 'winter', 'digger', 'matrix', 'jurassic', 'christmas', 'easter', 'flowers', 'orange', 'yeti', 'min', 'alien', 'dino', 'bear', 'bubble', 'ghost', 'darth', 'thexder', 'fireball', 'space', 'police', 'karate', 'punch', 'jaguar', 'beasts', 'lucky', 'harley', 'jorge', 'barney', 'karine', 'sugi', 'jedi', 'timecop', 'midnight', 'gunship', 'invaders', 'rain', 'adem', 'preston'];
     var keyHistory = '';
     var match;
     var winter = false;
@@ -76,20 +76,11 @@ function eggs() {
                     case 'timecop':
                         play("https://www.youtube-nocookie.com/embed/651c5aqbqm4?rel=0");
                         break;
-                    case 'anjuna':
-                        play("https://www.youtube-nocookie.com/embed/wO-r8yYivOA?rel=0");
+                    case 'midnight':
+                        play("https://www.youtube-nocookie.com/embed/TiNWEm7fjv0?rel=0");
                         break;
-                    case 'asot':
-                        play("https://www.youtube-nocookie.com/embed/pv4xBTrNeoQ?rel=0");
-                        break;
-                    case 'progressive':
-                        play("https://www.youtube-nocookie.com/embed/KvRVky0r7YM?rel=0");
-                        break;
-                    case 'chill':
-                        play("https://www.youtube-nocookie.com/embed/Ec7VUcdB-ww?rel=0");
-                        break;
-                    case 'jazz':
-                        play("https://www.youtube-nocookie.com/embed/Vls4h1GAP-c?rel=0");
+                    case 'gunship':
+                        play("https://www.youtube-nocookie.com/embed/ri9IefTuNzc?start=8&amp;rel=0");
                         break;
                     default:
                         effect(1);
@@ -493,7 +484,7 @@ function stopPlay(n){
 function play(url){
     effect(1);
     $("#youtube").css({"height":"315", "visibility":"visible"});
-    $("#youtube").append('<iframe id="vid" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>');
+    $("#youtube").append('<iframe id="vid" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
     var videoURL = url + "&amp;autoplay=1";
     $("#vid").prop('src', videoURL);
     $("#vid").css({"width":"560", "height":"315", "visibility":"visible"});
