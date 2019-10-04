@@ -229,7 +229,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
-    overcommit (0.50.0)
+    overcommit (0.51.0)
       childprocess (>= 0.6.3, < 4)
       iniparse (~> 1.4)
     parallel (1.17.0)
