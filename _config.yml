@@ -1,5 +1,4 @@
 ---
-
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -42,7 +41,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
