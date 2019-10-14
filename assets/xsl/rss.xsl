@@ -4,12 +4,12 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:include href="common.xsl"/>
     <xsl:template match="/rss">
         <html>
             <head>
                 <style>
                     body {background-color: fuchsia; color: white; font-size: 20pt;}
-                    div {float: left;}
                     p {text-align: center;}
                 </style>
             </head>
@@ -17,18 +17,5 @@ layout: null
                 <xsl:apply-templates select="channel/item"/>
             </body>
         </html>
-    </xsl:template>
-    <xsl:template match="item">
-        <div>
-            <p>
-                <xsl:value-of select="title" disable-output-escaping="yes"/>
-            </p>
-            <p>
-                <xsl:value-of select="description" disable-output-escaping="yes"/>
-            </p>
-            <p>
-                <xsl:value-of select="substring(pubDate,1,16)"/>
-            </p>
-        </div>
     </xsl:template>
 </xsl:stylesheet>
