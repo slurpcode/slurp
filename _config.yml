@@ -27,7 +27,9 @@ twitter_username:
 github_username: fuchsia-programming
 paginate: 5
 feed:
-  path: atom.xml
+  path: feed.xml
+
+author: jbampton
 
 disqus:
   shortname: fuchsia-programming
