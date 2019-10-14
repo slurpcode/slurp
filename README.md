@@ -49,7 +49,7 @@
 - [Graphics Interchange Format - GIF](https://en.wikipedia.org/wiki/GIF)
 - [Portable Network Graphics - PNG](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
 - [JPEG](https://en.wikipedia.org/wiki/JPEG)
-- [ICO](https://en.wikipedia.org/wiki/ICO_(file_format))
+- [ICO](<https://en.wikipedia.org/wiki/ICO_(file_format)>)
 - [CSV](https://en.wikipedia.org/wiki/CSV)
 - [YAML](http://yaml.org/)
 - [Open Graph protocol](http://ogp.me/)
