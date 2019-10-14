@@ -1,0 +1,35 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:atom="http://www.w3.org/2005/Atom">
+    <xsl:template match="/atom:feed">
+        <html>
+            <head>
+                <style>
+                    body {background-color: fuchsia; color: white; font-size: 20pt;}
+                    div {float: left;}
+                    p {text-align: center;}
+                </style>
+            </head>
+            <body>
+                <xsl:apply-templates select="atom:entry"/>
+            </body>
+        </html>
+    </xsl:template>
+    <xsl:template match="atom:entry">
+        <div>
+            <p>
+                <xsl:value-of select="atom:title" disable-output-escaping="yes"/>
+            </p>
+            <p>
+                <xsl:value-of select="atom:content" disable-output-escaping="yes"/>
+            </p>
+            <p>
+                <xsl:value-of select="substring(atom:published,1,10)"/>
+            </p>
+        </div>
+    </xsl:template>
+</xsl:stylesheet>
