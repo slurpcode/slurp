@@ -16,7 +16,7 @@ rules:
   comments: disable
   comments-indentation: disable
   document-start:
-      level: warning
+    level: warning
   empty-lines:
     level: warning
   hyphens:
@@ -25,6 +25,6 @@ rules:
     level: warning
     indent-sequences: consistent
   line-length:
-      max: 350
-      level: warning
+    max: 350
+    level: warning
   truthy: disable
