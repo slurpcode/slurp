@@ -21,8 +21,15 @@
 ![Lode Runner](assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](assets/images/gifs/star-wars-2.gif "Star Wars")
 
+## Note for local testing
+
+Running `bundle exec jekyll serve` can take a while due to 
+the huge parallel universe of Fuchsia. 
+
 ## Built With
 
+- [Ruby](https://www.ruby-lang.org/)
+- [Python](https://www.python.org/)
 - [GitHub Pages](https://pages.github.com/)
 - [Git](https://git-scm.com/)
 - [Vim](https://www.vim.org/)
@@ -58,7 +65,7 @@
 - [Hound](https://houndci.com/)
 - [Sitemaps XML](https://www.sitemaps.org/protocol.html)
 - [RSS](https://en.wikipedia.org/wiki/RSS)
-- [Atom (Web standard)](https://en.wikipedia.org/wiki/Atom_(Web_standard\))
+- [Atom (Web standard)](<https://en.wikipedia.org/wiki/Atom_(Web_standard)>)
 - [XSLT](https://www.w3schools.com/xml/xsl_intro.asp)
 - [XPath](https://www.w3schools.com/xml/xpath_intro.asp)
 - [codebeat](https://codebeat.co)
