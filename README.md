@@ -23,8 +23,8 @@
 
 ## Note for local testing
 
-Running `bundle exec jekyll serve` can take a while due to 
-the huge parallel universe of Fuchsia. 
+Running `bundle exec jekyll serve` can take a while due to the huge parallel
+universe of Fuchsia.
 
 ## Built With
 
