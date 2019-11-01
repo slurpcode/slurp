@@ -127,7 +127,7 @@ jobs:
           name: Run percy snapshots
           command: |
             bundle exec jekyll build
-            bundle exec percy snapshot --widths "1280" _site/
+            bundle exec percy snapshot --widths "1280" _site/ --ignore-files assets/python/**/
 
 workflows:
   version: 2

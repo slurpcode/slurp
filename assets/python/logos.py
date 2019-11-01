@@ -29,18 +29,18 @@ cmaps = [('Perceptually Uniform Sequential', [
 
 def create_images(logos_dir):
     cwd = os.getcwd()
-    for file in glob.glob(os.path.join(logos_dir, '**.png')):
-        d = os.path.splitext(os.path.basename(file))[0]
+    for f in glob.glob(os.path.join(logos_dir, '**.png')):
+        d = os.path.splitext(os.path.basename(f))[0]
         print(d)
         if not os.path.exists(os.path.join(cwd, 'images', 'logos', d)):
             os.makedirs(os.path.join(cwd, 'images', 'logos', d))
-        img = plt.imread(file)
+        img = plt.imread(f)
         lum_img = img[:, :, 1]
         i = 0
         for cmap_category, cmap_list in cmaps:
             for color in cmap_list:
                 i += 1
                 plt.imsave(os.path.join(cwd, 'images/logos/%s/%s.png' % (d, i)), lum_img, cmap='%s' % color)
-        i = 0
+
 
 create_images(sys.argv[1])
