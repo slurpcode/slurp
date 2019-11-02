@@ -1,0 +1,11 @@
+---
+layout: page
+title: ➡️ Parallel Universe
+permalink: /parallel-universe/
+---
+
+{%- for i in (0..306) -%}
+    {%- for j in (1..79) -%}
+        <img src="{{site.baseurl}}/assets/python/images/logos/fuchsia-{{i}}/{{j}}.png" alt="{{site.title}} {{i}}-{{j}}" title="{{site.title}} {{i}}-{{j}}">
+    {% endfor %}
+{% endfor %}
