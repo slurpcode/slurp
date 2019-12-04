@@ -73,15 +73,6 @@ function eggs() {
                     case 'jedi':
                         play("https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11");
                         break;
-                    case 'timecop':
-                        play("https://www.youtube-nocookie.com/embed/651c5aqbqm4?rel=0");
-                        break;
-                    case 'midnight':
-                        play("https://www.youtube-nocookie.com/embed/TiNWEm7fjv0?rel=0");
-                        break;
-                    case 'gunship':
-                        play("https://www.youtube-nocookie.com/embed/ri9IefTuNzc?start=8&amp;rel=0");
-                        break;
                     default:
                         effect(1);
                         var background = match.toString();
@@ -95,6 +86,32 @@ function eggs() {
                         } else {
                             var url = "/assets/images/backgrounds/" + background + ".jpg";
                             $("body").css("background", "url(" + url + ") 0px 65px");
+                            switch(background){
+                                case 'digger':
+                                    play("https://www.youtube-nocookie.com/embed/l0yQfyJlqdA?rel=0", 2);
+                                    break;
+                                case 'king':
+                                    play("https://www.youtube-nocookie.com/embed/bdrjMcwZ0wk?rel=0", 2);
+                                    break;
+                                case 'christmas':
+                                    play("https://www.youtube-nocookie.com/embed/-9XB8O8nKec?rel=0", 2);
+                                    break;
+                                case 'easter':
+                                    play("https://www.youtube-nocookie.com/embed/uDfVZj0PKoU?rel=0", 2);
+                                    break;
+                                case 'jurassic':
+                                    play("https://www.youtube-nocookie.com/embed/PJlmYh27MHg?rel=0", 2);
+                                    break;
+                                case 'midnight':
+                                    play("https://www.youtube-nocookie.com/embed/TiNWEm7fjv0?rel=0", 2);
+                                    break;
+                                case 'gunship':
+                                    play("https://www.youtube-nocookie.com/embed/ri9IefTuNzc?start=8&amp;rel=0", 2);
+                                    break;
+                                case 'timecop':
+                                    play("https://www.youtube-nocookie.com/embed/651c5aqbqm4?rel=0", 2);
+                                    break;
+                            }
                         }
 
                         if(match.toString()==='matrix'){
@@ -481,8 +498,9 @@ function stopPlay(n){
     $("#youtube").css({"height":"0", "visibility":"hidden"});
 }
 
-function play(url){
-    effect(1);
+function play(url, nopicture = 1){
+    // 1 for black hack
+    effect(nopicture);
     $("#youtube").css({"height":"315", "visibility":"visible"});
     $("#youtube").append('<iframe id="vid" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>');
     var videoURL = url + "&amp;autoplay=1";
@@ -509,7 +527,7 @@ function effect(n){
     if(n===1){
         $("body").css({"background-color":"black","height":"1145","background-image":"none"});
         $(".site-header").css({"border-bottom":"5px solid #424242","border-top":"5px solid #424242"});
-    } else {
+    } else if (n!==2) {
         $("body").css({"background-color":"#FF0080","height":"1080","background-image":"none"});
         $(".site-header").css({"border-bottom":"5px solid #FF0080","border-top":"5px solid #FF0080"});
     }
