@@ -58,7 +58,8 @@ function eggs() {
     "invaders",
     "rain",
     "adem",
-    "preston"
+    "preston",
+    "natasha"
   ];
   var keyHistory = "";
   var match;
@@ -110,10 +111,8 @@ function eggs() {
           case "preston":
             loadUrl("https://www.upwork.com/freelancers/~012ab645e1d96a5c7f");
             break;
-          case "jedi":
-            play(
-              "https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11"
-            );
+          case "natasha":
+            loadUrl("https://www.upwork.com/freelancers/~0147c7f6022695298b");
             break;
           default:
             effect(1);
@@ -136,7 +135,7 @@ function eggs() {
               background === "punch" ||
               background === "jaguar" ||
               background === "beasts" ||
-              match.toString() === "lucky" ||
+              background === "lucky" ||
               background === "flowers" ||
               background === "invaders"
             ) {
@@ -203,6 +202,12 @@ function eggs() {
                     2
                   );
                   break;
+                case "jedi":
+                    play(
+                      "https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11",
+                      2
+                    );
+                    break;
               }
             }
 
