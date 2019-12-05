@@ -5,7 +5,6 @@ permalink: /favourites/
 ---
 
 {% assign w = "https://en.wikipedia.org/wiki/" %}
-<h3>{%- include jorge/jorge.html -%}</h3>
 {%- for row in site.data.favourites -%}
     {%- assign title = row.title | strip -%}
     {% if title != '' %}
@@ -17,16 +16,15 @@ permalink: /favourites/
         <a href="{{w}}{{ row.name }}">{{ display }}</a>
         <br>
         <a href="{{w}}{{ row.name }}">
-            <img src="/assets/images/fav/jorge/fuchsia-{{ row.image }}.png" alt="{{ display }}" title="{{ display }}">
+            <img src="/assets/images/logos/fuchsia-{{ row.image }}.png" alt="{{ display }}" title="{{ display }}">
         </a>
     </p>
+    <h5>
+        {%- assign creator = row.creator | strip -%}
+        {% if creator == '' %}
+            {%- include jorge/jorge.html -%}
+        {% else %}
+            {%- include harley/harley.html -%}
+        {% endif %}
+    </h5>
 {%- endfor -%}
-{% assign a = "Australia" %}
-<h3>{%- include harley/harley.html -%}</h3>
-<p>
-    <a href="{{w}}{{a}}">{{a}}</a>
-    <br>
-    <a href="{{w}}{{a}}">
-        <img src="/assets/images/fav/harley/fuchsia-15.png" alt="{{a}}" title="{{a}}">
-    </a>
-</p>
