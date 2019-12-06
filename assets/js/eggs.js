@@ -88,7 +88,7 @@ function eggs() {
             reset();
             break;
           case "fuchsia":
-            effect(2);
+            effect(3);
             break;
           case "harley":
             loadUrl("https://www.upwork.com/fl/harleya");
