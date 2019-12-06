@@ -6,7 +6,10 @@
 
 body {font-size: 13pt;background-color: #94AFD1;}
 article img {display: block; margin-left: auto; margin-right: auto;}
-article img.left {display: block; float: left; width: 360px; height: 360px;}
+article {
+    img.left, div.left {display: block; float: left; width: 360px; height: 360px;}
+    div.left {min-height: 500px}
+}
 article h1, article p {text-align: center}
 .site-header, .site-footer {background-color: #FF0080; border-bottom: 5px solid #424242;}
 .site-header .wrapper a {color: white;}

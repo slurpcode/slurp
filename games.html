@@ -2,6 +2,7 @@
 layout: page
 title: 🎮 Games
 permalink: /games/
+page-type: grid
 ---
 
 {% assign w = "https://en.wikipedia.org/wiki/" %}
@@ -12,19 +13,21 @@ permalink: /games/
     {% else %}
         {% assign display = row.name | split: "_" | join: " " %}
     {% endif %}
-    <p>
-        <a href="{{w}}{{ row.name }}">{{ display }}</a>
-        <br>
-        <a href="{{w}}{{ row.name }}">
-            <img src="/assets/images/games/fuchsia-{{ row.image }}.png" alt="{{ display }}" title="{{ display }}">
-        </a>
-    </p>
-    <h5>
-        {%- assign creator = row.creator | strip -%}
-        {% if creator != '' %}
-            {%- include karine/karine.html -%}
-        {% else %}
-            {%- include jorge/jorge.html -%}
-        {% endif %}
-    </h5>
+    <div class="left">
+        <p>
+            <a href="{{w}}{{ row.name }}">{{ display }}</a>
+            <br>
+            <a href="{{w}}{{ row.name }}">
+                <img src="/assets/images/games/fuchsia-{{ row.image }}.png" alt="{{ display }}" title="{{ display }}">
+            </a>
+        </p>
+        <h5>
+            {%- assign creator = row.creator | strip -%}
+            {% if creator != '' %}
+                {%- include karine/karine.html -%}
+            {% else %}
+                {%- include jorge/jorge.html -%}
+            {% endif %}
+        </h5>
+    </div>
 {%- endfor -%}

@@ -59,7 +59,8 @@ function eggs() {
     "rain",
     "adem",
     "preston",
-    "natasha"
+    "natasha",
+    "platformer"
   ];
   var keyHistory = "";
   var match;
@@ -137,7 +138,8 @@ function eggs() {
               background === "beasts" ||
               background === "lucky" ||
               background === "flowers" ||
-              background === "invaders"
+              background === "invaders" ||
+              background === "platformer"
             ) {
               background = "flowers";
             }
@@ -234,6 +236,13 @@ function eggs() {
                   });
               }
               $.getScript("/assets/js/raindrops.js", function() {});
+            }
+
+            if (match.toString() === "platformer") {
+              h = $(window).height()-60;
+              $("#youtube").after(
+                '<iframe id="c" src="/assets/games/platformer/index.html" height="'+h+'" frameborder="0" allowfullscreen></iframe>'
+              );
             }
 
             if (match.toString() === "invaders") {
