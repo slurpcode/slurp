@@ -60,7 +60,8 @@ function eggs() {
     "adem",
     "preston",
     "natasha",
-    "platformer"
+    "platformer",
+    "fighter"
   ];
   var keyHistory = "";
   var match;
@@ -210,6 +211,14 @@ function eggs() {
                     2
                   );
                   break;
+                case "fighter":
+                  play(
+                    "https://www.youtube-nocookie.com/embed/Vs4mePDYg4Q?rel=0&amp;start=43",
+                    2
+                  );
+                  $("#youtube").after('<canvas id="c"></canvas>');
+                  beastsHorizontal("fireball");
+                  break;
               }
             }
 
@@ -239,9 +248,11 @@ function eggs() {
             }
 
             if (match.toString() === "platformer") {
-              h = $(window).height()-60;
+              h = $(window).height() - 60;
               $("#youtube").after(
-                '<iframe id="c" src="/assets/games/platformer/index.html" height="'+h+'" frameborder="0" allowfullscreen></iframe>'
+                '<iframe id="c" src="/assets/games/platformer/index.html" height="' +
+                  h +
+                  '" frameborder="0" allowfullscreen></iframe>'
               );
             }
 
