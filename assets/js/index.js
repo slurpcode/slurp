@@ -242,25 +242,27 @@ document.addEventListener( 'click', function (e) {
                 easing: 'cubic.out'
             };
 
-            const mainCircle = new mojs.Shape({
-                ...OPTS,
-                stroke:         'cyan',
-            });
+            var MAIN_OPTS = Object.assign({}, OPTS, {
+                stroke:         'cyan'
+            })
+            const mainCircle = new mojs.Shape(MAIN_OPTS);
 
             const smallCircles = [];
             const colors = cols;
 
             for ( let i = 0; i < 10; i++ ) {
+                var SMALL_OPTS = Object.assign({}, OPTS, {
+                    parent:         mainCircle.el,
+                    strokeWidth:    { 30: 0 },
+                    left: '50%',    top: '50%',
+                    stroke:         colors[ i % colors.length],
+                    delay:          'rand(0, 350)',
+                    x:              'rand(-50, 50)',
+                    y:              'rand(-50, 50)',
+                    radius:         'rand(5, 20)'
+                });
                 smallCircles.push(new mojs.Shape({
-                        ...OPTS,
-                        parent:         mainCircle.el,
-                        strokeWidth:    { 30: 0 },
-                        left: '50%',    top: '50%',
-                        stroke:         colors[ i % colors.length],
-                        delay:          'rand(0, 350)',
-                        x:              'rand(-50, 50)',
-                        y:              'rand(-50, 50)',
-                        radius:         'rand(5, 20)'
+                        SMALL_OPTS
                     })
                 );
             }
@@ -313,16 +315,18 @@ function createTest(el) {
     });
 }
 
-for (let i = 0; i < colorTestEls.length; i++) createTest(colorTestEls[i]);
+for (var i = 0; i < colorTestEls.length; i++) createTest(colorTestEls[i]);
 
 
-let ml4 = {};
+var ml4 = {};
 ml4.opacityIn = [0,1];
 ml4.scaleIn = [0.2, 1];
 ml4.scaleOut = 3;
 ml4.durationIn = 800;
 ml4.durationOut = 600;
 ml4.delay = 500;
+
+console.log(ml4);
 
 anime.timeline({loop: true})
     .add({
