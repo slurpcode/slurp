@@ -10,7 +10,7 @@ source 'https://rubygems.org'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-# gem "jekyll", "~> 3.8.3"
+# gem 'jekyll', '~> 3.8.3'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like # rubocop:disable Metrics/LineLength
 # rubocop:enable Metrics/LineLength
@@ -30,7 +30,6 @@ end
 
 gem 'mdl'
 gem 'overcommit'
-gem 'percy-cli'
 gem 'rubocop', require: false
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
