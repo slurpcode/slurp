@@ -315,7 +315,7 @@ function createTest(el) {
 
 for (let i = 0; i < colorTestEls.length; i++) createTest(colorTestEls[i]);
 
-
+/*
 let ml4 = {};
 ml4.opacityIn = [0,1];
 ml4.scaleIn = [0.2, 1];
@@ -367,3 +367,4 @@ anime.timeline({loop: true})
     duration: 500,
     delay: 500
 });
+*/
