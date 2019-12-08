@@ -366,5 +366,4 @@ anime.timeline({loop: true})
     opacity: 0,
     duration: 500,
     delay: 500
-});
-*/
+});*/
