@@ -60,7 +60,8 @@ function eggs() {
     "adem",
     "preston",
     "natasha",
-    "platformer"
+    "platformer",
+    "fighter"
   ];
   var keyHistory = "";
   var match;
@@ -209,6 +210,14 @@ function eggs() {
                     "https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11",
                     2
                   );
+                  break;
+                case "fighter":
+                  play(
+                    "https://www.youtube-nocookie.com/embed/Vs4mePDYg4Q?rel=0&amp;start=43",
+                    2
+                  );
+                  $("#youtube").after('<canvas id="c"></canvas>');
+                  beastsHorizontal("fireball");
                   break;
               }
             }
