@@ -127,7 +127,7 @@ jobs:
           name: Run percy snapshots
           command: |
             bundle exec jekyll build
-            npx percy snapshot _site/ --ignore-files "assets/python/**"
+            npx percy snapshot _site/ --ignore-files "assets/python/** , parallel.html"
 
 workflows:
   version: 2
