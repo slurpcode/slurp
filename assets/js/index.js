@@ -233,47 +233,39 @@ document.addEventListener( 'click', function (e) {
             break;
         case 11:
             const OPTS = {
-                fill:           'none',
-                radius:         25,
-                strokeWidth:    { 50 : 0 },
-                scale:          { 0: 1 },
-                duration:       500,
-                left: 0,        top: 0,
-                easing: 'cubic.out'
-            };
-
-            const mainCircle = new mojs.Shape({
-                ...OPTS,
-                stroke:         'cyan',
-            });
-
-            const smallCircles = [];
-            const colors = cols;
-
-            for ( let i = 0; i < 10; i++ ) {
-                smallCircles.push(new mojs.Shape({
-                        ...OPTS,
-                        parent:         mainCircle.el,
-                        strokeWidth:    { 30: 0 },
-                        left: '50%',    top: '50%',
-                        stroke:         colors[ i % colors.length],
-                        delay:          'rand(0, 350)',
-                        x:              'rand(-50, 50)',
-                        y:              'rand(-50, 50)',
-                        radius:         'rand(5, 20)'
-                    })
-                );
-            }
-
-            mainCircle
-                .tune({ x: e.pageX, y: e.pageY  })
-                .replay();
-
-            for ( let i = 0; i < smallCircles.length; i++ ) {
-                smallCircles[i]
-                    .generate()
-                    .replay();
-            }
+                    fill: 'none',
+                    radius: 25,
+                    strokeWidth: { 50 : 0 },
+                    scale: { 0: 1 },
+                    duration: 500,
+                    left: 0, top: 0,
+                    easing: 'cubic.out'
+                };
+                
+                var MAIN_OPTS = Object.assign({}, OPTS, {
+                    stroke: 'cyan'
+                })
+                const mainCircle = new mojs.Shape(MAIN_OPTS);
+                
+                const smallCircles = [];
+                const colors = cols;
+                
+                for ( let i = 0; i < 10; i++ ) {
+                    var SMALL_OPTS = Object.assign({}, OPTS, {
+                            parent: mainCircle.el,
+                            strokeWidth: { 30: 0 },
+                            left: '50%', top: '50%',
+                            stroke: colors[ i % colors.length],
+                            delay: 'rand(0, 350)',
+                            x: 'rand(-50, 50)',
+                            y: 'rand(-50, 50)',
+                            radius: 'rand(5, 20)'
+                        });
+                        smallCircles.push(new mojs.Shape({
+                            SMALL_OPTS
+                        })
+                    );
+                }
             break;
         default:
             // sonic boom 25 clicks
