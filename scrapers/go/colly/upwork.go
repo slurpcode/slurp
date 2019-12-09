@@ -33,4 +33,3 @@ func main() {
 	// Start scraping on https://www.upwork.com
 	c.Visit(fmt.Sprintf(url, allowed, "johnbampton"))
 }
-
