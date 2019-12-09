@@ -12,9 +12,7 @@ def get_energy_points(user):
     text = tree.xpath('//script[contains(.,"prefersReducedMotion")]/text()')
     points = "Not found"
     for t in text:  # pylint:disable=invalid-name
-        m = re.search(
-            r'points":(\d+),"prefersReducedMotion', t
-        )  # pylint:disable=invalid-name
+        m = re.search(r'points":(\d+),"prefersReducedMotion', t)  # pylint:disable=invalid-name
         if m:
             points = m.group(1)
     return points
