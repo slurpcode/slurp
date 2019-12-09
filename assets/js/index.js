@@ -232,7 +232,7 @@ document.addEventListener( 'click', function (e) {
             bur(burst11, e);
             break;
         case 11:
-            const OPTS = {
+                const OPTS = {
                     fill: 'none',
                     radius: 25,
                     strokeWidth: { 50 : 0 },
