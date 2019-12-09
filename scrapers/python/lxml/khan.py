@@ -1,6 +1,6 @@
 """Broken Khan energy points scraper."""
-
 import re
+
 import requests
 from lxml import html  # pylint:disable=import-error
 
