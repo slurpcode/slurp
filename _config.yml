@@ -52,3 +52,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Google Analytics Please edit with the Google Analytics tracking ID
+google_analytics: UA—XXXXXXXX-X

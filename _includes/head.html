@@ -11,9 +11,9 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {% include icons.html %}
   {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
   <script src="/assets/js/jquery-3.4.1.min.js"></script>
   <script src="/assets/js/eggs.js"></script>
   <script src="/assets/js/start.js"></script>
