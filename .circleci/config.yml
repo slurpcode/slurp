@@ -29,7 +29,7 @@ jobs:
             - v1-dependencies-
 
       - run:
-          name: install dependencies
+          name: 🏗️ Install dependencies
           command: |
             gem install bundler
             bundle update --bundler
@@ -41,7 +41,7 @@ jobs:
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
 
       - run:
-          name: Run Ruby lint
+          name: 🧹 Run Ruby lint
           command: |
             bundle exec rubocop
 
@@ -60,7 +60,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
       - run:
-          name: install dependencies
+          name: 🏗️ Install dependencies
           command: |
             gem install bundler
             bundle update --bundler
@@ -70,7 +70,7 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
       - run:
-          name: Run Markdown lint
+          name: 🧹 Run Markdown lint
           command: |
             bundle exec mdl .
 
@@ -91,13 +91,13 @@ jobs:
       - checkout
 
       - run:
-          name: Install dependencies
+          name: 🏗️ Install dependencies
           command: |
             sudo apt update
             sudo pip install yamllint
 
       - run:
-          name: Run YAML lint
+          name: 🧹 Run YAML lint
           command: |
             yamllint .
 
@@ -114,7 +114,7 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
       - run:
-          name: install dependencies
+          name: 🏗️ Install dependencies
           command: |
             gem install bundler
             bundle update --bundler
@@ -129,6 +129,92 @@ jobs:
             bundle exec jekyll build
             npx percy snapshot _site/ --widths "1280" --ignore-files "assets/python/**"
 
+  pylint:
+    docker:
+      - image: circleci/python:3.7.0
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: 🏗️ Install dependencies
+          command: |
+            sudo apt update
+            sudo pip3 install pylint lxml requests
+      - run:
+          name: 🧹 Run Pylint
+          command: |
+            find . -name "*.py" | xargs pylint
+
+  shellcheck:
+    docker:
+      - image: nlknguyen/alpine-shellcheck:v0.4.6
+    steps:
+      - checkout
+      - run:
+          name: 🧹 Lint shell scripts
+          command: |
+            find . -type f -name '*.sh' | wc -l
+            find . -type f -name '*.sh' | xargs shellcheck --external-sources
+
+  go-lint:
+    docker: # run the steps with Docker
+      # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
+      - image: circleci/golang:1.13.3 #
+    # directory where steps are run. Path must conform to the Go Workspace requirements
+    working_directory: /go/src/github.com/fuchsia-programming/fuchsia-programming.github.io
+
+    steps:
+      - checkout
+      - restore_cache: # restores saved cache if no changes are detected since last run
+          # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
+          keys:
+            - v1-pkg-cache
+
+      - run: go get -u github.com/mgechev/revive
+      - run:
+          name: 🧹 Run Golang revive lint
+          command: |
+            cd scrapers/go
+            sh ./check-revive.sh || exit 1
+
+      - save_cache: # Store cache in the /go/pkg directory
+          key: v1-pkg-cache
+          paths:
+            - "/go/pkg"
+
+  shell:
+    docker:
+      - image: circleci/python:3.7.0
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: 🐚 Print quotes from Brainyquote using shell
+          command: |
+            cd scrapers/shell
+            sh ./brainyquote.sh tennis balls
+      - run:
+          name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using sed
+          command: |
+            cd scrapers/shell
+            sh ./github-max-per-day-sed.sh fabpot
+      - run:
+          name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using pcregrep
+          command: |
+            cd scrapers/shell
+            sh ./github-max-per-day-pcregrep.sh fabpot
+      - run:
+          name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using perl
+          command: |
+            cd scrapers/shell
+            sh ./github-max-per-day-perl.sh fabpot
+      - run:
+          name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using awk
+          command: |
+            cd scrapers/shell
+            sh ./github-max-per-day-awk.sh fabpot
+
+
 workflows:
   version: 2
   build:
@@ -137,3 +223,7 @@ workflows:
       - markdown-lint
       - yaml-lint
       - percy
+      - pylint
+      - shellcheck
+      - go-lint
+      - shell

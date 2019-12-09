@@ -277,6 +277,7 @@ DEPENDENCIES
   jemoji
   mdl
   minima (~> 2.5)
+  nokogiri
   overcommit
   rubocop
   tzinfo-data

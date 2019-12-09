@@ -1,0 +1,6 @@
+LET doc = DOCUMENT("https://www.upwork.com/fl/johnbampton", true)
+WAIT_ELEMENT(doc, 'span[itemprop="pricerange"]')
+LET price = ELEMENTS(doc, 'span[itemprop="pricerange"]')
+RETURN {
+        rate: price[1]
+       }

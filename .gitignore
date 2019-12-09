@@ -5,3 +5,7 @@ _site
 *.iml
 *.ipr
 *.iws
+scapers/fql/*.log
+ferret.log
+scapers/shell/logos
+scapers/shell/random
