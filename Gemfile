@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem 'jemoji'
 end
 
+gem 'activesupport', '>= 4.1.11'
 gem 'mdl'
 gem 'nokogiri'
 gem 'overcommit'
