@@ -2,7 +2,8 @@
 
     include('base/common.php');
 
-    function get_energy_points($user){
+    function get_energy_points($user)
+    {
         $url = "https://www.khanacademy.org/profile/$user/";
         $content = get_content($url);
         preg_match('/points":(\\d+),"prefersReducedMotion/', $content, $matches);
