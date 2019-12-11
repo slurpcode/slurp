@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sleep 60
+sleep 75
 old="$IFS"
 IFS='+'
 str="'$*'"

@@ -21,10 +21,11 @@
 ![Lode Runner](assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](assets/images/gifs/star-wars-2.gif "Star Wars")
 
-## Note for local testing
+## Local testing
 
-Running `bundle exec jekyll serve` can take a while due to the huge parallel
-universe of Fuchsia.
+```
+bundle exec jekyll serve
+```
 
 ## Built With
 
