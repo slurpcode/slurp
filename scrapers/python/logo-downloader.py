@@ -1,7 +1,8 @@
 import os
 import sys
-import requests
 import time
+
+import requests
 
 mypath = "logos"
 img_url = "https://raw.githubusercontent.com/fuchsia-programming \
