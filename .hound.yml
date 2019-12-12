@@ -1,8 +1,28 @@
 ---
 
+erblint:
+  config_file: .erb-lint.yml
+  enabled: true
+
 eslint:
   enabled: true
   ignore_file: .eslintignore
 
+flake8:
+  enabled: true
+
+flog:
+  enabled: true
+
+phpcs:
+  enabled: true
+
 reek:
+  enabled: true
+
+rubocop:
+  config_file: .rubocop.yml
+  version: 0.77.0
+
+shellcheck:
   enabled: true
