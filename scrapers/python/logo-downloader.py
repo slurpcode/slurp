@@ -23,7 +23,7 @@ def working_directory():
 
     if cur_path:        
         number = check_arguments()
-        if number == False:
+        if not number:
             j = 306
         else:
             j = number
@@ -34,7 +34,7 @@ def working_directory():
                 response = requests.get(img_url+img_name, stream=True)
 
                 if not response.ok:
-                    print response
+                    print(response)
 
                 for block in response.iter_content(1024):
                     if not block:
