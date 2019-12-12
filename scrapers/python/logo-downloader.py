@@ -3,9 +3,9 @@ import sys
 import requests
 import time
 
-mypath = 'logos'
-img_url = 'https://raw.githubusercontent.com/fuchsia-programming \
-/fuchsia-programming.github.io/master/assets/images/logos/'
+mypath = "logos"
+img_url = "https://raw.githubusercontent.com/fuchsia-programming \
+/fuchsia-programming.github.io/master/assets/images/logos/"
 
 if not os.path.isdir(mypath):
     os.makedirs(mypath)
@@ -28,10 +28,10 @@ def working_directory():
             j = 306
         else:
             j = number
-        for i in range(int(j)+1):
-            img_name = 'fuchsia-'+str(i)+'.png'
-            with open(img_name, 'wb') as handle:
-                response = requests.get(img_url+img_name, stream=True)
+        for i in range(int(j) + 1):
+            img_name = "fuchsia-" + str(i) + ".png"
+            with open(img_name, "wb") as handle:
+                response = requests.get(img_url + img_name, stream=True)
                 if not response.ok:
                     print(response)
                 for block in response.iter_content(1024):
