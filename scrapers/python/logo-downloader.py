@@ -8,19 +8,21 @@ img_url = 'https://raw.githubusercontent.com/fuchsia-programming \
 /fuchsia-programming.github.io/master/assets/images/logos/'
 
 if not os.path.isdir(mypath):
-   os.makedirs(mypath)
+    os.makedirs(mypath)
+
 
 def check_arguments():
     if len(sys.argv) > 1:
         return sys.argv[1]
     return False
 
+
 def working_directory():
     owd = os.getcwd()
     os.chdir(owd + "/" + mypath)
     cur_path = os.getcwd()
 
-    if cur_path:        
+    if cur_path:
         number = check_arguments()
         if not number:
             j = 306
@@ -40,9 +42,11 @@ def working_directory():
     else:
         sys.exit()
 
+
 def main():
     cur_path = working_directory()
     print(cur_path)
+
 
 if __name__ == "__main__":
     main()
