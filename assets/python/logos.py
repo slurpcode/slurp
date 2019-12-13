@@ -1,8 +1,9 @@
+"""Creates logos from the Matplotlib Colormaps."""
 import glob
 import os
 import sys
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt  # pylint:disable=E0401
 
 cmaps = [
     ("Perceptually Uniform Sequential",
@@ -111,16 +112,19 @@ cmaps = [
 
 
 def create_images(logos_dir):
+    """
+    For each of our logos this function creates
+    79 images from the Colormaps of Matplotlib.
+    """
     cwd = os.getcwd()
     for f in glob.glob(os.path.join(logos_dir, "**.png")):
         d = os.path.splitext(os.path.basename(f))[0]
-        print(d)
         if not os.path.exists(os.path.join(cwd, "images", "logos", d)):
             os.makedirs(os.path.join(cwd, "images", "logos", d))
         img = plt.imread(f)
         lum_img = img[:, :, 1]
         i = 0
-        for cmap_category, cmap_list in cmaps:
+        for cmap_category, cmap_list in cmaps:  # pylint: disable=W0612
             for color in cmap_list:
                 i += 1
                 plt.imsave(

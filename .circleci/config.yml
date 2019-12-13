@@ -143,7 +143,7 @@ jobs:
       - run:
           name: 🧹 Run Pylint
           command: |
-            find . -name "*.py" | xargs pylint
+            find . -name "*.py" | xargs pylint --disable=C0103
 
   shellcheck:
     docker:
