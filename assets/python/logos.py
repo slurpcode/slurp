@@ -6,7 +6,8 @@ import sys
 import matplotlib.pyplot as plt
 
 cmaps = [
-    ("Perceptually Uniform Sequential", ["viridis", "plasma", "inferno", "magma"]),
+    ("Perceptually Uniform Sequential",
+     ["viridis", "plasma", "inferno", "magma"]),
     (
         "Sequential",
         [
