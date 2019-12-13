@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<article class="post">
+
+    <div>
+        <article>
+            <h1 id="{{ page.title | downcase  }}">{{ page.title }}</h1>
+            {{ content }}
+        </article>
+    </div>
+
+    <div class="post-content">
+        {% include docs_contents.html %}
+    </div>
+
+    {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+    {%- endif -%}
+
+</article>
+

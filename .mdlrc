@@ -1,2 +1,2 @@
 git_recurse true
-rules "~MD009,~MD013,~MD033"
+rules "~MD009,~MD013,~MD026,~MD029,~MD032,~MD033,~MD034"

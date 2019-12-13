@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Police Quest"
 date: 2018-09-09 06:17:01 +1000
 categories: GIF

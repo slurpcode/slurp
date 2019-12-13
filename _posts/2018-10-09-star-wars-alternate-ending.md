@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Star Wars Alternate Ending"
 date: 2018-10-09 21:58:01 +1000
 categories: GIF

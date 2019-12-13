@@ -33,21 +33,60 @@ author: jbampton
 disqus:
   shortname: fuchsia-programming
 
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+defaults:
+  - scope:
+      path: _docs
+      type: docs
+    values:
+      color: white
+      layout: docs
+      page-type: docs
+  - scope:
+      path: _posts
+      type: posts
+    values:
+      layout: post
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
-  - jemoji
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
   - jekyll-sitemap
+  - jemoji
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - .deepsource.toml
+  - .editorconfig
+  - .erb-lint.yml
+  - .eslintignore
+  - .gitignore
+  - .hound.yml
+  - .mdlrc
+  - .overcommit.yml
+  - .percy.yml
+  - .rubocop.yml
+  - .ruby-version
+  - .travis.yml
+  - .whitesource
+  - .yamllint
   - assets/python/
-#   - Gemfile
-#   - Gemfile.lock
+  - config.toml
+  - CODEOWNERS
+  - fuchsia-programming.github.io.iws
+  - Gemfile
+  - Gemfile.lock
+  - lint.sh
+  - renovate.json
+  - requirements.txt
 #   - node_modules
   - vendor/bundle/
 #   - vendor/cache/

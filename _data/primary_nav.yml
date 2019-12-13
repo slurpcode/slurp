@@ -1,0 +1,35 @@
+---
+
+- title: 🌸 Home
+  link: /
+  show_on_mobile: true
+- title: 📖 About
+  link: /about/
+  show_on_mobile: true
+- title: ℹ️ Documentation
+  link: /docs/
+  show_on_mobile: true
+- title: 🎁 🎊 Favourites
+  link: /favourites/
+  show_on_mobile: true
+- title: 🇦🇺 🇦🇲 🇺🇸 🇵🇭 🇧🇷 Flags
+  link: /flags/
+  show_on_mobile: true
+- title: 🖼️ Gallery
+  link: /gallery/
+  show_on_mobile: true
+- title: 🎮 Games
+  link: /games/
+  show_on_mobile: true
+- title: 🎦 Movies
+  link: /movies/
+  show_on_mobile: true
+- title: 🎼 Music
+  link: /music/
+  show_on_mobile: true
+- title: ➡️ Parallel
+  link: /parallel-universe/
+  show_on_mobile: true
+- title: 📺 TV
+  link: /tv/
+  show_on_mobile: true
