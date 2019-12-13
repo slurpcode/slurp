@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sleep 75
+sleep 90
 mkdir -p logos
 cd logos || exit
 if [ -z "$1" ]; then

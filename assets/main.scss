@@ -79,8 +79,15 @@ main .wrapper {
     max-width: 360px;
     background-color: #94AFD1;
 }
-
+main.white {background-color: white;}
 main .wrapper.grid { max-width: none;}
+main.white .wrapper.docs {
+    text-align: left; max-width: none; background-color: white;
+    h1 {font-size: 42pt; text-align: left;}
+    h4 {text-align: center;}
+    p {font-size: 115%; text-align: left;}
+}
+main .wrapper.docs p {font-size: 115%;}
 
 @media screen and (max-width:600px){
   .site-nav {
@@ -137,3 +144,5 @@ canvas {display: block;}
 .post-list {padding-top: 70px;}
 
 #weather-info {height: 80px;}
+
+.site-nav li {height: 31px;}

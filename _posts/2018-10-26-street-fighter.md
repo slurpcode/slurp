@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Street Fighter"
 date: 2018-10-26 08:27:01 +1000
 categories: GIF

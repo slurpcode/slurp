@@ -21,8 +21,7 @@ reek:
   enabled: true
 
 rubocop:
-  config_file: .rubocop.yml
-  version: 0.77.0
+  enabled: false
 
 shellcheck:
   enabled: true

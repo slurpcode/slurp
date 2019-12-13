@@ -1,0 +1,15 @@
+---
+- title: 🎬 Getting Started
+  docs:
+    - title: ℹ️ Documentation
+      link: /docs/
+    - title: 💾 Database
+      link: /docs/database/
+    - title: ⏩ Golang
+      link: /docs/go/
+    - title: 💎 Ruby
+      link: /docs/ruby/
+    - title: 🗄️ SQL File
+      link: /docs/sql-file/
+    - title: 🔗 Links
+      link: /docs/links/

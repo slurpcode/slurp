@@ -279,6 +279,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.13)
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-sitemap
   jemoji
   mdl
