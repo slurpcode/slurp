@@ -26,7 +26,8 @@ permalink: /docs/links/
 
 # Free short courses
 
-- [Welcome to Codecademy!](https://www.codecademy.com/learn/welcome-to-codecademy) - We recommend starting with this course
+- [Welcome to Codecademy!](https://www.codecademy.com/learn/welcome-to-codecademy) -
+  We recommend starting with this course
 - [Learn HTML](https://www.codecademy.com/learn/learn-html)
 - [Learn CSS](https://www.codecademy.com/learn/learn-css)
 - [Make a Website](https://www.codecademy.com/learn/make-a-website)
