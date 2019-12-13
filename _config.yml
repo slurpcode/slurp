@@ -87,7 +87,7 @@ exclude:
   - lint.sh
   - renovate.json
   - requirements.txt
-#   - node_modules
+  #   - node_modules
   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
