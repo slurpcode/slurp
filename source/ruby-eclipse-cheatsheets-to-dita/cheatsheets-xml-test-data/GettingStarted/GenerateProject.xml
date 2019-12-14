@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Generating a project for your data"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="..\contentFile.xsd">
+   <intro>
+      <description>Debrief NG stores it&apos;s data in a local folder called a Project. It&apos;s into this
+         folder that you place analysis files and links to existing data folders elsewhere on your
+         machine/network. This tutorial will lead you through creating a new, blank project.
+      </description>
+   </intro>
+   <item title="Check Navigator is open">
+      <description>In the top left hand corner of Debrief you should find the Navigator window. If
+         it isn't there, select "Navigator" from Debrief's Window/Show View menu.</description>
+   </item>
+   <item skip="true" title="Learn about the Show View menu">
+      <description> Was the navigator view already open? If it was then you&apos;ve missed out on
+         the Show View menu. Just open the Window menu from the top of Debrief, and select <b>Show
+            view</b>. A list of Debrief-specific views will open. So, in the future, if you&apos;re
+         directed to a view but you can&apos;t find it, just remember you can open any view from
+         this menu, </description>
+   </item>
+   <item title="Learn about the Quick Access panel">
+      <description> Alternatively, whereever you are in Debrief, you can popup the quick access
+         panel. Just hold down the <b>[ctrl]</b> key, press <b>3</b> and a yellow post-it like menu
+         will appear. As you start typing &apos;Navigator&apos; the list of available commands will
+         shrink down until your required view is open. Obviously, this is of greater relevance to
+         those who favour keyboard over mouse. </description>
+   </item>
+   <item title="Learn about Views in Debrief">
+      <description> As you&apos;ll have read, the Navigator panel is an example of a View in
+         Debrief. Views are supplemental panels that provide additional information (or control) to
+         the conventional 2D Debrief plot. They can be closed by clicking on the <b>X</b> icon on
+         their name tab. They can also be dragged around, both within Debrief (to put them, for
+         example on the opposite side of the application), or out of Debrief into a separate window.
+         When you close Debrief, it remembers the views that were previously open. </description>
+   </item>
+   <item title="Check you need a project">
+      <description>If the navigator window is empty, then you need to create a project. If the
+         window already contains a folder-icon (possibly containing sample data) then hey, you're
+         ready to go, well done! Return to the Welcome page and select another tutorial (such as
+         'Getting your data into Debrief'. Otherwise, tick the 'Complete' box below and continue
+         with this tutorial.</description>
+   </item>
+   <item title="Create a 'General' project" dialog="true">
+      <description>Right-click in the Navigator view, and select <b>Project...</b> from the
+            <b>New</b> sub-menu. The New Project wizard will open. From the <b>General</b> folder,
+         select <b>Project</b>, and then press <b>Next</b>. Now just enter a name for your project
+         (this could be the name of the current exercise). If you&apos;re in a workplace where users
+         are unable to create folders in their home directory, clear the <b>Use default location</b>
+         checkbox, and <b>Browse</b> to a folder in your personal working directories. (Note: you can ignore 'Working Sets' for now).
+         Then just press the &apos;Finish&apos; button, and you will see the new project in your workspace.
+      </description>
+   </item>
+</cheatsheet>

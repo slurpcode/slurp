@@ -174,7 +174,7 @@ jobs:
       - run:
           name: 🧹 Run Golang revive lint
           command: |
-            cd scrapers/go
+            cd source/scrapers/go
             sh ./check-revive.sh || exit 1
 
       - save_cache: # Store cache in the /go/pkg directory
@@ -191,27 +191,27 @@ jobs:
       - run:
           name: 🐚 Print quotes from Brainyquote using shell
           command: |
-            cd scrapers/shell
+            cd source/scrapers/shell
             sh ./brainyquote.sh tennis balls
       - run:
           name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using sed
           command: |
-            cd scrapers/shell
+            cd source/scrapers/shell
             sh ./github-max-per-day-sed.sh fabpot
       - run:
           name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using pcregrep
           command: |
-            cd scrapers/shell
+            cd source/scrapers/shell
             sh ./github-max-per-day-pcregrep.sh fabpot
       - run:
           name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using perl
           command: |
-            cd scrapers/shell
+            cd source/scrapers/shell
             sh ./github-max-per-day-perl.sh fabpot
       - run:
           name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using awk
           command: |
-            cd scrapers/shell
+            cd source/scrapers/shell
             sh ./github-max-per-day-awk.sh fabpot
 
 

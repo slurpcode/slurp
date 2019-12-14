@@ -15,6 +15,8 @@ permalink: /docs/ruby/
 - [Refactoring Ruby](https://martinfowler.com/books/refactoringRubyEd.html)
 - [Practical Object Oriented Design - An Agile Primer Using Ruby](https://martinfowler.com/books/refactoringRubyEd.html)
 
+[&#8595;](#watch-this-space) [&#8593;](#ruby)
+
 ## Watch This Space
 
 [&#8593;](#ruby)

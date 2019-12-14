@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Analysing Sensor Data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\contentFile.xsd">
+	<intro>
+		<description>With ever-increasing data rates from multiple recording systems it is easy for an analysis plot to become swamped.  Debrief NG provides tools to reduce the volume and type of data displayed.  This tutorial will lead you through the management of large volumes of data.</description>
+	</intro>
+	<item title="Check you have some data" href="/org.eclipse.platform.doc.user/concepts/cnav.htm">
+		<description>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  Also check you have our sample data-files - it they're not there, find how to load them from the "Loading sample data" cheat-sheet.</description>
+	</item>
+	<item title="Open the sample sensor tracks">
+		<description>Double-click on the "sen_tracks.rep" file, and you will see the red and blue vessel tracks.</description>
+	</item>
+	<item title="Fit to window" href="\org.mwc.debrief.help\html\legacy\moving_around.html#Fit_To_Win">
+		<description>To make sure all of the data is visible, click on the "Fit-to-Window" toolbar button.  To these tracks you're going to add the sensor data</description>
+	</item>
+	<item title="Drag in the SSK track">
+		<description>From the Navigator window, drag the SSK sensor data file  (sen_ssk_sensor.rep) onto the plot.</description>
+	</item>
+	<item title="And now the FF track">
+		<description>Next, drag the SSK sensor data file  (sen_frig_sensor.rep) onto the plot.  No, there hasn't been a visible change to the plot, but be assured, the data is there.</description>
+	</item>
+	<item title="View the sensor data">
+		<description>From the Outline View, expand the 'tree' for each track (they're called 'Frigate' and 'New_SSK').  Within each track you will see named blocks of sensor data.  Make each block of sensor data visible by selecting it, then clicking on the 'make visible' toolbar button. As you make each set of data visible you should see its bearing fan appear. Overall there are three blocks of sensor data across the two tracks.</description>
+	</item>
+	<item title="Sensor formatting options" skip="true">
+		<description>Sensor lines can be formatted to change their colour, their label, and the location of their label.  The formatting can be applied to a single sensor line or a series of sensor lines.  Now, the dense fans of sensor data present in the sample files you have don't lend themselves to being individually annotated. So we won't.  </description>
+	</item>
+	<item title="Format the sensor data">
+		<description>What we're going to do now is simulate formatting a series of bearing lines to represent a particular sensor state.  So, from the Outline View open up the "NEW_SSK_BB" sensor for the "New_SSK" track.  Select the first five sensor bearings.  Now switch to the properties view.  This view should show the editable properties for those bearings.  Change the color from red to yellow.  You will see the sensor lines on the plot update.</description>
+	</item>
+	<item title="Conduct a plot-lock" href="\org.mwc.debrief.help\html\legacy\formatting_data.html#track_shifting">
+		<description>What we're going to do now is to simulate the process of dragging tracks so that their bearing fans match.  In UK this is called a plot-lock, and in the US its called a tie-point.  First we must indicate which tracks we want to view the relationship between - so make the Frigate the primary track, and the New_SSK the secondary track - you should now see them both on the Track Tote.</description>
+	</item>
+	<item title="Commence plot-lock" href="\org.mwc.debrief.help\html\legacy\moving_around.html#toggle_buttons">
+		<description>Next we tell Debrief that we want to use the mouse to drag the tracks, so click on the "Drag Whole Feature" button - it's a white arrow with a solid rectangle  at its top-right near the start of the Workbench toolbar.</description>
+	</item>
+	<item title="Start dragging" href="\org.mwc.debrief.help\html\legacy\formatting_data.html#stacked_dots_view">
+		<description>The 'Stacked Dots' view should have opened, and the cursor should now have changed to a white hand. The Stacked Dots view shows the bearing error for visible sensor bearing lines against the point on the target track nearest to that DTG.  When the cursor is over something thats draggable, it will turn green.  So move the cursor over the north-west end of the blue track until the cursor turns green, hold down the mouse button, and start dragging.  You will see track and it's sensor data start hover as you drag it, and the bearing errors in the Stacked Dots view will update proportionally - in plot-locking the tracks you're trying to minimise the errors displayed on the graph.  If you weight some sensor data more than others, experiment with hiding those blocks of sensor data (by making them not visible) - this will declutter the plot and the stacked dots, making plot-locking easier.</description>
+	</item>
+	<item title="Done">
+		<description>Well done, that's the loading, management, and formatting of sensor data - supported by a healthy dose of plot-locking.</description>
+	</item>
+</cheatsheet>

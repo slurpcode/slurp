@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Creating a new plot in Debrief">
+	<intro>
+		<description>This tutorial will lead you through creating a new, blank plot in Debrief.
+		</description>
+	</intro>
+	<item title="Check you have a Project">
+		<description>Before you can create a Plot, you must have a Project into which the Plot is created. If you haven't created a project, go to the "Generating a project" cheatsheet, then return here.
+		</description>
+	</item>
+ <item
+       title="Choose location for plot file">
+    <description>
+       Debrief will store the new plot in one of your existing folders.  If your navigator contains links to both shared training data and personal data folders, it&apos;s probably best to create this plot in your personal data folder.
+    </description>
+ </item>
+	<item title="Create new plot">
+		<description>In the Navigator view, right-click on the parent folder for your new plot and select <b>New</b>/<b>Debrief Plot</b> and the Wizard will open.  Once the wizard opens, the first step is to confirm where you would like the plot to be stored (it&apos;s <b>Container</b>). If you&apos;re not happy with the specified location click on <b>Browse</b> button and select the top-level folder of your data directories.  Also provide a filename.
+Using the wizard, follow the series of tabs to indicate what information you&apos;d like shown in the background of the plot, clicking Finish to complete.  Some of the steps will not advance until all of the necessary fields have been filled.
+		</description>
+	</item>
+ <item
+       title="Finished">
+    <description>
+       Once the Wizard has closed, the plot you&apos;ve created can be found in the folder you specified.
+    </description>
+ </item>
+</cheatsheet>

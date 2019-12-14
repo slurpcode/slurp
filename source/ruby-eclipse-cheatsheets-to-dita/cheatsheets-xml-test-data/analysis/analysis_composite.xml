@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compositeCheatsheet name="Analysing Data with Debrief NG">
+   <taskGroup kind="set" name="Controlling what you view" skip="false">
+      <intro>
+         This <i>NoPrint</i> tutorial is going to get you started with some of the analysis functionality within Debrief.
+      </intro>
+      <onCompletion>
+         So now you know how to go beyond merely formatting data, you&apos;re able to temporally navigate through an encounter, and produce plots of data
+      </onCompletion>
+      <task kind="cheatsheet" name="Using the Outline View" skip="false">
+         <intro>
+            Firstly, you&apos;ll be using the Outline View to control how much data is visible on the plot.
+         </intro>
+         <onCompletion>
+            Now you&apos;re a master of manipulating data, a skill essential both to data analysis and the collation of information for transfer to further presentation via Word or PowerPoint
+         </onCompletion>
+         <param name="path" value="../ViewingPlots/FilteringYourData.xml">
+         </param>
+      </task>
+      <task kind="cheatsheet" name="Primary and Secondary Tracks" skip="false">
+         <intro>
+            Debrief has a <b>special</b> place in its heart for vessel tracks, and provides capabilities to allow you to focus your attention on one or more tracks.
+         </intro>
+         <onCompletion>
+            So, you now understand Primary and Secondary tracks. You&apos;re practically an analyst!
+         </onCompletion>
+         <param name="path" value="SettingPrimaryAndSecondaryTracks.xml">
+         </param>
+      </task>
+      <task kind="cheatsheet" name="Controlling time" skip="false">
+         <intro>
+            Next we&apos;ll delve deeper in the temporal (time) control of track data - including different ways to display moving vessel tracks.
+         </intro>
+         <onCompletion>
+            The <b>Time Controller</b> is a very capable panel that provides a wide range of functionality.  You&apos;ve now got an idea how to control it.
+         </onCompletion>
+         <param name="path" value="TemporalNavigation.xml">
+         </param>
+      </task>
+      <task kind="cheatsheet" name="Producing data plots" skip="false">
+         <intro>
+            Debrief has lots of embedded functionality that deals with the relationship between two tracks: ranges, bearings, range and bearing rates ...  You can access some of this computational ability by asking Debrief to produce plots of your data. You&apos;ll learn how in this cheat sheet.
+         </intro>
+         <onCompletion>
+            And that&apos;s all for using Debrief for analysis.  If you&apos;re from an organisation that conducts TMA analysis based on sensor data (or you&apos;ve a general yearning to learn) why not go back to the <b>Welcome</b> page (using the <b>Restore Welcome</b> link at the top of this view and try the <b>Debrief support for single sided reconstruction</b> tutorial.
+         </onCompletion>
+         <param name="path" value="TimeVariableAnalysis.xml">
+         </param>
+      </task>
+   </taskGroup>
+</compositeCheatsheet>

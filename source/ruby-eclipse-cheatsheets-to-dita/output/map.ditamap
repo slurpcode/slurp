@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+  <title>Debrief Topic Map</title>
+  <topicmeta>
+    <searchtitle>Debrief Eclipse cheat sheets</searchtitle>
+    <shortdesc>Overview of Debrief inside Eclipse</shortdesc>
+    <author>Debrief</author>
+    <author>John Bampton</author>
+    <source>http://debrief.info/</source>
+    <publisher>Github John Bampton and Ruby</publisher>
+    <critdates>
+      <created date="2019-12-14"/>
+    </critdates>
+    <audience type="marine expert"
+      job="analysis" experiencelevel="intermediate"/>
+    <category>Maritime</category>
+    <category>Software</category>
+    <othermeta name="type" content="Naval"/>
+  </topicmeta>
+  <topicref href="dita/intro_composite.dita" type="task"/>
+  <topicref href="dita/analysis_composite.dita" type="task"/>
+  <topicref href="dita/s2r_composite.dita" type="task"/>
+  <topicref href="dita/satc_composite.dita" type="task"/>
+</map>

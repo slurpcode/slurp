@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Generating links to your existing data"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="..\contentFile.xsd">
+	<intro>
+		<description>Debrief NG stores it&apos;s data in a local folder called a Project. While
+			these are frequently created afresh to store new analysis data, it&apos;s also possible
+			to denote your existing data directories as sub-folders (via links). This tutorial leads
+			you through generating links to your existing data folders. If you&apos;ve installed
+			Debrief in the past, chances are you still have a Debrief installation folder (in
+			C:\Program Files\Debrief 2003). If you do still have this folder, you can usefully link
+			it in within this tutorial to provide some sample data. If you don&apos;t have an
+			existing Debrief installation, then add the folder called <b>sample_data</b> located in
+			the top-level folder of your Debrief NG installation (typically in c:\DebriefNG under MS
+			Windows if you have Debrief installed locally, or in the Debrief\DebriefNG folder
+			if you are on a site using a Programs folder from a shared
+			network drive).</description>
+	</intro>
+	<item title="Check Navigator is open">
+		<description>In the top left hand corner of Debrief you should find the Navigator window. If
+			it isn&apos;t there, select <b>Navigator</b> from Debrief&apos;s Window/Show View
+			menu.</description>
+	</item>
+	<item title="Check you have a workspace">
+		<description>Before you can link in existing data, you need to define a project for your
+			work. This is a parent folder within which your links are stored. If your Navigator
+			window is empty, you must follow the <b>Generating a project</b> cheat-sheet accessed
+			from the Help/Cheat Sheets menu.</description>
+	</item>
+	<item title="Add a new Folder">
+		<description>Right-click on your current project in the Navigator view, then select
+				<b>Folder</b> from the <b>New</b> sub-menu. The New Folder wizard will open. Instead
+			of creating a fresh child folder to store our data, we&apos;re going to link to an
+			existing folder. So, whilst still in the New Folder Wizard, click the
+			&apos;Advanced&apos; button to display the Advanced options. Next, click on the
+			&apos;Link to alternate location (Linked folder)&apos;, and click on
+			&apos;Browse...&apos; to navigate to an existing data folder on your machine or the
+			network, clicking on <b>Finish</b> to, erm, Finish. <br/><b>If you don&apos;t have your own
+			data</b>, please use the <b>sample_data</b> folder that&apos;s installed in your Debrief
+			installation folder (for a deployed Debrief) or<br/>
+			org.mwc.cmap.combined.feature/root_installs (if you are running a development version of
+			Debrief).</description>
+	</item>
+	<item title="Done">
+		<description>Well done, there you are. Just repeat this process to add any other data
+			directories you want to load data from. You&apos;ve probably just created a link to the
+			sample data, but you may also wish to create a link to a shared working
+			folder.</description>
+	</item>
+</cheatsheet>

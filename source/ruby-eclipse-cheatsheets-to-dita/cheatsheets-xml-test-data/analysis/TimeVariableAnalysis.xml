@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Analysing time-related calculated data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\contentFile.xsd">
+	<intro>
+		<description>Debrief is capable of producing analysis products beyond the traditional graphical track plots.  After all, it's got the data hasn't it?  The most obvious derived products are the analysis plots - graphs showing time versus either a recorded data value or a calculation based on a specific set of data-values.  Why not learn more...</description>
+	</intro>
+	<item title="The big-picture">
+		<description>Right, here&apos;s the process we&apos;re going to follow.  We need to tell Debrief the time-period we want plotted, which participants to plot data for, what type of data to plot, and (for relative calculations) which is the primary track.  Let&apos;s go.</description>
+	</item>
+	<item title="Check you have some data" href="/org.eclipse.platform.doc.user/concepts/cnav.htm">
+		<description>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  Also check you have our sample data-files - it they're not there, find how to load them from the "Loading sample data" cheat-sheet.</description>
+	</item>
+	<item title="Open the sample plot-file">
+		<description>Double-click on 'sample.xml' in the Navigator window, and the sample plot will open.</description>
+	</item>
+	<item title="Fit to window" href="/org.mwc.debrief.help/html/legacy/moving_around.html#Fit_To_Win">
+		<description>To make sure all of the data is visible, click on the "Fit-to-Window" toolbar button.</description>
+	</item>
+	<item title="Open the Time Controller" href="/org.mwc.debrief.help/html/legacy/controlling_time.html" skip="true">
+		<description>In the top left hand corner of Debrief you should find the Time Controller.  If is isn't there, select "Time Controller" from Debrief's Window/Show View menu.</description>
+	</item>
+	<item title="Select the time period of interest" href="/org.mwc.debrief.help/html/legacy/controlling_time.html#time_controller">
+		<description>Right, select the period 120800 to 121100 using the time-period selector at the bottom of the Time Controller  (click help button above for more advice on the time controller).  Remember that holding down the shift-key makes the sliders move in one-hour jumps.</description>
+	</item>
+	<item title="Open the Outline View" href="/org.mwc.debrief.help/html/legacy/layer_mgr.html" skip="true">
+		<description>Next we need to indicate what tracks we want to see information for.  In the bottom left hand corner of Debrief you should find the Outline View window.  If it isn't there, select "Outline View" from Debrief's Window/Show View menu.</description>
+	</item>
+	<item title="Select the tracks of interest" dialog="true">
+		<description>Click on the two tracks (holding down the CTRL key to select multiple items).</description>
+	</item>
+	<item title="Open xy-plot" href="/org.mwc.debrief.help/html/legacy/track_toolbox.html#show_time_vars" dialog="true">
+		<description>Then right-click on the selected items and click on "View XY Plot".  Next select "Range" from the drop-down list of calculations, then "OK".  Finally indicate which track is the primary (for plotting data that's based on the relationship between multiple tracks  Debrief needs to know which track is the "subject" of the calculation).</description>
+	</item>
+	<item title="Navigate around the plot">
+		<description>Well done, there you are.  Zoom in on the graph by dragging with the mouse, and view the whole dataset again by clicking on the graph's Fit to Window button.  Feel free to experiment with the other commands as well, or even configure the graph to use your preferred font &amp; titles.</description>
+	</item>
+	<item title="Done">
+		<description>That's almost it for plotting graphs.  The only additional thing to add is to point out that it's not just tracks that can be the plotted. If you need to track proximity of multiple vehicles to a fixed point (such as a sensor), just insert a label annotation at that point and select the label in addition to the tracks - making sure you indicate that the label/sensor is the primary.</description>
+	</item>
+</cheatsheet>
