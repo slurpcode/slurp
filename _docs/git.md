@@ -34,6 +34,14 @@ When creating a pull request you need to create a new branch or more technically
 a `feature branch`. In the above example the `feature-branch` is a new branch,
 but you should try to be more descriptive when naming the new feature branch.
 
+A more verbose version of `git branch` is
+
+```
+$ git branch -v
+* improve-docs-2 3d55e793 Merge pull request #244 from fuchsia-programming/pull-243-restyled
+  master         3d55e793 Merge pull request #244 from fuchsia-programming/pull-243-restyled
+```
+
 Another useful command is `git status`
 
 ```
@@ -46,6 +54,13 @@ $ git status
           modified:   CONTRIBUTING.md
 
   no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+A very short version of `git status` is
+
+```
+$  git status -s
+M _docs/git.md
 ```
 
 You can see your changes with `git diff`
@@ -75,6 +90,21 @@ index e69de29b..b15f58fc 100644
 +---
 +
 +# Overview
+```
+
+A very compact version of `git diff` is
+
+```
+$ git diff --compact-summary
+_docs/git.md | 15 +++++++++++++++
+1 file changed, 15 insertions(+)
+```
+
+To only see which files are changed run
+
+```
+$ git diff --name-only
+_docs/git.md
 ```
 
 The `origin` and the `upstream` are displayed below for a GitHub user. You
@@ -174,6 +204,8 @@ $ git --version
 git version 2.21.0 (Apple Git-122.2)
 ```
 
+[&#8595;](#watch-this-space) [&#8593;](#git)
+
 ## Sync your fork
 
 Refer to the GitHub help article on
@@ -185,6 +217,8 @@ git fetch upstream
 git merge upstream/master
 git push
 ```
+
+[&#8595;](#watch-this-space) [&#8593;](#git)
 
 ## Squashing Commits
 
@@ -200,6 +234,8 @@ git rebase -i HEAD~n
 # Save and quit.
 git push -f # (force push to GitHub)
 ```
+
+[&#8595;](#watch-this-space) [&#8593;](#git)
 
 ## Watch This Space
 

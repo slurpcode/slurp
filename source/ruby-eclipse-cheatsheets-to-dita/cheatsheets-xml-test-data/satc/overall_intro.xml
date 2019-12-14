@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../contentFile.xsd"
+      title="Title">
+   <intro>
+      <description>
+         We have had to come up with some new concepts during the development of SATC. This means that unfortunately you need to spend 
+         10 minutes or so doing some background reading.  But, don&apos;t worry, you&apos;ll find things much
+         simpler afterwards.
+      </description>
+   </intro>
+   <item
+         title="Concepts">
+      <description>
+Please press <b>Click to perform</b> (below) to learn some background, together with significant concepts that are used within SATC.  Go on, it&apos;s 
+         just one web page.
+      </description>
+      <command
+            required="false"
+            serialization="org.eclipse.ui.help.displayHelp(href=/org.mwc.debrief.help/html/legacy/satc.html)"/> </item>
+</cheatsheet>

@@ -43,7 +43,7 @@ This particular .sql file contains all of the database structure and all of the
 data. But it does not contain views. Views are maintained in a separate file
 known as "views.sql" (or "views.txt").
 
-[&#8593;](#how-to-use-the-.sql-file)
+[&#8595;](#watch-this-space) [&#8593;](#how-to-use-the-.sql-file)
 
 ## Installing the Database
 
@@ -120,7 +120,7 @@ There are many tables. They may not be listed all in one panel. There will
 probably be a drop-down menu which lets you select which "panel" of table names
 you want to view.
 
-[&#8593;](#how-to-use-the-.sql-file)
+[&#8595;](#watch-this-space) [&#8593;](#how-to-use-the-.sql-file)
 
 ## Additional Notes
 
@@ -171,7 +171,7 @@ ways to load the same .sql file. You can upload using the Linux line command.
 multiple files and load them one at a time. This will work fine, as long as you
 are careful not to split up an SQL command.
 
-[&#8593;](#how-to-use-the-.sql-file)
+[&#8595;](#watch-this-space) [&#8593;](#how-to-use-the-.sql-file)
 
 ## Purge the Database to Reload It
 
@@ -218,7 +218,7 @@ could use the same name for the database as is used on the live server:
 11. You will see that it is empty. You may safely click on the "Import" button
     and load a .sql file here.
 
-[&#8593;](#how-to-use-the-.sql-file)
+[&#8595;](#watch-this-space) [&#8593;](#how-to-use-the-.sql-file)
 
 ## Users
 
@@ -229,6 +229,8 @@ We have not created any user accounts for the database. If you actually want
 source code to be able to interact or use the database you will need to create
 database-level user accounts. This is different than user accounts found in the
 database itself in the "users" table.
+
+[&#8595;](#watch-this-space) [&#8593;](#how-to-use-the-.sql-file)
 
 ## Watch This Space
 

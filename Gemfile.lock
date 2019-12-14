@@ -33,6 +33,7 @@ GEM
       multipart-post (>= 1.2, < 3)
     ffi (1.11.3)
     ffi (1.11.3-x64-mingw32)
+    fileutils (1.4.1)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (203)
@@ -276,6 +277,7 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (>= 4.1.11)
+  fileutils
   github-pages
   jekyll-feed (~> 0.13)
   jekyll-paginate

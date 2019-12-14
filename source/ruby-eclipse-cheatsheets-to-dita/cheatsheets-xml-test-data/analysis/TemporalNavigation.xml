@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Viewing time-related vessel tracks" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\contentFile.xsd">
+	<intro>
+		<description>Debrief offers more than just a static overview of vessel tracks - it allows you to control the time period of data shown.</description>
+	</intro>
+	<item title="Check you have some data" skip="true" href="/org.eclipse.platform.doc.user/concepts/cnav.htm">
+		<description>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  Also check you have our sample data-files - it they're not there, find how to load them from the "Loading sample data" cheat-sheet.</description>
+	</item>
+	<item title="Open the sample plot-file">
+		<description>Double-click on 'sample.xml' in the Navigator window, and the sample plot will open.</description>
+	</item>
+	<item title="Fit to window" href="/org.mwc.debrief.help/html/legacy/moving_around.html#Fit_To_Win">
+		<description>To make sure all of the data is visible, click on the "Fit-to-Window" toolbar button.</description>
+	</item>
+	<item title="View the time controller" href="/org.mwc.debrief.help/html/legacy/start_up.html#debrief_views">
+		<description>In the top section of the left hand column in Debrief is the Time Controller.  If it's not at the top, click on it's tab to highlight it.  If it's not visible at all, open it by selecting "Time Controller" from the "Window/Show View" drop-down menu.</description>
+	</item>
+	<item title="What am I looking at?" href="/org.mwc.debrief.help/html/legacy/controlling_time.html" skip="true">
+		<description>The Time Controller is quite a busy part of the application, used for a range of time-related tasks.  Click on the help button for this step to gain an overview of the different components - and come back to this cheat-sheet once you've finished.</description>
+	</item>
+	<item title="Check we're in normal stepping mode">
+		<description>Before we start moving through the data, just check that we&apos;re in &apos;normal&apos; time stepping mode. There are two stepping modes: normal and snail - make sure we&apos;re not in the snail mode, but that the button on the Time Controller toolbar with the red track and black background is pressed.</description>
+	</item>
+ <item
+       title="Move slowly through the data">
+    <description>
+       Above the current time indicator are a series of buttons, similar to the pause/play/rewind you&apos;d find on a music-player.  Click on the buttons and you&apos;ll see the time value move forwards/backwards appropriately - any the white rectangular highlight move along the vessel tracks.
+    </description>
+ </item>
+	<item title="Move quickly through the time period">
+		<description>Now drag the time-slider, and notice the white highlight rectangle move along the vessel tracks, with the current time shown in green-on-black text.  If you also have the Track Tote view open, notice how it's updating to reflect the current time.</description>
+	</item>
+	<item title="Experiment with the time format options" href="/org.mwc.debrief.help/html/legacy/controlling_time.html#stepper_display_modes">
+		<description>The Time Controller toolbar has a drop-down list.  Within this are further drop-down lists to select the format in which the current DTG is displayed, and the increment used for moving through the plot.  Have a go at changing the time format so that you can see the full Year/Month/Day for the current DTG (yes, the Debrief test-plots are that old...).  Also have a go at changing the time increment to 15 minutes, so that you can move through the plot in large handfuls.</description>
+	</item>
+	<item title="Change plotting modes" href="/org.mwc.debrief.help/html/legacy/controlling_time.html#relative_mode">
+		<description>Start off by reading through the online help on the time controllers <b>Plotting Modes</b> (via the above help link).  Then have a play.  Start off by  selecting <b>Primary Centred/North Oriented</b> and see how the viewport changes as you move forwards and backwards whilst in Snail mode.  Note that relative mode is selected independent of the mutually exclusive normal and snail modes.</description>
+	</item>
+	<item title="Work with time periods">
+		<description>There's one part of the Time Controller we haven't covered yet - that's the time period selector.  As its name suggests, this is used to select a period of time.  It doesn't work in quite the same way as the time-slider however, because typically nothing happens when you adjust it.  It is typically used to select a time-period to be used in a subsequent operation.  Here's an example: select a time period of 120700 to 121000.  Now select "Export calculated data to clipboard" from the Time Controller's drop-down menu.  Three hour's worth of calculated data have just been copied onto your system clipboard, ready to be pasted into Excel.  </description>
+	</item>
+	<item title="Control the visible time period">
+		<description>Right, let&apos;s move on to another role of the Time Period selector.  The time-period selector is also used to select a time period when viewing time-variable graphs - but hey, let&apos;s not leap ahead of ourselves.  One last use for the time-period selector is more related to the current view.  If you select the 120600 to 120700 period, then depress the &quot;Filter to period&quot; icon on the Time Controller toolbar, when you move the time-sliders the plot is trimmed to that one hour period.  Holding down the shift-key makes the slider move in larger increments. Dragging the selected period whilst holding down the shift-key whilst in this mode effectively gives you the ability to jump through the exercise in one-hour blocks. <b>But</b>, so we don&apos;t lose our sample data, make sure you now extend the sliders out to their full range to reveal all of our training data.</description>
+	</item>
+	<item title="Super accurate time selection">
+		<description>Note, for some time export operations you may find it difficult to select the <b>exact</b> time period you require. If this is the case, double-click on the start/finish time marker triangle, and the value will become editable in the Properties View</description>
+	</item>
+	<item title="Time Controller's editable properties">
+		<description>The Time Controller's drop down menu contains a series of child menus.  In some of these you'll see an 'Edit properties' element. These let you control various aspects of temporal data analysis.  Once you've selected an item from the properties drop-down its attributes will become editable on the properties view (so open it, if it's not visible).  Note - the item only appears on the properties window if the Time Controller is the active view, that is it's the most recently selected view as indicated by it's blue highlight.</description>
+	</item>
+	<item title="Bookmarking the current time ">
+		<description>So, just one part of the time controller left to cover now, bookmarking a particular time or event.  Debrief NG lets you insert a bookmark attached to a particular DTG in the current plot.  Let's say you're analysing a particular exercise and want to record a couple of interactions.  In Normal view mode, move the time-slider to 121011 hrs - the point when RED first react to BLUE.  Now select "Add DTG as bookmark" from the Time-Controller's drop-down menu.  A dialog box will open inviting you to add a remark for that DTG.  Enter "First contact", then press "OK".   Now move to 121131 and enter a bookmark title "Plotlock start".  Hmm, where are those bookmarks?  Open the Bookmarks view from the "Window/Show view" menu - and you'll see your two bookmarks.  Double-click on either of them to move to that time.  Now save and close your plot.   Note that the bookmarks remain effective, and you can store as many bookmarks as you like, across as many analysis plots as you like.</description>
+	</item>
+	<item title="Done">
+		<description>Well done, you've now mastered one of the most complex parts of Debrief - all downhill from now on...</description>
+	</item>
+</cheatsheet>

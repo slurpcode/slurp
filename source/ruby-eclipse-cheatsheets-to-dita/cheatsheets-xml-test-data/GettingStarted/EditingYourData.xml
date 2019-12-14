@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Editing your data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="..\contentFile.xsd">
+	<intro>
+		<description>So, you've found your data, loaded it into Debrief, and now you want to make
+			some changes to it. This cheat-sheet will give you some pointers.</description>
+	</intro>
+	<item title="Check you have some data" href="/org.eclipse.platform.doc.user/concepts/cnav.htm">
+		<description>In the top left hand corner of Debrief you should find the Navigator window. If
+			it isn't there, select "Navigator" from Debrief's Window/Show View menu. Also check you
+			have our sample data-files - it they're not there, find how to load them from the
+			"Loading sample data" cheat-sheet.</description>
+	</item>
+	<item title="Open the sample plot-file">
+		<description>If it&apos;s not already open, double-click on &apos;sample.xml&apos; in the
+			Navigator window, and the sample plot will open.</description>
+	</item>
+	<item href="/org.mwc.debrief.help/html/legacy/moving_around.html" title="Fit to window">
+		<description>You can also experiment with zooming in and out.  Click the zoom out
+			button once to zoom out, or put plot into <b>Zoom In</b> mode by clicking on the Zoom In
+			button. Now, when you drag an area, the map will zoom in on that viewport.<br/>
+			Lastly, to make sure all of the data is visible, click on the &quot;Fit-to-Window&quot;
+			toolbar button. Read more about the toolbar buttons by clicking on the help-link to the
+			right of this text.  </description>
+	</item>
+	<item title="View the data in tree form">
+		<description> In addition to viewing your data on the 2D plot, the <b>Outline View</b>
+			displays it in tree form. Switch to the <b>Outline View</b> view to see the data. 
+			If the Outline View isn't open already, you can open it via the <b>Window/Show View</b> menu.
+			You&apos;ll see the two tracks there, together with other layers that contain <b>Chart
+				Features</b> (such as the <b>Grid</b> and <b>Scale</b>), and the <b>Misc</b> layer
+			that contains graphical annotations. </description>
+	</item>
+	<item title="Make sure the properties window is open"
+		href="/org.eclipse.platform.doc.user/concepts/cpropview.htm">
+		<description>The properties window is normally at the bottom left of Debrief. If it's there
+			but not at the top of the 'stack', click on its title to reveal it. If you can't find
+			it, select "Properties" from the 'Window/Show View" drop-down list.</description>
+	</item>
+	<item title="Select an item">
+		<description>Now double-click on one of the corners of the green rectangle near the centre
+			of the track plot. You&apos;ll now see its editable attributes appear on the properties
+			window. Cool. You&apos;ll see that the attributes are grouped for ease of use, and some
+			must be expanded (those for location &amp; time).</description>
+	</item>
+	<item title="Make a change">
+		<description>Now have a go at changing the rectangle's label color. Click once on the green
+			rectangle next to 'LabelColor'. A button containing three dots will appear. Click on
+			this to open the color editor. Click on the red rectangle and then the 'OK' button. The
+			dialog will close, the label color property will be updated, and the plot will redraw.
+			Well done.</description>
+	</item>
+	<item title="Undo the change">
+		<description>Oops, it appears we shouldn&apos;t have changed the label color, it
+			doesn&apos;t meet NATO MilStd 12332 Sub-para 14g (2002 version). To undo a change, first
+			click on the tab at the top of the <b>sample.xml</b> plot (to tell Debrief which plot
+			we&apos;re undoing). Now click on the Edit menu, and select Undo (it&apos;s the first
+			item). The color of the label will now change back. Look on the Edit menu again, and
+			you&apos;ll see there&apos;s now a &quot;Redo&quot; command available - just in case
+			you&apos;re undecided about your adherence to sub-para 14g. Note, it&apos;s not just
+			edits that are undo-able, lots of operations can be undone, just have a look on the Edit
+			menu whenever you feel the need to step-back. If you think something isn&apos;t on there
+			but it should be, just ask... <b>But it did
+				not undo!</b>. The Undo button applies to whichever is the active Debrief view. So,
+			to undo a change to the plot, first need to select the plot (or the tab containing hte
+			plot name), then press undo.</description>
+	</item>
+	<item title="Edit a position">
+		<description>To select a position within a track, just double-click on it - its editable
+			attributes will appear in the properties window. You can now change the symbol or label
+			(<b>LabelShowing</b> or <b>SymbolShowing</b>, 
+			visibility, or the color (<b>Color</b>) that position will be plotted in. Note: you may have to scroll up &amp; down the 
+			<b>Properties Window</b> to see all of the properties.</description>
+	</item>
+	<item title="Edit a whole track">
+		<description>Aaah, but how do you edit a track? Easy, just use the Outline View to select
+			it rather than clicking on the plot. Open the Outline View (or select Outline View
+			from the Window/Show View drop-down menu). In the Outline View click once on the name
+			of a track, and the whole track's properties will be editable in the Properties View.
+			The Outline View is also useful for selecting non-geographic entities (such as a grid,
+			scale, or background data-set) to be edited.</description>
+	</item>
+	<item title="Re-arrange the views">
+		<description>Now, are you finding it a bit of pain switching between the Outline View and
+			Properties views? Using your mouse, just click and drag the Properties panel upwards -
+			so it&apos;s on top of the view vertically above it. You can now see the Outline View
+			and Properties windows at once.</description>
+	</item>
+	<item title="Edit directly from the plot itself">
+		<description>For some attributes, you don't even need to use the Properties View. Just
+			right-click on an item on your plot. The popup menu shows a series of options and
+			commands. A drop-down menu is shown next to the current item's name. From this drop-down
+			menu you'll be able to edit all of the item's true/false or 'select one from many'
+			attributes. Note, if you click on a vehicle position, a drop-down is shown for the
+			parent track as well as the position itself. Also note, that the right-click menu is
+			shown if you click on an item from the Outline View.</description>
+	</item>
+	<item title="Don't forget to save">
+		<description>Now that you've invested all that effort in your plot, don't forget to save it.
+			Just click on the floppy-disk icon on the main toolbar. If the data you're looking is
+			actually an REP file, you will be invited to save the file in Debrief's XML plot-file
+			format - since REPs can't store formatting data.</description>
+	</item>
+</cheatsheet>

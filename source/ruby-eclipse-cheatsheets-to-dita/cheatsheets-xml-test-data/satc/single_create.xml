@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../contentFile.xsd" title="Create scenario">
+   <intro>
+      <description>
+         Ok, let&apos;s create our first scenario. 
+         <br/><br/><b>Note:</b> &apos;Scenario&apos; is the term used to describe the collection of data 
+          that is collated in order for SATC to produce an optimal &apos;Solution&apos;.
+      </description>
+   </intro>
+   <item
+         title="Browse to the sensor data">
+      <description>
+         We&apos;re going to use all of the ownship sensor data to create our scenario.<br/>
+         So, open the <b>Outline View</b>, then open the <b>Track:OWNSHIP</b>.  The ownship track has a <b>Sensors (1 items)</b> object.
+         Open this and you will see the single block of sensor data, titled <b>Sensor:Plain (11 items)</b>. 
+      </description>
+   </item>
+   <item
+         title="Select a block of sensor cuts">
+      <description>
+         Ok, we&apos;ve found the sensor data. Now right-click on this item (<b>Sensor:Plain (11 items)</b>), and
+         select <b>Semi Auto TMA</b> / <b>Create new solution from these bearings</b>
+      </description>
+   </item>
+   <item
+         title="Create scenario based upon cuts">
+      <description>
+         You should see that there is now a new item in the <b>Outline View</b>. It has been given the name <b>121213.14</b>,
+         that is the DTG of the first item in the bearing data.
+         <br/>
+         You will also see that the <b>Maintain Contributions</b> view has opened - you will use this to create and manage your
+         scenario data.  If you didn't read about the SATC user interface
+         via the help page earlier on, please read it now using the <b>Click to perform</b> link provided below.
+      </description>
+      <command
+            required="false"
+            serialization="org.eclipse.ui.help.displayHelp(href=/org.mwc.debrief.help/html/legacy/satc.html#satc_ui)"/>
+   </item>
+   <item
+      title="Change scenario name">
+      <description>
+         As stated earlier, the scenario is currently named <b>121213.14</b>.  This automatic
+         naming is convenient in that it stops you (the analyst) having to make one up
+         on the spur of the moment, but we&apos;re going to rename it to avoid confusion
+         later on. So, select the new scenario in the <b>Outline View</b>, 
+         and now use the <b>Properties</b> view to change its <b>Name</b> value to <b>Single Leg</b>.
+      </description>
+   </item>
+   <item
+      skip="true" title="Finding the Properties view">
+      <description>
+         Hey, if you&apos;re unable to change the name becase you can&apos;t find the <b>Properties</b> view, just select it from Debrief&apos;s <b>Window</b> / <b>Show View</b> menu. Then
+         select the scenario once again in the <b>Outline View</b>.
+      </description>
+   </item>
+   <item
+      title="Understand the contributions window">
+      <description>
+         From the <b>Maintain Contributions</b> view you will see that there is a single item listed in the <b>Analyst Contributions</b>.
+         This is the bearing data that will be used to inform all of the subsequent contributions.  
+         <br/><br/>
+      </description>
+   </item>
+   <item
+      title="Viewing the bearing measurement contributions">
+      <description>
+         
+         Let&apos;s learn more about the Bearing Measurement Contribution.  This contribution is the set of bearings that represent the unknown target track.  You will see that the contribution
+         has an estimate value of <b>+/- 3 degs</b>. This means the algorithm will only offer solutions that are within 3 degrees of these bearing measurements.
+         <br/>You can view these measurements.  First, select the <b>Single Leg</b> in the <b>Outline View</b>.  Then, in the <b>Properties Window</b>, tick the <b>ShowLocationConstraints</b> item.
+         <br/>A set of "pie-slices" will now appear on the plot, showing the 3 degree allowable error on each bearing measurement.  If you expand the <b>Bearing Measurement - Bearing Data</b> contribution
+         in the <b>Maintain Contributions</b> view, you will see that it is possible to change the error value on this bearing data by moving the slider. As you move the slider you will see
+         the pie slices expand and contract.
+         <br/><br/>Note: the <b>Preferences</b> area of the <b>Maintain Contributions</b> view includes the <b>Auto-Recalc of Constraints</b> two-state
+         button.  This button is normally depressed. But, if you have a complex scenario that takes some time to update, you may wish to un-check this button.
+         The screen will no longer be refreshed as you are interactively adjusting any contributions.
+      </description>
+   </item>
+   <item
+      title="Get ready to specify a target leg">
+      <description>
+         <br/>Note that in this sample data, we have a maximum range value for the bearings, of 12kyds.  
+         In the absence of a range estimate they will be drawn out to 30 kyds.
+         <br/>Also, before we continue, we need to reset Debrief to a predictable state, so please restore the <b>Bearing Measurement</b> analyst contribution to 3 degrees, and also clear the <b>ShowLocationConstraints</b> 
+         checkbox for in the <b>Properties</b> View for the <b>Single Leg</b> scenario.
+      </description>
+   </item>
+   <item
+         title="Specify a target leg">
+      <description>
+         Your deep, deep, analysis skills have led you to believe that all of these cuts relate to a single leg of target data - in
+         other words, the target maintains course and speed through the period of interest. 
+         
+         <br/><br/> That information is useful to the 
+         TMA algorithms.  Provide this information to the TMA algorithm by right-clicking once again on the <b>Sensor:Plain (11 items)</b> item
+         in the <b>Outline View</b>, then browse down the menu to <b>Semi Auto TMA</b>, then <b>Add to Single Leg</b>. From the 
+         menu that appears, select <b>New Straight Leg for period covered by [sensor cuts]</b>. From the dialog that opens, name the contribution as <b>Leg limits</b>         
+      </description>
+   </item>
+   <item
+      title="Understand the contributions">
+      <description>
+         So, now there are two contributions: one which provides a set of bearings through which a solution must travel, and another which indicates that the target will
+         have travelled on a single course and speed throughout the engagement.  The sharp-witted amongst you will have noticed that our two ownship turns have
+         provided a valuable change in bearing rate - just the thing a TMA algorithm wants.
+      </description>
+   </item>
+</cheatsheet>

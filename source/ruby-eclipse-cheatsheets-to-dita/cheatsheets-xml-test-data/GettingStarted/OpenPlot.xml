@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Opening an existing plot">
+	<intro>
+		<description>There are two ways to load existing data into Debrief.  If you have a collection of existing Debrief plots in a single folder (or folder tree) then would be better to Create a link to your existing data (see . Otherwise use this tutorial to open a copy of your existing file.
+		</description>
+	</intro>
+	<item title="Check your workspace">
+		<description>Debrief requires working files to be contained in a Workspace.  	</description>
+	</item>
+	<item title="Choose whether to link to existing folder">
+		<description>Debrief requires working files to be contained in a Workspace.  [link to Workspace guidance in Help]</description>
+	</item>
+	<item title="Copy plot into Workspace">
+		<description>Debrief requires working files to be contained in a Workspace.  [link to Workspace guidance in Help]</description>
+	</item>
+	<item title="Double-click on Plot">
+		<description>Debrief requires working files to be contained in a Workspace.  [link to Workspace guidance in Help]</description>
+	</item>
+</cheatsheet>

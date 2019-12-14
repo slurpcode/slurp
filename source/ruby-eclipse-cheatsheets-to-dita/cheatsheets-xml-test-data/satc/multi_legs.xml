@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../contentFile.xsd"
+ title="Playing with legs">
+   <intro>
+      <description>
+         After the bearing measurements, knowledge of the straight legs is the most valuable set of information for SATC.
+      </description>
+   </intro>
+   <item
+      title="Mark first leg">
+      <description>         
+         Ok, let&apos;s mark the first leg. In the <b>Outline View</b>, expand the Ownship sensor data, and select all of the
+         <b>Green</b> cuts.  Now, right-click on them, and select <b>Semi Auto TMA</b> / <b>Add to Tutorial Scenario</b> / 
+         <b>Straight leg for period covered by [sensor cuts]</b>. When asked, give it the name <b>First Leg</b>.
+         <br/><br/><b>Note:</b> selecting the cuts and "giving" them to the solution isn&apos;t actually adding
+         the cuts - the solution knows about the cuts already.  We&apos;re justing using the block of cuts
+          as a convenient way of specifying the start and end times for the leg.
+      </description>
+   </item>
+   <item
+      title="Try to generate a solution (again)">
+      <description>         
+         Ok, now we should be able to generate a solution.  Again, click on <b>Calculate Solution</b> at the top of the
+         <b>Maintain Contributions</b> view.  You will see Debrief do a couple of seconds of processing, you&apos;ll see
+         a line graph appearing in the <b>Performance</b> area of the <b>Maintain Contributions</b> view, and a green
+         line will appear on the plot.  Zooming in on the plot shows us that the single leg is 9.2 kts, at 319 degrees.  If we 
+         zoom out again, we can see that, Yes, this could be a solution that fits in the data.
+         <br/><b>Note:</b> the use of randomisation in the SATC process means that your calculated speeds may well be different
+         to mine. Don&apos;t worry, this is intended.
+      </description>
+   </item>
+   <item
+      title="Mark second leg">
+      <description>         
+         Now, we&apos;ll mark the second leg. In the <b>Outline View</b>, expand the Ownship sensor data, and select all of the
+         <b>Purple</b> cuts.  Now, right-click on them, and select <b>Semi Auto TMA</b> / <b>Add to Tutorial Scenario</b> / 
+         <b>Straight leg for period covered by [sensor cuts]</b>. When asked, give it the name <b>Second Leg</b>.
+         <br/>The solution on the plot will disappear, since the new data means that it&apos;s probably incorrect.
+         <br/>To see the effect of the new leg, click again on the <b>Calculate Solution</b> button.
+      </description>
+   </item>
+   <item
+      title="Generate updated solution">
+      <description>         
+         Now generate a new solution.  You&apos;ll see two legs present, the first with 12.1 knots, and the second with 14.1 knots.
+         Clearly SATC has changed it&apos;s optimal solution for the first leg to a faster one that is more compliant with the data 
+         in the second leg.
+      </description>
+   </item>
+   <item
+      title="Mark third leg">
+      <description>         
+         Ok, now let&apos;s mark the third leg using the <b>Yellow</b> cuts, and re-generate the solution again.  The solution
+         produced has a speed of 4.8 knots.
+         <br/>So, now we have a three-leg solution that is compliant with our sensor data, and our straight leg forecasts.
+         <br/>We can take a step to verify this by switching on the location constraints.  First, select the <b>Tutorial Scenario</b>
+          in the <b>Outline View</b>. Then, in the <b>Properties</b> window, switch on <b>ShowLocationConstraints</b>. You&apos;ll see
+         lots and lots of clutter on the plot. Also switch on <b>OnlyPlotLegEnds</b>.  This shows the calculated location 
+         constraints at the start and end of each leg.  We can see that yes, the solution is compliant with them.
+      </description>
+   </item>
+   <item
+      title="Give speed constraint">
+      <description>         
+         So, we&apos;ve got a solution.  But, I think it can be improved.  Let&apos;s try to give the target a consistent speed. We&apos;re
+         going to give a speed constraint to the whole period of the engagement. We could have done this by right-clicking on the whole <b>Sensor:Plain</b>
+         object, but an alternate way of doing this is to right-click on our <b>Tutorial Scenario</b> object in the <b>Outline View</b>,  
+         and selecting <b>Add Speed Forecast for period covered by [Tutorial Scenario]</b>.  A wizard will open, name the contribution
+         as <b>Overall Speed</b>. You will see this new constraint displayed in the <b>Maintain Contributions</b> view - with a default set
+         of hard constraints shown: zero to forty knots.
+      </description>
+   </item>
+   <item title="Adjust speed constraint">
+      <description>
+         Ok, let&apos;s generate a new solution.  A constraint of 0-40 knots isn&apos;t much of a constraint at all, so it has little effect.  So,
+         expand the <b>Speed Constraint - overall speed</b> item in the <b>Maintain Contributions</b> view. Now reduce the maximum speed from 
+         40 knots down to 15 knots.  If you still have the Location constraints visible, you will see them adjust to repesent the new constraint.
+         <br/>This is because the vessel can&apos;t travel as far in each leg.  Also, increase the minimum speed to 8 knots.  Re-generate the solution
+         and see what you think.  
+      </description>
+   </item>
+   <item title="Provide speed estimate">
+      <description>
+         Lastly, let&apos;s try an estimate.  The estimate will make the algorithm favour solutions near that value, though
+         it will still consider solutions that are still within the min/max hard constraints.  Try an estimate of 9 knots, and re-generate
+         the solution.  I get a solution with speeds of 9, 13, and 9 knots.  But, I can see that if the overall solution was moved nearer to ownship,
+         I may be able to achieve a consistent speed. So, now reduce the max speed to 10 knots, and re-generate the solution.  
+         <br/>This gives me legs that are 9.6, 8.9 and 9.0 knots.  I may then choose to drag in the min/max sliders to really force
+         the solution onto a particular speed, but I&apos;m ok with this answer.
+      </description>
+   </item>
+   <item title="Verify solution">
+      <description>
+         Ok, now how good is that solution?  In the <b>Outline View</b>, make the <b>SUBJECT</b> track visible.  You should see
+         that the generated solution is very close to the truth track, even with this low bearing rate data.  If you wish to 
+         verify the calculated solution against the truth track, you can view the XY Range plot (again) and see the separation
+         between the two tracks.
+      </description>
+   </item>
+</cheatsheet>

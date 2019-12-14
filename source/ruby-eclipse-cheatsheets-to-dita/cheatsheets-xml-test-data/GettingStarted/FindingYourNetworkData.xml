@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../contentFile.xsd" title="Generating links to your existing data">
+	<intro>
+		<description>Here we are going to copy in an existing set of sample data. We aren&apos;t
+			going to link to the original set, since we don&apos;t want to modify it,
+			or we don&apos;t have modify access.
+			<br/> The steps presume that the Debrief <b>Sample data</b> is in the
+			<b>Debrief\DebriefNG</b> folder that is probably in a <b>Programs</b> network share.</description>
+	</intro>
+	<item title="Check Navigator is open">
+		<description>In the top left hand corner of Debrief you should find the Navigator window. If
+			it isn&apos;t there, select <b>Navigator</b> from Debrief&apos;s Window/Show View
+			menu.</description>
+	</item>
+	<item title="Check you have a workspace">
+		<description>Before you can import the existing data, you need to define a project for your
+			work. This is a parent folder within which your data (or links to your data) is stored. If your Navigator
+			window is empty, you must follow the <b>Generating a project</b> cheat-sheet accessed
+			from the Help/Cheat Sheets menu.</description>
+	</item>
+	<item title="Prepare to drag in data">
+		<description>
+			The sample data is going to be dragged in.  In order to do this, the relevant
+			windows both need to be visible at the same time.
+			<br/>
+			So, open Windows Explorer and then arrange your on-screen Windows so that Debrief
+			is also visible. Then, navigate in Windows Explorer so that you can see the <b>sample_data</b>
+			folder. It&apos;s in the <b>Debrief/DebriefNG</b> folder.
+		</description>
+	</item>
+	<item title="Drag in sample data">
+		<description>
+			Now that you are ready to import, pick up the <b>sample_data</b> folder using your mouse, and drop it into
+			 a project in the <b>Navigator</b> window of Debrief.  A dialog will open asking you if you wish
+			to <b>Copy files and folders</b> or <b>Link to files and folders</b>.  Select the <b>Copy</b> option.
+		</description>
+		<onCompletion>
+			Ok, you now have your linked data, and we can move on to analysis.
+		</onCompletion>
+	</item>
+</cheatsheet>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="View the UI overview in the Help">
+   <intro>
+      <description>
+         That&apos;s the end of the guided tour, you can now learn more from the online user guide.
+      </description>
+   </intro>
+   <item
+         href="/org.mwc.debrief.help/html/legacy/moving_around.html"
+         title="View the help guide">
+      <description>
+         In addition to these cheat sheets, Debrief has an extensive user guide.  Now&apos;s a good time to go and read about the other features you can see in the user interface.
+
+So, click on the help link alongside or below to open the help manual, have a read about the Debrief UI, then come back to this cheat sheet.
+      </description>
+      <command
+            required="true"
+            serialization="org.eclipse.ui.help.displayHelp(href=/org.mwc.debrief.help/html/legacy/moving_around.html)"/>
+   </item>
+</cheatsheet>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../contentFile.xsd"
+ title="Grooming the data">
+   <intro>
+      <description>
+         Let&apos;s understand the data we&apos;ve got, before we start playing with it
+      </description>
+   </intro>
+   <item
+      title="View the ownship track">
+      <description>         
+         When you view the tutoral plot you will see an ownship track.  Use the Debrief <b>Time Controller</b> and <b>Track Tote</b> to 
+         familiarise yourself with the general motion of the <b>OWNSHIP</b> track.  You&apos;ll see that it starts in the 
+         North-East of the area, then travels quite slowly at 2.5 knots, with two straight legs.
+      </description>
+   </item>
+   <item
+      title="View the sensor data">
+      <description>         
+         The identification of straight legs is pivotal to the SATC process, since they greatly constrain
+         the possible solution combinations.
+         <br/>
+         Just as when conducting Manual TMA generation using Debrief, the best practice for this process is to color the sensor cuts according
+         to the leg they&apos;re contained in.  If you examine the Ownship sensor data, you&apos;ll see 
+         that the first and second legs have been coloured in green and purple, respectively. Between each leg, a
+         few cuts have been left red, to provide time for the target to make alterations.
+      </description>
+   </item>
+   <item
+         title="Mark the final target leg">
+      <description>         
+         Whilst the first two target legs have been coloured, the last one hasn&apos;t. Let&apos;s do it now. 
+         <br/><br/>
+         Expand the sensor data
+         in the Outline View, and select the sensor cuts from <b>100112 134230</b> until the end of the
+         dataset, at <b>100112 140000</b>.  Now use the <b>Properties</b> view to change the color of these cuts to <b>Yellow</b> 
+         (or obviously you could right-click and select Color > Yellow).
+      </description>
+   </item>
+   <item href="/org.mwc.debrief.help/html/legacy/satc.html#satc_intro"
+      title="Create the scenario">
+      <description>
+         The most significant block of information in generating a solution is the bearing data.  So, the 
+         first step is to provide the bearing data.  We are going to use all of the Ownship sensor data for this
+         solution, so right-click on the <b>Sensor:Plain (145 items)</b> sensor, and select <b>Semi Auto TMA</b> / 
+         <b>Create new scenario from these cuts</b>.
+         <br/>As with the previous tutorial, you will see the new scenario (called <b>121200.00</b> appear in the Outline View, and the 
+         <b>Maintain Contributions</b> view will open. 
+         <br/>You will also see that the <b>Maintain Contributions</b> view contains just the one contribution.
+      </description>
+   </item>
+   <item
+      title="Rename the scenario">
+      <description>         
+         To make it easier to navigate the data, please use the <b>Properties</b> view to rename 
+         the new scenario to <b>Tutorial Scenario</b>
+      </description>
+   </item>
+   <item
+      title="Try to generate a solution">
+      <description>         
+         Hey, why not try to generate a solution.  Just click on <b>Calculate Solution</b> at the top of the
+         <b>Maintain Contributions</b> view.  You will see Debrief do a couple of seconds of processing, and then stop.
+         This is because Debrief doesn&apos;t have enough information to generate a solution.  It needs to know
+         one or more straight legs.         
+      </description>
+   </item>
+</cheatsheet>

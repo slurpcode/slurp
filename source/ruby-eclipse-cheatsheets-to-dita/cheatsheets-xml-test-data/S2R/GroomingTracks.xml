@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Grooming track data">
+	<intro
+         href="/org.mwc.debrief.help/html/legacy/GroomingTrackData.html">
+		<description>This cheat-sheet will lead you through grooming some dodgy track data. </description>
+	</intro>
+	<item
+       title="Check Navigator is open">
+		<description>In the top left hand corner of Debrief you should find the Navigator window. If
+			is isn&apos;t there, select &quot;Navigator&quot; from Debrief&apos;s Window/Show View menu (or click the link below). In the
+			navigator, you should have a linked directory to sample data, either from a previous
+			Debrief installation, or from within the &apos;Sample_data&apos; folder in the installation directory of this fresh one.</description>
+  <command
+        required="false"
+        serialization="org.eclipse.ui.views.showView(org.eclipse.ui.views.showView.viewId=org.eclipse.ui.views.ResourceNavigator)"/>
+	</item>
+	<item title="View sample data">
+		<description>In the Navigator, expand the folder that contains your existing Debrief files
+			(either REP or XML). REP files are flagged with a Debrief icon. </description>
+	</item>
+	<item title="Check import mode">
+		<description>For this tutorial we need to ensure that the data track is imported in Over the Ground mode.  To check the import mode, click on the Preferences item from the Window menu.  The <b>Default track import mode</b> selector is in the <b>Maritime Analysis</b> preferences. Check that <b>Ask user</b> is selected - so that you can be confident of the mode in which the data is to be imported. </description>
+  <command
+        required="false"
+        serialization="org.eclipse.ui.window.preferences(preferencePageId=org.mwc.cmap.core.preferences.CMAPPrefsPage)"/>
+	</item>
+	<item title="Drag in sample data">
+		<description>In the sample data folder you linked to via the Navigator view, you&apos;ll find a <b>S2R</b> folder containing test data for this tutorial.  Double-click on the dodgy_track.rep file from your the S2R folder of the Navigator view to load that track as a new Debrief plot. The plot and any
+			associated views will promptly update. As the REP file is dragged in, you&apos;ll be asked
+			whether you wish to import the data in Over The Ground (OTG) or Dead Reckoning (DR)
+			mode. Select OTG for the track segments in this tutorial file</description>
+	</item>
+	<item title="Main track loaded">
+		<description>There you are, your track data is now on the plot. In this (fictional) example, you have your blue ownship track . Unfortunately this track has a period of missing data.  There are also several jumps in the data - shown about 2/3 of the way along it.  Note: jumps can occur when an inertial navigation system receives and external update.  We&apos;ll fix these first.</description>
+	</item>
+ <item
+       title="Getting a feel for the data">
+    <description>
+       Right we&apos;ve now got our first track section loaded.  You can also see it in the Outline View view.  If this isn&apos;t open, either select it from <b>Window/Show View/Outline View</b> or click the shortcut immediately below.  It would be useful to show symbols for all of the data points on the track. So, right-click on Track:Frigate.  A large popup menu will appear - which shows the range of items we can edit for this track, and operations we can apply to this track.  From the menu, select <b>Frigate</b> to see the list of editable items specific to this track.  From the popup menu, open the <b>Symbol Freqency</b> menu, and select <b>All</b>.  This will switch on a symbol at every data point.
+    </description>
+    <command
+          required="false"
+          serialization="org.eclipse.ui.views.showView(org.eclipse.ui.views.showView.viewId=org.eclipse.ui.views.ContentOutline)"/>
+ </item>
+ <item
+       title="Zoom in on jump">
+    <description>
+       Start off by zooming in on the jumps shown near the bottom of the blue track. The zoom in button is the magnifying glass with a plus sign inside it
+    </description>
+ </item>
+ <item
+       title="Make first split">
+    <description>
+       There are actually three jumps in the data here.  Let&apos;s start by clearing the last jump.  The vehicle is travelling in a ESE direction, so right-click on the first valid point in the southernmost leg of data (it&apos;s the first point in the last leg of straight-line data).  From the popup menu, select <b>Split track before 0337</b>.
+    </description>
+ </item>
+ <item
+       title="Check what just happened">
+    <description>
+       Now you&apos;ll see that the track has been split into two.  But, also observe that we&apos;ve still just got the two tracks shown in the Outline View. But, if you expand the <b>Track:Frigate</b> track using the arrow to its left, you&apos;ll see that it has a child named <b>Track segments (2)</b>.
+    </description>
+ </item>
+ <item
+       title="Align last section">
+    <description>
+       Next, select <b>Drag Track Segment</b> from the toolbar,  it&apos;s an arrow cursor with a picture of a track-segment to it&apos;s top-right.  When you select <b>Drag Track Segment</b>, the Bearing Residuals window opens.  It isn&apos;t of relevance to our tidying of this single track - but we do need to switch to Translate mode from the Translate/Rotate/Stretch/Shear modes offered.  Now, move the hand-cursor over first point of the lower segment of track - it will be labelled with <b>030337.25</b>.  When it turns green, start dragging the track upwards and leftwards over the dangling end of the other track segment.  Whilst the track is being dragged, you&apos;ll see that extension legs are plotted on each end of the track, with a marker circle plotted at the distance along the extension equal to the distance from the end point to the first point on the track.  You can now fine-tune your drag operation to put the &apos;target&apos; over the last point on the blue track.
+    </description>
+ </item>
+ <item
+       title="Rejoin tracks">
+    <description>
+       Now we can recombine these two track sections.  View the sections by opening up the <b>Track:Frigate</b> item in the <b>Outline View</b>.  You&apos;ll see there&apos;s a single item, labelled <b>Track segments (2 items)</b>.  Right click on this item and select <b>Merge all track segments</b>.  You&apos;ll now see the tracks combined.
+    </description>
+ </item>
+ <item
+       title="Fix other jump">
+    <description>
+       There are two other jumps further up the track.  We&apos;ll work our way backwards up through them, preserving the start of the blue track at each step.  Start off by splitting the track at the north-end of the larger of the two jump (split track before 0327), drag it onto the dodgy point at the end of the good track section, and combine the track sections again.  Lastly split the track after the remaining jump, (split track before 0326),  move it onto the valid track data, and recombine them.
+    </description>
+ </item>
+ <item
+       title="Add third party data">
+    <description>
+       Don&apos;t forget the period of data missing from the track. Cleverly, you&apos;ve found this data from another source and stored it in the file named <b>third_party_track.rep</b>.
+Drag in this file of 3rd party data, again selecting OTG during the import.   You&apos;ll see it appear quite a long way north of the main track, since it has been measured from a different datum.
+    </description>
+ </item>
+	<item
+         title="Get in the ballpark">
+		<description>We&apos;ll start off by moving the third party track segment down to the right region. To do this, click on the &apos;Drag whole feature&apos; toolbar button: it&apos;s a cursor arrow with a rectangle to its top-right. Now move your hand-shaped cursor over the &apos;rogue&apos; green track. You&apos;ll see your hand-shaped cursor turn green as it passes over something that can be dragged.  When its green over the rogue track, click the mouse and drag it down near the start of the blue track (Hint, put it just below the &apos;g&apos; of the blue track title.  Trust me, I know where it&apos;s going to go...).</description>
+	</item>	
+	<item title="Fit to window">
+		<description>Now click on the 'Fit to Window' toolbar button, it's the green diagonal arrows. The plot will now zoom in and you'll see the data in more detail</description>
+	</item>
+	<item title="Zoom in on blue hole">
+		<description>Next we&apos;re going to zoom in on where the green segment is to be inserted.  To do this, select <b>Zoom in</b> from the toolbar.  Once the zoom button is clicked, drag a rectangle around the top 1/3 of the blue track.  Once zoomed in, you&apos;ll clearly see the jump where our missing data is to go.  </description>
+	</item>
+ <item
+       title="Split the blue track">
+    <description>
+       The &apos;jump&apos; in the data where the ficticious recording went down should now be visible.  Right-click on the point at the North-end of the jump (the earlier point), and select <b>Split track after 0143</b>.
+    </description>
+ </item>
+ <item
+       title="Move the third party track section into place.">
+    <description>
+       Next, switch to <b>Drag whole feature</b>, then move the cursor over the top-left end of the green track, and when the cursor turns green start dragging the green track down so it&apos; ready to drop on the end of the blue track segment.
+    </description>
+ </item>
+ <item
+       title="Position remaining blue track">
+    <description>
+       We&apos;ve now got to tidy the remaining section of blue track.  So, zoom out so you can see both ends of the green track (the zoom out button is the magnifying glass with a minus symbol).  Once you can see the green track and the lower blue track, select <b>Drag track segment</b> again and move the blue track onto the end of the green track.
+    </description>
+ </item>
+ <item
+       title="Join track segments">
+    <description>
+       Now that our tracks are lined up, we can group them together into one. Do this by selecting both tracks in the Outline View (use the control key to select multiple items).  Then right-click on one of them and select <b>Group tracks into Frigate</b>.  The segments will all now turn blue, and only the <b>Track:Frigate</b> will be shown in the Outline View. But, expanding this item shows <b>Track segments (3 items)</b>.  Right-click on this and select <b>Merge all track segments</b>.
+    </description>
+ </item>
+</cheatsheet>

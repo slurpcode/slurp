@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Filtering your view" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\contentFile.xsd">
+	<intro>
+		<description>With <b>ever-increasing</b> data rates from multiple recording systems it is easy for an analysis plot to become swamped.  Debrief NG provides tools to reduce the volume and type of data displayed.  This tutorial will lead you through the management of large volumes of data.</description>
+	</intro>
+	<item title="Check you have some data">
+		<description>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  We're going to be working with the Sample.xml data-file from Debrief's sample data distribution.  If you can't see the sample data, refer to the online help covering how to find/load it. </description>
+	</item>
+	<item title="Open a sample file">
+		<description>Now double-click on <b>Sample.xml</b> in the navigator window.  Our sample Debrief plot should now open</description>
+	</item>
+	<item title="Check you can view the data">
+		<description>To be sure you can see all of the data, perform a fit-to-window operation, either via the Fit-to-Window button on the toolbar, or by the Fit-to-window button on the Chart Overview panel.</description>
+	</item>
+	<item title="Open the Outline View">
+		<description>Next, make sure the Outline View is visible.  Remember if any screen component isn't visible you just load it by selecting it from the 'Window/Show View' menu.</description>
+	</item>
+	<item title="Hide shape">
+		<description>In the Outline View, expand the layer titled "Misc (xx items)".  At the top of the Outline View, is a toolbar of operations that can be applied to plot items.  After selecting an annotation from within that layer, click on the empty rectangle icon in the Outline View toolbar (next to the tick-in-rectangle). You should see the green tick disappear, together with the shape on the plot.  Show the shape again - but this time use the Outline View drop-down menu (at the right of the Outline View's toolbar). (Note that you can hide/reveal more than one item at a time by holding down the control key to perform a multiple selection.)</description>
+	</item>
+	<item title="Hide whole layer">
+		<description>Next, experiment with hiding whole layers:  select one of the tracks in the Outline View and try hiding and revealing it.  Note, that you can expand each track to see the series of positions inside it.  Once expanded, you can select a series of point (representing a time-period) to be hidden/revealed.  But hey, there are quicker ways than that - just keep reading.</description>
+	</item>
+	<item title="Show Time Controller">
+		<description>Now we're going to filter the plot to a particular period of time.  Start off by revealing the Time Controller view (or opening it if it isn't already visible).  The lower section of the time controller is a pair of sliders used to mark the start and end time of a variety of tasks.  </description>
+	</item>
+	<item title="Select Filter to Period">
+		<description>Instruct Debrief that we want the plot to be filtered according to the selected time period by selecting "Filter to period" from the Time Controller's drop-down menu (the downward facing triangle at the right-hand end of the tools at the top of the Time Controller view).</description>
+	</item>
+	<item title="Trim visible time period">
+		<description>Now, as you drag the start and stop markers, the amount of data visible on the plot will be trimmed.  Nice.  The shaded portion between the time-sliders represents the currently visible time period.  You can drag this shaded section to move your &apos;windows&apos; forwards and backwards. Hold down the shift key to lock the period to the line markers </description>
+	</item>
+</cheatsheet>

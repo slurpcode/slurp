@@ -105,6 +105,7 @@ bundle exec jekyll serve
 - [CODEOWNERS](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners)
 - [EditorConfig](https://editorconfig.org/)
 - [TOML](https://en.wikipedia.org/wiki/TOML)
+- [FileUtils](https://apidock.com/ruby/v2_6_3/FileUtils)
 - [AWK](https://en.wikipedia.org/wiki/AWK)
 - [sed](https://en.wikipedia.org/wiki/Sed)
 - [grep](https://en.wikipedia.org/wiki/Grep)

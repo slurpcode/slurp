@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Analysing narrative data" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\contentFile.xsd">
+	<intro>
+		<description>In addition to geospatial data, Debrief offers the ability to analyse time-stamped textual comments - referred to as Narrative data.  Narrative data is shown in its own view, and is displayed dynamically in association with the current exercise time.</description>
+	</intro>
+	<item title="Check you have some data" skip="true">
+		<description>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  Also check you have our sample data-files - it they're not there, find how to load them from the "Loading sample data" cheat-sheet.</description>
+	</item>
+	<item title="Open the sample plot-file">
+		<description>Double-click on 'sample.xml' in the Navigator window, and the sample plot will open.</description>
+	</item>
+	<item title="Fit to window" href="\org.mwc.debrief.help\html\legacy\moving_around.html#Fit_To_Win">
+		<description>To make sure all of the data is visible, click on the "Fit-to-Window" toolbar button.</description>
+	</item>
+	<item title="Load narrative data">
+		<description>Now return to the Navigator window and drag the "narrative.rep" file onto the current plot.  No, you probably won't see anything change (unless you have the Outline View open)</description>
+	</item>
+	<item title="Inspect narrative data">
+		<description>If the Outline View isn't open yet, open it.  You'll see a new item shown, "Narratives (19 items)".  This shows that Debrief has loaded 19 narrative items.  No, you can't see any change on the plot, but that's because narrative data doesn't have a geographic location.</description>
+	</item>
+	<item title="Open Narrative Viewer">
+		<description>Now open the Narrative Viewer from the "Window/Show View" drop-down menu.
+		</description>
+	</item>
+	<item title="Familiarise with Narrative Viewer" href="/org.mwc.debrief.help/html/legacy/view_narrative.html">
+		<description>So, you should now see four columns.  These indicate the date of the comment, the origin of the comment, the type of comment (if recorded in the original data-file), and the comment itself.  Read more about the narrative viewer by clicking the help icon (above).</description>
+	</item>
+	<item title="Track exercise time">
+		<description>Now try dragging the slider in Debrief's Time Controller.  You will see a highlight move through the narrative data, indicating the narrative entry nearest to the current DTG.</description>
+	</item>
+	<item title="Control exercise time">
+		<description>Beyond following exercise time, narrative data can control exercise time.  To illustrate this, just double-click on a narrative entry, and you'll see both the time controller and the plot highlight jump to the relevant time.</description>
+	</item>
+	<item title="Add a bookmark">
+		<description>Similar to the previous encounter with bookmarks (via the Time Controller), it is possible to add a bookmark directly from a narrative entry.  If a narrative entry is of great significance to your navigation through the time period, click on the entry and select &quot;Add DTG as bookmark&quot; from the Narrative view&apos;s pull down menu (top-right).  The bookmark description will be populated with the narrative entry - but feel free to edit it if applicable.  The bookmark can now be found in the &quot;Bookmarks&quot; view, even after you&apos;ve closed the current plot.</description>
+	</item>
+	<item title="Done">
+		<description>That's it for narrative data.  It's not a significant part of Debrief anaylsis, but if you do receive good quality command narrative data (or other non geospatial data) then it may just prove useful.</description>
+	</item>
+</cheatsheet>

@@ -19,11 +19,15 @@ permalink: /docs/links/
 - [Syncing a fork](https://help.github.com/articles/syncing-a-fork)
 - [RexEgg - The world's most tyrannosaurical regex tutorial](https://www.rexegg.com)
 
+[&#8595;](#watch-this-space) [&#8593;](#links)
+
 ## GitHub Cheat Sheets
 
 - [Awesome](https://github.com/tiimgreen/github-cheat-sheet)
 - [GitHub Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 - [Tower](https://www.git-tower.com/blog/git-cheat-sheet)
+
+[&#8595;](#watch-this-space) [&#8593;](#links)
 
 ## Git GUI clients
 
@@ -32,10 +36,14 @@ permalink: /docs/links/
 - [GitKraken](https://www.gitkraken.com/git-client)
 - [Tower](https://www.git-tower.com/)
 
+[&#8595;](#watch-this-space) [&#8593;](#links)
+
 ## Database
 
 - [Postgres](https://www.postgresql.org)
 - [Heroku Dev Center](https://devcenter.heroku.com/categories/data-management)
+
+[&#8595;](#watch-this-space) [&#8593;](#links)
 
 ## Advanced Links
 
@@ -46,6 +54,8 @@ permalink: /docs/links/
 - [Oracle VirtualBox](https://www.virtualbox.org/)
 - [Vagrant](https://www.vagrantup.com/)
 - [Docker](https://www.docker.com/)
+
+[&#8595;](#watch-this-space) [&#8593;](#links)
 
 ## Free short courses
 
@@ -71,10 +81,14 @@ permalink: /docs/links/
 - [Learn ReactJS: Part II](https://www.codecademy.com/learn/react-102)
 - [Learn Sass](https://www.codecademy.com/learn/learn-sass)
 
+[&#8595;](#watch-this-space) [&#8593;](#links)
+
 ## Good Tunes
 
 - [ABGT](https://www.aboveandbeyond.nu/abgt)
 - [International Departures](https://www.mixcloud.com/internationaldepartures)
+
+[&#8595;](#watch-this-space) [&#8593;](#links)
 
 ## Watch This Space
 

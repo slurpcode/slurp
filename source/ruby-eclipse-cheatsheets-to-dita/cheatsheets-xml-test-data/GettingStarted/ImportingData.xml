@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Adding data to a plot">
+	<intro>
+		<description>Debrief's New Plot Wizard is quite effective at providing you with a ready-formatted backdrop to your analysis, but it doesn't load your data for you.  Here we're going to load some existing tracks to assist your getting started.
+		</description>
+	</intro>
+	<item title="Check Navigator is open">
+		<description>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  In the navigator, you should have a linked directory to sample data, either from a previous Debrief installation, or from within this fresh one.</description>
+	</item>
+	<item
+       href="/org.mwc.debrief.help/html/legacy/import_range_data.html#DebrieffileFormat"
+       title="View sample data">
+		<description>In the Navigator, expand the folder that contains your existing Debrief files (either REP or XML).  Valid Debrief files are flagged with a Debrief icon.  See the help link for this step (the Question mark icon) to read about the two file types. </description>
+	</item>
+	<item
+       href="/org.mwc.debrief.help/html/legacy/import_range_data.html#import_modes"
+       title="Drag in a simple track">
+		<description>If you&apos;ve already got a plot open (maybe one from earlier steps in the tutorial), close it now by clicking on the cross in the small tab-shaped icon above it.  Don&apos;t worry about saving the tutorial files.  Drag a REP track from your Navigator onto the blank plot area. The  <b>boat1.rep</b> file is a simple starting point.  The plot and any associated views will promptly update.  When REP files are dragged in, you may be asked whether you wish to import the data in Over The Ground (OTG) or Dead Reckoning (DR) mode.  For this tutorial, select OTG, but see help link (?) for this step for more detail - particularly if you expect to be using DR data.</description>
+	</item>
+ <item
+       title="Drag in a complex plot">
+    <description>
+       If you have multiple tracks to analyse you can drag them onto the track plot you&apos;ve just created.  But, for now, close the plot you have open (by clicking on the cross icon in it&apos;s tab.  You&apos;ll be asked if you want to save it, press <b>don&apos;t save</b>.  Now drag across <b>sample.xml</b>. You&apos;ll see that this plot contains more complex graphical features.
+    </description>
+ </item>
+ <item
+       title="Debrief file types">
+    <description>
+       Note, you&apos;ve just encountered two file types, the Replay file type (<b>.rep</b>) and the Debrief file type (<b>.xml</b>).  The Replay file format is a very simple, column oriented text format that&apos;s ideal for passing around track data.  But, it isn&apos;t suited to storing formatting data or user preferences.  This is where the Debrief xml file type comes in.  Whilst it&apos;s still a textual file format, it has a rich structure that allows it to store a wide range of data types and subjects.  Thus a typical flow for data is that it enters Debrief in REP format, the analyst creates a custom plot based on this data, and then stores the plot as an XML file.
+    </description>
+ </item>
+	<item href="/org.mwc.debrief.help/html/legacy/maintainers.html#RightClickIntegration" title="Done">
+		<description>There you are, your track data is now on the plot.  Note, tracks can't only be dragged from the Navigator. If you arrange your windows correctly you can drag tracks in directly from Windows Explorer.  Read the help for this step to learn how to implement &apos;right-click&apos; support for Debrief files</description>
+	</item>
+</cheatsheet>

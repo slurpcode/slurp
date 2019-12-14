@@ -24,7 +24,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fuchsia-programming.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username: fuchsia-programming
-paginate: 5
+paginate: 8
 feed:
   path: feed.xml
 
@@ -79,14 +79,15 @@ exclude:
   - .whitesource
   - .yamllint
   - assets/python/
-  - config.toml
   - CODEOWNERS
+  - config.toml
   - fuchsia-programming.github.io.iws
   - Gemfile
   - Gemfile.lock
   - lint.sh
   - renovate.json
   - requirements.txt
+  - source/
   #   - node_modules
   - vendor/bundle/
 #   - vendor/cache/

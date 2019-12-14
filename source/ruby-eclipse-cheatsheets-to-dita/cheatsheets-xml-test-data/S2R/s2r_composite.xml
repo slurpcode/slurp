@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compositeCheatsheet name="Single Sided Reconstruction in Debrief">
+   <taskGroup kind="sequence" name="Single Sided Reconstruction in Debrief" skip="false">
+      <intro>
+         Before running through this cheat-sheet, you should really have 
+         completed the <b>A Debrief walkthrough</b>  cheat-sheet, so you 
+         know how to configure Debrief and how to load your data.  
+         If you haven&apos;t completed the Debrief walkthrough, 
+         click on <b>Restore Welcome</b> at the top of this window (or select <b>Welcome</b> from the Help menu), 
+         navigate to the Tutorials tab, and start the Debrief walkthrough.
+      </intro>
+      <task kind="cheatsheet" name="Tidying the ownship track" skip="false">
+         <intro>
+            <b>Frequently, before you can start work on producing the red track, you must perform some grooming of the ownship track.</b>
+         </intro>
+         <onCompletion>
+            In that task, you fixed some jumps in the ownship track, and filled in a period of missing data. You won&apos;t need the current plot for the next stage of the tutorial, so you can close it (by clicking in the &apos;x&apos; in its title tab) - and no, you won&apos;t need to save changes.
+         </onCompletion>
+         <param name="path" value="GroomingTracks.xml">
+         </param>
+      </task>
+      <taskGroup kind="sequence" name="Working with target tracks" skip="false">
+         <intro>
+            Now it&apos;s time to start building the target track
+         </intro>
+         <onCompletion>
+            You&apos;ve now learnt how to create and manage target tracks in Debrief.
+         </onCompletion>
+         <task kind="cheatsheet" name="Load and groom sensor data" skip="false">
+            <intro>
+               Now we&apos;ve learned about how to groom data by drag and dropping segments we&apos;re going to encounter the <b>Grid Editor</b>  - a Debrief panel dedicated to editing raw data.
+            </intro>
+            <onCompletion>
+               We&apos;ve now got a track with lovely smooth sensor data. Hmm.
+            </onCompletion>
+            <param name="path" value="GroomSensorData.xml">
+            </param>
+         </task>
+         <task kind="cheatsheet" name="Generating a segment of target track" skip="false">
+            <intro>
+               The next step of the analysis process is to produce a valid target track from our tidied data
+            </intro>
+            <onCompletion>
+               We now have a pair of target track sections.
+            </onCompletion>
+            <param name="path" value="GenerateTargetTrack.xml">
+            </param>
+         </task>
+         <task kind="cheatsheet" name="Combining sections of target track" skip="false">
+            <intro>
+               Next we&apos;re going to combine the discrete track segments into a tidy target track ready for subsequent analysis.
+            </intro>
+            <onCompletion>
+               That&apos;s all the skills you need for single sided reconstruction using Debrief.  Clearly there&apos;s probably now another step to be performed in how you exploit your shiny new track, but that would depend on your analysis objective.
+            </onCompletion>
+            <param name="path" value="CombineTargetTracks.xml">
+            </param>
+         </task>
+      </taskGroup>
+   </taskGroup>
+</compositeCheatsheet>

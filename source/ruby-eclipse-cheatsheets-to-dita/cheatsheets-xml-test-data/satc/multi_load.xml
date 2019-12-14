@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../contentFile.xsd"
+ title="Loading the data">
+   <intro>
+      <description>
+         We&apos;ve got a Debrief plot file pre-prepared to let you avoid 
+         some of the steps in the single-leg tutorial, called  <b>L2_Scenario.xml</b>.
+      </description>
+   </intro>
+   <item
+      title="Find the data file">
+      <description>         
+         The data-file for this tutorial is contained in the SATC sub-folder, as were the 
+         files used in the previous tutorial.
+      </description>
+   </item>
+   <item
+         title="Drag in the file">
+      <description>         
+         Before you load the data-file, close any existing Debrief plots, then drag 
+         in the <b>L2_Scenario.xml</b> data-file from the SATC folder we used in the previous tutorial.
+         <br/><br/>
+         You will see a Blue Ownship track, with a bearing fan in nice pretty shades of green, purple and red.
+      </description>
+   </item>
+</cheatsheet>

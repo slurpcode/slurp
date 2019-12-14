@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet title="Assigning primary and secondary tracks" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="..\contentFile.xsd">
+	<intro>
+		<description>With ever-increasing data rates from multiple recording systems it is easy for an analysis plot to become swamped.  Debrief NG provides tools to reduce the volume and type of data displayed.  This tutorial will lead you through the management of large volumes of data.</description>
+	</intro>
+	<item title="Check you have some data" href="/org.eclipse.platform.doc.user/concepts/cnav.htm">
+		<description>In the top left hand corner of Debrief you should find the Navigator window.  If it isn&apos;t there, select &quot;Navigator&quot; from Debrief&apos;s Window/Show View menu.  Also check you have our sample data-files - if they&apos;re not there, find how to load them from the &quot;Loading sample data&quot; cheat-sheet.</description>
+	</item>
+	<item title="Open the sample plot-file">
+		<description>Double-click on 'sample.xml' in the Navigator window, and the sample plot will open.</description>
+	</item>
+	<item title="Fit to window" href="\org.mwc.debrief.help\html\legacy\moving_around.html#Fit_To_Win">
+		<description>To make sure all of the data is visible, click on the "Fit-to-Window" toolbar button.</description>
+	</item>
+	<item title="View the tote" href="\org.mwc.debrief.help\html\legacy\start_up.html#debrief_views">
+		<description>In the centre section of the left hand column in Debrief is the Track Tote.  If it's obscured by other view panels, click on it's tab to highlight it.  If it's not visible at all, open it by selecting "Track Tote" from the "Window/Show View" drop-down menu.</description>
+	</item>
+	<item title="What can I see?" href="\org.mwc.debrief.help\html\legacy\analysing_data.html#the_tote_area">
+		<description>Once open, you should see a table consisting of two or more columns.  The left-hand column lists the calculated data fields, and an optional right-hand column shows the units used for that field.  The centre columns show the actual calculated data fields, one for each track on the tote.  The left-hand data column (OSPREY in our test data) is the primary track - that is, all calculations are shown relative to this track.  The calculations themselves are explained in greater detail in the Help manual (click on the Help icon above). </description>
+	</item>
+	<item title="Move track through time" href="\org.mwc.debrief.help\html\legacy\analysing_data.html#stepping_forward_in_time">
+		<description>Ok, now open the Time Controller (in the top-section of the left hand column once again, open it from the Window menu if you can't see it).  If you drag the time-slider in the time-controller you will see the calculated data fields update.</description>
+	</item>
+	<item title="Removing a track" href="\org.mwc.debrief.help\html\legacy\analysing_data.html#removing_tracks">
+		<description>As an experiement with managing the tracks on the tote, right-click on the right-hand tote's columns (but not the header) and select "Remove this track".  Yes, the secondary track will be removed, and with only one track remaining.  </description>
+	</item>
+	<item title="Adding a track to the tote" href="\org.mwc.debrief.help\html\legacy\analysing_data.html#assigning_tracks">
+		<description>Open the Outline View (you must know where to find that by now...).  Observe the '1' and '2' buttons on the view's toolbar, they're probably currently disabled.  They become enabled depending upon whether the currently selected item is suitable for inclusion on the tote.  Click once on the track you just removed from the tote, and both buttons will be enabled - allowing you to make the current track primary or secondary. Go on, have a go at assigning it...  It's more than just tracks that can be put on the tote, any data-item that has time and location attributes can be placed on the tote: items such as circles and labels are particularly suited.</description>
+	</item>
+	<item title="Done">
+		<description>Well done, you are now a master of the tote. </description>
+	</item>
+</cheatsheet>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cheatsheet
+      title="Configuring legacy data">
+   <intro>
+      <description>
+         In addition to plotting your recorded vehicle data, Debrief is able to show a number of datasets in backdrop form.
+<br/>
+These range from Vectored datasets such as VPF through to gridded datasets such as ETOPO-2
+      </description>
+   </intro>
+   <item
+         href="/org.mwc.debrief.help/html/legacy/external_datasets.html#getting_vpf"
+         title="How to configure VPF library datasets">
+      <description>
+         The steps to configure VPF and Etopo are covered in Debrief&apos;s user manual.  If you wish to learn this at this stage, use the &apos;Question Mark&apos; help link alongside, else search for <b>VPF</b> in Debrief&apos;s online help at some future stage. Here&apos;s a clue though, you go into the <b>Maritime Analysis</b> section of the Preferences.
+      </description>
+   </item>
+   <item
+         href="/org.mwc.debrief.help/html/legacy/etopo_data.html#etopo_install"
+         title="How to configure ETOPO library data">
+      <description>
+         Use the help link to the side of this text to open the guidance on how to configure the location of the ETOPO data.
+      </description>
+   </item>
+</cheatsheet>
