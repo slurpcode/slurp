@@ -15,10 +15,14 @@
       link: /docs/sql-file/
     - title: 🖨️ DITA to PDF with Eclipse
       link: /docs/dita-to-pdf-with-eclipse/
+    - title: 🌘 Eclipse cheat sheets to DITA to PDF
+      link: /docs/eclipse-cheatsheets-to-dita-to-pdf/
     - title: 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
       link: /docs/eclipse-cheat-sheets-to-dita-with-ruby-xsl-nokogiri/
     - title: 🛂 Hashcheck
       link: /docs/hashcheck/
+    - title: 🐍 Eclipse cheat sheets (XML) to DITA with Python
+      link: /docs/eclipse-cheatsheets-to-dita-with-python/
     - title: 🎞️ Ruby Strip
       link: /docs/ruby-strip/
     - title: 🔗 Links
