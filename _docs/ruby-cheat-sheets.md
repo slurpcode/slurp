@@ -26,7 +26,8 @@ so don't be scared and first check out a short Ruby YouTube video I created.
 
 [Ruby in 29 seconds](https://youtu.be/2ei7S0FU65E)
 
-[&#8593;](#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri) [&#8595;](#watch-this-space)
+[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
+[&#8595;](#watch-this-space)
 
 ## From Java, XSLT 2.0 with Saxon to Ruby, XSLT 1.0 with the Nokogiri Ruby gem
 
@@ -42,7 +43,8 @@ Ruby installed.
 The Ruby file: `default.rb` builds the output parent Ditamap `map.ditamap`
 (output/map.ditamap) and the 4 sub DITA tasks in the `output/dita` folder.
 
-[&#8593;](#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri) [&#8595;](#watch-this-space)
+[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
+[&#8595;](#watch-this-space)
 
 ## DITA Background
 
@@ -54,7 +56,8 @@ publish those ideas.
 The DITA standard is maintained by the [OASIS](https://www.oasis-open.org/) DITA
 Technical Committee.
 
-[&#8593;](#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri) [&#8595;](#watch-this-space)
+[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
+[&#8595;](#watch-this-space)
 
 ## The Project
 
@@ -69,7 +72,8 @@ The
 test data folder - `cheatsheets-xml-test-data` is best viewed inside Eclipse,
 and is used as input when `default.rb` runs.
 
-[&#8593;](#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri) [&#8595;](#watch-this-space)
+[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
+[&#8595;](#watch-this-space)
 
 ## Resources
 
@@ -81,8 +85,9 @@ and is used as input when `default.rb` runs.
 - [W3C - The Extensible Stylesheet Language Family (XSL)](http://www.w3.org/Style/XSL/)
 - [The Organization for the Advancement of Structured Information Standards (OASIS)](<https://en.wikipedia.org/wiki/OASIS_(organization)>)
 
-[&#8593;](#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri) [&#8595;](#watch-this-space)
+[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
+[&#8595;](#watch-this-space)
 
 ## Watch This Space
 
-[&#8593;](#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri)
+[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
