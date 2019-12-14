@@ -6,7 +6,7 @@ layout: default
 
     <div>
         <article>
-            <h1 id="{{ page.title | downcase  }}">{{ page.title }}</h1>
+            <h1 id="{{ page.title | downcase | split: ' ' | join: '-' | remove: ',' }}">{{ page.title }}</h1>
             {{ content }}
         </article>
     </div>
