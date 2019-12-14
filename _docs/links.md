@@ -19,12 +19,35 @@ permalink: /docs/links/
 - [Syncing a fork](https://help.github.com/articles/syncing-a-fork)
 - [RexEgg - The world's most tyrannosaurical regex tutorial](https://www.rexegg.com)
 
-# Database
+## GitHub Cheat Sheets
+
+- [Awesome](https://github.com/tiimgreen/github-cheat-sheet)
+- [GitHub Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+- [Tower](https://www.git-tower.com/blog/git-cheat-sheet)
+
+## Git GUI clients
+
+- [GitHub Desktop](https://desktop.github.com/)
+- [Sourcetree](https://www.sourcetreeapp.com/)
+- [GitKraken](https://www.gitkraken.com/git-client)
+- [Tower](https://www.git-tower.com/)
+
+## Database
 
 - [Postgres](https://www.postgresql.org)
 - [Heroku Dev Center](https://devcenter.heroku.com/categories/data-management)
 
-# Free short courses
+## Advanced Links
+
+- [GitHub Pages](https://pages.github.com/)
+- [Linode](https://www.linode.com/)
+- [DigitalOcean](https://www.digitalocean.com/)
+- [Google Cloud](https://cloud.google.com/)
+- [Oracle VirtualBox](https://www.virtualbox.org/)
+- [Vagrant](https://www.vagrantup.com/)
+- [Docker](https://www.docker.com/)
+
+## Free short courses
 
 - [Welcome to Codecademy!](https://www.codecademy.com/learn/welcome-to-codecademy) -
   We recommend starting with this course
@@ -48,7 +71,7 @@ permalink: /docs/links/
 - [Learn ReactJS: Part II](https://www.codecademy.com/learn/react-102)
 - [Learn Sass](https://www.codecademy.com/learn/learn-sass)
 
-# Good Tunes
+## Good Tunes
 
 - [ABGT](https://www.aboveandbeyond.nu/abgt)
 - [International Departures](https://www.mixcloud.com/internationaldepartures)
