@@ -54,6 +54,9 @@ Style/GlobalVars:
 Style/HashSyntax:
   EnforcedStyle: no_mixed_keys
 
+Style/MultilineBlockChain:
+  Enabled: false
+
 Style/NegatedIf:
   Enabled: false
 

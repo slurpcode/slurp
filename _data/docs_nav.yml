@@ -17,5 +17,9 @@
       link: /docs/dita-to-pdf-with-eclipse/
     - title: 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
       link: /docs/eclipse-cheat-sheets-to-dita-with-ruby-xsl-nokogiri/
+    - title: 🛂 Hashcheck
+      link: /docs/hashcheck/
+    - title: 🎞️ Ruby Strip
+      link: /docs/ruby-strip/
     - title: 🔗 Links
       link: /docs/links/

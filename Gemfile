@@ -31,6 +31,7 @@ gem 'fileutils'
 gem 'mdl'
 gem 'nokogiri'
 gem 'overcommit'
+gem 'paint'
 gem 'rubocop', require: false
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

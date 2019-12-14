@@ -227,6 +227,7 @@ GEM
     overcommit (0.51.0)
       childprocess (>= 0.6.3, < 4)
       iniparse (~> 1.4)
+    paint (2.1.1)
     parallel (1.19.1)
     parser (2.6.5.0)
       ast (~> 2.4.0)
@@ -288,6 +289,7 @@ DEPENDENCIES
   minima (~> 2.5)
   nokogiri
   overcommit
+  paint
   rubocop
   tzinfo-data
 
