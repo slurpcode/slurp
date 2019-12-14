@@ -2,11 +2,11 @@
 <task>
    <title>Single Sided Reconstruction in Debrief</title>
    <shortdesc>
-         Before running through this cheat-sheet, you should really have 
-         completed the <b>A Debrief walkthrough</b>  cheat-sheet, so you 
-         know how to configure Debrief and how to load your data.  
-         If you haven't completed the Debrief walkthrough, 
-         click on <b>Restore Welcome</b> at the top of this window (or select <b>Welcome</b> from the Help menu), 
+         Before running through this cheat-sheet, you should really have
+         completed the <b>A Debrief walkthrough</b>  cheat-sheet, so you
+         know how to configure Debrief and how to load your data.
+         If you haven't completed the Debrief walkthrough,
+         click on <b>Restore Welcome</b> at the top of this window (or select <b>Welcome</b> from the Help menu),
          navigate to the Tutorials tab, and start the Debrief walkthrough.
       </shortdesc>
    <task>
@@ -93,7 +93,7 @@
             <step>
                <cmd>Set array offset</cmd>
                <info>
-         We can move on now that we've tidied the sensor data.  As you'll see, the sensor data is ambiguous, as produced by a towed array.  Currently Debrief is plotting the sensor cuts against the attack datum of the platform, but we need to apply an offset for this sensor (-451m in this case).   So, select <b>Sensor:SENSOR_A</b> in the <b>Outline View</b>, then open the <b>Properties Window</b> (the click to perform button below will also open it).  In the Properties Window you'll see the <b>SensorOffset</b> attribute.  This allows you to enter a custom offset or to choose from a set of lengths from a shared datafile (see the Help entry for this item for further details).  Anyway, ignore the shared values and enter -451 in this field, click on the Plot, and you'll see the bearings jump to reflect the change. To see where the current array centre is, switch on <b>Plot Array Centre</b> from the properties for the parent track - you'll see a cross appear astern of the current submarine location. 
+         We can move on now that we've tidied the sensor data.  As you'll see, the sensor data is ambiguous, as produced by a towed array.  Currently Debrief is plotting the sensor cuts against the attack datum of the platform, but we need to apply an offset for this sensor (-451m in this case).   So, select <b>Sensor:SENSOR_A</b> in the <b>Outline View</b>, then open the <b>Properties Window</b> (the click to perform button below will also open it).  In the Properties Window you'll see the <b>SensorOffset</b> attribute.  This allows you to enter a custom offset or to choose from a set of lengths from a shared datafile (see the Help entry for this item for further details).  Anyway, ignore the shared values and enter -451 in this field, click on the Plot, and you'll see the bearings jump to reflect the change. To see where the current array centre is, switch on <b>Plot Array Centre</b> from the properties for the parent track - you'll see a cross appear astern of the current submarine location.
       </info>
             </step>
             <step>
@@ -147,7 +147,7 @@
             <step>
                <cmd>Drag the track segment</cmd>
                <info>
-         You may now manipulate the track segment to minimise the bearing and frequency residuals. Start by clicking on <b>Drag Track Segment</b> on the Debrief toolbar. As you do, the <b>Bearing Residuals</b> view will be brought to the front.  You can expand this view by dragging it's sides, or to make it much larger you can pick it up by clicking and dragging the <b>Bearing Residuals</b> tab above it, and dragging it to another monitor.  
+         You may now manipulate the track segment to minimise the bearing and frequency residuals. Start by clicking on <b>Drag Track Segment</b> on the Debrief toolbar. As you do, the <b>Bearing Residuals</b> view will be brought to the front.  You can expand this view by dragging it's sides, or to make it much larger you can pick it up by clicking and dragging the <b>Bearing Residuals</b> tab above it, and dragging it to another monitor.
 In this view are the 4 drag operation buttons, that control how you drag the track. The cursor hand will go green when over a valid hot-spot: either end of the track.  In some drag modes you can <b>translate</b> a track by clicking on the hotspot at its mid-point.  Have a go at selecting <b>Shear</b> mode and dragging the ends of the track - to optimise the bearing errors.
      </info>
             </step>

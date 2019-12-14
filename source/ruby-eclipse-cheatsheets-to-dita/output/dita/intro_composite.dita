@@ -290,7 +290,7 @@ Using the wizard, follow the series of tabs to indicate what information you'd l
           <step id="idp140433939339376">
             <cmd>View the data in tree form</cmd>
             <info> In addition to viewing your data on the 2D plot, the <b>Outline View</b>
-			displays it in tree form. Switch to the <b>Outline View</b> view to see the data. 
+			displays it in tree form. Switch to the <b>Outline View</b> view to see the data.
 			If the Outline View isn't open already, you can open it via the <b>Window/Show View</b> menu.
 			You'll see the two tracks there, together with other layers that contain <b>Chart
 				Features</b> (such as the <b>Grid</b> and <b>Scale</b>), and the <b>Misc</b> layer
@@ -342,8 +342,8 @@ Using the wizard, follow the series of tabs to indicate what information you'd l
             <cmd>Edit a position</cmd>
             <info>To select a position within a track, just double-click on it - its editable
 			attributes will appear in the properties window. You can now change the symbol or label
-			(<b>LabelShowing</b> or <b>SymbolShowing</b>, 
-			visibility, or the color (<b>Color</b>) that position will be plotted in. Note: you may have to scroll up &amp; down the 
+			(<b>LabelShowing</b> or <b>SymbolShowing</b>,
+			visibility, or the color (<b>Color</b>) that position will be plotted in. Note: you may have to scroll up &amp; down the
 			<b>Properties Window</b> to see all of the properties.</info>
             <stepxmp/>
           </step>
@@ -406,10 +406,10 @@ So, click on the help link alongside or below to open the help manual, have a re
           </step>
         </steps>
         <result>
-               You've now mastered the initial steps of using Debrief. 
-               
-               <ph/>Ok, you've finished your first cheat sheet, why not try the "Using Debrief in analysis" on next.  
-               
+               You've now mastered the initial steps of using Debrief.
+
+               <ph/>Ok, you've finished your first cheat sheet, why not try the "Using Debrief in analysis" on next.
+
             </result>
       </taskbody>
     </task>

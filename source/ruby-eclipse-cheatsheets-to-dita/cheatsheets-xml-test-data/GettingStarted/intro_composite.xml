@@ -27,8 +27,8 @@
          </task>
          <task kind="cheatsheet" name="Finding your data" skip="true">
             <intro>
-               If you already have one or more folders containing Debrief data, 
-               you can add them to your Debrief NG project (or load sample data that was installed within Debrief NG).  
+               If you already have one or more folders containing Debrief data,
+               you can add them to your Debrief NG project (or load sample data that was installed within Debrief NG).
                If you've haven't got any sample data, or if you can already see the <b>Sample Data</b> folder in your
                <b>Navigator</b>, you can skip this task.
             </intro>
@@ -42,7 +42,7 @@
          </task>
          <task kind="cheatsheet" name="Configuring library data" skip="true">
             <intro>
-               Debrief can plot information from library datasets to add context to the current view.  
+               Debrief can plot information from library datasets to add context to the current view.
                Because of their typical size, these datasets are not distributed with Debrief, but should be obtained separately.
                <br/>
                If you don't hold a VPF CD, or the ~200Mb <b>ETOPO.RAW</b> file, you may skip this task.
@@ -91,11 +91,11 @@
                Here you&apos;ll learn more about the Debrief user interface
             </intro>
             <onCompletion>
-               You&apos;ve now mastered the initial steps of using Debrief. 
+               You&apos;ve now mastered the initial steps of using Debrief.
                <i>NoPrint</i><br/>Why not go back to the Welcome view (there&apos;s a <b>Restore Welcome</b> link at the top of this view).
                The <b>Using Debrief in analysis</b> cheat sheet is a logical next step.<i>NoPrint</i>
-               <i><br/>Ok, you&apos;ve finished your first cheat sheet, why not try the "Using Debrief in analysis" on next.</i>  
-               
+               <i><br/>Ok, you&apos;ve finished your first cheat sheet, why not try the "Using Debrief in analysis" on next.</i>
+
             </onCompletion>
             <param name="path" value="ViewHelpForUI.xml">
             </param>

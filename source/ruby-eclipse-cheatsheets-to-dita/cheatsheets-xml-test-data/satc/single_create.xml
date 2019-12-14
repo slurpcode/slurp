@@ -3,8 +3,8 @@
  xsi:noNamespaceSchemaLocation="../contentFile.xsd" title="Create scenario">
    <intro>
       <description>
-         Ok, let&apos;s create our first scenario. 
-         <br/><br/><b>Note:</b> &apos;Scenario&apos; is the term used to describe the collection of data 
+         Ok, let&apos;s create our first scenario.
+         <br/><br/><b>Note:</b> &apos;Scenario&apos; is the term used to describe the collection of data
           that is collated in order for SATC to produce an optimal &apos;Solution&apos;.
       </description>
    </intro>
@@ -13,7 +13,7 @@
       <description>
          We&apos;re going to use all of the ownship sensor data to create our scenario.<br/>
          So, open the <b>Outline View</b>, then open the <b>Track:OWNSHIP</b>.  The ownship track has a <b>Sensors (1 items)</b> object.
-         Open this and you will see the single block of sensor data, titled <b>Sensor:Plain (11 items)</b>. 
+         Open this and you will see the single block of sensor data, titled <b>Sensor:Plain (11 items)</b>.
       </description>
    </item>
    <item
@@ -43,7 +43,7 @@
          As stated earlier, the scenario is currently named <b>121213.14</b>.  This automatic
          naming is convenient in that it stops you (the analyst) having to make one up
          on the spur of the moment, but we&apos;re going to rename it to avoid confusion
-         later on. So, select the new scenario in the <b>Outline View</b>, 
+         later on. So, select the new scenario in the <b>Outline View</b>,
          and now use the <b>Properties</b> view to change its <b>Name</b> value to <b>Single Leg</b>.
       </description>
    </item>
@@ -58,14 +58,14 @@
       title="Understand the contributions window">
       <description>
          From the <b>Maintain Contributions</b> view you will see that there is a single item listed in the <b>Analyst Contributions</b>.
-         This is the bearing data that will be used to inform all of the subsequent contributions.  
+         This is the bearing data that will be used to inform all of the subsequent contributions.
          <br/><br/>
       </description>
    </item>
    <item
       title="Viewing the bearing measurement contributions">
       <description>
-         
+
          Let&apos;s learn more about the Bearing Measurement Contribution.  This contribution is the set of bearings that represent the unknown target track.  You will see that the contribution
          has an estimate value of <b>+/- 3 degs</b>. This means the algorithm will only offer solutions that are within 3 degrees of these bearing measurements.
          <br/>You can view these measurements.  First, select the <b>Single Leg</b> in the <b>Outline View</b>.  Then, in the <b>Properties Window</b>, tick the <b>ShowLocationConstraints</b> item.
@@ -80,9 +80,9 @@
    <item
       title="Get ready to specify a target leg">
       <description>
-         <br/>Note that in this sample data, we have a maximum range value for the bearings, of 12kyds.  
+         <br/>Note that in this sample data, we have a maximum range value for the bearings, of 12kyds.
          In the absence of a range estimate they will be drawn out to 30 kyds.
-         <br/>Also, before we continue, we need to reset Debrief to a predictable state, so please restore the <b>Bearing Measurement</b> analyst contribution to 3 degrees, and also clear the <b>ShowLocationConstraints</b> 
+         <br/>Also, before we continue, we need to reset Debrief to a predictable state, so please restore the <b>Bearing Measurement</b> analyst contribution to 3 degrees, and also clear the <b>ShowLocationConstraints</b>
          checkbox for in the <b>Properties</b> View for the <b>Single Leg</b> scenario.
       </description>
    </item>
@@ -90,12 +90,12 @@
          title="Specify a target leg">
       <description>
          Your deep, deep, analysis skills have led you to believe that all of these cuts relate to a single leg of target data - in
-         other words, the target maintains course and speed through the period of interest. 
-         
-         <br/><br/> That information is useful to the 
+         other words, the target maintains course and speed through the period of interest.
+
+         <br/><br/> That information is useful to the
          TMA algorithms.  Provide this information to the TMA algorithm by right-clicking once again on the <b>Sensor:Plain (11 items)</b> item
-         in the <b>Outline View</b>, then browse down the menu to <b>Semi Auto TMA</b>, then <b>Add to Single Leg</b>. From the 
-         menu that appears, select <b>New Straight Leg for period covered by [sensor cuts]</b>. From the dialog that opens, name the contribution as <b>Leg limits</b>         
+         in the <b>Outline View</b>, then browse down the menu to <b>Semi Auto TMA</b>, then <b>Add to Single Leg</b>. From the
+         menu that appears, select <b>New Straight Leg for period covered by [sensor cuts]</b>. From the dialog that opens, name the contribution as <b>Leg limits</b>
       </description>
    </item>
    <item

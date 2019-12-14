@@ -13,14 +13,14 @@
    </item>
    <item title="Load ownship track">
       <description>
-         From the SATC sub-folder, drag the <b>L1_OwnshipTrack.rep</b> file into the Debrief plot area. (Or, right click it, 
+         From the SATC sub-folder, drag the <b>L1_OwnshipTrack.rep</b> file into the Debrief plot area. (Or, right click it,
          and select "Open With > Debrief Plot Editor").
       </description>
    </item>
    <item title="Load ownship sensor data">
       <description>
          You should now see the Debrief editor, with a blue ownship track.<br/> Next, we will load the ownship sensor (sonar) data,
-          by dragging in the <b>L1_OwnshipSensor.dsf</b> file. 
+          by dragging in the <b>L1_OwnshipSensor.dsf</b> file.
          Follow the Wizard steps to load the sensor data, give it a color, and indicate that Yes, you wish it to be visible.
       </description>
    </item>

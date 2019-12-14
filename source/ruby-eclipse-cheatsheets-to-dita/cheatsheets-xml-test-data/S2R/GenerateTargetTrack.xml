@@ -12,7 +12,7 @@
          The capable analyst will be able to recognise a couple of periods of steady bearing rate that lend themselves to being the basis of TMA solutions.  The first one we&apos;re going to use is the first dozen or so sensor cuts.  We can see that after a period of about 10 unsteady cuts there&apos;s another steady period - we&apos;ll use that for a solution a little later.
       </description>
    </item>
-   
+
    <item
          title="Highlight contacts">
       <description>
@@ -52,7 +52,7 @@
          href="/org.mwc.debrief.help/html/legacy/formatting_data.html#track_shifting"
          title="Drag the track segment">
       <description>
-         You may now manipulate the track segment to minimise the bearing and frequency residuals. Start by clicking on <b>Drag Track Segment</b> on the Debrief toolbar. As you do, the <b>Bearing Residuals</b> view will be brought to the front.  You can expand this view by dragging it&apos;s sides, or to make it much larger you can pick it up by clicking and dragging the <b>Bearing Residuals</b> tab above it, and dragging it to another monitor.  
+         You may now manipulate the track segment to minimise the bearing and frequency residuals. Start by clicking on <b>Drag Track Segment</b> on the Debrief toolbar. As you do, the <b>Bearing Residuals</b> view will be brought to the front.  You can expand this view by dragging it&apos;s sides, or to make it much larger you can pick it up by clicking and dragging the <b>Bearing Residuals</b> tab above it, and dragging it to another monitor.
 In this view are the 4 drag operation buttons, that control how you drag the track. The cursor hand will go green when over a valid hot-spot: either end of the track.  In some drag modes you can <b>translate</b> a track by clicking on the hotspot at its mid-point.  Have a go at selecting <b>Shear</b> mode and dragging the ends of the track - to optimise the bearing errors.
      </description>
       <subitem

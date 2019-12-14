@@ -4,8 +4,8 @@
   <shortdesc>
          <b>Introduction</b><ph/>
 This collection of cheat sheets will teach you how to use Debrief's Semi Automated Track Construction (SATC) capabilities.
-         <ph/><ph/><b>Tip:</b>  If you have multiple monitors, you may wish to drag out this <b>Cheat Sheets</b> window to give 
-         you more room for the multiple Debrief windows that you will use later on. 
+         <ph/><ph/><b>Tip:</b>  If you have multiple monitors, you may wish to drag out this <b>Cheat Sheets</b> window to give
+         you more room for the multiple Debrief windows that you will use later on.
       </shortdesc>
   <task id="idp140433133215328">
     <title>Single Leg Solution</title>
@@ -16,9 +16,9 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
     <task id="idp140433133270256">
       <title>Finding the sample data</title>
       <shortdesc>
-               There are two ways to load the sample data. We're probably going to end up modifying the sample data, 
+               There are two ways to load the sample data. We're probably going to end up modifying the sample data,
                so you shouldn't
-               do that if you're working on a set of sample data that's shared with other users  (since you 
+               do that if you're working on a set of sample data that's shared with other users  (since you
                would be modifying the <b>master</b> copy of the data). Start off by considering if your Debrief installation folder
                is on your local machine, or on a Network Shared Folder.
             </shortdesc>
@@ -146,23 +146,23 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
     <task id="idp140433133258496">
       <title>Loading the data</title>
       <shortdesc>
-         We've got a Debrief plot file pre-prepared to let you avoid 
+         We've got a Debrief plot file pre-prepared to let you avoid
          some of the steps in the single-leg tutorial, called  <b>L2_Scenario.xml</b>.
       </shortdesc>
       <taskbody>
         <steps>
           <step id="idp140433133517984">
             <cmd>Find the data file</cmd>
-            <info>         
-         The data-file for this tutorial is contained in the SATC sub-folder, as were the 
+            <info>
+         The data-file for this tutorial is contained in the SATC sub-folder, as were the
          files used in the previous tutorial.
       </info>
             <stepxmp/>
           </step>
           <step id="idp140433133519168">
             <cmd>Drag in the file</cmd>
-            <info>         
-         Before you load the data-file, close any existing Debrief plots, then drag 
+            <info>
+         Before you load the data-file, close any existing Debrief plots, then drag
          in the <b>L2_Scenario.xml</b> data-file from the SATC folder we used in the previous tutorial.
          <ph/><ph/>
          You will see a Blue Ownship track, with a bearing fan in nice pretty shades of green, purple and red.
@@ -182,21 +182,21 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
         <steps>
           <step id="idp140433133528432">
             <cmd>View the ownship track</cmd>
-            <info>         
-         When you view the tutoral plot you will see an ownship track.  Use the Debrief <b>Time Controller</b> and <b>Track Tote</b> to 
-         familiarise yourself with the general motion of the <b>OWNSHIP</b> track.  You'll see that it starts in the 
+            <info>
+         When you view the tutoral plot you will see an ownship track.  Use the Debrief <b>Time Controller</b> and <b>Track Tote</b> to
+         familiarise yourself with the general motion of the <b>OWNSHIP</b> track.  You'll see that it starts in the
          North-East of the area, then travels quite slowly at 2.5 knots, with two straight legs.
       </info>
             <stepxmp/>
           </step>
           <step id="idp140433133531200">
             <cmd>View the sensor data</cmd>
-            <info>         
+            <info>
          The identification of straight legs is pivotal to the SATC process, since they greatly constrain
          the possible solution combinations.
          <ph/>
          Just as when conducting Manual TMA generation using Debrief, the best practice for this process is to color the sensor cuts according
-         to the leg they're contained in.  If you examine the Ownship sensor data, you'll see 
+         to the leg they're contained in.  If you examine the Ownship sensor data, you'll see
          that the first and second legs have been coloured in green and purple, respectively. Between each leg, a
          few cuts have been left red, to provide time for the target to make alterations.
       </info>
@@ -204,12 +204,12 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
           </step>
           <step id="idp140433133532752">
             <cmd>Mark the final target leg</cmd>
-            <info>         
-         Whilst the first two target legs have been coloured, the last one hasn't. Let's do it now. 
+            <info>
+         Whilst the first two target legs have been coloured, the last one hasn't. Let's do it now.
          <ph/><ph/>
          Expand the sensor data
          in the Outline View, and select the sensor cuts from <b>100112 134230</b> until the end of the
-         dataset, at <b>100112 140000</b>.  Now use the <b>Properties</b> view to change the color of these cuts to <b>Yellow</b> 
+         dataset, at <b>100112 140000</b>.  Now use the <b>Properties</b> view to change the color of these cuts to <b>Yellow</b>
          (or obviously you could right-click and select Color &gt; Yellow).
       </info>
             <stepxmp/>
@@ -217,31 +217,31 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
           <step id="idp140433133536160">
             <cmd>Create the scenario</cmd>
             <info>
-         The most significant block of information in generating a solution is the bearing data.  So, the 
+         The most significant block of information in generating a solution is the bearing data.  So, the
          first step is to provide the bearing data.  We are going to use all of the Ownship sensor data for this
-         solution, so right-click on the <b>Sensor:Plain (145 items)</b> sensor, and select <b>Semi Auto TMA</b> / 
+         solution, so right-click on the <b>Sensor:Plain (145 items)</b> sensor, and select <b>Semi Auto TMA</b> /
          <b>Create new scenario from these cuts</b>.
-         <ph/>As with the previous tutorial, you will see the new scenario (called <b>121200.00</b> appear in the Outline View, and the 
-         <b>Maintain Contributions</b> view will open. 
+         <ph/>As with the previous tutorial, you will see the new scenario (called <b>121200.00</b> appear in the Outline View, and the
+         <b>Maintain Contributions</b> view will open.
          <ph/>You will also see that the <b>Maintain Contributions</b> view contains just the one contribution.
       </info>
             <stepxmp/>
           </step>
           <step id="idp140433133541056">
             <cmd>Rename the scenario</cmd>
-            <info>         
-         To make it easier to navigate the data, please use the <b>Properties</b> view to rename 
+            <info>
+         To make it easier to navigate the data, please use the <b>Properties</b> view to rename
          the new scenario to <b>Tutorial Scenario</b>
       </info>
             <stepxmp/>
           </step>
           <step id="idp140433133543024">
             <cmd>Try to generate a solution</cmd>
-            <info>         
+            <info>
          Hey, why not try to generate a solution.  Just click on <b>Calculate Solution</b> at the top of the
          <b>Maintain Contributions</b> view.  You will see Debrief do a couple of seconds of processing, and then stop.
          This is because Debrief doesn't have enough information to generate a solution.  It needs to know
-         one or more straight legs.         
+         one or more straight legs.
       </info>
             <stepxmp/>
           </step>
@@ -258,9 +258,9 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
         <steps>
           <step id="idp140433133565056">
             <cmd>Mark first leg</cmd>
-            <info>         
+            <info>
          Ok, let's mark the first leg. In the <b>Outline View</b>, expand the Ownship sensor data, and select all of the
-         <b>Green</b> cuts.  Now, right-click on them, and select <b>Semi Auto TMA</b> / <b>Add to Tutorial Scenario</b> / 
+         <b>Green</b> cuts.  Now, right-click on them, and select <b>Semi Auto TMA</b> / <b>Add to Tutorial Scenario</b> /
          <b>Straight leg for period covered by [sensor cuts]</b>. When asked, give it the name <b>First Leg</b>.
          <ph/><ph/><b>Note:</b> selecting the cuts and "giving" them to the solution isn't actually adding
          the cuts - the solution knows about the cuts already.  We're justing using the block of cuts
@@ -270,11 +270,11 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
           </step>
           <step id="idp140433133569920">
             <cmd>Try to generate a solution (again)</cmd>
-            <info>         
+            <info>
          Ok, now we should be able to generate a solution.  Again, click on <b>Calculate Solution</b> at the top of the
          <b>Maintain Contributions</b> view.  You will see Debrief do a couple of seconds of processing, you'll see
          a line graph appearing in the <b>Performance</b> area of the <b>Maintain Contributions</b> view, and a green
-         line will appear on the plot.  Zooming in on the plot shows us that the single leg is 9.2 kts, at 319 degrees.  If we 
+         line will appear on the plot.  Zooming in on the plot shows us that the single leg is 9.2 kts, at 319 degrees.  If we
          zoom out again, we can see that, Yes, this could be a solution that fits in the data.
          <ph/><b>Note:</b> the use of randomisation in the SATC process means that your calculated speeds may well be different
          to mine. Don't worry, this is intended.
@@ -283,9 +283,9 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
           </step>
           <step id="idp140433133573936">
             <cmd>Mark second leg</cmd>
-            <info>         
+            <info>
          Now, we'll mark the second leg. In the <b>Outline View</b>, expand the Ownship sensor data, and select all of the
-         <b>Purple</b> cuts.  Now, right-click on them, and select <b>Semi Auto TMA</b> / <b>Add to Tutorial Scenario</b> / 
+         <b>Purple</b> cuts.  Now, right-click on them, and select <b>Semi Auto TMA</b> / <b>Add to Tutorial Scenario</b> /
          <b>Straight leg for period covered by [sensor cuts]</b>. When asked, give it the name <b>Second Leg</b>.
          <ph/>The solution on the plot will disappear, since the new data means that it's probably incorrect.
          <ph/>To see the effect of the new leg, click again on the <b>Calculate Solution</b> button.
@@ -294,32 +294,32 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
           </step>
           <step id="idp140433133578944">
             <cmd>Generate updated solution</cmd>
-            <info>         
+            <info>
          Now generate a new solution.  You'll see two legs present, the first with 12.1 knots, and the second with 14.1 knots.
-         Clearly SATC has changed it's optimal solution for the first leg to a faster one that is more compliant with the data 
+         Clearly SATC has changed it's optimal solution for the first leg to a faster one that is more compliant with the data
          in the second leg.
       </info>
             <stepxmp/>
           </step>
           <step id="idp140433133580432">
             <cmd>Mark third leg</cmd>
-            <info>         
+            <info>
          Ok, now let's mark the third leg using the <b>Yellow</b> cuts, and re-generate the solution again.  The solution
          produced has a speed of 4.8 knots.
          <ph/>So, now we have a three-leg solution that is compliant with our sensor data, and our straight leg forecasts.
          <ph/>We can take a step to verify this by switching on the location constraints.  First, select the <b>Tutorial Scenario</b>
           in the <b>Outline View</b>. Then, in the <b>Properties</b> window, switch on <b>ShowLocationConstraints</b>. You'll see
-         lots and lots of clutter on the plot. Also switch on <b>OnlyPlotLegEnds</b>.  This shows the calculated location 
+         lots and lots of clutter on the plot. Also switch on <b>OnlyPlotLegEnds</b>.  This shows the calculated location
          constraints at the start and end of each leg.  We can see that yes, the solution is compliant with them.
       </info>
             <stepxmp/>
           </step>
           <step id="idp140433133585200">
             <cmd>Give speed constraint</cmd>
-            <info>         
+            <info>
          So, we've got a solution.  But, I think it can be improved.  Let's try to give the target a consistent speed. We're
          going to give a speed constraint to the whole period of the engagement. We could have done this by right-clicking on the whole <b>Sensor:Plain</b>
-         object, but an alternate way of doing this is to right-click on our <b>Tutorial Scenario</b> object in the <b>Outline View</b>,  
+         object, but an alternate way of doing this is to right-click on our <b>Tutorial Scenario</b> object in the <b>Outline View</b>,
          and selecting <b>Add Speed Forecast for period covered by [Tutorial Scenario]</b>.  A wizard will open, name the contribution
          as <b>Overall Speed</b>. You will see this new constraint displayed in the <b>Maintain Contributions</b> view - with a default set
          of hard constraints shown: zero to forty knots.
@@ -330,10 +330,10 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
             <cmd>Adjust speed constraint</cmd>
             <info>
          Ok, let's generate a new solution.  A constraint of 0-40 knots isn't much of a constraint at all, so it has little effect.  So,
-         expand the <b>Speed Constraint - overall speed</b> item in the <b>Maintain Contributions</b> view. Now reduce the maximum speed from 
+         expand the <b>Speed Constraint - overall speed</b> item in the <b>Maintain Contributions</b> view. Now reduce the maximum speed from
          40 knots down to 15 knots.  If you still have the Location constraints visible, you will see them adjust to repesent the new constraint.
          <ph/>This is because the vessel can't travel as far in each leg.  Also, increase the minimum speed to 8 knots.  Re-generate the solution
-         and see what you think.  
+         and see what you think.
       </info>
             <stepxmp/>
           </step>
@@ -343,7 +343,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
          Lastly, let's try an estimate.  The estimate will make the algorithm favour solutions near that value, though
          it will still consider solutions that are still within the min/max hard constraints.  Try an estimate of 9 knots, and re-generate
          the solution.  I get a solution with speeds of 9, 13, and 9 knots.  But, I can see that if the overall solution was moved nearer to ownship,
-         I may be able to achieve a consistent speed. So, now reduce the max speed to 10 knots, and re-generate the solution.  
+         I may be able to achieve a consistent speed. So, now reduce the max speed to 10 knots, and re-generate the solution.
          <ph/>This gives me legs that are 9.6, 8.9 and 9.0 knots.  I may then choose to drag in the min/max sliders to really force
          the solution onto a particular speed, but I'm ok with this answer.
       </info>
@@ -353,7 +353,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
             <cmd>Verify solution</cmd>
             <info>
          Ok, now how good is that solution?  In the <b>Outline View</b>, make the <b>SUBJECT</b> track visible.  You should see
-         that the generated solution is very close to the truth track, even with this low bearing rate data.  If you wish to 
+         that the generated solution is very close to the truth track, even with this low bearing rate data.  If you wish to
          verify the calculated solution against the truth track, you can view the XY Range plot (again) and see the separation
          between the two tracks.
       </info>

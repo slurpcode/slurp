@@ -9,7 +9,7 @@
    <item
          title="Calculate the solution">
       <description>
-         It&apos;s quite easy really, just click on <b>Calculate Solution</b>. 
+         It&apos;s quite easy really, just click on <b>Calculate Solution</b>.
          Within a second or so you will see a new track appear on the plot (though you may need to zoom out a little).
          <br/>The track will be the same color as you specified for the bearing data in the Bearing Import Wizard.
          <br/>By default, SATC is in <b>Low</b> precision. This instructs SATC to use fairly relaxed constraints, and come up
@@ -24,11 +24,11 @@
    </item>
    <item title="Marking your own homework">
       <description>
-         The data we&apos;re using here is from a simulation tool.  That means we also have the target track.  
+         The data we&apos;re using here is from a simulation tool.  That means we also have the target track.
          So, try dragging in <b>L1_SubjectTrack.rep</b>
          and comparing the SATC solution with the truth track.
-         <br/>You will see that SATC is quite close to the truth, with a greater error to the 
-         West, near the start. This is because of the low bearing 
+         <br/>You will see that SATC is quite close to the truth, with a greater error to the
+         West, near the start. This is because of the low bearing
          rate near the start - both tracks appear to be on a roughly parallel course.
       </description>
    </item>

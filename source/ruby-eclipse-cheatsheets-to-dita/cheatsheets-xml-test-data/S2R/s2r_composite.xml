@@ -2,11 +2,11 @@
 <compositeCheatsheet name="Single Sided Reconstruction in Debrief">
    <taskGroup kind="sequence" name="Single Sided Reconstruction in Debrief" skip="false">
       <intro>
-         Before running through this cheat-sheet, you should really have 
-         completed the <b>A Debrief walkthrough</b>  cheat-sheet, so you 
-         know how to configure Debrief and how to load your data.  
-         If you haven&apos;t completed the Debrief walkthrough, 
-         click on <b>Restore Welcome</b> at the top of this window (or select <b>Welcome</b> from the Help menu), 
+         Before running through this cheat-sheet, you should really have
+         completed the <b>A Debrief walkthrough</b>  cheat-sheet, so you
+         know how to configure Debrief and how to load your data.
+         If you haven&apos;t completed the Debrief walkthrough,
+         click on <b>Restore Welcome</b> at the top of this window (or select <b>Welcome</b> from the Help menu),
          navigate to the Tutorials tab, and start the Debrief walkthrough.
       </intro>
       <task kind="cheatsheet" name="Tidying the ownship track" skip="false">

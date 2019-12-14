@@ -88,7 +88,7 @@ Drag in this file of 3rd party data, again selecting OTG during the import.   Yo
 	<item
          title="Get in the ballpark">
 		<description>We&apos;ll start off by moving the third party track segment down to the right region. To do this, click on the &apos;Drag whole feature&apos; toolbar button: it&apos;s a cursor arrow with a rectangle to its top-right. Now move your hand-shaped cursor over the &apos;rogue&apos; green track. You&apos;ll see your hand-shaped cursor turn green as it passes over something that can be dragged.  When its green over the rogue track, click the mouse and drag it down near the start of the blue track (Hint, put it just below the &apos;g&apos; of the blue track title.  Trust me, I know where it&apos;s going to go...).</description>
-	</item>	
+	</item>
 	<item title="Fit to window">
 		<description>Now click on the 'Fit to Window' toolbar button, it's the green diagonal arrows. The plot will now zoom in and you'll see the data in more detail</description>
 	</item>
