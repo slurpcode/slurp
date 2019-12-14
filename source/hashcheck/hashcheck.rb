@@ -6,7 +6,7 @@ require 'paint'
 VERSION = '1.0.0'.freeze
 
 # implement commandline options
-options = { file: nil, algorithm: nil }
+options = {file: nil, algorithm: nil}
 
 parser =
   OptionParser.new do |opts|
