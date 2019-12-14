@@ -5,24 +5,24 @@ permalink: /docs/git/
 
 # Essential Git commands
 
-So you have just cloned your `fork` from GitHub and the first Git
-command you should try is
+So you have just cloned your `fork` from GitHub and the first Git command you
+should try is
 
 ```
 $ git branch
 * master
 ```
 
-Now you want to submit a patch or new feature so you can create
-a new branch by using
+Now you want to submit a patch or new feature so you can create a new branch by
+using
 
 ```
 $ git checkout -b feature-branch
 Switched to a new branch 'feature-branch'
 ```
 
-And now the `git branch` command lists two local branches with the
-current branch highlighted by the `*`
+And now the `git branch` command lists two local branches with the current
+branch highlighted by the `*`
 
 ```
 $ git branch
@@ -30,10 +30,9 @@ $ git branch
   master
 ```
 
-When creating a pull request you need to create a new branch or
-more technically a `feature branch`.  In the above example the
-`feature-branch` is a new branch, but you should try to be more
-descriptive when naming the new feature branch.
+When creating a pull request you need to create a new branch or more technically
+a `feature branch`. In the above example the `feature-branch` is a new branch,
+but you should try to be more descriptive when naming the new feature branch.
 
 Another useful command is `git status`
 
@@ -60,7 +59,8 @@ upstream        https://github.com/fuchsia-programming/fuchsia-programming.githu
 upstream        https://github.com/fuchsia-programming/fuchsia-programming.github.io.git (push)
 ```
 
-The `git log` command is shown below and it contains the history of the past commits
+The `git log` command is shown below and it contains the history of the past
+commits
 
 ```
 $ git log
@@ -70,7 +70,7 @@ Author: John Bampton <jbampton@users.noreply.github.com>
 Date:   Sat Dec 14 08:46:16 2019 +1000
 
     Merge pull request #240 from fuchsia-programming/pull-239-restyled
-    
+
     Restyle Add documentation to the website.
 
 commit 08c5dac76558c2ad01e964537c76a31cc9e222b5
@@ -87,7 +87,8 @@ git branch -D overcommit
 Deleted branch overcommit (was 00e2413).
 ```
 
-To list your own `local` branches, your remote `origin` branches and all the remote `upstream` branches
+To list your own `local` branches, your remote `origin` branches and all the
+remote `upstream` branches
 
 ```
 $ git branch -a
@@ -121,7 +122,8 @@ $ git branch -r
 
 ## Sync your fork
 
-Refer to the GitHub help article on **[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)**.
+Refer to the GitHub help article on
+**[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)**.
 
 ```
 git checkout master
@@ -132,7 +134,8 @@ git push
 
 ## Squashing Commits
 
-You may be asked by a maintainer to squash your commits before it will be merged.
+You may be asked by a maintainer to squash your commits before it will be
+merged.
 
 ```
 git checkout your-feature-branch
