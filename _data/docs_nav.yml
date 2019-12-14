@@ -5,11 +5,15 @@
       link: /docs/
     - title: 💾 Database
       link: /docs/database/
+    - title: 🖥️ Git
+      link: /docs/git/
     - title: ⏩ Golang
       link: /docs/go/
     - title: 💎 Ruby
       link: /docs/ruby/
     - title: 🗄️ SQL File
       link: /docs/sql-file/
+    - title: 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
+      link: /docs/eclipse-cheat-sheets-to-dita-with-ruby-xsl-nokogiri/
     - title: 🔗 Links
       link: /docs/links/

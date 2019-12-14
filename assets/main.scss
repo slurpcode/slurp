@@ -4,7 +4,7 @@
 
 @import "minima";
 
-body {font-size: 13pt;background-color: #94AFD1;}
+body {font-size: 16pt;background-color: #94AFD1;}
 article img {display: block; margin-left: auto; margin-right: auto;}
 article {
     img.left, div.left {display: block; float: left; width: 360px; height: 360px;}
@@ -84,7 +84,7 @@ main .wrapper.grid { max-width: none;}
 main.white .wrapper.docs {
     text-align: left; max-width: none; background-color: white;
     h1 {font-size: 42pt; text-align: left;}
-    h4 {text-align: center;}
+    h4 {font-size: 26pt; text-align: center;}
     p {font-size: 115%; text-align: left;}
 }
 main .wrapper.docs p {font-size: 115%;}
@@ -123,23 +123,6 @@ canvas {display: block;}
 }
 #info{color:white; margin-left: auto;
   margin-right: auto;}
-
-.ml4 {
-  position: relative;
-  font-weight: 900;
-  font-size: 4.5em;
-}
-.ml4 .letters {
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  opacity: 0;
-}
-
-.letters-fuchsia {color: #FF0080;}
-.letters-pink {color: #ff69b4;}
-.letters-purple {color: #551A8B;}
 
 .post-list {padding-top: 70px;}
 
