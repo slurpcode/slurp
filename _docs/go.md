@@ -3,6 +3,8 @@ title: Golang
 permalink: /docs/go/
 ---
 
+# Links
+
 - [Golang](https://golang.org/) - Go is a statically typed, compiled programming
   language designed at Google
 - [Getting Started on Heroku with Go](https://devcenter.heroku.com/articles/getting-started-with-go)
@@ -26,3 +28,7 @@ permalink: /docs/go/
   high level support for text, drawing and images
 - [xmlquery](https://github.com/antchfx/xmlquery) - xmlquery, is an XPath query
   package for XML in Go.
+
+## Watch This Space
+
+[&#8593;](#golang)

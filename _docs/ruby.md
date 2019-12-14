@@ -3,6 +3,8 @@ title: Ruby
 permalink: /docs/ruby/
 ---
 
+# Links
+
 - [Ruby](https://www.ruby-lang.org/en/)
 - [Ruby Best Practice](https://github.com/rubocop-hq/ruby-style-guide)
 - [Ruby Syntax Checker](https://github.com/rubocop-hq/rubocop)
@@ -12,3 +14,7 @@ permalink: /docs/ruby/
 - [Ruby Productivity with Vim and TMUX](https://www.youtube.com/watch?v=9jzWDr24UHQ)
 - [Refactoring Ruby](https://martinfowler.com/books/refactoringRubyEd.html)
 - [Practical Object Oriented Design - An Agile Primer Using Ruby](https://martinfowler.com/books/refactoringRubyEd.html)
+
+## Watch This Space
+
+[&#8593;](#ruby)

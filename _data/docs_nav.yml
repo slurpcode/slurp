@@ -13,6 +13,8 @@
       link: /docs/ruby/
     - title: 🗄️ SQL File
       link: /docs/sql-file/
+    - title: 🖨️ DITA to PDF with Eclipse
+      link: /docs/dita-to-pdf-with-eclipse/
     - title: 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
       link: /docs/eclipse-cheat-sheets-to-dita-with-ruby-xsl-nokogiri/
     - title: 🔗 Links
