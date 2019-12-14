@@ -6,29 +6,30 @@ require 'paint'
 VERSION = '1.0.0'.freeze
 
 # implement commandline options
-options = {:file => nil, :algorithm => nil}
+options = { file: nil, algorithm: nil }
 
-parser = OptionParser.new do |opts|
-  opts.banner = "Usage: #{Paint['hashcheck.rb [options]', :red, :white]}"
+parser =
+  OptionParser.new do |opts|
+    opts.banner = "Usage: #{Paint['hashcheck.rb [options]', :red, :white]}"
 
-  opts.on('-f', '--file file', 'Path to file') do |file|
-    options[:file] = file
+    opts.on('-f', '--file file', 'Path to file') do |file|
+      options[:file] = file
+    end
+
+    opts.on('-a', '--algorithm algorithm', 'Algorithm') do |algorithm|
+      options[:algorithm] = algorithm
+    end
+
+    opts.on('-h', '--help', 'Displays help') do
+      puts opts
+      exit
+    end
+
+    opts.on_tail('--version', 'Show program version') do
+      puts VERSION
+      exit
+    end
   end
-
-  opts.on('-a', '--algorithm algorithm', 'Algorithm') do |algorithm|
-    options[:algorithm] = algorithm
-  end
-
-  opts.on('-h', '--help', 'Displays help') do
-    puts opts
-    exit
-  end
-
-  opts.on_tail('--version', 'Show program version') do
-    puts VERSION
-    exit
-  end
-end
 
 parser.parse!
 
@@ -41,5 +42,6 @@ if options[:algorithm].nil?
   options[:algorithm] = STDIN.gets.chomp
 end
 
-shell_command = `CertUtil -hashfile "#{options[:file]}" "#{options[:algorithm]}"`
+shell_command =
+  `CertUtil -hashfile "#{options[:file]}" "#{options[:algorithm]}"`
 puts shell_command.inspect.split('\n')[1]

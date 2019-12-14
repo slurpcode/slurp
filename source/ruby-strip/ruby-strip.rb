@@ -32,8 +32,8 @@ end
 
 if ARGV[0].nil?
   STDOUT.puts "Relative to this file #{File.basename(__FILE__)} please " \
-              'provide the directory - path/to/dir - to check for ' \
-              'excess whitespace.'
+                'provide the directory - path/to/dir - to check for ' \
+                'excess whitespace.'
 else
   strip_space(ARGV[0])
 end
