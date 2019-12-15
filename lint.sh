@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
 mdl .
-rubocop .
+rubocop
 yamllint .

@@ -1,5 +1,5 @@
 ---
-title: Database
+title: 💾 Database
 permalink: /docs/database/
 logo: database
 ---

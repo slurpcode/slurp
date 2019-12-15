@@ -51,6 +51,9 @@ Style/FrozenStringLiteralComment:
 Style/GlobalVars:
   Enabled: false
 
+Style/GuardClause:
+  Enabled: false
+
 Style/HashSyntax:
   EnforcedStyle: no_mixed_keys
 

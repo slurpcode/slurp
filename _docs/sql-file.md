@@ -1,5 +1,5 @@
 ---
-title: How to Use the .sql file
+title: 🗄️ How to Use the .sql file
 permalink: /docs/sql-file/
 ---
 

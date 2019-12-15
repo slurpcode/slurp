@@ -19,8 +19,11 @@ GEM
     commonmarker (0.17.13)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.5)
+    connection_pool (2.2.2)
     dnsruby (1.61.3)
       addressable (~> 2.5)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -88,6 +91,8 @@ GEM
     html-pipeline (2.12.2)
       activesupport (>= 2)
       nokogiri (>= 1.4)
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -207,7 +212,19 @@ GEM
       kramdown (~> 1.12, >= 1.12.0)
       mixlib-cli (~> 2.1, >= 2.1.1)
       mixlib-config (~> 2.2, >= 2.2.1)
+    mechanize (2.7.6)
+      domain_name (~> 0.5, >= 0.5.1)
+      http-cookie (~> 1.0)
+      mime-types (>= 1.17.2)
+      net-http-digest_auth (~> 1.1, >= 1.1.1)
+      net-http-persistent (>= 2.5.2)
+      nokogiri (~> 1.6)
+      ntlm-http (~> 0.1, >= 0.1.1)
+      webrobots (>= 0.0.9, < 0.2)
     mercenary (0.3.6)
+    mime-types (3.3)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2019.1009)
     mini_portile2 (2.4.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
@@ -218,10 +235,14 @@ GEM
     mixlib-config (2.2.18)
       tomlrb
     multipart-post (2.1.1)
+    net-http-digest_auth (1.4.1)
+    net-http-persistent (3.1.0)
+      connection_pool (~> 2.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
     nokogiri (1.10.7-x64-mingw32)
       mini_portile2 (~> 2.4.0)
+    ntlm-http (0.1.1)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     overcommit (0.51.0)
@@ -269,7 +290,11 @@ GEM
       thread_safe (~> 0.1)
     tzinfo-data (1.2019.3)
       tzinfo (>= 1.0.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.6)
     unicode-display_width (1.6.0)
+    webrobots (0.1.2)
     zeitwerk (2.2.2)
 
 PLATFORMS
@@ -286,6 +311,7 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   mdl
+  mechanize
   minima (~> 2.5)
   nokogiri
   overcommit

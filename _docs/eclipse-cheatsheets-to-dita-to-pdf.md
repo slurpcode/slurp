@@ -1,5 +1,5 @@
 ---
-title: Eclipse cheat sheets to DITA to PDF
+title: 🌘 Eclipse cheat sheets to DITA to PDF
 permalink: /docs/eclipse-cheatsheets-to-dita-to-pdf/
 ---
 
@@ -33,7 +33,7 @@ up to date with the latest current version of DITA-OT, in depth instructions on
 how to get up and running inside Eclipse and lots more.
 
 When built and run this project takes a set of
-[Eclipse cheat sheets](http://help.eclipse.org/mars/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-cheatsheets.htm)
+[Eclipse cheat sheets](https://www.oracle.com/technical-resources/articles/enterprise-architecture/eclipse-cheat-sheets.html)
 and transforms them to PDF. Eclipse cheat sheets are obviously best viewed
 inside Eclipse. Using PDF allows us to print nicely formatted cheat sheets on
 paper which allows the user to work through the cheat sheets with a pen and

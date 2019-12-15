@@ -1,5 +1,5 @@
 ---
-title: Ruby
+title: 💎 Ruby
 permalink: /docs/ruby/
 logo: ruby
 ---

@@ -1,5 +1,5 @@
 ---
-title: Golang
+title: ⏩ Golang
 permalink: /docs/go/
 logo: go
 ---
