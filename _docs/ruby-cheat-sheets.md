@@ -3,33 +3,7 @@ title: 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
 permalink: /docs/eclipse-cheat-sheets-to-dita-with-ruby-xsl-nokogiri/
 ---
 
-# The Ruby Story
-
-This project uses [Ruby](https://www.ruby-lang.org/en/) and tries to be and easy
-to use tutorial on all things [Ruby](http://ruby-doc.org).
-
-Ruby dates back to the 1990's and was first created by a Japanese man named
-[Yukihiro "Matz" Matsumoto](https://en.wikipedia.org/wiki/Yukihiro_Matsumoto).
-
-Hey come and check out the [Ruby in 4 seconds](https://youtu.be/ayx4fASYkZU)
-video.
-
-[Ruby](https://www.ruby-lang.org/en/) is very
-[powerful](https://www.ruby-lang.org/en/documentation/success-stories/), is
-growing in popularity and is currently ranked 11th on the
-[TIOBE Index](http://www.tiobe.com/tiobe_index).
-
-There are two types of Ruby files: .rb, .rbw
-
-[Matz](https://twitter.com/matz_translated) made run Ruby fun and easy to learn,
-so don't be scared and first check out a short Ruby YouTube video I created.
-
-[Ruby in 29 seconds](https://youtu.be/2ei7S0FU65E)
-
-[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
-[&#8595;](#watch-this-space)
-
-## From Java, XSLT 2.0 with Saxon to Ruby, XSLT 1.0 with the Nokogiri Ruby gem
+# From Java, XSLT 2.0 with Saxon to Ruby, XSLT 1.0 with the Nokogiri Ruby gem
 
 Using
 [Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
