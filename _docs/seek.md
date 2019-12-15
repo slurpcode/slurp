@@ -5,9 +5,8 @@ permalink: /docs/seek/
 
 # When you need those jobs hypersonic -> seek 🚀
 
-**_seek_** is a command line script that builds 🔧 🔩 🔨
-`CSV` results of job searches. Check out the `jobs`
-folder for some recent **_seek_**_s_.
+**_seek_** is a command line script that builds 🔧 🔩 🔨 `CSV` results of job
+searches. Check out the `jobs` folder for some recent **_seek_**_s_.
 
 **_seek_** is built with:
 
@@ -23,11 +22,11 @@ folder for some recent **_seek_**_s_.
 Hey Wow :) looks like there are still `jobs`
 [COBOL](https://en.wikipedia.org/wiki/COBOL)
 
-## Seek 
+## Seek
 
 Large Australian employment marketplace:
 
-[https://www.seek.com.au/](https://www.seek.com.au/)  
+[https://www.seek.com.au/](https://www.seek.com.au/)
 
 ```
 $ ruby seek.rb -h
@@ -53,7 +52,7 @@ Usage: seek.rb [options]
 Or to enter interactive mode
 
 ```
-$ ruby seek.rb 
+$ ruby seek.rb
 Enter keywords: git and python
 Enter suburb, city or region: sydney
 Listed time in days: 30
