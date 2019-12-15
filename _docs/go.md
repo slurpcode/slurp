@@ -1,6 +1,7 @@
 ---
 title: Golang
 permalink: /docs/go/
+logo: go
 ---
 
 # Links

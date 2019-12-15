@@ -1,6 +1,7 @@
 ---
 title: Links
 permalink: /docs/links/
+logo: hyperlink
 ---
 
 # Guides
