@@ -53,6 +53,8 @@ defaults:
 
 # Build settings
 markdown: kramdown
+sass:
+  style: compressed
 theme: minima
 plugins:
   - jekyll-feed
