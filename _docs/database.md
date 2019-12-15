@@ -1,6 +1,7 @@
 ---
 title: Database
 permalink: /docs/database/
+logo: database
 ---
 
 Written by: Preston Hunter

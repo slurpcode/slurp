@@ -1,6 +1,7 @@
 ---
 title: Ruby
 permalink: /docs/ruby/
+logo: ruby
 ---
 
 # Links

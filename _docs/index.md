@@ -4,6 +4,7 @@ permalink: /docs/
 redirect_from:
   - /docs/home/
   - /docs/quickstart/
+logo: docs
 ---
 
 First up, if you would like to add to this documentation, GitHub uses

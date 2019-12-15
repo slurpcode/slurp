@@ -1,6 +1,7 @@
 ---
 title: Git
 permalink: /docs/git/
+logo: git
 ---
 
 # Essential Git commands

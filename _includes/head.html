@@ -3,9 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- assign images = "249,250,142,143,144" | split: "," -%}
+  {% if page.logo %}
+  <meta property="og:image" content="{{site.url}}/assets/images/meta/docs/{{ page.logo }}.png">
+  {% else %}
   {%- for image in images -%}
   <meta property="og:image" content="{{site.url}}/assets/images/meta/fuchsia-{{ image }}.png">
   {% endfor %}
+  {% endif %}
   {%- seo -%}
   <link href="/opensearch.xml" rel="search" title="Fuchsia Programming" type="application/opensearchdescription+xml">
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
