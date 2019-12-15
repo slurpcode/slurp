@@ -4,10 +4,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- assign images = "249,250,142,143,144" | split: "," -%}
   {% if page.logo %}
-  <meta property="og:image" content="{{site.url}}/assets/images/meta/docs/{{ page.logo }}.png">
+  {%- for i in (1..5) -%}
+  <meta property="og:image" content="{{site.url}}/assets/images/meta/custom/{{page.logo}}/{{page.logo}}-{{i}}.png">
+  {%- endfor -%}
   {% else %}
   {%- for image in images -%}
-  <meta property="og:image" content="{{site.url}}/assets/images/meta/fuchsia-{{ image }}.png">
+  <meta property="og:image" content="{{site.url}}/assets/images/meta/fuchsia-{{image}}.png">
   {% endfor %}
   {% endif %}
   {%- seo -%}
