@@ -49,7 +49,7 @@ def enwtype(worktype)
 end
 
 # implement commandline options
-options = { keyword: nil, location: nil, daterange: nil, worktype: nil }
+options = {keyword: nil, location: nil, daterange: nil, worktype: nil}
 
 parser =
   OptionParser.new do |opts|
@@ -61,13 +61,13 @@ parser =
       'Keywords to search
                                         separators include:
                                         and, or, not'
-    ) { |keyword| options[:keyword] = keyword }
+    ){|keyword| options[:keyword] = keyword}
 
     opts.on(
       '-l',
       '--location location',
       'Suburb, city or region'
-    ) { |location| options[:location] = location }
+    ){|location| options[:location] = location}
 
     opts.on(
       '-d',
@@ -76,7 +76,7 @@ parser =
                                         999 (default) or
                                         1, 3, 7, 14, 31 or
                                         any positive number'
-    ) { |daterange| options[:daterange] = daterange }
+    ){|daterange| options[:daterange] = daterange}
 
     opts.on(
       '-w',
@@ -179,9 +179,7 @@ loop do
     ad = agent.get(url)
     # at selects the first using CSS selectors
     work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
-    if listing_date.empty?
-      listing_date = ad.at('dd[data-automation="job-detail-date"]').text
-    end
+    listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
 
     results <<
       [
@@ -210,16 +208,14 @@ end
 if results.size > 1
   keyword = options[:keyword].tr(' ', '-')
   location = options[:location].tr(' ', '-') unless options[:location].empty?
-  unless options[:daterange].empty?
-    daterange = 'daterange-' + options[:daterange]
-  end
+  daterange = 'daterange-' + options[:daterange] unless options[:daterange].empty?
   options[:worktype] = enwtype(options[:worktype])
   worktype = 'worktype-' + options[:worktype] unless options[:worktype].empty?
   filename = [keyword, location, daterange, worktype].compact.join('-').downcase
   filename = filename[1..-1] if filename[0] == '-'
   FileUtils.mkdir_p('jobs')
   CSV.open("jobs/#{filename}.csv", 'w+') do |csv_file|
-    results.each { |row| csv_file << row }
+    results.each{|row| csv_file << row}
   end
   puts "#{results.size - 1} jobs found"
   `open "jobs/#{filename}.csv"`
