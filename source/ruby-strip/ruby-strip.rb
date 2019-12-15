@@ -7,17 +7,19 @@ require 'paint'
 VERSION = '1.0.0'.freeze
 
 # implement commandline options
-options = {path: nil}
+options = { path: nil }
 
 parser =
   OptionParser.new do |opts|
     opts.banner = "Usage: #{Paint['ruby-strip.rb [options]', :red, :white]}"
 
-    opts.on('-p', '--path', 'Directory or path
+    opts.on(
+      '-p',
+      '--path',
+      'Directory or path
                                      relative to this directory
-                                     to check for excess whitespace.') do |path|
-      options[:path] = path
-    end
+                                     to check for excess whitespace.'
+    ) { |path| options[:path] = path }
 
     opts.on('-h', '--help', 'Displays help') do
       puts opts
