@@ -9,7 +9,7 @@ link: /docs/codewars/
 
 ## Go
 
-### 8 kyu 
+### 8 kyu
 
 - [Function 1 - hello world](https://www.codewars.com/kata/function-1-hello-world)
 - [Multiply](https://www.codewars.com/kata/multiply)

@@ -14,8 +14,8 @@ $ git branch
 * master
 ```
 
-Now you want to submit a patch or new feature so you can create a new branch
-and switch to it by using
+Now you want to submit a patch or new feature so you can create a new branch and
+switch to it by using
 
 ```
 $ git checkout -b feature-branch
@@ -56,9 +56,9 @@ Another way to create a new branch is
 git branch test-branch
 ```
 
-The difference between using `git branch` and `git checkout -b`
-to create a branch is that `git checkout -b` will switch to
-the branch. Running `git branch` again shows this
+The difference between using `git branch` and `git checkout -b` to create a
+branch is that `git checkout -b` will switch to the branch. Running `git branch`
+again shows this
 
 ```
 $ git branch
