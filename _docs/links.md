@@ -1,5 +1,5 @@
 ---
-title: Links
+title: 🔗 Links
 permalink: /docs/links/
 logo: hyperlink
 ---

@@ -1,6 +1,47 @@
 #!/usr/bin/env ruby
 
 require 'fileutils'
+require 'optparse'
+require 'paint'
+
+VERSION = '1.0.0'.freeze
+
+# implement commandline options
+options = {path: nil}
+
+parser =
+  OptionParser.new do |opts|
+    opts.banner = "Usage: #{Paint['ruby-strip.rb [options]', :red, :white]}"
+
+    opts.on(
+      '-p',
+      '--path',
+      'Directory or path
+                                     relative to this directory
+                                     to check for excess whitespace.'
+    ){|path| options[:path] = path}
+
+    opts.on('-h', '--help', 'Displays help') do
+      puts opts
+      exit
+    end
+
+    opts.on_tail('--version', 'Show program version') do
+      puts VERSION
+      exit
+    end
+  end
+
+parser.parse!
+
+if options[:path].nil?
+  print 'Enter path to file: '
+  options[:path] = STDIN.gets.chomp
+end
+
+def create_path(path)
+  path.tr('\\', '/')
+end
 
 # entry point function calls the two other worker functions
 def strip_space(src)
@@ -30,10 +71,4 @@ def strip_white_space
   end
 end
 
-if ARGV[0].nil?
-  STDOUT.puts "Relative to this file #{File.basename(__FILE__)} please " \
-                'provide the directory - path/to/dir - to check for ' \
-                'excess whitespace.'
-else
-  strip_space(ARGV[0])
-end
+strip_space(create_path(options[:path]))

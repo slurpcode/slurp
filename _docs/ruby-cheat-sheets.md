@@ -1,5 +1,5 @@
 ---
-title: Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
+title: 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
 permalink: /docs/eclipse-cheat-sheets-to-dita-with-ruby-xsl-nokogiri/
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: DITA to PDF with Eclipse
+title: 🖨️ DITA to PDF with Eclipse
 permalink: /docs/dita-to-pdf-with-eclipse/
 ---
 

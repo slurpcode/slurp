@@ -1,7 +1,9 @@
 ---
-title: Eclipse cheat sheets (XML) to DITA with Python
+title: 🐍 Eclipse cheat sheets (XML) to DITA with Python
 permalink: /docs/eclipse-cheatsheets-to-dita-with-python/
 ---
+
+# Overview
 
 The motivation for this project comes from my mate Phil, who loves his
 Python...he even was talking up Java over Ruby - a programmer's best friend -

@@ -1,5 +1,5 @@
 ---
-title: Hashcheck
+title: 🛂 Hashcheck
 permalink: /docs/hashcheck/
 ---
 

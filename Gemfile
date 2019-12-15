@@ -29,6 +29,7 @@ end
 gem 'activesupport', '>= 4.1.11'
 gem 'fileutils'
 gem 'mdl'
+gem 'mechanize'
 gem 'nokogiri'
 gem 'overcommit'
 gem 'paint'

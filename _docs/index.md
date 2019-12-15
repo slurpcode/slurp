@@ -1,5 +1,5 @@
 ---
-title: Quickstart
+title: 🎬 Quickstart
 permalink: /docs/
 redirect_from:
   - /docs/home/
