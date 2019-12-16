@@ -9,7 +9,7 @@ jobs:
   rubocop:
     docker:
       # specify the version you desire here
-      - image: circleci/ruby:2.6.2-node-browsers
+      - image: circleci/ruby:2.6.3-node-browsers
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -47,7 +47,7 @@ jobs:
 
   markdown-lint:
     docker:
-      - image: circleci/ruby:2.6.2-node-browsers
+      - image: circleci/ruby:2.6.3-node-browsers
 
     working_directory: ~/repo
 
@@ -103,7 +103,7 @@ jobs:
 
   percy:
     docker:
-      - image: circleci/ruby:2.6.2-node-browsers
+      - image: circleci/ruby:2.6.3-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
