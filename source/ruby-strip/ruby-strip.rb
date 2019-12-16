@@ -2,41 +2,93 @@
 
 require 'fileutils'
 require 'optparse'
+require 'optparse/time'
 require 'paint'
+# require 'pp'
 
-VERSION = '1.0.0'.freeze
+# Custom OptionParser class
+class Parser
+  VERSION = '1.0.0'
 
-# implement commandline options
-options = {path: nil}
+  # Custom OptionParser ScriptOptions
+  class ScriptOptions
+    attr_accessor :path, :delay, :time
 
-parser =
-  OptionParser.new do |opts|
-    opts.banner = "Usage: #{Paint['ruby-strip.rb [options]', :red, :white]}"
+    def initialize; end
 
-    opts.on(
-      '-p',
-      '--path',
-      'Directory or path
-                                     relative to this directory
-                                     to check for excess whitespace.'
-    ){|path| options[:path] = path}
+    def define_options(parser)
+      parser.banner = "Usage: #{Paint['ruby-strip.rb [options]', :red, :white]}"
+      parser.separator ''
+      parser.separator 'Specific options:'
 
-    opts.on('-h', '--help', 'Displays help') do
-      puts opts
-      exit
+      # add additional options
+      specify_path_option(parser)
+      delay_execution_option(parser)
+      execute_at_time_option(parser)
+
+      parser.separator ''
+      parser.separator 'Common options:'
+      # No argument, shows at tail.  This will print an options summary.
+      # Try it and see!
+      parser.on_tail('-h', '--help', 'Show this message') do
+        puts parser
+        exit
+      end
+      # Another typical switch to print the version.
+      parser.on_tail('--version', 'Show version') do
+        puts VERSION
+        exit
+      end
     end
 
-    opts.on_tail('--version', 'Show program version') do
-      puts VERSION
-      exit
+    def specify_path_option(parser)
+      parser.on('-p', '--path path', 'Directory or path relative to this
+                                     directory to check for excess whitespace.') do |p|
+        self.path = p
+      end
+    end
+
+    def delay_execution_option(parser)
+      # Cast 'delay' argument to a Float.
+      parser.on('--delay N', Float, 'Delay N seconds before executing') do |n|
+        self.delay = n
+      end
+    end
+
+    def execute_at_time_option(parser)
+      # Cast 'time' argument to a Time object.
+      parser.on('-t', '--time [TIME]', Time, 'Begin execution at given time') do |time|
+        self.time = time
+      end
     end
   end
 
-parser.parse!
+  #
+  # Return a structure describing the options.
+  #
+  def parse(args)
+    # The options specified on the command line will be collected in
+    # *options*.
 
-if options[:path].nil?
-  print 'Enter path to file: '
-  options[:path] = STDIN.gets.chomp
+    @options = ScriptOptions.new
+    @args = OptionParser.new do |parser|
+      @options.define_options(parser)
+      parser.parse!(args)
+    end
+    @options
+  end
+
+  attr_reader :parser, :options
+end
+
+example = Parser.new
+options = example.parse(ARGV)
+# pp options # example.options
+# pp ARGV
+
+if options.path.nil?
+  print 'Enter directory or path relative to this directory to check for excess whitespace: '
+  options.path = STDIN.gets.chomp
 end
 
 def create_path(path)
@@ -71,4 +123,4 @@ def strip_white_space
   end
 end
 
-strip_space(create_path(options[:path]))
+strip_space(create_path(options.path))

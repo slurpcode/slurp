@@ -1,14 +1,14 @@
 #!/usr/bin/env ruby
-
+# Need to finish `delay` and `time`
 # Wow, looks like there are still jobs for COBOL
 
 require 'csv'
 require 'fileutils'
 require 'mechanize'
 require 'optparse'
+require 'optparse/time'
 require 'paint'
-
-VERSION = '1.0.0'.freeze
+# require 'pp'
 
 def wtype(worktype)
   case worktype
@@ -48,78 +48,136 @@ def enwtype(worktype)
   end
 end
 
-# implement commandline options
-options = {keyword: nil, location: nil, daterange: nil, worktype: nil}
+# Custom OptionParser class
+class Parser
+  VERSION = '1.0.0'
 
-parser =
-  OptionParser.new do |opts|
-    opts.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
+  # Custom OptionParser ScriptOptions
+  class ScriptOptions
+    attr_accessor :keyword, :location, :daterange, :worktype, :delay, :time
 
-    opts.on(
-      '-k',
-      '--keyword keyword',
-      'Keywords to search
-                                        separators include:
-                                        and, or, not'
-    ){|keyword| options[:keyword] = keyword}
+    def initialize; end
 
-    opts.on(
-      '-l',
-      '--location location',
-      'Suburb, city or region'
-    ){|location| options[:location] = location}
+    def define_options(parser)
+      parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
+      parser.separator ''
+      parser.separator 'Specific options:'
 
-    opts.on(
-      '-d',
-      '--daterange daterange',
-      'Listed time in days
-                                        999 (default) or
-                                        1, 3, 7, 14, 31 or
-                                        any positive number'
-    ){|daterange| options[:daterange] = daterange}
+      # add additional options
+      specify_keyword_option(parser)
+      specify_location_option(parser)
+      specify_daterange_option(parser)
+      specify_worktype_option(parser)
+      delay_execution_option(parser)
+      execute_at_time_option(parser)
 
-    opts.on(
-      '-w',
-      '--worktype worktype',
-      'Work type
-                                        all (default)
-                                        full or 242 (full time)
-                                        part or 243 (part time)
-                                        contract or 244 (contract/temp)
-                                        casual or 245 (casual/vacation)'
-    ) do |worktype|
-      worktype = wtype(worktype)
-      options[:worktype] = worktype
+      parser.separator ''
+      parser.separator 'Common options:'
+      # No argument, shows at tail.  This will print an options summary.
+      # Try it and see!
+      parser.on_tail('-h', '--help', 'Show this message') do
+        puts parser
+        exit
+      end
+      # Another typical switch to print the version.
+      parser.on_tail('--version', 'Show version') do
+        puts VERSION
+        exit
+      end
     end
 
-    opts.on('-h', '--help', 'Displays help') do
-      puts opts
-      exit
+    def specify_keyword_option(parser)
+      parser.on('-k', '--keyword keyword', 'Keywords to search
+                                               separators include:
+                                               and, or, not') do |k|
+        self.keyword = k
+      end
     end
 
-    opts.on_tail('--version', 'Show version') do
-      puts VERSION
-      exit
+    def specify_location_option(parser)
+      parser.on('-l', '--location location', 'Suburb, city or region') do |l|
+        self.location = l
+      end
+    end
+
+    def specify_daterange_option(parser)
+      parser.on('-d', '--daterange daterange', 'Listed time in days
+                                                       999 (default) or
+                                                       1, 3, 7, 14, 31 or
+                                                       any positive number') do |d|
+        self.daterange = d
+      end
+    end
+
+    def specify_worktype_option(parser)
+      parser.on('-w', '--worktype worktype', 'Work type
+                                                 all (default)
+                                                 full or 242 (full time)
+                                                 part or 243 (part time)
+                                                 contract or 244 (contract/temp)
+                                                 casual or 245 (casual/vacation)') do |w|
+        self.worktype = wtype(w)
+      end
+    end
+
+    def delay_execution_option(parser)
+      # Cast 'delay' argument to a Float.
+      parser.on('--delay N', Float, 'Delay N seconds before executing') do |n|
+        self.delay = n
+      end
+    end
+
+    def execute_at_time_option(parser)
+      # Cast 'time' argument to a Time object.
+      parser.on('-t', '--time [TIME]', Time, 'Begin execution at given time') do |time|
+        self.time = time
+      end
     end
   end
 
-parser.parse!
+  #
+  # Return a structure describing the options.
+  #
+  def parse(args)
+    # The options specified on the command line will be collected in
+    # *options*.
 
-if options[:keyword].nil?
-  print 'Enter keywords: '
-  options[:keyword] = STDIN.gets.chomp
+    @options = ScriptOptions.new
+    @args = OptionParser.new do |parser|
+      @options.define_options(parser)
+      parser.parse!(args)
+    end
+    @options
+  end
+
+  attr_reader :parser, :options
 end
-if options[:location].nil?
-  print 'Enter suburb, city or region: '
-  options[:location] = STDIN.gets.chomp
+
+example = Parser.new
+options = example.parse(ARGV)
+# pp options # example.options
+# pp ARGV
+
+if options.keyword.nil?
+  print 'Enter the keywords to search separators include: and, or, not: '
+  options.keyword = STDIN.gets.chomp
 end
-if options[:daterange].nil?
-  print 'Listed time in days: '
-  options[:daterange] = STDIN.gets.chomp
+if options.location.nil?
+  print 'Enter the suburb, city or region: '
+  options.location = STDIN.gets.chomp
 end
-if options[:worktype].nil?
-  print 'Work type: '
-  options[:worktype] = wtype(STDIN.gets.chomp)
+if options.daterange.nil?
+  print 'Listed time in days 999 (default) or 1, 3, 7, 14, 31 or any positive number: '
+  options.daterange = STDIN.gets.chomp
+end
+if options.worktype.nil?
+  print 'Work type
+            all (default)
+            full or 242 (full time)
+            part or 243 (part time)
+            contract or 244 (contract/temp)
+            casual or 245 (casual/vacation): '
+  options.worktype = STDIN.gets.chomp
 end
 
 agent = Mechanize.new
@@ -129,10 +187,10 @@ page =
   agent.get(
     site + '/jobs',
     [
-      ['keywords', options[:keyword]],
-      ['where', options[:location]],
-      ['daterange', options[:daterange]],
-      ['worktype', options[:worktype]]
+      ['keywords', options.keyword],
+      ['where', options.location],
+      ['daterange', options.daterange],
+      ['worktype', options.worktype]
     ]
   )
 results = []
@@ -206,11 +264,11 @@ loop do
 end
 
 if results.size > 1
-  keyword = options[:keyword].tr(' ', '-')
-  location = options[:location].tr(' ', '-') unless options[:location].empty?
-  daterange = 'daterange-' + options[:daterange] unless options[:daterange].empty?
-  options[:worktype] = enwtype(options[:worktype])
-  worktype = 'worktype-' + options[:worktype] unless options[:worktype].empty?
+  keyword = options.keyword.tr(' ', '-')
+  location = options.location.tr(' ', '-') unless options.location.empty?
+  daterange = 'daterange-' + options.daterange unless options.daterange.empty?
+  options.worktype = enwtype(options.worktype)
+  worktype = 'worktype-' + options.worktype unless options.worktype.empty?
   filename = [keyword, location, daterange, worktype].compact.join('-').downcase
   filename = filename[1..-1] if filename[0] == '-'
   FileUtils.mkdir_p('jobs')

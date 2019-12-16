@@ -12,17 +12,17 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :path, :delay, :time
+    attr_accessor :delay, :directory, :time
 
     def initialize; end
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint['built_in_datatypes.rb', :red, :white]}"
+      parser.banner = "Usage: #{Paint['well-formed.rb [options]', :red, :white]}"
       parser.separator ''
       parser.separator 'Specific options:'
 
       # add additional options
-      specify_path_option(parser)
+      specify_directory_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
 
@@ -41,9 +41,9 @@ class Parser
       end
     end
 
-    def specify_path_option(parser)
-      parser.on('-p', '--path path', 'Path to schema') do |p|
-        self.path = p
+    def specify_directory_option(parser)
+      parser.on('-d', '--directory directory', 'Path or directory to check for well formedness') do |d|
+        self.directory = d
       end
     end
 
@@ -85,82 +85,21 @@ options = example.parse(ARGV)
 # pp options # example.options
 # pp ARGV
 
-if options.path.nil?
-  print 'Enter the path to the schema: '
-  options.path = STDIN.gets.chomp
+if options.directory.nil?
+  print 'Enter the path or directory to check for well formedness: '
+  options.directory = STDIN.gets.chomp
+end
+
+# Used to check the well formedness of XML files
+def check(path)
+  Dir.glob("#{path}/**/*.{xml,xsd,xsl}").each do |filename|
+    doc = File.open(filename){|xml| Nokogiri.XML(xml)}
+    puts filename, doc.errors unless doc.errors.empty?
+  end
 end
 
 def create_path(path)
   path.tr('\\', '/')
 end
 
-@error = 0
-@allowed = %w[
-  string
-  boolean
-  base64Binary
-  hexBinary
-  float
-  decimal
-  double
-  anyURI
-  QName
-  NOTATION
-  duration
-  dateTime
-  time
-  date
-  gYearMonth
-  gYear
-  gMonthDay
-  gDay
-  gMonth
-  normalizedString
-  integer
-  token
-  nonPositiveInteger
-  long
-  nonNegativeInteger
-  language
-  Name
-  NMTOKEN
-  negativeInteger
-  int
-  unsignedLong
-  positiveInteger
-  NCName
-  NMTOKENS
-  short
-  unsignedInt
-  ID
-  IDREF
-  ENTITY
-  byte
-  unsignedShort
-  IDREFS
-  ENTITIES
-  unsignedByte
-]
-
-# start
-project_path = create_path(options.path)
-@datatypes = []
-
-Dir.glob("#{project_path}/**/*.xsd").map do |schema|
-  doc = Nokogiri.XML(File.open(schema))
-  doc.xpath('//*[starts-with(@type,"xsd:")]').map do |tag|
-    type = tag.attribute('type').to_s.split(':').last
-    next if @datatypes.include?(type)
-
-    @datatypes << type
-  end
-end
-
-@datatypes.map do |type|
-  next if @allowed.include?(type)
-
-  @error = 1
-  puts "#{type} does not match any built in XML Schema datatype"
-end
-
-exit 1 unless @error.zero?
+check(create_path(options.directory))

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<task id="idp140433133237728">
+<task id="idp140696534284848">
   <title>Walkthrough</title>
   <shortdesc>
          <b>Introduction</b><ph/>
@@ -7,13 +7,13 @@ This collection of cheat sheets will teach you how to use Debrief's Semi Automat
          <ph/><ph/><b>Tip:</b>  If you have multiple monitors, you may wish to drag out this <b>Cheat Sheets</b> window to give
          you more room for the multiple Debrief windows that you will use later on.
       </shortdesc>
-  <task id="idp140433133215328">
+  <task id="idp140696534640448">
     <title>Single Leg Solution</title>
     <shortdesc>
             <b>Introduction</b>
 Let's start off with an easy scenario. We're going to work on an engagement where there is just a single leg of target data.
          </shortdesc>
-    <task id="idp140433133270256">
+    <task id="idp140696534695072">
       <title>Finding the sample data</title>
       <shortdesc>
                There are two ways to load the sample data. We're probably going to end up modifying the sample data,
@@ -22,7 +22,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
                would be modifying the <b>master</b> copy of the data). Start off by considering if your Debrief installation folder
                is on your local machine, or on a Network Shared Folder.
             </shortdesc>
-      <task id="idp140433133272400">
+      <task id="idp140696534697200">
         <title>Generating links to your existing data</title>
         <shortdesc>Debrief NG stores it's data in a local folder called a Project. While
 			these are frequently created afresh to store new analysis data, it's also possible
@@ -38,14 +38,14 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
 			network drive).</shortdesc>
         <taskbody>
           <steps>
-            <step id="idp140433133463856">
+            <step id="idp140696685900624">
               <cmd>Check Navigator is open</cmd>
               <info>In the top left hand corner of Debrief you should find the Navigator window. If
 			it isn't there, select <b>Navigator</b> from Debrief's Window/Show View
 			menu.</info>
               <stepxmp/>
             </step>
-            <step id="idp140433133465552">
+            <step id="idp140696685902320">
               <cmd>Check you have a workspace</cmd>
               <info>Before you can link in existing data, you need to define a project for your
 			work. This is a parent folder within which your links are stored. If your Navigator
@@ -53,7 +53,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
 			from the Help/Cheat Sheets menu.</info>
               <stepxmp/>
             </step>
-            <step id="idp140433133467232">
+            <step id="idp140696685904032">
               <cmd>Add a new Folder</cmd>
               <info>Right-click on your current project in the Navigator view, then select
 				<b>Folder</b> from the <b>New</b> sub-menu. The New Folder wizard will open. Instead
@@ -69,7 +69,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
 			Debrief).</info>
               <stepxmp/>
             </step>
-            <step id="idp140433133471760">
+            <step id="idp140696685908560">
               <cmd>Done</cmd>
               <info>Well done, there you are. Just repeat this process to add any other data
 			directories you want to load data from. You've probably just created a link to the
@@ -84,7 +84,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
                </result>
         </taskbody>
       </task>
-      <task id="idp140433133278096">
+      <task id="idp140696534702976">
         <title>Generating links to your existing data</title>
         <shortdesc>Here we are going to copy in an existing set of sample data. We aren't
 			going to link to the original set, since we don't want to modify it,
@@ -93,14 +93,14 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
 			<b>Debrief\DebriefNG</b> folder that is probably in a <b>Programs</b> network share.</shortdesc>
         <taskbody>
           <steps>
-            <step id="idp140433133491280">
+            <step id="idp140696685928032">
               <cmd>Check Navigator is open</cmd>
               <info>In the top left hand corner of Debrief you should find the Navigator window. If
 			it isn't there, select <b>Navigator</b> from Debrief's Window/Show View
 			menu.</info>
               <stepxmp/>
             </step>
-            <step id="idp140433133493024">
+            <step id="idp140696685929776">
               <cmd>Check you have a workspace</cmd>
               <info>Before you can import the existing data, you need to define a project for your
 			work. This is a parent folder within which your data (or links to your data) is stored. If your Navigator
@@ -108,7 +108,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
 			from the Help/Cheat Sheets menu.</info>
               <stepxmp/>
             </step>
-            <step id="idp140433133494768">
+            <step id="idp140696685931520">
               <cmd>Prepare to drag in data</cmd>
               <info>
 			The sample data is going to be dragged in.  In order to do this, the relevant
@@ -120,7 +120,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
 		</info>
               <stepxmp/>
             </step>
-            <step id="idp140433133497232">
+            <step id="idp140696685933984">
               <cmd>Drag in sample data</cmd>
               <info>
 			Now that you are ready to import, pick up the <b>sample_data</b> folder using your mouse, and drop it into
@@ -138,12 +138,12 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </task>
     </task>
   </task>
-  <task id="idp140433133256512">
+  <task id="idp140696534681488">
     <title>Multi Leg Solution</title>
     <shortdesc>
             Now for something a little more advanced. In this tutorial we're going to work with a scenario with several targets zigs, where a number of contributions are required to get a good quality solution.
          </shortdesc>
-    <task id="idp140433133258496">
+    <task id="idp140696534683472">
       <title>Loading the data</title>
       <shortdesc>
          We've got a Debrief plot file pre-prepared to let you avoid
@@ -151,7 +151,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </shortdesc>
       <taskbody>
         <steps>
-          <step id="idp140433133517984">
+          <step id="idp140696685954800">
             <cmd>Find the data file</cmd>
             <info>
          The data-file for this tutorial is contained in the SATC sub-folder, as were the
@@ -159,7 +159,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133519168">
+          <step id="idp140696685955968">
             <cmd>Drag in the file</cmd>
             <info>
          Before you load the data-file, close any existing Debrief plots, then drag
@@ -173,14 +173,14 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
         <result/>
       </taskbody>
     </task>
-    <task id="idp140433133260832">
+    <task id="idp140696534685808">
       <title>Grooming the data</title>
       <shortdesc>
          Let's understand the data we've got, before we start playing with it
       </shortdesc>
       <taskbody>
         <steps>
-          <step id="idp140433133528432">
+          <step id="idp140696685965248">
             <cmd>View the ownship track</cmd>
             <info>
          When you view the tutoral plot you will see an ownship track.  Use the Debrief <b>Time Controller</b> and <b>Track Tote</b> to
@@ -189,7 +189,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133531200">
+          <step id="idp140696685967968">
             <cmd>View the sensor data</cmd>
             <info>
          The identification of straight legs is pivotal to the SATC process, since they greatly constrain
@@ -202,7 +202,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133532752">
+          <step id="idp140696685969520">
             <cmd>Mark the final target leg</cmd>
             <info>
          Whilst the first two target legs have been coloured, the last one hasn't. Let's do it now.
@@ -214,7 +214,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133536160">
+          <step id="idp140696685972912">
             <cmd>Create the scenario</cmd>
             <info>
          The most significant block of information in generating a solution is the bearing data.  So, the
@@ -227,7 +227,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133541056">
+          <step id="idp140696685977808">
             <cmd>Rename the scenario</cmd>
             <info>
          To make it easier to navigate the data, please use the <b>Properties</b> view to rename
@@ -235,7 +235,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133543024">
+          <step id="idp140696685979776">
             <cmd>Try to generate a solution</cmd>
             <info>
          Hey, why not try to generate a solution.  Just click on <b>Calculate Solution</b> at the top of the
@@ -249,14 +249,14 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
         <result/>
       </taskbody>
     </task>
-    <task id="idp140433133263168">
+    <task id="idp140696534688144">
       <title>Playing with legs</title>
       <shortdesc>
          After the bearing measurements, knowledge of the straight legs is the most valuable set of information for SATC.
       </shortdesc>
       <taskbody>
         <steps>
-          <step id="idp140433133565056">
+          <step id="idp140696686001760">
             <cmd>Mark first leg</cmd>
             <info>
          Ok, let's mark the first leg. In the <b>Outline View</b>, expand the Ownship sensor data, and select all of the
@@ -268,7 +268,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133569920">
+          <step id="idp140696686006608">
             <cmd>Try to generate a solution (again)</cmd>
             <info>
          Ok, now we should be able to generate a solution.  Again, click on <b>Calculate Solution</b> at the top of the
@@ -281,7 +281,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133573936">
+          <step id="idp140696686010608">
             <cmd>Mark second leg</cmd>
             <info>
          Now, we'll mark the second leg. In the <b>Outline View</b>, expand the Ownship sensor data, and select all of the
@@ -292,7 +292,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133578944">
+          <step id="idp140696686015584">
             <cmd>Generate updated solution</cmd>
             <info>
          Now generate a new solution.  You'll see two legs present, the first with 12.1 knots, and the second with 14.1 knots.
@@ -301,7 +301,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133580432">
+          <step id="idp140696686017040">
             <cmd>Mark third leg</cmd>
             <info>
          Ok, now let's mark the third leg using the <b>Yellow</b> cuts, and re-generate the solution again.  The solution
@@ -314,7 +314,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133585200">
+          <step id="idp140696686021904">
             <cmd>Give speed constraint</cmd>
             <info>
          So, we've got a solution.  But, I think it can be improved.  Let's try to give the target a consistent speed. We're
@@ -326,7 +326,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133589792">
+          <step id="idp140696686026416">
             <cmd>Adjust speed constraint</cmd>
             <info>
          Ok, let's generate a new solution.  A constraint of 0-40 knots isn't much of a constraint at all, so it has little effect.  So,
@@ -337,7 +337,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133592752">
+          <step id="idp140696686029376">
             <cmd>Provide speed estimate</cmd>
             <info>
          Lastly, let's try an estimate.  The estimate will make the algorithm favour solutions near that value, though
@@ -349,7 +349,7 @@ Let's start off with an easy scenario. We're going to work on an engagement wher
       </info>
             <stepxmp/>
           </step>
-          <step id="idp140433133594432">
+          <step id="idp140696686031056">
             <cmd>Verify solution</cmd>
             <info>
          Ok, now how good is that solution?  In the <b>Outline View</b>, make the <b>SUBJECT</b> track visible.  You should see

@@ -14,7 +14,7 @@ create the DITA XML files. Using Ruby eliminates the need to use Eclipse and
 Apache Ant and can be run standalone from the command line as long as you have
 Ruby installed.
 
-The Ruby file: `default.rb` builds the output parent Ditamap `map.ditamap`
+The Ruby file: `ruby-cheatsheets-to-dita.rb` builds the output parent Ditamap `map.ditamap`
 (output/map.ditamap) and the 4 sub DITA tasks in the `output/dita` folder.
 
 [&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
@@ -35,7 +35,7 @@ Technical Committee.
 
 ## The Project
 
-The Ruby code in `default.rb` has some [XSL](https://en.wikipedia.org/wiki/XSL)
+The Ruby code in `ruby-cheatsheets-to-dita.rb` has some [XSL](https://en.wikipedia.org/wiki/XSL)
 code embedded, as well as some [XML](https://en.wikipedia.org/wiki/XML) markup
 in a interpolated
 [string literal](http://ruby-doc.org/core-2.2.0/doc/syntax/literals_rdoc.html)
@@ -44,7 +44,7 @@ syntax.
 The
 [Eclipse cheat sheets](https://www.oracle.com/technical-resources/articles/enterprise-architecture/eclipse-cheat-sheets.html)
 test data folder - `cheatsheets-xml-test-data` is best viewed inside Eclipse,
-and is used as input when `default.rb` runs.
+and is used as input when `ruby-cheatsheets-to-dita.rb` runs.
 
 [&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
 [&#8595;](#watch-this-space)

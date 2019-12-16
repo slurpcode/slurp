@@ -12,7 +12,7 @@ searches. Check out the `jobs` folder for some recent **_seek_**_s_.
 
 - [Ruby](https://www.ruby-lang.org)
 - [Mechanize](https://github.com/sparklemotion/mechanize)
-- [OptionParser](https://docs.ruby-lang.org/en/2.5.0/OptionParser.html)
+- [OptionParser](https://ruby-doc.org/stdlib-2.6.3/libdoc/optparse/rdoc/OptionParser.html)
 - [FileUtils](https://apidock.com/ruby/v2_6_3/FileUtils)
 - [Paint](https://github.com/janlelis/paint)
 - [CSV class](https://ruby-doc.org/stdlib-2.5.0/libdoc/csv/rdoc/CSV.html)
