@@ -37,7 +37,7 @@ Metrics/LineLength:
   Enabled: false
 
 Metrics/MethodLength:
-  Max: 62
+  Max: 130
 
 Metrics/ParameterLists:
   Enabled: false
@@ -58,6 +58,9 @@ Style/HashSyntax:
   EnforcedStyle: no_mixed_keys
 
 Style/MultilineBlockChain:
+  Enabled: false
+
+Style/MutableConstant:
   Enabled: false
 
 Style/NegatedIf:

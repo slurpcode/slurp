@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'fileutils'
+require 'nokogiri'
 require 'optparse'
 require 'optparse/time'
 require 'paint'
@@ -12,17 +12,18 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :path, :delay, :time
+    attr_accessor :delay, :directory, :time
 
     def initialize; end
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint['ruby-strip.rb [options]', :red, :white]}"
+      parser.banner =
+        "Usage: #{Paint['well-formed.rb [options]', :red, :white]}"
       parser.separator ''
       parser.separator 'Specific options:'
 
       # add additional options
-      specify_path_option(parser)
+      specify_directory_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
 
@@ -41,13 +42,12 @@ class Parser
       end
     end
 
-    def specify_path_option(parser)
+    def specify_directory_option(parser)
       parser.on(
-        '-p',
-        '--path path',
-        'Directory or path relative to this
-                                     directory to check for excess whitespace.'
-      ){|p| self.path = p}
+        '-d',
+        '--directory directory',
+        'Path or directory to check for well formedness'
+      ){|d| self.directory = d}
     end
 
     def delay_execution_option(parser)
@@ -92,41 +92,21 @@ options = example.parse(ARGV)
 # pp options # example.options
 # pp ARGV
 
-if options.path.nil?
-  print 'Enter directory or path relative to this directory to check for excess whitespace: '
-  options.path = STDIN.gets.chomp
+if options.directory.nil?
+  print 'Enter the path or directory to check for well formedness: '
+  options.directory = STDIN.gets.chomp
+end
+
+# Used to check the well formedness of XML files
+def check(path)
+  Dir.glob("#{path}/**/*.{xml,xsd,xsl}").each do |filename|
+    doc = File.open(filename){|xml| Nokogiri.XML(xml)}
+    puts filename, doc.errors unless doc.errors.empty?
+  end
 end
 
 def create_path(path)
   path.tr('\\', '/')
 end
 
-# entry point function calls the two other worker functions
-def strip_space(src)
-  Dir.glob("#{src}/**/*.*").each do |filename|
-    copy_with_path(filename, "output/#{filename}")
-  end
-  strip_white_space
-end
-
-# function that copies the folder of input files to the
-# output folder. Creates the directories if they don't exist
-def copy_with_path(src, dst)
-  FileUtils.mkdir_p(File.dirname(dst))
-  FileUtils.cp(src, dst)
-end
-
-# Function that strips that white space from each file
-def strip_white_space
-  Dir.glob('output/**/*.*').each do |filename|
-    file = File.open(filename, 'r+')
-    contents = file.read
-    strip_contents = contents.strip
-    file.rewind
-    file.truncate(0)
-    file.write(strip_contents)
-    file.close
-  end
-end
-
-strip_space(create_path(options.path))
+check(create_path(options.directory))
