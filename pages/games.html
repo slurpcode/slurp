@@ -14,11 +14,12 @@ page-type: grid
         {% assign display = row.name | split: "_" | join: " " %}
     {% endif %}
     <div class="left">
-            <a href="{{w}}{{ row.name }}"><p>{{ display }}</p></a>
-            <br>
-            <a href="{{w}}{{ row.name }}">
-                <img src="/assets/images/games/fuchsia-{{ row.image }}.png" alt="{{ display }}" title="{{ display }}">
-            </a>
+        <a href="{{w}}{{ row.name }}"><p>{{ display }}</p></a>
+        <br>
+        <a href="{{w}}{{ row.name }}">
+            <img src="/assets/images/games/fuchsia-{{ row.image }}.png"
+                 alt="{{ display }}" title="{{ display }}">
+        </a>
         <h5>
             {%- assign creator = row.creator | strip -%}
             {% if creator != '' %}

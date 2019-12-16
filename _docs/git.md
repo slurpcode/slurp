@@ -267,6 +267,21 @@ git rebase -i HEAD~n
 git push -f # (force push to GitHub)
 ```
 
+## Contributor Workflow
+
+To contribute a patch, the workflow is as follows:
+
+- Fork repository
+- Create topic branch
+- Commit patches
+- Push changes to your fork
+- Create pull request
+
+If a commit references an issue, please add the reference.
+For example: `refs #351` or `fixes #123`. Using the `fixes` or
+`closes` keywords will cause the applicable issue to be closed
+when the pull request is merged.
+
 [&#8595;](#watch-this-space) [&#8593;](#git)
 
 ## Watch This Space
