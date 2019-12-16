@@ -6,7 +6,7 @@ require 'nokogiri'
 # or includes if needed to find the validation errors
 def validate(path)
   Dir.glob("#{path}/**/*.{xml,xsd,xsl}").each do |filename|
-    doc = File.open(filename){|f| Nokogiri::XML(f)}
+    doc = File.open(filename) { |f| Nokogiri.XML(f) }
     puts filename, doc.errors unless doc.errors.empty?
   end
 end
