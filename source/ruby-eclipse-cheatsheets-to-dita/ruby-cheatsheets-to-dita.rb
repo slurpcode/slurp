@@ -19,7 +19,8 @@ class Parser
     def initialize; end
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint['ruby-cheatsheets-to-dita.rb [options]', :red, :white]}"
+      parser.banner =
+        "Usage: #{Paint['ruby-cheatsheets-to-dita.rb [options]', :red, :white]}"
       parser.separator ''
       parser.separator 'Specific options:'
 
@@ -44,10 +45,12 @@ class Parser
     end
 
     def specify_path_option(parser)
-      parser.on('-p', '--path path', 'Enter the directory or path relative to this
-                                     directory to the cheatsheets XML test data: ') do |p|
-        self.path = p
-      end
+      parser.on(
+        '-p',
+        '--path path',
+        'Enter the directory or path relative to this
+                                     directory to the cheatsheets XML test data: '
+      ) { |p| self.path = p }
     end
 
     def delay_execution_option(parser)
@@ -59,9 +62,12 @@ class Parser
 
     def execute_at_time_option(parser)
       # Cast 'time' argument to a Time object.
-      parser.on('-t', '--time [TIME]', Time, 'Begin execution at given time') do |time|
-        self.time = time
-      end
+      parser.on(
+        '-t',
+        '--time [TIME]',
+        Time,
+        'Begin execution at given time'
+      ) { |time| self.time = time }
     end
   end
 
@@ -73,10 +79,11 @@ class Parser
     # *options*.
 
     @options = ScriptOptions.new
-    @args = OptionParser.new do |parser|
-      @options.define_options(parser)
-      parser.parse!(args)
-    end
+    @args =
+      OptionParser.new do |parser|
+        @options.define_options(parser)
+        parser.parse!(args)
+      end
     @options
   end
 
@@ -185,11 +192,21 @@ def create_dita(path)
       <xsl:copy/>
     </xsl:template>
 
-    <xsl:template match=\"i[.='#{n}']\"/>
+    <xsl:template match=\"i[.='#{
+      n
+    }']\"/>
 
     <xsl:template
-      match=\"text()[preceding-sibling::i[.='#{n}'][1]][following-sibling::i[.='#{n}'][1]]|
-      *[preceding-sibling::i[.='#{n}'][1]][following-sibling::i[.='#{n}'][1]]\"/>
+      match=\"text()[preceding-sibling::i[.='#{
+      n
+    }'][1]][following-sibling::i[.='#{
+      n
+    }'][1]]|
+      *[preceding-sibling::i[.='#{
+      n
+    }'][1]][following-sibling::i[.='#{
+      n
+    }'][1]]\"/>
 
     <xsl:template match=\"br\">
       <ph />
@@ -212,10 +229,14 @@ def create_dita(path)
     <author>Debrief</author>
     <author>John Bampton</author>
     <source>http://debrief.info/</source>
-    <publisher>Github John Bampton and #{11_461_173_985_121.to_s.split(/[356]/).map(&:to_i).map(&:chr).join
-      .capitalize}</publisher>
+    <publisher>Github John Bampton and #{
+      11_461_173_985_121.to_s.split(/[356]/).map(&:to_i).map(&:chr).join
+        .capitalize
+    }</publisher>
     <critdates>
-      <created date=\"#{Date.today}\"/>
+      <created date=\"#{
+      Date.today
+    }\"/>
     </critdates>
     <audience type=\"marine expert\"
       job=\"analysis\" experiencelevel=\"intermediate\"/>
@@ -232,7 +253,9 @@ def create_dita(path)
     template = Nokogiri.XSLT(stylesheet)
     ditamap +=
       "
-  <topicref href=\"dita/#{File.basename(filename, '.*')}.dita\" type=\"task\"/>"
+  <topicref href=\"dita/#{
+        File.basename(filename, '.*')
+      }.dita\" type=\"task\"/>"
     transformed_document = template.transform(document)
     File.open("output/dita/#{File.basename(filename, '.*')}.dita", 'w').write(
       transformed_document
@@ -241,7 +264,7 @@ def create_dita(path)
 
   ditamap += '
 </map>'
-  File.open('output/map.ditamap', 'w'){|f| f.write(ditamap)}
+  File.open('output/map.ditamap', 'w') { |f| f.write(ditamap) }
   puts ditamap
 end
 

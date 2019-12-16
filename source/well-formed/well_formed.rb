@@ -17,7 +17,8 @@ class Parser
     def initialize; end
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint['well-formed.rb [options]', :red, :white]}"
+      parser.banner =
+        "Usage: #{Paint['well-formed.rb [options]', :red, :white]}"
       parser.separator ''
       parser.separator 'Specific options:'
 
@@ -42,9 +43,11 @@ class Parser
     end
 
     def specify_directory_option(parser)
-      parser.on('-d', '--directory directory', 'Path or directory to check for well formedness') do |d|
-        self.directory = d
-      end
+      parser.on(
+        '-d',
+        '--directory directory',
+        'Path or directory to check for well formedness'
+      ) { |d| self.directory = d }
     end
 
     def delay_execution_option(parser)
@@ -56,9 +59,12 @@ class Parser
 
     def execute_at_time_option(parser)
       # Cast 'time' argument to a Time object.
-      parser.on('-t', '--time [TIME]', Time, 'Begin execution at given time') do |time|
-        self.time = time
-      end
+      parser.on(
+        '-t',
+        '--time [TIME]',
+        Time,
+        'Begin execution at given time'
+      ) { |time| self.time = time }
     end
   end
 
@@ -70,10 +76,11 @@ class Parser
     # *options*.
 
     @options = ScriptOptions.new
-    @args = OptionParser.new do |parser|
-      @options.define_options(parser)
-      parser.parse!(args)
-    end
+    @args =
+      OptionParser.new do |parser|
+        @options.define_options(parser)
+        parser.parse!(args)
+      end
     @options
   end
 
@@ -93,7 +100,7 @@ end
 # Used to check the well formedness of XML files
 def check(path)
   Dir.glob("#{path}/**/*.{xml,xsd,xsl}").each do |filename|
-    doc = File.open(filename){|xml| Nokogiri.XML(xml)}
+    doc = File.open(filename) { |xml| Nokogiri.XML(xml) }
     puts filename, doc.errors unless doc.errors.empty?
   end
 end

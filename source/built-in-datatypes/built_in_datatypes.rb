@@ -42,9 +42,7 @@ class Parser
     end
 
     def specify_path_option(parser)
-      parser.on('-p', '--path path', 'Path to schema') do |p|
-        self.path = p
-      end
+      parser.on('-p', '--path path', 'Path to schema') { |p| self.path = p }
     end
 
     def delay_execution_option(parser)
@@ -56,9 +54,12 @@ class Parser
 
     def execute_at_time_option(parser)
       # Cast 'time' argument to a Time object.
-      parser.on('-t', '--time [TIME]', Time, 'Begin execution at given time') do |time|
-        self.time = time
-      end
+      parser.on(
+        '-t',
+        '--time [TIME]',
+        Time,
+        'Begin execution at given time'
+      ) { |time| self.time = time }
     end
   end
 
@@ -70,10 +71,11 @@ class Parser
     # *options*.
 
     @options = ScriptOptions.new
-    @args = OptionParser.new do |parser|
-      @options.define_options(parser)
-      parser.parse!(args)
-    end
+    @args =
+      OptionParser.new do |parser|
+        @options.define_options(parser)
+        parser.parse!(args)
+      end
     @options
   end
 

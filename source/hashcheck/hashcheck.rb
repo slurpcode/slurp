@@ -42,9 +42,7 @@ class Parser
     end
 
     def specify_file_option(parser)
-      parser.on('-f', '--file file', 'Path to file') do |f|
-        self.file = f
-      end
+      parser.on('-f', '--file file', 'Path to file') { |f| self.file = f }
     end
 
     def specify_algorithm_option(parser)
@@ -62,9 +60,12 @@ class Parser
 
     def execute_at_time_option(parser)
       # Cast 'time' argument to a Time object.
-      parser.on('-t', '--time [TIME]', Time, 'Begin execution at given time') do |time|
-        self.time = time
-      end
+      parser.on(
+        '-t',
+        '--time [TIME]',
+        Time,
+        'Begin execution at given time'
+      ) { |time| self.time = time }
     end
   end
 
@@ -76,10 +77,11 @@ class Parser
     # *options*.
 
     @options = ScriptOptions.new
-    @args = OptionParser.new do |parser|
-      @options.define_options(parser)
-      parser.parse!(args)
-    end
+    @args =
+      OptionParser.new do |parser|
+        @options.define_options(parser)
+        parser.parse!(args)
+      end
     @options
   end
 
@@ -100,6 +102,5 @@ if options.algorithm.nil?
   options.algorithm = STDIN.gets.chomp
 end
 
-shell_command =
-  `CertUtil -hashfile "#{options.file}" "#{options.algorithm}"`
+shell_command = `CertUtil -hashfile "#{options.file}" "#{options.algorithm}"`
 puts shell_command.inspect.split('\n')[1]

@@ -87,11 +87,13 @@ class Parser
     end
 
     def specify_keyword_option(parser)
-      parser.on('-k', '--keyword keyword', 'Keywords to search
+      parser.on(
+        '-k',
+        '--keyword keyword',
+        'Keywords to search
                                                separators include:
-                                               and, or, not') do |k|
-        self.keyword = k
-      end
+                                               and, or, not'
+      ) { |k| self.keyword = k }
     end
 
     def specify_location_option(parser)
@@ -101,23 +103,27 @@ class Parser
     end
 
     def specify_daterange_option(parser)
-      parser.on('-d', '--daterange daterange', 'Listed time in days
+      parser.on(
+        '-d',
+        '--daterange daterange',
+        'Listed time in days
                                                        999 (default) or
                                                        1, 3, 7, 14, 31 or
-                                                       any positive number') do |d|
-        self.daterange = d
-      end
+                                                       any positive number'
+      ) { |d| self.daterange = d }
     end
 
     def specify_worktype_option(parser)
-      parser.on('-w', '--worktype worktype', 'Work type
+      parser.on(
+        '-w',
+        '--worktype worktype',
+        'Work type
                                                  all (default)
                                                  full or 242 (full time)
                                                  part or 243 (part time)
                                                  contract or 244 (contract/temp)
-                                                 casual or 245 (casual/vacation)') do |w|
-        self.worktype = wtype(w)
-      end
+                                                 casual or 245 (casual/vacation)'
+      ) { |w| self.worktype = wtype(w) }
     end
 
     def delay_execution_option(parser)
@@ -129,9 +135,12 @@ class Parser
 
     def execute_at_time_option(parser)
       # Cast 'time' argument to a Time object.
-      parser.on('-t', '--time [TIME]', Time, 'Begin execution at given time') do |time|
-        self.time = time
-      end
+      parser.on(
+        '-t',
+        '--time [TIME]',
+        Time,
+        'Begin execution at given time'
+      ) { |time| self.time = time }
     end
   end
 
@@ -143,10 +152,11 @@ class Parser
     # *options*.
 
     @options = ScriptOptions.new
-    @args = OptionParser.new do |parser|
-      @options.define_options(parser)
-      parser.parse!(args)
-    end
+    @args =
+      OptionParser.new do |parser|
+        @options.define_options(parser)
+        parser.parse!(args)
+      end
     @options
   end
 
@@ -237,7 +247,9 @@ loop do
     ad = agent.get(url)
     # at selects the first using CSS selectors
     work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
-    listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
+    if listing_date.empty?
+      listing_date = ad.at('dd[data-automation="job-detail-date"]').text
+    end
 
     results <<
       [
@@ -273,7 +285,7 @@ if results.size > 1
   filename = filename[1..-1] if filename[0] == '-'
   FileUtils.mkdir_p('jobs')
   CSV.open("jobs/#{filename}.csv", 'w+') do |csv_file|
-    results.each{|row| csv_file << row}
+    results.each { |row| csv_file << row }
   end
   puts "#{results.size - 1} jobs found"
   `open "jobs/#{filename}.csv"`
