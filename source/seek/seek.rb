@@ -93,7 +93,7 @@ class Parser
         'Keywords to search
                                                separators include:
                                                and, or, not'
-      ) { |k| self.keyword = k }
+      ){|k| self.keyword = k}
     end
 
     def specify_location_option(parser)
@@ -110,7 +110,7 @@ class Parser
                                                        999 (default) or
                                                        1, 3, 7, 14, 31 or
                                                        any positive number'
-      ) { |d| self.daterange = d }
+      ){|d| self.daterange = d}
     end
 
     def specify_worktype_option(parser)
@@ -123,7 +123,7 @@ class Parser
                                                  part or 243 (part time)
                                                  contract or 244 (contract/temp)
                                                  casual or 245 (casual/vacation)'
-      ) { |w| self.worktype = wtype(w) }
+      ){|w| self.worktype = wtype(w)}
     end
 
     def delay_execution_option(parser)
@@ -140,7 +140,7 @@ class Parser
         '--time [TIME]',
         Time,
         'Begin execution at given time'
-      ) { |time| self.time = time }
+      ){|time| self.time = time}
     end
   end
 
@@ -247,9 +247,7 @@ loop do
     ad = agent.get(url)
     # at selects the first using CSS selectors
     work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
-    if listing_date.empty?
-      listing_date = ad.at('dd[data-automation="job-detail-date"]').text
-    end
+    listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
 
     results <<
       [
@@ -285,7 +283,7 @@ if results.size > 1
   filename = filename[1..-1] if filename[0] == '-'
   FileUtils.mkdir_p('jobs')
   CSV.open("jobs/#{filename}.csv", 'w+') do |csv_file|
-    results.each { |row| csv_file << row }
+    results.each{|row| csv_file << row}
   end
   puts "#{results.size - 1} jobs found"
   `open "jobs/#{filename}.csv"`
