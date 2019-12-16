@@ -8,7 +8,7 @@ def create_path(path)
 end
 
 # implement commandline options
-options = { path: nil }
+options = {path: nil}
 
 parser =
   OptionParser.new do |opts|
