@@ -13,6 +13,8 @@
       link: /docs/ruby/
     - title: 🗄️ SQL File
       link: /docs/sql-file/
+    - title: 🆎 Built in datatypes
+      link: /docs/built-in-datatypes/
     - title: 🖨️ DITA to PDF with Eclipse
       link: /docs/dita-to-pdf-with-eclipse/
     - title: 🌘 Eclipse cheat sheets (XML) to DITA to PDF
@@ -21,12 +23,16 @@
       link: /docs/eclipse-cheatsheets-to-dita-with-python/
     - title: 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
       link: /docs/eclipse-cheat-sheets-to-dita-with-ruby-xsl-nokogiri/
+    - title: 🔥 Flicker Diff
+      link: /docs/flicker-diff/
     - title: 🛂 Hashcheck
       link: /docs/hashcheck/
     - title: 🎞️ Ruby Strip
       link: /docs/ruby-strip/
     - title: 🚀 Seek
       link: /docs/seek/
+    - title: 🧪 Well Formed
+      link: /docs/well-formed/
     - title: ⚔️ Codewars
       link: /docs/codewars/
     - title: 🔗 Links
