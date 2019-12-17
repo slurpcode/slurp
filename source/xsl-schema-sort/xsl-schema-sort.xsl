@@ -11,9 +11,9 @@
             <xd:p>To finish</xd:p>
         </xd:desc>
     </xd:doc>
-    
+
     <xsl:strip-space elements="*"/>
-    
+
     <xd:doc>
         <xd:desc>Inside the 'source' folder since we are one level down</xd:desc>
     </xd:doc>
@@ -22,7 +22,7 @@
         <xd:desc>Path to the XML Schema should be inside the path to the project.</xd:desc>
     </xd:doc>
     <xsl:param name="pathToXMLSchema" select="'../assets/xml-schema'"/>
-        
+
     <xd:doc>
         <xd:desc>Entry point to the script</xd:desc>
     </xd:doc>
@@ -37,8 +37,8 @@
                                 select="concat(resolve-uri($pathToProject), 'schema/',  $type, '/', $filename)"/>
             </xsl:apply-templates>
         </xsl:for-each>
-    </xsl:template>    
-    
+    </xsl:template>
+
     <xd:doc>
         <xd:desc/>
         <xd:param name="location"/>
@@ -68,7 +68,7 @@
             </xsl:element>
         </xsl:result-document>
     </xsl:template>
-    
+
     <xd:doc>
         <xd:desc/>
     </xd:doc>
@@ -77,5 +77,5 @@
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    
+
 </xsl:stylesheet>
