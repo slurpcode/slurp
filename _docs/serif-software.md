@@ -21,7 +21,7 @@ originally used Serif DrawPlus, PhotoPlus and PagePlus on my Windows PC and then
 Serif introduced the award winning Affinity line of design apps: Affinity
 Designer, Affinity Photo and Affinity Publisher. Affinity was originally
 introduced for use on Macs and iPads and then Serif expanded Affinity to include
-apps for Windows (all file format outputs are interchangeable).  
+apps for Windows (all file format outputs are interchangeable).
 I find that there are some features of the older Plus line that I prefer and
 many features of the Affinity line that I prefer. In the course of my design
 work, I’m even able to use a mixture of the older legacy Plus apps and the newer
