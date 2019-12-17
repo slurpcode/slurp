@@ -48,7 +48,7 @@ class Parser
         '-p',
         '--path path',
         'Path to check for well formedness'
-      ) { |p| self.path = p }
+      ){|p| self.path = p}
     end
 
     def delay_execution_option(parser)
@@ -65,7 +65,7 @@ class Parser
         '--time [TIME]',
         Time,
         'Begin execution at given time'
-      ) { |time| self.time = time }
+      ){|time| self.time = time}
     end
   end
 
@@ -102,7 +102,7 @@ end
 # Used to check the well formedness of XML files
 def check(path)
   Dir.glob("#{path}/**/*.{xml,xsd,xsl}").each do |filename|
-    doc = File.open(filename) { |xml| Nokogiri.XML(xml) }
+    doc = File.open(filename){|xml| Nokogiri.XML(xml)}
     puts filename, doc.errors unless doc.errors.empty?
   end
 end
