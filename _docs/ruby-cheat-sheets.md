@@ -47,6 +47,21 @@ The
 test data folder - `cheatsheets-xml-test-data` is best viewed inside Eclipse,
 and is used as input when `ruby-cheatsheets-to-dita.rb` runs.
 
+```
+$ ruby ruby-cheatsheets-to-dita.rb -h
+Usage: ruby-cheatsheets-to-dita.rb [options]
+
+Specific options:
+    -p, --path path                  Enter the directory or path relative to this
+                                     directory to the cheatsheets XML test data: 
+        --delay N                    Delay N seconds before executing
+    -t, --time [TIME]                Begin execution at given time
+
+Common options:
+    -h, --help                       Show this message
+        --version                    Show version
+```
+
 [&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
 [&#8595;](#watch-this-space)
 

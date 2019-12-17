@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# to finish `time`
 
 require 'nokogiri'
 require 'optparse'
@@ -12,7 +13,7 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :delay, :directory, :time
+    attr_accessor :delay, :path, :time
 
     def initialize; end
 
@@ -23,7 +24,7 @@ class Parser
       parser.separator 'Specific options:'
 
       # add additional options
-      specify_directory_option(parser)
+      specify_path_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
 
@@ -42,12 +43,12 @@ class Parser
       end
     end
 
-    def specify_directory_option(parser)
+    def specify_path_option(parser)
       parser.on(
-        '-d',
-        '--directory directory',
-        'Path or directory to check for well formedness'
-      ){|d| self.directory = d}
+        '-p',
+        '--path path',
+        'Path to check for well formedness'
+      ){|p| self.path = p}
     end
 
     def delay_execution_option(parser)
@@ -92,9 +93,10 @@ options = example.parse(ARGV)
 # pp options # example.options
 # pp ARGV
 
-if options.directory.nil?
-  print 'Enter the path or directory to check for well formedness: '
-  options.directory = STDIN.gets.chomp
+sleep(options.delay) if options.delay
+if options.path.nil?
+  print 'Enter the path to check for well formedness: '
+  options.path = STDIN.gets.chomp
 end
 
 # Used to check the well formedness of XML files
@@ -109,4 +111,4 @@ def create_path(path)
   path.tr('\\', '/')
 end
 
-check(create_path(options.directory))
+check(create_path(options.path))

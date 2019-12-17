@@ -42,13 +42,18 @@ So far it has been checked against these
 Simply run:
 
 ```
-$ ruby ruby-strip.rb -h
-  Usage: ruby-strip.rb [options]
-      -p, --path                       Directory or path
-                                       relative to this directory
-                                       to check for excess whitespace.
-      -h, --help                       Displays help
-          --version                    Show program version
+$ ruby ruby-strip.rb -h       
+Usage: ruby-strip.rb [options]
+
+Specific options:
+    -p, --path path                  Directory or path relative to this
+                                     directory to check for excess whitespace.
+        --delay N                    Delay N seconds before executing
+    -t, --time [TIME]                Begin execution at given time
+
+Common options:
+    -h, --help                       Show this message
+        --version                    Show version
 ```
 
 This should copy the folder to the `output` directory.

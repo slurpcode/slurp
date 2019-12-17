@@ -6,9 +6,6 @@ AllCops:
 Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
 
-Layout/SpaceAroundOperators:
-  Enabled: false
-
 Layout/SpaceBeforeBlockBraces:
   EnforcedStyle: no_space
 
@@ -18,9 +15,6 @@ Layout/SpaceInsideBlockBraces:
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-
-Lint/UselessAssignment:
-  Enabled: false
 
 Metrics/AbcSize:
   Enabled: false
@@ -46,14 +40,8 @@ Metrics/PerceivedComplexity:
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
-Style/GlobalVars:
-  Enabled: false
-
 Style/GuardClause:
   Enabled: false
-
-Style/HashSyntax:
-  EnforcedStyle: no_mixed_keys
 
 Style/MultilineBlockChain:
   Enabled: false
@@ -66,13 +54,3 @@ Style/NegatedIf:
 
 Style/Next:
   Enabled: false
-
-Style/PerlBackrefs:
-  Enabled: false
-
-Style/RegexpLiteral:
-  EnforcedStyle: slashes
-  AllowInnerSlashes: true
-
-Style/Semicolon:
-  AllowAsExpressionSeparator: true

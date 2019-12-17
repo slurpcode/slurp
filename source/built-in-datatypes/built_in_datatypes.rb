@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# to finish `time`
 
 require 'nokogiri'
 require 'optparse'
@@ -87,6 +88,7 @@ options = example.parse(ARGV)
 # pp options # example.options
 # pp ARGV
 
+sleep(options.delay) if options.delay
 if options.path.nil?
   print 'Enter the path to the schema: '
   options.path = STDIN.gets.chomp
