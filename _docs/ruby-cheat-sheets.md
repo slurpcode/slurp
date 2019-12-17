@@ -53,7 +53,7 @@ Usage: ruby-cheatsheets-to-dita.rb [options]
 
 Specific options:
     -p, --path path                  Enter the directory or path relative to this
-                                     directory to the cheatsheets XML test data: 
+                                     directory to the cheatsheets XML test data:
         --delay N                    Delay N seconds before executing
     -t, --time [TIME]                Begin execution at given time
 

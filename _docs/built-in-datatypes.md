@@ -14,7 +14,7 @@ link: /docs/built-in-datatypes/
 - [XPath](https://www.w3schools.com/xml/xpath_intro.asp)
 
 ```
-$ ruby built_in_datatypes.rb -h    
+$ ruby built_in_datatypes.rb -h
 Usage: built_in_datatypes.rb
 
 Specific options:

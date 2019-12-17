@@ -6,8 +6,8 @@ link: /docs/scrapers/go/colly/codewars/
 # Overview
 
 ```
-$ ./codewars                 
+$ ./codewars
 Usage: ./codewars [options]
 Options:
-  -u, --username string   Codewars profile username 
+  -u, --username string   Codewars profile username
 ```

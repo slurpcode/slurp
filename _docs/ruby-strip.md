@@ -42,7 +42,7 @@ So far it has been checked against these
 Simply run:
 
 ```
-$ ruby ruby-strip.rb -h       
+$ ruby ruby-strip.rb -h
 Usage: ruby-strip.rb [options]
 
 Specific options:
