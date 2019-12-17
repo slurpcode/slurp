@@ -17,8 +17,8 @@ Text differencing of two PDF files in the `terminal` using:
 - [colordiff](https://www.colordiff.org/)
 - [GNU Grep](https://www.gnu.org/software/grep/manual/grep.html)
 
-Red text is from the `old` PDF and green text is from the `new` PDF.
-Currently `dwdiff` provides a slightly better output than `wdiff`.
+Red text is from the `old` PDF and green text is from the `new` PDF. Currently
+`dwdiff` provides a slightly better output than `wdiff`.
 
 Commands used to create the `colordiff`:
 
