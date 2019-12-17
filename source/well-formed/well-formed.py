@@ -2,4 +2,4 @@
 import defusedxml.sax as sax
 
 parser = sax.make_parser()  # pylint: disable=invalid-name
-parser.parse(open(''))
+parser.parse(open(""))
