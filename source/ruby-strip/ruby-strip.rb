@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# to finish `time`
 
 require 'fileutils'
 require 'optparse'
@@ -92,6 +93,7 @@ options = example.parse(ARGV)
 # pp options # example.options
 # pp ARGV
 
+sleep(options.delay) if options.delay
 if options.path.nil?
   print 'Enter directory or path relative to this directory to check for excess whitespace: '
   options.path = STDIN.gets.chomp

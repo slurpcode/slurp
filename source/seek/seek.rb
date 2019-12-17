@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-# Need to finish `delay` and `time`
+# Need to finish `time`
 # Wow, looks like there are still jobs for COBOL
 
 require 'csv'
@@ -54,7 +54,7 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :keyword, :location, :daterange, :worktype, :delay, :time
+    attr_accessor :keyword, :location, :range, :worktype, :delay, :time
 
     def initialize; end
 
@@ -66,7 +66,7 @@ class Parser
       # add additional options
       specify_keyword_option(parser)
       specify_location_option(parser)
-      specify_daterange_option(parser)
+      specify_range_option(parser)
       specify_worktype_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
@@ -102,15 +102,15 @@ class Parser
       end
     end
 
-    def specify_daterange_option(parser)
+    def specify_range_option(parser)
       parser.on(
-        '-d',
-        '--daterange daterange',
+        '-r',
+        '--range range',
         'Listed time in days
                                                        999 (default) or
                                                        1, 3, 7, 14, 31 or
                                                        any positive number'
-      ){|d| self.daterange = d}
+      ){|r| self.range = r}
     end
 
     def specify_worktype_option(parser)
@@ -168,6 +168,7 @@ options = example.parse(ARGV)
 # pp options # example.options
 # pp ARGV
 
+sleep(options.delay) if options.delay
 if options.keyword.nil?
   print 'Enter the keywords to search separators include: and, or, not: '
   options.keyword = STDIN.gets.chomp
@@ -176,9 +177,9 @@ if options.location.nil?
   print 'Enter the suburb, city or region: '
   options.location = STDIN.gets.chomp
 end
-if options.daterange.nil?
+if options.range.nil?
   print 'Listed time in days 999 (default) or 1, 3, 7, 14, 31 or any positive number: '
-  options.daterange = STDIN.gets.chomp
+  options.range = STDIN.gets.chomp
 end
 if options.worktype.nil?
   print 'Work type
@@ -199,7 +200,7 @@ page =
     [
       ['keywords', options.keyword],
       ['where', options.location],
-      ['daterange', options.daterange],
+      ['range', options.range],
       ['worktype', options.worktype]
     ]
   )
@@ -276,10 +277,10 @@ end
 if results.size > 1
   keyword = options.keyword.tr(' ', '-')
   location = options.location.tr(' ', '-') unless options.location.empty?
-  daterange = 'daterange-' + options.daterange unless options.daterange.empty?
+  range = 'range-' + options.range unless options.range.empty?
   options.worktype = enwtype(options.worktype)
   worktype = 'worktype-' + options.worktype unless options.worktype.empty?
-  filename = [keyword, location, daterange, worktype].compact.join('-').downcase
+  filename = [keyword, location, range, worktype].compact.join('-').downcase
   filename = filename[1..-1] if filename[0] == '-'
   FileUtils.mkdir_p('jobs')
   CSV.open("jobs/#{filename}.csv", 'w+') do |csv_file|

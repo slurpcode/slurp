@@ -1,4 +1,5 @@
 # Secure Hash Algorithm choices: md2 md4 md5 sha1 sha256 sha384 sha512
+# to finish `time`
 
 require 'optparse'
 require 'optparse/time'
@@ -93,6 +94,7 @@ options = example.parse(ARGV)
 # pp options # example.options
 # pp ARGV
 
+sleep(options.delay) if options.delay
 if options.file.nil?
   print 'Enter path to file: '
   options.file = STDIN.gets.chomp

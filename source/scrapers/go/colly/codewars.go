@@ -3,12 +3,34 @@ package main
 import (
 	"fmt"
 	"github.com/gocolly/colly"
+	flag "github.com/spf13/pflag"
 	"log"
+	"os"
 	"strings"
 	"time"
 )
 
+// flags
+var (
+	username string
+)
+
 func main() {
+	flag.Parse()
+	if flag.NFlag() == 0 {
+		fmt.Printf("Usage: %s [options]\n", os.Args[0])
+		fmt.Println("Options:")
+		flag.PrintDefaults()
+		os.Exit(1)
+	}
+	scrape(username)
+}
+
+func init() {
+	flag.StringVarP(&username, "username", "u", "", "Codewars profile username ")
+}
+
+func scrape(username string) {
 	allowed := "www.codewars.com"
 	url := "https://%s/users/%s"
 	var record []string
@@ -56,6 +78,6 @@ func main() {
 	})
 
 	// Start scraping on https://www.codewars.com
-	c.Visit(fmt.Sprintf(url, allowed, "Beast"))
+	c.Visit(fmt.Sprintf(url, allowed, username))
 	fmt.Println(record)
 }

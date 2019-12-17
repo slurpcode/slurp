@@ -31,21 +31,27 @@ Large Australian employment marketplace:
 ```
 $ ruby seek.rb -h
 Usage: seek.rb [options]
+
+Specific options:
     -k, --keyword keyword            Keywords to search
-                                        separators include:
-                                        and, or, not
+                                               separators include:
+                                               and, or, not
     -l, --location location          Suburb, city or region
-    -d, --daterange daterange        Listed time in days
-                                        999 (default) or
-                                        1, 3, 7, 14, 31 or
-                                        any positive number
+    -r, --range range                Listed time in days
+                                                       999 (default) or
+                                                       1, 3, 7, 14, 31 or
+                                                       any positive number
     -w, --worktype worktype          Work type
-                                        all (default)
-                                        full or 242 (full time)
-                                        part or 243 (part time)
-                                        contract or 244 (contract/temp)
-                                        casual or 245 (casual/vacation)
-    -h, --help                       Displays help
+                                                 all (default)
+                                                 full or 242 (full time)
+                                                 part or 243 (part time)
+                                                 contract or 244 (contract/temp)
+                                                 casual or 245 (casual/vacation)
+        --delay N                    Delay N seconds before executing
+    -t, --time [TIME]                Begin execution at given time
+
+Common options:
+    -h, --help                       Show this message
         --version                    Show version
 ```
 

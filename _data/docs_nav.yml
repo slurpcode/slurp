@@ -15,6 +15,8 @@
       link: /docs/sql-file/
     - title: 🆎 Built in datatypes
       link: /docs/built-in-datatypes/
+    - title: 🔷 Codewars Go Colly CLI Scraper
+      link: /docs/scrapers/go/colly/codewars/
     - title: 🖨️ DITA to PDF with Eclipse
       link: /docs/dita-to-pdf-with-eclipse/
     - title: 🌘 Eclipse cheat sheets (XML) to DITA to PDF
@@ -35,5 +37,7 @@
       link: /docs/well-formed/
     - title: ⚔️ Codewars
       link: /docs/codewars/
+    - title: 📙 Serif Software
+      link: /docs/serif-software/
     - title: 🔗 Links
       link: /docs/links/
