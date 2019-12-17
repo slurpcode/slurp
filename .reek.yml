@@ -1,0 +1,7 @@
+detectors:
+  UncommunicativeVariableName:
+    enabled: false  # we're happy with short variable names
+  UncommunicativeParameterName:
+    enabled: false  # we're happy with short parameter names
+  Attribute:
+    enabled: false  # we're often meeting an existing Ruby API with writable attributes
