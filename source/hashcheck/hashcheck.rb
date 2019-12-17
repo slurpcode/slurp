@@ -43,7 +43,7 @@ class Parser
     end
 
     def specify_file_option(parser)
-      parser.on('-f', '--file file', 'Path to file'){|f| self.file = f}
+      parser.on('-f', '--file file', 'Path to file') { |f| self.file = f }
     end
 
     def specify_algorithm_option(parser)
@@ -66,7 +66,7 @@ class Parser
         '--time [TIME]',
         Time,
         'Begin execution at given time'
-      ){|time| self.time = time}
+      ) { |time| self.time = time }
     end
   end
 

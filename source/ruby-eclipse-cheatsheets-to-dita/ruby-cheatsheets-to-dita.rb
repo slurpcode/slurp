@@ -51,7 +51,7 @@ class Parser
         '--path path',
         'Enter the directory or path relative to this
                                      directory to the cheatsheets XML test data: '
-      ){|p| self.path = p}
+      ) { |p| self.path = p }
     end
 
     def delay_execution_option(parser)
@@ -68,7 +68,7 @@ class Parser
         '--time [TIME]',
         Time,
         'Begin execution at given time'
-      ){|time| self.time = time}
+      ) { |time| self.time = time }
     end
   end
 
@@ -194,11 +194,21 @@ def create_dita(path)
       <xsl:copy/>
     </xsl:template>
 
-    <xsl:template match=\"i[.='#{n}']\"/>
+    <xsl:template match=\"i[.='#{
+      n
+    }']\"/>
 
     <xsl:template
-      match=\"text()[preceding-sibling::i[.='#{n}'][1]][following-sibling::i[.='#{n}'][1]]|
-      *[preceding-sibling::i[.='#{n}'][1]][following-sibling::i[.='#{n}'][1]]\"/>
+      match=\"text()[preceding-sibling::i[.='#{
+      n
+    }'][1]][following-sibling::i[.='#{
+      n
+    }'][1]]|
+      *[preceding-sibling::i[.='#{
+      n
+    }'][1]][following-sibling::i[.='#{
+      n
+    }'][1]]\"/>
 
     <xsl:template match=\"br\">
       <ph />
@@ -221,10 +231,14 @@ def create_dita(path)
     <author>Debrief</author>
     <author>John Bampton</author>
     <source>http://debrief.info/</source>
-    <publisher>Github John Bampton and #{11_461_173_985_121.to_s.split(/[356]/).map(&:to_i).map(&:chr).join
-        .capitalize}</publisher>
+    <publisher>Github John Bampton and #{
+      11_461_173_985_121.to_s.split(/[356]/).map(&:to_i).map(&:chr).join
+        .capitalize
+    }</publisher>
     <critdates>
-      <created date=\"#{Date.today}\"/>
+      <created date=\"#{
+      Date.today
+    }\"/>
     </critdates>
     <audience type=\"marine expert\"
       job=\"analysis\" experiencelevel=\"intermediate\"/>
@@ -241,7 +255,9 @@ def create_dita(path)
     template = Nokogiri.XSLT(stylesheet)
     ditamap +=
       "
-  <topicref href=\"dita/#{File.basename(filename, '.*')}.dita\" type=\"task\"/>"
+  <topicref href=\"dita/#{
+        File.basename(filename, '.*')
+      }.dita\" type=\"task\"/>"
     transformed_document = template.transform(document)
     File.open("output/dita/#{File.basename(filename, '.*')}.dita", 'w').write(
       transformed_document
@@ -250,7 +266,7 @@ def create_dita(path)
 
   ditamap += '
 </map>'
-  File.open('output/map.ditamap', 'w'){|f| f.write(ditamap)}
+  File.open('output/map.ditamap', 'w') { |f| f.write(ditamap) }
   puts ditamap
 end
 
