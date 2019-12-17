@@ -3,6 +3,7 @@ layout: page
 title: 🇦🇺🇦🇲🇺🇸🇵🇭 Flags
 permalink: /flags/
 logo: flags
+page-type: grid
 ---
 {%- assign w = "https://en.wikipedia.org/wiki/" -%}
 {%- for row in site.data.flags -%}
@@ -13,14 +14,14 @@ logo: flags
         {% include karine/karine.html %}
     {%- endif -%}
     {% endcapture %}
-    <br>
-    <p>
-        <a href="{{w}}{{ row.country }}">{{ row.country  }}</a>
-    </p>
-    <a href="{{w}}{{ row.country }}">
-        <img src="{{ site.baseurl }}/assets/images/flags/{{ row.country }}.png"
-             alt="Fuchsia Programming {{ row.country }}"
-             title="Fuchsia Programming {{ row.country }}">
-    </a>
-    <h5>{{ name }}</h5>
+    <div class="left">
+        <a href="{{w}}{{ row.country }}"><p>{{ row.country  }}</p></a>
+        <br>
+        <a href="{{w}}{{ row.country }}">
+            <img src="{{ site.baseurl }}/assets/images/flags/{{ row.country }}.png"
+                 alt="Fuchsia Programming {{ row.country }}"
+                 title="Fuchsia Programming {{ row.country }}">
+        </a>
+        <h5>{{ name }}</h5>
+    </div>
 {%- endfor -%}
