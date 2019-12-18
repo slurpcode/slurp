@@ -20,7 +20,7 @@ Metrics/AbcSize:
   Enabled: false
 
 Metrics/BlockLength:
-  Max: 62
+  Max: 44
 
 Metrics/CyclomaticComplexity:
   Enabled: false
@@ -30,9 +30,6 @@ Metrics/LineLength:
 
 Metrics/MethodLength:
   Max: 130
-
-Metrics/ParameterLists:
-  Enabled: false
 
 Metrics/PerceivedComplexity:
   Enabled: false
@@ -47,10 +44,4 @@ Style/MultilineBlockChain:
   Enabled: false
 
 Style/MutableConstant:
-  Enabled: false
-
-Style/NegatedIf:
-  Enabled: false
-
-Style/Next:
   Enabled: false

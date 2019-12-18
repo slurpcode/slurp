@@ -1,0 +1,25 @@
+{
+  "name": "fuchsia-programming.github.io",
+  "version": "1.0.0",
+  "description": "Fuchsia ( /ˈfjuːʃə/) is a genus of flowering plants that consists mostly of shrubs or small trees.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbampton/fuchsia-programming.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbampton/fuchsia-programming.github.io/issues"
+  },
+  "homepage": "https://github.com/jbampton/fuchsia-programming.github.io#readme",
+  "devDependencies": {
+    "markdownlint": "^0.18.0",
+    "textlint": "^11.5.0",
+    "textlint-rule-no-todo": "^2.0.1"
+  }
+}

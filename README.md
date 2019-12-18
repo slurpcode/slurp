@@ -1,5 +1,17 @@
 # Pink, Purple or Fuchsia
 
+Fuchsia ( /ˈfjuːʃə/) is a genus of flowering plants that consists mostly of
+shrubs or small trees.
+
+The first, Fuchsia triphylla, was discovered on the Caribbean island of
+Hispaniola (Haiti and the Dominican Republic) about 1696–1697 by the French
+Minim monk and botanist, Charles Plumier, during his third expedition to the
+Greater Antilles. He named the new genus after the renowned German botanist
+Leonhart Fuchs (1501–1566).
+
+The fuchsias are most closely related to the northern hemisphere genus Circaea,
+the two lineages having diverged around 41 million years ago.
+
 [![Website](https://img.shields.io/website/https/fuchsia-programming.github.io.svg)](https://fuchsia-programming.github.io/)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/fuchsia-programming/fuchsia-programming.github.io/master.svg)](https://circleci.com/gh/fuchsia-programming/fuchsia-programming.github.io)
 [![Fuchsia Programming is GPL-3.0](https://img.shields.io/github/license/fuchsia-programming/fuchsia-programming.github.io.svg)](https://github.com/fuchsia-programming/fuchsia-programming.github.io/blob/master/LICENSE)
@@ -76,6 +88,8 @@ bundle exec jekyll serve
 - [Flake8](http://flake8.pycqa.org/en/latest/)
 - [Revive](https://revive.run/)
 - [Shellcheck](https://github.com/koalaman/shellcheck)
+- [textlint](https://textlint.github.io/)
+- [markdownlint](https://www.npmjs.com/package/markdownlint)
 - [Hound](https://houndci.com/)
 - [Sitemaps XML](https://www.sitemaps.org/protocol.html)
 - [RSS](https://en.wikipedia.org/wiki/RSS)
