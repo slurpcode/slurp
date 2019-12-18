@@ -21,17 +21,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   have it all for you !?!?!!! :)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fuchsia-programming.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "https://github.com/fuchsia-programming/fuchsia-programming.github.io"
 twitter_username:
 github_username: fuchsia-programming
 paginate: 20
 feed:
   path: feed.xml
-
 author: jbampton
-
 disqus:
   shortname: fuchsia-programming
-
 collections:
   docs:
     permalink: "/:collection/:path/"
@@ -49,13 +47,14 @@ defaults:
       type: posts
     values:
       layout: post
-
 # Build settings
 markdown: kramdown
 sass:
   style: compressed
 theme: minima
+future: true
 plugins:
+  - jekyll-avatar
   - jekyll-feed
   - jekyll-paginate
   - jekyll-redirect-from
@@ -86,10 +85,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - lint.sh
+  - node_modules
   - renovate.json
   - requirements.txt
   - source/
-  #   - node_modules
   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/

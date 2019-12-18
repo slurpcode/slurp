@@ -1,0 +1,12 @@
+---
+layout: page
+title: 🕴 Team
+permalink: /team/
+page-type: grid
+---
+
+{% for person in site.data.github-team %}
+    <a href="https://github.com/{{person.username}}">
+        {% avatar user=person.username size=360 %}
+    </a>
+{% endfor %}

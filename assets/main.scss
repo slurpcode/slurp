@@ -7,7 +7,7 @@
 body {font-size: 16pt;background-color: #94AFD1;}
 article img {display: block; margin-left: auto; margin-right: auto;}
 article {
-    img.left, div.left {display: block; float: left; width: 360px; height: 360px;}
+    img.left, div.left, img.avatar {display: block; float: left; width: 360px; height: 360px;}
     div.left {min-height: 500px}
 }
 article h1, article p {text-align: center}
@@ -128,7 +128,10 @@ canvas {display: block;}
 
 #weather-info {height: 80px;}
 
-.site-nav li {height: 31px;}
+.site-nav li {
+  height: 28px;
+  a {height: 28px; line-height: 28px;}
+}
 
 div.left {
   text-align: justify;
