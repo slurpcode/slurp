@@ -7,7 +7,7 @@
     {% if page.url contains p.link %} class="current" {%- endif %}
     {%- endif -%}
     >
-    <a href="{{ p.link }}">{{ p.title }}</a>
+    <a href="{{site.url}}{{ p.link }}">{{ p.title }}</a>
     </li>
     {% endfor %}
 </ul>
