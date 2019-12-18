@@ -47,4 +47,4 @@ so don't be scared and first check out a short Ruby YouTube video I created.
 
 [&#8593;](#ruby)
 
-[Ruby is...](/assets/images/docs/ruby-is.png)
+[Ruby is...](/docs/assets/images/docs/ruby-is.png)

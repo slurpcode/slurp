@@ -20,8 +20,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Fuchsia enthusiasts, whether it's pink, purple or fuchsia we
   have it all for you !?!?!!! :)
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fuchsia-programming.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: "https://github.com/fuchsia-programming/fuchsia-programming.github.io"
+url: "https://fuchsia-programming.github.io/fuchsia" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "https://github.com/fuchsia-programming/fuchsia"
 twitter_username:
 github_username: fuchsia-programming
 paginate: 20
@@ -64,32 +64,8 @@ plugins:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  - .deepsource.toml
-  - .editorconfig
-  - .erb-lint.yml
-  - .eslintignore
   - .gitignore
-  - .hound.yml
-  - .mdlrc
-  - .overcommit.yml
-  - .percy.yml
-  - .rubocop.yml
-  - .ruby-version
-  - .travis.yml
-  - .whitesource
-  - .yamllint
   - assets/python/
-  - CODEOWNERS
-  - config.toml
-  - fuchsia-programming.github.io.iws
-  - Gemfile
-  - Gemfile.lock
-  - lint.sh
-  - node_modules
-  - renovate.json
-  - requirements.txt
-  - source/
-  - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
