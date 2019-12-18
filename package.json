@@ -21,5 +21,9 @@
     "markdownlint": "^0.18.0",
     "textlint": "^11.5.0",
     "textlint-rule-no-todo": "^2.0.1"
-  }
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {}
 }

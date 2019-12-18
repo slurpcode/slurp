@@ -30,8 +30,8 @@ the two lineages having diverged around 41 million years ago.
 ![GitHub top language](https://img.shields.io/github/languages/top/fuchsia-programming/fuchsia-programming.github.io.svg)
 ![GitHub search hit counter](https://img.shields.io/github/search/fuchsia-programming/fuchsia-programming.github.io/jekyll.svg)
 
-![Lode Runner](assets/images/gifs/lode-runner.gif "Lode Runner")
-![Star Wars](assets/images/gifs/star-wars-2.gif "Star Wars")
+![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
+![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
 
 ## Local testing
 
@@ -144,21 +144,21 @@ bundle exec jekyll serve
 
 ## Find the hidden Fuchsia Beasts
 
-![alien](assets/images/beasts/alien.png "alien")
-![bear](assets/images/beasts/bear.png "bear")
-![bubble](assets/images/beasts/bubble.png "bubble")
-![dino](assets/images/beasts/dino.png "dino")
-![ghost](assets/images/beasts/ghost.png "ghost")
-![jaguar](assets/images/beasts/jaguar.png "jaguar")
-![karate](assets/images/beasts/karate.png "karate")
-![min](assets/images/beasts/min.png "min")
-![lion](assets/images/beasts/orange.png "lion")
-![police](assets/images/beasts/police.png "police")
-![punch](assets/images/beasts/punch.png "punch")
-![space](assets/images/beasts/space.png "space")
-![thexder](assets/images/beasts/thexder.png "thexder")
-![darth](assets/images/beasts/darth.png "darth")
-![yeti](assets/images/beasts/yeti.png "yeti")
+![alien](docs/assets/images/beasts/alien.png "alien")
+![bear](docs/assets/images/beasts/bear.png "bear")
+![bubble](docs/assets/images/beasts/bubble.png "bubble")
+![dino](docs/assets/images/beasts/dino.png "dino")
+![ghost](docs/assets/images/beasts/ghost.png "ghost")
+![jaguar](docs/assets/images/beasts/jaguar.png "jaguar")
+![karate](docs/assets/images/beasts/karate.png "karate")
+![min](docs/assets/images/beasts/min.png "min")
+![lion](docs/assets/images/beasts/orange.png "lion")
+![police](docs/assets/images/beasts/police.png "police")
+![punch](docs/assets/images/beasts/punch.png "punch")
+![space](docs/assets/images/beasts/space.png "space")
+![thexder](docs/assets/images/beasts/thexder.png "thexder")
+![darth](docs/assets/images/beasts/darth.png "darth")
+![yeti](docs/assets/images/beasts/yeti.png "yeti")
 
 ## History
 

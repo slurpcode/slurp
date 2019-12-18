@@ -5,7 +5,7 @@ link: /docs/codewars/
 
 # Achieve mastery through challenge !!!
 
-![Bruce Lee](/assets/images/docs/bruce-lee.png)
+![Bruce Lee](/docs/assets/images/docs/bruce-lee.png)
 
 ## Go
 

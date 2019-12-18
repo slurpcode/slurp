@@ -42,6 +42,7 @@ jobs:
       - run:
           name: 🧹 Run percy snapshots
           command: |
+            cd docs
             bundle exec jekyll build
             npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
 
@@ -91,7 +92,7 @@ jobs:
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: circleci/golang:1.13.3 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory: /go/src/github.com/fuchsia-programming/fuchsia-programming.github.io
+    working_directory: /go/src/github.com/fuchsia-programming/fuchsia
     steps:
       - checkout
       - restore_cache: # restores saved cache if no changes are detected since last run
@@ -102,7 +103,7 @@ jobs:
       - run:
           name: 🧹 Run Golang revive lint
           command: |
-            cd source/scrapers/go
+            cd scrapers/go
             sh ./check-revive.sh || exit 1
       - save_cache: # Store cache in the /go/pkg directory
           key: v1-pkg-cache
@@ -118,27 +119,27 @@ jobs:
       - run:
           name: 🐚 Print quotes from Brainyquote using shell
           command: |
-            cd source/scrapers/shell
+            cd scrapers/shell
             sh ./brainyquote.sh tennis balls
       - run:
           name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using sed
           command: |
-            cd source/scrapers/shell
+            cd scrapers/shell
             sh ./github-max-per-day-sed.sh fabpot
       - run:
           name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using pcregrep
           command: |
-            cd source/scrapers/shell
+            cd scrapers/shell
             sh ./github-max-per-day-pcregrep.sh fabpot
       - run:
           name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using perl
           command: |
-            cd source/scrapers/shell
+            cd scrapers/shell
             sh ./github-max-per-day-perl.sh fabpot
       - run:
           name: 🐚 Print the maximum number of contributions in the last year from a users GitHub profile using awk
           command: |
-            cd source/scrapers/shell
+            cd scrapers/shell
             sh ./github-max-per-day-awk.sh fabpot
 
 workflows:

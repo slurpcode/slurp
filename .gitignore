@@ -1,7 +1,4 @@
-_site
 node_modules
-.sass-cache
-.jekyll-metadata
 .idea
 *.iml
 *.ipr
