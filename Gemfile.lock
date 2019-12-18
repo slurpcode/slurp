@@ -305,6 +305,7 @@ DEPENDENCIES
   activesupport (>= 4.1.11)
   fileutils
   github-pages
+  jekyll-avatar
   jekyll-feed (~> 0.13)
   jekyll-paginate
   jekyll-redirect-from
