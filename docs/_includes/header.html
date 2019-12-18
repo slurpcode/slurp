@@ -3,7 +3,7 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+    <a class="site-title" rel="author" href="{{ site.url }}">
       <img id="logo" src="{{site.url}}/assets/images/logos/fuchsia-139.png" alt="Fuchsia Programming" title="Fuchsia Programming">
     </a>
 
