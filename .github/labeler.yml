@@ -1,0 +1,49 @@
+dita:
+  - ruby-eclipse-cheatsheets-to-dita/**/*
+
+go:
+  - scrapers/go/**/*
+
+pdf:
+  - flicker-diff/*
+
+php:
+  - scrapers/php/**/*
+
+python:
+  - scrapers/python/**/*
+
+repo:
+  - ./*
+  - assets/**/*
+
+ruby:
+  - scrapers/ruby/**/*
+
+shell:
+  - scrapers/shell/**/*
+
+testing:
+  - .circleci/*
+  - .github/**/*
+
+web scraping:
+  - scrapers/**/*
+  - seek/**/*
+
+website:
+  - docs/**/*
+
+windows:
+  - hashcheck/*
+
+xml:
+  - well-formed/*
+
+xsl:
+  - well-formed/*
+  - xsl-schema-sort/*
+
+xsd:
+  - built-in-datatypes/*
+  - well-formed/*
