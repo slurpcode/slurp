@@ -6,7 +6,7 @@
             {% for item in section.docs %}
             {% assign p = site.documents | where: "url", item.link | first %}
             <li {%- if page.url == p.url %} class="current" {%- endif %}>
-                <a href="{{site.url}}{{p.url}}">
+                <a href="{{p.url}}">
                     {{ item.title }}
                 </a>
             </li>
