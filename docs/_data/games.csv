@@ -1,40 +1,43 @@
-name,image,title,creator
-Command_%26_Conquer:_Yuri%27s_Revenge,311,Command & Conquer: Yuri's Revenge,
-Double_Dragon,310,,
-Quest_for_Glory,309,,
-Serious_Sam,308,,
-The_Ancient_Art_of_War,307,,
-Gauntlet_(1985_video_game),305,Gauntlet (1985 video game),
-Command_%26_Conquer:_Red_Alert_2,264,Command & Conquer: Red Alert 2,
-The_Secret_of_Monkey_Island,263,,
-SimCity_(1989_video_game),262,,
-Golden_Axe_(video_game),261,Golden Axe,
-Wonder_Boy_(video_game),260,Wonder Boy,
-Rampage_(video_game),259,Rampage,
-Spy_Hunter,258,,
-Boulder_Dash,257,,
-California_Games,256,,
-Alley_Cat_(video_game),255,Alley Cat,
-The_Ancient_Art_of_War_at_Sea,254,,
-Grand_Theft_Auto,253,,k
-Street_Fighter,237,,
-Duke_Nukem,236,,
-Pac-Man,225,Pac Man,
-Bubble_Bobble,224,,
-Prince_of_Persia,223,,
-Karateka_(video_game),211,Karateka,
-Tetris,190,,
-Donkey_Kong,189,,
-Castle_Wolfenstein,188,,
-Styx_(Windmill_game),187,Styx,
-Digger_(video_game),186,Digger,
-Defender_of_the_Crown,165,,
-Lode_Runner,139,,
-King's_Quest,117,,
-Leisure_Suit_Larry_in_the_Land_of_the_Lounge_Lizards,164,,
-Frogger,140,,
-Space_Quest,163,,
-Thexder,138,,
-Police_Quest,144,,
-Space_Invaders,143,,
-Chess,142,,
+name,image,title,creator,type
+Call_of_Duty:_Black_Ops,324,,,wiki
+Fortnite,323,,,wiki
+Bushido_(game),322,,,https://www.youtube.com/watch?v=AgvYHO4EiS4
+Command_%26_Conquer:_Yuri%27s_Revenge,311,Command & Conquer: Yuri's Revenge,,wiki
+Double_Dragon,310,,,wiki
+Quest_for_Glory,309,,,wiki
+Serious_Sam,308,,,wiki
+The_Ancient_Art_of_War,307,,,wiki
+Gauntlet_(1985_video_game),305,Gauntlet (1985 video game),,wiki
+Command_%26_Conquer:_Red_Alert_2,264,Command & Conquer: Red Alert 2,,wiki
+The_Secret_of_Monkey_Island,263,,,wiki
+SimCity_(1989_video_game),262,,,wiki
+Golden_Axe_(video_game),261,Golden Axe,,wiki
+Wonder_Boy_(video_game),260,Wonder Boy,,wiki
+Rampage_(video_game),259,Rampage,,wiki
+Spy_Hunter,258,,,wiki
+Boulder_Dash,257,,,wiki
+California_Games,256,,,wiki
+Alley_Cat_(video_game),255,Alley Cat,,wiki
+The_Ancient_Art_of_War_at_Sea,254,,,wiki
+Grand_Theft_Auto,253,,k,wiki
+Street_Fighter,237,,,wiki
+Duke_Nukem,236,,,wiki
+Pac-Man,225,Pac Man,,wiki
+Bubble_Bobble,224,,,wiki
+Prince_of_Persia,223,,,wiki
+Karateka_(video_game),211,Karateka,,wiki
+Tetris,190,,,wiki
+Donkey_Kong,189,,,wiki
+Castle_Wolfenstein,188,,,wiki
+Styx_(Windmill_game),187,Styx,,wiki
+Digger_(video_game),186,Digger,,wiki
+Defender_of_the_Crown,165,,,wiki
+Lode_Runner,139,,,wiki
+King's_Quest,117,,,wiki
+Leisure_Suit_Larry_in_the_Land_of_the_Lounge_Lizards,164,,,wiki
+Frogger,140,,,wiki
+Space_Quest,163,,,wiki
+Thexder,138,,,wiki
+Police_Quest,144,,,wiki
+Space_Invaders,143,,,wiki
+Chess,142,,,wiki

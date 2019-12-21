@@ -5,7 +5,7 @@ permalink: /games/
 page-type: grid
 ---
 
-{% assign w = "https://en.wikipedia.org/wiki/" %}
+
 {%- for row in site.data.games -%}
     {%- assign title = row.title | strip -%}
     {% if title != '' %}
@@ -13,10 +13,15 @@ page-type: grid
     {% else %}
         {% assign display = row.name | split: "_" | join: " " %}
     {% endif %}
+    {% if row.type == 'wiki' %}
+    {%  assign w = "https://en.wikipedia.org/wiki/" | append: row.name %}
+    {% else %}
+    {% assign w = row.type %}
+    {% endif %}
     <div class="left">
-        <a href="{{w}}{{ row.name }}"><p>{{ display }}</p></a>
+        <a href="{{w}}"><p>{{ display }}</p></a>
         <br>
-        <a href="{{w}}{{ row.name }}">
+        <a href="{{w}}">
             <img src="/assets/images/games/fuchsia-{{ row.image }}.png"
                  alt="{{ display }}" title="{{ display }}">
         </a>
