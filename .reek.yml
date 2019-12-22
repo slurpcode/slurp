@@ -5,3 +5,5 @@ detectors:
     enabled: false  # we're happy with short parameter names
   Attribute:
     enabled: false  # we're often meeting an existing Ruby API with writable attributes
+  NestedIterators:
+    enabled: false

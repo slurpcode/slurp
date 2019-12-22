@@ -229,6 +229,12 @@ $ git branch -r
   upstream/pull-218-restyled
 ```
 
+You can edit or `amend` your previous commit
+
+```
+git commit --amend
+```
+
 You can check your git `version`
 
 ```

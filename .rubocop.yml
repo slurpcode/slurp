@@ -10,7 +10,7 @@ Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
 
 Layout/SpaceBeforeBlockBraces:
-  EnforcedStyle: no_space
+  EnforcedStyle: space
 
 Layout/SpaceInsideBlockBraces:
   EnforcedStyle: no_space
