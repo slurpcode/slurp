@@ -4,54 +4,20 @@
 #
 version: 2
 jobs:
-  ruby:
+  build:
     docker:
-      - image: circleci/ruby:2.6.4-node-browsers
-    working_directory: ~/repo
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
-      - run:
-          name: 🏗️ Install Ruby Dependencies 💎
-          command: |
-            gem install bundler
-            bundle update --bundler
-            bundle install --jobs=4 --retry=3 --path vendor/bundle
-      - save_cache:
-          paths:
-            - ./vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
-      - run:
-          name: 🧹 Run Ruby lint
-          command: |
-            bundle exec rubocop
-      - run:
-          name: 🧹 Run Markdown lint
-          command: |
-            bundle exec mdl .
-      - run:
-          name: 🧹 Run percy snapshots
-          command: |
-            cd docs
-            bundle exec jekyll build
-            npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
-
-  python:
-    docker:
-      - image: circleci/python:3.7.5-buster-node-browsers
+      - image: circleci/ruby:2.6.5-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
       - run:
-          name: 🏗️ Install Python Dependencies 🐍
+          name: 🏗️ Install the Python Dependencies 🐍
           command: |
             sudo apt update
-            pip --version
-            sudo pip install -r requirements.txt
+            sudo apt-get install python3-pip
+            python3 --version
+            pip3 --version
+            sudo pip3 install -r requirements.txt
       - run:
           name: 🧹 Run YAML lint
           command: |
@@ -82,6 +48,35 @@ jobs:
       - run:
           name: 🧪 npm test
           command: npm test
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "Gemfile.lock" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+      - run:
+          name: 🏗️ Install Ruby Dependencies 💎
+          command: |
+            gem install bundler
+            bundle update --bundler
+            bundle install --jobs=4 --retry=3 --path vendor/bundle
+      - save_cache:
+          paths:
+            - ./vendor/bundle
+          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+      - run:
+          name: 🧹 Run Ruby lint
+          command: |
+            bundle exec rubocop
+      - run:
+          name: 🧹 Run Markdown lint
+          command: |
+            bundle exec mdl .
+      - run:
+          name: 🧹 Run percy snapshots
+          command: |
+            cd docs
+            bundle exec jekyll build
+            npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
 
   surge:
     docker:
@@ -166,21 +161,19 @@ jobs:
 
 workflows:
   version: 2
-  build:
+  build-deploy:
     jobs:
-      - ruby
-      - python
+      - build
       - shellcheck
       - go-lint
       - shell:
           requires:
-            - ruby
-            - python
+            - build
             - shellcheck
             - go-lint
       - surge:
           requires:
-            - python
+            - build
           filters:
             branches:
               only: master
