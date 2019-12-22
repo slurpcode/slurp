@@ -1,29 +1,37 @@
 {
-  "name": "fuchsia-programming.github.io",
+  "name": "fuchsia",
   "version": "1.0.0",
-  "description": "Fuchsia ( /ˈfjuːʃə/) is a genus of flowering plants that consists mostly of shrubs or small trees.",
+  "description": "We like Fuchsia flowers !!",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jbampton/fuchsia-programming.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jbampton/fuchsia-programming.github.io/issues"
-  },
-  "homepage": "https://github.com/jbampton/fuchsia-programming.github.io#readme",
-  "devDependencies": {
-    "markdownlint": "^0.18.0",
-    "textlint": "^11.5.0",
-    "textlint-rule-no-todo": "^2.0.1"
-  },
   "directories": {
     "doc": "docs"
   },
-  "dependencies": {}
+  "dependencies": {
+    "markdownlint": "^0.18.0",
+    "surge": "^0.21.3",
+    "textlint-rule-no-todo": "^2.0.1",
+    "textlint": "^11.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified.\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuchsia-programming/fuchsia.git"
+  },
+  "keywords": [
+    "fuchsia",
+    "flowers",
+    "Ruby",
+    "Node",
+    "Golang",
+    "Jekyll"
+  ],
+  "author": "John Bampton",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/fuchsia-programming/fuchsia/issues"
+  },
+  "homepage": "https://github.com/fuchsia-programming/fuchsia#readme"
 }
