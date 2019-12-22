@@ -17,6 +17,7 @@ phpcs:
 
 reek:
   enabled: true
+  config_file: .reek.yml
 
 rubocop:
   enabled: false
