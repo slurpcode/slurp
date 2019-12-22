@@ -50,7 +50,7 @@ jobs:
     docker:
       # specify the version you desire here
       # use `-browsers` prefix for selenium tests, e.g. `3.6.1-browsers`
-      - image: circleci/python:3.7.3
+      - image: circleci/python:3.7.5-buster-node-browsers
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
       # documented at https://circleci.com/docs/2.0/circleci-images/
@@ -75,6 +75,23 @@ jobs:
           name: 🧹 Run Flake8
           command: |
             flake8 --ignore=E501
+
+  surge:
+    docker:
+      # specify the version you desire here
+      # use `-browsers` prefix for selenium tests, e.g. `3.6.1-browsers`
+      - image: circleci/python:3.7.5-buster-node-browsers
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/postgres:9.4
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: ✉️ Surge Deployment
+          command: |
+            surge --project ./govegas --domain https://govegas.surge.sh/
 
   shellcheck:
     docker:
@@ -156,3 +173,7 @@ workflows:
             - python
             - shellcheck
             - go-lint
+      - surge:
+          filters:
+            branches:
+              only: master
