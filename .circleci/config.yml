@@ -6,16 +6,10 @@ version: 2
 jobs:
   ruby:
     docker:
-      # specify the version you desire here
       - image: circleci/ruby:2.6.4-node-browsers
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/postgres:9.4
     working_directory: ~/repo
     steps:
       - checkout
-      # Download and cache dependencies
       - restore_cache:
           keys:
             - v1-dependencies-{{ checksum "Gemfile.lock" }}
@@ -48,13 +42,7 @@ jobs:
 
   python:
     docker:
-      # specify the version you desire here
-      # use `-browsers` prefix for selenium tests, e.g. `3.6.1-browsers`
       - image: circleci/python:3.7.5-buster-node-browsers
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/postgres:9.4
     working_directory: ~/repo
     steps:
       - checkout
@@ -76,35 +64,46 @@ jobs:
           command: |
             flake8 --ignore=E501
 
-  surge:
+  javascript:
     docker:
-      # specify the version you desire here
-      # use `-browsers` prefix for selenium tests, e.g. `3.6.1-browsers`
       - image: circleci/python:3.7.5-buster-node-browsers
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/postgres:9.4
     working_directory: ~/repo
     steps:
       - checkout
       - run:
-          name: Update npm
+          name: 🏗️ Update npm
           command: 'sudo npm install -g npm@latest'
       - restore_cache: # special step to restore the dependency cache
           # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
-          key: dependency-cache-{{ checksum "package-lock.json" }}
+          keys:
+            - dependency-cache-{{ checksum "package-lock.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - dependency-cache-
       - run:
-          name: Install
+          name: 🏗️ Install
           command: npm install
       - save_cache: # special step to save the dependency cache
           key: dependency-cache-{{ checksum "package-lock.json" }}
           paths:
-            - ./node_modules
+            - node_modules
+      - run:
+          name: 🧪 npm test
+          command: npm test
+
+  surge:
+    docker:
+      - image: circleci/python:3.7.5-buster-node-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: 🏗️ Install Surge
+          command: |
+            npm install surge
       - run:
           name: ✉️ Surge Deployment
           command: |
-            './node_modules/.bin/surge --project ./govegas --domain https://govegas.surge.sh/'
+            ./node_modules/surge/lib/cli.js --project ./govegas --domain govegas.surge.sh
 
   shellcheck:
     docker:
@@ -142,7 +141,7 @@ jobs:
 
   shell:
     docker:
-      - image: circleci/python:3.7.3
+      - image: circleci/python:3.7.5-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -180,13 +179,17 @@ workflows:
       - python
       - shellcheck
       - go-lint
+      - javascript
       - shell:
           requires:
             - ruby
             - python
             - shellcheck
             - go-lint
+            - javascript
       - surge:
+          requires:
+            - javascript
           filters:
             branches:
               only: master

@@ -23,7 +23,7 @@ ruby:
 shell:
   - scrapers/shell/**/*
 
-testing:
+testing 🧪:
   - .circleci/*
   - .github/**/*
 
@@ -31,8 +31,9 @@ web scraping:
   - scrapers/**/*
   - seek/**/*
 
-website:
+website 🦺:
   - docs/**/*
+  - govegas/**/*
 
 windows:
   - hashcheck/*
