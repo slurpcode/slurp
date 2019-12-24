@@ -38,6 +38,7 @@ gem 'nokogiri'
 gem 'overcommit'
 gem 'paint'
 gem 'prawn'
+gem 'reek'
 gem 'rubocop', require: false
 gem 'rubycritic', require: false
 

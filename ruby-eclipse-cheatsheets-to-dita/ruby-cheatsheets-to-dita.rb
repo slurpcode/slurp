@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# to finish `time`
 
 require 'date'
 require 'fileutils'
@@ -8,6 +7,7 @@ require 'optparse'
 require 'optparse/time'
 require 'paint'
 # require 'pp'
+require 'time'
 
 # Custom OptionParser class
 class Parser
@@ -97,6 +97,7 @@ options = example.parse(ARGV)
 # pp ARGV
 
 sleep(options.delay) if options.delay
+sleep(Time.parse(options.time.to_s) - Time.now) if options.time && (Time.parse(options.time.to_s) > Time.now)
 if options.path.nil?
   print 'Enter the directory or path relative to this
 directory to the cheatsheets XML test data: '
