@@ -1,6 +1,6 @@
 # Pink, Purple or Fuchsia
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Fuchsia ( /ˈfjuːʃə/) is a genus of flowering plants that consists mostly of
@@ -190,6 +190,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/sugiarto-udah-15023111"><img src="https://avatars0.githubusercontent.com/u/70807?v=4" width="100px;" alt=""/><br /><sub><b>sugiarto</b></sub></a><br /><a href="https://github.com/fuchsia-programming/fuchsia/commits?author=ugifractal" title="Code">💻</a></td>
     <td align="center"><a href="http://llearn.me/portfolio/"><img src="https://avatars2.githubusercontent.com/u/33186580?v=4" width="100px;" alt=""/><br /><sub><b>AdemHodzic</b></sub></a><br /><a href="https://github.com/fuchsia-programming/fuchsia/commits?author=AdemHodzic" title="Code">💻</a></td>
     <td align="center"><a href="https://www.grafixwiz.com"><img src="https://avatars2.githubusercontent.com/u/33774837?v=4" width="100px;" alt=""/><br /><sub><b>Harley Armentrout</b></sub></a><br /><a href="https://github.com/fuchsia-programming/fuchsia/commits?author=grfxwzdesigner" title="Documentation">📖</a> <a href="#design-grfxwzdesigner" title="Design">🎨</a> <a href="#ideas-grfxwzdesigner" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-grfxwzdesigner" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://github.com/summerhill5"><img src="https://avatars2.githubusercontent.com/u/42298149?v=4" width="100px;" alt=""/><br /><sub><b>Jorge Araica</b></sub></a><br /><a href="https://github.com/fuchsia-programming/fuchsia/commits?author=summerhill5" title="Documentation">📖</a> <a href="#design-summerhill5" title="Design">🎨</a> <a href="#ideas-summerhill5" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 

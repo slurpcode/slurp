@@ -76,6 +76,17 @@
         "ideas",
         "projectManagement"
       ]
+    },
+    {
+      "login": "summerhill5",
+      "name": "Jorge Araica",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/42298149?v=4",
+      "profile": "https://github.com/summerhill5",
+      "contributions": [
+        "doc",
+        "design",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
