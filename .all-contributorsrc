@@ -1,0 +1,37 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "jbampton",
+      "name": "John Bampton",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/418747?v=4",
+      "profile": "https://thebeast.me/about/",
+      "contributions": [
+        "bug",
+        "business",
+        "code",
+        "content",
+        "doc",
+        "ideas",
+        "infra",
+        "maintenance",
+        "projectManagement",
+        "question",
+        "review",
+        "security",
+        "tool",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "fuchsia",
+  "projectOwner": "fuchsia-programming",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
