@@ -1,6 +1,6 @@
 # Pink, Purple or Fuchsia
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Fuchsia ( /ˈfjuːʃə/) is a genus of flowering plants that consists mostly of
@@ -185,6 +185,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://thebeast.me/about/"><img src="https://avatars3.githubusercontent.com/u/418747?v=4" width="100px;" alt=""/><br /><sub><b>John Bampton</b></sub></a><br /><a href="https://github.com/fuchsia-programming/fuchsia/issues?q=author%3Ajbampton" title="Bug reports">🐛</a> <a href="#business-jbampton" title="Business development">💼</a> <a href="https://github.com/fuchsia-programming/fuchsia/commits?author=jbampton" title="Code">💻</a> <a href="#content-jbampton" title="Content">🖋</a> <a href="https://github.com/fuchsia-programming/fuchsia/commits?author=jbampton" title="Documentation">📖</a> <a href="#ideas-jbampton" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-jbampton" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-jbampton" title="Maintenance">🚧</a> <a href="#projectManagement-jbampton" title="Project Management">📆</a> <a href="#question-jbampton" title="Answering Questions">💬</a> <a href="https://github.com/fuchsia-programming/fuchsia/pulls?q=is%3Apr+reviewed-by%3Ajbampton" title="Reviewed Pull Requests">👀</a> <a href="#security-jbampton" title="Security">🛡️</a> <a href="#tool-jbampton" title="Tools">🔧</a> <a href="https://github.com/fuchsia-programming/fuchsia/commits?author=jbampton" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://spectralapps.com.br"><img src="https://avatars1.githubusercontent.com/u/56676505?v=4" width="100px;" alt=""/><br /><sub><b>Andrew </b></sub></a><br /><a href="https://github.com/fuchsia-programming/fuchsia/issues?q=author%3Aspectralapps" title="Bug reports">🐛</a> <a href="https://github.com/fuchsia-programming/fuchsia/commits?author=spectralapps" title="Code">💻</a></td>
   </tr>
 </table>
 
