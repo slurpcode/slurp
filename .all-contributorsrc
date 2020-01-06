@@ -64,6 +64,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "grfxwzdesigner",
+      "name": "Harley Armentrout",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33774837?v=4",
+      "profile": "https://www.grafixwiz.com",
+      "contributions": [
+        "doc",
+        "design",
+        "ideas",
+        "projectManagement"
+      ]
     }
   ],
   "contributorsPerLine": 7,
