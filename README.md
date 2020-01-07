@@ -1,37 +1,24 @@
-# Pink, Purple or Fuchsia
+# Slurp
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-Fuchsia ( /ˈfjuːʃə/) is a genus of flowering plants that consists mostly of
-shrubs or small trees.
-
-The first, Fuchsia triphylla, was discovered on the Caribbean island of
-Hispaniola (Haiti and the Dominican Republic) about 1696–1697 by the French
-Minim monk and botanist, Charles Plumier, during his third expedition to the
-Greater Antilles. He named the new genus after the renowned German botanist
-Leonhart Fuchs (1501–1566).
-
-The fuchsias are most closely related to the northern hemisphere genus Circaea,
-the two lineages having diverged around 41 million years ago.
-
-[![Website](https://img.shields.io/website/https/fuchsia-programming.github.io/fuchsia.svg)](https://fuchsia-programming.github.io/fuchsia)
-[![CircleCI branch](https://img.shields.io/circleci/project/github/fuchsia-programming/fuchsia/master.svg)](https://circleci.com/gh/fuchsia-programming/fuchsia)
-[![Fuchsia Programming is GPL-3.0](https://img.shields.io/github/license/fuchsia-programming/fuchsia.svg)](https://github.com/fuchsia-programming/fuchsia/blob/master/LICENSE)
-[![This project is using Percy.io for visual regression testing.](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=fuchsia-programming/fuchsia)](https://dependabot.com)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e1f59ed4900747198ab1df798e85267c)](https://app.codacy.com/app/fuchsia-programming/fuchsia?utm_source=github.com&utm_medium=referral&utm_content=fuchsia-programming/fuchsia&utm_campaign=Badge_Grade_Dashboard)
-[![codebeat](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-fuchsia-programming-fuchsia-programming-github-io-master)
-[![CodeFactor](https://www.codefactor.io/repository/github/fuchsia-programming/fuchsia/badge)](https://www.codefactor.io/repository/github/fuchsia-programming/fuchsia)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/fuchsia-programming/fuchsia.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/fuchsia-programming/fuchsia/alerts/)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/fuchsia-programming/fuchsia.svg)](https://github.com/fuchsia-programming/fuchsia/graphs/contributors)
-[![GitHub contributors](https://img.shields.io/github/contributors-anon/fuchsia-programming/fuchsia.svg)](https://github.com/fuchsia-programming/fuchsia/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/fuchsia-programming/fuchsia.svg)](https://github.com/fuchsia-programming/fuchsia/commits/master)
-![GitHub repo size](https://img.shields.io/github/repo-size/fuchsia-programming/fuchsia.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/fuchsia-programming/fuchsia.svg)
-![GitHub language count](https://img.shields.io/github/languages/count/fuchsia-programming/fuchsia.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/fuchsia-programming/fuchsia.svg)
-![GitHub search hit counter](https://img.shields.io/github/search/fuchsia-programming/fuchsia/jekyll.svg)
+[![Website](https://img.shields.io/website/https/slurpcode.github.io/slurp.svg)](https://slurpcode.github.io/slurp)
+[![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
+[![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/master/LICENSE)
+[![This project is using Percy.io for visual regression testing](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=slurpcode/slurp)](https://dependabot.com)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e1f59ed4900747198ab1df798e85267c)](https://app.codacy.com/app/slurpcode/slurp?utm_source=github.com&utm_medium=referral&utm_content=slurpcode/slurp&utm_campaign=Badge_Grade_Dashboard)
+[![codebeat](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-slurpcode-slurpcode-github-io-master)
+[![CodeFactor](https://www.codefactor.io/repository/github/slurpcode/slurp/badge)](https://www.codefactor.io/repository/github/slurpcode/slurp)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/slurpcode/slurp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/slurpcode/slurp/alerts/)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/graphs/contributors)
+[![GitHub last commit](https://img.shields.io/github/last-commit/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/commits/master)
+![GitHub repo size](https://img.shields.io/github/repo-size/slurpcode/slurp.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/slurpcode/slurp.svg)
+![GitHub language count](https://img.shields.io/github/languages/count/slurpcode/slurp.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/slurpcode/slurp.svg)
+![GitHub search hit counter](https://img.shields.io/github/search/slurpcode/slurp/jekyll.svg)
 
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
@@ -123,6 +110,7 @@ bundle exec jekyll serve
 - [Shields IO](https://shields.io)
 - [Pull Request Size](https://github.com/marketplace/pull-request-size)
 - [Restyled](https://restyled.io/)
+- [All Contributors](https://allcontributors.org/)
 - [Disqus](https://disqus.com/)
 - [CODEOWNERS](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners)
 - [EditorConfig](https://editorconfig.org/)
@@ -166,10 +154,6 @@ bundle exec jekyll serve
 ![yeti](docs/assets/images/beasts/yeti.png "yeti")
 
 ## History
-
-The home of **`Fuchsia`** Programming on GitHub
-
-[https://fuchsia-programming.github.io](https://fuchsia-programming.github.io)
 
 The original **`Fuchsia`** Programming on Heroku
 
