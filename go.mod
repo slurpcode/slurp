@@ -1,4 +1,4 @@
-module github.com/fuchsia-programming/fuchsia
+module github.com/slurpcode/slurp
 
 go 1.13
 
