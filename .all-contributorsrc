@@ -98,6 +98,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "udha",
+      "name": "Nicholas Meredith",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1697199?v=4",
+      "profile": "http://ndm.id.au/",
+      "contributions": [
+        "doc",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

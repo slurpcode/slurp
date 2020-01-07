@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Website](https://img.shields.io/website/https/slurpcode.github.io/slurp.svg)](https://slurpcode.github.io/slurp)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
@@ -178,6 +178,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Karinisk"><img src="https://avatars1.githubusercontent.com/u/43111214?v=4" width="100px;" alt=""/><br /><sub><b>Karinisk</b></sub></a><br /><a href="#design-Karinisk" title="Design">🎨</a></td>
+    <td align="center"><a href="http://ndm.id.au/"><img src="https://avatars3.githubusercontent.com/u/1697199?v=4" width="100px;" alt=""/><br /><sub><b>Nicholas Meredith</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=udha" title="Documentation">📖</a> <a href="#ideas-udha" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
