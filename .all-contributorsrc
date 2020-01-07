@@ -100,8 +100,8 @@
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "fuchsia",
-  "projectOwner": "fuchsia-programming",
+  "projectName": "slurp",
+  "projectOwner": "slurpcode",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
