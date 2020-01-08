@@ -1,9 +1,10 @@
-Searcher = function(data) {
+Searcher =
+    function(data) {
   this.data = data;
   this.handlers = [];
 }
 
-Searcher.prototype = new function() {
+    Searcher.prototype = new function() {
   // search is performed in chunks of 1000 for non-blocking user input
   var CHUNK_SIZE = 1000;
   // do not try to find more than 100 results
@@ -12,23 +13,26 @@ Searcher.prototype = new function() {
   var suid = 1;
   var runs = 0;
 
-  this.find = function(query) {
+  this.find =
+      function(query) {
     var queries = splitQuery(query);
     var regexps = buildRegexps(queries);
     var highlighters = buildHilighters(queries);
-    var state = { from: 0, pass: 0, limit: MAX_RESULTS, n: suid++};
+    var state = {from : 0, pass : 0, limit : MAX_RESULTS, n : suid++};
     var _this = this;
 
     this.currentSuid = state.n;
 
-    if (!query) return;
+    if (!query)
+      return;
 
     var run = function() {
       // stop current search thread if new search started
-      if (state.n != _this.currentSuid) return;
+      if (state.n != _this.currentSuid)
+        return;
 
       var results =
-        performSearch(_this.data, regexps, queries, highlighters, state);
+          performSearch(_this.data, regexps, queries, highlighters, state);
       var hasMore = (state.limit > 0 && state.pass < 4);
 
       triggerResults.call(_this, results, !hasMore);
@@ -43,17 +47,17 @@ Searcher.prototype = new function() {
     run();
   }
 
-  /*  ----- Events ------  */
-  this.ready = function(fn) {
+      /*  ----- Events ------  */
+      this.ready =
+          function(fn) {
     fn.huid = huid;
     this.handlers.push(fn);
   }
 
   /*  ----- Utilities ------  */
   function splitQuery(query) {
-    return query.split(/(\s+|::?|\(\)?)/).filter(function(string) {
-      return string.match(/\S/);
-    });
+    return query.split(/(\s+|::?|\(\)?)/)
+        .filter(function(string) { return string.match(/\S/); });
   }
 
   function buildRegexps(queries) {
@@ -64,19 +68,21 @@ Searcher.prototype = new function() {
 
   function buildHilighters(queries) {
     return queries.map(function(query) {
-      return query.split('').map(function(l, i) {
-        return '\u0001$' + (i*2+1) + '\u0002$' + (i*2+2);
-      }).join('');
+      return query.split('')
+          .map(function(
+              l,
+              i) { return '\u0001$' + (i * 2 + 1) + '\u0002$' + (i * 2 + 2); })
+          .join('');
     });
   }
 
   // function longMatchRegexp(index, longIndex, regexps) {
   //     for (var i = regexps.length - 1; i >= 0; i--){
-  //         if (!index.match(regexps[i]) && !longIndex.match(regexps[i])) return false;
+  //         if (!index.match(regexps[i]) && !longIndex.match(regexps[i]))
+  //         return false;
   //     };
   //     return true;
   // }
-
 
   /*  ----- Mathchers ------  */
 
@@ -85,8 +91,9 @@ Searcher.prototype = new function() {
    * matches all of the regexps
    */
   function matchPassBeginning(index, longIndex, queries, regexps) {
-    if (index.indexOf(queries[0]) != 0) return false;
-    for (var i=1, l = regexps.length; i < l; i++) {
+    if (index.indexOf(queries[0]) != 0)
+      return false;
+    for (var i = 1, l = regexps.length; i < l; i++) {
       if (!index.match(regexps[i]) && !longIndex.match(regexps[i]))
         return false;
     };
@@ -98,8 +105,9 @@ Searcher.prototype = new function() {
    * longIndex matches all of the regexps
    */
   function matchPassLongIndex(index, longIndex, queries, regexps) {
-    if (longIndex.indexOf(queries[0]) != 0) return false;
-    for (var i=1, l = regexps.length; i < l; i++) {
+    if (longIndex.indexOf(queries[0]) != 0)
+      return false;
+    for (var i = 1, l = regexps.length; i < l; i++) {
       if (!longIndex.match(regexps[i]))
         return false;
     };
@@ -111,8 +119,9 @@ Searcher.prototype = new function() {
    * matches all of the regexps
    */
   function matchPassContains(index, longIndex, queries, regexps) {
-    if (index.indexOf(queries[0]) == -1) return false;
-    for (var i=1, l = regexps.length; i < l; i++) {
+    if (index.indexOf(queries[0]) == -1)
+      return false;
+    for (var i = 1, l = regexps.length; i < l; i++) {
       if (!index.match(regexps[i]) && !longIndex.match(regexps[i]))
         return false;
     };
@@ -124,19 +133,19 @@ Searcher.prototype = new function() {
    * matches all of the regexps
    */
   function matchPassRegexp(index, longIndex, queries, regexps) {
-    if (!index.match(regexps[0])) return false;
-    for (var i=1, l = regexps.length; i < l; i++) {
+    if (!index.match(regexps[0]))
+      return false;
+    for (var i = 1, l = regexps.length; i < l; i++) {
       if (!index.match(regexps[i]) && !longIndex.match(regexps[i]))
         return false;
     };
     return true;
   }
 
-
   /*  ----- Highlighters ------  */
   function highlightRegexp(info, queries, regexps, highlighters) {
     var result = createResult(info);
-    for (var i=0, l = regexps.length; i < l; i++) {
+    for (var i = 0, l = regexps.length; i < l; i++) {
       result.title = result.title.replace(regexps[i], highlighters[i]);
       result.namespace = result.namespace.replace(regexps[i], highlighters[i]);
     };
@@ -144,7 +153,9 @@ Searcher.prototype = new function() {
   }
 
   function hltSubstring(string, pos, length) {
-    return string.substring(0, pos) + '\u0001' + string.substring(pos, pos + length) + '\u0002' + string.substring(pos + length);
+    return string.substring(0, pos) + '\u0001' +
+           string.substring(pos, pos + length) + '\u0002' +
+           string.substring(pos + length);
   }
 
   function highlightQuery(info, queries, regexps, highlighters) {
@@ -158,7 +169,7 @@ Searcher.prototype = new function() {
     }
 
     result.namespace = result.namespace.replace(regexps[0], highlighters[0]);
-    for (var i=1, l = regexps.length; i < l; i++) {
+    for (var i = 1, l = regexps.length; i < l; i++) {
       result.title = result.title.replace(regexps[i], highlighters[i]);
       result.namespace = result.namespace.replace(regexps[i], highlighters[i]);
     };
@@ -203,7 +214,8 @@ Searcher.prototype = new function() {
       }
 
       for (; togo > 0 && i < l && state.limit > 0; i++, togo--) {
-        if (info[i].n == state.n) continue;
+        if (info[i].n == state.n)
+          continue;
         if (matchFunc(searchIndex[i], longSearchIndex[i], queries, regexps)) {
           info[i].n = state.n;
           result.push(hltFunc(info[i], queries, regexps, highlighters));
@@ -221,9 +233,6 @@ Searcher.prototype = new function() {
   }
 
   function triggerResults(results, isLast) {
-    this.handlers.forEach(function(fn) {
-      fn.call(this, results, isLast)
-    });
+    this.handlers.forEach(function(fn) { fn.call(this, results, isLast) });
   }
 }
-

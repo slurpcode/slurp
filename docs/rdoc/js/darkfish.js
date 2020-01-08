@@ -10,8 +10,9 @@
 /* Provide console simulation for firebug-less environments */
 /*
 if (!("console" in window) || !("firebug" in console)) {
-  var names = ["log", "debug", "info", "warn", "error", "assert", "dir", "dirxml",
-    "group", "groupEnd", "time", "timeEnd", "count", "trace", "profile", "profileEnd"];
+  var names = ["log", "debug", "info", "warn", "error", "assert", "dir",
+"dirxml", "group", "groupEnd", "time", "timeEnd", "count", "trace", "profile",
+"profileEnd"];
 
   window.console = {};
   for (var i = 0; i < names.length; ++i)
@@ -19,8 +20,7 @@ if (!("console" in window) || !("firebug" in console)) {
 };
 */
 
-
-function showSource( e ) {
+function showSource(e) {
   var target = e.target;
   while (!target.classList.contains('method-detail')) {
     target = target.parentNode;
@@ -34,13 +34,13 @@ function showSource( e ) {
 };
 
 function hookSourceViews() {
-  document.querySelectorAll('.method-heading').forEach(function (codeObject) {
+  document.querySelectorAll('.method-heading').forEach(function(codeObject) {
     codeObject.addEventListener('click', showSource);
   });
 };
 
 function hookSearch() {
-  var input  = document.querySelector('#search-field');
+  var input = document.querySelector('#search-field');
   var result = document.querySelector('#search-results');
   result.classList.remove("initially-hidden");
 
@@ -49,16 +49,17 @@ function hookSearch() {
 
   var search = new Search(search_data, input, result);
 
-  search.renderItem = function(result) {
+  search.renderItem =
+      function(result) {
     var li = document.createElement('li');
     var html = '';
 
     // TODO add relative path to <script> per-page
-    html += '<p class="search-match"><a href="' + index_rel_prefix + result.path + '">' + this.hlt(result.title);
+    html += '<p class="search-match"><a href="' + index_rel_prefix +
+            result.path + '">' + this.hlt(result.title);
     if (result.params)
       html += '<span class="params">' + result.params + '</span>';
     html += '</a>';
-
 
     if (result.namespace)
       html += '<p class="search-namespace">' + this.hlt(result.namespace);
@@ -71,11 +72,12 @@ function hookSearch() {
     return li;
   }
 
-  search.select = function(result) {
+      search.select =
+          function(result) {
     window.location.href = result.firstChild.firstChild.href;
   }
 
-  search.scrollIntoView = search.scrollInWindow;
+          search.scrollIntoView = search.scrollInWindow;
 };
 
 document.addEventListener('DOMContentLoaded', function() {
