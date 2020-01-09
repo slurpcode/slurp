@@ -3,7 +3,7 @@
 # Please only edit config.yml
 
 # site config
-url: http://thebeast.me/charts/
+url: https://slurpcode.netlify.com/
 # chart type: either "d3pie" or "google" or "chartjs" or "plotly" or "all"
 chart_type: all
 
@@ -20,8 +20,8 @@ maps: http://www.sitemaps.org/schemas/sitemap/0.9
 
 
 # GitHub details
-github_username: jbampton
-repository: charts
+github_username: slurpcode
+repository: slurp
 
 
 # HTML elements and attributes
@@ -49,10 +49,7 @@ homepage_subheading4: Lines of code in this project
 # about section is marked up in Markdown and kramdown format
 # https://daringfireball.net/projects/markdown/
 # https://kramdown.gettalong.org/
-about: "## Charting Demo Info
-
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/jbampton/charts/blob/gh-pages/LICENSE)
+about: "# Charting Demo Info
 
 
 [English](README.md) [Deutsche](lang/README.de.md)
@@ -92,7 +89,7 @@ The **plotly.js** pie charts are by far the most interactive out of the box.
 Even the README.md file is created from the **`config.xml`** config file.
 
 
-Demo can be seen here: http://thebeast.me/charts/
+Demo can be seen here: [Slurp Code - Charts](https://slurpcode.netlify.com/)
 
 
 ## This repository is built with
@@ -230,10 +227,7 @@ Demo can be seen here: http://thebeast.me/charts/
 
 "
 
-aboutde: "## Info zur Grafik-Demo
-
-
-[![Lizenz: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/jbampton/charts/blob/gh-pages/LICENSE)
+aboutde: "# Info zur Grafik-Demo
 
 
 [English](../README.md) [Deutsche](README.de.md)

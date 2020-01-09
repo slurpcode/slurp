@@ -26,6 +26,8 @@
 
 [Slurp Code - Charts](https://slurpcode.netlify.com/)
 
+[Slurp Read the Docs - in progress](https://slurp.readthedocs.io/)
+
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
 
