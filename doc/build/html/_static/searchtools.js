@@ -14,7 +14,8 @@ if (!Scorer) {
    * Simple result scoring code.
    */
   var Scorer = {
-    // Implement the following function to further tweak the score for each result
+    // Implement the following function to further tweak the score for each
+    // result
     // The function takes a result array [filename, title, anchor, descr, score]
     // and returns the new score.
     /*
@@ -24,29 +25,29 @@ if (!Scorer) {
     */
 
     // query matches the full name of an object
-    objNameMatch: 11,
+    objNameMatch : 11,
     // or matches in the last dotted part of the object name
-    objPartialMatch: 6,
+    objPartialMatch : 6,
     // Additive scores depending on the priority of the object
-    objPrio: {0:  15,   // used to be importantResults
-              1:  5,   // used to be objectResults
-              2: -5},  // used to be unimportantResults
+    objPrio : {
+      0 : 15, // used to be importantResults
+      1 : 5,  // used to be objectResults
+      2 : -5
+    }, // used to be unimportantResults
     //  Used when the priority is not in the mapping.
-    objPrioDefault: 0,
+    objPrioDefault : 0,
 
     // query found in title
-    title: 15,
-    partialTitle: 7,
+    title : 15,
+    partialTitle : 7,
     // query found in terms
-    term: 5,
-    partialTerm: 2
+    term : 5,
+    partialTerm : 2
   };
 }
 
 if (!splitQuery) {
-  function splitQuery(query) {
-    return query.split(/\s+/);
-  }
+  function splitQuery(query) { return query.split(/\s+/); }
 }
 
 /**
@@ -59,30 +60,35 @@ var Search = {
   _pulse_status : -1,
 
   htmlToText : function(htmlString) {
-      var htmlElement = document.createElement('span');
-      htmlElement.innerHTML = htmlString;
-      $(htmlElement).find('.headerlink').remove();
-      docContent = $(htmlElement).find('[role=main]')[0];
-      return docContent.textContent || docContent.innerText;
+    var htmlElement = document.createElement('span');
+    htmlElement.innerHTML = htmlString;
+    $(htmlElement).find('.headerlink').remove();
+    docContent = $(htmlElement).find('[role=main]')[0];
+    return docContent.textContent || docContent.innerText;
   },
 
   init : function() {
-      var params = $.getQueryParameters();
-      if (params.q) {
-          var query = params.q[0];
-          $('input[name="q"]')[0].value = query;
-          this.performSearch(query);
-      }
+    var params = $.getQueryParameters();
+    if (params.q) {
+      var query = params.q[0];
+      $('input[name="q"]')[0].value = query;
+      this.performSearch(query);
+    }
   },
 
   loadIndex : function(url) {
-    $.ajax({type: "GET", url: url, data: null,
-            dataType: "script", cache: true,
-            complete: function(jqxhr, textstatus) {
-              if (textstatus != "success") {
-                document.getElementById("searchindexloader").src = url;
-              }
-            }});
+    $.ajax({
+      type : "GET",
+      url : url,
+      data : null,
+      dataType : "script",
+      cache : true,
+      complete : function(jqxhr, textstatus) {
+        if (textstatus != "success") {
+          document.getElementById("searchindexloader").src = url;
+        }
+      }
+    });
   },
 
   setIndex : function(index) {
@@ -94,21 +100,15 @@ var Search = {
     }
   },
 
-  hasIndex : function() {
-      return this._index !== null;
-  },
+  hasIndex : function() { return this._index !== null; },
 
-  deferQuery : function(query) {
-      this._queued_query = query;
-  },
+  deferQuery : function(query) { this._queued_query = query; },
 
-  stopPulse : function() {
-      this._pulse_status = 0;
-  },
+  stopPulse : function() { this._pulse_status = 0; },
 
   startPulse : function() {
     if (this._pulse_status >= 0)
-        return;
+      return;
     function pulse() {
       var i;
       Search._pulse_status = (Search._pulse_status + 1) % 4;
@@ -158,18 +158,18 @@ var Search = {
     var objectterms = [];
     for (i = 0; i < tmp.length; i++) {
       if (tmp[i] !== "") {
-          objectterms.push(tmp[i].toLowerCase());
+        objectterms.push(tmp[i].toLowerCase());
       }
 
-      if ($u.indexOf(stopwords, tmp[i].toLowerCase()) != -1 || tmp[i].match(/^\d+$/) ||
-          tmp[i] === "") {
+      if ($u.indexOf(stopwords, tmp[i].toLowerCase()) != -1 ||
+          tmp[i].match(/^\d+$/) || tmp[i] === "") {
         // skip this "word"
         continue;
       }
       // stem the word
       var word = stemmer.stemWord(tmp[i].toLowerCase());
       // prevent stemmer from cutting word smaller than two chars
-      if(word.length < 3 && tmp[i].length >= 3) {
+      if (word.length < 3 && tmp[i].length >= 3) {
         word = tmp[i];
       }
       var toAppend;
@@ -177,8 +177,7 @@ var Search = {
       if (word[0] == '-') {
         toAppend = excluded;
         word = word.substr(1);
-      }
-      else {
+      } else {
         toAppend = searchterms;
         hlterms.push(tmp[i].toLowerCase());
       }
@@ -203,12 +202,14 @@ var Search = {
     // lookup as object
     for (i = 0; i < objectterms.length; i++) {
       var others = [].concat(objectterms.slice(0, i),
-                             objectterms.slice(i+1, objectterms.length));
-      results = results.concat(this.performObjectSearch(objectterms[i], others));
+                             objectterms.slice(i + 1, objectterms.length));
+      results =
+          results.concat(this.performObjectSearch(objectterms[i], others));
     }
 
     // lookup as search terms in fulltext
-    results = results.concat(this.performTermsSearch(searchterms, excluded, terms, titleterms));
+    results = results.concat(
+        this.performTermsSearch(searchterms, excluded, terms, titleterms));
 
     // let the scorer override scores with a custom scoring function
     if (Scorer.score) {
@@ -235,8 +236,8 @@ var Search = {
     });
 
     // for debugging
-    //Search.lastresults = results.slice();  // a copy
-    //console.info('search results:', Search.lastresults);
+    // Search.lastresults = results.slice();  // a copy
+    // console.info('search results:', Search.lastresults);
 
     // print the results
     var resultCount = results.length;
@@ -249,44 +250,46 @@ var Search = {
           // dirhtml builder
           var dirname = item[0] + '/';
           if (dirname.match(/\/index\/$/)) {
-            dirname = dirname.substring(0, dirname.length-6);
+            dirname = dirname.substring(0, dirname.length - 6);
           } else if (dirname == 'index/') {
             dirname = '';
           }
-          listItem.append($('<a/>').attr('href',
-            DOCUMENTATION_OPTIONS.URL_ROOT + dirname +
-            highlightstring + item[2]).html(item[1]));
+          listItem.append($('<a/>')
+                              .attr('href', DOCUMENTATION_OPTIONS.URL_ROOT +
+                                                dirname + highlightstring +
+                                                item[2])
+                              .html(item[1]));
         } else {
           // normal html builders
-          listItem.append($('<a/>').attr('href',
-            item[0] + DOCUMENTATION_OPTIONS.FILE_SUFFIX +
-            highlightstring + item[2]).html(item[1]));
+          listItem.append(
+              $('<a/>')
+                  .attr('href', item[0] + DOCUMENTATION_OPTIONS.FILE_SUFFIX +
+                                    highlightstring + item[2])
+                  .html(item[1]));
         }
         if (item[3]) {
           listItem.append($('<span> (' + item[3] + ')</span>'));
           Search.output.append(listItem);
-          listItem.slideDown(5, function() {
-            displayNextItem();
-          });
+          listItem.slideDown(5, function() { displayNextItem(); });
         } else if (DOCUMENTATION_OPTIONS.HAS_SOURCE) {
-          $.ajax({url: DOCUMENTATION_OPTIONS.URL_ROOT + item[0] + DOCUMENTATION_OPTIONS.FILE_SUFFIX,
-                  dataType: "text",
-                  complete: function(jqxhr, textstatus) {
-                    var data = jqxhr.responseText;
-                    if (data !== '' && data !== undefined) {
-                      listItem.append(Search.makeSearchSummary(data, searchterms, hlterms));
-                    }
-                    Search.output.append(listItem);
-                    listItem.slideDown(5, function() {
-                      displayNextItem();
-                    });
-                  }});
+          $.ajax({
+            url : DOCUMENTATION_OPTIONS.URL_ROOT + item[0] +
+                      DOCUMENTATION_OPTIONS.FILE_SUFFIX,
+            dataType : "text",
+            complete : function(jqxhr, textstatus) {
+              var data = jqxhr.responseText;
+              if (data !== '' && data !== undefined) {
+                listItem.append(
+                    Search.makeSearchSummary(data, searchterms, hlterms));
+              }
+              Search.output.append(listItem);
+              listItem.slideDown(5, function() { displayNextItem(); });
+            }
+          });
         } else {
           // no source available, just display title
           Search.output.append(listItem);
-          listItem.slideDown(5, function() {
-            displayNextItem();
-          });
+          listItem.slideDown(5, function() { displayNextItem(); });
         }
       }
       // search finished, update title and status message
@@ -294,9 +297,12 @@ var Search = {
         Search.stopPulse();
         Search.title.text(_('Search Results'));
         if (!resultCount)
-          Search.status.text(_('Your search did not match any documents. Please make sure that all words are spelled correctly and that you\'ve selected enough categories.'));
+          Search.status.text(_(
+              'Your search did not match any documents. Please make sure that all words are spelled correctly and that you\'ve selected enough categories.'));
         else
-            Search.status.text(_('Search finished, found %s page(s) matching the search query.').replace('%s', resultCount));
+          Search.status.text(
+              _('Search finished, found %s page(s) matching the search query.')
+                  .replace('%s', resultCount));
         Search.status.fadeIn(500);
       }
     }
@@ -327,7 +333,7 @@ var Search = {
           // "last name" (i.e. last dotted part)
           if (fullnameLower == object || parts[parts.length - 1] == object) {
             score += Scorer.objNameMatch;
-          // matches in last name
+            // matches in last name
           } else if (parts[parts.length - 1].indexOf(object) > -1) {
             score += Scorer.objPartialMatch;
           }
@@ -337,8 +343,8 @@ var Search = {
           // If more than one term searched for, we require other words to be
           // found in the name/title/description
           if (otherterms.length > 0) {
-            var haystack = (prefix + ' ' + name + ' ' +
-                            objname + ' ' + title).toLowerCase();
+            var haystack = (prefix + ' ' + name + ' ' + objname + ' ' + title)
+                               .toLowerCase();
             var allfound = true;
             for (i = 0; i < otherterms.length; i++) {
               if (haystack.indexOf(otherterms[i]) == -1) {
@@ -363,7 +369,10 @@ var Search = {
           } else {
             score += Scorer.objPrioDefault;
           }
-          results.push([docnames[match[0]], fullname, '#'+anchor, descr, score, filenames[match[0]]]);
+          results.push([
+            docnames[match[0]], fullname, '#' + anchor, descr, score,
+            filenames[match[0]]
+          ]);
         }
       }
     }
@@ -389,25 +398,25 @@ var Search = {
       var word = searchterms[i];
       var files = [];
       var _o = [
-        {files: terms[word], score: Scorer.term},
-        {files: titleterms[word], score: Scorer.title}
+        {files : terms[word], score : Scorer.term},
+        {files : titleterms[word], score : Scorer.title}
       ];
       // add support for partial matches
       if (word.length > 2) {
         for (var w in terms) {
           if (w.match(word) && !terms[word]) {
-            _o.push({files: terms[w], score: Scorer.partialTerm})
+            _o.push({files : terms[w], score : Scorer.partialTerm})
           }
         }
         for (var w in titleterms) {
           if (w.match(word) && !titleterms[word]) {
-              _o.push({files: titleterms[w], score: Scorer.partialTitle})
+            _o.push({files : titleterms[w], score : Scorer.partialTitle})
           }
         }
       }
 
       // no match but word was a required one
-      if ($u.every(_o, function(o){return o.files === undefined;})) {
+      if ($u.every(_o, function(o) { return o.files === undefined; })) {
         break;
       }
       // found search word in contents
@@ -416,8 +425,8 @@ var Search = {
         if (_files === undefined)
           return
 
-        if (_files.length === undefined)
-          _files = [_files];
+              if (_files.length === undefined)
+          _files = [ _files ];
         files = files.concat(_files);
 
         // set score for the word in each file to Scorer.term
@@ -435,7 +444,7 @@ var Search = {
         if (file in fileMap && fileMap[file].indexOf(word) === -1)
           fileMap[file].push(word);
         else
-          fileMap[file] = [word];
+          fileMap[file] = [ word ];
       }
     }
 
@@ -444,17 +453,15 @@ var Search = {
       var valid = true;
 
       // check if all requirements are matched
-      var filteredTermCount = // as search terms with length < 3 are discarded: ignore
-        searchterms.filter(function(term){return term.length > 2}).length
-      if (
-        fileMap[file].length != searchterms.length &&
-        fileMap[file].length != filteredTermCount
-      ) continue;
+      var filteredTermCount = // as search terms with length < 3 are discarded:
+                              // ignore
+          searchterms.filter(function(term) { return term.length > 2 }).length
+      if (fileMap[file].length != searchterms.length &&
+          fileMap[file].length != filteredTermCount) continue;
 
       // ensure that none of the excluded terms is in the search result
       for (i = 0; i < excluded.length; i++) {
-        if (terms[excluded[i]] == file ||
-            titleterms[excluded[i]] == file ||
+        if (terms[excluded[i]] == file || titleterms[excluded[i]] == file ||
             $u.contains(terms[excluded[i]] || [], file) ||
             $u.contains(titleterms[excluded[i]] || [], file)) {
           valid = false;
@@ -465,9 +472,12 @@ var Search = {
       // if we have still a valid result we can add it to the result list
       if (valid) {
         // select one (max) score for the file.
-        // for better ranking, we should calculate ranking by using words statistics like basic tf-idf...
-        var score = $u.max($u.map(fileMap[file], function(w){return scoreMap[file][w]}));
-        results.push([docnames[file], titles[file], '', null, score, filenames[file]]);
+        // for better ranking, we should calculate ranking by using words
+        // statistics like basic tf-idf...
+        var score = $u.max(
+            $u.map(fileMap[file], function(w) { return scoreMap[file][w] }));
+        results.push(
+            [ docnames[file], titles[file], '', null, score, filenames[file] ]);
       }
     }
     return results;
@@ -490,17 +500,12 @@ var Search = {
         start = i;
     });
     start = Math.max(start - 120, 0);
-    var excerpt = ((start > 0) ? '...' : '') +
-      $.trim(text.substr(start, 240)) +
-      ((start + 240 - text.length) ? '...' : '');
+    var excerpt = ((start > 0) ? '...' : '') + $.trim(text.substr(start, 240)) +
+                  ((start + 240 - text.length) ? '...' : '');
     var rv = $('<div class="context"></div>').text(excerpt);
-    $.each(hlwords, function() {
-      rv = rv.highlightText(this, 'highlighted');
-    });
+    $.each(hlwords, function() { rv = rv.highlightText(this, 'highlighted'); });
     return rv;
   }
 };
 
-$(document).ready(function() {
-  Search.init();
-});
+$(document).ready(function() { Search.init(); });
