@@ -25,7 +25,7 @@ jobs:
       - run:
           name: 🧹 Run Pylint
           command: |
-            find . -name "*.py" | xargs pylint --disable=C0103
+            find . -name "*.py" | xargs pylint --disable=C0103,C0114
       - run:
           name: 🧹 Run Flake8
           command: |

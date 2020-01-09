@@ -6,4 +6,5 @@ pandas
 pylint
 requests
 seaborn
+sphinx
 yamllint
