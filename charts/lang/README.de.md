@@ -1,7 +1,5 @@
 # Info zur Grafik-Demo
 
-[![Lizenz: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/jbampton/charts/blob/gh-pages/LICENSE)
-
 [English](../README.md) [Deutsche](README.de.md)
 
 Dieses Ruby-Skript **`run.rb`** ist ein statischer Site-Generator. Es mint Daten oder Text in einem Ordner mit XML-Schema-Dateien sowie die MIT-Lizenz (nur für die d3pie-Diagramme) und erstellt Statistiken über Elemente und Attribute (das XML-Schema) oder über Wörter (die Lizenz).

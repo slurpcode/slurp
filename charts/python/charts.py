@@ -4,8 +4,8 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 
-auto = pd.read_csv("auto.csv")
-sp = '../site/assets/images/python/'
+auto = pd.read_csv('python/auto.csv')
+sp = 'site/assets/images/python/'
 
 plt.subplot(2, 1, 1)
 sns.violinplot(x='cyl', y='hp', data=auto)

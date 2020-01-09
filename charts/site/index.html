@@ -80,9 +80,7 @@
     <h1><strong><code>Ruby</code></strong>, <strong><code>Python</code></strong> and <strong><code>Perl</code></strong> based <strong><code>d3pie</code></strong>, <strong><code>Google Charts</code></strong>, <strong><code>Chart.js</code></strong>, <strong><code>plotly.js</code></strong>, <strong><code>Matplotlib</code></strong> and <strong><code>Seaborn</code></strong> charting demonstration and configurable static site generator</h1>
     <div class="row homepage">
       <div class="col-md-5">
-        <h2 id="charting-demo-info">Charting Demo Info</h2>
-
-<p><a href="https://github.com/jbampton/charts/blob/gh-pages/LICENSE"><img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="License: MIT" /></a></p>
+        <h1 id="charting-demo-info">Charting Demo Info</h1>
 
 <p>This Ruby script <strong><code>run.rb</code></strong> is a static site generator. It data mines or text mines a folder of XML Schema files as well as the MIT License (only for the d3pie charts) and generates statistics on elements and attributes (the XML Schema) or on words (the License).</p>
 
@@ -106,7 +104,7 @@
 
 <p>Even the README.md file is created from the <strong><code>config.xml</code></strong> config file.</p>
 
-<p>Demo can be seen here: http://thebeast.me/charts/</p>
+<p>Demo can be seen here: <a href="https://slurpcode.netlify.com/">Slurp Code - Charts</a></p>
 
 <h2 id="this-repository-is-built-with">This repository is built with</h2>
 
@@ -194,21 +192,36 @@
     <div class="row">
       <div class="col-sm-12" id="d3pie_chart_div_homepage_mit"></div>
     </div>
+    <div class="row">
+      <img class="img-responsive" src="assets/images/python/automobile-pairgrid.png" alt="Automobile pairgrid">
+    </div>
+    <div class="row">
+      <img class="img-responsive" src="assets/images/python/automobile-hexbin-jointplot-of-horsepower-versus-mpg.png" alt="Automobile hexbin jointplot of horsepower versus mpg">
+    </div>
+    <div class="row">
+      <img class="img-responsive" src="assets/images/python/violin-plot-of-automobile-cylinders-versus-horsepower.png" alt="Violin plot of automobile cylinders versus horsepower">
+    </div>
+    <div class="row">
+      <img class="img-responsive" src="assets/images/python/swarmplot-of-automobile-horsepower-versus-cylinders.png" alt="Swarmplot of automobile horsepower versus cylinders">
+    </div>
+    <div class="row">
+      <img class="img-responsive" src="assets/images/python/automobile-pairplot-by-origin.png" alt="Automobile pairplot by origin">
+    </div>
+    <div class="row">
+      <img class="img-responsive" src="assets/images/python/automobile-weight-versus-horsepower-by-continent.png" alt="Automobile weight versus horsepower by continent">
+    </div>
     </div>
     <footer>
       <div class="container">
         <ul class="list-unstyled">
           <li>
-            <a class="github-button" href="https://github.com/jbampton" data-size="large" data-show-count="true" aria-label="Follow @jbampton on GitHub">Follow @jbampton</a>
+            <a class="github-button" href="https://github.com/slurpcode/slurp" data-icon="octicon-star"  data-size="large" data-show-count="true" aria-label="Star slurpcode/slurp on GitHub">Star</a>
           </li>
           <li>
-            <a class="github-button" href="https://github.com/jbampton/charts" data-icon="octicon-star"  data-size="large" data-show-count="true" aria-label="Star jbampton/charts on GitHub">Star</a>
+            <a class="github-button" href="https://github.com/slurpcode/slurp/subscription" data-icon="octicon-eye"  data-size="large" data-show-count="true" aria-label="Watch slurpcode/slurp on GitHub">Watch</a>
           </li>
           <li>
-            <a class="github-button" href="https://github.com/jbampton/charts/subscription" data-icon="octicon-eye"  data-size="large" data-show-count="true" aria-label="Watch jbampton/charts on GitHub">Watch</a>
-          </li>
-          <li>
-            <a class="github-button" href="https://github.com/jbampton/charts/fork" data-icon="octicon-repo-forked"  data-size="large" data-show-count="true" aria-label="Fork jbampton/charts on GitHub">Fork</a>
+            <a class="github-button" href="https://github.com/slurpcode/slurp/fork" data-icon="octicon-repo-forked"  data-size="large" data-show-count="true" aria-label="Fork slurpcode/slurp on GitHub">Fork</a>
           </li>
           <li><a href="index.html">Page 1</a></li>
           <li><a href="index1.html">Page 2</a></li>
@@ -230,7 +243,7 @@
             <a target="_blank" rel="noopener">Valid HTML</a>
           </li>
           <li><a href="#head1">Back to top</a></li>
-          <li><a class="built">Site last built: 2020-01-09T21:51:11+10:00</a></li>
+          <li><a class="built">Site last built: 2020-01-10T08:44:58+10:00</a></li>
         </ul>
         <a href="https://info.flagcounter.com/9VsC"
            target="_blank" rel="noopener">
@@ -342,7 +355,7 @@
     var pie = new d3pie('d3pie_chart_div_homepage_mit', {
         'header': {
             'title': {
-                'text': '2 - Most frequent words in the MIT License',
+                'text': '2 - Most frequent words in the GPL3.0 License',
                 'fontSize': 24,
                 'font': 'open sans'
             }
@@ -445,7 +458,7 @@
            if (tab === 0) {
              tab = "";
            }
-          $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=http%3A%2F%2Fthebeast.me%2Fcharts%2Findex" + tab + ".html");
+           $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=https%3A%2F%2Fslurpcode.netlify.com%2Findex" + tab + ".html");
       });
     </script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>

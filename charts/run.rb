@@ -112,7 +112,6 @@ ct = chart_types[site_config['chart_type']]
 # GitHub buttons shown in the footer
 def github_buttons(repository, username)
   [
-    ['', "Follow @#{username} on GitHub", "Follow @#{username}", ''],
     ["/#{repository}", "Star #{username}/#{repository} on GitHub", 'Star', 'star'],
     ["/#{repository}/subscription", "Watch #{username}/#{repository} on GitHub", 'Watch', 'eye'],
     ["/#{repository}/fork", "Fork #{username}/#{repository} on GitHub", 'Fork', 'repo-forked']
@@ -399,10 +398,10 @@ def section_built_with(cloc, site_config)
     <div class="row">
       <div class="col-sm-12" id="d3pie_chart_div_homepage_mit"></div>
     </div>)
-  Dir['python/images/*'].map do |image|
+  Dir['site/assets/images/python/*'].map do |image|
     s += %(
     <div class="row">
-      <img class="img-responsive" src="#{image}" alt="#{image.split('/').last.split('.').first.capitalize.split('-').join ' '}">
+      <img class="img-responsive" src="#{image.split('site/').last}" alt="#{image.split('/').last.split('.').first.capitalize.split('-').join ' '}">
     </div>)
   end
   s
@@ -414,7 +413,7 @@ def add_github_buttons(arr)
   arr.map do |button|
     s += %(
           <li>
-            <a class="github-button" href="https://github.com/jbampton#{button[0]}")
+            <a class="github-button" href="https://github.com/slurpcode#{button[0]}")
     s += %( data-icon="octicon-#{button[3]}" ) unless button[3] == ''
     s += %( data-size="large" data-show-count="true" aria-label="#{button[1]}">#{button[2]}</a>
           </li>)
@@ -795,7 +794,7 @@ if site_config['chart_type'] == 'all'
   # home page
   @page += draw_d3pie_chart(0, 'homepage_all', allfiles, 0, exthash, 'Branch count of files grouped by file extension', 600, 600, 15, 24, 16, 16, 1,
                             '70%', '35%', 50, false, 35, 'open sans', 'open sans', 18, 'white', 'ff0000')
-  @page += draw_d3pie_chart(2, 'homepage_mit', mit_word_count, 1, exthash, 'Most frequent words in the MIT License', 600, 600, 15, 24, 16, 16, 2,
+  @page += draw_d3pie_chart(2, 'homepage_mit', mit_word_count, 1, exthash, 'Most frequent words in the GPL3.0 License', 600, 600, 15, 24, 16, 16, 2,
                             '70%', '35%', 50, true, 35, 'open sans', 'open sans', 18, 'white', 'ff0000')
 
   structure.map.with_index do |chart, ind|
@@ -883,7 +882,7 @@ page = %(
            if (tab === 0) {
              tab = "";
            }
-          $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=http%3A%2F%2Fthebeast.me%2Fcharts%2Findex" + tab + ".html");
+           $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=https%3A%2F%2Fslurpcode.netlify.com%2Findex" + tab + ".html");
       });
     </script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
