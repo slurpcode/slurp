@@ -19,7 +19,7 @@
 
 project = 'slurp'
 author = 'John Bampton'
-
+master_doc = 'index'
 
 # -- General configuration ---------------------------------------------------
 
