@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - vendor/**/*
+    - charts/run.rb
   TargetRubyVersion: 2.6.5
 
 Layout/LineLength:

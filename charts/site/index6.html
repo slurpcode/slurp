@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head;
+         any other head content must come *after* these tags -->
+    <title>Ruby, Python, Perl and JavaScript based charting demonstration and configurable static site generator</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/icons/ms-icon-144x144.png">
+    <meta name="description" content="Analytics dashboard built from Ruby, Python and Perl using the d3pie, Google charts, Chart.js, plotly.js, Matplotlib and Seaborn charting libraries.">
+    <meta name="theme-color" content="#E5E8E8">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
+    <style>
+      .container-fluid { padding: 0px; }
+      .navbar, .navbar-default { margin-bottom: 0; padding: 5pt; background-color: #E5E8E8; font-size: 12pt; }
+      .navbar, .navbar-default li a { color: #000 !important; }
+      .navbar-default .navbar-brand { margin-left: 20px !important; color: #c7254e; font-size: 18pt; font-weight: bold; }
+      .navbar-brand:hover { background-color: red !important; }
+      div[id^="d3pie_chart_div_"], canvas { margin-bottom: 100px; }
+      footer { background-color: #E5E8E8; min-height: 200px;}
+      footer ul a { color: #000 !important; font-size: 13pt; }
+      footer .container { margin-left: 15px; }
+      .built { text-decoration: none !important; }
+      .selected { background-color: aliceblue; font-weight: bold; }
+      .navbar-default li:hover a { background-color: red !important; }
+      h1 { text-align: center; background-color: #E5E8E8; padding: 14px; color: #000; }
+      pre { white-space: pre-wrap; word-wrap: break-word; }
+      .homepage { padding: 5px 30px 5px 30px; }
+      .logo { float: left; }
+      .oll { padding-left: 1em; }
+      h2#other { text-align: center; }
+      .plotlypie { height: 625px; }
+    </style>
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" id="head1">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html"><img src="assets/images/logo.png" alt="Ruby Powered" class="logo"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Ruby Powered</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Page 1</a></li>
+            <li><a href="index1.html">Page 2</a></li>
+            <li><a href="index2.html">Page 3</a></li>
+            <li><a href="index3.html">Page 4</a></li>
+            <li><a href="index4.html">Page 5</a></li>
+            <li><a href="index5.html">Page 6</a></li>
+            <li><a href="index6.html">Page 7</a></li>
+            <li><a href="index7.html">Page 8</a></li>
+            <li><a href="index8.html">Page 9</a></li>
+            <li><a href="index9.html">Page 10</a></li>
+            <li><a href="index10.html">Page 11</a></li>
+            <li><a href="index11.html">Page 12</a></li>
+            <li><a href="index12.html">Page 13</a></li>
+            <li><a href="index13.html">Page 14</a></li>
+            <li><a href="index14.html">Page 15</a></li>
+            <li><a href="index15.html">Page 16</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1>Chart type: <strong><code>Google Charts</code></strong></h1>
+      <h2 id="other">Branch count grouped by file</h2>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameX509Certificate"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameX509Data"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameX509IssuerName"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameX509IssuerSerial"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameX509SKI"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameX509SerialNumber"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameX509SubjectName"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameXPath"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameY"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamebody"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamebook"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamebookstore"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamechdesc"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamechdeschd"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamechhead"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamechoicetable"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamechoption"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamechoptionhd"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamechrow"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamecmd"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameconbody"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameconcept"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamedate"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamedinner_menu"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamefig"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamefilepath"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamefood"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameindexterm"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameinfo"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamekeyword"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamekeywords"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamelastmod"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameli"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameloc"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamemetadata"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamenavtitle"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamenote"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameoption"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamep"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameparml"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameparmname"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamepd"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameplentry"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamepre"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameprereq"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamepriority"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnameprolog"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamept"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamerefbody"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_xselementnamereference"></div>
+    </div>
+    <footer>
+      <div class="container">
+        <ul class="list-unstyled">
+          <li>
+            <a class="github-button" href="https://github.com/jbampton" data-size="large" data-show-count="true" aria-label="Follow @jbampton on GitHub">Follow @jbampton</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts" data-icon="octicon-star"  data-size="large" data-show-count="true" aria-label="Star jbampton/charts on GitHub">Star</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/subscription" data-icon="octicon-eye"  data-size="large" data-show-count="true" aria-label="Watch jbampton/charts on GitHub">Watch</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/fork" data-icon="octicon-repo-forked"  data-size="large" data-show-count="true" aria-label="Fork jbampton/charts on GitHub">Fork</a>
+          </li>
+          <li><a href="index.html">Page 1</a></li>
+          <li><a href="index1.html">Page 2</a></li>
+          <li><a href="index2.html">Page 3</a></li>
+          <li><a href="index3.html">Page 4</a></li>
+          <li><a href="index4.html">Page 5</a></li>
+          <li><a href="index5.html">Page 6</a></li>
+          <li><a href="index6.html">Page 7</a></li>
+          <li><a href="index7.html">Page 8</a></li>
+          <li><a href="index8.html">Page 9</a></li>
+          <li><a href="index9.html">Page 10</a></li>
+          <li><a href="index10.html">Page 11</a></li>
+          <li><a href="index11.html">Page 12</a></li>
+          <li><a href="index12.html">Page 13</a></li>
+          <li><a href="index13.html">Page 14</a></li>
+          <li><a href="index14.html">Page 15</a></li>
+          <li><a href="index15.html">Page 16</a></li>
+          <li class="nuchecker">
+            <a target="_blank" rel="noopener">Valid HTML</a>
+          </li>
+          <li><a href="#head1">Back to top</a></li>
+          <li><a class="built">Site last built: 2020-01-09T21:51:11+10:00</a></li>
+        </ul>
+        <a href="https://info.flagcounter.com/9VsC"
+           target="_blank" rel="noopener">
+          <img src="https://s01.flagcounter.com/countxl/9VsC/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/"
+               alt="Flag Counter">
+        </a>
+        <a id="theend"></a>
+      </div>
+    </footer>
+    <script src="assets/bootstrap/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://www.google.com/jsapi"></script>
+    <script>
+        google.charts.load("current", {"packages":["corechart"]});
+        google.charts.setOnLoadCallback(drawChartxselementnameX509Certificate);
+
+        function drawChartxselementnameX509Certificate() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"X509Certificate\"");
+          data.addColumn("number", "Values");
+          data.addRows([["xmldsig_schema", 1]]);
+          // Set chart options
+          var options = {"title": "251 - <xs:element name=\"X509Certificate\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameX509Certificate"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameX509Data);
+
+        function drawChartxselementnameX509Data() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"X509Data\"");
+          data.addColumn("number", "Values");
+          data.addRows([["xmldsig_schema", 1]]);
+          // Set chart options
+          var options = {"title": "252 - <xs:element name=\"X509Data\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameX509Data"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameX509IssuerName);
+
+        function drawChartxselementnameX509IssuerName() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"X509IssuerName\"");
+          data.addColumn("number", "Values");
+          data.addRows([["xmldsig_schema", 1]]);
+          // Set chart options
+          var options = {"title": "253 - <xs:element name=\"X509IssuerName\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameX509IssuerName"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameX509IssuerSerial);
+
+        function drawChartxselementnameX509IssuerSerial() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"X509IssuerSerial\"");
+          data.addColumn("number", "Values");
+          data.addRows([["xmldsig_schema", 1]]);
+          // Set chart options
+          var options = {"title": "254 - <xs:element name=\"X509IssuerSerial\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameX509IssuerSerial"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameX509SKI);
+
+        function drawChartxselementnameX509SKI() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"X509SKI\"");
+          data.addColumn("number", "Values");
+          data.addRows([["xmldsig_schema", 1]]);
+          // Set chart options
+          var options = {"title": "255 - <xs:element name=\"X509SKI\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameX509SKI"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameX509SerialNumber);
+
+        function drawChartxselementnameX509SerialNumber() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"X509SerialNumber\"");
+          data.addColumn("number", "Values");
+          data.addRows([["xmldsig_schema", 1]]);
+          // Set chart options
+          var options = {"title": "256 - <xs:element name=\"X509SerialNumber\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameX509SerialNumber"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameX509SubjectName);
+
+        function drawChartxselementnameX509SubjectName() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"X509SubjectName\"");
+          data.addColumn("number", "Values");
+          data.addRows([["xmldsig_schema", 1]]);
+          // Set chart options
+          var options = {"title": "257 - <xs:element name=\"X509SubjectName\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameX509SubjectName"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameXPath);
+
+        function drawChartxselementnameXPath() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"XPath\"");
+          data.addColumn("number", "Values");
+          data.addRows([["xmldsig_schema", 1]]);
+          // Set chart options
+          var options = {"title": "258 - <xs:element name=\"XPath\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameXPath"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameY);
+
+        function drawChartxselementnameY() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"Y\"");
+          data.addColumn("number", "Values");
+          data.addRows([["xmldsig_schema", 1]]);
+          // Set chart options
+          var options = {"title": "259 - <xs:element name=\"Y\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameY"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamebody);
+
+        function drawChartxselementnamebody() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"body\"");
+          data.addColumn("number", "Values");
+          data.addRows([["topic", 2]]);
+          // Set chart options
+          var options = {"title": "260 - <xs:element name=\"body\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamebody"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamebook);
+
+        function drawChartxselementnamebook() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"book\"");
+          data.addColumn("number", "Values");
+          data.addRows([["bookstore", 1]]);
+          // Set chart options
+          var options = {"title": "261 - <xs:element name=\"book\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamebook"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamebookstore);
+
+        function drawChartxselementnamebookstore() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"bookstore\"");
+          data.addColumn("number", "Values");
+          data.addRows([["bookstore", 1]]);
+          // Set chart options
+          var options = {"title": "262 - <xs:element name=\"bookstore\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamebookstore"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamechdesc);
+
+        function drawChartxselementnamechdesc() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"chdesc\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "263 - <xs:element name=\"chdesc\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamechdesc"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamechdeschd);
+
+        function drawChartxselementnamechdeschd() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"chdeschd\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "264 - <xs:element name=\"chdeschd\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamechdeschd"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamechhead);
+
+        function drawChartxselementnamechhead() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"chhead\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "265 - <xs:element name=\"chhead\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamechhead"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamechoicetable);
+
+        function drawChartxselementnamechoicetable() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"choicetable\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "266 - <xs:element name=\"choicetable\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamechoicetable"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamechoption);
+
+        function drawChartxselementnamechoption() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"choption\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "267 - <xs:element name=\"choption\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamechoption"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamechoptionhd);
+
+        function drawChartxselementnamechoptionhd() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"choptionhd\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "268 - <xs:element name=\"choptionhd\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamechoptionhd"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamechrow);
+
+        function drawChartxselementnamechrow() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"chrow\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "269 - <xs:element name=\"chrow\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamechrow"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamecmd);
+
+        function drawChartxselementnamecmd() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"cmd\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "270 - <xs:element name=\"cmd\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamecmd"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameconbody);
+
+        function drawChartxselementnameconbody() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"conbody\"");
+          data.addColumn("number", "Values");
+          data.addRows([["concept", 1]]);
+          // Set chart options
+          var options = {"title": "271 - <xs:element name=\"conbody\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameconbody"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameconcept);
+
+        function drawChartxselementnameconcept() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"concept\"");
+          data.addColumn("number", "Values");
+          data.addRows([["concept", 1]]);
+          // Set chart options
+          var options = {"title": "272 - <xs:element name=\"concept\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameconcept"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamedate);
+
+        function drawChartxselementnamedate() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"date\"");
+          data.addColumn("number", "Values");
+          data.addRows([["note2", 1]]);
+          // Set chart options
+          var options = {"title": "273 - <xs:element name=\"date\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamedate"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamedinner_menu);
+
+        function drawChartxselementnamedinner_menu() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"dinner_menu\"");
+          data.addColumn("number", "Values");
+          data.addRows([["dinner-menu", 1]]);
+          // Set chart options
+          var options = {"title": "274 - <xs:element name=\"dinner_menu\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamedinner_menu"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamefig);
+
+        function drawChartxselementnamefig() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"fig\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "275 - <xs:element name=\"fig\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamefig"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamefilepath);
+
+        function drawChartxselementnamefilepath() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"filepath\"");
+          data.addColumn("number", "Values");
+          data.addRows([["concept", 1], ["task", 1]]);
+          // Set chart options
+          var options = {"title": "276 - <xs:element name=\"filepath\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamefilepath"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamefood);
+
+        function drawChartxselementnamefood() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"food\"");
+          data.addColumn("number", "Values");
+          data.addRows([["dinner-menu", 1]]);
+          // Set chart options
+          var options = {"title": "277 - <xs:element name=\"food\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamefood"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameindexterm);
+
+        function drawChartxselementnameindexterm() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"indexterm\"");
+          data.addColumn("number", "Values");
+          data.addRows([["concept", 2], ["reference", 3]]);
+          // Set chart options
+          var options = {"title": "278 - <xs:element name=\"indexterm\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameindexterm"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameinfo);
+
+        function drawChartxselementnameinfo() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"info\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "279 - <xs:element name=\"info\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameinfo"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamekeyword);
+
+        function drawChartxselementnamekeyword() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"keyword\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "280 - <xs:element name=\"keyword\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamekeyword"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamekeywords);
+
+        function drawChartxselementnamekeywords() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"keywords\"");
+          data.addColumn("number", "Values");
+          data.addRows([["concept", 1], ["reference", 1]]);
+          // Set chart options
+          var options = {"title": "281 - <xs:element name=\"keywords\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamekeywords"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamelastmod);
+
+        function drawChartxselementnamelastmod() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"lastmod\"");
+          data.addColumn("number", "Values");
+          data.addRows([["sitemap", 1]]);
+          // Set chart options
+          var options = {"title": "282 - <xs:element name=\"lastmod\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamelastmod"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameli);
+
+        function drawChartxselementnameli() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"li\"");
+          data.addColumn("number", "Values");
+          data.addRows([["topic", 1]]);
+          // Set chart options
+          var options = {"title": "283 - <xs:element name=\"li\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameli"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameloc);
+
+        function drawChartxselementnameloc() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"loc\"");
+          data.addColumn("number", "Values");
+          data.addRows([["sitemap", 1]]);
+          // Set chart options
+          var options = {"title": "284 - <xs:element name=\"loc\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameloc"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamemetadata);
+
+        function drawChartxselementnamemetadata() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"metadata\"");
+          data.addColumn("number", "Values");
+          data.addRows([["concept", 1], ["reference", 1]]);
+          // Set chart options
+          var options = {"title": "285 - <xs:element name=\"metadata\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamemetadata"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamenavtitle);
+
+        function drawChartxselementnamenavtitle() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"navtitle\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "286 - <xs:element name=\"navtitle\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamenavtitle"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamenote);
+
+        function drawChartxselementnamenote() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"note\"");
+          data.addColumn("number", "Values");
+          data.addRows([["topic", 1], ["note", 1], ["note2", 1]]);
+          // Set chart options
+          var options = {"title": "287 - <xs:element name=\"note\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamenote"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameoption);
+
+        function drawChartxselementnameoption() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"option\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "288 - <xs:element name=\"option\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameoption"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamep);
+
+        function drawChartxselementnamep() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"p\"");
+          data.addColumn("number", "Values");
+          data.addRows([["concept", 1], ["topic", 3]]);
+          // Set chart options
+          var options = {"title": "289 - <xs:element name=\"p\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamep"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameparml);
+
+        function drawChartxselementnameparml() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"parml\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "290 - <xs:element name=\"parml\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameparml"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameparmname);
+
+        function drawChartxselementnameparmname() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"parmname\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "291 - <xs:element name=\"parmname\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameparmname"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamepd);
+
+        function drawChartxselementnamepd() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"pd\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "292 - <xs:element name=\"pd\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamepd"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameplentry);
+
+        function drawChartxselementnameplentry() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"plentry\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "293 - <xs:element name=\"plentry\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameplentry"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamepre);
+
+        function drawChartxselementnamepre() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"pre\"");
+          data.addColumn("number", "Values");
+          data.addRows([["topic", 1]]);
+          // Set chart options
+          var options = {"title": "294 - <xs:element name=\"pre\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamepre"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameprereq);
+
+        function drawChartxselementnameprereq() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"prereq\"");
+          data.addColumn("number", "Values");
+          data.addRows([["task", 1]]);
+          // Set chart options
+          var options = {"title": "295 - <xs:element name=\"prereq\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameprereq"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamepriority);
+
+        function drawChartxselementnamepriority() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"priority\"");
+          data.addColumn("number", "Values");
+          data.addRows([["sitemap", 1]]);
+          // Set chart options
+          var options = {"title": "296 - <xs:element name=\"priority\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamepriority"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnameprolog);
+
+        function drawChartxselementnameprolog() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"prolog\"");
+          data.addColumn("number", "Values");
+          data.addRows([["concept", 1], ["reference", 1]]);
+          // Set chart options
+          var options = {"title": "297 - <xs:element name=\"prolog\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnameprolog"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamept);
+
+        function drawChartxselementnamept() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"pt\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "298 - <xs:element name=\"pt\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamept"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamerefbody);
+
+        function drawChartxselementnamerefbody() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"refbody\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "299 - <xs:element name=\"refbody\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamerefbody"));
+          chart.draw(data, options);
+        }
+        google.charts.setOnLoadCallback(drawChartxselementnamereference);
+
+        function drawChartxselementnamereference() {
+          // Create the data table.
+          var data = new google.visualization.DataTable();
+          data.addColumn("string", "<xs:element name=\"reference\"");
+          data.addColumn("number", "Values");
+          data.addRows([["reference", 1]]);
+          // Set chart options
+          var options = {"title": "300 - <xs:element name=\"reference\"",
+                         is3D: false,
+                         pieHole: 0.4,
+                         "pieSliceText": "value",
+                         "width": 400,
+                         "height": 400,
+                         "titleTextStyle": {"color": "black"}};
+          // Instantiate and draw our chart, passing in some options.
+          var chart = new google.visualization.PieChart(document.getElementById("chart_div_xselementnamereference"));
+          chart.draw(data, options);
+        }
+
+        $(document).ready(function () {
+           "use strict";
+           var last = $(location).attr("href").split("/").pop().split(".")[0].replace(/index/, "");
+           var tab = 1;
+           if (last !== "") {
+             tab = parseInt(last) + 1;
+           }
+           $(".navbar-nav li:nth-child(" + tab + ")").addClass("selected");
+           tab--;
+           if (tab === 0) {
+             tab = "";
+           }
+          $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=http%3A%2F%2Fthebeast.me%2Fcharts%2Findex" + tab + ".html");
+      });
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>

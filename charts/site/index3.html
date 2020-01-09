@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head;
+         any other head content must come *after* these tags -->
+    <title>Ruby, Python, Perl and JavaScript based charting demonstration and configurable static site generator</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/icons/ms-icon-144x144.png">
+    <meta name="description" content="Analytics dashboard built from Ruby, Python and Perl using the d3pie, Google charts, Chart.js, plotly.js, Matplotlib and Seaborn charting libraries.">
+    <meta name="theme-color" content="#E5E8E8">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
+    <style>
+      .container-fluid { padding: 0px; }
+      .navbar, .navbar-default { margin-bottom: 0; padding: 5pt; background-color: #E5E8E8; font-size: 12pt; }
+      .navbar, .navbar-default li a { color: #000 !important; }
+      .navbar-default .navbar-brand { margin-left: 20px !important; color: #c7254e; font-size: 18pt; font-weight: bold; }
+      .navbar-brand:hover { background-color: red !important; }
+      div[id^="d3pie_chart_div_"], canvas { margin-bottom: 100px; }
+      footer { background-color: #E5E8E8; min-height: 200px;}
+      footer ul a { color: #000 !important; font-size: 13pt; }
+      footer .container { margin-left: 15px; }
+      .built { text-decoration: none !important; }
+      .selected { background-color: aliceblue; font-weight: bold; }
+      .navbar-default li:hover a { background-color: red !important; }
+      h1 { text-align: center; background-color: #E5E8E8; padding: 14px; color: #000; }
+      pre { white-space: pre-wrap; word-wrap: break-word; }
+      .homepage { padding: 5px 30px 5px 30px; }
+      .logo { float: left; }
+      .oll { padding-left: 1em; }
+      h2#other { text-align: center; }
+      .plotlypie { height: 625px; }
+    </style>
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" id="head1">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html"><img src="assets/images/logo.png" alt="Ruby Powered" class="logo"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Ruby Powered</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Page 1</a></li>
+            <li><a href="index1.html">Page 2</a></li>
+            <li><a href="index2.html">Page 3</a></li>
+            <li><a href="index3.html">Page 4</a></li>
+            <li><a href="index4.html">Page 5</a></li>
+            <li><a href="index5.html">Page 6</a></li>
+            <li><a href="index6.html">Page 7</a></li>
+            <li><a href="index7.html">Page 8</a></li>
+            <li><a href="index8.html">Page 9</a></li>
+            <li><a href="index9.html">Page 10</a></li>
+            <li><a href="index10.html">Page 11</a></li>
+            <li><a href="index11.html">Page 12</a></li>
+            <li><a href="index12.html">Page 13</a></li>
+            <li><a href="index13.html">Page 14</a></li>
+            <li><a href="index14.html">Page 15</a></li>
+            <li><a href="index15.html">Page 16</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1>Chart type: <strong><code>plotly.js</code></strong></h1>
+      <h2 id="other">Branch count grouped by file</h2>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameIDPListType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameKeyInfoConfirmationDataType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameKeyInfoType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameKeyValueType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameLogoutRequestType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameManageNameIDRequestType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameManifestType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameNameIDMappingRequestType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameNameIDMappingResponseType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameNameIDPolicyType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameNameIDType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameObjectType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameOneTimeUseType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenamePGPDataType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameProxyRestrictionType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameRSAKeyValueType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameReferenceType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameRequestAbstractType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameRequestedAuthnContextType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameResponseType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameRetrievalMethodType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSPKIDataType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameScopingType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSignatureMethodType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSignaturePropertiesType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSignaturePropertyType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSignatureType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSignatureValueType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSignedInfoType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameStatementAbstractType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameStatusCodeType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameStatusDetailType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameStatusResponseType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameStatusType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSubjectConfirmationDataType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSubjectConfirmationType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSubjectLocalityType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSubjectQueryAbstractType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameSubjectType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameTerminateType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameTransformType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameTransformsType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameX509DataType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xscomplexTypenameX509IssuerSerialType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xsdocumentation"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselement"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAction"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAdvice"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAgreementMethod"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameArtifact"></div>
+    </div>
+    <footer>
+      <div class="container">
+        <ul class="list-unstyled">
+          <li>
+            <a class="github-button" href="https://github.com/jbampton" data-size="large" data-show-count="true" aria-label="Follow @jbampton on GitHub">Follow @jbampton</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts" data-icon="octicon-star"  data-size="large" data-show-count="true" aria-label="Star jbampton/charts on GitHub">Star</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/subscription" data-icon="octicon-eye"  data-size="large" data-show-count="true" aria-label="Watch jbampton/charts on GitHub">Watch</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/fork" data-icon="octicon-repo-forked"  data-size="large" data-show-count="true" aria-label="Fork jbampton/charts on GitHub">Fork</a>
+          </li>
+          <li><a href="index.html">Page 1</a></li>
+          <li><a href="index1.html">Page 2</a></li>
+          <li><a href="index2.html">Page 3</a></li>
+          <li><a href="index3.html">Page 4</a></li>
+          <li><a href="index4.html">Page 5</a></li>
+          <li><a href="index5.html">Page 6</a></li>
+          <li><a href="index6.html">Page 7</a></li>
+          <li><a href="index7.html">Page 8</a></li>
+          <li><a href="index8.html">Page 9</a></li>
+          <li><a href="index9.html">Page 10</a></li>
+          <li><a href="index10.html">Page 11</a></li>
+          <li><a href="index11.html">Page 12</a></li>
+          <li><a href="index12.html">Page 13</a></li>
+          <li><a href="index13.html">Page 14</a></li>
+          <li><a href="index14.html">Page 15</a></li>
+          <li><a href="index15.html">Page 16</a></li>
+          <li class="nuchecker">
+            <a target="_blank" rel="noopener">Valid HTML</a>
+          </li>
+          <li><a href="#head1">Back to top</a></li>
+          <li><a class="built">Site last built: 2020-01-09T21:51:11+10:00</a></li>
+        </ul>
+        <a href="https://info.flagcounter.com/9VsC"
+           target="_blank" rel="noopener">
+          <img src="https://s01.flagcounter.com/countxl/9VsC/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/"
+               alt="Flag Counter">
+        </a>
+        <a id="theend"></a>
+      </div>
+    </footer>
+    <script src="assets/bootstrap/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/plotly.min.js"></script>
+    <script>
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '101 - <xs:complexType name="IDPListType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameIDPListType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '102 - <xs:complexType name="KeyInfoConfirmationDataType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameKeyInfoConfirmationDataType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '103 - <xs:complexType name="KeyInfoType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameKeyInfoType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '104 - <xs:complexType name="KeyValueType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameKeyValueType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '105 - <xs:complexType name="LogoutRequestType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameLogoutRequestType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '106 - <xs:complexType name="ManageNameIDRequestType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameManageNameIDRequestType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '107 - <xs:complexType name="ManifestType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameManifestType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '108 - <xs:complexType name="NameIDMappingRequestType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameNameIDMappingRequestType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '109 - <xs:complexType name="NameIDMappingResponseType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameNameIDMappingResponseType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '110 - <xs:complexType name="NameIDPolicyType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameNameIDPolicyType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '111 - <xs:complexType name="NameIDType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameNameIDType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '112 - <xs:complexType name="ObjectType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameObjectType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '113 - <xs:complexType name="OneTimeUseType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameOneTimeUseType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '114 - <xs:complexType name="PGPDataType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenamePGPDataType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '115 - <xs:complexType name="ProxyRestrictionType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameProxyRestrictionType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '116 - <xs:complexType name="RSAKeyValueType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameRSAKeyValueType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '117 - <xs:complexType name="ReferenceType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameReferenceType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '118 - <xs:complexType name="RequestAbstractType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameRequestAbstractType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '119 - <xs:complexType name="RequestedAuthnContextType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameRequestedAuthnContextType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '120 - <xs:complexType name="ResponseType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameResponseType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '121 - <xs:complexType name="RetrievalMethodType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameRetrievalMethodType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '122 - <xs:complexType name="SPKIDataType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSPKIDataType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '123 - <xs:complexType name="ScopingType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameScopingType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '124 - <xs:complexType name="SignatureMethodType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSignatureMethodType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '125 - <xs:complexType name="SignaturePropertiesType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSignaturePropertiesType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '126 - <xs:complexType name="SignaturePropertyType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSignaturePropertyType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '127 - <xs:complexType name="SignatureType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSignatureType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '128 - <xs:complexType name="SignatureValueType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSignatureValueType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '129 - <xs:complexType name="SignedInfoType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSignedInfoType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '130 - <xs:complexType name="StatementAbstractType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameStatementAbstractType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '131 - <xs:complexType name="StatusCodeType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameStatusCodeType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '132 - <xs:complexType name="StatusDetailType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameStatusDetailType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '133 - <xs:complexType name="StatusResponseType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameStatusResponseType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '134 - <xs:complexType name="StatusType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameStatusType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '135 - <xs:complexType name="SubjectConfirmationDataType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSubjectConfirmationDataType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '136 - <xs:complexType name="SubjectConfirmationType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSubjectConfirmationType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '137 - <xs:complexType name="SubjectLocalityType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSubjectLocalityType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '138 - <xs:complexType name="SubjectQueryAbstractType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSubjectQueryAbstractType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '139 - <xs:complexType name="SubjectType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameSubjectType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '140 - <xs:complexType name="TerminateType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameTerminateType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '141 - <xs:complexType name="TransformType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameTransformType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '142 - <xs:complexType name="TransformsType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameTransformsType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '143 - <xs:complexType name="X509DataType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameX509DataType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '144 - <xs:complexType name="X509IssuerSerialType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xscomplexTypenameX509IssuerSerialType', data, layout);
+  
+    var data = [{
+      values: [1, 1, 1],
+      labels: ["note", "saml20protocol_schema", "saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '145 - <xs:documentation',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 445, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xsdocumentation', data, layout);
+  
+    var data = [{
+      values: [11, 5, 1, 18, 69, 6, 6, 6, 78, 27, 18, 7, 21, 81],
+      labels: ["concept", "sitemap", "bar", "topic", "xmldsig_schema", "dinner-menu", "bookstore", "note", "saml20protocol_schema", "xenc_schema", "task", "note2", "reference", "saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '146 - <xs:element',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 610, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselement', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '147 - <xs:element name="Action"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAction', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '148 - <xs:element name="Advice"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAdvice', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xenc_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '149 - <xs:element name="AgreementMethod"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAgreementMethod', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '150 - <xs:element name="Artifact"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameArtifact', data, layout);
+  
+        $(document).ready(function () {
+           "use strict";
+           var last = $(location).attr("href").split("/").pop().split(".")[0].replace(/index/, "");
+           var tab = 1;
+           if (last !== "") {
+             tab = parseInt(last) + 1;
+           }
+           $(".navbar-nav li:nth-child(" + tab + ")").addClass("selected");
+           tab--;
+           if (tab === 0) {
+             tab = "";
+           }
+          $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=http%3A%2F%2Fthebeast.me%2Fcharts%2Findex" + tab + ".html");
+      });
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+macOS High Sierra,https://www.apple.com/macos/high-sierra/
+macOS X El Capitan,https://support.apple.com/en-us/ht206886
+Windows 10,https://www.microsoft.com/en-au/windows/get-windows-10
+Homebrew,https://brew.sh/
+Chocolatey,https://chocolatey.org/
+Ruby,https://www.ruby-lang.org
+RubyMine,https://www.jetbrains.com/ruby
+Rubocop,https://github.com/bbatsov/rubocop
+rbenv,https://github.com/rbenv/rbenv
+ruby-build,https://github.com/rbenv/ruby-build
+kramdown,https://kramdown.gettalong.org
+RubyCritic,https://github.com/whitesmith/rubycritic
+Bundler,https://bundler.io/
+Chroma,https://github.com/jfairbank/chroma
+CSV gem,https://github.com/ruby/csv
+Atom,https://atom.io/
+linter,https://atom.io/packages/linter
+linter-pylint,https://atom.io/packages/linter-pylint
+linter-rubocop,https://atom.io/packages/linter-rubocop
+Sublime Text,https://www.sublimetext.com/
+SublimeLinter,https://github.com/SublimeLinter/SublimeLinter
+SublimeLinter-pylint,https://github.com/SublimeLinter/SublimeLinter-pylint
+SublimeLinter-rubocop,https://github.com/SublimeLinter/SublimeLinter-rubocop
+Sublime Text Markdown Preview,https://github.com/revolunet/sublimetext-markdown-preview
+Python,https://www.python.org/
+PyCharm,https://www.jetbrains.com/pycharm/
+Seaborn,https://seaborn.pydata.org/
+pandas,https://pandas.pydata.org/
+Matplotlib,https://matplotlib.org/
+Pylint,https://www.pylint.org/
+Perl,https://www.perl.org
+cloc,https://github.com/AlDanial/cloc
+d3pie,http://d3pie.org/
+D3,https://d3js.org/
+Google Charts,https://developers.google.com/chart/
+Chart.js,http://www.chartjs.org/
+plotly.js,https://plot.ly/javascript/
+HTML5,https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5
+CSS3,https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+Bootstrap,https://getbootstrap.com/
+jQuery,https://jquery.com/
+JSON,https://www.json.org/
+JavaScript,https://en.wikipedia.org/wiki/JavaScript
+YAML,http://www.yaml.org/
+XML,https://en.wikipedia.org/wiki/XML
+XML Schema,https://en.wikipedia.org/wiki/XML_schema
+Regular expressions,https://en.wikipedia.org/wiki/Regular_expression
+Concatenation,https://en.wikipedia.org/wiki/Concatenation
+Git,https://git-scm.com/
+GitHub Desktop,https://desktop.github.com/
+GitHub Pages,https://pages.github.com
+GitHub:buttons,https://buttons.github.io/
+Flag Counter,https://flagcounter.com/
+Sitemaps,https://en.wikipedia.org/wiki/Sitemaps
+Markdown,https://daringfireball.net/projects/markdown
+robots.txt,https://en.wikipedia.org/wiki/Robots_exclusion_standard
+Portable Network Graphics,https://en.wikipedia.org/wiki/Portable_Network_Graphics
+ICO,https://en.wikipedia.org/wiki/ICO_(file_format)
+GIF,https://en.wikipedia.org/wiki/GIF
+CSV,https://en.wikipedia.org/wiki/Comma-separated_values
+Text file,https://en.wikipedia.org/wiki/Text_file
+Shields.io,https://shields.io/
+MacVim,http://macvim.org
+RVM,https://rvm.io

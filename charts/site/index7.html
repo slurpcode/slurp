@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head;
+         any other head content must come *after* these tags -->
+    <title>Ruby, Python, Perl and JavaScript based charting demonstration and configurable static site generator</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/icons/ms-icon-144x144.png">
+    <meta name="description" content="Analytics dashboard built from Ruby, Python and Perl using the d3pie, Google charts, Chart.js, plotly.js, Matplotlib and Seaborn charting libraries.">
+    <meta name="theme-color" content="#E5E8E8">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
+    <style>
+      .container-fluid { padding: 0px; }
+      .navbar, .navbar-default { margin-bottom: 0; padding: 5pt; background-color: #E5E8E8; font-size: 12pt; }
+      .navbar, .navbar-default li a { color: #000 !important; }
+      .navbar-default .navbar-brand { margin-left: 20px !important; color: #c7254e; font-size: 18pt; font-weight: bold; }
+      .navbar-brand:hover { background-color: red !important; }
+      div[id^="d3pie_chart_div_"], canvas { margin-bottom: 100px; }
+      footer { background-color: #E5E8E8; min-height: 200px;}
+      footer ul a { color: #000 !important; font-size: 13pt; }
+      footer .container { margin-left: 15px; }
+      .built { text-decoration: none !important; }
+      .selected { background-color: aliceblue; font-weight: bold; }
+      .navbar-default li:hover a { background-color: red !important; }
+      h1 { text-align: center; background-color: #E5E8E8; padding: 14px; color: #000; }
+      pre { white-space: pre-wrap; word-wrap: break-word; }
+      .homepage { padding: 5px 30px 5px 30px; }
+      .logo { float: left; }
+      .oll { padding-left: 1em; }
+      h2#other { text-align: center; }
+      .plotlypie { height: 625px; }
+    </style>
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" id="head1">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html"><img src="assets/images/logo.png" alt="Ruby Powered" class="logo"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Ruby Powered</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Page 1</a></li>
+            <li><a href="index1.html">Page 2</a></li>
+            <li><a href="index2.html">Page 3</a></li>
+            <li><a href="index3.html">Page 4</a></li>
+            <li><a href="index4.html">Page 5</a></li>
+            <li><a href="index5.html">Page 6</a></li>
+            <li><a href="index6.html">Page 7</a></li>
+            <li><a href="index7.html">Page 8</a></li>
+            <li><a href="index8.html">Page 9</a></li>
+            <li><a href="index9.html">Page 10</a></li>
+            <li><a href="index10.html">Page 11</a></li>
+            <li><a href="index11.html">Page 12</a></li>
+            <li><a href="index12.html">Page 13</a></li>
+            <li><a href="index13.html">Page 14</a></li>
+            <li><a href="index14.html">Page 15</a></li>
+            <li><a href="index15.html">Page 16</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1>Chart type: <strong><code>Chart.js</code></strong></h1>
+      <h2 id="other">Branch count grouped by file</h2>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnamesection" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnameshortdesc" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnamestep" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnamesteps" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnametask" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnametaskbody" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnametitle" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnametitlealts" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnametm" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnametopic" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnameul" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnameurl" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnameurlset" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxselementnamexref" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsenumeration" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsenumerationvalueDeny" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsenumerationvalueIndeterminate" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsenumerationvaluePermit" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsenumerationvaluebetter" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsenumerationvalueexact" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsenumerationvaluemaximum" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsenumerationvalueminimum" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsextension" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsextensionbasebase64Binary" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsextensionbasestring" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsimport" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsinclude" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsrestriction" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsrestrictionbaseanyType" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsrestrictionbasebase64Binary" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsrestrictionbaseinteger" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsrestrictionbasestring" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsschema" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxsschemaattributeFormDefaultunqualified" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssequence" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssequencemaxOccursunbounded" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssequenceminOccurs0" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssimpleContent" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssimpleType" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssimpleTypenameAuthnContextComparisonType" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssimpleTypenameCryptoBinary" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssimpleTypenameDecisionType" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssimpleTypenameDigestValueType" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasxssimpleTypenameHMACOutputLengthType" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasabstracttrue" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasattributeFormDefaultunqualified" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasbaseanyType" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasbasebase64Binary" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasbaseinteger" width="400" height="350"></canvas>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <canvas id="chartjs_canvasbasestring" width="400" height="350"></canvas>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <ul class="list-unstyled">
+          <li>
+            <a class="github-button" href="https://github.com/jbampton" data-size="large" data-show-count="true" aria-label="Follow @jbampton on GitHub">Follow @jbampton</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts" data-icon="octicon-star"  data-size="large" data-show-count="true" aria-label="Star jbampton/charts on GitHub">Star</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/subscription" data-icon="octicon-eye"  data-size="large" data-show-count="true" aria-label="Watch jbampton/charts on GitHub">Watch</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/fork" data-icon="octicon-repo-forked"  data-size="large" data-show-count="true" aria-label="Fork jbampton/charts on GitHub">Fork</a>
+          </li>
+          <li><a href="index.html">Page 1</a></li>
+          <li><a href="index1.html">Page 2</a></li>
+          <li><a href="index2.html">Page 3</a></li>
+          <li><a href="index3.html">Page 4</a></li>
+          <li><a href="index4.html">Page 5</a></li>
+          <li><a href="index5.html">Page 6</a></li>
+          <li><a href="index6.html">Page 7</a></li>
+          <li><a href="index7.html">Page 8</a></li>
+          <li><a href="index8.html">Page 9</a></li>
+          <li><a href="index9.html">Page 10</a></li>
+          <li><a href="index10.html">Page 11</a></li>
+          <li><a href="index11.html">Page 12</a></li>
+          <li><a href="index12.html">Page 13</a></li>
+          <li><a href="index13.html">Page 14</a></li>
+          <li><a href="index14.html">Page 15</a></li>
+          <li><a href="index15.html">Page 16</a></li>
+          <li class="nuchecker">
+            <a target="_blank" rel="noopener">Valid HTML</a>
+          </li>
+          <li><a href="#head1">Back to top</a></li>
+          <li><a class="built">Site last built: 2020-01-09T21:51:11+10:00</a></li>
+        </ul>
+        <a href="https://info.flagcounter.com/9VsC"
+           target="_blank" rel="noopener">
+          <img src="https://s01.flagcounter.com/countxl/9VsC/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/"
+               alt="Flag Counter">
+        </a>
+        <a id="theend"></a>
+      </div>
+    </footer>
+    <script src="assets/bootstrap/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/Chart.min.js"></script>
+    <script>
+      var ctx = document.getElementById("chartjs_canvasxselementnamesection");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["reference"],
+            datasets: [{
+                label: '301 - <xs:element name="section"',
+                data: [1],
+                backgroundColor: ["#ff0066"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '301 - <xs:element name="section"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnameshortdesc");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["concept", "topic", "task", "reference"],
+            datasets: [{
+                label: '302 - <xs:element name="shortdesc"',
+                data: [1, 1, 1, 1],
+                backgroundColor: ["#ff6600", "lime", "#cc00ff", "#ff0066"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '302 - <xs:element name="shortdesc"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnamestep");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["task"],
+            datasets: [{
+                label: '303 - <xs:element name="step"',
+                data: [1],
+                backgroundColor: ["#cc00ff"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '303 - <xs:element name="step"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnamesteps");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["task"],
+            datasets: [{
+                label: '304 - <xs:element name="steps"',
+                data: [1],
+                backgroundColor: ["#cc00ff"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '304 - <xs:element name="steps"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnametask");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["task"],
+            datasets: [{
+                label: '305 - <xs:element name="task"',
+                data: [1],
+                backgroundColor: ["#cc00ff"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '305 - <xs:element name="task"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnametaskbody");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["task"],
+            datasets: [{
+                label: '306 - <xs:element name="taskbody"',
+                data: [1],
+                backgroundColor: ["#cc00ff"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '306 - <xs:element name="taskbody"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnametitle");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["concept", "topic", "bookstore", "task", "reference"],
+            datasets: [{
+                label: '307 - <xs:element name="title"',
+                data: [1, 2, 1, 1, 2],
+                backgroundColor: ["#ff6600", "lime", "#00ccff", "#cc00ff", "#ff0066"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '307 - <xs:element name="title"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnametitlealts");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["reference"],
+            datasets: [{
+                label: '308 - <xs:element name="titlealts"',
+                data: [1],
+                backgroundColor: ["#ff0066"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '308 - <xs:element name="titlealts"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnametm");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["topic"],
+            datasets: [{
+                label: '309 - <xs:element name="tm"',
+                data: [2],
+                backgroundColor: ["lime"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '309 - <xs:element name="tm"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnametopic");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["topic"],
+            datasets: [{
+                label: '310 - <xs:element name="topic"',
+                data: [2],
+                backgroundColor: ["lime"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '310 - <xs:element name="topic"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnameul");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["topic"],
+            datasets: [{
+                label: '311 - <xs:element name="ul"',
+                data: [1],
+                backgroundColor: ["lime"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '311 - <xs:element name="ul"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnameurl");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["sitemap"],
+            datasets: [{
+                label: '312 - <xs:element name="url"',
+                data: [1],
+                backgroundColor: ["#ffcc00"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '312 - <xs:element name="url"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnameurlset");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["sitemap"],
+            datasets: [{
+                label: '313 - <xs:element name="urlset"',
+                data: [1],
+                backgroundColor: ["#ffcc00"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '313 - <xs:element name="urlset"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxselementnamexref");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["topic"],
+            datasets: [{
+                label: '314 - <xs:element name="xref"',
+                data: [1],
+                backgroundColor: ["lime"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '314 - <xs:element name="xref"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsenumeration");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20protocol_schema", "saml20assertion_schema"],
+            datasets: [{
+                label: '315 - <xs:enumeration',
+                data: [4, 3],
+                backgroundColor: ["blue", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '315 - <xs:enumeration',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsenumerationvalueDeny");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20assertion_schema"],
+            datasets: [{
+                label: '316 - <xs:enumeration value="Deny"',
+                data: [1],
+                backgroundColor: ["red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '316 - <xs:enumeration value="Deny"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsenumerationvalueIndeterminate");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20assertion_schema"],
+            datasets: [{
+                label: '317 - <xs:enumeration value="Indeterminate"',
+                data: [1],
+                backgroundColor: ["red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '317 - <xs:enumeration value="Indeterminate"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsenumerationvaluePermit");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20assertion_schema"],
+            datasets: [{
+                label: '318 - <xs:enumeration value="Permit"',
+                data: [1],
+                backgroundColor: ["red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '318 - <xs:enumeration value="Permit"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsenumerationvaluebetter");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20protocol_schema"],
+            datasets: [{
+                label: '319 - <xs:enumeration value="better"',
+                data: [1],
+                backgroundColor: ["blue"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '319 - <xs:enumeration value="better"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsenumerationvalueexact");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20protocol_schema"],
+            datasets: [{
+                label: '320 - <xs:enumeration value="exact"',
+                data: [1],
+                backgroundColor: ["blue"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '320 - <xs:enumeration value="exact"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsenumerationvaluemaximum");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20protocol_schema"],
+            datasets: [{
+                label: '321 - <xs:enumeration value="maximum"',
+                data: [1],
+                backgroundColor: ["blue"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '321 - <xs:enumeration value="maximum"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsenumerationvalueminimum");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20protocol_schema"],
+            datasets: [{
+                label: '322 - <xs:enumeration value="minimum"',
+                data: [1],
+                backgroundColor: ["blue"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '322 - <xs:enumeration value="minimum"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsextension");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema", "bookstore", "saml20protocol_schema", "xenc_schema", "saml20assertion_schema"],
+            datasets: [{
+                label: '323 - <xs:extension',
+                data: [1, 1, 13, 2, 8],
+                backgroundColor: ["#00ff66", "#00ccff", "blue", "#6600ff", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '323 - <xs:extension',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsextensionbasebase64Binary");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema"],
+            datasets: [{
+                label: '324 - <xs:extension base="base64Binary"',
+                data: [1],
+                backgroundColor: ["#00ff66"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '324 - <xs:extension base="base64Binary"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsextensionbasestring");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20assertion_schema"],
+            datasets: [{
+                label: '325 - <xs:extension base="string"',
+                data: [2],
+                backgroundColor: ["red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '325 - <xs:extension base="string"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsimport");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20protocol_schema", "xenc_schema", "saml20assertion_schema"],
+            datasets: [{
+                label: '326 - <xs:import',
+                data: [2, 1, 2],
+                backgroundColor: ["blue", "#6600ff", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '326 - <xs:import',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsinclude");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["foo"],
+            datasets: [{
+                label: '327 - <xs:include',
+                data: [1],
+                backgroundColor: ["#66ff00"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '327 - <xs:include',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsrestriction");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema", "saml20protocol_schema", "xenc_schema", "saml20assertion_schema"],
+            datasets: [{
+                label: '328 - <xs:restriction',
+                data: [3, 1, 1, 3],
+                backgroundColor: ["#00ff66", "blue", "#6600ff", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '328 - <xs:restriction',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsrestrictionbaseanyType");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20assertion_schema"],
+            datasets: [{
+                label: '329 - <xs:restriction base="anyType"',
+                data: [1],
+                backgroundColor: ["red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '329 - <xs:restriction base="anyType"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsrestrictionbasebase64Binary");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema"],
+            datasets: [{
+                label: '330 - <xs:restriction base="base64Binary"',
+                data: [2],
+                backgroundColor: ["#00ff66"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '330 - <xs:restriction base="base64Binary"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsrestrictionbaseinteger");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema", "xenc_schema"],
+            datasets: [{
+                label: '331 - <xs:restriction base="integer"',
+                data: [1, 1],
+                backgroundColor: ["#00ff66", "#6600ff"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '331 - <xs:restriction base="integer"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsrestrictionbasestring");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20assertion_schema"],
+            datasets: [{
+                label: '332 - <xs:restriction base="string"',
+                data: [1],
+                backgroundColor: ["red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '332 - <xs:restriction base="string"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsschema");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["concept", "sitemap", "bar", "foo", "topic", "xmldsig_schema", "dinner-menu", "bookstore", "note", "saml20protocol_schema", "xenc_schema", "task", "note2", "reference", "saml20assertion_schema"],
+            datasets: [{
+                label: '333 - <xs:schema',
+                data: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                backgroundColor: ["#ff6600", "#ffcc00", "#ccff00", "#66ff00", "lime", "#00ff66", "#00ffcc", "#00ccff", "#0066ff", "blue", "#6600ff", "#cc00ff", "#ff00cc", "#ff0066", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '333 - <xs:schema',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxsschemaattributeFormDefaultunqualified");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["dinner-menu", "bookstore", "note", "note2"],
+            datasets: [{
+                label: '334 - <xs:schema attributeFormDefault="unqualified"',
+                data: [1, 1, 1, 1],
+                backgroundColor: ["#00ffcc", "#00ccff", "#0066ff", "#ff00cc"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '334 - <xs:schema attributeFormDefault="unqualified"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssequence");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["concept", "sitemap", "topic", "xmldsig_schema", "dinner-menu", "bookstore", "note", "saml20protocol_schema", "xenc_schema", "task", "note2", "reference", "saml20assertion_schema"],
+            datasets: [{
+                label: '335 - <xs:sequence',
+                data: [7, 2, 9, 20, 2, 2, 1, 19, 7, 9, 2, 14, 13],
+                backgroundColor: ["#ff6600", "#ffcc00", "lime", "#00ff66", "#00ffcc", "#00ccff", "#0066ff", "blue", "#6600ff", "#cc00ff", "#ff00cc", "#ff0066", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '335 - <xs:sequence',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssequencemaxOccursunbounded");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema"],
+            datasets: [{
+                label: '336 - <xs:sequence maxOccurs="unbounded"',
+                data: [2],
+                backgroundColor: ["#00ff66"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '336 - <xs:sequence maxOccurs="unbounded"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssequenceminOccurs0");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema"],
+            datasets: [{
+                label: '337 - <xs:sequence minOccurs="0"',
+                data: [3],
+                backgroundColor: ["#00ff66"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '337 - <xs:sequence minOccurs="0"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssimpleContent");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema", "bookstore", "saml20assertion_schema"],
+            datasets: [{
+                label: '338 - <xs:simpleContent',
+                data: [1, 1, 2],
+                backgroundColor: ["#00ff66", "#00ccff", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '338 - <xs:simpleContent',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssimpleType");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema", "saml20protocol_schema", "xenc_schema", "saml20assertion_schema"],
+            datasets: [{
+                label: '339 - <xs:simpleType',
+                data: [3, 1, 1, 1],
+                backgroundColor: ["#00ff66", "blue", "#6600ff", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '339 - <xs:simpleType',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssimpleTypenameAuthnContextComparisonType");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20protocol_schema"],
+            datasets: [{
+                label: '340 - <xs:simpleType name="AuthnContextComparisonType"',
+                data: [1],
+                backgroundColor: ["blue"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '340 - <xs:simpleType name="AuthnContextComparisonType"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssimpleTypenameCryptoBinary");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema"],
+            datasets: [{
+                label: '341 - <xs:simpleType name="CryptoBinary"',
+                data: [1],
+                backgroundColor: ["#00ff66"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '341 - <xs:simpleType name="CryptoBinary"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssimpleTypenameDecisionType");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20assertion_schema"],
+            datasets: [{
+                label: '342 - <xs:simpleType name="DecisionType"',
+                data: [1],
+                backgroundColor: ["red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '342 - <xs:simpleType name="DecisionType"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssimpleTypenameDigestValueType");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema"],
+            datasets: [{
+                label: '343 - <xs:simpleType name="DigestValueType"',
+                data: [1],
+                backgroundColor: ["#00ff66"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '343 - <xs:simpleType name="DigestValueType"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasxssimpleTypenameHMACOutputLengthType");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema"],
+            datasets: [{
+                label: '344 - <xs:simpleType name="HMACOutputLengthType"',
+                data: [1],
+                backgroundColor: ["#00ff66"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '344 - <xs:simpleType name="HMACOutputLengthType"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasabstracttrue");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20protocol_schema", "saml20assertion_schema"],
+            datasets: [{
+                label: '345 - abstract="true"',
+                data: [2, 3],
+                backgroundColor: ["blue", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '345 - abstract="true"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasattributeFormDefaultunqualified");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["concept", "sitemap", "topic", "dinner-menu", "bookstore", "note", "saml20protocol_schema", "task", "note2", "reference", "saml20assertion_schema"],
+            datasets: [{
+                label: '346 - attributeFormDefault="unqualified"',
+                data: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+                backgroundColor: ["#ff6600", "#ffcc00", "lime", "#00ffcc", "#00ccff", "#0066ff", "blue", "#cc00ff", "#ff00cc", "#ff0066", "red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '346 - attributeFormDefault="unqualified"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasbaseanyType");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20assertion_schema"],
+            datasets: [{
+                label: '347 - base="anyType"',
+                data: [1],
+                backgroundColor: ["red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '347 - base="anyType"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasbasebase64Binary");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema"],
+            datasets: [{
+                label: '348 - base="base64Binary"',
+                data: [3],
+                backgroundColor: ["#00ff66"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '348 - base="base64Binary"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasbaseinteger");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["xmldsig_schema", "xenc_schema"],
+            datasets: [{
+                label: '349 - base="integer"',
+                data: [1, 1],
+                backgroundColor: ["#00ff66", "#6600ff"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '349 - base="integer"',
+              fontSize: 15
+            }
+        }
+      });
+  
+      var ctx = document.getElementById("chartjs_canvasbasestring");
+      var myChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ["saml20assertion_schema"],
+            datasets: [{
+                label: '350 - base="string"',
+                data: [3],
+                backgroundColor: ["red"]
+            }]
+        },
+        options: {
+            responsive: false,
+            title : {
+              display: true,
+              text: '350 - base="string"',
+              fontSize: 15
+            }
+        }
+      });
+  
+        $(document).ready(function () {
+           "use strict";
+           var last = $(location).attr("href").split("/").pop().split(".")[0].replace(/index/, "");
+           var tab = 1;
+           if (last !== "") {
+             tab = parseInt(last) + 1;
+           }
+           $(".navbar-nav li:nth-child(" + tab + ")").addClass("selected");
+           tab--;
+           if (tab === 0) {
+             tab = "";
+           }
+          $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=http%3A%2F%2Fthebeast.me%2Fcharts%2Findex" + tab + ".html");
+      });
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>

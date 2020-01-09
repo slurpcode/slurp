@@ -1,0 +1,4950 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head;
+         any other head content must come *after* these tags -->
+    <title>Ruby, Python, Perl and JavaScript based charting demonstration and configurable static site generator</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/icons/ms-icon-144x144.png">
+    <meta name="description" content="Analytics dashboard built from Ruby, Python and Perl using the d3pie, Google charts, Chart.js, plotly.js, Matplotlib and Seaborn charting libraries.">
+    <meta name="theme-color" content="#E5E8E8">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
+    <style>
+      .container-fluid { padding: 0px; }
+      .navbar, .navbar-default { margin-bottom: 0; padding: 5pt; background-color: #E5E8E8; font-size: 12pt; }
+      .navbar, .navbar-default li a { color: #000 !important; }
+      .navbar-default .navbar-brand { margin-left: 20px !important; color: #c7254e; font-size: 18pt; font-weight: bold; }
+      .navbar-brand:hover { background-color: red !important; }
+      div[id^="d3pie_chart_div_"], canvas { margin-bottom: 100px; }
+      footer { background-color: #E5E8E8; min-height: 200px;}
+      footer ul a { color: #000 !important; font-size: 13pt; }
+      footer .container { margin-left: 15px; }
+      .built { text-decoration: none !important; }
+      .selected { background-color: aliceblue; font-weight: bold; }
+      .navbar-default li:hover a { background-color: red !important; }
+      h1 { text-align: center; background-color: #E5E8E8; padding: 14px; color: #000; }
+      pre { white-space: pre-wrap; word-wrap: break-word; }
+      .homepage { padding: 5px 30px 5px 30px; }
+      .logo { float: left; }
+      .oll { padding-left: 1em; }
+      h2#other { text-align: center; }
+      .plotlypie { height: 625px; }
+    </style>
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" id="head1">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html"><img src="assets/images/logo.png" alt="Ruby Powered" class="logo"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Ruby Powered</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Page 1</a></li>
+            <li><a href="index1.html">Page 2</a></li>
+            <li><a href="index2.html">Page 3</a></li>
+            <li><a href="index3.html">Page 4</a></li>
+            <li><a href="index4.html">Page 5</a></li>
+            <li><a href="index5.html">Page 6</a></li>
+            <li><a href="index6.html">Page 7</a></li>
+            <li><a href="index7.html">Page 8</a></li>
+            <li><a href="index8.html">Page 9</a></li>
+            <li><a href="index9.html">Page 10</a></li>
+            <li><a href="index10.html">Page 11</a></li>
+            <li><a href="index11.html">Page 12</a></li>
+            <li><a href="index12.html">Page 13</a></li>
+            <li><a href="index13.html">Page 14</a></li>
+            <li><a href="index14.html">Page 15</a></li>
+            <li><a href="index15.html">Page 16</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1>Chart type: <strong><code>d3pie</code></strong></h1>
+      <h2 id="other">Branch count grouped by file</h2>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameIDNameQualifiers"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameIDPEntry"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameIDPEntryType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameIDPList"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameIDPListType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameId"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameInResponseTo"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameIsPassive"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameIssueInstant"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameIssuer"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameJ"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameKeyInfo"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameKeyInfoConfirmationDataType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameKeyInfoType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameKeyName"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameKeyValue"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameKeyValueType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameLoc"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameLogoutRequest"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameLogoutRequestType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameLogoutResponse"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameManageNameIDRequest"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameManageNameIDRequestType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameManageNameIDResponse"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameManifest"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameManifestType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameMethod"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameMgmtData"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameMimeType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameModulus"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameName"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameFormat"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameID"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameIDMappingRequest"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameIDMappingRequestType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameIDMappingResponse"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameIDMappingResponseType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameIDPolicy"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameIDPolicyType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameIDType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNameQualifier"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNamespace"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNewEncryptedID"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNewID"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNotBefore"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameNotOnOrAfter"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameObject"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameObjectType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameOneTimeUse"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_nameOneTimeUseType"></div>
+    </div>
+    <footer>
+      <div class="container">
+        <ul class="list-unstyled">
+          <li>
+            <a class="github-button" href="https://github.com/jbampton" data-size="large" data-show-count="true" aria-label="Follow @jbampton on GitHub">Follow @jbampton</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts" data-icon="octicon-star"  data-size="large" data-show-count="true" aria-label="Star jbampton/charts on GitHub">Star</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/subscription" data-icon="octicon-eye"  data-size="large" data-show-count="true" aria-label="Watch jbampton/charts on GitHub">Watch</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/fork" data-icon="octicon-repo-forked"  data-size="large" data-show-count="true" aria-label="Fork jbampton/charts on GitHub">Fork</a>
+          </li>
+          <li><a href="index.html">Page 1</a></li>
+          <li><a href="index1.html">Page 2</a></li>
+          <li><a href="index2.html">Page 3</a></li>
+          <li><a href="index3.html">Page 4</a></li>
+          <li><a href="index4.html">Page 5</a></li>
+          <li><a href="index5.html">Page 6</a></li>
+          <li><a href="index6.html">Page 7</a></li>
+          <li><a href="index7.html">Page 8</a></li>
+          <li><a href="index8.html">Page 9</a></li>
+          <li><a href="index9.html">Page 10</a></li>
+          <li><a href="index10.html">Page 11</a></li>
+          <li><a href="index11.html">Page 12</a></li>
+          <li><a href="index12.html">Page 13</a></li>
+          <li><a href="index13.html">Page 14</a></li>
+          <li><a href="index14.html">Page 15</a></li>
+          <li><a href="index15.html">Page 16</a></li>
+          <li class="nuchecker">
+            <a target="_blank" rel="noopener">Valid HTML</a>
+          </li>
+          <li><a href="#head1">Back to top</a></li>
+          <li><a class="built">Site last built: 2020-01-09T21:51:11+10:00</a></li>
+        </ul>
+        <a href="https://info.flagcounter.com/9VsC"
+           target="_blank" rel="noopener">
+          <img src="https://s01.flagcounter.com/countxl/9VsC/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/"
+               alt="Flag Counter">
+        </a>
+        <a id="theend"></a>
+      </div>
+    </footer>
+    <script src="assets/bootstrap/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/d3/d3.js"></script>
+    <script src="assets/js/d3pie.min.js"></script>
+    <script>
+    var pie = new d3pie('d3pie_chart_div_nameIDNameQualifiers', {
+        'header': {
+            'title': {
+                'text': '451 - name="IDNameQualifiers"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameIDPEntry', {
+        'header': {
+            'title': {
+                'text': '452 - name="IDPEntry"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameIDPEntryType', {
+        'header': {
+            'title': {
+                'text': '453 - name="IDPEntryType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameIDPList', {
+        'header': {
+            'title': {
+                'text': '454 - name="IDPList"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameIDPListType', {
+        'header': {
+            'title': {
+                'text': '455 - name="IDPListType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameId', {
+        'header': {
+            'title': {
+                'text': '456 - name="Id"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':9,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameInResponseTo', {
+        'header': {
+            'title': {
+                'text': '457 - name="InResponseTo"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'},{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameIsPassive', {
+        'header': {
+            'title': {
+                'text': '458 - name="IsPassive"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameIssueInstant', {
+        'header': {
+            'title': {
+                'text': '459 - name="IssueInstant"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '2 maximum occurrences in file "saml20protocol_schema.xsd"',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':2,'color':'blue'},{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameIssuer', {
+        'header': {
+            'title': {
+                'text': '460 - name="Issuer"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameJ', {
+        'header': {
+            'title': {
+                'text': '461 - name="J"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameKeyInfo', {
+        'header': {
+            'title': {
+                'text': '462 - name="KeyInfo"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameKeyInfoConfirmationDataType', {
+        'header': {
+            'title': {
+                'text': '463 - name="KeyInfoConfirmationDataType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameKeyInfoType', {
+        'header': {
+            'title': {
+                'text': '464 - name="KeyInfoType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameKeyName', {
+        'header': {
+            'title': {
+                'text': '465 - name="KeyName"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameKeyValue', {
+        'header': {
+            'title': {
+                'text': '466 - name="KeyValue"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameKeyValueType', {
+        'header': {
+            'title': {
+                'text': '467 - name="KeyValueType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameLoc', {
+        'header': {
+            'title': {
+                'text': '468 - name="Loc"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameLogoutRequest', {
+        'header': {
+            'title': {
+                'text': '469 - name="LogoutRequest"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameLogoutRequestType', {
+        'header': {
+            'title': {
+                'text': '470 - name="LogoutRequestType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameLogoutResponse', {
+        'header': {
+            'title': {
+                'text': '471 - name="LogoutResponse"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameManageNameIDRequest', {
+        'header': {
+            'title': {
+                'text': '472 - name="ManageNameIDRequest"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameManageNameIDRequestType', {
+        'header': {
+            'title': {
+                'text': '473 - name="ManageNameIDRequestType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameManageNameIDResponse', {
+        'header': {
+            'title': {
+                'text': '474 - name="ManageNameIDResponse"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameManifest', {
+        'header': {
+            'title': {
+                'text': '475 - name="Manifest"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameManifestType', {
+        'header': {
+            'title': {
+                'text': '476 - name="ManifestType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameMethod', {
+        'header': {
+            'title': {
+                'text': '477 - name="Method"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameMgmtData', {
+        'header': {
+            'title': {
+                'text': '478 - name="MgmtData"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameMimeType', {
+        'header': {
+            'title': {
+                'text': '479 - name="MimeType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameModulus', {
+        'header': {
+            'title': {
+                'text': '480 - name="Modulus"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameName', {
+        'header': {
+            'title': {
+                'text': '481 - name="Name"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'},{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameFormat', {
+        'header': {
+            'title': {
+                'text': '482 - name="NameFormat"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameID', {
+        'header': {
+            'title': {
+                'text': '483 - name="NameID"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameIDMappingRequest', {
+        'header': {
+            'title': {
+                'text': '484 - name="NameIDMappingRequest"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameIDMappingRequestType', {
+        'header': {
+            'title': {
+                'text': '485 - name="NameIDMappingRequestType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameIDMappingResponse', {
+        'header': {
+            'title': {
+                'text': '486 - name="NameIDMappingResponse"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameIDMappingResponseType', {
+        'header': {
+            'title': {
+                'text': '487 - name="NameIDMappingResponseType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameIDPolicy', {
+        'header': {
+            'title': {
+                'text': '488 - name="NameIDPolicy"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameIDPolicyType', {
+        'header': {
+            'title': {
+                'text': '489 - name="NameIDPolicyType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameIDType', {
+        'header': {
+            'title': {
+                'text': '490 - name="NameIDType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNameQualifier', {
+        'header': {
+            'title': {
+                'text': '491 - name="NameQualifier"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNamespace', {
+        'header': {
+            'title': {
+                'text': '492 - name="Namespace"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNewEncryptedID', {
+        'header': {
+            'title': {
+                'text': '493 - name="NewEncryptedID"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNewID', {
+        'header': {
+            'title': {
+                'text': '494 - name="NewID"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNotBefore', {
+        'header': {
+            'title': {
+                'text': '495 - name="NotBefore"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':2,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameNotOnOrAfter', {
+        'header': {
+            'title': {
+                'text': '496 - name="NotOnOrAfter"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '2 maximum occurrences in file "saml20assertion_schema.xsd"',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20protocol_schema','value':1,'color':'blue'},{'label':'saml20assertion_schema','value':2,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameObject', {
+        'header': {
+            'title': {
+                'text': '497 - name="Object"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameObjectType', {
+        'header': {
+            'title': {
+                'text': '498 - name="ObjectType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'xmldsig_schema','value':1,'color':'#00ff66'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameOneTimeUse', {
+        'header': {
+            'title': {
+                'text': '499 - name="OneTimeUse"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+    var pie = new d3pie('d3pie_chart_div_nameOneTimeUseType', {
+        'header': {
+            'title': {
+                'text': '500 - name="OneTimeUseType"',
+                'fontSize': 13,
+                'font': 'Arial Black'
+            }
+        },
+        'footer': {
+            'text': '',
+            'color': '#999',
+            'fontSize': 12,
+            'font': 'Arial Black',
+            'location': 'bottom-center'
+        },
+        'size': {
+            'canvasWidth': 490,
+            'canvasHeight': 425,
+            'pieOuterRadius': '75%',
+            'pieInnerRadius': '35%'
+        },
+
+        'data': {
+            'sortOrder': 'value-desc',
+            'smallSegmentGrouping': {
+                'enabled': true,
+                'value': 3
+            },
+            'content': [{'label':'saml20assertion_schema','value':1,'color':'red'}
+            ]
+        },
+        callbacks: {
+          onMouseoverSegment: function(info) {
+            console.log('mouseover:', info);
+          },
+          onMouseoutSegment: function(info) {
+            console.log('mouseout:', info);
+          }
+        },
+        'labels': {
+            'outer': {
+                'pieDistance': 20
+            },
+            'inner': {
+                'format': 'value',
+                'hideWhenLessThanPercentage': 3
+            },
+            'mainLabel': {
+                'fontSize': 11
+            },
+            'percentage': {
+                'color': '#ffffff',
+                'decimalPlaces': 0
+            },
+            'value': {
+                'color': '#ffffff',
+                'fontSize': 12
+            },
+            'lines': {
+                'enabled': true
+            },
+            'truncation': {
+                'enabled': true
+            }
+        },
+        'tooltips': {
+            'enabled': true,
+            'type': 'placeholder',
+            'string': '{label}: {value}, {percentage}%',
+            'styles': {
+                'fadeInSpeed': 586,
+                'backgroundOpacity': 0.7,
+                'color': '#ffffff',
+                'fontSize': 12
+            }
+        },
+        'effects': {
+            'pullOutSegmentOnClick': {
+                'effect': 'linear',
+                'speed': 400,
+                'size': 10
+            }
+        },
+        'misc': {
+            'colors': {
+                'background': '#fff'
+            },
+            'gradient': {
+                'enabled': true,
+                'percentage': 100
+            }
+        }
+    });
+
+        $(document).ready(function () {
+           "use strict";
+           var last = $(location).attr("href").split("/").pop().split(".")[0].replace(/index/, "");
+           var tab = 1;
+           if (last !== "") {
+             tab = parseInt(last) + 1;
+           }
+           $(".navbar-nav li:nth-child(" + tab + ")").addClass("selected");
+           tab--;
+           if (tab === 0) {
+             tab = "";
+           }
+          $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=http%3A%2F%2Fthebeast.me%2Fcharts%2Findex" + tab + ".html");
+      });
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+  <xs:element name="note">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="date">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="year"/>
+              <xs:element type="xs:byte" name="month"/>
+              <xs:element type="xs:byte" name="day"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="to"/>
+        <xs:element type="xs:string" name="from"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

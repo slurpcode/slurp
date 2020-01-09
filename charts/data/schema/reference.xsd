@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Mon Jan 01 2018 09:34:51 GMT+1000 (AEST) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="reference">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="title" type="xs:string"></xs:element>
+                           <xs:element name="titlealts">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="navtitle" type="xs:string"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="shortdesc" type="xs:string"></xs:element>
+                           <xs:element name="prolog">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="metadata">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="keywords">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="indexterm" maxOccurs="unbounded" type="xs:string">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="indexterm" type="xs:string">
+                                                                                                         <xs:complexType>
+                                                                                                               <xs:sequence>
+                                                                                                                     <xs:element name="indexterm" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                                                                               </xs:sequence>
+                                                                                                         </xs:complexType>
+                                                                                                   </xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="refbody">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="section">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="fig">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="title" type="xs:string"></xs:element>
+                                                                                 <xs:element name="parml">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="plentry" maxOccurs="unbounded">
+                                                                                                         <xs:complexType>
+                                                                                                               <xs:sequence>
+                                                                                                                     <xs:element name="pt">
+                                                                                                                           <xs:complexType>
+                                                                                                                                 <xs:sequence>
+                                                                                                                                       <xs:element name="parmname" type="xs:string"></xs:element>
+                                                                                                                                 </xs:sequence>
+                                                                                                                           </xs:complexType>
+                                                                                                                     </xs:element>
+                                                                                                                     <xs:element name="pd" type="xs:string">
+                                                                                                                           <xs:complexType>
+                                                                                                                                 <xs:sequence>
+                                                                                                                                       <xs:element name="option" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                                                                                                 </xs:sequence>
+                                                                                                                                 <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                                                                                                           </xs:complexType>
+                                                                                                                     </xs:element>
+                                                                                                               </xs:sequence>
+                                                                                                               <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                                                                                         </xs:complexType>
+                                                                                                   </xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+                     <xs:attribute name="id" type="xs:string"></xs:attribute>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
+ 

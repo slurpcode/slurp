@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE schema  PUBLIC "-//W3C//DTD XMLSchema 200102//EN"
+ "http://www.w3.org/2001/XMLSchema.dtd"
+ [
+   <!ATTLIST schema
+     xmlns:xenc CDATA #FIXED 'http://www.w3.org/2001/04/xmlenc#'
+     xmlns:ds CDATA #FIXED 'http://www.w3.org/2000/09/xmldsig#'>
+   <!ENTITY xenc 'http://www.w3.org/2001/04/xmlenc#'>
+   <!ENTITY % p ''>
+   <!ENTITY % s ''>
+  ]>
+
+<xs:schema xmlns:xenc='http://www.w3.org/2001/04/xmlenc#'
+        xmlns:ds='http://www.w3.org/2000/09/xmldsig#'
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        targetNamespace='http://www.w3.org/2001/04/xmlenc#'
+        elementFormDefault='qualified' version="1.0">
+
+  <xs:import namespace='http://www.w3.org/2000/09/xmldsig#'
+          schemaLocation='xmldsig_schema.xsd'/>
+
+  <xs:complexType name='EncryptedType' abstract='true'>
+    <xs:sequence>
+      <xs:element name='EncryptionMethod' type='xenc:EncryptionMethodType'
+       minOccurs='0'/>
+      <xs:element ref='ds:KeyInfo' minOccurs='0'/>
+      <xs:element ref='xenc:CipherData'/>
+      <xs:element ref='xenc:EncryptionProperties' minOccurs='0'/>
+    </xs:sequence>
+    <xs:attribute name='Id' type='ID' use='optional'/>
+    <xs:attribute name='Type' type='anyURI' use='optional'/>
+    <xs:attribute name='MimeType' type='string' use='optional'/>
+    <xs:attribute name='Encoding' type='anyURI' use='optional'/>
+  </xs:complexType>
+
+  <xs:complexType name='EncryptionMethodType' mixed='true'>
+    <xs:sequence>
+      <xs:element name='KeySize' minOccurs='0' type='xenc:KeySizeType'/>
+      <xs:element name='OAEPparams' minOccurs='0' type='base64Binary'/>
+      <xs:any namespace='##other' minOccurs='0' maxOccurs='unbounded'/>
+    </xs:sequence>
+    <xs:attribute name='Algorithm' type='anyURI' use='required'/>
+  </xs:complexType>
+
+    <xs:simpleType name='KeySizeType'>
+      <xs:restriction base="integer"/>
+    </xs:simpleType>
+
+  <xs:element name='CipherData' type='xenc:CipherDataType'/>
+  <xs:complexType name='CipherDataType'>
+     <xs:choice>
+       <xs:element name='CipherValue' type='base64Binary'/>
+       <xs:element ref='xenc:CipherReference'/>
+     </xs:choice>
+    </xs:complexType>
+
+   <xs:element name='CipherReference' type='xenc:CipherReferenceType'/>
+   <xs:complexType name='CipherReferenceType'>
+       <xs:choice>
+         <xs:element name='Transforms' type='xenc:TransformsType' minOccurs='0'/>
+       </xs:choice>
+       <xs:attribute name='URI' type='anyURI' use='required'/>
+   </xs:complexType>
+
+     <xs:complexType name='TransformsType'>
+       <xs:sequence>
+         <xs:element ref='ds:Transform' maxOccurs='unbounded'/>
+       </xs:sequence>
+     </xs:complexType>
+
+
+  <xs:element name='EncryptedData' type='xenc:EncryptedDataType'/>
+  <xs:complexType name='EncryptedDataType'>
+    <xs:complexContent>
+      <xs:extension base='xenc:EncryptedType'>
+       </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+  <!-- Children of ds:KeyInfo -->
+
+  <xs:element name='EncryptedKey' type='xenc:EncryptedKeyType'/>
+  <xs:complexType name='EncryptedKeyType'>
+    <xs:complexContent>
+      <xs:extension base='xenc:EncryptedType'>
+        <xs:sequence>
+          <xs:element ref='xenc:ReferenceList' minOccurs='0'/>
+          <xs:element name='CarriedKeyName' type='string' minOccurs='0'/>
+        </xs:sequence>
+        <xs:attribute name='Recipient' type='string'
+         use='optional'/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+
+    <xs:element name="AgreementMethod" type="xenc:AgreementMethodType"/>
+    <xs:complexType name="AgreementMethodType" mixed="true">
+      <xs:sequence>
+        <xs:element name="KA-Nonce" minOccurs="0" type="base64Binary"/>
+        <!-- <xs:element ref="ds:DigestMethod" minOccurs="0"/> -->
+        <xs:any namespace="##other" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="OriginatorKeyInfo" minOccurs="0" type="ds:KeyInfoType"/>
+        <xs:element name="RecipientKeyInfo" minOccurs="0" type="ds:KeyInfoType"/>
+      </xs:sequence>
+      <xs:attribute name="Algorithm" type="anyURI" use="required"/>
+    </xs:complexType>
+
+  <!-- End Children of ds:KeyInfo -->
+
+  <xs:element name='ReferenceList'>
+    <xs:complexType>
+      <xs:choice minOccurs='1' maxOccurs='unbounded'>
+        <xs:element name='DataReference' type='xenc:ReferenceType'/>
+        <xs:element name='KeyReference' type='xenc:ReferenceType'/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name='ReferenceType'>
+    <xs:sequence>
+      <xs:any namespace='##other' minOccurs='0' maxOccurs='unbounded'/>
+    </xs:sequence>
+    <xs:attribute name='URI' type='anyURI' use='required'/>
+  </xs:complexType>
+
+
+  <xs:element name='EncryptionProperties' type='xenc:EncryptionPropertiesType'/>
+  <xs:complexType name='EncryptionPropertiesType'>
+    <xs:sequence>
+      <xs:element ref='xenc:EncryptionProperty' maxOccurs='unbounded'/>
+    </xs:sequence>
+    <xs:attribute name='Id' type='ID' use='optional'/>
+  </xs:complexType>
+
+    <xs:element name='EncryptionProperty' type='xenc:EncryptionPropertyType'/>
+    <xs:complexType name='EncryptionPropertyType' mixed='true'>
+      <xs:choice maxOccurs='unbounded'>
+        <xs:any namespace='##other' processContents='lax'/>
+      </xs:choice>
+      <xs:attribute name='Target' type='anyURI' use='optional'/>
+      <xs:attribute name='Id' type='ID' use='optional'/>
+      <xs:anyAttribute namespace="http://www.w3.org/XML/1998/namespace"/>
+    </xs:complexType>
+
+</xs:schema>

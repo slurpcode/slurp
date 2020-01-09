@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Mon Jan 01 2018 09:32:53 GMT+1000 (AEST) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="topic">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="title" type="xs:string"></xs:element>
+                           <xs:element name="shortdesc" type="xs:string">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="tm" type="xs:string">
+                                                   <xs:complexType>
+                                                         <xs:attribute name="tmclass" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="tmowner" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="tmtype" type="xs:string"></xs:attribute>
+                                                         <xs:attribute name="trademark" type="xs:string"></xs:attribute>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="body">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="note" type="xs:string">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="xref" type="xs:string">
+                                                                     <xs:complexType>
+                                                                           <xs:attribute name="format" type="xs:string"></xs:attribute>
+                                                                           <xs:attribute name="href" type="xs:string"></xs:attribute>
+                                                                           <xs:attribute name="scope" type="xs:string"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                             <xs:element name="required-cleanup">
+                                                   <xs:complexType>
+                                                         <xs:sequence>
+                                                               <xs:element name="p" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                               <xs:element name="topic" maxOccurs="unbounded">
+                                                                     <xs:complexType>
+                                                                           <xs:sequence>
+                                                                                 <xs:element name="title" type="xs:string"></xs:element>
+                                                                                 <xs:element name="body">
+                                                                                       <xs:complexType>
+                                                                                             <xs:sequence>
+                                                                                                   <xs:element name="p" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="ul">
+                                                                                                         <xs:complexType>
+                                                                                                               <xs:sequence>
+                                                                                                                     <xs:element name="li" maxOccurs="unbounded">
+                                                                                                                           <xs:complexType>
+                                                                                                                                 <xs:sequence>
+                                                                                                                                       <xs:element name="tm" type="xs:string">
+                                                                                                                                             <xs:complexType>
+                                                                                                                                                   <xs:attribute name="tmclass" type="xs:string"></xs:attribute>
+                                                                                                                                                   <xs:attribute name="tmowner" type="xs:string"></xs:attribute>
+                                                                                                                                                   <xs:attribute name="tmtype" type="xs:string"></xs:attribute>
+                                                                                                                                                   <xs:attribute name="trademark" type="xs:string"></xs:attribute>
+                                                                                                                                             </xs:complexType>
+                                                                                                                                       </xs:element>
+                                                                                                                                 </xs:sequence>
+                                                                                                                           </xs:complexType>
+                                                                                                                     </xs:element>
+                                                                                                               </xs:sequence>
+                                                                                                         </xs:complexType>
+                                                                                                   </xs:element>
+                                                                                                   <xs:element name="p" type="xs:string"></xs:element>
+                                                                                                   <xs:element name="pre" type="xs:string"></xs:element>
+                                                                                             </xs:sequence>
+                                                                                       </xs:complexType>
+                                                                                 </xs:element>
+                                                                           </xs:sequence>
+                                                                           <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                                                     </xs:complexType>
+                                                               </xs:element>
+                                                         </xs:sequence>
+                                                   </xs:complexType>
+                                             </xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                     </xs:sequence>
+                     <xs:attribute name="id" type="xs:string"></xs:attribute>
+                     <xs:attribute name="xml:lang" type="xs:string"></xs:attribute>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
+ 
