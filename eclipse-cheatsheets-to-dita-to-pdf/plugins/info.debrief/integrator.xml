@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project name="info.debrief">
+  <target name="debrief.init">
+    <property name="customization.dir" location="${dita.plugin.info.debrief.dir}/cfg"/>
+  </target>
+  <target name="dita2debrief" depends="debrief.init, dita2pdf2"/>
+</project>
+
