@@ -2,7 +2,7 @@
 <vars xmlns="http://www.idiominc.com/opentopic/vars">
   <variable id="Body first header"><param ref-name="heading"/></variable>
    <variable id="Body odd header">
-     <param ref-name="prodname"/> 
+     <param ref-name="prodname"/>
     <param ref-name="heading"/>
    </variable>
   <variable id="Body even header"><param ref-name="heading"/></variable>

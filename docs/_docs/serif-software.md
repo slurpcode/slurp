@@ -47,7 +47,7 @@ capabilities of the Affinity apps. I have known for some time that these apps
 were more capable than the very good line of legacy apps from Serif, but in
 researching Affinity for this short article, I discovered that I have an
 incredible amount to learn. Iím the kind of person who likes to learn by
-doing.  
+doing.
 When it comes to software I just play with it, poke around and see what I can
 do, but with Affinity, that isn't enough for me. Since I have never taken
 classes in graphic design, and I have only read a little on basic design
