@@ -8,6 +8,7 @@ shapes instead of bitmaps. It was created in 1989 and has been evolving through 
 The current version is CorelDraw 2019, and it includes a bitmap editing application, Corel Photopaint, a 
 very complete program to work with photos or any other bitmap image, as well as some other apps. 
 Corel 2019 was released, for the very first time, for Apple MacOS as well as for Windows.
+
 Vectors: digital images can be stored as grids of colored points (pixels) known as bitmaps, so even the 
 best quality picture, when you expand it or take a very close look, will show these colored pixels and 
 smooth lines will become saw lines that look like stairs. Vectors do not use bitmaps, but mathematical 
@@ -22,7 +23,9 @@ CorelDraw has become a very professional tool for the graphic designer, includin
 working alternatives like basic shape drawing  (lines, squares, circles and ovals, polygons, stars, spirals, 
 grids, curves), shape editing (weld, trim, intersect shapes), text tool, text into curves conversion, node 
 editing, interactive fills (flat color fill, gradient fill, pattern fill, bitmap fill), translucent shadows and 
-glows, translucent shapes, and basic bitmap editing.  CorelDraw has the capability to manage bitmaps 
+glows, translucent shapes, and basic bitmap editing.  
+
+CorelDraw has the capability to manage bitmaps 
 together with text and  vectors to produce complex compositions like magazine pages, so it's a great 
 alternative for publishing composition, multi-page files, bitmap tracing, effects like perspective or shape 
 distorting, and dozens of other tools.
@@ -32,13 +35,15 @@ program, allowing the designers to produce artistic and lively images.
 To help users, there is a wide support net which includes blogs, videos, tutorials and chat communities. 
 These are some links:
 
-https://www.coreldraw.com/en/
+# Links
 
-https://community.coreldraw.com
+[CorelDRAW](https://www.coreldraw.com/en/)
 
-https://blog.corel.com
+[CorelDRAW Community](https://community.coreldraw.com)
 
-https://www.youtube.com/channel/UC-e2Awp0H1mtwIllJqZw45g
+[Corel Blogs](https://blog.corel.com)
 
-https://www.youtube.com/watch?v=TpbFHCEvnpY
+[CorelDRAW YouTube](https://www.youtube.com/channel/UC-e2Awp0H1mtwIllJqZw45g)
+
+[CorelDRAW 2018 - Full Tutorial for Beginners](https://www.youtube.com/watch?v=TpbFHCEvnpY)
 

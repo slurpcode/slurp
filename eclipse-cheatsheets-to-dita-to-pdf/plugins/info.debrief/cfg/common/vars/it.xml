@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='ASCII'?>
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+  <variable id="Body first header"><param ref-name="pagenum" /></variable>
+  <variable id="Body odd header"><param ref-name="pagenum" /></variable>
+  <variable id="Body even header"><param ref-name="pagenum" /></variable>
+  <variable id="Preface odd header"><param ref-name="pagenum" /></variable>
+  <variable id="Preface even header"><param ref-name="pagenum" /></variable>
+  <variable id="Preface first header"><param ref-name="pagenum" /></variable>
+  <variable id="Toc odd header"><param ref-name="pagenum" /></variable>
+  <variable id="Toc even header"><param ref-name="pagenum" /></variable>
+  <variable id="Index odd header"><param ref-name="pagenum" /></variable>
+  <variable id="Index even header"><param ref-name="pagenum" /></variable>
+  <variable id="Glossary odd header"><param ref-name="pagenum" /></variable>
+  <variable id="Glossary even header"><param ref-name="pagenum" /></variable>
+  <variable id="Body odd footer" />
+  <variable id="Body even footer" />
+  <variable id="Body first footer" />
+  <variable id="Preface odd footer" />
+  <variable id="Preface even footer" />
+  <variable id="Preface first footer" />
+  <variable id="Toc odd footer" />
+  <variable id="Toc even footer" />
+  <variable id="Index odd footer" />
+  <variable id="Index even footer" />
+  <variable id="Glossary odd footer" />
+  <variable id="Glossary even footer" />
+</vars>

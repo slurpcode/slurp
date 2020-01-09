@@ -14,7 +14,9 @@ a newcomer to the world of graphic design, having spent most of my life working
 in the aerospace electronics and gaming industries, which both demand precise
 adherence to rules and proper work procedures. So when I decided I wanted to be
 a graphic designer, I did some research and I chose Serif Software for my design
-work. Serif Software is published in England and provides comprehensive and
+work. 
+
+Serif Software is published in England and provides comprehensive and
 extremely capable suites of apps that include design, photo and publishing
 programs at prices, and with upgrade policies, far better than Adobe software. I
 originally used Serif DrawPlus, PhotoPlus and PagePlus on my Windows PC and then
@@ -22,6 +24,7 @@ Serif introduced the award winning Affinity line of design apps: Affinity
 Designer, Affinity Photo and Affinity Publisher. Affinity was originally
 introduced for use on Macs and iPads and then Serif expanded Affinity to include
 apps for Windows (all file format outputs are interchangeable).
+
 I find that there are some features of the older Plus line that I prefer and
 many features of the Affinity line that I prefer. In the course of my design
 work, I’m even able to use a mixture of the older legacy Plus apps and the newer
@@ -46,15 +49,17 @@ that I have an incredible amount to learn.  Iím the kind of person who likes to
 When it comes to software I just play with it, poke around and see what I can do, but with 
 Affinity, that isn't enough for me.  Since I have never taken classes in graphic design, and I have 
 only read a little on basic design principles, with the older legacy, Plus line of apps, I needed just 
-a few tutorials.  But Affinity is amazing.  Hereís a link to the Affinity tutorials that I will soon 
-immerse myself in:  https://affinity.serif.com/en-us/learn/ and here is a link to the Affinity home 
-page:  https://affinity.serif.com/en-us/  The point I would like to make is that Affinity is 
+a few tutorials.  But Affinity is amazing.  Here's a link to the Affinity tutorials that I will soon 
+immerse myself in:  [Affinity tutorials](https://affinity.serif.com/en-us/learn/) and here is a link to the Affinity home 
+page:  [Affinity](https://affinity.serif.com/en-us/).  The point I would like to make is that Affinity is 
 tremendously capable and worth investigating and it's NOT a subscription service. 
  
 The thing I like most about Affinity is that all of the apps, Publisher, Designer and Photo are 
 seamlessly connected, so that when working on any document, one can switch between 
 designing, photo editing and publishing with just a couple mouse clicks and without saving and 
-exporting.  There is a screenshot attached that shows this:  Easy Editing.png.
+exporting.  There is a screenshot attached that shows this:
+
+![Easy Editing](/assets/images/docs/serif/easy-editing.png "Easy Editing")
 
 Affinity Publisher is the most connected and comprehensive app when it comes to its range of 
 capabilities.  All of the apps use Personas that each bring up different toolbars and functions 
@@ -64,6 +69,8 @@ Affinity Publisher.  You can work in the Publisher Persona or the Photo Persona 
 Persona and have most of the essential functions of all the apps available within just the 
 Publisher app.  
 
+![Publisher Persona](/assets/images/docs/serif/designer-persona.png "Publisher Persona")
+
 For more detailed and thoroughly comprehensive capabilities, the individual apps are easy to 
 switch to seamlessly. 
 
@@ -72,10 +79,14 @@ work, and the Export Persona for, you guessed it, exporting designs.  It's reall
 to switch between the Personas and your design file is automatically and non-destructively 
 updated as you go.
 
+![Designer Persona](/assets/images/docs/serif/designer-persona.png "Designer Persona")
+
 The Photo app has a Photo Persona, a Liquify Persona for mesh warping images and text, a 
 Develop Persona for detailed photo adjustments, a Tone Mapping Persona for more detailed 
 adjustments (I need to learn much more about this), and again, an Export Persona with multiple 
 choices for your exports.  OK, check out the screenshots and then check out Affinity.
+
+![Photo Persona](/assets/images/docs/serif/photo-persona.png "Photo Persona")
 
 ## Watch This Space
 

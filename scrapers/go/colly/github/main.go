@@ -3,31 +3,34 @@ package main
 import (
 	"fmt"
 	"github.com/gocolly/colly"
-	flag "github.com/spf13/pflag"
+	"github.com/urfave/cli/v2"
 	"log"
 	"os"
 	"strings"
 	"time"
 )
 
-// flags
-var (
-	username string
-)
-
 func main() {
-	flag.Parse()
-	if flag.NFlag() == 0 {
-		fmt.Printf("Usage: %s [options]\n", os.Args[0])
-		fmt.Println("Options:")
-		flag.PrintDefaults()
-		os.Exit(1)
+	var username string
+	app := &cli.App{
+		Flags: []cli.Flag{
+			&cli.StringFlag{
+				Name:        "username",
+				Aliases:     []string{"u"},
+				Usage:       "GitHub username",
+				Destination: &username,
+				Required:    true,
+			},
+		},
+		Action: func(c *cli.Context) error {
+			return nil
+		},
+	}
+	err := app.Run(os.Args)
+	if err != nil {
+		log.Fatal(err)
 	}
 	scrape(username)
-}
-
-func init() {
-	flag.StringVarP(&username, "username", "u", "", "GitHub username ")
 }
 
 func scrape(username string) {
