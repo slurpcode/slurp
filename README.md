@@ -20,10 +20,18 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/slurpcode/slurp.svg)
 ![GitHub search hit counter](https://img.shields.io/github/search/slurpcode/slurp/jekyll.svg)
 
+## Sites
+
+[Fuchsia Programming](https://fuchsia.surf/)
+
+[Slurp Code - Charts](https://slurpcode.netlify.com/)
+
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
 
 ## Local testing
+
+### Fuchsia Programming
 
 ```
 rdoc -o docs/rdoc --exclude="assets|docs|node_modules|CODEOWNERS|Gemfile|LICENSE|README|.csv|.fql|.go|.iml|.ipr|.iws|.json|.lock|.php|.py|.sh|.toml|.txt|.xsl"
