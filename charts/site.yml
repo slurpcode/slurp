@@ -1,0 +1,411 @@
+# The file config.yml is the main website config file written in YAML http://yaml.org/
+# It gets converted to site.yml by the Ruby script every time the site is built
+# Please only edit config.yml
+
+# site config
+url: http://thebeast.me/charts/
+# chart type: either "d3pie" or "google" or "chartjs" or "plotly" or "all"
+chart_type: all
+
+
+last_update: "Site last built: "
+valid_html: Valid HTML
+back_to_top: Back to top
+text_color: '000'
+logo_text_color: 'c7254e'
+nav_hover_color: red
+nav_selected_color: aliceblue
+
+maps: http://www.sitemaps.org/schemas/sitemap/0.9
+
+
+# GitHub details
+github_username: jbampton
+repository: charts
+
+
+# HTML elements and attributes
+# meta name="description"
+description: Analytics dashboard built from Ruby, Python and Perl using the d3pie, Google charts, Chart.js, plotly.js, Matplotlib and Seaborn charting libraries.
+
+title: Ruby, Python, Perl and JavaScript based charting demonstration and configurable static site generator
+# meta name="theme-color"
+theme_color: E5E8E8
+
+
+# Text on web pages
+# heading at top left of website
+nav_heading: Ruby Powered
+# homepage heading h1
+homepage_heading: "**`Ruby`**, **`Python`** and **`Perl`** based **`d3pie`**, **`Google Charts`**, **`Chart.js`**, **`plotly.js`**, **`Matplotlib`** and **`Seaborn`** charting demonstration and configurable static site generator"
+# chart pages heading h1
+chart_pages_heading: "Chart type: **`d3pie`**"
+# heading on other pages h1
+other_heading: Branch count grouped by file
+
+# homepage subheading4 h3
+homepage_subheading4: Lines of code in this project
+
+# about section is marked up in Markdown and kramdown format
+# https://daringfireball.net/projects/markdown/
+# https://kramdown.gettalong.org/
+about: "## Charting Demo Info
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/jbampton/charts/blob/gh-pages/LICENSE)
+
+
+[English](README.md) [Deutsche](lang/README.de.md)
+
+
+This Ruby script **`run.rb`** is a static site generator. It data mines or text mines a folder of XML Schema files as well as the MIT License (only for the d3pie charts) and generates statistics on elements and attributes (the XML Schema) or on words (the License).
+
+
+The config file: **`config.xml`** stores most of the websites configuration information and can be easily customized.
+
+
+A fancy feature is the ability to switch between using all d3pie, Google Charts, Chart.js or plotly.js based pie charts just by changing the config entry **`chart_type`** to one of **`d3pie`**, **`google`**, **`chartjs`** or **`plotly`**.
+
+
+The site config entry **`chart_type`** can be set to **`all`** which displays all chart types, each chart type on its own page.
+
+
+The home page has a selection of both d3pie JavaScript charts and some PNG charts created from using the Python
+ packages Seaborn and Matplotlib.
+
+
+For all four styles of pie charts we have both **`Donut`** and **`Pie`** style charts.
+
+
+The advantage of the d3pie chart is its interactive clickable pie charts pieces.
+
+
+The advantage of the Google Chart pie chart is its in built ability to create a chart legend.
+
+
+The advantage of the Chart.js pie chart is its interactive clickable legend.
+
+
+The **plotly.js** pie charts are by far the most interactive out of the box.
+
+
+Even the README.md file is created from the **`config.xml`** config file.
+
+
+Demo can be seen here: http://thebeast.me/charts/
+
+
+## This repository is built with
+
+
+1. [macOS High Sierra](https://www.apple.com/macos/high-sierra/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+2. [macOS X El Capitan](https://support.apple.com/en-us/ht206886){:target=\"_blank\"}{:rel=\"noopener\"}
+
+3. [Windows 10](https://www.microsoft.com/en-au/windows/get-windows-10){:target=\"_blank\"}{:rel=\"noopener\"}
+
+4. [Homebrew](https://brew.sh/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+5. [Chocolatey](https://chocolatey.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+6. [Ruby](https://www.ruby-lang.org){:target=\"_blank\"}{:rel=\"noopener\"}
+
+7. [RubyMine](https://www.jetbrains.com/ruby){:target=\"_blank\"}{:rel=\"noopener\"}
+
+8. [Rubocop](https://github.com/bbatsov/rubocop){:target=\"_blank\"}{:rel=\"noopener\"}
+
+9. [rbenv](https://github.com/rbenv/rbenv){:target=\"_blank\"}{:rel=\"noopener\"}
+
+10. [ruby-build](https://github.com/rbenv/ruby-build){:target=\"_blank\"}{:rel=\"noopener\"}
+
+11. [kramdown](https://kramdown.gettalong.org){:target=\"_blank\"}{:rel=\"noopener\"}
+
+12. [RubyCritic](https://github.com/whitesmith/rubycritic){:target=\"_blank\"}{:rel=\"noopener\"}
+
+13. [Bundler](https://bundler.io/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+14. [Chroma](https://github.com/jfairbank/chroma){:target=\"_blank\"}{:rel=\"noopener\"}
+
+15. [CSV gem](https://github.com/ruby/csv){:target=\"_blank\"}{:rel=\"noopener\"}
+
+16. [Atom](https://atom.io/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+17. [linter](https://atom.io/packages/linter){:target=\"_blank\"}{:rel=\"noopener\"}
+
+18. [linter-pylint](https://atom.io/packages/linter-pylint){:target=\"_blank\"}{:rel=\"noopener\"}
+
+19. [linter-rubocop](https://atom.io/packages/linter-rubocop){:target=\"_blank\"}{:rel=\"noopener\"}
+
+20. [Sublime Text](https://www.sublimetext.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+21. [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter){:target=\"_blank\"}{:rel=\"noopener\"}
+
+22. [SublimeLinter-pylint](https://github.com/SublimeLinter/SublimeLinter-pylint){:target=\"_blank\"}{:rel=\"noopener\"}
+
+23. [SublimeLinter-rubocop](https://github.com/SublimeLinter/SublimeLinter-rubocop){:target=\"_blank\"}{:rel=\"noopener\"}
+
+24. [Sublime Text Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview){:target=\"_blank\"}{:rel=\"noopener\"}
+
+25. [Python](https://www.python.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+26. [PyCharm](https://www.jetbrains.com/pycharm/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+27. [Seaborn](https://seaborn.pydata.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+28. [pandas](https://pandas.pydata.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+29. [Matplotlib](https://matplotlib.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+30. [Pylint](https://www.pylint.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+31. [Perl](https://www.perl.org){:target=\"_blank\"}{:rel=\"noopener\"}
+
+32. [cloc](https://github.com/AlDanial/cloc){:target=\"_blank\"}{:rel=\"noopener\"}
+
+33. [d3pie](http://d3pie.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+34. [D3](https://d3js.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+35. [Google Charts](https://developers.google.com/chart/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+36. [Chart.js](http://www.chartjs.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+37. [plotly.js](https://plot.ly/javascript/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+38. [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){:target=\"_blank\"}{:rel=\"noopener\"}
+
+39. [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3){:target=\"_blank\"}{:rel=\"noopener\"}
+
+40. [Bootstrap](https://getbootstrap.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+41. [jQuery](https://jquery.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+42. [JSON](https://www.json.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+43. [JavaScript](https://en.wikipedia.org/wiki/JavaScript){:target=\"_blank\"}{:rel=\"noopener\"}
+
+44. [YAML](http://www.yaml.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+45. [XML](https://en.wikipedia.org/wiki/XML){:target=\"_blank\"}{:rel=\"noopener\"}
+
+46. [XML Schema](https://en.wikipedia.org/wiki/XML_schema){:target=\"_blank\"}{:rel=\"noopener\"}
+
+47. [Regular expressions](https://en.wikipedia.org/wiki/Regular_expression){:target=\"_blank\"}{:rel=\"noopener\"}
+
+48. [Concatenation](https://en.wikipedia.org/wiki/Concatenation){:target=\"_blank\"}{:rel=\"noopener\"}
+
+49. [Git](https://git-scm.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+50. [GitHub Desktop](https://desktop.github.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+51. [GitHub Pages](https://pages.github.com){:target=\"_blank\"}{:rel=\"noopener\"}
+
+52. [GitHub:buttons](https://buttons.github.io/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+53. [Flag Counter](https://flagcounter.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+54. [Sitemaps](https://en.wikipedia.org/wiki/Sitemaps){:target=\"_blank\"}{:rel=\"noopener\"}
+
+55. [Markdown](https://daringfireball.net/projects/markdown){:target=\"_blank\"}{:rel=\"noopener\"}
+
+56. [robots.txt](https://en.wikipedia.org/wiki/Robots_exclusion_standard){:target=\"_blank\"}{:rel=\"noopener\"}
+
+57. [Portable Network Graphics](https://en.wikipedia.org/wiki/Portable_Network_Graphics){:target=\"_blank\"}{:rel=\"noopener\"}
+
+58. [ICO](https://en.wikipedia.org/wiki/ICO_(file_format)){:target=\"_blank\"}{:rel=\"noopener\"}
+
+59. [GIF](https://en.wikipedia.org/wiki/GIF){:target=\"_blank\"}{:rel=\"noopener\"}
+
+60. [CSV](https://en.wikipedia.org/wiki/Comma-separated_values){:target=\"_blank\"}{:rel=\"noopener\"}
+
+61. [Text file](https://en.wikipedia.org/wiki/Text_file){:target=\"_blank\"}{:rel=\"noopener\"}
+
+62. [Shields.io](https://shields.io/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+63. [MacVim](http://macvim.org){:target=\"_blank\"}{:rel=\"noopener\"}
+
+64. [RVM](https://rvm.io){:target=\"_blank\"}{:rel=\"noopener\"}
+
+
+
+"
+
+aboutde: "## Info zur Grafik-Demo
+
+
+[![Lizenz: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/jbampton/charts/blob/gh-pages/LICENSE)
+
+
+[English](../README.md) [Deutsche](README.de.md)
+
+
+Dieses Ruby-Skript **`run.rb`** ist ein statischer Site-Generator. Es mint Daten oder Text in einem Ordner mit XML-Schema-Dateien sowie die MIT-Lizenz (nur für die d3pie-Diagramme) und erstellt Statistiken über Elemente und Attribute (das XML-Schema) oder über Wörter (die Lizenz).
+
+
+Die Konfigurationsdatei: **`config.xml`** speichert die meisten Konfigurationsinformationen der Website und kann leicht an Ihre Bedürfnisse angepasst werden.
+
+
+Ein ausgefallenes Feature ist die Möglichkeit, zwischen allen d3pie, Google Charts, Chart.js oder plotly.js basierten Tortendiagrammen zu wechseln, indem man einfach den Konfigurationseintrag **`chart_type`** in einen von **`d3pie`**, **`google`**, **`chartjs`** oder **`plotly`** ändert.
+
+
+Der Website-Konfigurationseintrag **`chart_type`** kann so konfiguriert werden, dass alle Chart-Typen angezeigt werden, jeder Chart-Typ auf einer eigenen Seite.
+
+
+Die Homepage enthält eine Auswahl an d3pie JavaScript Charts und einige PNG Charts, die mit den Python-Paketen Seaborn und Matplotlib erstellt wurden.
+
+
+Für alle vier Arten von Tortendiagrammen haben wir sowohl Donut- als auch Tortendiagramme.
+
+
+Der Vorteil des d3pie Diagramms liegt in den interaktiven, anklickbaren Tortendiagrammen.
+
+
+Der Vorteil des Google Chart Tortendiagramms ist seine eingebaute Fähigkeit, eine Chart-Legende zu erstellen.
+
+
+Der Vorteil des Chart.js Tortendiagramms ist die interaktive, anklickbare Darstellung.
+
+
+Die plotly.js Tortendiagramme sind die mit Abstand interaktivsten von allen.
+
+
+Sogar die README.md-Datei wird aus der config.xml-Konfigurationsdatei erstellt.
+
+
+Eine Demo finden Sie hier: http://thebeast.me/charts/
+
+
+Dieses Repository besteht aus:
+
+
+1. [macOS High Sierra](https://www.apple.com/macos/high-sierra/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+2. [macOS X El Capitan](https://support.apple.com/en-us/ht206886){:target=\"_blank\"}{:rel=\"noopener\"}
+
+3. [Windows 10](https://www.microsoft.com/en-au/windows/get-windows-10){:target=\"_blank\"}{:rel=\"noopener\"}
+
+4. [Homebrew](https://brew.sh/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+5. [Chocolatey](https://chocolatey.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+6. [Ruby](https://www.ruby-lang.org){:target=\"_blank\"}{:rel=\"noopener\"}
+
+7. [RubyMine](https://www.jetbrains.com/ruby){:target=\"_blank\"}{:rel=\"noopener\"}
+
+8. [Rubocop](https://github.com/bbatsov/rubocop){:target=\"_blank\"}{:rel=\"noopener\"}
+
+9. [rbenv](https://github.com/rbenv/rbenv){:target=\"_blank\"}{:rel=\"noopener\"}
+
+10. [ruby-build](https://github.com/rbenv/ruby-build){:target=\"_blank\"}{:rel=\"noopener\"}
+
+11. [kramdown](https://kramdown.gettalong.org){:target=\"_blank\"}{:rel=\"noopener\"}
+
+12. [RubyCritic](https://github.com/whitesmith/rubycritic){:target=\"_blank\"}{:rel=\"noopener\"}
+
+13. [Bundler](https://bundler.io/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+14. [Chroma](https://github.com/jfairbank/chroma){:target=\"_blank\"}{:rel=\"noopener\"}
+
+15. [CSV gem](https://github.com/ruby/csv){:target=\"_blank\"}{:rel=\"noopener\"}
+
+16. [Atom](https://atom.io/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+17. [linter](https://atom.io/packages/linter){:target=\"_blank\"}{:rel=\"noopener\"}
+
+18. [linter-pylint](https://atom.io/packages/linter-pylint){:target=\"_blank\"}{:rel=\"noopener\"}
+
+19. [linter-rubocop](https://atom.io/packages/linter-rubocop){:target=\"_blank\"}{:rel=\"noopener\"}
+
+20. [Sublime Text](https://www.sublimetext.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+21. [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter){:target=\"_blank\"}{:rel=\"noopener\"}
+
+22. [SublimeLinter-pylint](https://github.com/SublimeLinter/SublimeLinter-pylint){:target=\"_blank\"}{:rel=\"noopener\"}
+
+23. [SublimeLinter-rubocop](https://github.com/SublimeLinter/SublimeLinter-rubocop){:target=\"_blank\"}{:rel=\"noopener\"}
+
+24. [Sublime Text Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview){:target=\"_blank\"}{:rel=\"noopener\"}
+
+25. [Python](https://www.python.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+26. [PyCharm](https://www.jetbrains.com/pycharm/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+27. [Seaborn](https://seaborn.pydata.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+28. [pandas](https://pandas.pydata.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+29. [Matplotlib](https://matplotlib.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+30. [Pylint](https://www.pylint.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+31. [Perl](https://www.perl.org){:target=\"_blank\"}{:rel=\"noopener\"}
+
+32. [cloc](https://github.com/AlDanial/cloc){:target=\"_blank\"}{:rel=\"noopener\"}
+
+33. [d3pie](http://d3pie.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+34. [D3](https://d3js.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+35. [Google Charts](https://developers.google.com/chart/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+36. [Chart.js](http://www.chartjs.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+37. [plotly.js](https://plot.ly/javascript/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+38. [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5){:target=\"_blank\"}{:rel=\"noopener\"}
+
+39. [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3){:target=\"_blank\"}{:rel=\"noopener\"}
+
+40. [Bootstrap](https://getbootstrap.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+41. [jQuery](https://jquery.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+42. [JSON](https://www.json.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+43. [JavaScript](https://en.wikipedia.org/wiki/JavaScript){:target=\"_blank\"}{:rel=\"noopener\"}
+
+44. [YAML](http://www.yaml.org/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+45. [XML](https://en.wikipedia.org/wiki/XML){:target=\"_blank\"}{:rel=\"noopener\"}
+
+46. [XML Schema](https://en.wikipedia.org/wiki/XML_schema){:target=\"_blank\"}{:rel=\"noopener\"}
+
+47. [Regular expressions](https://en.wikipedia.org/wiki/Regular_expression){:target=\"_blank\"}{:rel=\"noopener\"}
+
+48. [Concatenation](https://en.wikipedia.org/wiki/Concatenation){:target=\"_blank\"}{:rel=\"noopener\"}
+
+49. [Git](https://git-scm.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+50. [GitHub Desktop](https://desktop.github.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+51. [GitHub Pages](https://pages.github.com){:target=\"_blank\"}{:rel=\"noopener\"}
+
+52. [GitHub:buttons](https://buttons.github.io/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+53. [Flag Counter](https://flagcounter.com/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+54. [Sitemaps](https://en.wikipedia.org/wiki/Sitemaps){:target=\"_blank\"}{:rel=\"noopener\"}
+
+55. [Markdown](https://daringfireball.net/projects/markdown){:target=\"_blank\"}{:rel=\"noopener\"}
+
+56. [robots.txt](https://en.wikipedia.org/wiki/Robots_exclusion_standard){:target=\"_blank\"}{:rel=\"noopener\"}
+
+57. [Portable Network Graphics](https://en.wikipedia.org/wiki/Portable_Network_Graphics){:target=\"_blank\"}{:rel=\"noopener\"}
+
+58. [ICO](https://en.wikipedia.org/wiki/ICO_(file_format)){:target=\"_blank\"}{:rel=\"noopener\"}
+
+59. [GIF](https://en.wikipedia.org/wiki/GIF){:target=\"_blank\"}{:rel=\"noopener\"}
+
+60. [CSV](https://en.wikipedia.org/wiki/Comma-separated_values){:target=\"_blank\"}{:rel=\"noopener\"}
+
+61. [Text file](https://en.wikipedia.org/wiki/Text_file){:target=\"_blank\"}{:rel=\"noopener\"}
+
+62. [Shields.io](https://shields.io/){:target=\"_blank\"}{:rel=\"noopener\"}
+
+63. [MacVim](http://macvim.org){:target=\"_blank\"}{:rel=\"noopener\"}
+
+64. [RVM](https://rvm.io){:target=\"_blank\"}{:rel=\"noopener\"}
+
+
+
+"

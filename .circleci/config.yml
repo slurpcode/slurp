@@ -21,7 +21,7 @@ jobs:
       - run:
           name: 🧹 Run YAML lint
           command: |
-            yamllint .
+            yamllint .erb-lint.yml .hound.yml .overcommit.yml .percy.yml .reek.yml .rubocop.yml .travis.yml
       - run:
           name: 🧹 Run Pylint
           command: |

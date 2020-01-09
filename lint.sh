@@ -3,4 +3,4 @@
 flake8 --ignore=E501
 mdl .
 rubocop
-yamllint .
+yamllint .erb-lint.yml .hound.yml .overcommit.yml .percy.yml .reek.yml .rubocop.yml .travis.yml

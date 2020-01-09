@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+    targetNamespace="urn:oasis:names:tc:SAML:2.0:protocol"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+    xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified"
+    blockDefault="substitution"
+    version="2.0">
+    <xs:import namespace="urn:oasis:names:tc:SAML:2.0:assertion"
+        schemaLocation="saml20assertion_schema.xsd"/>
+    <xs:import namespace="http://www.w3.org/2000/09/xmldsig#"
+        schemaLocation="xmldsig_schema.xsd"/>
+    <xs:annotation>
+        <xs:documentation>
+            Document identifier: saml-schema-protocol-2.0
+            Location: http://docs.oasis-open.org/security/saml/v2.0/
+            Revision history:
+            V1.0 (November, 2002):
+              Initial Standard Schema.
+            V1.1 (September, 2003):
+              Updates within the same V1.0 namespace.
+            V2.0 (March, 2005):
+              New protocol schema based in a SAML V2.0 namespace.
+     </xs:documentation>
+    </xs:annotation>
+    <xs:complexType name="RequestAbstractType" abstract="true">
+        <xs:sequence>
+            <xs:element ref="saml:Issuer" minOccurs="0"/>
+            <xs:element ref="ds:Signature" minOccurs="0"/>
+            <xs:element ref="samlp:Extensions" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="ID" type="xs:ID" use="required"/>
+        <xs:attribute name="Version" type="xs:string" use="required"/>
+        <xs:attribute name="IssueInstant" type="xs:dateTime" use="required"/>
+        <xs:attribute name="Destination" type="xs:anyURI" use="optional"/>
+    	<xs:attribute name="Consent" type="xs:anyURI" use="optional"/>
+    </xs:complexType>
+    <xs:element name="Extensions" type="samlp:ExtensionsType"/>
+    <xs:complexType name="ExtensionsType">
+        <xs:sequence>
+            <xs:any namespace="##other" processContents="lax" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="StatusResponseType">
+    	<xs:sequence>
+            <xs:element ref="saml:Issuer" minOccurs="0"/>
+            <xs:element ref="ds:Signature" minOccurs="0"/>
+            <xs:element ref="samlp:Extensions" minOccurs="0"/>
+            <xs:element ref="samlp:Status"/>
+    	</xs:sequence>
+    	<xs:attribute name="ID" type="xs:ID" use="required"/>
+    	<xs:attribute name="InResponseTo" type="xs:NCName" use="optional"/>
+    	<xs:attribute name="Version" type="xs:string" use="required"/>
+    	<xs:attribute name="IssueInstant" type="xs:dateTime" use="required"/>
+    	<xs:attribute name="Destination" type="xs:anyURI" use="optional"/>
+    	<xs:attribute name="Consent" type="xs:anyURI" use="optional"/>
+    </xs:complexType>
+    <xs:element name="Status" type="samlp:StatusType"/>
+    <xs:complexType name="StatusType">
+        <xs:sequence>
+            <xs:element ref="samlp:StatusCode"/>
+            <xs:element ref="samlp:StatusMessage" minOccurs="0"/>
+            <xs:element ref="samlp:StatusDetail" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="StatusCode" type="samlp:StatusCodeType"/>
+    <xs:complexType name="StatusCodeType">
+        <xs:sequence>
+            <xs:element ref="samlp:StatusCode" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="Value" type="xs:anyURI" use="required"/>
+    </xs:complexType>
+    <xs:element name="StatusMessage" type="xs:string"/>
+    <xs:element name="StatusDetail" type="samlp:StatusDetailType"/>
+    <xs:complexType name="StatusDetailType">
+        <xs:sequence>
+            <xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="AssertionIDRequest" type="samlp:AssertionIDRequestType"/>
+    <xs:complexType name="AssertionIDRequestType">
+    	<xs:complexContent>
+            <xs:extension base="samlp:RequestAbstractType">
+                <xs:sequence>
+                    <xs:element ref="saml:AssertionIDRef" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+    	</xs:complexContent>
+    </xs:complexType>
+    <xs:element name="SubjectQuery" type="samlp:SubjectQueryAbstractType"/>
+    <xs:complexType name="SubjectQueryAbstractType" abstract="true">
+    	<xs:complexContent>
+            <xs:extension base="samlp:RequestAbstractType">
+                <xs:sequence>
+                    <xs:element ref="saml:Subject"/>
+                </xs:sequence>
+            </xs:extension>
+    	</xs:complexContent>
+    </xs:complexType>
+    <xs:element name="AuthnQuery" type="samlp:AuthnQueryType"/>
+    <xs:complexType name="AuthnQueryType">
+        <xs:complexContent>
+            <xs:extension base="samlp:SubjectQueryAbstractType">
+                <xs:sequence>
+                    <xs:element ref="samlp:RequestedAuthnContext" minOccurs="0"/>
+                </xs:sequence>
+                <xs:attribute name="SessionIndex" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="RequestedAuthnContext" type="samlp:RequestedAuthnContextType"/>
+    <xs:complexType name="RequestedAuthnContextType">
+        <xs:choice>
+            <xs:element ref="saml:AuthnContextClassRef" maxOccurs="unbounded"/>
+            <xs:element ref="saml:AuthnContextDeclRef" maxOccurs="unbounded"/>
+        </xs:choice>
+        <xs:attribute name="Comparison" type="samlp:AuthnContextComparisonType" use="optional"/>
+    </xs:complexType>
+    <xs:simpleType name="AuthnContextComparisonType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="exact"/>
+            <xs:enumeration value="minimum"/>
+            <xs:enumeration value="maximum"/>
+            <xs:enumeration value="better"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="AttributeQuery" type="samlp:AttributeQueryType"/>
+    <xs:complexType name="AttributeQueryType">
+        <xs:complexContent>
+            <xs:extension base="samlp:SubjectQueryAbstractType">
+                <xs:sequence>
+                    <xs:element ref="saml:Attribute" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="AuthzDecisionQuery" type="samlp:AuthzDecisionQueryType"/>
+    <xs:complexType name="AuthzDecisionQueryType">
+        <xs:complexContent>
+            <xs:extension base="samlp:SubjectQueryAbstractType">
+                <xs:sequence>
+                    <xs:element ref="saml:Action" maxOccurs="unbounded"/>
+                    <xs:element ref="saml:Evidence" minOccurs="0"/>
+                </xs:sequence>
+                <xs:attribute name="Resource" type="xs:anyURI" use="required"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="AuthnRequest" type="samlp:AuthnRequestType"/>
+    <xs:complexType name="AuthnRequestType">
+        <xs:complexContent>
+            <xs:extension base="samlp:RequestAbstractType">
+                <xs:sequence>
+                    <xs:element ref="saml:Subject" minOccurs="0"/>
+                    <xs:element ref="samlp:NameIDPolicy" minOccurs="0"/>
+                    <xs:element ref="saml:Conditions" minOccurs="0"/>
+                    <xs:element ref="samlp:RequestedAuthnContext" minOccurs="0"/>
+                    <xs:element ref="samlp:Scoping" minOccurs="0"/>
+                </xs:sequence>
+                <xs:attribute name="ForceAuthn" type="xs:boolean" use="optional"/>
+                <xs:attribute name="IsPassive" type="xs:boolean" use="optional"/>
+                <xs:attribute name="ProtocolBinding" type="xs:anyURI" use="optional"/>
+                <xs:attribute name="AssertionConsumerServiceIndex" type="xs:unsignedShort" use="optional"/>
+                <xs:attribute name="AssertionConsumerServiceURL" type="xs:anyURI" use="optional"/>
+                <xs:attribute name="AttributeConsumingServiceIndex" type="xs:unsignedShort" use="optional"/>
+                <xs:attribute name="ProviderName" type="xs:string" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="NameIDPolicy" type="samlp:NameIDPolicyType"/>
+    <xs:complexType name="NameIDPolicyType">
+        <xs:attribute name="Format" type="xs:anyURI" use="optional"/>
+        <xs:attribute name="SPNameQualifier" type="xs:string" use="optional"/>
+        <xs:attribute name="AllowCreate" type="xs:boolean" use="optional"/>
+    </xs:complexType>
+    <xs:element name="Scoping" type="samlp:ScopingType"/>
+    <xs:complexType name="ScopingType">
+        <xs:sequence>
+            <xs:element ref="samlp:IDPList" minOccurs="0"/>
+            <xs:element ref="samlp:RequesterID" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="ProxyCount" type="xs:nonNegativeInteger" use="optional"/>
+    </xs:complexType>
+    <xs:element name="RequesterID" type="xs:anyURI"/>
+    <xs:element name="IDPList" type="samlp:IDPListType"/>
+    <xs:complexType name="IDPListType">
+        <xs:sequence>
+            <xs:element ref="samlp:IDPEntry" maxOccurs="unbounded"/>
+            <xs:element ref="samlp:GetComplete" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="IDPEntry" type="samlp:IDPEntryType"/>
+    <xs:complexType name="IDPEntryType">
+        <xs:attribute name="ProviderID" type="xs:anyURI" use="required"/>
+        <xs:attribute name="Name" type="xs:string" use="optional"/>
+        <xs:attribute name="Loc" type="xs:anyURI" use="optional"/>
+    </xs:complexType>
+    <xs:element name="GetComplete" type="xs:anyURI"/>
+    <xs:element name="Response" type="samlp:ResponseType"/>
+    <xs:complexType name="ResponseType">
+    	<xs:complexContent>
+            <xs:extension base="samlp:StatusResponseType">
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element ref="saml:Assertion"/>
+                    <xs:element ref="saml:EncryptedAssertion"/>
+                </xs:choice>
+            </xs:extension>
+    	</xs:complexContent>
+    </xs:complexType>
+    <xs:element name="ArtifactResolve" type="samlp:ArtifactResolveType"/>
+    <xs:complexType name="ArtifactResolveType">
+    	<xs:complexContent>
+            <xs:extension base="samlp:RequestAbstractType">
+                <xs:sequence>
+                    <xs:element ref="samlp:Artifact"/>
+                </xs:sequence>
+            </xs:extension>
+    	</xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Artifact" type="xs:string"/>
+    <xs:element name="ArtifactResponse" type="samlp:ArtifactResponseType"/>
+    <xs:complexType name="ArtifactResponseType">
+    	<xs:complexContent>
+            <xs:extension base="samlp:StatusResponseType">
+                <xs:sequence>
+                    <xs:any namespace="##any" processContents="lax" minOccurs="0"/>
+                </xs:sequence>
+            </xs:extension>
+    	</xs:complexContent>
+    </xs:complexType>
+    <xs:element name="ManageNameIDRequest" type="samlp:ManageNameIDRequestType"/>
+    <xs:complexType name="ManageNameIDRequestType">
+    	<xs:complexContent>
+            <xs:extension base="samlp:RequestAbstractType">
+                <xs:sequence>
+                    <xs:choice>
+                        <xs:element ref="saml:NameID"/>
+                        <xs:element ref="saml:EncryptedID"/>
+                    </xs:choice>
+                    <xs:choice>
+                        <xs:element ref="samlp:NewID"/>
+                        <xs:element ref="samlp:NewEncryptedID"/>
+                        <xs:element ref="samlp:Terminate"/>
+                    </xs:choice>
+                </xs:sequence>
+            </xs:extension>
+    	</xs:complexContent>
+    </xs:complexType>
+    <xs:element name="NewID" type="xs:string"/>
+    <xs:element name="NewEncryptedID" type="saml:EncryptedElementType"/>
+    <xs:element name="Terminate" type="samlp:TerminateType"/>
+    <xs:complexType name="TerminateType"/>
+    <xs:element name="ManageNameIDResponse" type="samlp:StatusResponseType"/>
+    <xs:element name="LogoutRequest" type="samlp:LogoutRequestType"/>
+    <xs:complexType name="LogoutRequestType">
+        <xs:complexContent>
+            <xs:extension base="samlp:RequestAbstractType">
+                <xs:sequence>
+                    <xs:choice>
+                        <xs:element ref="saml:BaseID"/>
+                        <xs:element ref="saml:NameID"/>
+                        <xs:element ref="saml:EncryptedID"/>
+                    </xs:choice>
+                    <xs:element ref="samlp:SessionIndex" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+                <xs:attribute name="Reason" type="xs:string" use="optional"/>
+                <xs:attribute name="NotOnOrAfter" type="xs:dateTime" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="SessionIndex" type="xs:string"/>
+    <xs:element name="LogoutResponse" type="samlp:StatusResponseType"/>
+    <xs:element name="NameIDMappingRequest" type="samlp:NameIDMappingRequestType"/>
+    <xs:complexType name="NameIDMappingRequestType">
+        <xs:complexContent>
+            <xs:extension base="samlp:RequestAbstractType">
+                <xs:sequence>
+                    <xs:choice>
+                        <xs:element ref="saml:BaseID"/>
+                        <xs:element ref="saml:NameID"/>
+                        <xs:element ref="saml:EncryptedID"/>
+                    </xs:choice>
+                    <xs:element ref="samlp:NameIDPolicy"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="NameIDMappingResponse" type="samlp:NameIDMappingResponseType"/>
+    <xs:complexType name="NameIDMappingResponseType">
+        <xs:complexContent>
+            <xs:extension base="samlp:StatusResponseType">
+                <xs:choice>
+                    <xs:element ref="saml:NameID"/>
+                    <xs:element ref="saml:EncryptedID"/>
+                </xs:choice>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+</xs:schema>

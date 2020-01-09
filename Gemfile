@@ -28,13 +28,18 @@ group :jekyll_plugins do
 end
 
 gem 'activesupport', '>= 4.1.11'
+gem 'chroma'
+gem 'csv'
 gem 'fileutils'
+gem 'kramdown'
 gem 'mdl'
 gem 'mechanize'
 gem 'nokogiri'
 gem 'overcommit'
 gem 'paint'
+gem 'prawn'
 gem 'rubocop', require: false
+gem 'rubycritic', require: false
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

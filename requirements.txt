@@ -2,6 +2,8 @@ defusedxml
 flake8
 lxml
 matplotlib
+pandas
 pylint
 requests
+seaborn
 yamllint

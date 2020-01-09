@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<xs:schema
+    targetNamespace="urn:oasis:names:tc:SAML:2.0:assertion"
+    xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion"
+    xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+    xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="unqualified"
+    attributeFormDefault="unqualified"
+    blockDefault="substitution"
+    version="2.0">
+    <xs:import namespace="http://www.w3.org/2000/09/xmldsig#"
+        schemaLocation="xmldsig_schema.xsd"/>
+    <xs:import namespace="http://www.w3.org/2001/04/xmlenc#"
+        schemaLocation="xenc_schema.xsd"/>
+    <xs:annotation>
+        <xs:documentation xml:lang="en">
+            Document identifier: saml-schema-assertion-2.0
+            Location: http://docs.oasis-open.org/security/saml/v2.0/
+            Revision history:
+            V1.0 (November, 2002):
+              Initial Standard Schema.
+            V1.1 (September, 2003):
+              Updates within the same V1.0 namespace.
+            V2.0 (March, 2005):
+              New assertion schema for SAML V2.0 namespace.
+        </xs:documentation>
+    </xs:annotation>
+    <xs:attributeGroup name="IDNameQualifiers">
+        <xs:attribute name="NameQualifier" type="string" use="optional"/>
+        <xs:attribute name="SPNameQualifier" type="string" use="optional"/>
+    </xs:attributeGroup>
+    <xs:element name="BaseID" type="saml:BaseIDAbstractType"/>
+    <xs:complexType name="BaseIDAbstractType" abstract="true">
+        <xs:attributeGroup ref="saml:IDNameQualifiers"/>
+    </xs:complexType>
+    <xs:element name="NameID" type="saml:NameIDType"/>
+    <xs:complexType name="NameIDType">
+        <xs:simpleContent>
+            <xs:extension base="string">
+                <xs:attributeGroup ref="saml:IDNameQualifiers"/>
+                <xs:attribute name="Format" type="anyURI" use="optional"/>
+                <xs:attribute name="SPProvidedID" type="string" use="optional"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="EncryptedElementType">
+        <xs:sequence>
+            <xs:element ref="xenc:EncryptedData"/>
+            <xs:element ref="xenc:EncryptedKey" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="EncryptedID" type="saml:EncryptedElementType"/>
+    <xs:element name="Issuer" type="saml:NameIDType"/>
+    <xs:element name="AssertionIDRef" type="NCName"/>
+    <xs:element name="AssertionURIRef" type="anyURI"/>
+    <xs:element name="Assertion" type="saml:AssertionType"/>
+    <xs:complexType name="AssertionType">
+        <xs:sequence>
+            <xs:element ref="saml:Issuer"/>
+            <xs:element ref="ds:Signature" minOccurs="0"/>
+            <xs:element ref="saml:Subject" minOccurs="0"/>
+            <xs:element ref="saml:Conditions" minOccurs="0"/>
+            <xs:element ref="saml:Advice" minOccurs="0"/>
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="saml:Statement"/>
+                <xs:element ref="saml:AuthnStatement"/>
+                <xs:element ref="saml:AuthzDecisionStatement"/>
+                <xs:element ref="saml:AttributeStatement"/>
+            </xs:choice>
+        </xs:sequence>
+        <xs:attribute name="Version" type="string" use="required"/>
+        <xs:attribute name="ID" type="ID" use="required"/>
+        <xs:attribute name="IssueInstant" type="dateTime" use="required"/>
+    </xs:complexType>
+    <xs:element name="Subject" type="saml:SubjectType"/>
+    <xs:complexType name="SubjectType">
+        <xs:choice>
+            <xs:sequence>
+                <xs:choice>
+                    <xs:element ref="saml:BaseID"/>
+                    <xs:element ref="saml:NameID"/>
+                    <xs:element ref="saml:EncryptedID"/>
+                </xs:choice>
+                <xs:element ref="saml:SubjectConfirmation" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:element ref="saml:SubjectConfirmation" maxOccurs="unbounded"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:element name="SubjectConfirmation" type="saml:SubjectConfirmationType"/>
+    <xs:complexType name="SubjectConfirmationType">
+        <xs:sequence>
+            <xs:choice minOccurs="0">
+                <xs:element ref="saml:BaseID"/>
+                <xs:element ref="saml:NameID"/>
+                <xs:element ref="saml:EncryptedID"/>
+            </xs:choice>
+            <xs:element ref="saml:SubjectConfirmationData" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="Method" type="anyURI" use="required"/>
+    </xs:complexType>
+    <xs:element name="SubjectConfirmationData" type="saml:SubjectConfirmationDataType"/>
+    <xs:complexType name="SubjectConfirmationDataType" mixed="true">
+        <xs:complexContent>
+            <xs:restriction base="anyType">
+                <xs:sequence>
+                    <xs:any namespace="##any" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+                </xs:sequence>
+                <xs:attribute name="NotBefore" type="dateTime" use="optional"/>
+                <xs:attribute name="NotOnOrAfter" type="dateTime" use="optional"/>
+                <xs:attribute name="Recipient" type="anyURI" use="optional"/>
+                <xs:attribute name="InResponseTo" type="NCName" use="optional"/>
+                <xs:attribute name="Address" type="string" use="optional"/>
+                <xs:anyAttribute namespace="##other" processContents="lax"/>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:complexType name="KeyInfoConfirmationDataType" mixed="false">
+        <xs:complexContent>
+            <xs:restriction base="saml:SubjectConfirmationDataType">
+                <xs:sequence>
+                    <xs:element ref="ds:KeyInfo" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:restriction>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Conditions" type="saml:ConditionsType"/>
+    <xs:complexType name="ConditionsType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="saml:Condition"/>
+            <xs:element ref="saml:AudienceRestriction"/>
+            <xs:element ref="saml:OneTimeUse"/>
+            <xs:element ref="saml:ProxyRestriction"/>
+        </xs:choice>
+        <xs:attribute name="NotBefore" type="dateTime" use="optional"/>
+        <xs:attribute name="NotOnOrAfter" type="dateTime" use="optional"/>
+    </xs:complexType>
+    <xs:element name="Condition" type="saml:ConditionAbstractType"/>
+    <xs:complexType name="ConditionAbstractType" abstract="true"/>
+    <xs:element name="AudienceRestriction" type="saml:AudienceRestrictionType"/>
+    <xs:complexType name="AudienceRestrictionType">
+        <xs:complexContent>
+            <xs:extension base="saml:ConditionAbstractType">
+                <xs:sequence>
+                    <xs:element ref="saml:Audience" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Audience" type="anyURI"/>
+    <xs:element name="OneTimeUse" type="saml:OneTimeUseType" />
+    <xs:complexType name="OneTimeUseType">
+        <xs:complexContent>
+            <xs:extension base="saml:ConditionAbstractType"/>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="ProxyRestriction" type="saml:ProxyRestrictionType"/>
+    <xs:complexType name="ProxyRestrictionType">
+    <xs:complexContent>
+        <xs:extension base="saml:ConditionAbstractType">
+            <xs:sequence>
+                <xs:element ref="saml:Audience" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="Count" type="nonNegativeInteger" use="optional"/>
+        </xs:extension>
+	</xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Advice" type="saml:AdviceType"/>
+    <xs:complexType name="AdviceType">
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element ref="saml:AssertionIDRef"/>
+            <xs:element ref="saml:AssertionURIRef"/>
+            <xs:element ref="saml:Assertion"/>
+            <xs:element ref="saml:EncryptedAssertion"/>
+            <xs:any namespace="##other" processContents="lax"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:element name="EncryptedAssertion" type="saml:EncryptedElementType"/>
+    <xs:element name="Statement" type="saml:StatementAbstractType"/>
+    <xs:complexType name="StatementAbstractType" abstract="true"/>
+    <xs:element name="AuthnStatement" type="saml:AuthnStatementType"/>
+    <xs:complexType name="AuthnStatementType">
+        <xs:complexContent>
+            <xs:extension base="saml:StatementAbstractType">
+                <xs:sequence>
+                    <xs:element ref="saml:SubjectLocality" minOccurs="0"/>
+                    <xs:element ref="saml:AuthnContext"/>
+                </xs:sequence>
+                <xs:attribute name="AuthnInstant" type="dateTime" use="required"/>
+                <xs:attribute name="SessionIndex" type="string" use="optional"/>
+                <xs:attribute name="SessionNotOnOrAfter" type="dateTime" use="optional"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="SubjectLocality" type="saml:SubjectLocalityType"/>
+    <xs:complexType name="SubjectLocalityType">
+        <xs:attribute name="Address" type="string" use="optional"/>
+        <xs:attribute name="DNSName" type="string" use="optional"/>
+    </xs:complexType>
+    <xs:element name="AuthnContext" type="saml:AuthnContextType"/>
+    <xs:complexType name="AuthnContextType">
+        <xs:sequence>
+            <xs:choice>
+                <xs:sequence>
+                    <xs:element ref="saml:AuthnContextClassRef"/>
+                    <xs:choice minOccurs="0">
+                        <xs:element ref="saml:AuthnContextDecl"/>
+                        <xs:element ref="saml:AuthnContextDeclRef"/>
+                    </xs:choice>
+                </xs:sequence>
+                <xs:choice>
+                    <xs:element ref="saml:AuthnContextDecl"/>
+                    <xs:element ref="saml:AuthnContextDeclRef"/>
+                </xs:choice>
+            </xs:choice>
+            <xs:element ref="saml:AuthenticatingAuthority" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:element name="AuthnContextClassRef" type="anyURI"/>
+    <xs:element name="AuthnContextDeclRef" type="anyURI"/>
+    <xs:element name="AuthnContextDecl" type="anyType"/>
+    <xs:element name="AuthenticatingAuthority" type="anyURI"/>
+    <xs:element name="AuthzDecisionStatement" type="saml:AuthzDecisionStatementType"/>
+    <xs:complexType name="AuthzDecisionStatementType">
+        <xs:complexContent>
+            <xs:extension base="saml:StatementAbstractType">
+                <xs:sequence>
+                    <xs:element ref="saml:Action" maxOccurs="unbounded"/>
+                    <xs:element ref="saml:Evidence" minOccurs="0"/>
+                </xs:sequence>
+                <xs:attribute name="Resource" type="anyURI" use="required"/>
+                <xs:attribute name="Decision" type="saml:DecisionType" use="required"/>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:simpleType name="DecisionType">
+        <xs:restriction base="string">
+            <xs:enumeration value="Permit"/>
+            <xs:enumeration value="Deny"/>
+            <xs:enumeration value="Indeterminate"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="Action" type="saml:ActionType"/>
+    <xs:complexType name="ActionType">
+        <xs:simpleContent>
+            <xs:extension base="string">
+                <xs:attribute name="Namespace" type="anyURI" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:element name="Evidence" type="saml:EvidenceType"/>
+    <xs:complexType name="EvidenceType">
+        <xs:choice maxOccurs="unbounded">
+            <xs:element ref="saml:AssertionIDRef"/>
+            <xs:element ref="saml:AssertionURIRef"/>
+            <xs:element ref="saml:Assertion"/>
+            <xs:element ref="saml:EncryptedAssertion"/>
+        </xs:choice>
+    </xs:complexType>
+    <xs:element name="AttributeStatement" type="saml:AttributeStatementType"/>
+    <xs:complexType name="AttributeStatementType">
+        <xs:complexContent>
+            <xs:extension base="saml:StatementAbstractType">
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element ref="saml:Attribute"/>
+                    <xs:element ref="saml:EncryptedAttribute"/>
+                </xs:choice>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+    <xs:element name="Attribute" type="saml:AttributeType"/>
+    <xs:complexType name="AttributeType">
+        <xs:sequence>
+            <xs:element ref="saml:AttributeValue" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="Name" type="string" use="required"/>
+        <xs:attribute name="NameFormat" type="anyURI" use="optional"/>
+        <xs:attribute name="FriendlyName" type="string" use="optional"/>
+        <xs:anyAttribute namespace="##other" processContents="lax"/>
+    </xs:complexType>
+    <xs:element name="AttributeValue" type="anyType" nillable="true"/>
+    <xs:element name="EncryptedAttribute" type="saml:EncryptedElementType"/>
+</xs:schema>

@@ -1,0 +1,49 @@
+aboutde: "## Info zur Grafik-Demo
+
+
+[![Lizenz: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/jbampton/charts/blob/gh-pages/LICENSE)
+
+
+[English](../README.md) [Deutsche](README.de.md)
+
+
+Dieses Ruby-Skript **`run.rb`** ist ein statischer Site-Generator. Es mint Daten oder Text in einem Ordner mit XML-Schema-Dateien sowie die MIT-Lizenz (nur für die d3pie-Diagramme) und erstellt Statistiken über Elemente und Attribute (das XML-Schema) oder über Wörter (die Lizenz).
+
+
+Die Konfigurationsdatei: **`config.xml`** speichert die meisten Konfigurationsinformationen der Website und kann leicht an Ihre Bedürfnisse angepasst werden.
+
+
+Ein ausgefallenes Feature ist die Möglichkeit, zwischen allen d3pie, Google Charts, Chart.js oder plotly.js basierten Tortendiagrammen zu wechseln, indem man einfach den Konfigurationseintrag **`chart_type`** in einen von **`d3pie`**, **`google`**, **`chartjs`** oder **`plotly`** ändert.
+
+
+Der Website-Konfigurationseintrag **`chart_type`** kann so konfiguriert werden, dass alle Chart-Typen angezeigt werden, jeder Chart-Typ auf einer eigenen Seite.
+
+
+Die Homepage enthält eine Auswahl an d3pie JavaScript Charts und einige PNG Charts, die mit den Python-Paketen Seaborn und Matplotlib erstellt wurden.
+
+
+Für alle vier Arten von Tortendiagrammen haben wir sowohl Donut- als auch Tortendiagramme.
+
+
+Der Vorteil des d3pie Diagramms liegt in den interaktiven, anklickbaren Tortendiagrammen.
+
+
+Der Vorteil des Google Chart Tortendiagramms ist seine eingebaute Fähigkeit, eine Chart-Legende zu erstellen.
+
+
+Der Vorteil des Chart.js Tortendiagramms ist die interaktive, anklickbare Darstellung.
+
+
+Die plotly.js Tortendiagramme sind die mit Abstand interaktivsten von allen.
+
+
+Sogar die README.md-Datei wird aus der config.xml-Konfigurationsdatei erstellt.
+
+
+Eine Demo finden Sie hier: http://thebeast.me/charts/
+
+
+Dieses Repository besteht aus:
+
+
+"

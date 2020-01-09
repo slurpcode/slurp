@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head;
+         any other head content must come *after* these tags -->
+    <title>Ruby, Python, Perl and JavaScript based charting demonstration and configurable static site generator</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/icons/ms-icon-144x144.png">
+    <meta name="description" content="Analytics dashboard built from Ruby, Python and Perl using the d3pie, Google charts, Chart.js, plotly.js, Matplotlib and Seaborn charting libraries.">
+    <meta name="theme-color" content="#E5E8E8">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
+    <style>
+      .container-fluid { padding: 0px; }
+      .navbar, .navbar-default { margin-bottom: 0; padding: 5pt; background-color: #E5E8E8; font-size: 12pt; }
+      .navbar, .navbar-default li a { color: #000 !important; }
+      .navbar-default .navbar-brand { margin-left: 20px !important; color: #c7254e; font-size: 18pt; font-weight: bold; }
+      .navbar-brand:hover { background-color: red !important; }
+      div[id^="d3pie_chart_div_"], canvas { margin-bottom: 100px; }
+      footer { background-color: #E5E8E8; min-height: 200px;}
+      footer ul a { color: #000 !important; font-size: 13pt; }
+      footer .container { margin-left: 15px; }
+      .built { text-decoration: none !important; }
+      .selected { background-color: aliceblue; font-weight: bold; }
+      .navbar-default li:hover a { background-color: red !important; }
+      h1 { text-align: center; background-color: #E5E8E8; padding: 14px; color: #000; }
+      pre { white-space: pre-wrap; word-wrap: break-word; }
+      .homepage { padding: 5px 30px 5px 30px; }
+      .logo { float: left; }
+      .oll { padding-left: 1em; }
+      h2#other { text-align: center; }
+      .plotlypie { height: 625px; }
+    </style>
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" id="head1">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html"><img src="assets/images/logo.png" alt="Ruby Powered" class="logo"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Ruby Powered</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Page 1</a></li>
+            <li><a href="index1.html">Page 2</a></li>
+            <li><a href="index2.html">Page 3</a></li>
+            <li><a href="index3.html">Page 4</a></li>
+            <li><a href="index4.html">Page 5</a></li>
+            <li><a href="index5.html">Page 6</a></li>
+            <li><a href="index6.html">Page 7</a></li>
+            <li><a href="index7.html">Page 8</a></li>
+            <li><a href="index8.html">Page 9</a></li>
+            <li><a href="index9.html">Page 10</a></li>
+            <li><a href="index10.html">Page 11</a></li>
+            <li><a href="index11.html">Page 12</a></li>
+            <li><a href="index12.html">Page 13</a></li>
+            <li><a href="index13.html">Page 14</a></li>
+            <li><a href="index14.html">Page 15</a></li>
+            <li><a href="index15.html">Page 16</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1>Chart type: <strong><code>plotly.js</code></strong></h1>
+      <h2 id="other">Branch count grouped by file</h2>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameOriginatorKeyInfo"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameP"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_namePGPData"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_namePGPDataType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_namePGPKeyID"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_namePGPKeyPacket"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_namePgenCounter"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameProtocolBinding"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameProviderID"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameProviderName"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameProxyCount"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameProxyRestriction"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameProxyRestrictionType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameQ"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRSAKeyValue"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRSAKeyValueType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameReason"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRecipient"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRecipientKeyInfo"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameReference"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameReferenceType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRequestAbstractType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRequestedAuthnContext"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRequestedAuthnContextType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRequesterID"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameResource"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameResponse"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameResponseType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRetrievalMethod"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameRetrievalMethodType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSPKIData"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSPKIDataType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSPKISexp"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSPNameQualifier"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSPProvidedID"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameScoping"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameScopingType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSeed"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSessionIndex"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSessionNotOnOrAfter"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignature"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignatureMethod"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignatureMethodType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignatureProperties"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignaturePropertiesType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignatureProperty"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignaturePropertyType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignatureType"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignatureValue"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_nameSignatureValueType"></div>
+    </div>
+    <footer>
+      <div class="container">
+        <ul class="list-unstyled">
+          <li>
+            <a class="github-button" href="https://github.com/jbampton" data-size="large" data-show-count="true" aria-label="Follow @jbampton on GitHub">Follow @jbampton</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts" data-icon="octicon-star"  data-size="large" data-show-count="true" aria-label="Star jbampton/charts on GitHub">Star</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/subscription" data-icon="octicon-eye"  data-size="large" data-show-count="true" aria-label="Watch jbampton/charts on GitHub">Watch</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/fork" data-icon="octicon-repo-forked"  data-size="large" data-show-count="true" aria-label="Fork jbampton/charts on GitHub">Fork</a>
+          </li>
+          <li><a href="index.html">Page 1</a></li>
+          <li><a href="index1.html">Page 2</a></li>
+          <li><a href="index2.html">Page 3</a></li>
+          <li><a href="index3.html">Page 4</a></li>
+          <li><a href="index4.html">Page 5</a></li>
+          <li><a href="index5.html">Page 6</a></li>
+          <li><a href="index6.html">Page 7</a></li>
+          <li><a href="index7.html">Page 8</a></li>
+          <li><a href="index8.html">Page 9</a></li>
+          <li><a href="index9.html">Page 10</a></li>
+          <li><a href="index10.html">Page 11</a></li>
+          <li><a href="index11.html">Page 12</a></li>
+          <li><a href="index12.html">Page 13</a></li>
+          <li><a href="index13.html">Page 14</a></li>
+          <li><a href="index14.html">Page 15</a></li>
+          <li><a href="index15.html">Page 16</a></li>
+          <li class="nuchecker">
+            <a target="_blank" rel="noopener">Valid HTML</a>
+          </li>
+          <li><a href="#head1">Back to top</a></li>
+          <li><a class="built">Site last built: 2020-01-09T21:51:11+10:00</a></li>
+        </ul>
+        <a href="https://info.flagcounter.com/9VsC"
+           target="_blank" rel="noopener">
+          <img src="https://s01.flagcounter.com/countxl/9VsC/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/"
+               alt="Flag Counter">
+        </a>
+        <a id="theend"></a>
+      </div>
+    </footer>
+    <script src="assets/bootstrap/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/plotly.min.js"></script>
+    <script>
+    var data = [{
+      values: [1],
+      labels: ["xenc_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '501 - name="OriginatorKeyInfo"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameOriginatorKeyInfo', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '502 - name="P"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameP', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '503 - name="PGPData"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_namePGPData', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '504 - name="PGPDataType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_namePGPDataType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '505 - name="PGPKeyID"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_namePGPKeyID', data, layout);
+  
+    var data = [{
+      values: [2],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '506 - name="PGPKeyPacket"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_namePGPKeyPacket', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '507 - name="PgenCounter"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_namePgenCounter', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '508 - name="ProtocolBinding"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameProtocolBinding', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '509 - name="ProviderID"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameProviderID', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '510 - name="ProviderName"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameProviderName', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '511 - name="ProxyCount"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameProxyCount', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '512 - name="ProxyRestriction"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameProxyRestriction', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '513 - name="ProxyRestrictionType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameProxyRestrictionType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '514 - name="Q"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameQ', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '515 - name="RSAKeyValue"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRSAKeyValue', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '516 - name="RSAKeyValueType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRSAKeyValueType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '517 - name="Reason"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameReason', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '518 - name="Recipient"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRecipient', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xenc_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '519 - name="RecipientKeyInfo"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRecipientKeyInfo', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '520 - name="Reference"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameReference', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '521 - name="ReferenceType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameReferenceType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '522 - name="RequestAbstractType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRequestAbstractType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '523 - name="RequestedAuthnContext"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRequestedAuthnContext', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '524 - name="RequestedAuthnContextType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRequestedAuthnContextType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '525 - name="RequesterID"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRequesterID', data, layout);
+  
+    var data = [{
+      values: [1, 1],
+      labels: ["saml20protocol_schema", "saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '526 - name="Resource"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 430, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameResource', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '527 - name="Response"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameResponse', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '528 - name="ResponseType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameResponseType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '529 - name="RetrievalMethod"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRetrievalMethod', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '530 - name="RetrievalMethodType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameRetrievalMethodType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '531 - name="SPKIData"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSPKIData', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '532 - name="SPKIDataType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSPKIDataType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '533 - name="SPKISexp"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSPKISexp', data, layout);
+  
+    var data = [{
+      values: [1, 1],
+      labels: ["saml20protocol_schema", "saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '534 - name="SPNameQualifier"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 430, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSPNameQualifier', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '535 - name="SPProvidedID"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSPProvidedID', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '536 - name="Scoping"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameScoping', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '537 - name="ScopingType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameScopingType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '538 - name="Seed"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSeed', data, layout);
+  
+    var data = [{
+      values: [2, 1],
+      labels: ["saml20protocol_schema", "saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '539 - name="SessionIndex"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 430, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSessionIndex', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '540 - name="SessionNotOnOrAfter"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSessionNotOnOrAfter', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '541 - name="Signature"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignature', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '542 - name="SignatureMethod"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignatureMethod', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '543 - name="SignatureMethodType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignatureMethodType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '544 - name="SignatureProperties"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignatureProperties', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '545 - name="SignaturePropertiesType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignaturePropertiesType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '546 - name="SignatureProperty"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignatureProperty', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '547 - name="SignaturePropertyType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignaturePropertyType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '548 - name="SignatureType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignatureType', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '549 - name="SignatureValue"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignatureValue', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '550 - name="SignatureValueType"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_nameSignatureValueType', data, layout);
+  
+        $(document).ready(function () {
+           "use strict";
+           var last = $(location).attr("href").split("/").pop().split(".")[0].replace(/index/, "");
+           var tab = 1;
+           if (last !== "") {
+             tab = parseInt(last) + 1;
+           }
+           $(".navbar-nav li:nth-child(" + tab + ")").addClass("selected");
+           tab--;
+           if (tab === 0) {
+             tab = "";
+           }
+          $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=http%3A%2F%2Fthebeast.me%2Fcharts%2Findex" + tab + ".html");
+      });
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>

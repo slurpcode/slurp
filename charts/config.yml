@@ -1,0 +1,101 @@
+# The file config.yml is the main website config file written in YAML http://yaml.org/
+# It gets converted to site.yml by the Ruby script every time the site is built
+# Please only edit config.yml
+
+# site config
+url: http://thebeast.me/charts/
+# chart type: either "d3pie" or "google" or "chartjs" or "plotly" or "all"
+chart_type: all
+
+
+last_update: "Site last built: "
+valid_html: Valid HTML
+back_to_top: Back to top
+text_color: '000'
+logo_text_color: 'c7254e'
+nav_hover_color: red
+nav_selected_color: aliceblue
+
+maps: http://www.sitemaps.org/schemas/sitemap/0.9
+
+
+# GitHub details
+github_username: jbampton
+repository: charts
+
+
+# HTML elements and attributes
+# meta name="description"
+description: Analytics dashboard built from Ruby, Python and Perl using the d3pie, Google charts, Chart.js, plotly.js, Matplotlib and Seaborn charting libraries.
+
+title: Ruby, Python, Perl and JavaScript based charting demonstration and configurable static site generator
+# meta name="theme-color"
+theme_color: E5E8E8
+
+
+# Text on web pages
+# heading at top left of website
+nav_heading: Ruby Powered
+# homepage heading h1
+homepage_heading: "**`Ruby`**, **`Python`** and **`Perl`** based **`d3pie`**, **`Google Charts`**, **`Chart.js`**, **`plotly.js`**, **`Matplotlib`** and **`Seaborn`** charting demonstration and configurable static site generator"
+# chart pages heading h1
+chart_pages_heading: "Chart type: **`d3pie`**"
+# heading on other pages h1
+other_heading: Branch count grouped by file
+
+# homepage subheading4 h3
+homepage_subheading4: Lines of code in this project
+
+# about section is marked up in Markdown and kramdown format
+# https://daringfireball.net/projects/markdown/
+# https://kramdown.gettalong.org/
+about: "## Charting Demo Info
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/jbampton/charts/blob/gh-pages/LICENSE)
+
+
+[English](README.md) [Deutsche](lang/README.de.md)
+
+
+This Ruby script **`run.rb`** is a static site generator. It data mines or text mines a folder of XML Schema files as well as the MIT License (only for the d3pie charts) and generates statistics on elements and attributes (the XML Schema) or on words (the License).
+
+
+The config file: **`config.xml`** stores most of the websites configuration information and can be easily customized.
+
+
+A fancy feature is the ability to switch between using all d3pie, Google Charts, Chart.js or plotly.js based pie charts just by changing the config entry **`chart_type`** to one of **`d3pie`**, **`google`**, **`chartjs`** or **`plotly`**.
+
+
+The site config entry **`chart_type`** can be set to **`all`** which displays all chart types, each chart type on its own page.
+
+
+The home page has a selection of both d3pie JavaScript charts and some PNG charts created from using the Python
+ packages Seaborn and Matplotlib.
+
+
+For all four styles of pie charts we have both **`Donut`** and **`Pie`** style charts.
+
+
+The advantage of the d3pie chart is its interactive clickable pie charts pieces.
+
+
+The advantage of the Google Chart pie chart is its in built ability to create a chart legend.
+
+
+The advantage of the Chart.js pie chart is its interactive clickable legend.
+
+
+The **plotly.js** pie charts are by far the most interactive out of the box.
+
+
+Even the README.md file is created from the **`config.xml`** config file.
+
+
+Demo can be seen here: http://thebeast.me/charts/
+
+
+## This repository is built with
+
+
+"

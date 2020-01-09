@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head;
+         any other head content must come *after* these tags -->
+    <title>Ruby, Python, Perl and JavaScript based charting demonstration and configurable static site generator</title>
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/icons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/icons/ms-icon-144x144.png">
+    <meta name="description" content="Analytics dashboard built from Ruby, Python and Perl using the d3pie, Google charts, Chart.js, plotly.js, Matplotlib and Seaborn charting libraries.">
+    <meta name="theme-color" content="#E5E8E8">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
+    <style>
+      .container-fluid { padding: 0px; }
+      .navbar, .navbar-default { margin-bottom: 0; padding: 5pt; background-color: #E5E8E8; font-size: 12pt; }
+      .navbar, .navbar-default li a { color: #000 !important; }
+      .navbar-default .navbar-brand { margin-left: 20px !important; color: #c7254e; font-size: 18pt; font-weight: bold; }
+      .navbar-brand:hover { background-color: red !important; }
+      div[id^="d3pie_chart_div_"], canvas { margin-bottom: 100px; }
+      footer { background-color: #E5E8E8; min-height: 200px;}
+      footer ul a { color: #000 !important; font-size: 13pt; }
+      footer .container { margin-left: 15px; }
+      .built { text-decoration: none !important; }
+      .selected { background-color: aliceblue; font-weight: bold; }
+      .navbar-default li:hover a { background-color: red !important; }
+      h1 { text-align: center; background-color: #E5E8E8; padding: 14px; color: #000; }
+      pre { white-space: pre-wrap; word-wrap: break-word; }
+      .homepage { padding: 5px 30px 5px 30px; }
+      .logo { float: left; }
+      .oll { padding-left: 1em; }
+      h2#other { text-align: center; }
+      .plotlypie { height: 625px; }
+    </style>
+  </head>
+  <body>
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default" id="head1">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="index.html"><img src="assets/images/logo.png" alt="Ruby Powered" class="logo"></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Ruby Powered</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Page 1</a></li>
+            <li><a href="index1.html">Page 2</a></li>
+            <li><a href="index2.html">Page 3</a></li>
+            <li><a href="index3.html">Page 4</a></li>
+            <li><a href="index4.html">Page 5</a></li>
+            <li><a href="index5.html">Page 6</a></li>
+            <li><a href="index6.html">Page 7</a></li>
+            <li><a href="index7.html">Page 8</a></li>
+            <li><a href="index8.html">Page 9</a></li>
+            <li><a href="index9.html">Page 10</a></li>
+            <li><a href="index10.html">Page 11</a></li>
+            <li><a href="index11.html">Page 12</a></li>
+            <li><a href="index12.html">Page 13</a></li>
+            <li><a href="index13.html">Page 14</a></li>
+            <li><a href="index14.html">Page 15</a></li>
+            <li><a href="index15.html">Page 16</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <h1>Chart type: <strong><code>plotly.js</code></strong></h1>
+      <h2 id="other">Branch count grouped by file</h2>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameArtifactResolve"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameArtifactResponse"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAssertion"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAssertionIDRef"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAssertionIDRequest"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAssertionURIRef"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAttribute"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAttributeQuery"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAttributeStatement"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAttributeValue"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAudience"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAudienceRestriction"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthenticatingAuthority"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthnContext"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthnContextClassRef"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthnContextDecl"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthnContextDeclRef"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthnQuery"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthnRequest"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthnStatement"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthzDecisionQuery"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameAuthzDecisionStatement"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameBaseID"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameCanonicalizationMethod"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameCondition"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameConditions"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameDSAKeyValue"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameDigestMethod"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameDigestValue"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameEncryptedAssertion"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameEncryptedAttribute"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameEncryptedID"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameEvidence"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameExponent"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameExtensions"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameG"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameGetComplete"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameHMACOutputLength"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameIDPEntry"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameIDPList"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameIssuer"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameJ"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameKeyInfo"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameKeyName"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameKeyValue"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameLogoutRequest"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameLogoutResponse"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameManageNameIDRequest"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameManageNameIDResponse"></div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_xselementnameManifest"></div>
+    </div>
+    <footer>
+      <div class="container">
+        <ul class="list-unstyled">
+          <li>
+            <a class="github-button" href="https://github.com/jbampton" data-size="large" data-show-count="true" aria-label="Follow @jbampton on GitHub">Follow @jbampton</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts" data-icon="octicon-star"  data-size="large" data-show-count="true" aria-label="Star jbampton/charts on GitHub">Star</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/subscription" data-icon="octicon-eye"  data-size="large" data-show-count="true" aria-label="Watch jbampton/charts on GitHub">Watch</a>
+          </li>
+          <li>
+            <a class="github-button" href="https://github.com/jbampton/charts/fork" data-icon="octicon-repo-forked"  data-size="large" data-show-count="true" aria-label="Fork jbampton/charts on GitHub">Fork</a>
+          </li>
+          <li><a href="index.html">Page 1</a></li>
+          <li><a href="index1.html">Page 2</a></li>
+          <li><a href="index2.html">Page 3</a></li>
+          <li><a href="index3.html">Page 4</a></li>
+          <li><a href="index4.html">Page 5</a></li>
+          <li><a href="index5.html">Page 6</a></li>
+          <li><a href="index6.html">Page 7</a></li>
+          <li><a href="index7.html">Page 8</a></li>
+          <li><a href="index8.html">Page 9</a></li>
+          <li><a href="index9.html">Page 10</a></li>
+          <li><a href="index10.html">Page 11</a></li>
+          <li><a href="index11.html">Page 12</a></li>
+          <li><a href="index12.html">Page 13</a></li>
+          <li><a href="index13.html">Page 14</a></li>
+          <li><a href="index14.html">Page 15</a></li>
+          <li><a href="index15.html">Page 16</a></li>
+          <li class="nuchecker">
+            <a target="_blank" rel="noopener">Valid HTML</a>
+          </li>
+          <li><a href="#head1">Back to top</a></li>
+          <li><a class="built">Site last built: 2020-01-09T21:51:11+10:00</a></li>
+        </ul>
+        <a href="https://info.flagcounter.com/9VsC"
+           target="_blank" rel="noopener">
+          <img src="https://s01.flagcounter.com/countxl/9VsC/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_250/viewers_0/labels_1/pageviews_0/flags_0/percent_0/"
+               alt="Flag Counter">
+        </a>
+        <a id="theend"></a>
+      </div>
+    </footer>
+    <script src="assets/bootstrap/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/plotly.min.js"></script>
+    <script>
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '151 - <xs:element name="ArtifactResolve"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameArtifactResolve', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '152 - <xs:element name="ArtifactResponse"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameArtifactResponse', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '153 - <xs:element name="Assertion"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAssertion', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '154 - <xs:element name="AssertionIDRef"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAssertionIDRef', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '155 - <xs:element name="AssertionIDRequest"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAssertionIDRequest', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '156 - <xs:element name="AssertionURIRef"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAssertionURIRef', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '157 - <xs:element name="Attribute"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAttribute', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '158 - <xs:element name="AttributeQuery"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAttributeQuery', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '159 - <xs:element name="AttributeStatement"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAttributeStatement', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '160 - <xs:element name="AttributeValue"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAttributeValue', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '161 - <xs:element name="Audience"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAudience', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '162 - <xs:element name="AudienceRestriction"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAudienceRestriction', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '163 - <xs:element name="AuthenticatingAuthority"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthenticatingAuthority', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '164 - <xs:element name="AuthnContext"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthnContext', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '165 - <xs:element name="AuthnContextClassRef"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthnContextClassRef', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '166 - <xs:element name="AuthnContextDecl"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthnContextDecl', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '167 - <xs:element name="AuthnContextDeclRef"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthnContextDeclRef', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '168 - <xs:element name="AuthnQuery"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthnQuery', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '169 - <xs:element name="AuthnRequest"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthnRequest', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '170 - <xs:element name="AuthnStatement"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthnStatement', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '171 - <xs:element name="AuthzDecisionQuery"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthzDecisionQuery', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '172 - <xs:element name="AuthzDecisionStatement"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameAuthzDecisionStatement', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '173 - <xs:element name="BaseID"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameBaseID', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '174 - <xs:element name="CanonicalizationMethod"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameCanonicalizationMethod', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '175 - <xs:element name="Condition"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameCondition', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '176 - <xs:element name="Conditions"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameConditions', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '177 - <xs:element name="DSAKeyValue"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameDSAKeyValue', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '178 - <xs:element name="DigestMethod"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameDigestMethod', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '179 - <xs:element name="DigestValue"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameDigestValue', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '180 - <xs:element name="EncryptedAssertion"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameEncryptedAssertion', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '181 - <xs:element name="EncryptedAttribute"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameEncryptedAttribute', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '182 - <xs:element name="EncryptedID"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameEncryptedID', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '183 - <xs:element name="Evidence"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameEvidence', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '184 - <xs:element name="Exponent"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameExponent', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '185 - <xs:element name="Extensions"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameExtensions', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '186 - <xs:element name="G"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameG', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '187 - <xs:element name="GetComplete"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameGetComplete', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '188 - <xs:element name="HMACOutputLength"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameHMACOutputLength', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '189 - <xs:element name="IDPEntry"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameIDPEntry', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '190 - <xs:element name="IDPList"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameIDPList', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20assertion_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '191 - <xs:element name="Issuer"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameIssuer', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '192 - <xs:element name="J"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameJ', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '193 - <xs:element name="KeyInfo"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameKeyInfo', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '194 - <xs:element name="KeyName"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameKeyName', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '195 - <xs:element name="KeyValue"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameKeyValue', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '196 - <xs:element name="LogoutRequest"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameLogoutRequest', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '197 - <xs:element name="LogoutResponse"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameLogoutResponse', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '198 - <xs:element name="ManageNameIDRequest"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameManageNameIDRequest', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["saml20protocol_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '199 - <xs:element name="ManageNameIDResponse"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameManageNameIDResponse', data, layout);
+  
+    var data = [{
+      values: [1],
+      labels: ["xmldsig_schema"],
+      hole: 0.4,
+      type: 'pie'
+    }];
+
+    var layout = {
+      title: '200 - <xs:element name="Manifest"',
+      titlefont: {
+        size: 12,
+        color: 'black'
+      },
+      height: 415, // Each legend entry is 15 high.
+      width: 400,
+      showlegend: true,
+	      legend: {
+          "orientation": "h"
+        }
+      };
+
+    Plotly.newPlot('plotly_chart_div_xselementnameManifest', data, layout);
+  
+        $(document).ready(function () {
+           "use strict";
+           var last = $(location).attr("href").split("/").pop().split(".")[0].replace(/index/, "");
+           var tab = 1;
+           if (last !== "") {
+             tab = parseInt(last) + 1;
+           }
+           $(".navbar-nav li:nth-child(" + tab + ")").addClass("selected");
+           tab--;
+           if (tab === 0) {
+             tab = "";
+           }
+          $(".nuchecker a").attr("href", "https://validator.w3.org/nu/?doc=http%3A%2F%2Fthebeast.me%2Fcharts%2Findex" + tab + ".html");
+      });
+    </script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>
