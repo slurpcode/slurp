@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Varun S"
+date:   2018-09-12 15:11:01 +1000
+categories: "Varun S"
+---
+<div id="links">
+<a href="https://www.upwork.com/freelancers/~0170b6b44dfcbd1b28" target="_blank" rel="nofollow">Upwork</a>
+<br>
+<a href="https://github.com/varunshrm66" target="_blank" rel="nofollow">GitHub</a>
+</div>
+<br><br>
+
+{% for image in site.static_files %}
+    {% if image.path contains 'assets/images/posts/varuns' %}
+    <img src="{{ site.baseurl }}{{ image.path }}"
+         alt="Logorama - Logos Done Rama"
+         title="Logorama - Logos Done Rama">
+    {% endif %}
+{% endfor %}

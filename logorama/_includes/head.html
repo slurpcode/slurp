@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:image" content="https://logorama.github.io/assets/images/logos/logo-27.png">
+  <meta property="og:image" content="https://logorama.github.io/assets/images/logos/logo-35.png">
+  <meta property="og:image" content="https://logorama.github.io/assets/images/logos/logo-36.png">
+  <meta property="og:image" content="https://logorama.github.io/assets/images/logos/logo-52.png">
+  <meta property="og:image" content="https://logorama.github.io/assets/images/logos/logo-53.png">
+
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+          integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+          crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function() {
+          window.setInterval(function(){
+              var r = Math.floor(Math.random() * 57);
+              $("#logo").attr("src", "/assets/images/logos/logo-"+ r +".png")
+          }, 7500);
+      });
+  </script>
+</head>

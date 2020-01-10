@@ -1,0 +1,11 @@
+---
+layout: default
+title: Gallery
+permalink: /gallery/
+---
+
+{% for i in (0..56) %}
+    <img src="{{ site.baseurl }}/assets/images/logos/logo-{{ i }}.png"
+         alt="Logorama - Logos Done Rama"
+         title="Logorama - Logos Done Rama">
+{% endfor %}

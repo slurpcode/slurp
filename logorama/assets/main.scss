@@ -1,0 +1,61 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {background-color: black;}
+footer p, .site-title a, .site-title {color:white;}
+.site-header {border: 0;}
+.site-footer {border: 0}
+.site-title:visited {color:white;}
+.site-nav .page-link, a, a:visited,  .wrapper {color:white;}
+a:hover, h2, h1 {color:red}
+
+.home, footer img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+article div#links{
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+
+  > a { position: relative;
+    left: 50%;}
+}
+
+article {
+  h1, p {text-align: center}
+
+}
+
+.home {
+  ul, h2, p, .pagination {text-align: center}
+  a {color: red;}
+  .post-list {margin-top: 25pt;}
+}
+
+@media screen and (max-width:600px){
+  .site-nav {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #ffffff;
+    color:black;
+    border: 5px solid red;
+    border-radius: 20px;
+    text-align: right;
+    padding: 0pt 5pt 0pt 5pt;
+
+    .page-link {
+      color: black;
+    }
+  }
+
+}
