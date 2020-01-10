@@ -18,7 +18,7 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Logos done Rama
 baseurl: "" # the subpath of your site, e.g. /blog
-url:  # the base hostname & protocol for your site, e.g. http://example.com
+url: # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username: slurpcode
 paginate: 5
@@ -32,7 +32,6 @@ plugins:
   - jemoji
   - jekyll-feed
   - jekyll-paginate
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
