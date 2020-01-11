@@ -1,7 +1,7 @@
 {
-  "name": "fuchsia",
+  "name": "slurp",
   "version": "1.0.0",
-  "description": "We like Fuchsia flowers !!",
+  "description": "Slurp that code !!",
   "main": "index.js",
   "directories": {
     "doc": "docs"

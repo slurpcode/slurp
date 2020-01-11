@@ -11,11 +11,11 @@ require 'prawn'
 require 'yaml'
 
 # chart types
-chart_types = { 'd3pie' => 'd3pie',
-                'chartjs' => 'Chart.js',
-                'google' => 'Google Charts',
-                'plotly' => 'plotly.js',
-                'all' => 'All chart types' }
+chart_types = {'d3pie' => 'd3pie',
+               'chartjs' => 'Chart.js',
+               'google' => 'Google Charts',
+               'plotly' => 'plotly.js',
+               'all' => 'All chart types'}
 
 FileUtils.mkdir_p('site/assets')
 FileUtils.copy_entry('assets', 'site/assets')
@@ -73,7 +73,7 @@ end
 # Most popular word in the MIT Open source license
 def mit_word_count
   read_file('../LICENSE').split.map{|x| x.gsub(/[^a-z0-9]/i, '').downcase}
-                      .group_by{|x| x}.map{|k, v| [k, v.size]}.sort_by{|_, y| -y}
+                         .group_by{|x| x}.map{|k, v| [k, v.size]}.sort_by{|_, y| -y}
 end
 
 # returns the filename without its extension
@@ -216,14 +216,14 @@ def gp(page_number)
 end
 
 # build all the website pages
-def page_build(page, page_count, start = 0)
+def page_build(page, page_count, start=0)
   (start..page_count).map do |i|
     instance_variable_set("@page#{ii(i)}", instance_variable_get("@page#{ii(i)}") + page)
   end
 end
 
 # add navigation hyperlinks
-def add_links(page_count, use_spacing = 0)
+def add_links(page_count, use_spacing=0)
   page = ''
   (0..page_count).map do |i|
     page += %(
@@ -306,11 +306,11 @@ def draw_d3pie_chart(type, which, data, num, colors, title, width, height,
             },
             'content': ["
   data.each do |x|
-    if x[0].include?('.') || type != 2
-      s += "{'label':'#{x[0].split('.').first}','value':#{x[1]},'color':'#{colors[:"#{x[0]}"]}'},"
-    else
-      s += "{'label':'#{x[0]}','value':#{x[1]},'color':'black'},"
-    end
+    s += if x[0].include?('.') || type != 2
+           "{'label':'#{x[0].split('.').first}','value':#{x[1]},'color':'#{colors[:"#{x[0]}"]}'},"
+         else
+           "{'label':'#{x[0]}','value':#{x[1]},'color':'black'},"
+         end
   end
   s.chop!
   s + "
@@ -534,7 +534,7 @@ end
 
 # strip p tags from Kramdown output for headings
 def gs(text)
-  text.gsub(/<\/?p>/, '').strip
+  text.gsub(%r{</?p>}, '').strip
 end
 
 # replaces 'd3pie' with one of 'Google Charts', 'Chart.js', 'plotly.js' or 'd3pie' or 'All chart types'
@@ -781,6 +781,7 @@ page = ''
 if site_config['chart_type'] == 'all'
   (0..page_count).map do |i|
     next unless [5, 6].include? i % 8
+
     instance_variable_set("@page#{i}",
                           gp(i) + %(
         google.charts.load("current", {"packages":["corechart"]});\n))
@@ -896,7 +897,6 @@ page_build(page, page_count)
 
 # builds sitemap.xml, robots.txt and writes them and all the sites HTML pages to files
 def build_site(page_count, sitebuildtime, url, sitemap_url)
-  FileUtils.mkdir_p('site/')
   # write all the HTML pages to files and build the site map
   sitemap = %(<?xml version="1.0" encoding="UTF-8"?>
 <urlset
@@ -936,14 +936,11 @@ end
 #
 build_site(page_count, sitebuildtime, site_config['url'], site_config['maps'])
 
-#
-=begin
-f = File.open('index.html', 'r')
-text = f.read
-f.close
-doc = Kramdown::Document.new(text, :input => 'html')
-puts doc.to_html
-g = File.open('latex.tex', 'w')
-g.write(doc.to_latex)
-g.close
-=end
+# f = File.open('index.html', 'r')
+# text = f.read
+# f.close
+# doc = Kramdown::Document.new(text, :input => 'html')
+# puts doc.to_html
+# g = File.open('latex.tex', 'w')
+# g.write(doc.to_latex)
+# g.close

@@ -2,8 +2,10 @@
   "extends": [
     "config:base"
   ],
-  "assignees": ["jbampton"],
-  "bundler": { "enabled": true },
-  "enabledManagers": ["bundler"],
-  "labels": ["renovate"]
+  "assignees": [
+    "jbampton"
+  ],
+  "labels": [
+    "renovate"
+  ]
 }
