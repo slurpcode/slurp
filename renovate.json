@@ -2,6 +2,10 @@
   "extends": [
     "config:base"
   ],
-  "assignees": ["jbampton"],
-  "labels": ["renovate"]
+  "assignees": [
+    "jbampton"
+  ],
+  "labels": [
+    "renovate"
+  ]
 }
