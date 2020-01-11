@@ -1,51 +1,54 @@
-dita:
+dita 📘:
   - ruby-eclipse-cheatsheets-to-dita/**/*
 
-go:
+golang ⏩:
   - scrapers/go/**/*
 
-pdf:
+pdf 🖨️:
   - flicker-diff/*
 
-php:
+php 💻:
   - scrapers/php/**/*
 
-python:
+python 🖥️:
   - scrapers/python/**/*
 
-repo:
+repo 🚧:
   - ./*
   - assets/**/*
 
-ruby:
+ruby 💎:
   - charts/**/*
   - scrapers/ruby/**/*
 
-shell:
+shell 🐚:
   - scrapers/shell/**/*
 
 testing 🧪:
   - .circleci/*
   - .github/**/*
 
-web scraping:
+web scraping 🔪:
   - scrapers/**/*
   - seek/**/*
 
 website 🦺:
+  - charts/**/*
+  - doc/**/*
   - docs/**/*
   - govegas/**/*
+  - logorama/**/*
 
-windows:
+windows 🥃:
   - hashcheck/*
 
-xml:
+xml 🗃️:
   - well-formed/*
 
-xsl:
+xslt / xpath 📄:
   - well-formed/*
   - xsl-schema-sort/*
 
-xsd:
+xsd 🗄️:
   - built-in-datatypes/*
   - well-formed/*

@@ -3,7 +3,5 @@
     "config:base"
   ],
   "assignees": ["jbampton"],
-  "bundler": { "enabled": true },
-  "enabledManagers": ["bundler"],
   "labels": ["renovate"]
 }

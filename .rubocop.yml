@@ -1,7 +1,6 @@
 AllCops:
   Exclude:
     - vendor/**/*
-    - charts/run.rb
   TargetRubyVersion: 2.6.5
 
 Layout/LineLength:
@@ -11,7 +10,7 @@ Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
 
 Layout/SpaceBeforeBlockBraces:
-  EnforcedStyle: space
+  EnforcedStyle: no_space
 
 Layout/SpaceInsideBlockBraces:
   EnforcedStyle: no_space
@@ -32,6 +31,9 @@ Metrics/CyclomaticComplexity:
 Metrics/MethodLength:
   Max: 130
 
+Metrics/ParameterLists:
+  Enabled: false
+
 Metrics/PerceivedComplexity:
   Enabled: false
 
@@ -45,4 +47,7 @@ Style/MultilineBlockChain:
   Enabled: false
 
 Style/MutableConstant:
+  Enabled: false
+
+Style/Semicolon:
   Enabled: false
