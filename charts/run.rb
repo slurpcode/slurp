@@ -17,6 +17,9 @@ chart_types = { 'd3pie' => 'd3pie',
                 'plotly' => 'plotly.js',
                 'all' => 'All chart types' }
 
+FileUtils.mkdir_p('site/assets')
+FileUtils.copy_entry('assets', 'site/assets')
+
 # this repository is built with these technologies
 built_with = {}
 CSV.foreach('config/built_with.csv') do |row|

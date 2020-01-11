@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-## Contributors
+# Contributors
 
-### Concept and web development
+## Concept and web development
 
 - [Barnabus](https://www.upwork.com/fl/johnbampton)
 
-### Logo Design
+## Logo Design
 
 1. [Felipe J](https://www.upwork.com/freelancers/~01eb3ffa55e5d719d8)
 2. [Karine I](https://www.upwork.com/freelancers/~016cd3dcf007c09abd)
