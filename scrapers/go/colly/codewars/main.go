@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocolly/colly"
-	flag "github.com/spf13/pflag"
 	"log"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/gocolly/colly"
+	flag "github.com/spf13/pflag"
 )
 
 // flags
