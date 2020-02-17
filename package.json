@@ -9,8 +9,8 @@
   "dependencies": {
     "markdownlint": "^0.18.0",
     "surge": "^0.21.3",
-    "textlint-rule-no-todo": "^2.0.1",
-    "textlint": "^11.5.0"
+    "textlint": "^11.6.3",
+    "textlint-rule-no-todo": "^2.0.1"
   },
   "devDependencies": {},
   "scripts": {
