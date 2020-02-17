@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocolly/colly"
-	"github.com/urfave/cli/v2"
 	"log"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/gocolly/colly"
+	"github.com/urfave/cli/v2"
 )
 
 func main() {
@@ -30,10 +31,11 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	scrape(username)
+	record := scrape(username)
+	fmt.Println(record)
 }
 
-func scrape(username string) {
+func scrape(username string) []string {
 	allowed := "github.com"
 	url := "https://%s/%s"
 	var record []string
@@ -72,5 +74,5 @@ func scrape(username string) {
 		record = append(record, strings.TrimSpace(e.Text))
 	})
 	c.Visit(fmt.Sprintf(url, allowed, username))
-	fmt.Println(record)
+	return record
 }
