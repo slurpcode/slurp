@@ -80,15 +80,15 @@ jobs:
           command: |
             bundle exec rubocop
       - run:
-          name: 🧹 Run Reek
-          command: |
-            bundle exec reek -c .reek.yml
-      - run:
           name: 🧹 Run Markdown lint
           command: |
             bundle exec mdl .
       - run:
-          name: 🧹 Run Percy snapshots
+          name: 🧹 Run Reek
+          command: |
+            bundle exec reek -c .reek.yml
+      - run:
+          name: 📷 Run Percy snapshots
           command: |
             cd docs
             bundle exec jekyll build
