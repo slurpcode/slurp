@@ -377,6 +377,7 @@ DEPENDENCIES
   overcommit
   paint
   prawn
+  reek
   rubocop
   rubycritic
   tzinfo-data

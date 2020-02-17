@@ -10,6 +10,8 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      - restore_cache:
+          key: dep-{{ checksum ".circleci/config.yml" }}-{{ checksum "requirements.txt" }}
       - run:
           name: 🏗️ Install the Python Dependencies 🐍
           command: |
@@ -17,7 +19,13 @@ jobs:
             sudo apt-get install aspell python3-pip
             python3 --version
             pip3 --version
+            sudo pip3 install --upgrade virtualenv --progress-bar off
+            python3 -m venv venv || virtualenv venv && . venv/bin/activate
             sudo pip3 install -r requirements.txt
+      - save_cache:
+          key: dep-{{ checksum ".circleci/config.yml" }}-{{ checksum "requirements.txt" }}
+          paths:
+            - venv
       - run:
           name: 🧹 Run Markdown Spell Check
           command: |
@@ -29,11 +37,11 @@ jobs:
       - run:
           name: 🧹 Run Pylint
           command: |
-            find . -name "*.py" | xargs pylint --disable=C0103,C0114
+            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0103,C0114
       - run:
           name: 🧹 Run Flake8
           command: |
-            flake8 --ignore=E501
+            flake8 --ignore=E501 --exclude=venv
       - run:
           name: 🏗️ Update npm
           command: 'sudo npm install -g npm@latest'
@@ -68,15 +76,19 @@ jobs:
             - ./vendor/bundle
           key: v1-dependencies-{{ checksum "Gemfile.lock" }}
       - run:
-          name: 🧹 Run Ruby lint
+          name: 🧹 Run Rubocop
           command: |
             bundle exec rubocop
+      - run:
+          name: 🧹 Run Reek
+          command: |
+            bundle exec reek -c .reek.yml
       - run:
           name: 🧹 Run Markdown lint
           command: |
             bundle exec mdl .
       - run:
-          name: 🧹 Run percy snapshots
+          name: 🧹 Run Percy snapshots
           command: |
             cd docs
             bundle exec jekyll build
