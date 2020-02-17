@@ -62,7 +62,8 @@ function eggs() {
     "natasha",
     "platformer",
     "fighter",
-    "andrew"
+    "andrew",
+    "aleah"
     
   ];
   var keyHistory = "";
@@ -119,7 +120,10 @@ function eggs() {
             loadUrl("https://www.upwork.com/freelancers/~0147c7f6022695298b");
             break;
           case "andrew":
-              loadUrl("https://www.upwork.com/freelancers/~015e5954268934128d");
+            loadUrl("https://www.upwork.com/freelancers/~015e5954268934128d");
+            break;
+          case "aleah":
+            loadUrl("https://www.upwork.com/freelancers/~012f83431b8bc482b3");
             break;
           default:
             effect(1);
