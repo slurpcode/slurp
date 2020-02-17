@@ -1,20 +1,27 @@
-language: python
-
 sudo: false
 
-python:
-  - "3.6"
-  - "3.7"
-  - "3.8"
+matrix:
+  include:
+    - language: python
+      python:
+        - "3.6"
+        - "3.7"
+        - "3.8"
+      install: "pip install -r requirements.txt"
+      script:
+        - pylint --version
+        - find . -name "*.py" | xargs pylint --disable=C0103,C0114
+        - flake8 --version
+        - flake8 --ignore=E501
 
-install: "pip install -r requirements.txt"
-
-script:
-  - pylint --version
-  - find . -name "*.py" | xargs pylint --disable=C0103,C0114
-  - flake8 --version
-  - flake8 --ignore=E501
-
-branches:
-  only:
-    - master
+    - language: go
+      go:
+        - 1.13.x
+      before_install:
+        - if [[ "${GO111MODULE}" = "on" ]]; then mkdir "${HOME}/go"; export GOPATH="${HOME}/go"; fi
+      install:
+        - if [[ "${GO111MODULE}" = "on" ]]; then go mod download; fi
+        - if [[ "${GO111MODULE}" = "on" ]]; then export PATH="${GOPATH}/bin:${GOROOT}/bin:${PATH}"; fi
+      go_import_path: github.com/slurpcode/slurp
+      script:
+        - go test -race -covermode atomic -coverprofile=profile.cov ./...
