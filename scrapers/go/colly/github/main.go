@@ -12,6 +12,7 @@ import (
 )
 
 func main() {
+	var delay int
 	var username string
 	app := &cli.App{
 		Flags: []cli.Flag{
@@ -22,6 +23,14 @@ func main() {
 				Destination: &username,
 				Required:    true,
 			},
+			&cli.IntFlag{
+				Name:        "delay",
+				Aliases:     []string{"d"},
+				Usage:       "Time to delay in seconds",
+				Destination: &delay,
+				Required:    false,
+				Value:       60,
+			},
 		},
 		Action: func(c *cli.Context) error {
 			return nil
@@ -31,6 +40,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	time.Sleep(time.Duration(delay) * time.Second)
 	record := scrape(username)
 	fmt.Println(record)
 }
