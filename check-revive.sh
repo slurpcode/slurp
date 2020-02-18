@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-cd ../ || exit
-
 # print first
 revive -config config.toml .
 

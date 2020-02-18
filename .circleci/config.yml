@@ -136,8 +136,11 @@ jobs:
       - run:
           name: 🧹 Run Golang revive lint
           command: |
-            cd scrapers/go
             sh ./check-revive.sh || exit 1
+      - run:
+          name: 🧪 Run Go test
+          command: |
+            go test -race -covermode atomic -coverprofile=profile.cov ./...
       - save_cache: # Store cache in the /go/pkg directory
           key: v1-pkg-cache
           paths:
