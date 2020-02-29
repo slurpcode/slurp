@@ -10,7 +10,7 @@ import (
 	flag "github.com/spf13/pflag"
 )
 
-// flags 
+// flags
 var (
 	username string
 )
