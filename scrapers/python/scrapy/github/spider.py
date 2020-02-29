@@ -1,5 +1,4 @@
 """GitHub spider which scrapes five stats."""
-
 import scrapy
 
 
