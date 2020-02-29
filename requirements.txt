@@ -5,6 +5,7 @@ matplotlib
 pandas
 pylint
 requests
+scrapy
 seaborn
 sphinx
 yamllint
