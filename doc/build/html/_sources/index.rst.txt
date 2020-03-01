@@ -39,6 +39,12 @@ Tools
 
 `BaseX <http://basex.org/>`_ - BaseX is a robust, high-performance XML database engine and a highly compliant XQuery 3.1 processor with full support of the W3C Update and Full Text extensions. It serves as excellent framework for building complex data-intensive web applications.
 
+`ratago <https://github.com/jbowtie/ratago>`_ - Go implementation of an XSLT 1.0 processor
+
+`lxml <https://lxml.de/>`_ - the most feature-rich and easy-to-use library for processing XML and HTML in the Python language.
+
+`EXSLT <http://exslt.org/>`_ - is a community initiative to provide extensions to XSLT.
+
 Both `xsltproc` and `xmllint` come in handy if you like the command line.
 
 Links
