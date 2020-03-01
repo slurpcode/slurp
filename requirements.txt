@@ -4,6 +4,7 @@ lxml
 matplotlib
 pandas
 pylint
+recommonmark
 requests
 scrapy
 seaborn
