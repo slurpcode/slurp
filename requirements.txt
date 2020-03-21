@@ -9,5 +9,6 @@ requests
 scrapy
 seaborn
 sphinx
+sphinx_rtd_theme
 yamllint
 virtualenv
