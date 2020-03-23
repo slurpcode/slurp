@@ -3,19 +3,17 @@ package main
 import (
 	"strconv"
 	"testing"
-	"time"
 )
 
 func TestLength(t *testing.T) {
-	got := len(scrape("jbampton"))
+	got := len(scrape("jbampton", 60))
 	if got != 5 {
 		t.Errorf("len(scrape(\"jbampton\")) = %d; want 5", got)
 	}
 }
 
 func TestIntegers(t *testing.T) {
-	time.Sleep(15 * time.Second)
-	got := scrape("prestonhunter")
+	got := scrape("prestonhunter", 60)
 	for _, v := range got {
 		i, _ := strconv.Atoi(v)
 		s := strconv.Itoa(i)
