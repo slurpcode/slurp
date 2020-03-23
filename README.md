@@ -37,9 +37,29 @@
 
 ### Fuchsia Programming
 
+Jekyll based site requires Ruby
+
 ```
 rdoc -o docs/rdoc --exclude="assets|docs|node_modules|CODEOWNERS|Gemfile|LICENSE|README|.csv|.fql|.go|.iml|.ipr|.iws|.json|.lock|.php|.py|.sh|.toml|.txt|.xsl"
 cd docs || exit
+bundle exec jekyll serve
+```
+
+### Slurp Read the Docs
+
+Python based
+
+```
+cd doc || exit
+make html
+```
+
+### Logorama
+
+Jekyll based site requires Ruby
+
+```
+cd logorama || exit
 bundle exec jekyll serve
 ```
 
