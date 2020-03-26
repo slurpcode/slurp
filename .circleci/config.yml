@@ -29,7 +29,7 @@ jobs:
       - run:
           name: 🧹 Run Markdown Spell Check
           command: |
-            sh ./check-spelling.sh || exit 1
+            bash ./check-spelling.sh || exit 1
       - run:
           name: 🧹 Run YAML lint
           command: |
