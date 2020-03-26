@@ -1,10 +1,23 @@
 exclude_paths:
   - vendor/bundle
-UncommunicativeVariableName:
-  enabled: false  # we're happy with short variable names
-UncommunicativeParameterName:
-  enabled: false  # we're happy with short parameter names
-Attribute:
-  enabled: false  # we're often meeting an existing Ruby API with writable attributes
-NestedIterators:
-  enabled: false
+detectors:
+  Attribute:
+    enabled: false
+  ControlParameter:
+    enabled: false
+  DuplicateMethodCall:
+    enabled: false
+  FeatureEnvy:
+    enabled: false
+  InstanceVariableAssumption:
+    enabled: false
+  LongParameterList:
+    enabled: false
+  NestedIterators:
+    enabled: false
+  TooManyStatements:
+    enabled: false
+  UncommunicativeVariableName:
+    enabled: false
+  UtilityFunction:
+    enabled: false
