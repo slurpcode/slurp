@@ -7,7 +7,7 @@ misspelled="$path"misspelled-words.txt
 if [ -f $misspelled ] ; then
     rm $misspelled
 fi
-for file in $(find . -name "*.md" -not -path "**/node_modules/*" -not -path "**/charts/*");
+while read -r file
 do
     echo "$file" >> "$path"misspelled-words-temp.txt
     aspell list --lang=en --encoding=utf-8 --personal=./.aspell.en.pws < "$file" | sort -u >> "$path"misspelled-words-temp.txt
@@ -19,7 +19,7 @@ do
         errors=1
     fi
     :> "$path"misspelled-words-temp.txt
-done
+done < <(find . -name "*.md" -not -path "**/node_modules/*" -not -path "**/charts/*");
 if [ -f "$path"misspelled-words-temp.txt ] ; then
     rm "$path"misspelled-words-temp.txt
 fi
