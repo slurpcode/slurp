@@ -2,10 +2,10 @@
 
 errors=0
 path="tests/spelling/"
-mkdir -p $path
+mkdir -p "$path"
 misspelled="$path"misspelled-words.txt
-if [ -f $misspelled ] ; then
-    rm $misspelled
+if [ -f "$misspelled" ] ; then
+    rm "$misspelled"
 fi
 while read -r file
 do
