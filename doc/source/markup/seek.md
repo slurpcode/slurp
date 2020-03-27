@@ -63,4 +63,4 @@ Work type: full
 41 jobs found
 ```
 
-![scrape](images/scrape-jobs.png)
+![scrape](/images/scrape-jobs.png)

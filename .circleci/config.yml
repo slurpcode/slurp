@@ -33,7 +33,7 @@ jobs:
       - run:
           name: 🧹 Run YAML lint
           command: |
-            yamllint .erb-lint.yml .hound.yml .overcommit.yml .percy.yml .reek.yml .rubocop.yml .travis.yml .circleci/config.yml .github/labeler.yml .github/workflows/greetings.yml .github/workflows/label.yml
+            yamllint .erb-lint.yml .hound.yml .overcommit.yml .percy.yml .reek.yml .rubocop.yml .travis.yml .circleci/config.yml .github/invite-contributors.yml .github/labeler.yml .github/workflows/greetings.yml .github/workflows/label.yml
       - run:
           name: 🧹 Run Pylint
           command: |
