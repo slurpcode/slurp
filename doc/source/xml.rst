@@ -1,5 +1,5 @@
-Open Source XML
-===============
+📄 Open Source XML
+==================
 
 Editors
 -------
