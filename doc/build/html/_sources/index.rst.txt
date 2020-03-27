@@ -10,9 +10,10 @@ Welcome to slurp's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   xml
-   git
-   seek
+   markup/corel-draw
+   markup/git
+   markup/seek
+   markup/xml
 
 Indices and tables
 ==================
