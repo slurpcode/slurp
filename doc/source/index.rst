@@ -12,6 +12,7 @@ Welcome to slurp's documentation!
 
    xml
    git
+   seek
 
 Indices and tables
 ==================
