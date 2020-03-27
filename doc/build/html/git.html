@@ -1,0 +1,444 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Git &mdash; slurp  documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> slurp
+          
+
+          
+            
+            <img src="_static/logo.jpeg" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Git</a><ul>
+<li><a class="reference internal" href="#essential-git-commands">Essential Git commands</a></li>
+<li><a class="reference internal" href="#sync-your-fork">Sync your fork</a></li>
+<li><a class="reference internal" href="#squashing-commits">Squashing Commits</a></li>
+<li><a class="reference internal" href="#contributor-workflow">Contributor Workflow</a></li>
+<li><a class="reference internal" href="#watch-this-space">Watch This Space</a></li>
+</ul>
+</li>
+</ul>
+</div>
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">slurp</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Git</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/git.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="git">
+<h1>Git<a class="headerlink" href="#git" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="essential-git-commands">
+<h2>Essential Git commands<a class="headerlink" href="#essential-git-commands" title="Permalink to this headline">¶</a></h2>
+<p>So you have just cloned your <code class="docutils literal notranslate"><span class="pre">fork</span></code> from GitHub and the first Git command you
+should try is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git branch
+* master
+</pre></div>
+</div>
+<p>Now you want to submit a patch or new feature so you can create a new branch and
+switch to it by using</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git checkout -b feature-branch
+Switched to a new branch &#39;feature-branch&#39;
+</pre></div>
+</div>
+<p>And now the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">branch</span></code> command lists two local branches with the current
+branch highlighted by the <code class="docutils literal notranslate"><span class="pre">*</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git branch
+* feature-branch
+  master
+</pre></div>
+</div>
+<p>When creating a pull request you need to create a new branch or more technically
+a <code class="docutils literal notranslate"><span class="pre">feature</span> <span class="pre">branch</span></code>. In the above example the <code class="docutils literal notranslate"><span class="pre">feature-branch</span></code> is a new branch,
+but you should try to be more descriptive when naming the new feature branch.</p>
+<p>A more verbose version of <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">branch</span></code> is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git branch -v
+* improve-docs-2 3d55e793 Merge pull request #244 from fuchsia-programming/pull-243-restyled
+  master         3d55e793 Merge pull request #244 from fuchsia-programming/pull-243-restyled
+</pre></div>
+</div>
+<p>You can also show the branches in column format</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git branch --column
+* codewars   master
+</pre></div>
+</div>
+<p>Another way to create a new branch is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">branch</span> <span class="n">test</span><span class="o">-</span><span class="n">branch</span>
+</pre></div>
+</div>
+<p>The difference between using <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">branch</span></code> and <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-b</span></code> to create a
+branch is that <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span> <span class="pre">-b</span></code> will switch to the branch. Running <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">branch</span></code>
+again shows this</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git branch
+* codewars
+  master
+  test-branch
+</pre></div>
+</div>
+<p>To checkout a branch you can use <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">checkout</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git checkout test-branch
+Switched to branch &#39;test-branch&#39;
+</pre></div>
+</div>
+<p>Another useful command is <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git status
+  On branch docs
+  Changes not staged for commit:
+    (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+    (use &quot;git checkout -- &lt;file&gt;...&quot; to discard changes in working directory)
+
+          modified:   CONTRIBUTING.md
+
+  no changes added to commit (use &quot;git add&quot; and/or &quot;git commit -a&quot;)
+</pre></div>
+</div>
+<p>A very short version of <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code> is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$  git status -s
+M _docs/git.md
+</pre></div>
+</div>
+<p>You can see your changes with <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git diff
+diff --git a/_data/docs_nav.yml b/_data/docs_nav.yml
+index f7abb8fe..54db1374 100644
+--- a/_data/docs_nav.yml
++++ b/_data/docs_nav.yml
+@@ -15,5 +15,7 @@
+       link: /docs/sql-file/
+     - title: 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
+       link: /docs/eclipse-cheat-sheets-to-dita-with-ruby-xsl-nokogiri/
++    - title: 🖨️ DITA TO PDF WITH ECLIPSE
++      link: /docs/dita-to-pdf-with-eclipse/
+     - title: 🔗 Links
+       link: /docs/links/
+diff --git a/_docs/dita-to-pdf-with-eclipse.md b/_docs/dita-to-pdf-with-eclipse.md
+index e69de29b..b15f58fc 100644
+--- a/_docs/dita-to-pdf-with-eclipse.md
++++ b/_docs/dita-to-pdf-with-eclipse.md
+@@ -0,0 +1,126 @@
++---
++title: DITA TO PDF WITH ECLIPSE
++permalink: /docs/dita-to-pdf-with-eclipse/
++---
++
++# Overview
+</pre></div>
+</div>
+<p>A very compact version of <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">diff</span></code> is</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git diff --compact-summary
+_docs/git.md | 15 +++++++++++++++
+1 file changed, 15 insertions(+)
+</pre></div>
+</div>
+<p>To only see which files are changed run</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git diff --name-only
+_docs/git.md
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">origin</span></code> and the <code class="docutils literal notranslate"><span class="pre">upstream</span></code> are displayed below for a GitHub user. You
+should think of the <code class="docutils literal notranslate"><span class="pre">upstream</span></code> as the <code class="docutils literal notranslate"><span class="pre">source</span></code> and the <code class="docutils literal notranslate"><span class="pre">origin</span></code> as your <code class="docutils literal notranslate"><span class="pre">fork</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git remote -v
+origin  https://github.com/jbampton/fuchsia-programming.github.io.git (fetch)
+origin  https://github.com/jbampton/fuchsia-programming.github.io.git (push)
+upstream        https://github.com/fuchsia-programming/fuchsia-programming.github.io.git (fetch)
+upstream        https://github.com/fuchsia-programming/fuchsia-programming.github.io.git (push)
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span></code> command is shown below and it contains the history of the past
+commits</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git log
+commit a5cdeaba94db770797fe84bc8666116a97a06d3f (HEAD -&gt; ruby-cheat-sheets, upstream/master, origin/master, origin/HEAD, master)
+Merge: b4e0ff91 08c5dac7
+Author: John Bampton &lt;jbampton@users.noreply.github.com&gt;
+Date:   Sat Dec 14 08:46:16 2019 +1000
+
+    Merge pull request #240 from fuchsia-programming/pull-239-restyled
+
+    Restyle Add documentation to the website.
+
+commit 08c5dac76558c2ad01e964537c76a31cc9e222b5
+Author: Restyled.io &lt;commits@restyled.io&gt;
+Date:   Fri Dec 13 22:23:37 2019 +0000
+
+    Restyled by whitespace
+</pre></div>
+</div>
+<p>A more compact version of <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">log</span></code> is seen below</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git log --oneline
+cde978e9 (HEAD -&gt; improve-docs, upstream/master, origin/master, origin/HEAD, master) Merge pull request #242 from fuchsia-programming/pull-241-restyled
+17b1d497 Restyled by prettier-markdown
+cdfe2158 Add more documentation.
+a5cdeaba Merge pull request #240 from fuchsia-programming/pull-239-restyled
+08c5dac7 Restyled by whitespace
+9c63aff1 Restyled by prettier-yaml
+561d38b3 Restyled by prettier-markdown
+1b5e30b4 Add documentation to the website.
+b4e0ff91 Merge pull request #238 from jbampton/configure-percy
+13a2afe3 Add percy config file.
+6d1050f7 Merge pull request #237 from fuchsia-programming/pull-236-restyled
+fcd730b0 Restyled by whitespace
+</pre></div>
+</div>
+<p>Once your feature branch has been merged into the upstream you should delete it</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">branch</span> <span class="o">-</span><span class="n">D</span> <span class="n">overcommit</span>
+<span class="n">Deleted</span> <span class="n">branch</span> <span class="n">overcommit</span> <span class="p">(</span><span class="n">was</span> <span class="mf">00e2413</span><span class="p">)</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>To list your own <code class="docutils literal notranslate"><span class="pre">local</span></code> branches, your remote <code class="docutils literal notranslate"><span class="pre">origin</span></code> branches and all the
+remote <code class="docutils literal notranslate"><span class="pre">upstream</span></code> branches</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git branch -a
+  master
+* ruby-cheat-sheets
+  remotes/origin/HEAD -&gt; origin/master
+  remotes/origin/master
+  remotes/upstream/master
+  remotes/upstream/pull-183-restyled
+  remotes/upstream/pull-190-restyled
+  remotes/upstream/pull-196-restyled
+  remotes/upstream/pull-199-restyled
+  remotes/upstream/pull-212-restyled
+  remotes/upstream/pull-218-restyled
+</pre></div>
+</div>
+<p>To list your remote branches</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git branch -r
+  origin/HEAD -&gt; origin/master
+  origin/master
+  upstream/master
+  upstream/pull-183-restyled
+  upstream/pull-190-restyled
+  upstream/pull-196-restyled
+  upstream/pull-199-restyled
+  upstream/pull-212-restyled
+  upstream/pull-218-restyled
+</pre></div>
+</div>
+<p>You can edit or <code class="docutils literal notranslate"><span class="pre">amend</span></code> your previous commit</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">commit</span> <span class="o">--</span><span class="n">amend</span>
+</pre></div>
+</div>
+<p>You can check your git <code class="docutils literal notranslate"><span class="pre">version</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ git --version
+git version 2.21.0 (Apple Git-122.2)
+</pre></div>
+</div>
+<p><a class="reference external" href="#watch-this-space">↓</a> <a class="reference external" href="#git">↑</a></p>
+</div>
+<div class="section" id="sync-your-fork">
+<h2>Sync your fork<a class="headerlink" href="#sync-your-fork" title="Permalink to this headline">¶</a></h2>
+<p>Refer to the GitHub help article on
+<strong><a class="reference external" href="https://help.github.com/articles/syncing-a-fork/">Syncing a fork</a></strong>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">master</span>
+<span class="n">git</span> <span class="n">fetch</span> <span class="n">upstream</span>
+<span class="n">git</span> <span class="n">merge</span> <span class="n">upstream</span><span class="o">/</span><span class="n">master</span>
+<span class="n">git</span> <span class="n">push</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="#watch-this-space">↓</a> <a class="reference external" href="#git">↑</a></p>
+</div>
+<div class="section" id="squashing-commits">
+<h2>Squashing Commits<a class="headerlink" href="#squashing-commits" title="Permalink to this headline">¶</a></h2>
+<p>You may be asked by a maintainer to squash your commits before it will be
+merged.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">checkout</span> <span class="n">your</span><span class="o">-</span><span class="n">feature</span><span class="o">-</span><span class="n">branch</span>
+<span class="n">git</span> <span class="n">rebase</span> <span class="o">-</span><span class="n">i</span> <span class="n">HEAD</span><span class="o">~</span><span class="n">n</span>
+<span class="c1"># n is the number of commits in the pull request.</span>
+<span class="c1"># Set commits (except the one in the first line) from &#39;pick&#39; to &#39;squash&#39;, save and quit.</span>
+<span class="c1"># On the next screen, edit/refine commit messages.</span>
+<span class="c1"># Save and quit.</span>
+<span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">f</span> <span class="c1"># (force push to GitHub)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="contributor-workflow">
+<h2>Contributor Workflow<a class="headerlink" href="#contributor-workflow" title="Permalink to this headline">¶</a></h2>
+<p>To contribute a patch, the workflow is as follows:</p>
+<ul class="simple">
+<li><p>Fork repository</p></li>
+<li><p>Create topic branch</p></li>
+<li><p>Commit patches</p></li>
+<li><p>Push changes to your fork</p></li>
+<li><p>Create pull request</p></li>
+</ul>
+<p>If a commit references an issue, please add the reference. For example:
+<code class="docutils literal notranslate"><span class="pre">refs</span> <span class="pre">#351</span></code> or <code class="docutils literal notranslate"><span class="pre">fixes</span> <span class="pre">#123</span></code>. Using the <code class="docutils literal notranslate"><span class="pre">fixes</span></code> or <code class="docutils literal notranslate"><span class="pre">closes</span></code> keywords will cause
+the applicable issue to be closed when the pull request is merged.</p>
+<p><a class="reference external" href="#watch-this-space">↓</a> <a class="reference external" href="#git">↑</a></p>
+</div>
+<div class="section" id="watch-this-space">
+<h2>Watch This Space<a class="headerlink" href="#watch-this-space" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="#git">↑</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
