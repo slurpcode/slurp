@@ -3,6 +3,9 @@ AllCops:
     - vendor/**/*
   TargetRubyVersion: 2.6.0
 
+Layout/LineLength:
+  Enabled: false
+
 Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
 
@@ -23,9 +26,6 @@ Metrics/BlockLength:
   Max: 44
 
 Metrics/CyclomaticComplexity:
-  Enabled: false
-
-Metrics/LineLength:
   Enabled: false
 
 Metrics/MethodLength:
