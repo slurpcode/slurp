@@ -66,6 +66,15 @@ cd logorama || exit
 bundle exec jekyll serve
 ```
 
+### DITA To PDF - Vanilla
+
+```
+cd eclipse-cheatsheets-to-dita-to-pdf
+dita --input=map.ditamap --format=pdf -o pdf
+```
+
+### DITA To PDF - Custom Plugin
+
 ## Built With
 
 - [Ruby](https://www.ruby-lang.org/)

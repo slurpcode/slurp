@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task
+  PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="d2e3">
+   <title>Controlling what you view</title>
+   <shortdesc>
+         This  tutorial is going to get you started with some of the analysis functionality within Debrief.
+      </shortdesc>
+   <task id="d2e14">
+      <title>Filtering your view</title>
+      <shortdesc>With <b>ever-increasing</b> data rates from multiple recording systems it is easy for an analysis plot to become swamped.  Debrief NG provides tools to reduce the volume and type of data displayed.  This tutorial will lead you through the management of large volumes of data.</shortdesc>
+      <taskbody>
+         <steps>
+            <step id="d14e12">
+               <cmd>Check you have some data</cmd>
+               <info>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  We're going to be working with the Sample.xml data-file from Debrief's sample data distribution.  If you can't see the sample data, refer to the online help covering how to find/load it. </info>
+               <stepxmp/>
+            </step>
+            <step id="d14e18">
+               <cmd>Open a sample file</cmd>
+               <info>Now double-click on <b>Sample.xml</b> in the navigator window.  Our sample Debrief plot should now open</info>
+               <stepxmp/>
+            </step>
+            <step id="d14e27">
+               <cmd>Check you can view the data</cmd>
+               <info>To be sure you can see all of the data, perform a fit-to-window operation, either via the Fit-to-Window button on the toolbar, or by the Fit-to-window button on the Chart Overview panel.</info>
+               <stepxmp/>
+            </step>
+            <step id="d14e33">
+               <cmd>Open the Outline View</cmd>
+               <info>Next, make sure the Outline View is visible.  Remember if any screen component isn't visible you just load it by selecting it from the 'Window/Show View' menu.</info>
+               <stepxmp/>
+            </step>
+            <step id="d14e40">
+               <cmd>Hide shape</cmd>
+               <info>In the Outline View, expand the layer titled "Misc (xx items)".  At the top of the Outline View, is a toolbar of operations that can be applied to plot items.  After selecting an annotation from within that layer, click on the empty rectangle icon in the Outline View toolbar (next to the tick-in-rectangle). You should see the green tick disappear, together with the shape on the plot.  Show the shape again - but this time use the Outline View drop-down menu (at the right of the Outline View's toolbar). (Note that you can hide/reveal more than one item at a time by holding down the control key to perform a multiple selection.)</info>
+               <stepxmp/>
+            </step>
+            <step id="d14e46">
+               <cmd>Hide whole layer</cmd>
+               <info>Next, experiment with hiding whole layers:  select one of the tracks in the Outline View and try hiding and revealing it.  Note, that you can expand each track to see the series of positions inside it.  Once expanded, you can select a series of point (representing a time-period) to be hidden/revealed.  But hey, there are quicker ways than that - just keep reading.</info>
+               <stepxmp/>
+            </step>
+            <step id="d14e52">
+               <cmd>Show Time Controller</cmd>
+               <info>Now we're going to filter the plot to a particular period of time.  Start off by revealing the Time Controller view (or opening it if it isn't already visible).  The lower section of the time controller is a pair of sliders used to mark the start and end time of a variety of tasks.  </info>
+               <stepxmp/>
+            </step>
+            <step id="d14e58">
+               <cmd>Select Filter to Period</cmd>
+               <info>Instruct Debrief that we want the plot to be filtered according to the selected time period by selecting "Filter to period" from the Time Controller's drop-down menu (the downward facing triangle at the right-hand end of the tools at the top of the Time Controller view).</info>
+               <stepxmp/>
+            </step>
+            <step id="d14e64">
+               <cmd>Trim visible time period</cmd>
+               <info>Now, as you drag the start and stop markers, the amount of data visible on the plot will be trimmed.  Nice.  The shaded portion between the time-sliders represents the currently visible time period.  You can drag this shaded section to move your 'windows' forwards and backwards. Hold down the shift key to lock the period to the line markers </info>
+               <stepxmp/>
+            </step>
+         </steps>
+         <result>
+            Now you're a master of manipulating data, a skill essential both to data analysis and the collation of information for transfer to further presentation via Word or PowerPoint
+         </result>
+      </taskbody>
+   </task>
+   <task id="d2e26">
+      <title>Assigning primary and secondary tracks</title>
+      <shortdesc>With ever-increasing data rates from multiple recording systems it is easy for an analysis plot to become swamped.  Debrief NG provides tools to reduce the volume and type of data displayed.  This tutorial will lead you through the management of large volumes of data.</shortdesc>
+      <taskbody>
+         <steps>
+            <step id="d15e9">
+               <cmd>Check you have some data</cmd>
+               <info>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  Also check you have our sample data-files - if they're not there, find how to load them from the "Loading sample data" cheat-sheet.</info>
+               <stepxmp/>
+            </step>
+            <step id="d15e15">
+               <cmd>Open the sample plot-file</cmd>
+               <info>Double-click on 'sample.xml' in the Navigator window, and the sample plot will open.</info>
+               <stepxmp/>
+            </step>
+            <step id="d15e21">
+               <cmd>Fit to window</cmd>
+               <info>To make sure all of the data is visible, click on the "Fit-to-Window" toolbar button.</info>
+               <stepxmp/>
+            </step>
+            <step id="d15e27">
+               <cmd>View the tote</cmd>
+               <info>In the centre section of the left hand column in Debrief is the Track Tote.  If it's obscured by other view panels, click on it's tab to highlight it.  If it's not visible at all, open it by selecting "Track Tote" from the "Window/Show View" drop-down menu.</info>
+               <stepxmp/>
+            </step>
+            <step id="d15e34">
+               <cmd>What can I see?</cmd>
+               <info>Once open, you should see a table consisting of two or more columns.  The left-hand column lists the calculated data fields, and an optional right-hand column shows the units used for that field.  The centre columns show the actual calculated data fields, one for each track on the tote.  The left-hand data column (OSPREY in our test data) is the primary track - that is, all calculations are shown relative to this track.  The calculations themselves are explained in greater detail in the Help manual (click on the Help icon above). </info>
+               <stepxmp/>
+            </step>
+            <step id="d15e40">
+               <cmd>Move track through time</cmd>
+               <info>Ok, now open the Time Controller (in the top-section of the left hand column once again, open it from the Window menu if you can't see it).  If you drag the time-slider in the time-controller you will see the calculated data fields update.</info>
+               <stepxmp/>
+            </step>
+            <step id="d15e46">
+               <cmd>Removing a track</cmd>
+               <info>As an experiement with managing the tracks on the tote, right-click on the right-hand tote's columns (but not the header) and select "Remove this track".  Yes, the secondary track will be removed, and with only one track remaining.  </info>
+               <stepxmp/>
+            </step>
+            <step id="d15e52">
+               <cmd>Adding a track to the tote</cmd>
+               <info>Open the Outline View (you must know where to find that by now...).  Observe the '1' and '2' buttons on the view's toolbar, they're probably currently disabled.  They become enabled depending upon whether the currently selected item is suitable for inclusion on the tote.  Click once on the track you just removed from the tote, and both buttons will be enabled - allowing you to make the current track primary or secondary. Go on, have a go at assigning it...  It's more than just tracks that can be put on the tote, any data-item that has time and location attributes can be placed on the tote: items such as circles and labels are particularly suited.</info>
+               <stepxmp/>
+            </step>
+            <step id="d15e58">
+               <cmd>Done</cmd>
+               <info>Well done, you are now a master of the tote. </info>
+               <stepxmp/>
+            </step>
+         </steps>
+         <result>
+            So, you now understand Primary and Secondary tracks. You're practically an analyst!
+         </result>
+      </taskbody>
+   </task>
+   <task id="d2e41">
+      <title>Viewing time-related vessel tracks</title>
+      <shortdesc>Debrief offers more than just a static overview of vessel tracks - it allows you to control the time period of data shown.</shortdesc>
+      <taskbody>
+         <steps>
+            <step id="d16e9">
+               <cmd>Check you have some data</cmd>
+               <info>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  Also check you have our sample data-files - it they're not there, find how to load them from the "Loading sample data" cheat-sheet.</info>
+               <stepxmp>optional</stepxmp>
+            </step>
+            <step id="d16e15">
+               <cmd>Open the sample plot-file</cmd>
+               <info>Double-click on 'sample.xml' in the Navigator window, and the sample plot will open.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e21">
+               <cmd>Fit to window</cmd>
+               <info>To make sure all of the data is visible, click on the "Fit-to-Window" toolbar button.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e27">
+               <cmd>View the time controller</cmd>
+               <info>In the top section of the left hand column in Debrief is the Time Controller.  If it's not at the top, click on it's tab to highlight it.  If it's not visible at all, open it by selecting "Time Controller" from the "Window/Show View" drop-down menu.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e34">
+               <cmd>What am I looking at?</cmd>
+               <info>The Time Controller is quite a busy part of the application, used for a range of time-related tasks.  Click on the help button for this step to gain an overview of the different components - and come back to this cheat-sheet once you've finished.</info>
+               <stepxmp>optional</stepxmp>
+            </step>
+            <step id="d16e40">
+               <cmd>Check we're in normal stepping mode</cmd>
+               <info>Before we start moving through the data, just check that we're in 'normal' time stepping mode. There are two stepping modes: normal and snail - make sure we're not in the snail mode, but that the button on the Time Controller toolbar with the red track and black background is pressed.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e46">
+               <cmd>Move slowly through the data</cmd>
+               <info>
+       Above the current time indicator are a series of buttons, similar to the pause/play/rewind you'd find on a music-player.  Click on the buttons and you'll see the time value move forwards/backwards appropriately - any the white rectangular highlight move along the vessel tracks.
+    </info>
+               <stepxmp/>
+            </step>
+            <step id="d16e52">
+               <cmd>Move quickly through the time period</cmd>
+               <info>Now drag the time-slider, and notice the white highlight rectangle move along the vessel tracks, with the current time shown in green-on-black text.  If you also have the Track Tote view open, notice how it's updating to reflect the current time.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e58">
+               <cmd>Experiment with the time format options</cmd>
+               <info>The Time Controller toolbar has a drop-down list.  Within this are further drop-down lists to select the format in which the current DTG is displayed, and the increment used for moving through the plot.  Have a go at changing the time format so that you can see the full Year/Month/Day for the current DTG (yes, the Debrief test-plots are that old...).  Also have a go at changing the time increment to 15 minutes, so that you can move through the plot in large handfuls.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e64">
+               <cmd>Change plotting modes</cmd>
+               <info>Start off by reading through the online help on the time controllers <b>Plotting Modes</b> (via the above help link).  Then have a play.  Start off by  selecting <b>Primary Centred/North Oriented</b> and see how the viewport changes as you move forwards and backwards whilst in Snail mode.  Note that relative mode is selected independent of the mutually exclusive normal and snail modes.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e77">
+               <cmd>Work with time periods</cmd>
+               <info>There's one part of the Time Controller we haven't covered yet - that's the time period selector.  As its name suggests, this is used to select a period of time.  It doesn't work in quite the same way as the time-slider however, because typically nothing happens when you adjust it.  It is typically used to select a time-period to be used in a subsequent operation.  Here's an example: select a time period of 120700 to 121000.  Now select "Export calculated data to clipboard" from the Time Controller's drop-down menu.  Three hour's worth of calculated data have just been copied onto your system clipboard, ready to be pasted into Excel.  </info>
+               <stepxmp/>
+            </step>
+            <step id="d16e83">
+               <cmd>Control the visible time period</cmd>
+               <info>Right, let's move on to another role of the Time Period selector.  The time-period selector is also used to select a time period when viewing time-variable graphs - but hey, let's not leap ahead of ourselves.  One last use for the time-period selector is more related to the current view.  If you select the 120600 to 120700 period, then depress the "Filter to period" icon on the Time Controller toolbar, when you move the time-sliders the plot is trimmed to that one hour period.  Holding down the shift-key makes the slider move in larger increments. Dragging the selected period whilst holding down the shift-key whilst in this mode effectively gives you the ability to jump through the exercise in one-hour blocks. <b>But</b>, so we don't lose our sample data, make sure you now extend the sliders out to their full range to reveal all of our training data.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e92">
+               <cmd>Super accurate time selection</cmd>
+               <info>Note, for some time export operations you may find it difficult to select the <b>exact</b> time period you require. If this is the case, double-click on the start/finish time marker triangle, and the value will become editable in the Properties View</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e101">
+               <cmd>Time Controller's editable properties</cmd>
+               <info>The Time Controller's drop down menu contains a series of child menus.  In some of these you'll see an 'Edit properties' element. These let you control various aspects of temporal data analysis.  Once you've selected an item from the properties drop-down its attributes will become editable on the properties view (so open it, if it's not visible).  Note - the item only appears on the properties window if the Time Controller is the active view, that is it's the most recently selected view as indicated by it's blue highlight.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e107">
+               <cmd>Bookmarking the current time </cmd>
+               <info>So, just one part of the time controller left to cover now, bookmarking a particular time or event.  Debrief NG lets you insert a bookmark attached to a particular DTG in the current plot.  Let's say you're analysing a particular exercise and want to record a couple of interactions.  In Normal view mode, move the time-slider to 121011 hrs - the point when RED first react to BLUE.  Now select "Add DTG as bookmark" from the Time-Controller's drop-down menu.  A dialog box will open inviting you to add a remark for that DTG.  Enter "First contact", then press "OK".   Now move to 121131 and enter a bookmark title "Plotlock start".  Hmm, where are those bookmarks?  Open the Bookmarks view from the "Window/Show view" menu - and you'll see your two bookmarks.  Double-click on either of them to move to that time.  Now save and close your plot.   Note that the bookmarks remain effective, and you can store as many bookmarks as you like, across as many analysis plots as you like.</info>
+               <stepxmp/>
+            </step>
+            <step id="d16e113">
+               <cmd>Done</cmd>
+               <info>Well done, you've now mastered one of the most complex parts of Debrief - all downhill from now on...</info>
+               <stepxmp/>
+            </step>
+         </steps>
+         <result>
+            The <b>Time Controller</b> is a very capable panel that provides a wide range of functionality.  You've now got an idea how to control it.
+         </result>
+      </taskbody>
+   </task>
+   <task id="d2e57">
+      <title>Analysing time-related calculated data</title>
+      <shortdesc>Debrief is capable of producing analysis products beyond the traditional graphical track plots.  After all, it's got the data hasn't it?  The most obvious derived products are the analysis plots - graphs showing time versus either a recorded data value or a calculation based on a specific set of data-values.  Why not learn more...</shortdesc>
+      <taskbody>
+         <steps>
+            <step id="d17e9">
+               <cmd>The big-picture</cmd>
+               <info>Right, here's the process we're going to follow.  We need to tell Debrief the time-period we want plotted, which participants to plot data for, what type of data to plot, and (for relative calculations) which is the primary track.  Let's go.</info>
+               <stepxmp/>
+            </step>
+            <step id="d17e15">
+               <cmd>Check you have some data</cmd>
+               <info>In the top left hand corner of Debrief you should find the Navigator window.  If it isn't there, select "Navigator" from Debrief's Window/Show View menu.  Also check you have our sample data-files - it they're not there, find how to load them from the "Loading sample data" cheat-sheet.</info>
+               <stepxmp/>
+            </step>
+            <step id="d17e21">
+               <cmd>Open the sample plot-file</cmd>
+               <info>Double-click on 'sample.xml' in the Navigator window, and the sample plot will open.</info>
+               <stepxmp/>
+            </step>
+            <step id="d17e27">
+               <cmd>Fit to window</cmd>
+               <info>To make sure all of the data is visible, click on the "Fit-to-Window" toolbar button.</info>
+               <stepxmp/>
+            </step>
+            <step id="d17e34">
+               <cmd>Open the Time Controller</cmd>
+               <info>In the top left hand corner of Debrief you should find the Time Controller.  If is isn't there, select "Time Controller" from Debrief's Window/Show View menu.</info>
+               <stepxmp>optional</stepxmp>
+            </step>
+            <step id="d17e40">
+               <cmd>Select the time period of interest</cmd>
+               <info>Right, select the period 120800 to 121100 using the time-period selector at the bottom of the Time Controller  (click help button above for more advice on the time controller).  Remember that holding down the shift-key makes the sliders move in one-hour jumps.</info>
+               <stepxmp/>
+            </step>
+            <step id="d17e46">
+               <cmd>Open the Outline View</cmd>
+               <info>Next we need to indicate what tracks we want to see information for.  In the bottom left hand corner of Debrief you should find the Outline View window.  If it isn't there, select "Outline View" from Debrief's Window/Show View menu.</info>
+               <stepxmp>optional</stepxmp>
+            </step>
+            <step id="d17e52">
+               <cmd>Select the tracks of interest</cmd>
+               <info>Click on the two tracks (holding down the CTRL key to select multiple items).</info>
+               <stepxmp/>
+            </step>
+            <step id="d17e58">
+               <cmd>Open xy-plot</cmd>
+               <info>Then right-click on the selected items and click on "View XY Plot".  Next select "Range" from the drop-down list of calculations, then "OK".  Finally indicate which track is the primary (for plotting data that's based on the relationship between multiple tracks  Debrief needs to know which track is the "subject" of the calculation).</info>
+               <stepxmp/>
+            </step>
+            <step id="d17e64">
+               <cmd>Navigate around the plot</cmd>
+               <info>Well done, there you are.  Zoom in on the graph by dragging with the mouse, and view the whole dataset again by clicking on the graph's Fit to Window button.  Feel free to experiment with the other commands as well, or even configure the graph to use your preferred font &amp; titles.</info>
+               <stepxmp/>
+            </step>
+            <step id="d17e71">
+               <cmd>Done</cmd>
+               <info>That's almost it for plotting graphs.  The only additional thing to add is to point out that it's not just tracks that can be the plotted. If you need to track proximity of multiple vehicles to a fixed point (such as a sensor), just insert a label annotation at that point and select the label in addition to the tracks - making sure you indicate that the label/sensor is the primary.</info>
+               <stepxmp/>
+            </step>
+         </steps>
+         <result>
+            And that's all for using Debrief for analysis.  If you're from an organisation that conducts TMA analysis based on sensor data (or you've a general yearning to learn) why not go back to the <b>Welcome</b> page (using the <b>Restore Welcome</b> link at the top of this view and try the <b>Debrief support for single sided reconstruction</b> tutorial.
+         </result>
+      </taskbody>
+   </task>
+</task>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map
+  PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+   <title>Debrief Topic Map</title>
+   <topicmeta>
+      <searchtitle>Eclipse cheat sheets to PDF</searchtitle>
+      <shortdesc>Document Publishing Adventures with the DITA Open Toolkit</shortdesc>
+      <author>Debrief</author>
+      <author>John Bampton</author>
+      <source>http://debrief.info/</source>
+      <publisher>Github John Bampton</publisher>
+      <critdates>
+         <created date="2016-07-12"/>
+      </critdates>
+      <audience type="programmer" job="troubleshooting" experiencelevel="expert"/>
+      <category>Java</category>
+      <category>Document Publishing</category>
+      <othermeta name="Publishing" content="PDF,TocJS,XHTML,DITA,HTMLhelp"/>
+   </topicmeta>
+   <topicref href="dita/intro_composite.dita" type="task"/>
+   <topicref href="dita/analysis_composite.dita" type="task"/>
+   <topicref href="dita/s2r_composite.dita" type="task"/>
+   <topicref href="dita/satc_composite.dita" type="task"/>
+</map>
