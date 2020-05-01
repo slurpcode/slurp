@@ -10,11 +10,14 @@
     "markdownlint": "^0.20.0",
     "surge": "^0.21.3",
     "textlint": "^11.6.3",
-    "textlint-rule-no-todo": "^2.0.1"
+    "textlint-rule-no-todo": "^2.0.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified.\""
+    "test": "echo \"Error: no test specified.\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -33,5 +36,6 @@
   "bugs": {
     "url": "https://github.com/fuchsia-programming/fuchsia/issues"
   },
-  "homepage": "https://github.com/fuchsia-programming/fuchsia#readme"
+  "homepage": "https://github.com/fuchsia-programming/fuchsia#readme",
+  "snyk": true
 }
