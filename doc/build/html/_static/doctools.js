@@ -30,9 +30,8 @@ if (!window.console || !console.firebug) {
 /**
  * small helper function to urldecode strings
  */
-jQuery.urldecode = function(x) {
-  return decodeURIComponent(x).replace(/\+/g, ' ');
-};
+jQuery.urldecode = function(
+    x) { return decodeURIComponent(x).replace(/\+/g, ' '); };
 
 /**
  * small helper function to urlencode strings
@@ -56,7 +55,7 @@ jQuery.getQueryParameters = function(s) {
     if (key in result)
       result[key].push(value);
     else
-      result[key] = [value];
+      result[key] = [ value ];
   }
   return result;
 };
@@ -70,46 +69,42 @@ jQuery.fn.highlightText = function(text, className) {
     if (node.nodeType === 3) {
       var val = node.nodeValue;
       var pos = val.toLowerCase().indexOf(text);
-      if (pos >= 0 &&
-          !jQuery(node.parentNode).hasClass(className) &&
+      if (pos >= 0 && !jQuery(node.parentNode).hasClass(className) &&
           !jQuery(node.parentNode).hasClass("nohighlight")) {
         var span;
-        var isInSVG = jQuery(node).closest("body, svg, foreignObject").is("svg");
+        var isInSVG =
+            jQuery(node).closest("body, svg, foreignObject").is("svg");
         if (isInSVG) {
-          span = document.createElementNS("http://www.w3.org/2000/svg", "tspan");
+          span =
+              document.createElementNS("http://www.w3.org/2000/svg", "tspan");
         } else {
           span = document.createElement("span");
           span.className = className;
         }
         span.appendChild(document.createTextNode(val.substr(pos, text.length)));
-        node.parentNode.insertBefore(span, node.parentNode.insertBefore(
-          document.createTextNode(val.substr(pos + text.length)),
-          node.nextSibling));
+        node.parentNode.insertBefore(
+            span, node.parentNode.insertBefore(
+                      document.createTextNode(val.substr(pos + text.length)),
+                      node.nextSibling));
         node.nodeValue = val.substr(0, pos);
         if (isInSVG) {
-          var rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+          var rect =
+              document.createElementNS("http://www.w3.org/2000/svg", "rect");
           var bbox = node.parentElement.getBBox();
           rect.x.baseVal.value = bbox.x;
           rect.y.baseVal.value = bbox.y;
           rect.width.baseVal.value = bbox.width;
           rect.height.baseVal.value = bbox.height;
           rect.setAttribute('class', className);
-          addItems.push({
-              "parent": node.parentNode,
-              "target": rect});
+          addItems.push({"parent" : node.parentNode, "target" : rect});
         }
       }
-    }
-    else if (!jQuery(node).is("button, select, textarea")) {
-      jQuery.each(node.childNodes, function() {
-        highlight(this, addItems);
-      });
+    } else if (!jQuery(node).is("button, select, textarea")) {
+      jQuery.each(node.childNodes, function() { highlight(this, addItems); });
     }
   }
   var addItems = [];
-  var result = this.each(function() {
-    highlight(this, addItems);
-  });
+  var result = this.each(function() { highlight(this, addItems); });
   for (var i = 0; i < addItems.length; ++i) {
     jQuery(addItems[i].parent).before(addItems[i].target);
   }
@@ -125,16 +120,14 @@ if (!jQuery.browser) {
     ua = ua.toLowerCase();
 
     var match = /(chrome)[ \/]([\w.]+)/.exec(ua) ||
-      /(webkit)[ \/]([\w.]+)/.exec(ua) ||
-      /(opera)(?:.*version|)[ \/]([\w.]+)/.exec(ua) ||
-      /(msie) ([\w.]+)/.exec(ua) ||
-      ua.indexOf("compatible") < 0 && /(mozilla)(?:.*? rv:([\w.]+)|)/.exec(ua) ||
-      [];
+                /(webkit)[ \/]([\w.]+)/.exec(ua) ||
+                /(opera)(?:.*version|)[ \/]([\w.]+)/.exec(ua) ||
+                /(msie) ([\w.]+)/.exec(ua) ||
+                ua.indexOf("compatible") < 0 &&
+                    /(mozilla)(?:.*? rv:([\w.]+)|)/.exec(ua) ||
+                [];
 
-    return {
-      browser: match[ 1 ] || "",
-      version: match[ 2 ] || "0"
-    };
+    return {browser : match[1] || "", version : match[2] || "0"};
   };
   jQuery.browser = {};
   jQuery.browser[jQuery.uaMatch(navigator.userAgent).browser] = true;
@@ -180,7 +173,8 @@ var Documentation = {
   addTranslations : function(catalog) {
     for (var key in catalog.messages)
       this.TRANSLATIONS[key] = catalog.messages[key];
-    this.PLURAL_EXPR = new Function('n', 'return +(' + catalog.plural_expr + ')');
+    this.PLURAL_EXPR =
+        new Function('n', 'return +(' + catalog.plural_expr + ')');
     this.LOCALE = catalog.locale;
   },
 
@@ -189,16 +183,16 @@ var Documentation = {
    */
   addContextElements : function() {
     $('div[id] > :header:first').each(function() {
-      $('<a class="headerlink">\u00B6</a>').
-      attr('href', '#' + this.id).
-      attr('title', _('Permalink to this headline')).
-      appendTo(this);
+      $('<a class="headerlink">\u00B6</a>')
+          .attr('href', '#' + this.id)
+          .attr('title', _('Permalink to this headline'))
+          .appendTo(this);
     });
     $('dt[id]').each(function() {
-      $('<a class="headerlink">\u00B6</a>').
-      attr('href', '#' + this.id).
-      attr('title', _('Permalink to this definition')).
-      appendTo(this);
+      $('<a class="headerlink">\u00B6</a>')
+          .attr('href', '#' + this.id)
+          .attr('title', _('Permalink to this definition'))
+          .appendTo(this);
     });
   },
 
@@ -208,9 +202,7 @@ var Documentation = {
    */
   fixFirefoxAnchorBug : function() {
     if (document.location.hash && $.browser.mozilla)
-      window.setTimeout(function() {
-        document.location.href += '';
-      }, 10);
+      window.setTimeout(function() { document.location.href += ''; }, 10);
   },
 
   /**
@@ -239,17 +231,21 @@ var Documentation = {
    * init the domain index toggle buttons
    */
   initIndexTable : function() {
-    var togglers = $('img.toggler').click(function() {
-      var src = $(this).attr('src');
-      var idnum = $(this).attr('id').substr(7);
-      $('tr.cg-' + idnum).toggle();
-      if (src.substr(-9) === 'minus.png')
-        $(this).attr('src', src.substr(0, src.length-9) + 'plus.png');
-      else
-        $(this).attr('src', src.substr(0, src.length-8) + 'minus.png');
-    }).css('display', '');
+    var togglers =
+        $('img.toggler')
+            .click(function() {
+              var src = $(this).attr('src');
+              var idnum = $(this).attr('id').substr(7);
+              $('tr.cg-' + idnum).toggle();
+              if (src.substr(-9) === 'minus.png')
+                $(this).attr('src', src.substr(0, src.length - 9) + 'plus.png');
+              else
+                $(this).attr('src',
+                             src.substr(0, src.length - 8) + 'minus.png');
+            })
+            .css('display', '');
     if (DOCUMENTATION_OPTIONS.COLLAPSE_INDEX) {
-        togglers.click();
+      togglers.click();
     }
   },
 
@@ -282,25 +278,26 @@ var Documentation = {
     return path.substring(url.lastIndexOf('/') + 1, path.length - 1);
   },
 
-  initOnKeyListeners: function() {
+  initOnKeyListeners : function() {
     $(document).keydown(function(event) {
       var activeElementType = document.activeElement.tagName;
       // don't navigate when in search box or textarea
-      if (activeElementType !== 'TEXTAREA' && activeElementType !== 'INPUT' && activeElementType !== 'SELECT'
-          && !event.altKey && !event.ctrlKey && !event.metaKey && !event.shiftKey) {
+      if (activeElementType !== 'TEXTAREA' && activeElementType !== 'INPUT' &&
+          activeElementType !== 'SELECT' && !event.altKey && !event.ctrlKey &&
+          !event.metaKey && !event.shiftKey) {
         switch (event.keyCode) {
-          case 37: // left
-            var prevHref = $('link[rel="prev"]').prop('href');
-            if (prevHref) {
-              window.location.href = prevHref;
-              return false;
-            }
-          case 39: // right
-            var nextHref = $('link[rel="next"]').prop('href');
-            if (nextHref) {
-              window.location.href = nextHref;
-              return false;
-            }
+        case 37: // left
+          var prevHref = $('link[rel="prev"]').prop('href');
+          if (prevHref) {
+            window.location.href = prevHref;
+            return false;
+          }
+        case 39: // right
+          var nextHref = $('link[rel="next"]').prop('href');
+          if (nextHref) {
+            window.location.href = nextHref;
+            return false;
+          }
         }
       }
     });
@@ -310,6 +307,4 @@ var Documentation = {
 // quick alias for translations
 _ = Documentation.gettext;
 
-$(document).ready(function() {
-  Documentation.init();
-});
+$(document).ready(function() { Documentation.init(); });
