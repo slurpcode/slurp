@@ -1,4 +1,4 @@
-    # Configuration file for the Sphinx documentation builder.
+# Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
@@ -21,7 +21,7 @@ master_doc = "index"
 
 # -- General configuration ---------------------------------------------------
 source_parsers = {
-   '.md': CommonMarkParser
+    '.md': CommonMarkParser
 }
 
 # Add any Sphinx extension module names here, as strings. They can be
