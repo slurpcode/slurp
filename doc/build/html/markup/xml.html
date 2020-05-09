@@ -21,10 +21,10 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-        <script type="text/javascript" src="../_static/jquery.js"></script>
-        <script type="text/javascript" src="../_static/underscore.js"></script>
-        <script type="text/javascript" src="../_static/doctools.js"></script>
-        <script type="text/javascript" src="../_static/language_data.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
     
     <script type="text/javascript" src="../_static/js/theme.js"></script>
 
@@ -35,6 +35,7 @@
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="➡ RST2MD" href="rst2md.html" />
     <link rel="prev" title="🚀 Seek" href="seek.html" /> 
 </head>
 
@@ -93,6 +94,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#links">Links</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="rst2md.html">➡ RST2MD</a></li>
 </ul>
 
             
@@ -144,7 +146,7 @@
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/markup/xml.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/markup/xml.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -161,23 +163,44 @@
 <h1>📄 Open Source XML<a class="headerlink" href="#open-source-xml" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="editors">
 <h2>Editors<a class="headerlink" href="#editors" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="https://www.jetbrains.com/idea/">IntelliJ community</a> - some support for mainly XSLT and XPath</p>
-<p><a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm community</a> - some support for mainly XSLT and XPath</p>
+<p><a class="reference external" href="https://www.jetbrains.com/idea/">IntelliJ community</a> - some support for
+mainly XSLT and XPath</p>
+<p><a class="reference external" href="https://www.jetbrains.com/pycharm/">PyCharm community</a> - some support
+for mainly XSLT and XPath</p>
 </div>
 <div class="section" id="tools">
 <h2>Tools<a class="headerlink" href="#tools" title="Permalink to this headline">¶</a></h2>
-<p><a class="reference external" href="http://xmlsoft.org/XSLT/xsltproc.html">xsltproc</a> -&gt;  command line xslt processor</p>
-<p><a class="reference external" href="http://xmlsoft.org/xmllint.html">xmllint</a> -&gt;  command line XML tool</p>
-<p><a class="reference external" href="https://github.com/fidothe/saxon-xslt">saxon-xslt</a> -&gt; Wrap Saxon 9.X’s HE’s XSLT 2.0 processor for use in JRuby</p>
-<p><a class="reference external" href="https://www.saxonica.com/welcome/welcome.xml">Saxon</a> -&gt;  Saxon processor for XSLT, XQuery, and XML Schema, including the only XSLT 3.0 conformant toolset.</p>
-<p><a class="reference external" href="https://xmlgraphics.apache.org/fop/">Apache FOP</a> -&gt; Formatting Objects Processor is a Java application that converts XSL Formatting Objects files to PDF or other printable formats.</p>
-<p><a class="reference external" href="https://xalan.apache.org/">Apache Xalan</a> -&gt; Apache Xalan Project develops and maintains libraries and programs that transform XML documents using XSLT standard stylesheets.</p>
-<p><a class="reference external" href="http://exist-db.org/">eXist</a> - eXist-db is an open source software project for NoSQL databases built on XML technology. It is classified as both a NoSQL document-oriented database system and a native XML database.</p>
-<p><a class="reference external" href="http://basex.org/">BaseX</a> - BaseX is a robust, high-performance XML database engine and a highly compliant XQuery 3.1 processor with full support of the W3C Update and Full Text extensions. It serves as excellent framework for building complex data-intensive web applications.</p>
-<p><a class="reference external" href="https://github.com/jbowtie/ratago">ratago</a> - Go implementation of an XSLT 1.0 processor</p>
-<p><a class="reference external" href="https://lxml.de/">lxml</a> - the most feature-rich and easy-to-use library for processing XML and HTML in the Python language.</p>
-<p><a class="reference external" href="http://exslt.org/">EXSLT</a> - is a community initiative to provide extensions to XSLT.</p>
-<p>Both <cite>xsltproc</cite> and <cite>xmllint</cite> come in handy if you like the command line.</p>
+<p><a class="reference external" href="http://xmlsoft.org/XSLT/xsltproc.html">xsltproc</a> -&gt; command line xslt
+processor</p>
+<p><a class="reference external" href="http://xmlsoft.org/xmllint.html">xmllint</a> -&gt; command line XML tool</p>
+<p><a class="reference external" href="https://github.com/fidothe/saxon-xslt">saxon-xslt</a> -&gt; Wrap Saxon
+9.X’s HE’s XSLT 2.0 processor for use in JRuby</p>
+<p><a class="reference external" href="https://www.saxonica.com/welcome/welcome.xml">Saxon</a> -&gt; Saxon
+processor for XSLT, XQuery, and XML Schema, including the only XSLT 3.0
+conformant toolset.</p>
+<p><a class="reference external" href="https://xmlgraphics.apache.org/fop/">Apache FOP</a> -&gt; Formatting Objects
+Processor is a Java application that converts XSL Formatting Objects
+files to PDF or other printable formats.</p>
+<p><a class="reference external" href="https://xalan.apache.org/">Apache Xalan</a> -&gt; Apache Xalan Project
+develops and maintains libraries and programs that transform XML
+documents using XSLT standard stylesheets.</p>
+<p><a class="reference external" href="http://exist-db.org/">eXist</a> - eXist-db is an open source software
+project for NoSQL databases built on XML technology. It is classified as
+both a NoSQL document-oriented database system and a native XML
+database.</p>
+<p><a class="reference external" href="http://basex.org/">BaseX</a> - BaseX is a robust, high-performance XML
+database engine and a highly compliant XQuery 3.1 processor with full
+support of the W3C Update and Full Text extensions. It serves as
+excellent framework for building complex data-intensive web
+applications.</p>
+<p><a class="reference external" href="https://github.com/jbowtie/ratago">ratago</a> - Go implementation of an
+XSLT 1.0 processor</p>
+<p><a class="reference external" href="https://lxml.de/">lxml</a> - the most feature-rich and easy-to-use library
+for processing XML and HTML in the Python language.</p>
+<p><a class="reference external" href="http://exslt.org/">EXSLT</a> - is a community initiative to provide
+extensions to XSLT.</p>
+<p>Both <em>xsltproc</em> and <em>xmllint</em> come in handy if
+you like the command line.</p>
 </div>
 <div class="section" id="links">
 <h2>Links<a class="headerlink" href="#links" title="Permalink to this headline">¶</a></h2>
@@ -201,6 +224,8 @@
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="rst2md.html" class="btn btn-neutral float-right" title="➡ RST2MD" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="seek.html" class="btn btn-neutral float-left" title="🚀 Seek" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

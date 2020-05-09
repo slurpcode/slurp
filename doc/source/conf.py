@@ -1,4 +1,4 @@
-# Configuration file for the Sphinx documentation builder.
+    # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
 # list see the documentation:
@@ -10,6 +10,8 @@
 #
 # import os
 # import sys
+from recommonmark.parser import CommonMarkParser
+
 # sys.path.insert(0, os.path.abspath('.'))
 # -- Project information -----------------------------------------------------
 
@@ -18,6 +20,9 @@ author = "Slurp Code Team"
 master_doc = "index"
 
 # -- General configuration ---------------------------------------------------
+source_parsers = {
+   '.md': CommonMarkParser
+}
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
