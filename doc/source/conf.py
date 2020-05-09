@@ -20,9 +20,7 @@ author = "Slurp Code Team"
 master_doc = "index"
 
 # -- General configuration ---------------------------------------------------
-source_parsers = {
-    '.md': CommonMarkParser
-}
+source_parsers = {".md": CommonMarkParser}
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -45,7 +43,7 @@ exclude_patterns = []
 html_theme = "sphinx_rtd_theme"
 
 html_theme_options = {
-    'navigation_depth': 4,
+    "navigation_depth": 4,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
