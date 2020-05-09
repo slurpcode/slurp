@@ -1,10 +1,12 @@
-personal_ws-1.1 en 205
+personal_ws-1.1 en 225 
 ALLCAPSRUNTOGETHER
+AWS
 AdemHodzic
 Araica
 Argh
 Armentrout
 Bampton
+BaseX
 CLI
 CSV
 Camtasia
@@ -31,6 +33,7 @@ Github
 Golang
 HTMLHelp
 Hashcheck
+Heroku
 Homebrew
 IMDb
 IntelliJ
@@ -43,8 +46,10 @@ Logorama
 MacOS
 Matz
 MiB
+MySQL
 NSW
 NewYork
+NoSQL
 Nokogiri
 PDF's
 PDFs
@@ -53,6 +58,8 @@ PagePlus
 PhotoPlus
 Photopaint
 Photoshop
+PostgreSQL
+PyCharm
 Quickstart
 RDBMS
 ReactJS
@@ -73,6 +80,8 @@ XHTML
 XPath
 XSL
 XSLT
+XQuery
+Xalan
 YourWebHostingAccountUsername
 Yukihiro
 abb
@@ -99,6 +108,7 @@ codewars
 colly
 colordiff
 config
+conformant
 contraints
 corel
 cron
@@ -116,6 +126,7 @@ dwdiff
 else's
 enum
 enums
+eXist
 fc
 fcd
 fe
@@ -155,6 +166,7 @@ originalProductName
 originalProductUPCCode
 ot
 overcommit
+pandoc
 pdf
 pdftotext
 percy
@@ -172,21 +184,26 @@ rb
 rbw
 rdbms
 rdoc
+reStructuredText
 rebase
 repo
 roadmap
+rst
 schemas
 sha
 sitename
 sql
 src
 stateid
+stylesheets
 sugiarto
 summerhill
+swiss
 sydney
 td
 th
 thexder
+toolset
 transtype
 transtype's
 turing
@@ -200,7 +217,14 @@ wdiff
 whitespace
 worktype
 xml
+xmllint
 xmlquery
 xsl
+xslt
+xsltproc
 yaml
 yml
+Pandoc
+RST
+inputfile
+outputfile
