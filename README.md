@@ -1,9 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
-
+[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website/https/slurpcode.github.io/slurp.svg)](https://slurpcode.github.io/slurp)
@@ -224,12 +222,12 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center"><a href="https://github.com/Karinisk"><img src="https://avatars1.githubusercontent.com/u/43111214?v=4" width="100px;" alt=""/><br /><sub><b>Karinisk</b></sub></a><br /><a href="#design-Karinisk" title="Design">🎨</a></td>
     <td align="center"><a href="http://ndm.id.au/"><img src="https://avatars3.githubusercontent.com/u/1697199?v=4" width="100px;" alt=""/><br /><sub><b>Nicholas Meredith</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=udha" title="Documentation">📖</a> <a href="#ideas-udha" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://www.anish.info.np/"><img src="https://avatars3.githubusercontent.com/u/16479244?v=4" width="100px;" alt=""/><br /><sub><b>Anish Bhusal</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=anisbhsl" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/commits?author=anisbhsl" title="Documentation">📖</a></td>
   </tr>
 </table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
-
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the
