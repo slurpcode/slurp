@@ -1,4 +1,4 @@
-personal_ws-1.1 en 225 
+personal_ws-1.1 en 229
 ALLCAPSRUNTOGETHER
 AWS
 AdemHodzic
@@ -55,6 +55,7 @@ PDF's
 PDFs
 POSIX
 PagePlus
+Pandoc
 PhotoPlus
 Photopaint
 Photoshop
@@ -62,6 +63,7 @@ PostgreSQL
 PyCharm
 Quickstart
 RDBMS
+RST
 ReactJS
 RexEgg
 Roadmap
@@ -145,6 +147,7 @@ hypersonic
 iPads
 iframe
 img
+inputfile
 interoperable
 io
 jbampton
@@ -165,6 +168,7 @@ oneline
 originalProductName
 originalProductUPCCode
 ot
+outputfile
 overcommit
 pandoc
 pdf
@@ -224,7 +228,3 @@ xslt
 xsltproc
 yaml
 yml
-Pandoc
-RST
-inputfile
-outputfile
