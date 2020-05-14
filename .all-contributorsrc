@@ -108,6 +108,16 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "anisbhsl",
+      "name": "Anish Bhusal",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16479244?v=4",
+      "profile": "http://www.anish.info.np/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
