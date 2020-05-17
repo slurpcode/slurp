@@ -14,6 +14,7 @@ Welcome to slurp's documentation!
    markup/git
    markup/seek
    markup/xml
+   markup/rst2md
 
 Indices and tables
 ==================
