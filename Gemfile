@@ -15,7 +15,7 @@ gem 'minima', '~> 2.5'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
-gem 'github-pages', group: :jekyll_plugins
+gem 'github-pages', '>= 204', group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -24,10 +24,10 @@ group :jekyll_plugins do
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
-  gem 'jemoji'
+  gem 'jemoji', '>= 0.11.1'
 end
 
-gem 'activesupport', '>= 4.1.11'
+gem 'activesupport', '>= 6.0.3.1'
 gem 'chroma'
 gem 'csv'
 gem 'fileutils'
