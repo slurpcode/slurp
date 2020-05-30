@@ -5,6 +5,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Website](https://img.shields.io/website/https/slurpcode.github.io/slurp.svg)](https://slurpcode.github.io/slurp)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bfedfccb-e9c8-4d92-8553-29850be57fb2/deploy-status)](https://app.netlify.com/sites/logorama/deploys)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/master/LICENSE)
 [![This project is using Percy.io for visual regression testing](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
@@ -29,7 +30,7 @@
 
 [Slurp Read the Docs - in progress](https://slurp.readthedocs.io/)
 
-[Logorama](https://logorama.netlify.com/)
+[Logorama](https://logorama.netlify.app/)
 
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
@@ -67,7 +68,7 @@ bundle exec jekyll serve
 ### DITA To PDF - Vanilla
 
 ```
-cd eclipse-cheatsheets-to-dita-to-pdf
+cd eclipse-cheatsheets-to-dita-to-pdf/output
 dita --input=map.ditamap --format=pdf -o pdf
 ```
 
