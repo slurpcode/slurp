@@ -7,12 +7,13 @@
 [![Fuchsia Programming](https://img.shields.io/website/https/slurpcode.github.io/slurp.svg)](https://slurpcode.github.io/slurp)
 [![Logorama](https://img.shields.io/website?color=blue&url=https%3A%2F%2Flogorama.netlify.app%2F)](https://logorama.netlify.app/)
 [![Slurp Charts](https://img.shields.io/website?color=purple&url=https%3A%2F%2Fslurpcode.netlify.com%2F)](https://slurpcode.netlify.app/)
-[![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://slurp.readthedocs.io/)
+[![Slurp - Read the Docs](https://img.shields.io/website?label=docs&url=https%3A%2F%2Fslurp.readthedocs.io%2F)](https://slurp.readthedocs.io/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/65f774da-2a53-422d-a304-8cddfa37a9fe/deploy-status)](https://app.netlify.com/sites/slurpcode/deploys)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bfedfccb-e9c8-4d92-8553-29850be57fb2/deploy-status)](https://app.netlify.com/sites/logorama/deploys)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Travis CI](https://travis-ci.org/slurpcode/slurp.svg?branch=master)](https://travis-ci.org/github/slurpcode/slurp)
+[![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://readthedocs.org/projects/slurp/builds/)
 
 [![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/master/LICENSE)
 [![This project is using Percy.io for visual regression testing](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
