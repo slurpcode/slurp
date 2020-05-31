@@ -4,7 +4,11 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Website](https://img.shields.io/website/https/slurpcode.github.io/slurp.svg)](https://slurpcode.github.io/slurp)
+[![Fuchsia Programming](https://img.shields.io/website/https/slurpcode.github.io/slurp.svg)](https://slurpcode.github.io/slurp)
+[![Logorama](https://img.shields.io/website?color=blue&url=https%3A%2F%2Flogorama.netlify.app%2F)](https://logorama.netlify.app/)
+[![Slurp Charts](https://img.shields.io/website?color=purple&url=https%3A%2F%2Fslurpcode.netlify.com%2F)](https://slurpcode.netlify.com/)
+[![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://slurp.readthedocs.io/)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bfedfccb-e9c8-4d92-8553-29850be57fb2/deploy-status)](https://app.netlify.com/sites/logorama/deploys)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/master/LICENSE)
