@@ -1,12 +1,6 @@
----
-title: 💾 Database
-permalink: /docs/database/
-logo: database
----
+# 💾 Database
 
-Written by: Preston Hunter
-
-# Overview
+## Overview
 
 - [What is a database?](#what-is-a-database)
 - [When to use NULL](#when-to-use-null)

@@ -1,10 +1,6 @@
----
-title: 💎 Ruby
-permalink: /docs/ruby/
-logo: ruby
----
+# 💎 Ruby
 
-# Ruby a programmer's best friend
+## Ruby a programmer's best friend
 
 Some of our projects use [Ruby](https://www.ruby-lang.org/en/) so this page
 tries to be an easy to use tutorial on all things [Ruby](http://ruby-doc.org).
@@ -29,7 +25,7 @@ so don't be scared and first check out a short Ruby YouTube video I created.
 
 [&#8595;](#watch-this-space) [&#8593;](#ruby)
 
-# Links
+## Links
 
 - [Ruby](https://www.ruby-lang.org/en/)
 - [Ruby Best Practice](https://github.com/rubocop-hq/ruby-style-guide)
@@ -47,4 +43,4 @@ so don't be scared and first check out a short Ruby YouTube video I created.
 
 [&#8593;](#ruby)
 
-[Ruby is...](/docs/assets/images/docs/ruby-is.png)
+[Ruby is...](images/ruby-is.png)

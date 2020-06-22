@@ -1,15 +1,6 @@
----
-title: 🗄️ How to Use the .sql file
-permalink: /docs/sql-file/
----
+# 🗄️ How to Use the .sql file 
 
-Written by: Preston Hunter
-
-Date Written: 24 September 2017
-
-Date Modified: 21 May 2018
-
-# Introduction
+## Introduction
 
 This document provides detailed instructions for using a database dump file
 (also known as a .sql file) to restore a database or load a database elsewhere.

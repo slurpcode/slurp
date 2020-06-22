@@ -5,9 +5,6 @@
 - title: 📖 About
   link: /about/
   show_on_mobile: true
-- title: ℹ️ Documentation
-  link: /docs/
-  show_on_mobile: true
 - title: 🎁 🎊 Favourites
   link: /favourites/
   show_on_mobile: true

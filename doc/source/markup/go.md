@@ -1,10 +1,6 @@
----
-title: ⏩ Golang
-permalink: /docs/go/
-logo: go
----
+# ⏩ Golang
 
-# Links
+## Links
 
 - [Golang](https://golang.org/) - Go is a statically typed, compiled programming
   language designed at Google

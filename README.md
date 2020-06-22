@@ -50,7 +50,6 @@
 Jekyll based site requires Ruby
 
 ```
-rdoc -o docs/rdoc --exclude="assets|docs|node_modules|CODEOWNERS|Gemfile|LICENSE|README|.csv|.fql|.go|.iml|.ipr|.iws|.json|.lock|.php|.py|.sh|.toml|.txt|.xsl"
 cd docs || exit
 bundle exec jekyll serve
 ```
@@ -82,6 +81,8 @@ dita --input=map.ditamap --format=pdf -o pdf
 
 ### DITA To PDF - Custom Plugin
 
+More to come soon.
+
 ## Built With
 
 - [Ruby](https://www.ruby-lang.org/)
@@ -106,6 +107,9 @@ dita --input=map.ditamap --format=pdf -o pdf
 - [Liquid](https://shopify.github.io/liquid/)
 - [Minima](https://github.com/jekyll/minima)
 - [Jemoji](https://github.com/jekyll/jemoji)
+- [Sphinx](https://www.sphinx-doc.org/)
+- [sphinx-intl](https://pypi.org/project/sphinx-intl/)
+- [Read the Docs](https://readthedocs.org/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [jQuery](https://jquery.com/)
 - [Typer.js](https://steven.codes/typerjs/)

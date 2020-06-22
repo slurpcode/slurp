@@ -1,9 +1,4 @@
----
-title: 🔷 Codewars Go Colly CLI Scraper
-link: /docs/scrapers/go/colly/codewars/
----
-
-# Overview
+# 🔷 Codewars Go Colly CLI Scraper
 
 ```
 $ ./codewars

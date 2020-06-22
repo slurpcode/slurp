@@ -1,9 +1,4 @@
----
-title: 🆎 Built in datatypes
-link: /docs/built-in-datatypes/
----
-
-# XML Schema built in datatypes
+# 🆎 Built in datatypes
 
 ## Built with
 

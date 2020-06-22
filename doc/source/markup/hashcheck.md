@@ -1,9 +1,6 @@
----
-title: 🛂 Hashcheck
-permalink: /docs/hashcheck/
----
+# 🛂 Hashcheck
 
-# Ruby script to check file checksums with the Windows CertUtil Command
+## Ruby script to check file checksums with the Windows CertUtil Command
 
 **`hashcheck.rb`** is a Ruby based command line program that checks file
 checksums with the Windows CertUtil Command.
