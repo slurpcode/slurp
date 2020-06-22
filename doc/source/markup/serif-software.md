@@ -1,9 +1,6 @@
----
-title: 📙 Serif Software
-link: /docs/serif-software/
----
+# 📙 Serif Software
 
-# Image editing
+## Image editing
 
 Written by: Harley
 

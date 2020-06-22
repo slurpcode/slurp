@@ -10,11 +10,28 @@ Welcome to slurp's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   markup/corel-draw
-   markup/git
-   markup/seek
-   markup/xml
-   markup/rst2md
+   markup/built-in-datatypes.md
+   markup/codewars.md
+   markup/codewars-scraper.md
+   markup/corel-draw.md
+   markup/database.md
+   markup/dita-to-pdf-with-eclipse.md
+   markup/eclipse-cheatsheets-to-dita-to-pdf.md
+   markup/eclipse-cheatsheets-to-dita-with-python.md
+   markup/flicker-diff.md
+   markup/git.md
+   markup/go.md
+   markup/hashcheck.md
+   markup/links.md
+   markup/rst2md.md
+   markup/ruby.md
+   markup/ruby-cheat-sheets.md
+   markup/ruby-strip.md
+   markup/seek.md
+   markup/serif-software.md
+   markup/sql-file.md
+   markup/well-formed.md
+   markup/xml.md
 
 Indices and tables
 ==================

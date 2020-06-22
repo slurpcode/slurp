@@ -1,9 +1,6 @@
----
-title: 🎞️ Ruby Strip
-permalink: /docs/ruby-strip/
----
+# 🎞️ Ruby Strip
 
-# Ruby white space strip command line application
+## Ruby white space strip command line application
 
 This program uses
 **[Ruby Power](https://www.ruby-lang.org/en/documentation/success-stories/)** to

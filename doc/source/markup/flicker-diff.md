@@ -1,9 +1,6 @@
----
-title: 🔥 Flicker Diff
-link: /docs/flicker-diff/
----
+# 👁️ Diffs
 
-# Animated PDF differencing
+## Animated PDF differencing
 
 [pdftocairo](https://www.mankier.com/1/pdftocairo)
 

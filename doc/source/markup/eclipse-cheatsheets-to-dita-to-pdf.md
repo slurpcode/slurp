@@ -1,9 +1,4 @@
----
-title: 🌘 Eclipse cheat sheets to DITA to PDF
-permalink: /docs/eclipse-cheatsheets-to-dita-to-pdf/
----
-
-# Overview
+# 🌘 Eclipse cheat sheets to DITA to PDF
 
 The original project created a set of DITA XML files and one highly customized
 [PDF](https://acrobat.adobe.com/au/en/products/about-adobe-pdf.html) and there

@@ -1,11 +1,8 @@
----
-title: ⚔️ Codewars
-link: /docs/codewars/
----
+# ⚔️ Codewars
 
-# Achieve mastery through challenge !!!
+## Achieve mastery through challenge !!!
 
-![Bruce Lee](/docs/assets/images/docs/bruce-lee.png)
+![Bruce Lee](images/bruce-lee.png)
 
 ## Go
 

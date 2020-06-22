@@ -1,9 +1,4 @@
----
-title: 🧪 Well Formed
-link: /docs/well-formed/
----
-
-# XML well formedness
+# 🧪 Well Formed
 
 ```
 $ ruby well_formed.rb -h

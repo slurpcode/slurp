@@ -1,10 +1,6 @@
----
-title: 🔗 Links
-permalink: /docs/links/
-logo: hyperlink
----
+# 🔗 Links
 
-# Guides
+## Guides
 
 - [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)

@@ -1,9 +1,6 @@
----
-title: 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
-permalink: /docs/eclipse-cheat-sheets-to-dita-with-ruby-xsl-nokogiri/
----
+# 📄 Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
 
-# From Java, XSLT 2.0 with Saxon to Ruby, XSLT 1.0 with the Nokogiri Ruby gem
+## From Java, XSLT 2.0 with Saxon to Ruby, XSLT 1.0 with the Nokogiri Ruby gem
 
 Using
 [Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)

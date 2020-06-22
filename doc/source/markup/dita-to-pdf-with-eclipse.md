@@ -1,9 +1,6 @@
----
-title: 🖨️ DITA to PDF with Eclipse
-permalink: /docs/dita-to-pdf-with-eclipse/
----
+# 🖨️ DITA to PDF with Eclipse
 
-# Overview
+## Overview
 
 This program runs inside [Eclipse](https://www.eclipse.org/), an
 [integrated development environment](https://en.wikipedia.org/wiki/Integrated_development_environment)

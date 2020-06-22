@@ -49,3 +49,6 @@ html_theme_options = {
 html_static_path = ["_static"]
 
 html_logo = "_static/images/logo.jpeg"
+
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
