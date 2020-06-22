@@ -1,4 +1,4 @@
-# 🗄️ How to Use the .sql file 
+# 🗄️ How to Use the .sql file
 
 ## Introduction
 
