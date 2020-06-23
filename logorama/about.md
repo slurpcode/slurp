@@ -8,7 +8,7 @@ permalink: /about/
 
 ## Concept and web development
 
-- [Barnabus](https://www.upwork.com/fl/johnbampton)
+- [Barnabas](https://www.upwork.com/fl/johnbampton)
 
 ## Logo Design
 
