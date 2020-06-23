@@ -5,12 +5,11 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website/https/slurpcode.github.io/slurp.svg)](https://slurpcode.github.io/slurp)
-[![Logorama](https://img.shields.io/website?color=blue&url=https%3A%2F%2Flogorama.netlify.app%2F)](https://logorama.netlify.app/)
+[![Logorama](https://heroku-badge.herokuapp.com/?app=logorama)](https://logorama.herokuapp.com/)
 [![Slurp Charts](https://img.shields.io/website?color=purple&url=https%3A%2F%2Fslurpcode.netlify.com%2F)](https://slurpcode.netlify.app/)
 [![Slurp - Read the Docs](https://img.shields.io/website?label=docs&url=https%3A%2F%2Fslurp.readthedocs.io%2F)](https://slurp.readthedocs.io/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/65f774da-2a53-422d-a304-8cddfa37a9fe/deploy-status)](https://app.netlify.com/sites/slurpcode/deploys)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bfedfccb-e9c8-4d92-8553-29850be57fb2/deploy-status)](https://app.netlify.com/sites/logorama/deploys)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Travis CI](https://travis-ci.org/slurpcode/slurp.svg?branch=master)](https://travis-ci.org/github/slurpcode/slurp)
 [![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://readthedocs.org/projects/slurp/builds/)
@@ -38,7 +37,7 @@
 
 [Slurp Read the Docs - in progress](https://slurp.readthedocs.io/)
 
-[Logorama](https://logorama.netlify.app/)
+[Logorama](https://logorama.herokuapp.com/)
 
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
