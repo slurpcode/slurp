@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "magic-worker",
+  "version": "1.0.0",
+  "description": "A template for Cloudflare Workers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "John Bampton",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
