@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
-  {%- include head.html -%}
-
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" prefix="og: http://ogp.me/ns#">
+  {% include head.html %}
   <body>
-
     {%- include header.html -%}
     <div id="overlay">
       <img id="imgo" src="/assets/images/fuchsia-flower-only.png" alt="Fuchsia">
@@ -12,20 +9,15 @@
     <div id="youtube">
 
     </div>
-
     <main class="page-content {{ page.color | escape }}" aria-label="Content">
       <div class="wrapper {{ page.page-type | escape }}">
         {{ content }}
-
         <img id="px" alt="&#9829;" title="&#9829;" src="/assets/images/FFFFFF-0.png">
       </div>
     </main>
-
     <div style="display:none;" id="effect"></div>
     <div style="display:none;" id="allBeast"></div>
     <div id="audio"></div>
     {%- include footer.html -%}
-
   </body>
-
 </html>
