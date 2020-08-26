@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  deploy:
+  magic:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
@@ -16,3 +16,13 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: 'workers.dev/magic'
+  preston:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - uses: actions/checkout@v2
+      - name: Publish
+        uses: cloudflare/wrangler-action@1.2.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: 'workers.dev/preston'
