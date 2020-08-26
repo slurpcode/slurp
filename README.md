@@ -5,11 +5,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
-[![Logorama](https://heroku-badge.herokuapp.com/?app=logorama)](https://logorama.herokuapp.com/)
-[![Slurp Charts](https://img.shields.io/website?color=purple&label=netlify&url=https%3A%2F%2Fslurpcode.netlify.app%2F)](https://slurpcode.netlify.app/)
+[![Logorama](https://img.shields.io/website?label=heroku&url=https%3A%2F%2Flogorama.herokuapp.com%2F)](https://logorama.herokuapp.com/)
 [![Slurp - Read the Docs](https://img.shields.io/website?label=read%20the%20docs&url=https%3A%2F%2Fslurp.readthedocs.io%2F)](https://slurp.readthedocs.io/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/65f774da-2a53-422d-a304-8cddfa37a9fe/deploy-status)](https://app.netlify.com/sites/slurpcode/deploys)
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Travis CI](https://travis-ci.org/slurpcode/slurp.svg?branch=master)](https://travis-ci.org/github/slurpcode/slurp)
 [![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://readthedocs.org/projects/slurp/builds/)
@@ -32,8 +30,6 @@
 ## Sites
 
 [Fuchsia Programming](https://fuchsia.surf/)
-
-[Slurp Code - Charts](https://slurpcode.netlify.app/)
 
 [Slurp Read the Docs - in progress](https://slurp.readthedocs.io/)
 

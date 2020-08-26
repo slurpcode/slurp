@@ -8,7 +8,7 @@ on:
 jobs:
   magic:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: Magic
     steps:
       - uses: actions/checkout@v2
       - name: Publish
@@ -18,7 +18,7 @@ jobs:
           workingDirectory: 'workers.dev/magic'
   preston:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: Preston
     steps:
       - uses: actions/checkout@v2
       - name: Publish
