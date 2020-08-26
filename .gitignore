@@ -16,6 +16,9 @@ newspells.txt
 profile.cov
 venv
 doc/build/
-workers.dev/preston/dist
-workers.dev/preston/node_modules
-workers.dev/preston/worker
+workers.dev/magic/dist/
+workers.dev/magic/node_modules/
+workers.dev/magic/worker/
+workers.dev/preston/dist/
+workers.dev/preston/node_modules/
+workers.dev/preston/worker/
