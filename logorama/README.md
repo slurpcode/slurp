@@ -1,5 +1,3 @@
 # Logorama
 
-## Logos done Rama 
-
-
+## Logos done Rama
