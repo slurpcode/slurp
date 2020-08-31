@@ -1,21 +1,15 @@
-"""Broken Khan energy points scraper."""
-import re
+import time
 
-import requests
-from lxml import html  # pylint:disable=import-error
+import selenium
+from selenium import webdriver
 
+options = webdriver.ChromeOptions()
+options.add_argument("headless")
 
-def get_energy_points(user):
-    """Return the wonderful energy points."""
-    page = requests.get("https://www.khanacademy.org/profile/%s/" % user)
-    tree = html.fromstring(page.content)
-    text = tree.xpath('//script[contains(.,"prefersReducedMotion")]/text()')
-    points = "Not found"
-    for t in text:
-        m = re.search(r'points":(\d+),"prefersReducedMotion', t)
-        if m:
-            points = m.group(1)
-    return points
+browser = webdriver.Chrome('./chromedriver.exe', chrome_options=options)
 
+browser.get("https://www.khanacademy.org/profile/JohnBampton/")
 
-print(get_energy_points("XSLTGod"))  # pylint:disable=superfluous-parens
+time.sleep(35)
+energy_points = browser.find_element_by_xpath('/html/body/div[2]/div[3]/div/div[2]/div/div/div[3]/div/div[2]/div/div[4]/div/div/div/div[1]/div[1]/div[2]/div/div[2]/table/tbody/tr[2]/td[2]/span')
+print(int(energy_points.text.replace(",", "")))
