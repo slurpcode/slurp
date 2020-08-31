@@ -284,7 +284,7 @@ GEM
     octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
-    overcommit (0.54.0)
+    overcommit (0.55.0)
       childprocess (>= 0.6.3, < 5)
       iniparse (~> 1.4)
     paint (2.2.0)
