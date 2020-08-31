@@ -16,7 +16,7 @@
   line-height: $base-line-height * $base-font-size * 2.25;
   letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
+  // float: left;
 
   &,
   &:visited {
@@ -24,10 +24,35 @@
   }
 }
 
-.site-nav {
-  float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
 
+.nav-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+  li{
+    display: flex;
+  }
+  
+}
+
+.trigger{
+  font-size: 19pt ;
+  height: 96%;
+  margin-top: 2%;
+}
+
+.site-nav {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+  line-height: $base-line-height * $base-font-size * 2.25;
   .nav-trigger {
       display: none;
   }
@@ -47,6 +72,7 @@
   }
 
   @include media-query($on-palm) {
+    height: auto;
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
