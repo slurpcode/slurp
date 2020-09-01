@@ -120,7 +120,7 @@ jobs:
             find . -type f -name '*.sh' | wc -l
             find . -type f -name '*.sh' | xargs shellcheck --external-sources
 
-  go-lint:
+  go-based-linters:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: circleci/golang:1.13.3 #
@@ -133,10 +133,15 @@ jobs:
           keys:
             - v1-pkg-cache
       - run: go get -u github.com/mgechev/revive
+      - run: go get -u github.com/Clever/csvlint/cmd/csvlint
       - run:
           name: 🧹 Run Golang revive lint
           command: |
             sh ./check-revive.sh || exit 1
+      - run:
+          name: 🧹 Run CSV lint
+          command: |
+            sh ./check-csv.sh || exit 1
       - run:
           name: 🧪 Run Go test
           command: |
@@ -184,12 +189,12 @@ workflows:
     jobs:
       - build
       - shellcheck
-      - go-lint
+      - go-based-linters
       - shell:
           requires:
             - build
             - shellcheck
-            - go-lint
+            - go-based-linters
       - surge:
           requires:
             - build
