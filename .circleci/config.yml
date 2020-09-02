@@ -106,7 +106,7 @@ jobs:
             - ./tomlcheck
           key: v1-dependencies-tomlcheck
       - run:
-          name: 📷 Run tomlcheck (toml linter)
+          name: 🧹 Run tomlcheck (toml linter)
           command: |
             ./check-toml.sh || exit 1
 
