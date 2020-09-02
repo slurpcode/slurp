@@ -109,17 +109,10 @@ jobs:
           name: 🧹 Run tomlcheck (toml linter)
           command: |
             ./check-toml.sh || exit 1
-      - restore_cache:
-          keys:
-            - v1-dependencies-xmllint
       - run:
           name: 🏗️ Install xmllint
           command: |
             sudo apt-get install libxml2-utils
-      - save_cache:
-          paths:
-            - /usr/bin
-          key: v1-dependencies-xmllint
       - run:
           name: 🧹 Run xmllint
           command: |
