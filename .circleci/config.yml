@@ -149,10 +149,15 @@ jobs:
           keys:
             - v1-pkg-cache
       - run: go get -u github.com/mgechev/revive
+      - run: go get -u github.com/Clever/csvlint/cmd/csvlint
       - run:
           name: 🧹 Run Golang revive lint
           command: |
             sh ./check-revive.sh || exit 1
+      - run:
+          name: 🧹 Run CSV lint
+          command: |
+            sh ./check-csv.sh || exit 1
       - run:
           name: 🧪 Run Go test
           command: |
