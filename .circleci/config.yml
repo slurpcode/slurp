@@ -120,7 +120,7 @@ jobs:
             find . -type f -name '*.sh' | wc -l
             find . -type f -name '*.sh' | xargs shellcheck --external-sources
 
-  go-based-linters:
+  go-lint:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: circleci/golang:1.13.3 #
@@ -189,12 +189,12 @@ workflows:
     jobs:
       - build
       - shellcheck
-      - go-based-linters
+      - go-lint
       - shell:
           requires:
             - build
             - shellcheck
-            - go-based-linters
+            - go-lint
       - surge:
           requires:
             - build
