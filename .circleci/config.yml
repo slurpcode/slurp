@@ -121,7 +121,7 @@ jobs:
             - /usr/bin
           key: v1-dependencies-xmllint
       - run:
-          name: 🏗️ Run xmllint
+          name: 🧹 Run xmllint
           command: |
             ./check-xml.sh || exit 1
 
