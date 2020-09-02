@@ -93,6 +93,22 @@ jobs:
             cd docs
             bundle exec jekyll build
             npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
+      - restore_cache:
+          keys:
+            - v1-dependencies-tomlcheck
+      - run:
+          name: 🏗️ Install tomlcheck 💎
+          command: |
+            wget https://github.com/vmchale/tomlcheck/releases/download/0.1.0.38/tomlcheck-x86_64-unkown-linux-gnu -O tomlcheck
+            chmod a+x tomlcheck
+      - save_cache:
+          paths:
+            - ./tomlcheck
+          key: v1-dependencies-tomlcheck
+      - run:
+          name: 🧹 Run tomlcheck (toml linter)
+          command: |
+            ./check-toml.sh || exit 1
 
   surge:
     docker:
