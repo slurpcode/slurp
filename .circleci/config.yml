@@ -99,7 +99,8 @@ jobs:
       - run:
           name: 🏗️ Install tomlcheck 💎
           command: |
-            curl -sL https://raw.githubusercontent.com/vmchale/tomlcheck/master/sh/check
+            wget https://github.com/vmchale/tomlcheck/releases/download/0.1.0.38/tomlcheck-x86_64-unkown-linux-gnu -O tomlcheck
+            chmod a+x tomlcheck
       - save_cache:
           paths:
             - ./tomlcheck
