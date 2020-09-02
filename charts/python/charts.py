@@ -1,7 +1,8 @@
 """Python file to create Matplotlib and Seaborn based charts"""
 
-import seaborn as sns
 import pandas as pd
+
+import seaborn as sns
 import matplotlib.pyplot as plt
 
 auto = pd.read_csv('python/auto.csv')

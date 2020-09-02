@@ -33,11 +33,11 @@ jobs:
       - run:
           name: 🧹 Run YAML lint
           command: |
-            yamllint .erb-lint.yml .hound.yml .overcommit.yml .percy.yml .reek.yml .rubocop.yml .travis.yml .circleci/config.yml .github/invite-contributors.yml .github/workflows/greetings.yml
+            yamllint .erb-lint.yml .hound.yml .overcommit.yml .percy.yml .reek.yml .rubocop.yml .travis.yml .circleci/config.yml .github/invite-contributors.yml .github/workflows/greetings.yml .github/workflows/lint.yml .markdownlint.yml
       - run:
           name: 🧹 Run Pylint
           command: |
-            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0103,C0114
+            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0103,C0114,W0221
       - run:
           name: 🧹 Run Flake8
           command: |
