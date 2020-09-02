@@ -1,9 +1,8 @@
 """Python file to create Matplotlib and Seaborn based charts"""
 
-import pandas as pd
-
-import seaborn as sns
 import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
 
 auto = pd.read_csv("python/auto.csv")
 sp = "site/assets/images/python/"
