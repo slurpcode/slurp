@@ -20,7 +20,8 @@ plt.ylabel('Horsepower (hp)')
 plt.title('Violin plot of automobile cylinders versus horsepower', y=2.3)
 fig = plt.gcf()
 fig.set_size_inches(8, 8)
-fig.savefig(sp + 'violin-plot-of-automobile-cylinders-versus-horsepower.png', dpi=80)
+fig.savefig(
+    sp + 'violin-plot-of-automobile-cylinders-versus-horsepower.png', dpi=80)
 fig.clf()
 
 # Generate a swarm plot of 'hp' grouped horizontally by 'cyl'
@@ -37,7 +38,8 @@ plt.ylabel('Cylinders')
 plt.title('Swarmplot of automobile cylinders versus horsepower', y=2.3)
 fig = plt.gcf()
 fig.set_size_inches(8, 8)
-fig.savefig(sp + 'swarmplot-of-automobile-horsepower-versus-cylinders.png', dpi=80)
+fig.savefig(
+    sp + 'swarmplot-of-automobile-horsepower-versus-cylinders.png', dpi=80)
 fig.clf()
 
 sns.lmplot(x='weight', y='hp', data=auto, hue='origin')
@@ -54,10 +56,12 @@ plt.xlabel('Horsepower (hp)')
 plt.ylabel('Miles per gallon (mpg')
 fig = plt.gcf()
 fig.set_size_inches(8, 8)
-fig.savefig(sp + 'automobile-hexbin-jointplot-of-horsepower-versus-mpg.png', dpi=80)
+fig.savefig(
+    sp + 'automobile-hexbin-jointplot-of-horsepower-versus-mpg.png', dpi=80)
 fig.clf()
 
-df = auto.loc[:, ['mpg', 'cyl', 'displ', 'hp', 'weight', 'accel', 'origin', 'color']]
+df = auto.loc[:, ['mpg', 'cyl', 'displ', 'hp',
+                  'weight', 'accel', 'origin', 'color']]
 sns.set(style="ticks")
 sns.pairplot(df, hue="origin")
 plt.tight_layout(pad=0.5)
