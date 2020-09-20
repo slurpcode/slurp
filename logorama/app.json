@@ -1,11 +1,7 @@
 {
   "name": "Logorama",
   "description": "Logos done rama",
-  "keywords": [
-    "ruby",
-    "jekyll",
-    "static"
-  ],
+  "keywords": ["ruby", "jekyll", "static"],
   "buildpacks": [
     {
       "url": "https://github.com/timanovsky/subdir-heroku-buildpack.git"
