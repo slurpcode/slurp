@@ -62,7 +62,7 @@ document, one can switch between designing, photo editing and publishing with
 just a couple mouse clicks and without saving and exporting. There is a
 screenshot attached that shows this:
 
-![Easy Editing](/assets/images/docs/serif/easy-editing.png "Easy Editing")
+![Easy Editing](../_static/images/serif/easy-editing.png "Easy Editing")
 
 Affinity Publisher is the most connected and comprehensive app when it comes to
 its range of capabilities. All of the apps use Personas that each bring up
@@ -73,7 +73,7 @@ Publisher. You can work in the Publisher Persona or the Photo Persona or the
 Designer Persona and have most of the essential functions of all the apps
 available within just the Publisher app.
 
-![Publisher Persona](/assets/images/docs/serif/designer-persona.png "Publisher Persona")
+![Publisher Persona](../_static/images/serif/publisher-persona.PNG "Publisher Persona")
 
 For more detailed and thoroughly comprehensive capabilities, the individual apps
 are easy to switch to seamlessly.
@@ -83,7 +83,7 @@ for bitmap work, and the Export Persona for, you guessed it, exporting designs.
 It's really easy and quick to switch between the Personas and your design file
 is automatically and non-destructively updated as you go.
 
-![Designer Persona](/assets/images/docs/serif/designer-persona.png "Designer Persona")
+![Designer Persona](../_static/images/serif/designer-persona.PNG "Designer Persona")
 
 The Photo app has a Photo Persona, a Liquify Persona for mesh warping images and
 text, a Develop Persona for detailed photo adjustments, a Tone Mapping Persona
@@ -91,7 +91,7 @@ for more detailed adjustments (I need to learn much more about this), and again,
 an Export Persona with multiple choices for your exports. OK, check out the
 screenshots and then check out Affinity.
 
-![Photo Persona](/assets/images/docs/serif/photo-persona.png "Photo Persona")
+![Photo Persona](../_static/images/serif/photo-persona.PNG "Photo Persona")
 
 ## Watch This Space
 
