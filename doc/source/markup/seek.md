@@ -62,5 +62,4 @@ Listed time in days: 30
 Work type: full
 41 jobs found
 ```
-
-![scrape](/images/scrape-jobs.png)
+![Scrape Jobs](../_static/images/scrape-jobs.png)
