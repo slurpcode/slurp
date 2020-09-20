@@ -6,14 +6,20 @@
     "jekyll",
     "static"
   ],
-  "buildpacks":[
-    {"url":"https://github.com/timanovsky/subdir-heroku-buildpack.git"},
-    {"url":"heroku/ruby"},
-    {"url":"https://github.com/heroku/heroku-buildpack-static"}
+  "buildpacks": [
+    {
+      "url": "https://github.com/timanovsky/subdir-heroku-buildpack.git"
+    },
+    {
+      "url": "heroku/ruby"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static"
+    }
   ],
-  "formation":{
-    "web":{
-      "quantity":1
+  "formation": {
+    "web": {
+      "quantity": 1
     }
   }
 }
