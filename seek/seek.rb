@@ -196,7 +196,7 @@ agent.user_agent_alias = 'Windows Chrome'
 site = 'https://www.seek.com.au'
 page =
   agent.get(
-    site + '/jobs',
+    "#{site}/jobs",
     [
       ['keywords', options.keyword],
       ['where', options.location],
@@ -277,9 +277,9 @@ end
 if results.size > 1
   keyword = options.keyword.tr(' ', '-')
   location = options.location.tr(' ', '-') unless options.location.empty?
-  range = 'range-' + options.range unless options.range.empty?
+  range = "range-#{options.range}" unless options.range.empty?
   options.worktype = enwtype(options.worktype)
-  worktype = 'worktype-' + options.worktype unless options.worktype.empty?
+  worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
   filename = [keyword, location, range, worktype].compact.join('-').downcase
   filename = filename[1..-1] if filename[0] == '-'
   FileUtils.mkdir_p('jobs')
