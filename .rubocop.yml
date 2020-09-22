@@ -142,7 +142,7 @@ Style/GlobalStdStream:
 Style/CaseLikeIf:
   Enabled: false
 
-### LINTING 
+### LINTING
 Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: true
 
