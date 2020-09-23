@@ -4,7 +4,6 @@ title: 🎼 Music
 permalink: /music/
 ---
 
-{% assign w = "https://en.wikipedia.org/wiki/" %}
 <h3>{%- include jorge/jorge.html -%}</h3>
 {%- for row in site.data.music -%}
     {%- assign title = row.title | strip -%}
@@ -13,6 +12,11 @@ permalink: /music/
     {% else %}
         {% assign display = row.name | split: "_" | join: " " %}
     {% endif %}
+    {% if row.type == 'wiki' %}
+        {%  assign w = "https://en.wikipedia.org/wiki/" | append: row.name %}
+        {% else %}
+        {% assign w = row.type %}
+        {% endif %}
     <p>
         <a href="{{w}}{{ row.name }}">{{ display }}</a>
         <br>
