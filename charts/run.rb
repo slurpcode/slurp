@@ -94,7 +94,7 @@ def config(built_with)
   # german
   config_de = read_file('config/de.yml').chomp('').chop + kramdown_links(built_with)
 
-  write_file('site.yml', config + "\n\n" + config_de)
+  write_file('site.yml', "#{config}\n\n#{config_de}")
 
   # load website config file
   site_config = YAML.safe_load(read_file('site.yml'))
@@ -661,7 +661,7 @@ structure.map.with_index do |chart, i|
   data0 = clean_chart(chart[0])
   i = i / 50 + 1
   instance_variable_set("@page#{i}",
-                        gp(i) + "\n      " +
+                        "#{gp(i)}\n      " +
     if site_config['chart_type'] == 'all'
       case (i - 1) % 8
       when 0..1 # d3pie
