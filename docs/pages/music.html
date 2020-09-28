@@ -14,9 +14,9 @@ permalink: /music/
     {% endif %}
     {% if row.type == 'wiki' %}
         {%  assign w = "https://en.wikipedia.org/wiki/" | append: row.name %}
-        {% else %}
+    {% else %}
         {% assign w = row.type %}
-        {% endif %}
+    {% endif %}
     <p>
         <a href="{{w}}{{ row.name }}">{{ display }}</a>
         <br>
