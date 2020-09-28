@@ -15,7 +15,7 @@ permalink: /music/
     {% if row.type == 'wiki' %}
         {%  assign w = "https://en.wikipedia.org/wiki/" | append: row.name %}
     {% elsif row.type == 'youtube' %}
-        {%  assign w = "https://www.youtube.com/user/" %}
+        {%  assign w = "https://www.youtube.com/channel/" %}
     {% else %}
         {% assign w = row.type %}
     {% endif %}
