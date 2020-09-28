@@ -14,15 +14,13 @@ permalink: /music/
     {% endif %}
     {% if row.type == 'wiki' %}
         {%  assign w = "https://en.wikipedia.org/wiki/" %}
-    {% elsif row.type == 'youtube' %}
-        {%  assign w = "https://www.youtube.com/channel/" %}
     {% else %}
         {% assign w = row.type %}
     {% endif %}
     <p>
-        <a href="{{w}}{{ row.name }}">{{ display }}</a>
+        <a href="{{w}}">{{ display }}</a>
         <br>
-        <a href="{{w}}{{ row.name }}">
+        <a href="{{w}}">
             <img src="/assets/images/music/fuchsia-{{ row.image }}.png"
                  alt="{{ display }}" title="{{ display }}">
         </a>
