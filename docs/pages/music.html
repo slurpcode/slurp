@@ -13,7 +13,7 @@ permalink: /music/
         {% assign display = row.name | split: "_" | join: " " %}
     {% endif %}
     {% if row.type == 'wiki' %}
-        {%  assign w = "https://en.wikipedia.org/wiki/" %}
+        {%  assign w = "https://en.wikipedia.org/wiki/" | append: row.name%}
     {% else %}
         {% assign w = row.type %}
     {% endif %}
