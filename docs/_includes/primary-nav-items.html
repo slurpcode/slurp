@@ -1,6 +1,6 @@
-<ul>
+<ul class="nav-links">
     {% for p in site.data.primary_nav %}
-    <li
+    <li class="page-link"
             {%- if p.link == '/' -%}
     {% if page.url == p.link %} class="current" {%- endif %}
     {%- else -%}

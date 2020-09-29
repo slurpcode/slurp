@@ -17,7 +17,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
-
+  margin-right: -100px;
   &,
   &:visited {
     color: $grey-color-dark;
@@ -42,7 +42,7 @@
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20px;
+      margin-bottom: 4px;
     }
   }
 
