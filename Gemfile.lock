@@ -378,6 +378,7 @@ GEM
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
+    wdm (0.1.1)
     webrobots (0.1.2)
     win32-process (0.8.3)
       ffi (>= 1.0.0)
@@ -412,6 +413,7 @@ DEPENDENCIES
   rubocop
   rubycritic
   tzinfo-data
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
    2.1.4
