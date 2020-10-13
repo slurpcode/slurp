@@ -15,9 +15,6 @@ The Ruby file: `ruby-cheatsheets-to-dita.rb` builds the output parent Ditamap
 `map.ditamap` (output/map.ditamap) and the 4 sub DITA tasks in the `output/dita`
 folder.
 
-[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
-[&#8595;](#watch-this-space)
-
 ## DITA Background
 
 [Darwin Information Typing Architecture](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture)
@@ -27,9 +24,6 @@ publish those ideas.
 
 The DITA standard is maintained by the [OASIS](https://www.oasis-open.org/) DITA
 Technical Committee.
-
-[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
-[&#8595;](#watch-this-space)
 
 ## The Project
 
@@ -59,9 +53,6 @@ Common options:
         --version                    Show version
 ```
 
-[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
-[&#8595;](#watch-this-space)
-
 ## Resources
 
 - [Nokogiri](http://www.nokogiri.org/)
@@ -71,10 +62,3 @@ Common options:
 - [DITA](https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture)
 - [W3C - The Extensible Stylesheet Language Family (XSL)](http://www.w3.org/Style/XSL/)
 - [The Organization for the Advancement of Structured Information Standards (OASIS)](<https://en.wikipedia.org/wiki/OASIS_(organization)>)
-
-[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)
-[&#8595;](#watch-this-space)
-
-## Watch This Space
-
-[&#8593;](<#eclipse-cheat-sheets-(xml)-to-dita-with-ruby-xsl-nokogiri>)

@@ -35,8 +35,6 @@ how to build and customize DITA-OT PDF plugins and publish your DITA content
 using Eclipse. I am currently using DITA-OT 2.2.2 and I am aiming at keeping the
 'info.debrief' plugin compatible with the current version of DITA-OT.
 
-[&#8595;](#watch-this-space) [&#8593;](#dita-to-pdf-with-eclipse)
-
 ## How DITA-OT PDF Plugins work
 
 Plugins are placed in the DITA-OT plugins directory. You can see the plugin I
@@ -70,8 +68,6 @@ project. The other file is seen in the adjacent 'attrs' directory.
 
 Placing the custom code only in these two files follows best practice techniques
 on how to build a DITA-OT PDF plugin.
-
-[&#8595;](#watch-this-space) [&#8593;](#dita-to-pdf-with-eclipse)
 
 ## List of resources and technologies used on this GitHub project
 
@@ -169,9 +165,3 @@ Git (software) - https://en.wikipedia.org/wiki/Git_(software)
 man page - https://en.wikipedia.org/wiki/Man_page
 
 Terminal (OS X) - https://en.wikipedia.org/wiki/Terminal_(OS_X)
-
-[&#8595;](#watch-this-space) [&#8593;](#dita-to-pdf-with-eclipse)
-
-## Watch This Space
-
-[&#8593;](#dita-to-pdf-with-eclipse)

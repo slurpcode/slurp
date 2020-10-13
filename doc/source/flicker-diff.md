@@ -28,9 +28,3 @@ dwdiff <(pdftotext old/filename.pdf -) <(pdftotext new/filename.pdf -) | colordi
 cd test_files\pdf
 wdiff <(pdftotext old/filename.pdf -) <(pdftotext new/filename.pdf -) | colordiff | grep -C 3 '\[-' > colordiff-output.txt
 ```
-
-[&#8595;](#watch-this-space) [&#8593;](#flicker-diff)
-
-## Watch This Space
-
-[&#8593;](#flicker-diff)

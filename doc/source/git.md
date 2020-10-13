@@ -238,8 +238,6 @@ $ git --version
 git version 2.21.0 (Apple Git-122.2)
 ```
 
-[&#8595;](#watch-this-space) [&#8593;](#git)
-
 ## Sync your fork
 
 Refer to the GitHub help article on
@@ -251,8 +249,6 @@ git fetch upstream
 git merge upstream/master
 git push
 ```
-
-[&#8595;](#watch-this-space) [&#8593;](#git)
 
 ## Squashing Commits
 
@@ -282,9 +278,3 @@ To contribute a patch, the workflow is as follows:
 If a commit references an issue, please add the reference. For example:
 `refs #351` or `fixes #123`. Using the `fixes` or `closes` keywords will cause
 the applicable issue to be closed when the pull request is merged.
-
-[&#8595;](#watch-this-space) [&#8593;](#git)
-
-## Watch This Space
-
-[&#8593;](#git)

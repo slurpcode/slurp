@@ -21,7 +21,3 @@ $ ruby hashcheck.rb -h
      -h, --help                       Show this message
          --version                    Show version
 ```
-
-## Watch This Space
-
-[&#8593;](#hashcheck)

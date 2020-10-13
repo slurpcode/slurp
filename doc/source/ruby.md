@@ -23,8 +23,6 @@ so don't be scared and first check out a short Ruby YouTube video I created.
 
 [Ruby in 29 seconds](https://youtu.be/2ei7S0FU65E)
 
-[&#8595;](#watch-this-space) [&#8593;](#ruby)
-
 ## Links
 
 - [Ruby](https://www.ruby-lang.org/en/)
@@ -37,10 +35,4 @@ so don't be scared and first check out a short Ruby YouTube video I created.
 - [Refactoring Ruby](https://martinfowler.com/books/refactoringRubyEd.html)
 - [Practical Object Oriented Design - An Agile Primer Using Ruby](https://martinfowler.com/books/refactoringRubyEd.html)
 
-[&#8595;](#watch-this-space) [&#8593;](#ruby)
-
-## Watch This Space
-
-[&#8593;](#ruby)
-
-[Ruby is...](images/ruby-is.png)
+![Ruby is...](_static/images/ruby-is.png)

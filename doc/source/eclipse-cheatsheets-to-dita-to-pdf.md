@@ -113,7 +113,3 @@ project. The other file is seen in the adjacent "attrs" directory.
 
 Placing the custom code only in these two files follows best practice techniques
 on how to build a DITA-OT PDF plugin.
-
-## Watch This Space
-
-[&#8593;](#eclipse-cheat-sheets-to-dita-to-pdf)

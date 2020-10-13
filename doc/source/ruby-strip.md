@@ -54,9 +54,3 @@ Common options:
 ```
 
 This should copy the folder to the `output` directory.
-
-[&#8595;](#watch-this-space) [&#8593;](#ruby-strip)
-
-## Watch This Space
-
-[&#8593;](#ruby-strip)

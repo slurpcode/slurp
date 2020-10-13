@@ -21,9 +21,3 @@ Common options:
     -h, --help                       Show this message
         --version                    Show version
 ```
-
-[&#8595;](#watch-this-space) [&#8593;](#built-in-datatypes)
-
-## Watch This Space
-
-[&#8593;](#built-in-datatypes)
