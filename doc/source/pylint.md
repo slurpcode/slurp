@@ -1,4 +1,4 @@
-# Pylint
+# 🧹 Pylint
 
 Just as you wouldn't go to a black tie dinner without using a lint roller on
 your tux or dress before walking into the venue, or, in the old days, going over
