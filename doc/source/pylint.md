@@ -1,14 +1,4 @@
----
-title: "Using Pylint, An Introduction"
-description: "A tool for cleaning your Python code"
-tags: ["Beginner"]
-categories: ["Python"]
-Author: "Jim Homme"
-date: "2020-09-29"
-publishdate: "2020-10-02"
----
-
-## Introduction
+# Introduction
 
 Just as you wouldn't go to a black tie dinner without using a lint roller on
 your tux or dress before walking into the venue, or, in the old days, going over
@@ -17,8 +7,6 @@ clean before you let it out into the world for professionals to see. you want to
 catch bugs before they bite. This is why you would use a linting tool.
 [Pylint](http://www.pylint.org) is one of the more popular linting tools. This
 post tells what it is, how to set it up, and how to get started using it.
-
-<!-- more -->
 
 ## The Difference Between What Happens When The Python Interpreter Catches Errors And What Happens When You Run A Linter
 
