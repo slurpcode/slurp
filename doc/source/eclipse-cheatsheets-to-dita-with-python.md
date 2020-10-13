@@ -14,5 +14,3 @@ This projects originates from a Java based Project, where I built an
 This project will hopefully transform
 [Eclipse cheat sheets](https://www.oracle.com/technical-resources/articles/enterprise-architecture/eclipse-cheat-sheets.html)
 to DITA with [Python](https://www.python.org).
-
-## Watch This Space

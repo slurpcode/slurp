@@ -25,9 +25,3 @@
   high level support for text, drawing and images
 - [xmlquery](https://github.com/antchfx/xmlquery) - xmlquery, is an XPath query
   package for XML in Go.
-
-[&#8595;](#watch-this-space) [&#8593;](#golang)
-
-## Watch This Space
-
-[&#8593;](#golang)

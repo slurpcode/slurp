@@ -11,7 +11,7 @@
 - [Why "ID"?](#why-id)
 - [Naming ID Columns](#naming-id-columns)
 - [Normalization Example: States](#normalization-example-states)
-- [Database Design: Three Areas of Optimization](#overview-design-three-areas-of-optimization)
+- [Database Design: Three Areas of Optimization](#database-design-three-areas-of-optimization)
 - [Enum: Just Say No](#enum-just-say-no)
 
 ## What is a database?
@@ -69,8 +69,6 @@ may signify different things to different people, including database designers.
 Database designers and programmers who create databases should be aware that
 when they refer to a "database," different people will have different
 perceptions of what this entails.
-
-[&#8595;](#watch-this-space) [&#8593;](#database)
 
 ## When to use NULL
 
@@ -138,8 +136,6 @@ without latitude and longitude info.
 
 There are other reasons to use NULL. This is the main reason.
 
-[&#8595;](#watch-this-space) [&#8593;](#database)
-
 ## What RDBMS should you use?
 
 The abbreviation "RDBMS" is short for "relational database management system."
@@ -187,8 +183,6 @@ It isn't the choice of the RDBMS that is causing the problem. The problem stems
 from one of these causes: <br />- the database design <br />- the SQL query
 design <br />- how the application source code was written <br />- the host
 server settings and configuration (such as memory, available hard drive, etc.)
-
-[&#8595;](#watch-this-space) [&#8593;](#database)
 
 ## Avoid NULL (usually)
 
@@ -260,8 +254,6 @@ to avoid using them whenever possible, but if there is a need for them, I use
 them.
 
 When NULL-able columns should be used can be discussed another time.
-
-[&#8595;](#watch-this-space) [&#8593;](#database)
 
 ## camelCase or underscore_case?
 
@@ -345,8 +337,6 @@ My advice: <br />- Be consistent. <br />- Don't go to war over naming
 conventions if you're a guest in an already-established database. <br />- if you
 have a choice, use underscore_case.
 
-[&#8595;](#watch-this-space) [&#8593;](#database)
-
 ## When to Index?
 
 Indexing is a awesome. It really is like a magic bullet to turbo-charge the
@@ -423,8 +413,6 @@ A truly interactive information system which connects many relational tables to
 each other (joins, foreign keys), allows a user to conduct searches and to sort
 data using different criteria is likely to have MANY indexed columns. But it
 won't have EVERY column be indexed.
-
-[&#8595;](#watch-this-space) [&#8593;](#database)
 
 ## Why "ID"?
 
@@ -504,8 +492,6 @@ See how these column names avoid unnecessary duplication: <br />states.ID
 
 So to summarize my advice on this topic: <br />- keep it simple <br />- make it
 easy to read <br />- avoid duplication <br />- use "ID"
-
-[&#8595;](#watch-this-space) [&#8593;](#database)
 
 ## Naming ID Columns
 
@@ -597,8 +583,6 @@ answer is:
 
 (Tomorrow, I'll explain more reasons for using "ID".)
 
-[&#8595;](#watch-this-space) [&#8593;](#database)
-
 ## Normalization Example: States
 
 I want to discuss one specific data concept: States.
@@ -669,8 +653,6 @@ number of records, such as a hundred thousand or more, you will definitely
 notice a difference between how fast it takes your database to do a search for
 all records using a text string ("AL") versus an integer (1).
 
-[&#8595;](#watch-this-space) [&#8593;](#database)
-
 ## Database Design: Three Areas of Optimization
 
 Real database design is more than just creating a database schema that "works."
@@ -733,8 +715,6 @@ areas: data integrity, speed, and maintainability.
 Rather than doing database design based on a large collection of "textbook
 rules" whose meanings and purposes are obscure, I like to use these key goals as
 a guiding philosophy.
-
-[&#8595;](#watch-this-space) [&#8593;](#database)
 
 ## Enum: Just Say No
 
@@ -807,11 +787,3 @@ of database... you could still run into major headaches if you use enum.
 There are better ways (standard ways) to handle discrete, defined lists. That’s
 what relational databases are all about. Enum may seem convenient, but it’s
 really a cheap shortcut that will come back to bite you in the end.
-
-[&#8595;](#watch-this-space) [&#8593;](#database)
-
-## Watch This Space
-
-...for more database tips!
-
-[&#8593;](#database)

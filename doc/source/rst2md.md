@@ -30,4 +30,3 @@ Pandoc makes converting a ```.rst``` file to ```.md``` file easier. Use followin
 ```
 pandoc file.rst -s -o file.md
 ```
-

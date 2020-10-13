@@ -15,6 +15,9 @@ PreCommit:
   ALL:
     on_warn: fail
 
+  CaseConflicts:
+    enabled: false
+
   RuboCop:
     enabled: true
 
