@@ -90,7 +90,3 @@ an Export Persona with multiple choices for your exports. OK, check out the
 screenshots and then check out Affinity.
 
 ![Photo Persona](_static/images/serif/photo-persona.png "Photo Persona")
-
-## Watch This Space
-
-[&#8593;](#serif-software)
