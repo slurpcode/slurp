@@ -13,9 +13,3 @@ $ ruby well_formed.rb -h
       -h, --help                       Show this message
           --version                    Show version
 ```
-
-[&#8595;](#watch-this-space) [&#8593;](#well-formed)
-
-## Watch This Space
-
-[&#8593;](#well-formed)

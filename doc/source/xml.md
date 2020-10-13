@@ -53,7 +53,7 @@ extensions to XSLT.
 Both *xsltproc* and *xmllint* come in handy if
 you like the command line.
 
-## Links
+### Links
 
 <https://www.jetbrains.com/idea/>
 
