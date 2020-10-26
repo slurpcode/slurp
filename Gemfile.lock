@@ -286,7 +286,7 @@ GEM
     octokit (4.19.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
-    overcommit (0.55.0)
+    overcommit (0.57.0)
       childprocess (>= 0.6.3, < 5)
       iniparse (~> 1.4)
     paint (2.2.0)
@@ -399,7 +399,7 @@ DEPENDENCIES
   fileutils
   github-pages
   jekyll-avatar
-  jekyll-feed (= 0.15.1)
+  jekyll-feed (~> 0.15)
   jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
