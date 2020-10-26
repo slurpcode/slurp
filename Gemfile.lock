@@ -46,8 +46,9 @@ GEM
     eventmachine (1.2.7)
     eventmachine (1.2.7-x64-mingw32)
     execjs (2.7.0)
-    faraday (1.0.1)
+    faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
+      ruby2_keywords
     ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
     fileutils (1.4.1)
@@ -62,14 +63,14 @@ GEM
       sexp_processor (~> 4.8)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
-    github-pages (208)
+    github-pages (209)
       github-pages-health-check (= 1.16.1)
       jekyll (= 3.9.0)
       jekyll-avatar (= 0.7.0)
       jekyll-coffeescript (= 1.1.1)
       jekyll-commonmark-ghpages (= 0.1.6)
       jekyll-default-layout (= 0.1.4)
-      jekyll-feed (= 0.15.0)
+      jekyll-feed (= 0.15.1)
       jekyll-gist (= 1.5.0)
       jekyll-github-metadata (= 2.13.0)
       jekyll-mentions (= 1.6.0)
@@ -149,7 +150,7 @@ GEM
       rouge (>= 2.0, < 4.0)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
-    jekyll-feed (0.15.0)
+    jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
@@ -282,7 +283,7 @@ GEM
     nokogiri (1.10.10-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     ntlm-http (0.1.1)
-    octokit (4.18.0)
+    octokit (4.19.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
     overcommit (0.55.0)
@@ -328,6 +329,7 @@ GEM
     ruby-enum (0.8.0)
       i18n
     ruby-progressbar (1.10.1)
+    ruby2_keywords (0.0.2)
     ruby_parser (3.15.0)
       sexp_processor (~> 4.9)
     rubycritic (4.5.2)
@@ -397,7 +399,7 @@ DEPENDENCIES
   fileutils
   github-pages
   jekyll-avatar
-  jekyll-feed (~> 0.15)
+  jekyll-feed (= 0.15.1)
   jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
