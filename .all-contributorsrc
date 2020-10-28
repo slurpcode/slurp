@@ -136,6 +136,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "shravanshetty1",
+      "name": "Shravan Shetty",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/58299697?v=4",
+      "profile": "https://github.com/shravanshetty1",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
