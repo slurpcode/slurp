@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-12-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -232,6 +232,7 @@ Thanks goes to these wonderful people
     <td align="center"><a href="http://ndm.id.au/"><img src="https://avatars3.githubusercontent.com/u/1697199?v=4" width="100px;" alt=""/><br /><sub><b>Nicholas Meredith</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=udha" title="Documentation">📖</a> <a href="#ideas-udha" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://www.anish.info.np/"><img src="https://avatars3.githubusercontent.com/u/16479244?v=4" width="100px;" alt=""/><br /><sub><b>Anish Bhusal</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=anisbhsl" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/commits?author=anisbhsl" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/nbsamurai"><img src="https://avatars0.githubusercontent.com/u/5706683?v=4" width="100px;" alt=""/><br /><sub><b>Subramani Simhachalam</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=nbsamurai" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://www.jimhomme.com"><img src="https://avatars2.githubusercontent.com/u/6507685?v=4" width="100px;" alt=""/><br /><sub><b>Jim Homme</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=jhomme" title="Documentation">📖</a></td>
   </tr>
 </table>
 

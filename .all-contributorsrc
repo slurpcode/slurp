@@ -127,6 +127,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jhomme",
+      "name": "Jim Homme",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6507685?v=4",
+      "profile": "http://www.jimhomme.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
