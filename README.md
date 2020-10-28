@@ -7,6 +7,8 @@
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
 [![Logorama](https://img.shields.io/website?label=heroku&url=https%3A%2F%2Flogorama.herokuapp.com%2F)](https://logorama.herokuapp.com/)
 [![Slurp - Read the Docs](https://img.shields.io/website?label=read%20the%20docs&url=https%3A%2F%2Fslurp.readthedocs.io%2F)](https://slurp.readthedocs.io/)
+[![Preston Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fpreston.slurp.workers.dev%2F)](https://preston.slurp.workers.dev)
+[![Magic Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fmagic.slurp.workers.dev%2F)](https://magic.slurp.workers.dev/)
 
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Travis CI](https://travis-ci.org/slurpcode/slurp.svg?branch=master)](https://travis-ci.org/github/slurpcode/slurp)
@@ -34,6 +36,10 @@
 [Slurp Read the Docs - in progress](https://slurp.readthedocs.io/)
 
 [Logorama](https://logorama.herokuapp.com/)
+
+[Preston Worker](https://preston.slurp.workers.dev)
+
+[Magic Worker](https://magic.slurp.workers.dev)
 
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
