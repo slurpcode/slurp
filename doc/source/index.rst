@@ -19,6 +19,7 @@ Welcome to slurp's documentation!
    eclipse-cheatsheets-to-dita-to-pdf.md
    eclipse-cheatsheets-to-dita-with-python.md
    pylint.md
+   python-on-ibm-system-i.md
    flicker-diff.md
    git.md
    go.md
