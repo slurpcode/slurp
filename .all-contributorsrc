@@ -164,6 +164,15 @@
         "code",
         "review"
       ]
+    },
+    {
+      "login": "ClayLanzino",
+      "name": "Clay Lanzino",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/71577509?v=4",
+      "profile": "https://github.com/ClayLanzino",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
