@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-15-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -235,6 +235,9 @@ Thanks goes to these wonderful people
     <td align="center"><a href="http://www.jimhomme.com"><img src="https://avatars2.githubusercontent.com/u/6507685?v=4" width="100px;" alt=""/><br /><sub><b>Jim Homme</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=jhomme" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/shravanshetty1"><img src="https://avatars2.githubusercontent.com/u/58299697?v=4" width="100px;" alt=""/><br /><sub><b>Shravan Shetty</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=shravanshetty1" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/LeonKolyang"><img src="https://avatars1.githubusercontent.com/u/50681264?v=4" width="100px;" alt=""/><br /><sub><b>Leon Menkreo-Kuntzsch</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=LeonKolyang" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/TJSteel"><img src="https://avatars3.githubusercontent.com/u/35134286?v=4" width="100px;" alt=""/><br /><sub><b>Jay Steel</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=TJSteel" title="Code">💻</a></td>
   </tr>
 </table>
 
