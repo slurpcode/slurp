@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -239,6 +239,7 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center"><a href="https://github.com/TJSteel"><img src="https://avatars3.githubusercontent.com/u/35134286?v=4" width="100px;" alt=""/><br /><sub><b>Jay Steel</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=TJSteel" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3ATJSteel" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/ClayLanzino"><img src="https://avatars1.githubusercontent.com/u/71577509?v=4" width="100px;" alt=""/><br /><sub><b>Clay Lanzino</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ClayLanzino" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/natasha2016github"><img src="https://avatars0.githubusercontent.com/u/16957076?v=4" width="100px;" alt=""/><br /><sub><b>Natasha</b></sub></a><br /><a href="#translation-natasha2016github" title="Translation">🌍</a></td>
   </tr>
 </table>
 
