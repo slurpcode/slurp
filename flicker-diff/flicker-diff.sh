@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # ./flicker-diff.sh pdf-name
+# ./flicker-diff.sh IBM_Systemi_Using_Python_ES
 
 # todo
 # directory structure
@@ -23,14 +24,14 @@ cd ../assets/pdf || exit
 # make directories if not exist
 mkdir -p old/images/"$filename"
 mkdir -p new/images/"$filename"
-mkdir -p flicker
+mkdir -p flicker/"$filename"
 
 # create a single page png for every page in the PDF
 pdftocairo -png old/"$filename".pdf old/images/"$filename"/"$filename"
 pdftocairo -png new/"$filename".pdf new/images/"$filename"/"$filename"
 
 # Fix to get number or pages ???
-for i in {01..29}; do
+for i in {01..03}; do
   # create the difference between each png page and generate a flicker based GIF image difference
   convert -delay 50 old/images/"$filename"/"$filename"-"$i".png new/images/"$filename"/"$filename"-"$i".png flicker/"$filename"/"$filename"-"$i"-difference-flicker.gif
 done
