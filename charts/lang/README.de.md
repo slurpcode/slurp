@@ -2,23 +2,37 @@
 
 [English](../README.md) [Deutsche](README.de.md)
 
-Dieses Ruby-Skript **`run.rb`** ist ein statischer Site-Generator. Es mint Daten oder Text in einem Ordner mit XML-Schema-Dateien sowie die MIT-Lizenz (nur für die d3pie-Diagramme) und erstellt Statistiken über Elemente und Attribute (das XML-Schema) oder über Wörter (die Lizenz).
+Dieses Ruby-Skript **`run.rb`** ist ein statischer Site-Generator. Es mint Daten
+oder Text in einem Ordner mit XML-Schema-Dateien sowie die MIT-Lizenz (nur für
+die d3pie-Diagramme) und erstellt Statistiken über Elemente und Attribute (das
+XML-Schema) oder über Wörter (die Lizenz).
 
-Die Konfigurationsdatei: **`config.xml`** speichert die meisten Konfigurationsinformationen der Website und kann leicht an Ihre Bedürfnisse angepasst werden.
+Die Konfigurationsdatei: **`config.xml`** speichert die meisten
+Konfigurationsinformationen der Website und kann leicht an Ihre Bedürfnisse
+angepasst werden.
 
-Ein ausgefallenes Feature ist die Möglichkeit, zwischen allen d3pie, Google Charts, Chart.js oder plotly.js basierten Tortendiagrammen zu wechseln, indem man einfach den Konfigurationseintrag **`chart_type`** in einen von **`d3pie`**, **`google`**, **`chartjs`** oder **`plotly`** ändert.
+Ein ausgefallenes Feature ist die Möglichkeit, zwischen allen d3pie, Google
+Charts, Chart.js oder plotly.js basierten Tortendiagrammen zu wechseln, indem
+man einfach den Konfigurationseintrag **`chart_type`** in einen von **`d3pie`**,
+**`google`**, **`chartjs`** oder **`plotly`** ändert.
 
-Der Website-Konfigurationseintrag **`chart_type`** kann so konfiguriert werden, dass alle Chart-Typen angezeigt werden, jeder Chart-Typ auf einer eigenen Seite.
+Der Website-Konfigurationseintrag **`chart_type`** kann so konfiguriert werden,
+dass alle Chart-Typen angezeigt werden, jeder Chart-Typ auf einer eigenen Seite.
 
-Die Homepage enthält eine Auswahl an d3pie JavaScript Charts und einige PNG Charts, die mit den Python-Paketen Seaborn und Matplotlib erstellt wurden.
+Die Homepage enthält eine Auswahl an d3pie JavaScript Charts und einige PNG
+Charts, die mit den Python-Paketen Seaborn und Matplotlib erstellt wurden.
 
-Für alle vier Arten von Tortendiagrammen haben wir sowohl Donut- als auch Tortendiagramme.
+Für alle vier Arten von Tortendiagrammen haben wir sowohl Donut- als auch
+Tortendiagramme.
 
-Der Vorteil des d3pie Diagramms liegt in den interaktiven, anklickbaren Tortendiagrammen.
+Der Vorteil des d3pie Diagramms liegt in den interaktiven, anklickbaren
+Tortendiagrammen.
 
-Der Vorteil des Google Chart Tortendiagramms ist seine eingebaute Fähigkeit, eine Chart-Legende zu erstellen.
+Der Vorteil des Google Chart Tortendiagramms ist seine eingebaute Fähigkeit,
+eine Chart-Legende zu erstellen.
 
-Der Vorteil des Chart.js Tortendiagramms ist die interaktive, anklickbare Darstellung.
+Der Vorteil des Chart.js Tortendiagramms ist die interaktive, anklickbare
+Darstellung.
 
 Die plotly.js Tortendiagramme sind die mit Abstand interaktivsten von allen.
 
@@ -85,12 +99,10 @@ Dieses Repository besteht aus:
 55. [Markdown](https://daringfireball.net/projects/markdown)
 56. [robots.txt](https://en.wikipedia.org/wiki/Robots_exclusion_standard)
 57. [Portable Network Graphics](https://en.wikipedia.org/wiki/Portable_Network_Graphics)
-58. [ICO](https://en.wikipedia.org/wiki/ICO_(file_format))
+58. [ICO](<https://en.wikipedia.org/wiki/ICO_(file_format)>)
 59. [GIF](https://en.wikipedia.org/wiki/GIF)
 60. [CSV](https://en.wikipedia.org/wiki/Comma-separated_values)
 61. [Text file](https://en.wikipedia.org/wiki/Text_file)
 62. [Shields.io](https://shields.io/)
 63. [MacVim](http://macvim.org)
 64. [RVM](https://rvm.io)
-
-
