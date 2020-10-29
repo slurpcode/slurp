@@ -52,11 +52,11 @@ front-end for working on a website.
 
 For example, go to:
 
-http://www.sitename.com/controlpanel
+<http://www.sitename.com/controlpanel>
 
 or here:
 
-http://www.sitename.com:2082
+<http://www.sitename.com:2082>
 
 Enter credentials: username: YourWebHostingAccountUsername password: [*******]
 

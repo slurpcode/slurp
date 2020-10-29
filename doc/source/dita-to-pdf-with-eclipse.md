@@ -71,97 +71,97 @@ on how to build a DITA-OT PDF plugin.
 
 ## List of resources and technologies used on this GitHub project
 
-Eclipse - https://eclipse.org/
+Eclipse - <https://eclipse.org/>
 
-The Apache Software Foundation - http://www.apache.org/
+The Apache Software Foundation - <http://www.apache.org/>
 
-Apache FOP - https://xmlgraphics.apache.org/fop/
+Apache FOP - <https://xmlgraphics.apache.org/fop/>
 
-Apache ANT - http://ant.apache.org
+Apache ANT - <http://ant.apache.org>
 
-Saxon XSLT - https://en.wikipedia.org/wiki/Saxon_XSLT
+Saxon XSLT - <https://en.wikipedia.org/wiki/Saxon_XSLT>
 
-Saxon - http://saxon.sourceforge.net/
+Saxon - <http://saxon.sourceforge.net/>
 
-Saxonica - http://www.saxonica.com/welcome/welcome.xml
+Saxonica - <http://www.saxonica.com/welcome/welcome.xml>
 
 Online community for the Darwin Information Typing Architecture OASIS Standard -
-http://dita.xml.org/
+<http://dita.xml.org/>
 
-DITA - https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture
+DITA - <https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture>
 
-DITA-Open Toolkit - http://www.dita-ot.org/
+DITA-Open Toolkit - <http://www.dita-ot.org/>
 
 W3C - The Extensible Stylesheet Language Family (XSL) -
-http://www.w3.org/Style/XSL/
+<http://www.w3.org/Style/XSL/>
 
-W3C XSLT 2.0 - http://www.w3.org/TR/xslt20/
+W3C XSLT 2.0 - <http://www.w3.org/TR/xslt20/>
 
-XSL Formatting Objects - https://en.wikipedia.org/wiki/XSL_Formatting_Objects
+XSL Formatting Objects - <https://en.wikipedia.org/wiki/XSL_Formatting_Objects>
 
-XSL-FO Processors - http://www.w3.org/community/ppl/wiki/XSL-FO_Processors
+XSL-FO Processors - <http://www.w3.org/community/ppl/wiki/XSL-FO_Processors>
 
-XML - https://en.wikipedia.org/wiki/XML
+XML - <https://en.wikipedia.org/wiki/XML>
 
-Adobe PDF - https://en.wikipedia.org/wiki/Portable_Document_Format
+Adobe PDF - <https://en.wikipedia.org/wiki/Portable_Document_Format>
 
 The Organization for the Advancement of Structured Information Standards
-(OASIS) - https://en.wikipedia.org/wiki/OASIS_(organization)
+(OASIS) - <https://en.wikipedia.org/wiki/OASIS_(organization>)
 
-oXygen XML Editor - http://www.oxygenxml.com
+oXygen XML Editor - <http://www.oxygenxml.com>
 
 DITA-OT installing plugins -
-http://dita-ot.sourceforge.net/1.7/dev_ref/plugins-installing.html
+<http://dita-ot.sourceforge.net/1.7/dev_ref/plugins-installing.html>
 
 Generate sample DITA-OT plugin -
-https://dita-generator-hrd.appspot.com/pdf-plugin/
+<https://dita-generator-hrd.appspot.com/pdf-plugin/>
 
 Creating DITA-OT plugins -
-http://dita-ot.sourceforge.net/1.5.4/dev_ref/plugins-overview.html
+<http://dita-ot.sourceforge.net/1.5.4/dev_ref/plugins-overview.html>
 
 Customizing PDF output -
-http://www.dita-ot.org/1.8/readme/dita2pdf-customization.html
+<http://www.dita-ot.org/1.8/readme/dita2pdf-customization.html>
 
-XSLT FAQ. Docbook FAQ. Braille. - http://www.dpawson.co.uk/
+XSLT FAQ. Docbook FAQ. Braille. - <http://www.dpawson.co.uk/>
 
-Homebrew — The missing package manager for OS X - http://brew.sh/
+Homebrew — The missing package manager for OS X - <http://brew.sh/>
 
-Apache Ant Wikipedia - https://en.wikipedia.org/wiki/Apache_Ant
+Apache Ant Wikipedia - <https://en.wikipedia.org/wiki/Apache_Ant>
 
-Install Ant with Homebrew - http://brewformulas.org/Ant
+Install Ant with Homebrew - <http://brewformulas.org/Ant>
 
-Installing Apache Ant - http://ant.apache.org/manual/install.html
+Installing Apache Ant - <http://ant.apache.org/manual/install.html>
 
 Codecademy - Learn the Command Line -
-https://www.codecademy.com/courses/learn-the-command-line
+<https://www.codecademy.com/courses/learn-the-command-line>
 
-Codecademy - Learn Java - https://www.codecademy.com/learn/learn-java
+Codecademy - Learn Java - <https://www.codecademy.com/learn/learn-java>
 
 Got 15 minutes and want to learn Git?
-https://try.github.io/levels/1/challenges/1
+<https://try.github.io/levels/1/challenges/1>
 
-Ruby regular expression editor - http://rubular.com/
+Ruby regular expression editor - <http://rubular.com/>
 
-Essential programmer training - http://www.codewars.com/
+Essential programmer training - <http://www.codewars.com/>
 
-Mastering Markdown - https://guides.github.com/features/mastering-markdown/
+Mastering Markdown - <https://guides.github.com/features/mastering-markdown/>
 
-GitHub Desktop - https://desktop.github.com/
+GitHub Desktop - <https://desktop.github.com/>
 
 Microsoft File Checksum Integrity Verifier -
-https://www.microsoft.com/en-au/download/details.aspx?id=11533
+<https://www.microsoft.com/en-au/download/details.aspx?id=11533>
 
-TechSmith Camtasia - https://www.techsmith.com/camtasia.html
+TechSmith Camtasia - <https://www.techsmith.com/camtasia.html>
 
-MD5 - https://en.wikipedia.org/wiki/MD5
+MD5 - <https://en.wikipedia.org/wiki/MD5>
 
-sha1sum - https://en.wikipedia.org/wiki/Sha1sum
+sha1sum - <https://en.wikipedia.org/wiki/Sha1sum>
 
 IDE - Integrated Development Environment -
-https://en.wikipedia.org/wiki/Integrated_development_environment
+<https://en.wikipedia.org/wiki/Integrated_development_environment>
 
-Git (software) - https://en.wikipedia.org/wiki/Git_(software)
+Git (software) - <https://en.wikipedia.org/wiki/Git_(software>)
 
-man page - https://en.wikipedia.org/wiki/Man_page
+man page - <https://en.wikipedia.org/wiki/Man_page>
 
-Terminal (OS X) - https://en.wikipedia.org/wiki/Terminal_(OS_X)
+Terminal (OS X) - <https://en.wikipedia.org/wiki/Terminal_(OS_X>)

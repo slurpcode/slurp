@@ -31,9 +31,6 @@ MD029: false
 # MD033/no-inline-html
 MD033: false
 
-# MD034/no-bare-urls
-MD034: false
-
 # MD037/no-space-in-emphasis
 MD037: false
 
