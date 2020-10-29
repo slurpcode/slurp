@@ -1,7 +1,7 @@
 # Getting Started
 
 This set of documentation is written in [Markdown](
-https://guides.github.com/features/mastering-markdown/) which is a
+https://daringfireball.net/projects/markdown/syntax) which is a
 lightweight and easy-to-use syntax for styling all forms of writing.
 
 Markdown takes about 10 minutes to learn and GitHub provides its
