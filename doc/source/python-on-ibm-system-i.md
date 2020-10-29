@@ -1,4 +1,4 @@
-# Getting stared with Python on IBM System i
+# ⚙️ Getting stared with Python on IBM System i
 
 ## October 2020 Clay Lanzino
 

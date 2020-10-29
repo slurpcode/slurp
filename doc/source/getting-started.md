@@ -1,4 +1,4 @@
-# Getting Started
+# 🎬 Getting Started
 
 This set of documentation is written in [Markdown](
 https://daringfireball.net/projects/markdown/syntax) which is a
