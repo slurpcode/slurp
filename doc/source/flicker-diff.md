@@ -4,6 +4,8 @@
 
 [pdftocairo](https://www.mankier.com/1/pdftocairo)
 
+More to come.
+
 ## Colordiff
 
 Text differencing of two PDF files in the `terminal` using:
@@ -28,3 +30,5 @@ dwdiff <(pdftotext old/filename.pdf -) <(pdftotext new/filename.pdf -) | colordi
 cd test_files\pdf
 wdiff <(pdftotext old/filename.pdf -) <(pdftotext new/filename.pdf -) | colordiff | grep -C 3 '\[-' > colordiff-output.txt
 ```
+
+![dwdiff custom colordiff](_static/images/custom-colordiff.png)
