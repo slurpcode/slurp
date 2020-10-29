@@ -47,7 +47,7 @@ echo "<!doctype html><html><head><meta charset=\"UTF-8\"></head><body>" >&3
 
 # loop over flicker GIFs
 for f in flicker/"$filename"/*; do
-  echo "<img src='$f'>" >&3
+  echo "<img src='$f' alt='$f'>" >&3
 done
 # finish HTML page
 echo "</body></html>" >&3
