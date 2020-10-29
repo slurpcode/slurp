@@ -1,5 +1,7 @@
 # 💎 Ruby
 
+![Ruby is...](_static/images/ruby-is.png)
+
 ## Ruby a programmer's best friend
 
 Some of our projects use [Ruby](https://www.ruby-lang.org/en/) so this page
@@ -34,5 +36,3 @@ so don't be scared and first check out a short Ruby YouTube video I created.
 - [Ruby Productivity with Vim and TMUX](https://www.youtube.com/watch?v=9jzWDr24UHQ)
 - [Refactoring Ruby](https://martinfowler.com/books/refactoringRubyEd.html)
 - [Practical Object Oriented Design - An Agile Primer Using Ruby](https://martinfowler.com/books/refactoringRubyEd.html)
-
-![Ruby is...](_static/images/ruby-is.png)

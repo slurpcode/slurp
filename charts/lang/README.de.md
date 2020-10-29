@@ -24,7 +24,7 @@ Die plotly.js Tortendiagramme sind die mit Abstand interaktivsten von allen.
 
 Sogar die README.md-Datei wird aus der config.xml-Konfigurationsdatei erstellt.
 
-Eine Demo finden Sie hier: http://thebeast.me/charts/
+Eine Demo finden Sie hier: <http://thebeast.me/charts/>
 
 Dieses Repository besteht aus:
 

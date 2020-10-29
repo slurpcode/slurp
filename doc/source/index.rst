@@ -10,6 +10,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   getting-started.md
    built-in-datatypes.md
    codewars.md
    codewars-scraper.md

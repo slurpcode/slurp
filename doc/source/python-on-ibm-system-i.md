@@ -1,4 +1,4 @@
-# Getting stared with Python on IBM System i
+# ⚙️ Getting stared with Python on IBM System i
 
 ## October 2020 Clay Lanzino
 
@@ -18,7 +18,7 @@ Going back a bit, Guido van Rossum devised the Python language in the late 1980s
 
 Until July 2018, Python development was personally led by Guido van Rossum and under the umbrella of the Python Software Foundation. As of 2019, Python development is chaired by a five-member board of directors elected from among Python developers, which is renewed annually.
 
-To download the latest version of Python, please visit its official download site: https://www.python.org/downloads/
+To download the latest version of Python, please visit its official download site: <https://www.python.org/downloads/>
 
 Now, how do you enter the world of IBM System i (AS / 400) using the powerful Python programming language, resorting to best practices and not die trying?
 
@@ -26,7 +26,7 @@ There is very little documentation on the internet about this and what you find 
 
 The following is how to connect to an IBM System i server, using the ftp.connect and ftp.login methods using a Python script. In the following link you can see a simple example of how to use these methods:
 
-https://github.com/ClayLanzino/IBM-System-i_AS400/blob/master/Python_Scripts/Ftp_IBM_System_i.py
+<https://github.com/ClayLanzino/IBM-System-i_AS400/blob/master/Python_Scripts/Ftp_IBM_System_i.py>
 
 Another way could be, writing a Script that runs on the client and connects to an IBM db2 database that resides on an IBM System i server, and execute certain SQL statements.
 
@@ -34,7 +34,7 @@ There are two ways to do this, it could be using an iSeries Access ODBC Driver c
 
 The other way would be to use the ibm_db.connect and ibm_db.pconnect functions respectively. For information on how to connect to an IBM DB2 database using a Python Script please visit the following link:
 
-https://www.ibm.com/support/knowledgecenter/es/SSEPGG_10.5.0/com.ibm.swg.im.dbclient.python.doc/doc/t0054368.html
+<https://www.ibm.com/support/knowledgecenter/es/SSEPGG_10.5.0/com.ibm.swg.im.dbclient.python.doc/doc/t0054368.html>
 
 Finally, the other way to connect could be, writing the Python code or Script within the IBM System i server itself; considering that IBM incorporated the Python programming language into its range of programming languages starting with version 7R1 or higher of the iSeries Operating System.
 
@@ -82,4 +82,4 @@ python3 -m pip install pycryptodomex
 
 It will then result in the Python software being installed on the IBM i computer along with dependent packages.
 
-To get Python examples on IBM i, visit the following link: http://ibm.biz/pythonexamplesonibmi
+To get Python examples on IBM i, visit the following link: <http://ibm.biz/pythonexamplesonibmi>

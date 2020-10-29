@@ -52,7 +52,7 @@ pip install pylint
 To run Pylint, type:
 
 ``` python
-pylint myprogram.py 
+pylint myprogram.py
 ```
 
 Where `myprogram.py` is the Python file you want it to check.
@@ -72,20 +72,16 @@ Processing.
 ## Further Resources
 
 * [Pylint home page](https://www.pylint.org/)
-* [Pylint User Manual](http://pylint.pycqa.org/en/latest/) j* [PEP8, the Python
-* [Readable Pylint Style Guide](https://www.python.org/dev/peps/pep-0008/)
-  Messages](https://github.com/janjur/readable-pylint-messages/blob/master/README.md)
-* [Linting Python In Visual Studio
-  Code](https://code.visualstudio.com/docs/python/linting)
-* [PyCharm plug-in for
-  Pylint](https://plugins.jetbrains.com/plugin/11084-pylint)* [Pylint technical
-  reference](https://pylint.readthedocs.io/en/latest/technical_reference/features.html)
-* [Python support in
-  Emacs](https://www.emacswiki.org/emacs/PythonProgrammingInEmacs)
+* [Pylint User Manual](http://pylint.pycqa.org/en/latest/)
+* [PEP8, the Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
+* [Readable Messages](https://github.com/janjur/readable-pylint-messages/blob/master/README.md)
+* [Linting Python In Visual Studio Code](https://code.visualstudio.com/docs/python/linting)
+* [PyCharm plug-in for Pylint](https://plugins.jetbrains.com/plugin/11084-pylint)
+* [Pylint technical reference](https://pylint.readthedocs.io/en/latest/technical_reference/features.html)
+* [Python support in Emacs](https://www.emacswiki.org/emacs/PythonProgrammingInEmacs)
 * [Pylint plug-in for Vim](https://www.vim.org/scripts/script.php?script_id=891)
 * [Pylint support for Eclipse](http://pydev.org/)
-* [A Beginner's Guide in Python - Pylint
-  Tutorial](https://docs.pylint.org/en/1.6.0/tutorial.html)
+* [A Beginner's Guide in Python - Pylint Tutorial](https://docs.pylint.org/en/1.6.0/tutorial.html)
 
 ## About The Author
 

@@ -1,5 +1,7 @@
 # 🚀 Seek
 
+![scrape](_static/images/scrape-jobs.png)
+
 ## When you need those jobs hypersonic -> seek 🚀
 
 **_seek_** is a command line script that builds 🔧 🔩 🔨 `CSV` results of job
@@ -62,5 +64,3 @@ Listed time in days: 30
 Work type: full
 41 jobs found
 ```
-
-![scrape](_static/images/scrape-jobs.png)
