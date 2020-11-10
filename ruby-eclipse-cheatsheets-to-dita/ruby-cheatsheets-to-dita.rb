@@ -101,7 +101,7 @@ sleep(Time.parse(options.time.to_s) - Time.now) if options.time && (Time.parse(o
 if options.path.nil?
   print 'Enter the directory or path relative to this
 directory to the cheatsheets XML test data: '
-  options.path = STDIN.gets.chomp
+  options.path = $stdin.gets.chomp
 end
 
 def create_path(path)
