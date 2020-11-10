@@ -96,7 +96,7 @@ options = example.parse(ARGV)
 sleep(options.delay) if options.delay
 if options.path.nil?
   print 'Enter directory or path relative to this directory to check for excess whitespace: '
-  options.path = STDIN.gets.chomp
+  options.path = $stdin.gets.chomp
 end
 
 def create_path(path)
