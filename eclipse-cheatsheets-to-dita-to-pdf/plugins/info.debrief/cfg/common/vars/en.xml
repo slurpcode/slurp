@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
 <vars xmlns="http://www.idiominc.com/opentopic/vars">
   <variable id="Body first header"><param ref-name="heading"/></variable>
-   <variable id="Body odd header">
-     <param ref-name="prodname"/>
+  <variable id="Body odd header">
+    <param ref-name="prodname"/>
     <param ref-name="heading"/>
-   </variable>
+  </variable>
   <variable id="Body even header"><param ref-name="heading"/></variable>
   <variable id="Body last header"><param ref-name="heading"/></variable>
   <variable id="Preface odd header"></variable>

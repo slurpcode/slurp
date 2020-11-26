@@ -101,7 +101,7 @@ sleep(Time.parse(options.time.to_s) - Time.now) if options.time && (Time.parse(o
 if options.path.nil?
   print 'Enter the directory or path relative to this
 directory to the cheatsheets XML test data: '
-  options.path = STDIN.gets.chomp
+  options.path = $stdin.gets.chomp
 end
 
 def create_path(path)
@@ -222,7 +222,7 @@ def create_dita(path)
     <author>Debrief</author>
     <author>John Bampton</author>
     <source>http://debrief.info/</source>
-    <publisher>Github John Bampton and #{11_461_173_985_121.to_s.split(/[356]/).map(&:to_i).map(&:chr).join
+    <publisher>GitHub John Bampton and #{11_461_173_985_121.to_s.split(/[356]/).map(&:to_i).map(&:chr).join
         .capitalize}</publisher>
     <critdates>
       <created date=\"#{Date.today}\"/>

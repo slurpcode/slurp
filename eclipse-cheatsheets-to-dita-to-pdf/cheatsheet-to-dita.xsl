@@ -26,7 +26,7 @@
 			    <author>Debrief</author>
 			    <author>John Bampton</author>
 			    <source>http://debrief.info/</source>
-			    <publisher>Github John Bampton</publisher>
+			    <publisher>GitHub John Bampton</publisher>
 			    <critdates>
 				      <created date="{format-date(current-date(),'[Y0001]-[M01]-[D01]')}"/>
 				</critdates>
