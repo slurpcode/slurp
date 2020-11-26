@@ -97,11 +97,11 @@ options = example.parse(ARGV)
 sleep(options.delay) if options.delay
 if options.file.nil?
   print 'Enter path to file: '
-  options.file = STDIN.gets.chomp
+  options.file = $stdin.gets.chomp
 end
 if options.algorithm.nil?
   print 'Enter algorithm: '
-  options.algorithm = STDIN.gets.chomp
+  options.algorithm = $stdin.gets.chomp
 end
 
 shell_command = `CertUtil -hashfile "#{options.file}" "#{options.algorithm}"`

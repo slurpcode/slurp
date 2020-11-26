@@ -118,9 +118,93 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "nbsamurai",
+      "name": "Subramani Simhachalam",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/5706683?v=4",
+      "profile": "https://github.com/nbsamurai",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "jhomme",
+      "name": "Jim Homme",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6507685?v=4",
+      "profile": "http://www.jimhomme.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "shravanshetty1",
+      "name": "Shravan Shetty",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/58299697?v=4",
+      "profile": "https://github.com/shravanshetty1",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "LeonKolyang",
+      "name": "Leon Menkreo-Kuntzsch",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50681264?v=4",
+      "profile": "https://github.com/LeonKolyang",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "TJSteel",
+      "name": "Jay Steel",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/35134286?v=4",
+      "profile": "https://github.com/TJSteel",
+      "contributions": [
+        "code",
+        "review"
+      ]
+    },
+    {
+      "login": "ClayLanzino",
+      "name": "Clay Lanzino",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/71577509?v=4",
+      "profile": "https://github.com/ClayLanzino",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "natasha2016github",
+      "name": "Natasha",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/16957076?v=4",
+      "profile": "https://github.com/natasha2016github",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "all-contributors",
+      "name": "All Contributors",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/46410174?v=4",
+      "profile": "https://allcontributors.org",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "dependabot-bot",
+      "name": "Dependabot",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36207117?v=4",
+      "profile": "https://dependabot.com",
+      "contributions": [
+        "maintenance",
+        "security"
+      ]
     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 6,
   "projectName": "slurp",
   "projectOwner": "slurpcode",
   "repoType": "github",

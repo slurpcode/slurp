@@ -1,5 +1,6 @@
-name,image,title
-Gunship_(band),249,GUNSHIP
-Queen_(band),250,Queen
-ABBA,251,ABBA
-Above_%26_Beyond_(group),252,Above &amp; Beyond
+name,image,title,type
+NewRetroWave,330,New Retro Wave,https://www.youtube.com/channel/UCD-4g5w1h8xQpLaNS_ghU4g
+Gunship_(band),249,GUNSHIP,wiki
+Queen_(band),250,Queen,wiki
+ABBA,251,ABBA,wiki
+Above_%26_Beyond_(group),252,Above &amp; Beyond,wiki

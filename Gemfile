@@ -20,7 +20,7 @@ gem 'github-pages', group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-avatar'
-  gem 'jekyll-feed', '~> 0.13'
+  gem 'jekyll-feed', '~> 0.15'
   gem 'jekyll-paginate'
   gem 'jekyll-redirect-from'
   gem 'jekyll-sitemap'
