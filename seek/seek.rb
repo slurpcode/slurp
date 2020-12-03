@@ -171,15 +171,15 @@ options = example.parse(ARGV)
 sleep(options.delay) if options.delay
 if options.keyword.nil?
   print 'Enter the keywords to search separators include: and, or, not: '
-  options.keyword = STDIN.gets.chomp
+  options.keyword = $stdin.gets.chomp
 end
 if options.location.nil?
   print 'Enter the suburb, city or region: '
-  options.location = STDIN.gets.chomp
+  options.location = $stdin.gets.chomp
 end
 if options.range.nil?
   print 'Listed time in days 999 (default) or 1, 3, 7, 14, 31 or any positive number: '
-  options.range = STDIN.gets.chomp
+  options.range = $stdin.gets.chomp
 end
 if options.worktype.nil?
   print 'Work type
@@ -188,7 +188,7 @@ if options.worktype.nil?
             part or 243 (part time)
             contract or 244 (contract/temp)
             casual or 245 (casual/vacation): '
-  options.worktype = STDIN.gets.chomp
+  options.worktype = $stdin.gets.chomp
 end
 
 agent = Mechanize.new
@@ -281,7 +281,7 @@ if results.size > 1
   options.worktype = enwtype(options.worktype)
   worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
   filename = [keyword, location, range, worktype].compact.join('-').downcase
-  filename = filename[1..-1] if filename[0] == '-'
+  filename = filename[1..] if filename[0] == '-'
   FileUtils.mkdir_p('jobs')
   CSV.open("jobs/#{filename}.csv", 'w+') do |csv_file|
     results.each{|row| csv_file << row}

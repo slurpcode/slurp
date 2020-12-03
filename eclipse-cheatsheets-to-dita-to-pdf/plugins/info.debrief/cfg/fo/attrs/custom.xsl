@@ -7,6 +7,6 @@
 	xmlns:opentopic-func="http://www.idiominc.com/opentopic/exsl/function"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
 	exclude-result-prefixes="ditaarch opentopic e" 
-	version="2.0">   
-  
+	version="2.0">
+
 </xsl:stylesheet>

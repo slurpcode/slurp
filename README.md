@@ -1,12 +1,14 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
 [![Logorama](https://img.shields.io/website?label=heroku&url=https%3A%2F%2Flogorama.herokuapp.com%2F)](https://logorama.herokuapp.com/)
 [![Slurp - Read the Docs](https://img.shields.io/website?label=read%20the%20docs&url=https%3A%2F%2Fslurp.readthedocs.io%2F)](https://slurp.readthedocs.io/)
+[![Preston Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fpreston.slurp.workers.dev%2F)](https://preston.slurp.workers.dev)
+[![Magic Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fmagic.slurp.workers.dev%2F)](https://magic.slurp.workers.dev/)
 
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Travis CI](https://travis-ci.org/slurpcode/slurp.svg?branch=master)](https://travis-ci.org/github/slurpcode/slurp)
@@ -34,6 +36,10 @@
 [Slurp Read the Docs - in progress](https://slurp.readthedocs.io/)
 
 [Logorama](https://logorama.herokuapp.com/)
+
+[Preston Worker](https://preston.slurp.workers.dev)
+
+[Magic Worker](https://magic.slurp.workers.dev)
 
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
@@ -225,12 +231,25 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://www.linkedin.com/in/sugiarto-udah-15023111"><img src="https://avatars0.githubusercontent.com/u/70807?v=4" width="100px;" alt=""/><br /><sub><b>sugiarto</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ugifractal" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3Augifractal" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="http://llearn.me/portfolio/"><img src="https://avatars2.githubusercontent.com/u/33186580?v=4" width="100px;" alt=""/><br /><sub><b>AdemHodzic</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=AdemHodzic" title="Code">💻</a></td>
     <td align="center"><a href="https://www.grafixwiz.com"><img src="https://avatars2.githubusercontent.com/u/33774837?v=4" width="100px;" alt=""/><br /><sub><b>Harley Armentrout</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=grfxwzdesigner" title="Documentation">📖</a> <a href="#design-grfxwzdesigner" title="Design">🎨</a> <a href="#ideas-grfxwzdesigner" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-grfxwzdesigner" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/summerhill5"><img src="https://avatars2.githubusercontent.com/u/42298149?v=4" width="100px;" alt=""/><br /><sub><b>Jorge Araica</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=summerhill5" title="Documentation">📖</a> <a href="#design-summerhill5" title="Design">🎨</a> <a href="#ideas-summerhill5" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
   <tr>
+    <td align="center"><a href="https://github.com/summerhill5"><img src="https://avatars2.githubusercontent.com/u/42298149?v=4" width="100px;" alt=""/><br /><sub><b>Jorge Araica</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=summerhill5" title="Documentation">📖</a> <a href="#design-summerhill5" title="Design">🎨</a> <a href="#ideas-summerhill5" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/Karinisk"><img src="https://avatars1.githubusercontent.com/u/43111214?v=4" width="100px;" alt=""/><br /><sub><b>Karinisk</b></sub></a><br /><a href="#design-Karinisk" title="Design">🎨</a></td>
     <td align="center"><a href="http://ndm.id.au/"><img src="https://avatars3.githubusercontent.com/u/1697199?v=4" width="100px;" alt=""/><br /><sub><b>Nicholas Meredith</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=udha" title="Documentation">📖</a> <a href="#ideas-udha" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="http://www.anish.info.np/"><img src="https://avatars3.githubusercontent.com/u/16479244?v=4" width="100px;" alt=""/><br /><sub><b>Anish Bhusal</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=anisbhsl" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/commits?author=anisbhsl" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/nbsamurai"><img src="https://avatars0.githubusercontent.com/u/5706683?v=4" width="100px;" alt=""/><br /><sub><b>Subramani Simhachalam</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=nbsamurai" title="Documentation">📖</a> <a href="https://github.com/slurpcode/slurp/commits?author=nbsamurai" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.jimhomme.com"><img src="https://avatars2.githubusercontent.com/u/6507685?v=4" width="100px;" alt=""/><br /><sub><b>Jim Homme</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=jhomme" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/shravanshetty1"><img src="https://avatars2.githubusercontent.com/u/58299697?v=4" width="100px;" alt=""/><br /><sub><b>Shravan Shetty</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=shravanshetty1" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/LeonKolyang"><img src="https://avatars1.githubusercontent.com/u/50681264?v=4" width="100px;" alt=""/><br /><sub><b>Leon Menkreo-Kuntzsch</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=LeonKolyang" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/TJSteel"><img src="https://avatars3.githubusercontent.com/u/35134286?v=4" width="100px;" alt=""/><br /><sub><b>Jay Steel</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=TJSteel" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3ATJSteel" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/ClayLanzino"><img src="https://avatars1.githubusercontent.com/u/71577509?v=4" width="100px;" alt=""/><br /><sub><b>Clay Lanzino</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ClayLanzino" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/natasha2016github"><img src="https://avatars0.githubusercontent.com/u/16957076?v=4" width="100px;" alt=""/><br /><sub><b>Natasha</b></sub></a><br /><a href="#translation-natasha2016github" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://allcontributors.org"><img src="https://avatars1.githubusercontent.com/u/46410174?v=4" width="100px;" alt=""/><br /><sub><b>All Contributors</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=all-contributors" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://dependabot.com"><img src="https://avatars2.githubusercontent.com/u/36207117?v=4" width="100px;" alt=""/><br /><sub><b>Dependabot</b></sub></a><br /><a href="#maintenance-dependabot-bot" title="Maintenance">🚧</a> <a href="#security-dependabot-bot" title="Security">🛡️</a></td>
   </tr>
 </table>
 

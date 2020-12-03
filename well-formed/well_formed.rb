@@ -96,7 +96,7 @@ options = example.parse(ARGV)
 sleep(options.delay) if options.delay
 if options.path.nil?
   print 'Enter the path to check for well formedness: '
-  options.path = STDIN.gets.chomp
+  options.path = $stdin.gets.chomp
 end
 
 # Used to check the well formedness of XML files

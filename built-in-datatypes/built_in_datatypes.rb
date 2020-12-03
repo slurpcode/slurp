@@ -91,7 +91,7 @@ options = example.parse(ARGV)
 sleep(options.delay) if options.delay
 if options.path.nil?
   print 'Enter the path to the schema: '
-  options.path = STDIN.gets.chomp
+  options.path = $stdin.gets.chomp
 end
 
 def create_path(path)

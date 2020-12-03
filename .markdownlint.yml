@@ -1,0 +1,41 @@
+# MD001/heading-increment/header-increment
+MD001: false
+
+# MD004/ul-style
+MD004: false
+
+# MD005/list-indent
+MD005: false
+
+# MD007/ul-indent
+MD007: false
+
+# MD009/no-trailing-spaces
+MD009: false
+
+# MD012/no-multiple-blanks
+MD012: false
+
+# MD013/line-length
+MD013: false
+
+# MD025/single-title/single-h1
+MD025: false
+
+# MD026/no-trailing-punctuation
+MD026: false
+
+# MD029/ol-prefix
+MD029: false
+
+# MD033/no-inline-html
+MD033: false
+
+# MD037/no-space-in-emphasis
+MD037: false
+
+# MD040/fenced-code-language
+MD040: false
+
+# MD041/first-line-heading/first-line-h1
+MD041: false

@@ -151,7 +151,7 @@ def file_extensions
     if ext == ''
       'folders'
     else
-      ext[1..-1]
+      ext[1..]
     end
   end
 end
@@ -662,7 +662,8 @@ structure.map.with_index do |chart, i|
   i = i / 50 + 1
   instance_variable_set("@page#{i}",
                         "#{gp(i)}\n      " +
-    if site_config['chart_type'] == 'all'
+    case site_config['chart_type']
+    when 'all'
       case (i - 1) % 8
       when 0..1 # d3pie
         %(
@@ -679,7 +680,7 @@ structure.map.with_index do |chart, i|
         <canvas id="chartjs_canvas#{data0}" width="400" height="350"></canvas>
       </div>)
       end
-    elsif site_config['chart_type'] == 'chartjs'
+    when 'chartjs'
       %(
       <div class="col-lg-4 col-md-6 col-sm-12">
         <canvas id="chartjs_canvas#{data0}" width="400" height="350"></canvas>
@@ -687,9 +688,10 @@ structure.map.with_index do |chart, i|
     else
       chart_type = site_config['chart_type'] == 'plotly' ? ' plotlypie' : ''
       chart_type_id =
-        if site_config['chart_type'] == 'google'
+        case site_config['chart_type']
+        when 'google'
           'chart_div_'
-        elsif site_config['chart_type'] == 'plotly'
+        when 'plotly'
           'plotly_chart_div_'
         else
           'd3pie_chart_div_'
@@ -740,11 +742,12 @@ page = ''
 
 # add all the websites external JavaScript files
 def add_website_scripts(type, site_scripts, d3_scripts, google_scripts, chartjs_script, plotly_script)
-  if type == 'd3pie'
+  case type
+  when 'd3pie'
     add_scripts(site_scripts, d3_scripts)
-  elsif type == 'google'
+  when 'google'
     add_scripts(site_scripts, google_scripts)
-  elsif type == 'chartjs'
+  when 'chartjs'
     add_scripts(site_scripts, chartjs_script)
   else
     add_scripts(site_scripts, plotly_script)
@@ -778,7 +781,8 @@ page_build(page, page_count)
 # restart common page
 page = ''
 # add Google charts JavaScript to the pages that need it
-if site_config['chart_type'] == 'all'
+case site_config['chart_type']
+when 'all'
   (0..page_count).map do |i|
     next unless [5, 6].include? i % 8
 
@@ -786,7 +790,7 @@ if site_config['chart_type'] == 'all'
                           gp(i) + %(
         google.charts.load("current", {"packages":["corechart"]});\n))
   end
-elsif site_config['chart_type'] == 'google'
+when 'google'
   page = %(
         google.charts.load("current", {"packages":["corechart"]});\n)
 end
@@ -803,7 +807,7 @@ if site_config['chart_type'] == 'all'
 
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
-    data1 = chart[1..-1]
+    data1 = chart[1..]
     i = ind / 50 + 1
 
     case (i - 1) % 8
@@ -843,9 +847,10 @@ else
   # add all the javascript for each pie chart to the main chart pages
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
-    data1 = chart[1..-1]
+    data1 = chart[1..]
     i = ind / 50 + 1
-    if site_config['chart_type'] == 'd3pie'
+    case site_config['chart_type']
+    when 'd3pie'
       type = i & 1 == 1 ? 0 : '35%'
       instance_variable_set("@page#{i}",
                             gp(i) + draw_d3pie_chart(1, data0, data1, ind, schema_colors, chart[0],
@@ -853,14 +858,14 @@ else
                                                      12, 3, '75%', type, 20,
                                                      true, 10, 'Arial Black',
                                                      'Arial Black', 12, 'fff', 999))
-    elsif site_config['chart_type'] == 'google'
-      data1 = chart[1..-1].map{|x| [fir(x), x.last]}
+    when 'google'
+      data1 = chart[1..].map{|x| [fir(x), x.last]}
       v = 'Values'
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
                             gp(i) + "        google.charts.setOnLoadCallback(drawChart#{data0});\n" + draw_google_chart(type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400))
 
-    elsif site_config['chart_type'] == 'chartjs'
+    when 'chartjs'
       type = i & 1 == 1 ? 'pie' : 'doughnut'
       instance_variable_set("@page#{i}",
                             gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind), 15, false))
