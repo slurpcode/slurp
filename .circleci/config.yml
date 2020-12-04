@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.7.1-buster-node-browsers
+      - image: circleci/ruby:2.7.2-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
