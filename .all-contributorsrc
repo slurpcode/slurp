@@ -211,6 +211,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "snyk-bot",
+      "name": "Snyk bot",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/19733683?v=4",
+      "profile": "https://snyk.io",
+      "contributions": [
+        "maintenance",
+        "security"
+      ]
     }
   ],
   "contributorsPerLine": 6,
