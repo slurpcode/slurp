@@ -2,7 +2,7 @@ AllCops:
   Exclude:
     - vendor/**/*
   NewCops: enable
-  TargetRubyVersion: 2.7.1
+  TargetRubyVersion: 2.7.2
 
 ### LAYOUT
 Layout/LineLength:
