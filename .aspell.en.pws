@@ -1,4 +1,4 @@
-personal_ws-1.1 en 315
+personal_ws-1.1 en 318
 ALLCAPSRUNTOGETHER
 AWS
 AdemHodzic
@@ -54,6 +54,8 @@ ICO
 IDEs
 ILE
 IMDb
+ImgBotApp
+Imgbot
 IntelliJ
 ibm
 iSeries
@@ -280,6 +282,7 @@ schemas
 sed
 sha
 sitename
+snyk
 sql
 src
 stateid
