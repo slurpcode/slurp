@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-19-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-22-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -250,6 +250,9 @@ Thanks goes to these wonderful people
   </tr>
   <tr>
     <td align="center"><a href="https://dependabot.com"><img src="https://avatars2.githubusercontent.com/u/36207117?v=4" width="100px;" alt=""/><br /><sub><b>Dependabot</b></sub></a><br /><a href="#maintenance-dependabot-bot" title="Maintenance">🚧</a> <a href="#security-dependabot-bot" title="Security">🛡️</a></td>
+    <td align="center"><a href="https://restyled.io"><img src="https://avatars0.githubusercontent.com/u/65077583?v=4" width="100px;" alt=""/><br /><sub><b>Restyled Commits</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=restyled-commits" title="Code">💻</a></td>
+    <td align="center"><a href="https://snyk.io"><img src="https://avatars2.githubusercontent.com/u/19733683?v=4" width="100px;" alt=""/><br /><sub><b>Snyk bot</b></sub></a><br /><a href="#maintenance-snyk-bot" title="Maintenance">🚧</a> <a href="#security-snyk-bot" title="Security">🛡️</a></td>
+    <td align="center"><a href="https://imgbot.net"><img src="https://avatars1.githubusercontent.com/u/31427850?v=4" width="100px;" alt=""/><br /><sub><b>Imgbot</b></sub></a><br /><a href="#design-ImgBotApp" title="Design">🎨</a></td>
   </tr>
 </table>
 

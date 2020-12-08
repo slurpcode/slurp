@@ -28,7 +28,7 @@ GEM
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.7)
     connection_pool (2.2.2)
-    csv (3.1.7)
+    csv (3.1.9)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     dnsruby (1.61.4)

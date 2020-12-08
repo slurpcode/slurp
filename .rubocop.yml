@@ -1,9 +1,14 @@
 AllCops:
   Exclude:
     - vendor/**/*
-  TargetRubyVersion: 2.7.1
+  NewCops: enable
+  TargetRubyVersion: 2.7.2
 
+### LAYOUT
 Layout/LineLength:
+  Enabled: false
+
+Layout/EndOfLine:
   Enabled: false
 
 Layout/SpaceAroundEqualsInParameterDefault:
@@ -19,6 +24,7 @@ Layout/SpaceInsideBlockBraces:
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
+### METRICS
 Metrics/AbcSize:
   Enabled: false
 
@@ -37,6 +43,7 @@ Metrics/ParameterLists:
 Metrics/PerceivedComplexity:
   Enabled: false
 
+### STYLING
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
 
