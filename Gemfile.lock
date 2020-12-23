@@ -51,7 +51,7 @@ GEM
       ruby2_keywords
     ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
-    fileutils (1.4.1)
+    fileutils (1.5.0)
     flay (2.12.1)
       erubis (~> 2.7.0)
       path_expander (~> 1.0)
