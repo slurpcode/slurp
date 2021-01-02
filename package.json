@@ -7,9 +7,9 @@
     "doc": "docs"
   },
   "dependencies": {
-    "markdownlint": "^0.21.0",
-    "surge": "^0.21.5",
-    "textlint": "^11.6.3",
+    "markdownlint": "^0.22.0",
+    "surge": "^0.21.7",
+    "textlint": "^11.7.7",
     "textlint-rule-no-todo": "^2.0.1"
   },
   "devDependencies": {},
