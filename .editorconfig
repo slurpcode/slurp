@@ -16,3 +16,6 @@ indent_size = 4
 [{package.json,.circleci/config.yml}]
 indent_style = space
 indent_size = 2
+
+[*.html]
+insert_final_newline = false
