@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gocolly/colly"
+	"github.com/gocolly/colly/v2"
 	flag "github.com/spf13/pflag"
 )
 
