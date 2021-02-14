@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ruby Critic - Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- StyleSheets -->
+    <link href="../assets/stylesheets/bootstrap.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/stylesheets/font-awesome.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/stylesheets/application.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header class="navbar navbar-default navbar-fixed-top">
+      <a href="#menu-toggle" class="btn btn-default hidden-lg visible-sm-* hidden-md visible-xs-* pull-left" id="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>
+      <a href="../overview.html"><img src="../assets/images/logo.png" alt="Ruby Critic Logo" title="Ruby Critic Logo" width="55"><span class="logo">RUBYCRITIC</span></a>
+      
+    </header>
+    <div id="wrapper">
+      <!-- Sidebar -->
+      <aside id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-item">
+            <a href="../overview.html" class="project-nav-item overview-nav"><i class="fa fa-dashboard"></i>Overview</a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../code_index.html" class="project-nav-item code-index-nav"><i class="fa fa-code"></i>Code</a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../smells_index.html" class="project-nav-item smells-index-nav"><i class="fa fa-warning"></i>Smells</a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../simple_cov_index.html" class="project-nav-item coverage-index-nav"><i class="fa fa-umbrella"></i>Coverage</a>
+          </li>
+        </ul>
+      </aside>
+      <!-- /#sidebar-wrapper -->
+      <div id="page-content-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+  <!--Page Title -->
+  <div class="Page_Title">
+    <div class="file-time">
+      <span class="committed-at">
+        
+          Updated <time class='js-timeago' datetime='2020-11-10 23:33:08 +1000'>2020-11-10 23:33:08 +1000</time>
+        
+      </span>
+    </div>
+    <div>
+      <h3><small>seek /</small> seek.rb</h3>
+    </div>
+  </div>
+  <!--End Page Title -->
+  <div class="Content_Wrapper">
+    <!-- code detail -->
+    <div class="code-top-detail clearfix row">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-1">
+            <div class="rating b big">
+              B
+            </div>
+          </div>
+          <div class="code-statistics col-md-11">
+            <div class="col-md-3">
+              <div><span class="metric">291</span><small> lines of codes</small></div>
+              <div><span class="metric">11</span><small> methods</small></div>
+            </div>
+            <div class="col-md-3">
+              <div><span class="metric">5.0</span><small> complexity/method</small></div>
+              <div><span class="metric">13</span><small> churn</small></div>
+            </div>
+            <div class="col-md-3">
+              <div><span class="metric">54.74</span><small> complexity</small></div>
+              <div><span class="metric">0</span><small> duplications</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="code-tabs">
+          <ul class="nav nav-pills right-to-left">
+            <li><a href="#" id="toggle-code" class="toggle-button button">code</a></li>
+            <li class="active">
+              <a href="#" id="toggle-smells" class="toggle-button button">
+                0
+                smell
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <code class="prettyprint linenums lang-ruby file-code js-file-code">#!/usr/bin/env ruby
+# Need to finish `time`
+# Wow, looks like there are still jobs for COBOL
+
+require &#39;csv&#39;
+require &#39;fileutils&#39;
+require &#39;mechanize&#39;
+require &#39;optparse&#39;
+require &#39;optparse/time&#39;
+require &#39;paint&#39;
+# require &#39;pp&#39;
+
+def wtype(worktype)
+  case worktype
+  when &#39;full&#39;
+    242
+  when &#39;part&#39;
+    243
+  when &#39;contract&#39;
+    244
+  when &#39;casual&#39;
+    245
+  when &#39;242&#39;
+    242
+  when &#39;243&#39;
+    243
+  when &#39;244&#39;
+    244
+  when &#39;245&#39;
+    245
+  else
+    &#39;242%2C243%2C244%2C245&#39;
+  end
+end
+
+def enwtype(worktype)
+  case worktype
+  when 242
+    &#39;full&#39;
+  when 243
+    &#39;part&#39;
+  when 244
+    &#39;contract&#39;
+  when 245
+    &#39;casual&#39;
+  else
+    &#39;all&#39;
+  end
+end
+
+# Custom OptionParser class
+class Parser
+  VERSION = &#39;1.0.0&#39;
+
+  # Custom OptionParser ScriptOptions
+  class ScriptOptions
+    attr_accessor :keyword, :location, :range, :worktype, :delay, :time
+
+    def initialize; end
+
+    def define_options(parser)
+      parser.banner = &quot;Usage: #{Paint[&#39;seek.rb [options]&#39;, :red, :white]}&quot;
+      parser.separator &#39;&#39;
+      parser.separator &#39;Specific options:&#39;
+
+      # add additional options
+      specify_keyword_option(parser)
+      specify_location_option(parser)
+      specify_range_option(parser)
+      specify_worktype_option(parser)
+      delay_execution_option(parser)
+      execute_at_time_option(parser)
+
+      parser.separator &#39;&#39;
+      parser.separator &#39;Common options:&#39;
+      # No argument, shows at tail.  This will print an options summary.
+      # Try it and see!
+      parser.on_tail(&#39;-h&#39;, &#39;--help&#39;, &#39;Show this message&#39;) do
+        puts parser
+        exit
+      end
+      # Another typical switch to print the version.
+      parser.on_tail(&#39;--version&#39;, &#39;Show version&#39;) do
+        puts VERSION
+        exit
+      end
+    end
+
+    def specify_keyword_option(parser)
+      parser.on(
+        &#39;-k&#39;,
+        &#39;--keyword keyword&#39;,
+        &#39;Keywords to search
+                                               separators include:
+                                               and, or, not&#39;
+      ){|k| self.keyword = k}
+    end
+
+    def specify_location_option(parser)
+      parser.on(&#39;-l&#39;, &#39;--location location&#39;, &#39;Suburb, city or region&#39;) do |l|
+        self.location = l
+      end
+    end
+
+    def specify_range_option(parser)
+      parser.on(
+        &#39;-r&#39;,
+        &#39;--range range&#39;,
+        &#39;Listed time in days
+                                                       999 (default) or
+                                                       1, 3, 7, 14, 31 or
+                                                       any positive number&#39;
+      ){|r| self.range = r}
+    end
+
+    def specify_worktype_option(parser)
+      parser.on(
+        &#39;-w&#39;,
+        &#39;--worktype worktype&#39;,
+        &#39;Work type
+                                                 all (default)
+                                                 full or 242 (full time)
+                                                 part or 243 (part time)
+                                                 contract or 244 (contract/temp)
+                                                 casual or 245 (casual/vacation)&#39;
+      ){|w| self.worktype = wtype(w)}
+    end
+
+    def delay_execution_option(parser)
+      # Cast &#39;delay&#39; argument to a Float.
+      parser.on(&#39;--delay N&#39;, Float, &#39;Delay N seconds before executing&#39;) do |n|
+        self.delay = n
+      end
+    end
+
+    def execute_at_time_option(parser)
+      # Cast &#39;time&#39; argument to a Time object.
+      parser.on(
+        &#39;-t&#39;,
+        &#39;--time [TIME]&#39;,
+        Time,
+        &#39;Begin execution at given time&#39;
+      ){|time| self.time = time}
+    end
+  end
+
+  #
+  # Return a structure describing the options.
+  #
+  def parse(args)
+    # The options specified on the command line will be collected in
+    # *options*.
+
+    @options = ScriptOptions.new
+    @args =
+      OptionParser.new do |parser|
+        @options.define_options(parser)
+        parser.parse!(args)
+      end
+    @options
+  end
+
+  attr_reader :parser, :options
+end
+
+example = Parser.new
+options = example.parse(ARGV)
+# pp options # example.options
+# pp ARGV
+
+sleep(options.delay) if options.delay
+if options.keyword.nil?
+  print &#39;Enter the keywords to search separators include: and, or, not: &#39;
+  options.keyword = $stdin.gets.chomp
+end
+if options.location.nil?
+  print &#39;Enter the suburb, city or region: &#39;
+  options.location = $stdin.gets.chomp
+end
+if options.range.nil?
+  print &#39;Listed time in days 999 (default) or 1, 3, 7, 14, 31 or any positive number: &#39;
+  options.range = $stdin.gets.chomp
+end
+if options.worktype.nil?
+  print &#39;Work type
+            all (default)
+            full or 242 (full time)
+            part or 243 (part time)
+            contract or 244 (contract/temp)
+            casual or 245 (casual/vacation): &#39;
+  options.worktype = $stdin.gets.chomp
+end
+
+agent = Mechanize.new
+agent.user_agent_alias = &#39;Windows Chrome&#39;
+site = &#39;https://www.seek.com.au&#39;
+page =
+  agent.get(
+    &quot;#{site}/jobs&quot;,
+    [
+      [&#39;keywords&#39;, options.keyword],
+      [&#39;where&#39;, options.location],
+      [&#39;range&#39;, options.range],
+      [&#39;worktype&#39;, options.worktype]
+    ]
+  )
+results = []
+results &lt;&lt;
+  [
+    &#39;Title&#39;,
+    &#39;URL&#39;,
+    &#39;Advertiser&#39;,
+    &#39;Location&#39;,
+    &#39;Area&#39;,
+    &#39;Listing Date&#39;,
+    &#39;Salary&#39;,
+    &#39;Classification&#39;,
+    &#39;Sub Classification&#39;,
+    &#39;Work Type&#39;,
+    &#39;Short Description&#39;
+  ]
+
+loop do
+  # for each page # html = page.body
+  jobs = page.search(&#39;article&#39;)
+  jobs.each do |job|
+    title = job.xpath(&#39;@aria-label&#39;)
+    url =
+      site + job.xpath(&#39;descendant::a[@data-automation=&quot;jobTitle&quot;]/@href&#39;).to_s
+    advertiser =
+      job.xpath(&#39;descendant::a[@data-automation=&quot;jobCompany&quot;]/text()&#39;)
+    location = job.xpath(&#39;descendant::a[@data-automation=&quot;jobLocation&quot;]/text()&#39;)
+    area = job.xpath(&#39;descendant::a[@data-automation=&quot;jobArea&quot;]/text()&#39;)
+    listing_date =
+      job.xpath(&#39;descendant::span[@data-automation=&quot;jobListingDate&quot;]/text()&#39;)
+    salary =
+      job.xpath(&#39;descendant::span[@data-automation=&quot;jobSalary&quot;]/span/text()&#39;)
+    classification =
+      job.xpath(&#39;descendant::a[@data-automation=&quot;jobClassification&quot;]/text()&#39;)
+    sub_classification =
+      job.xpath(&#39;descendant::a[@data-automation=&quot;jobSubClassification&quot;]/text()&#39;)
+    short_description =
+      job.xpath(
+        &#39;descendant::span[@data-automation=&quot;jobShortDescription&quot;]//text()&#39;
+      )
+
+    # get details from job ad page
+    ad = agent.get(url)
+    # at selects the first using CSS selectors
+    work_type = ad.at(&#39;dd[data-automation=&quot;job-detail-work-type&quot;]&#39;).text
+    listing_date = ad.at(&#39;dd[data-automation=&quot;job-detail-date&quot;]&#39;).text if listing_date.empty?
+
+    results &lt;&lt;
+      [
+        title,
+        url,
+        advertiser,
+        location,
+        area,
+        listing_date,
+        salary,
+        classification,
+        sub_classification,
+        work_type,
+        short_description
+      ]
+  end
+
+  if (link = page.link_with(text: &#39;Next&#39;)) # As long as there is still a next page link
+    page = link.click
+  else
+    # If no link left, then break out of loop
+    break
+  end
+end
+
+if results.size &gt; 1
+  keyword = options.keyword.tr(&#39; &#39;, &#39;-&#39;)
+  location = options.location.tr(&#39; &#39;, &#39;-&#39;) unless options.location.empty?
+  range = &quot;range-#{options.range}&quot; unless options.range.empty?
+  options.worktype = enwtype(options.worktype)
+  worktype = &quot;worktype-#{options.worktype}&quot; unless options.worktype.empty?
+  filename = [keyword, location, range, worktype].compact.join(&#39;-&#39;).downcase
+  filename = filename[1..] if filename[0] == &#39;-&#39;
+  FileUtils.mkdir_p(&#39;jobs&#39;)
+  CSV.open(&quot;jobs/#{filename}.csv&quot;, &#39;w+&#39;) do |csv_file|
+    results.each{|row| csv_file &lt;&lt; row}
+  end
+  puts &quot;#{results.size - 1} jobs found&quot;
+  `open &quot;jobs/#{filename}.csv&quot;`
+end
+</code>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- JavaScripts -->
+    <script src='../assets/javascripts/jquery.min.js'></script>
+    <script src='../assets/javascripts/jquery.tablesorter.min.js'></script>
+    <script src='../assets/javascripts/jquery.scrollTo.min.js'></script>
+    <script src='../assets/javascripts/jquery.timeago.js'></script>
+    <script src='../assets/javascripts/highcharts.src-4.0.1.js'></script>
+    <script src='../assets/javascripts/prettify.js'></script>
+    <script src='../assets/javascripts/bootstrap.min.js'></script>
+    <script src='../assets/javascripts/application.js'></script>
+    <script src='../assets/javascripts/jquery.filtertable.min.js'></script>
+  </body>
+</html>
