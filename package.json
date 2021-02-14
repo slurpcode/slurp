@@ -7,9 +7,9 @@
     "doc": "docs"
   },
   "dependencies": {
-    "markdownlint": "^0.23.0",
+    "markdownlint": "^0.23.1",
     "surge": "^0.21.7",
-    "textlint": "^11.7.7",
+    "textlint": "^11.8.2",
     "textlint-rule-no-todo": "^2.0.1"
   },
   "devDependencies": {},
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fuchsia-programming/fuchsia.git"
+    "url": "git+https://github.com/slurpcode/slurp.git"
   },
   "keywords": [
     "fuchsia",
@@ -31,7 +31,7 @@
   "author": "John Bampton",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/fuchsia-programming/fuchsia/issues"
+    "url": "https://github.com/slurpcode/slurp/issues"
   },
-  "homepage": "https://github.com/fuchsia-programming/fuchsia#readme"
+  "homepage": "https://github.com/slurpcode/slurp#readme"
 }

@@ -66,6 +66,7 @@ plugins:
 exclude:
   - .gitignore
   - assets/python/
+  - server
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
