@@ -9,6 +9,6 @@ else
   j=$1
 fi
 for ((i = 0; i <= j; i++)); do
-  curl -O https://raw.githubusercontent.com/fuchsia-programming/fuchsia-programming.github.io/master/assets/images/logos/fuchsia-"$i".png
+  curl -O https://raw.githubusercontent.com/slurpcode/slurp/master/docs/assets/images/logos/fuchsia-"$i".png
   sleep 5
 done

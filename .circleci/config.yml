@@ -33,11 +33,11 @@ jobs:
       - run:
           name: 🧹 Run YAML lint
           command: |
-            yamllint .erb-lint.yml .hound.yml .overcommit.yml .percy.yml .reek.yml .rubocop.yml .travis.yml .circleci/config.yml .github/invite-contributors.yml .github/workflows/greetings.yml .github/workflows/lint.yml .yamllint .markdownlint.yml
+            yamllint --strict .
       - run:
           name: 🧹 Run Pylint
           command: |
-            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0103,C0114,W0221
+            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0103,C0114,E0401,R0201,R0903,W0221
       - run:
           name: 🧹 Run Flake8
           command: |
@@ -60,21 +60,21 @@ jobs:
       - run:
           name: 🧪 npm test
           command: npm test
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "Gemfile.lock" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
+      # - restore_cache:
+      #    keys:
+      #      - v1-dependencies-{{ checksum "Gemfile.lock" }}
+      #      # fallback to using the latest cache if no exact match is found
+      #      - v1-dependencies-
       - run:
           name: 🏗️ Install Ruby Dependencies 💎
           command: |
             gem install bundler
             bundle update --bundler
-            bundle install --jobs=4 --retry=3 --path vendor/bundle
-      - save_cache:
-          paths:
-            - ./vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+            bundle install --jobs=4 --retry=3
+      # - save_cache:
+      #    paths:
+      #      - ./vendor/bundle
+      #    key: v1-dependencies-{{ checksum "Gemfile.lock" }}
       - run:
           name: 🧹 Run Rubocop
           command: |
