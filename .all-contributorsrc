@@ -230,6 +230,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "BaseMax",
+      "name": "Max Base",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2658040?v=4",
+      "profile": "https://maxbase.org/",
+      "contributions": [
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 6,
