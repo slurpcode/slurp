@@ -27,10 +27,6 @@ jobs:
           paths:
             - venv
       - run:
-          name: 🧹 Run Markdown Spell Check
-          command: |
-            bash ./check-spelling.sh || exit 1
-      - run:
           name: 🧹 Run YAML lint
           command: |
             yamllint --strict .
@@ -109,6 +105,22 @@ jobs:
           name: 🧹 Run tomlcheck (toml linter)
           command: |
             ./check-toml.sh || exit 1
+
+  spelling:
+    docker:
+      - image: circleci/ruby:2.7.2-buster-node-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: 🏗️ Install Apspell
+          command: |
+            sudo apt update
+            sudo apt-get install aspell
+      - run:
+          name: 🧹 Run Markdown Spell Check
+          command: |
+            bash ./check-spelling.sh || exit 1
 
   surge:
     docker:
@@ -206,6 +218,7 @@ workflows:
       - build
       - shellcheck
       - go-lint
+      - spelling
       - shell:
           requires:
             - build

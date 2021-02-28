@@ -138,3 +138,11 @@ knowledge about Sphinx to take that final step of documenting it. Your teammates
 will thank you. The development world will thank you. You will thank yourself if
 you ever need to maintain your own code.
 
+## About The Author
+
+Jim Homme is a former professional musician, father of three, husband, and a
+32-year veteran in Information Technology. He loves to read and play chess. He
+leads a team of accessibility testers at [Bender Consulting
+Services](https://www.benderconsult.com/). He is the owner of
+[jimhomme.com](https://www.jimhomme.com/), where he writes about Python and
+related technologies.
