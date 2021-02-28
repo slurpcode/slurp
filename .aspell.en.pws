@@ -1,4 +1,4 @@
-personal_ws-1.1 en 325
+personal_ws-1.1 en 327
 ALLCAPSRUNTOGETHER
 AWS
 AdemHodzic
@@ -8,6 +8,7 @@ Argh
 Armentrout
 BBEdit
 Bampton
+BaseMax
 BaseX
 Bhusal
 BitBucket
@@ -278,6 +279,7 @@ rdbms
 rdoc
 reStructuredText
 rebase
+renovatebot
 repo
 restructuredText
 roadmap
