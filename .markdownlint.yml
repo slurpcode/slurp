@@ -10,9 +10,6 @@ MD005: false
 # MD007/ul-indent
 MD007: false
 
-# MD009/no-trailing-spaces
-MD009: false
-
 # MD012/no-multiple-blanks
 MD012: false
 
