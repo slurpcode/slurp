@@ -2,8 +2,8 @@
 
 ## Pandoc
 
-[Pandoc](https://pandoc.org/) is a swiss army knife, if you need to convert files from one markup
-format into another.
+[Pandoc](https://pandoc.org/) is a swiss army knife, if you need to convert
+files from one markup format into another.
 
 It supports conversion to and from following formats:
 
@@ -25,7 +25,8 @@ It supports conversion to and from following formats:
 pandoc inputfile -s -o outputfile
 ```
 
-Pandoc makes converting a ```.rst``` file to ```.md``` file easier. Use following command to convert reStructuredText into Markdown format.
+Pandoc makes converting a `.rst` file to `.md` file easier. Use following
+command to convert reStructuredText into Markdown format.
 
 ```
 pandoc file.rst -s -o file.md
