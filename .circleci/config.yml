@@ -113,7 +113,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: 🏗️ Install Apspell
+          name: 🏗️ Install Aspell
           command: |
             sudo apt update
             sudo apt-get install aspell
@@ -136,6 +136,10 @@ jobs:
           name: ✉️ Surge Deployment
           command: |
             ./node_modules/surge/lib/cli.js --project ./govegas --domain govegas.surge.sh
+            ./node_modules/surge/lib/cli.js --project ./losroques --domain losroques.surge.sh
+            ./node_modules/surge/lib/cli.js --project ./railsdudes --domain railsdudes.surge.sh
+            ./node_modules/surge/lib/cli.js --project ./rubycritic --domain rubycritic.surge.sh
+            ./node_modules/surge/lib/cli.js --project ./rubytart --domain rubytart.surge.sh
 
   shellcheck:
     docker:

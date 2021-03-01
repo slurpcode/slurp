@@ -103,7 +103,7 @@ function eggs() {
                         );
                         break;
                     case "barney":
-                        loadUrl("https://www.upwork.com/fl/johnbampton");
+                        loadUrl("https://www.upwork.com/o/profiles/users/~015e56316c3aa9a286");
                         break;
                     case "karine":
                         loadUrl(
