@@ -6,8 +6,7 @@ import sys
 import matplotlib.pyplot as plt  # pylint:disable=E0401
 
 cmaps = [
-    ("Perceptually Uniform Sequential",
-     ["viridis", "plasma", "inferno", "magma"]),
+    ("Perceptually Uniform Sequential", ["viridis", "plasma", "inferno", "magma"]),
     (
         "Sequential",
         [
