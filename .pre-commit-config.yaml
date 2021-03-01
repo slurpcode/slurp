@@ -1,0 +1,92 @@
+---
+default_stages: [commit, push]
+default_language_version:
+  # force all unspecified Python hooks to run python3
+  python: python3
+minimum_pre_commit_version: "1.20.0"
+repos:
+  - repo: meta
+    hooks:
+      - id: identity
+      - id: check-hooks-apply
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.4.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-ast
+      - id: check-builtin-literals
+      - id: check-case-conflict
+      - id: check-docstring-first
+      # - id: check-executables-have-shebangs
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-toml
+      # - id: check-xml
+      - id: check-yaml
+      - id: debug-statements
+      # - id: end-of-file-fixer
+      - id: fix-byte-order-marker
+      - id: mixed-line-ending
+      # - id: pretty-format-json
+      - id: requirements-txt-fixer
+      # - id: trailing-whitespace
+  - repo: https://github.com/psf/black
+    rev: 20.8b1
+    hooks:
+      - id: black
+        name: Run black on Python files
+  # - repo: https://github.com/asottile/dead
+  #  rev: v1.4.0
+  #  hooks:
+  #    - id: dead
+  #      name: Dead simple python dead code detection
+  - repo: https://github.com/asottile/reorder_python_imports
+    rev: v2.4.0
+    hooks:
+      - id: reorder-python-imports
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 2.1.5
+    hooks:
+      - id: bundler-audit
+      - id: fasterer
+      - id: markdownlint # Configure in .mdlrc
+      - id: reek
+      # - id: rubocop
+      - id: shellcheck
+  # - repo: git://github.com/Lucas-C/pre-commit-hooks
+  #  rev: v1.1.9
+  #  hooks:
+  #    - id: forbid-tabs
+  #    - id: remove-tabs
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.8.0
+    hooks:
+      - id: python-check-mock-methods
+      - id: python-no-eval
+      - id: python-no-log-warn
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.26.0
+    hooks:
+      - id: markdownlint
+        name: Run markdownlint
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.26.0
+    hooks:
+      - id: yamllint
+        name: Check YAML files with yamllint
+        entry: yamllint --strict .
+        types: [yaml]
+  # - repo: https://github.com/PyCQA/bandit
+  #  rev: 1.7.0
+  #  hooks:
+  #    - id: bandit
+  # - repo: https://gitlab.com/pycqa/flake8
+  #  rev: 3.8.4
+  #  hooks:
+  #    - id: flake8
+  - repo: https://github.com/syntaqx/git-hooks
+    rev: v0.0.16
+    hooks:
+      - id: go-fmt
+      - id: go-test
+      - id: go-mod-tidy

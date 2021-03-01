@@ -14,6 +14,7 @@ Welcome to slurp's documentation!
    built-in-datatypes.md
    codewars.md
    codewars-scraper.md
+   cooking.md
    corel-draw.md
    database.md
    flicker-diff.md
