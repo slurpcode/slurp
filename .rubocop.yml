@@ -5,14 +5,17 @@ AllCops:
   TargetRubyVersion: 2.7.2
 
 ### LAYOUT
-Layout/LineLength:
+Layout/EndOfLine:
   Enabled: false
 
-Layout/EndOfLine:
+Layout/LineLength:
   Enabled: false
 
 Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
+
+Layout/SpaceAroundOperators:
+  Enabled: false
 
 Layout/SpaceBeforeBlockBraces:
   EnforcedStyle: no_space
