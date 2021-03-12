@@ -15,7 +15,7 @@ video.
 
 [Ruby](https://www.ruby-lang.org/en/) is very
 [powerful](https://www.ruby-lang.org/en/documentation/success-stories/), is
-growing in popularity and is currently ranked 11th on the
+growing in popularity and is currently ranked in the top 20 on the
 [TIOBE Index](http://www.tiobe.com/tiobe_index).
 
 There are two types of Ruby files: .rb, .rbw

@@ -83,3 +83,9 @@ python3 -m pip install pycryptodomex
 It will then result in the Python software being installed on the IBM i computer along with dependent packages.
 
 To get Python examples on IBM i, visit the following link: <http://ibm.biz/pythonexamplesonibmi>
+
+## About The Author
+
+Clay Lanzino is a passionate former surfer, father of three children, husband and a 33-year-old IT professional who loves programming.
+In his spare time, he loves being in nature, hugging the trees, walking barefoot to take in the energy of the earth and doing meditations in the open air.
+If time permits, he does some Yoga, in his exclusive meditation room.

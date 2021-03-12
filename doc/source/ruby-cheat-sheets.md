@@ -4,7 +4,7 @@
 
 Using
 [Ruby](http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=59579)
-on this project allows use to harness the power of
+on this project allows us to harness the power of
 [RubyGems](https://rubygems.org/) particularly the
 [Nokogiri](http://www.nokogiri.org/) gem along with XSLT 1.0 / XPath 1.0 to
 create the DITA XML files. Using Ruby eliminates the need to use Eclipse and
@@ -12,7 +12,7 @@ Apache Ant and can be run standalone from the command line as long as you have
 Ruby installed.
 
 The Ruby file: `ruby-cheatsheets-to-dita.rb` builds the output parent Ditamap
-`map.ditamap` (output/map.ditamap) and the 4 sub DITA tasks in the `output/dita`
+`map.ditamap` (output/map.ditamap), and the 4 sub DITA tasks in the `output/dita`
 folder.
 
 ## DITA Background

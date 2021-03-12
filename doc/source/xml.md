@@ -10,23 +10,23 @@ for mainly XSLT and XPath
 
 ## Tools
 
-[xsltproc](http://xmlsoft.org/XSLT/xsltproc.html) -\> command line xslt
+[xsltproc](http://xmlsoft.org/XSLT/xsltproc.html) - command line xslt
 processor
 
-[xmllint](http://xmlsoft.org/xmllint.html) -\> command line XML tool
+[xmllint](http://xmlsoft.org/xmllint.html) - command line XML tool
 
-[saxon-xslt](https://github.com/fidothe/saxon-xslt) -\> Wrap Saxon
-9.X\'s HE\'s XSLT 2.0 processor for use in JRuby
+[saxon-xslt](https://github.com/fidothe/saxon-xslt) - Wrap Saxon
+9.X HE XSLT 2.0 processor for use in JRuby
 
-[Saxon](https://www.saxonica.com/welcome/welcome.xml) -\> Saxon
+[Saxon](https://www.saxonica.com/welcome/welcome.xml) - Saxon
 processor for XSLT, XQuery, and XML Schema, including the only XSLT 3.0
 conformant toolset.
 
-[Apache FOP](https://xmlgraphics.apache.org/fop/) -\> Formatting Objects
+[Apache FOP](https://xmlgraphics.apache.org/fop/) - Formatting Objects
 Processor is a Java application that converts XSL Formatting Objects
 files to PDF or other printable formats.
 
-[Apache Xalan](https://xalan.apache.org/) -\> Apache Xalan Project
+[Apache Xalan](https://xalan.apache.org/) - Apache Xalan Project
 develops and maintains libraries and programs that transform XML
 documents using XSLT standard stylesheets.
 
