@@ -12,8 +12,8 @@ Apache Ant and can be run standalone from the command line as long as you have
 Ruby installed.
 
 The Ruby file: `ruby-cheatsheets-to-dita.rb` builds the output parent Ditamap
-`map.ditamap` (output/map.ditamap), and the 4 sub DITA tasks in the `output/dita`
-folder.
+`map.ditamap` (output/map.ditamap), and the 4 sub DITA tasks in the
+`output/dita` folder.
 
 ## DITA Background
 

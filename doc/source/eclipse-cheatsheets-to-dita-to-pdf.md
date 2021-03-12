@@ -62,8 +62,8 @@ The two parts of the transformation and rendering consist of:
    - The "output/debrief" and sub "dita" folder contains the dynamically created
      (transformed) DITA files from this step.
 
-2. - This is the rendering (printing) step, and the 'info.debrief' custom DITA-OT
-     plugin produces the PDF via the DITA-OT base libraries, and a XSL -
+2. - This is the rendering (printing) step, and the 'info.debrief' custom
+     DITA-OT plugin produces the PDF via the DITA-OT base libraries, and a XSL -
      Formatting Objects Processor (FO Processor)
    - The "output/debrief/pdf" folder contains the resulting PDF output from this
      step
