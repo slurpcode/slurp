@@ -19,6 +19,7 @@ Welcome to slurp's documentation!
    database.md
    flicker-diff.md
    dita-to-pdf-with-eclipse.md
+   driving-off-road.md
    dogs.md
    eclipse-cheatsheets-to-dita-to-pdf.md
    eclipse-cheatsheets-to-dita-with-python.md
