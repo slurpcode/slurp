@@ -119,7 +119,7 @@ jobs:
             bundle update --bundler
             bundle install --jobs=4 --retry=3
       - run:
-          name: 🧹 Run Rubocop
+          name: 🧹 Run well formed
           command: |
             bundle exec well-formed/well_formed.rb -p . || exit 1
 
@@ -237,9 +237,10 @@ workflows:
   build-deploy:
     jobs:
       - build
-      - shellcheck
       - go-lint
+      - shellcheck
       - spelling
+      - well-formed
       - shell:
           requires:
             - build

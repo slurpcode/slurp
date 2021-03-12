@@ -1,5 +1,7 @@
 # 🧪 Well Formed
 
+Ruby script used to check the well formedness of XML files: `xml, xsd, xsl`
+
 ```
 $ ruby well_formed.rb -h
   Usage: well-formed.rb [options]

@@ -19,8 +19,8 @@ output formats one after the other, in one click by building the project.
 Development was originally done in
 [oXygen XML Editor](https://www.oxygenxml.com) then ported to Eclipse.
 
-Since Java is now ranked number one on the
-[TIOBE Index](http://www.tiobe.com/tiobe_index), this project aims to be a easy
+Since Java is now ranked number two on the
+[TIOBE Index](http://www.tiobe.com/tiobe_index), this project aims to be an easy
 to follow tutorial on all the technologies listed.
 
 The roadmap for this project is to keep the "info.debrief" custom DITA-OT plugin
@@ -49,9 +49,9 @@ The running Ant Build is a two-step process, first the DITA XML is created from
 the Eclipse cheat sheets (XML files) and then you use the DITA-Open Toolkit to
 create the PDF from the auto created DITA files.
 
-The two parts of the transformation and rendering comprise of:
+The two parts of the transformation and rendering consist of:
 
-1. - This is the transformation step and it uses cheatsheet-to-dita.xsl which
+1. - This is the transformation step, and it uses cheatsheet-to-dita.xsl which
      requires an XSLT 2.0 compliant processor.
    - I used the open source product Saxon from
      [Saxonica](http://www.saxonica.com/welcome/welcome.xml) which came included
@@ -62,8 +62,8 @@ The two parts of the transformation and rendering comprise of:
    - The "output/debrief" and sub "dita" folder contains the dynamically created
      (transformed) DITA files from this step.
 
-2. - This is the rendering (printing) step and the 'info.debrief' custom DITA-OT
-     plugin produces the PDF via the DITA-OT base libraries and a XSL -
+2. - This is the rendering (printing) step, and the 'info.debrief' custom
+     DITA-OT plugin produces the PDF via the DITA-OT base libraries, and a XSL -
      Formatting Objects Processor (FO Processor)
    - The "output/debrief/pdf" folder contains the resulting PDF output from this
      step
@@ -74,10 +74,10 @@ The two parts of the transformation and rendering comprise of:
 Plugins are placed in the DITA-OT plugins directory. You can see the plugin I
 built in this directory named "info.debrief".
 
-![info.debrief plugin location](documentation/images/dita/info.debrief_plugin_location.png)
+![info.debrief plugin location](_static/images/dita/info.debrief_plugin_location.png)
 
 When ready a plugin must be integrated into DITA-OT using **Apache Ant**. I
-built this project using OS X and I installed Ant through **Homebrew**.
+built this project using OS X, and I installed Ant through **Homebrew**.
 
 On the command line from inside the root DITA-OT folder it would be -> ant -f
 integrator.xml
@@ -86,7 +86,7 @@ You can also run the integrator inside Eclipse as an Ant build by right clicking
 on "src/libs/DITA-OT1.8.5/integrator.xml" and selecting -> Run As -> Ant Build
 (first one) and this should integrate the plugin with the toolkit.
 
-![Run DITA-OT integrator inside eclipse with Ant](documentation/images/eclipse/eclipse_run_dita_ot_integrator.png)
+![Run DITA-OT integrator inside eclipse with Ant](_static/images/eclipse/eclipse_run_dita_ot_integrator.png)
 
 Every DITA-OT PDF plugin has a file name plugin.xml at its root where you set
 the configuration values. The plugin id must match the folder name of the
@@ -94,7 +94,7 @@ plugin. Every plugin has a "transtype" -> this plugins transtype is "debrief".
 You can see the plugin.xml file and where to set the plugin id and transtype in
 the next image:
 
-![plugin.xml](documentation/images/dita/transtype.png)
+![plugin.xml](_static/images/dita/transtype.png)
 
 PDF Plugins are comprised of some XML config files, some artwork and some custom
 XSL (XSLT/XSL-FO/XPath) code DITA-OT provides that base XSL code that you
@@ -109,7 +109,7 @@ the custom code at
 "src/libs/DITA-OT1.8.5/plugins/info.debrief/cfg/fo/xsl/custom.xsl" for this
 project. The other file is seen in the adjacent "attrs" directory.
 
-![custom.xsl](documentation/images/dita/custom.xsl.png)
+![custom.xsl](_static/images/dita/custom.xsl.png)
 
 Placing the custom code only in these two files follows best practice techniques
 on how to build a DITA-OT PDF plugin.
