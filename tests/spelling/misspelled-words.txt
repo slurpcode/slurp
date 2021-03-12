@@ -4,4 +4,3 @@ Béla
 
 ./doc/source/corel-draw.md
 promotor
-
