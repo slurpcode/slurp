@@ -5,7 +5,7 @@ vectors to represent shapes instead of bitmaps. It was created in 1989 and has
 been evolving through 21 versions to this day. The current version is CorelDraw
 2019, and it includes a bitmap editing application, Corel Photopaint, a very
 complete program to work with photos or any other bitmap image, as well as some
-other apps. Corel 2019 was released, for the very first time, for Apple MacOS as
+other apps. Corel 2019 was released, for the very first time, for Apple macOS as
 well as for Windows.
 
 Vectors: digital images can be stored as grids of colored points (pixels) known
@@ -14,7 +14,7 @@ close look, will show these colored pixels and smooth lines will become saw
 lines that look like stairs. Vectors do not use bitmaps, but mathematical
 functions to represent shapes. A function can work with very small numbers or
 very big numbers all the same and will always be precise, so you can look at a
-vector image from a distance or very close and it will always look perfect, no
+vector image from a distance or very close, and it will always look perfect, no
 pixels, smooth lines all the time, and has the advantage of requiring far less
 memory to be stored than bitmaps.
 

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# creates a file of spelling mistakes if there are any
 errors=0
 path="tests/spelling/"
 mkdir -p "$path"
@@ -17,7 +18,7 @@ while read -r file; do
     errors=1
   fi
   : >"$path"misspelled-words-temp.txt
-done < <(find . -name "*.md" -not -path "**/node_modules/*" -not -path "**/charts/*")
+done < <(find . -name "*.md" -not -path "**/charts/*" -not -path "**/node_modules/*" -not -path "**/venv/*")
 if [ -f "$path"misspelled-words-temp.txt ]; then
   rm "$path"misspelled-words-temp.txt
 fi
