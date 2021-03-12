@@ -1,4 +1,4 @@
-personal_ws-1.1 en 350
+personal_ws-1.1 en 355
 ALLCAPSRUNTOGETHER
 AWS
 AdemHodzic
@@ -106,6 +106,7 @@ Photoshop
 PostScript
 PostgreSQL
 PowerShell
+Pre
 PyCharm
 Pylint
 QOpenSys
@@ -138,6 +139,7 @@ StateId
 Stylesheet
 Subramani
 TIOBE
+TJ
 TOML
 TechSmith
 Thexder
@@ -187,6 +189,7 @@ codebeat
 codewars
 colly
 colordiff
+conda
 config
 conformant
 contraints
@@ -282,6 +285,7 @@ phpMyAdmin
 pkgs
 pluggable
 png
+pre
 prepend
 preprocessor
 programmatically
@@ -344,6 +348,7 @@ worktype
 xml
 xmllint
 xmlquery
+xsd
 xsl
 xslt
 xsltproc
