@@ -12,7 +12,6 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.4.0
     hooks:
-      - id: check-added-large-files
       - id: check-ast
       - id: check-builtin-literals
       - id: check-case-conflict
@@ -65,7 +64,7 @@ repos:
       - id: python-no-eval
       - id: python-no-log-warn
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.26.0
+    rev: v0.27.1
     hooks:
       - id: markdownlint
         name: Run markdownlint

@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "markdownlint": "^0.23.1",
-    "surge": "^0.21.7",
+    "surge": "^0.22.1",
     "textlint": "^11.8.2",
     "textlint-rule-no-todo": "^2.0.1"
   },

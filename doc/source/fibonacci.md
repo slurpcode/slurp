@@ -46,6 +46,8 @@ sum of the two previous results:
 - 8 + 5 = 13
 - 13 + 8 = 21 and so on
 
+![Fibonacci sequence](_static/images/fibonacci/fibo1.jpg)
+
 ## How this sequence influences the explanation of certain proportions in nature
 
 This type of mathematical pattern is found in countless examples within nature.
@@ -101,7 +103,7 @@ sides of which are made up of the terms of the Fibonacci series. The spiral is
 formed by the arcs of circumference, which are formed by the radii of the sides
 of these squares.
 
-fibonacci-3594147_1280.png
+![cephalopod mollusk](_static/images/fibonacci/fibo2.jpg)
 
 If we look at the shell of the nautilus (cephalopod mollusk) we can see the
 similarity with the golden spiral, only that instead of forming the spiral with
@@ -109,12 +111,14 @@ the sides of a square, it is formed with equilateral triangles. Both spirals
 differ in the opening, but in both cases they have the same length to generate
 the first polygon.
 
+![Shell](_static/images/fibonacci/fibo3.jpg)
+![Sprial Drawing](_static/images/fibonacci/fibo4.jpg)
+
 Not satisfied with the similarities described in advance, we can also note that
 equivalent spirals are present in certain galaxies and hurricanes.
 
-Galaxia final.jpg
-
-hurricane-74031_1920.jpg
+![Galaxia final](_static/images/fibonacci/fibo5.jpg)
+![Hurricane](_static/images/fibonacci/fibo6.jpg)
 
 ## The Fibonacci series and the golden ratio in art
 
@@ -157,7 +161,7 @@ In fact, Leonardo da Vinci himself, through what he called the "sectio aurea",
 defined the ideal symmetry in his paintings such as "The Mona Lisa", "The Last
 Supper" and "The Vitruvian Man".
 
-leonardo-da-vinci-1125056_1920.jpg
+![Leonardo Da Vinci](_static/images/fibonacci/fibo7.jpg)
 
 Da Vinci claimed that the ideal proportion of a person is closely linked to the
 quotient between the measurement of his height and the distance from the ground
