@@ -29,24 +29,27 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/slurpcode/slurp.svg)
 ![GitHub search hit counter](https://img.shields.io/github/search/slurpcode/slurp/jekyll.svg)
 
-## Sites
-
-- [Fuchsia Programming](https://fuchsia.surf/)
-- [Slurp Read the Docs - in progress](https://slurp.readthedocs.io/)
-- [Logorama](https://logorama.herokuapp.com/)
-- [Preston Worker](https://preston.slurp.workers.dev)
-- [Magic Worker](https://magic.slurp.workers.dev)
-
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
 
 ## Repository Overview
 
-- charts - Out of date and not deployed
-- [doc](https://slurp.readthedocs.io/) - Welcome to slurp’s documentation!
-- [docs](https://fuchsia.surf/) - Fuchsia Programming
-
-More to come soon.
+- charts - Out of date website and not deployed. Built with Ruby
+- [doc](https://slurp.readthedocs.io/) - Welcome to slurp’s documentation! Python, Sphinx and Markdown mainly
+- [docs](https://fuchsia.surf/) - Fuchsia Programming Jekyll website with Easter Eggs hosted on GitHub Pages with Tunes !!!
+- [eclipse-cheatsheets-to-dita-to-pdf](https://slurp.readthedocs.io/en/latest/eclipse-cheatsheets-to-dita-to-pdf.html) - Eclipse cheat sheets to DITA to PDF
+- [hashcheck](https://slurp.readthedocs.io/en/latest/hashcheck.html) - Ruby script to check file checksums with the Windows CertUtil Command
+- [logorama](https://logorama.herokuapp.com/) - Logos done Rama
+- [ruby-cheatsheets-to-dita](https://slurp.readthedocs.io/en/latest/ruby-cheat-sheets.html) - Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
+- scrapers - Web scrapers in progress. FQL, Golang, PHP, Perl, Python, Ruby and Shell. Colly, ferret, lxml, Nokogiri, Regex, Scrapy, XPath. awk, cd, curl, echo, exit, grep, mkdir, pcregrep, sed, sort, sleep, tail, uniq
+- [seek](https://slurp.readthedocs.io/en/latest/seek.html) - seek is a command line script that builds 🔧 🔩 🔨 CSV results of job searches
+- tests/spelling - Output folder showing misspelled words
+- [well-formed](https://slurp.readthedocs.io/en/latest/well-formed.html) - Ruby script used to check the well formedness of XML files
+- xsl-schema-sort - Sorting the elements at the first level deep or nested inside XML Schema files. XPath / XSLT 2.0, XSD script using Saxon. In progress
+- .aspell.en.pws - [GNU Aspell](https://github.com/GNUAspell/aspell) English personal dictionary. Spell checking is running on CircleCI with a Shell script
+- .pre-commit-config.yaml - [pre-commit](https://pre-commit.com/): A framework for managing and maintaining multi-language pre-commit hooks. Runs on local machine
+- config.toml - [Revive config file](https://revive.run/) - revive: fast & extensible static code analysis framework for Go. Runs on CircleCI
+- More to come soon
 
 ## Built With
 

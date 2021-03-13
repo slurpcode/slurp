@@ -56,3 +56,12 @@ of dishes. Baking, grilling, frying/sauteing them all have their uses and advoca
 the only way to find the ones you like best are to get yourself a cookbook or two and start
 experimenting. This last paragraph is somewhat of a let-down, eh? But entire big, fat books
 are written on the subject because the combinations are endless. Have fun! “Just do it”
+
+## About The Author
+
+Harley Armentrout is a happy husband and father, former silversmith, aerospace electronics
+prototype assembler, test, calibration & repair technician, also writing test procedures. Then
+21 years in the gaming industry, in a range of positions, culminated as a Gaming Inspector,
+observing and reporting on rules violations, safety issues and criminal activities. After
+“retiring” Harley taught himself a few graphic design skills and he works as a freelance
+designer.

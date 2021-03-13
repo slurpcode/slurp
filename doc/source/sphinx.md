@@ -72,7 +72,7 @@ that.
 
 ### How To Install Python
 
-If Python isn't on your windows system, you can install it after you've
+If Python isn't on your Windows system, you can install it after you've
 installed Chocolaty. Get a PowerShell or command prompt as an administrator and
 type this command.
 
@@ -85,7 +85,7 @@ choco install python
 Now that you have Python installed, from the command line, type this command to
 install Sphinx.
 
-```python
+```shell
 pip install -U sphinx
 ```
 
@@ -94,7 +94,7 @@ This installs Sphinx on your computer for only your user ID.
 After you've installed sphinx, you can use this command to verify that you have
 installed it correctly.
 
-```python
+```shell
 sphinx-build --version
 ```
 

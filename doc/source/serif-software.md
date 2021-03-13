@@ -2,9 +2,7 @@
 
 ## Image editing
 
-Written by: Harley
-
-## Overview
+### Overview
 
 I’m perhaps the Fuchsia Team member with the shortest relevant work history. I’m
 a newcomer to the world of graphic design, having spent most of my life working
@@ -35,7 +33,7 @@ The point is, I want to learn, but never fail to give my clients all they
 deserve and ask for. And from the reviews I have read, the learning curve with
 Serif Software is not as steep as with Adobe. That’s a plus for this old guy!
 
-## About Affinity apps from Serif Software
+### About Affinity apps from Serif Software
 
 I will be sending myself to school (tutorials) for the apparently massive
 capabilities of the Affinity apps. I have known for some time that these apps
@@ -90,3 +88,12 @@ an Export Persona with multiple choices for your exports. OK, check out the
 screenshots and then check out Affinity.
 
 ![Photo Persona](_static/images/serif/photo-persona.png "Photo Persona")
+
+## About The Author
+
+Harley Armentrout is a happy husband and father, former silversmith, aerospace electronics
+prototype assembler, test, calibration & repair technician, also writing test procedures. Then
+21 years in the gaming industry, in a range of positions, culminated as a Gaming Inspector,
+observing and reporting on rules violations, safety issues and criminal activities. After
+“retiring” Harley taught himself a few graphic design skills and he works as a freelance
+designer.

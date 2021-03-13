@@ -30,15 +30,27 @@ jobs:
         with:
           node-version: ${{ matrix.node_version }}
           architecture: ${{ matrix.architecture }}
-      - run: npm install -g markdownlint-cli@0.25.0
+      - run: npm install -g markdownlint-cli@0.27.1
       - run: markdownlint '**/*.md' --ignore node_modules
-  shellcheck:
-    name: 🧹 Shell
+  misspell:
+    name: 🥛 Check Spelling
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🍒 Check Out
+        uses: actions/checkout@v2
+      - name: 🍅 Install
+        run: |
+          wget -O - -q https://git.io/misspell | sh -s -- -b .
+      - name: 🌶️ Misspell
+        run: |
+          git ls-files --empty-directory | xargs ./misspell -error
+  trailing-whitespace:
+    name: 🧋 Trailing whitespace
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Run ShellCheck
-        uses: ludeeus/action-shellcheck@master
+      - name: 🧹 Check for trailing whitespace
+        run: "! git grep -EIn $'[ \t]+$'"
   yamllint:
     name: 🍏 YAML
     runs-on: ubuntu-latest
