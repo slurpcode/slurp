@@ -2,7 +2,6 @@
 
 - Tags: ["Beginner"]
 - Categories: ["Python"]
-- Original Author: "Jim Homme"
 - Date: "2020-09-29"
 
 ## Introduction

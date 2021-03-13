@@ -787,3 +787,12 @@ of database... you could still run into major headaches if you use enum.
 There are better ways (standard ways) to handle discrete, defined lists. That’s
 what relational databases are all about. Enum may seem convenient, but it’s
 really a cheap shortcut that will come back to bite you in the end.
+
+## About The Author
+
+Preston is a world-class database designer and programmer.
+In addition to being the lead developer for Fundraise Genius,
+Preston is the Data Chief at the Virginia G. Piper Center for Personalized
+Diagnostics within the Biodesign Institute at Arizona State University.
+Additionally, he's co-authored several scientific papers on programming and
+biology. Preston lives in sunny Arizona.

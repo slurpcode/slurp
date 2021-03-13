@@ -1,6 +1,5 @@
 # 📜 Sphinx, The Code Documentation Tool, An Introduction
 
-- Original Author: "Jim Homme"
 - Date: "2020-10-31"
 
 ## How to set up the Sphinx code documentation tool and get started with it
