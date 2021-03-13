@@ -31,56 +31,20 @@
 
 ## Sites
 
-[Fuchsia Programming](https://fuchsia.surf/)
-
-[Slurp Read the Docs - in progress](https://slurp.readthedocs.io/)
-
-[Logorama](https://logorama.herokuapp.com/)
-
-[Preston Worker](https://preston.slurp.workers.dev)
-
-[Magic Worker](https://magic.slurp.workers.dev)
+- [Fuchsia Programming](https://fuchsia.surf/)
+- [Slurp Read the Docs - in progress](https://slurp.readthedocs.io/)
+- [Logorama](https://logorama.herokuapp.com/)
+- [Preston Worker](https://preston.slurp.workers.dev)
+- [Magic Worker](https://magic.slurp.workers.dev)
 
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
 
-## Local testing
+## Repository Overview
 
-### Fuchsia Programming
-
-Jekyll based site requires Ruby
-
-```
-cd docs || exit
-bundle exec jekyll serve
-```
-
-### Slurp Read the Docs
-
-Python based
-
-```
-cd doc || exit
-make html
-```
-
-### Logorama
-
-Jekyll based site requires Ruby
-
-```
-cd logorama || exit
-bundle exec jekyll serve
-```
-
-### DITA To PDF - Vanilla
-
-```
-cd eclipse-cheatsheets-to-dita-to-pdf/output
-dita --input=map.ditamap --format=pdf -o pdf
-```
-
-### DITA To PDF - Custom Plugin
+- charts - Out of date and not deployed
+- [doc](https://slurp.readthedocs.io/) - Welcome to slurp’s documentation!
+- [docs](https://fuchsia.surf/) - Fuchsia Programming
 
 More to come soon.
 
