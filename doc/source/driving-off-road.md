@@ -61,3 +61,12 @@ Can you tell? I really like my Jeep. Here’s a couple of pretty places I’ve b
 ![Driving off road 1](_static/images/driving-1.png)
 
 ![Driving off road 2](_static/images/driving-2.png)
+
+## About The Author
+
+Harley Armentrout is a happy husband and father, former silversmith, aerospace electronics
+prototype assembler, test, calibration & repair technician, also writing test procedures. Then
+21 years in the gaming industry, in a range of positions, culminated as a Gaming Inspector,
+observing and reporting on rules violations, safety issues and criminal activities. After
+“retiring” Harley taught himself a few graphic design skills and he works as a freelance
+designer.

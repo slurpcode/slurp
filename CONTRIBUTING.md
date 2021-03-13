@@ -30,6 +30,6 @@ Use `pre-commit run --all-files` to check all files.
 
 ## **General Contributor Guidelines**
 
-- [**Github Help Article** - guidelines for repository contributors](https://help.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors#examples-of-contribution-guidelines)
+- [**GitHub Help Article** - guidelines for repository contributors](https://help.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors#examples-of-contribution-guidelines)
 
 _And always remember, **have fun!**_

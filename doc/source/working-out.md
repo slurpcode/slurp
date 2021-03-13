@@ -45,3 +45,12 @@ live longer with a regular exercise routine is overwhelming, and I KNOW that I
 will always feel better after my workout. Every single time....... And the
 strangest thing of all is that I seem to hear better after a workout (I have
 severe hearing loss). Who would have thought?
+
+## About The Author
+
+Harley Armentrout is a happy husband and father, former silversmith, aerospace electronics
+prototype assembler, test, calibration & repair technician, also writing test procedures. Then
+21 years in the gaming industry, in a range of positions, culminated as a Gaming Inspector,
+observing and reporting on rules violations, safety issues and criminal activities. After
+“retiring” Harley taught himself a few graphic design skills and he works as a freelance
+designer.

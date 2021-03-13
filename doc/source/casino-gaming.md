@@ -39,3 +39,12 @@ but stick to the plan and be happy with the entertainment that you get.
 
 You might even meet other people whose company you enjoy, people who enjoy activities
 other than gambling. Hey, maybe you can all go water skiing, bowling, or something…..
+
+## About The Author
+
+Harley Armentrout is a happy husband and father, former silversmith, aerospace electronics
+prototype assembler, test, calibration & repair technician, also writing test procedures. Then
+21 years in the gaming industry, in a range of positions, culminated as a Gaming Inspector,
+observing and reporting on rules violations, safety issues and criminal activities. After
+“retiring” Harley taught himself a few graphic design skills and he works as a freelance
+designer.
