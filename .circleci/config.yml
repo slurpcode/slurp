@@ -123,6 +123,23 @@ jobs:
           command: |
             bundle exec well-formed/well_formed.rb -p . || exit 1
 
+  built-in-datatypes:
+    docker:
+      - image: circleci/ruby:2.7.2-buster-node-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: 🏗️ Install Ruby Dependencies 💎
+          command: |
+            gem install bundler
+            bundle update --bundler
+            bundle install --jobs=4 --retry=3
+      - run:
+          name: 🧹 Run built in datatypes
+          command: |
+            bundle exec built-in-datatypes/built_in_datatypes.rb -p . || exit 1
+
   spelling:
     docker:
       - image: circleci/ruby:2.7.2-buster-node-browsers
@@ -169,12 +186,12 @@ jobs:
             find . -type f -name '*.sh' | wc -l
             find . -type f -name '*.sh' | xargs shellcheck --external-sources
 
-  go-lint:
+  go-test:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: circleci/golang:1.13.3 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory: /go/src/github.com/fuchsia-programming/fuchsia
+    working_directory: /go/src/github.com/slurpcode/slurp
     steps:
       - checkout
       - restore_cache: # restores saved cache if no changes are detected since last run
@@ -182,19 +199,36 @@ jobs:
           keys:
             - v1-pkg-cache
       - run: go get -u github.com/mgechev/revive
-      - run: go get -u github.com/Clever/csvlint/cmd/csvlint
       - run:
           name: 🧹 Run Golang revive lint
           command: |
             sh ./check-revive.sh || exit 1
       - run:
-          name: 🧹 Run CSV lint
-          command: |
-            sh ./check-csv.sh || exit 1
-      - run:
           name: 🧪 Run Go test
           command: |
             go test -race -covermode atomic -coverprofile=profile.cov ./...
+      - save_cache: # Store cache in the /go/pkg directory
+          key: v1-pkg-cache
+          paths:
+            - "/go/pkg"
+
+  csv-lint:
+    docker: # run the steps with Docker
+      # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
+      - image: circleci/golang:1.13.3 #
+    # directory where steps are run. Path must conform to the Go Workspace requirements
+    working_directory: /go/src/github.com/slurpcode/slurp
+    steps:
+      - checkout
+      - restore_cache: # restores saved cache if no changes are detected since last run
+          # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
+          keys:
+            - v1-pkg-cache
+      - run: go get -u github.com/Clever/csvlint/cmd/csvlint
+      - run:
+          name: 🧹 Run CSV lint
+          command: |
+            sh ./check-csv.sh || exit 1
       - save_cache: # Store cache in the /go/pkg directory
           key: v1-pkg-cache
           paths:
@@ -237,18 +271,26 @@ workflows:
   build-deploy:
     jobs:
       - build
-      - go-lint
+      - built-in-datatypes
+      - csv-lint
+      - go-test
       - shellcheck
       - spelling
       - well-formed
       - shell:
           requires:
             - build
+            - built-in-datatypes
+            - csv-lint
+            - go-test
             - shellcheck
-            - go-lint
       - surge:
           requires:
             - build
+            - built-in-datatypes
+            - csv-lint
+            - go-test
+            - shellcheck
           filters:
             branches:
               only: master

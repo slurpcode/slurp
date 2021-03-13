@@ -100,10 +100,11 @@ if options.path.nil?
 end
 
 # Used to check the well formedness of XML files
+@error=0
 def check(path)
-  Dir.glob("#{path}/**/*.{xml,xsd,xsl}").each do |filename|
+  Dir.glob("#{path}/**/*.{dita,ditamap,xml,xsd,xsl}").each do |filename|
     doc = File.open(filename){|xml| Nokogiri.XML(xml)}
-    puts filename, doc.errors unless doc.errors.empty?
+    (@error=1; puts filename, doc.errors) unless doc.errors.empty?
   end
 end
 
@@ -112,3 +113,5 @@ def create_path(path)
 end
 
 check(create_path(options.path))
+
+exit 1 unless @error.zero?
