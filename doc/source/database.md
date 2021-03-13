@@ -790,9 +790,8 @@ really a cheap shortcut that will come back to bite you in the end.
 
 ## About The Author
 
-Preston is a world-class database designer and programmer.
-In addition to being the lead developer for Fundraise Genius,
-Preston is the Data Chief at the Virginia G. Piper Center for Personalized
-Diagnostics within the Biodesign Institute at Arizona State University.
-Additionally, he's co-authored several scientific papers on programming and
-biology. Preston lives in sunny Arizona.
+Preston is a world-class database designer and programmer. In addition to being
+the lead developer for Fundraise Genius, Preston is the Data Chief at the
+Virginia G. Piper Center for Personalized Diagnostics within the Biodesign
+Institute at Arizona State University. Additionally, he's co-authored several
+scientific papers on programming and biology. Preston lives in sunny Arizona.
