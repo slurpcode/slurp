@@ -7,20 +7,17 @@ Welcome to slurp's documentation!
 =================================
 
 .. toctree::
+   :caption: Technical Content:
    :maxdepth: 2
-   :caption: Contents:
 
    getting-started.md
    built-in-datatypes.md
    codewars.md
    codewars-scraper.md
-   cooking.md
    corel-draw.md
    database.md
    flicker-diff.md
    dita-to-pdf-with-eclipse.md
-   driving-off-road.md
-   dogs.md
    eclipse-cheatsheets-to-dita-to-pdf.md
    eclipse-cheatsheets-to-dita-with-python.md
    ruby-cheat-sheets.md
@@ -29,11 +26,9 @@ Welcome to slurp's documentation!
    git.md
    go.md
    hashcheck.md
-   casino-gaming.md
    sql-file.md
    links.md
    xml.md
-   pc-maintenance.md
    pylint.md
    rst2md.md
    ruby.md
@@ -43,6 +38,16 @@ Welcome to slurp's documentation!
    sphinx.md
    flake8.md
    well-formed.md
+
+.. toctree::
+   :caption: Easy Going Reading
+   :maxdepth: 2
+
+   cooking.md
+   driving-off-road.md
+   dogs.md
+   casino-gaming.md
+   pc-maintenance.md
    working-out.md
 
 Indices and tables
