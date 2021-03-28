@@ -64,9 +64,10 @@ Can you tell? I really like my Jeep. Here’s a couple of pretty places I’ve b
 
 ## About The Author
 
-Harley Armentrout is a happy husband and father, former silversmith, aerospace electronics
-prototype assembler, test, calibration & repair technician, also writing test procedures. Then
-21 years in the gaming industry, in a range of positions, culminated as a Gaming Inspector,
-observing and reporting on rules violations, safety issues and criminal activities. After
-“retiring” Harley taught himself a few graphic design skills and he works as a freelance
-designer.
+Harley Armentrout is a happy husband and father, former silversmith, aerospace
+electronics prototype assembler, test, calibration & repair technician, also
+writing test procedures at [BallAerospace](https://www.ball.com/aerospace).
+Then 21 years in the gaming industry, in a range of positions, culminated as
+a Gaming Inspector, observing and reporting on rules violations, safety issues
+and criminal activities for the [Yavapai Prescott Indian Tribe](https://buckyscasino.com/). After “retiring” Harley taught himself a few
+graphic design skills and he works as a freelance designer.
