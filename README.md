@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-24-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-25-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -222,6 +222,9 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://imgbot.net"><img src="https://avatars1.githubusercontent.com/u/31427850?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Imgbot</b></sub></a><br /><a href="#design-ImgBotApp" title="Design">🎨</a></td>
     <td align="center"><a href="https://maxbase.org/"><img src="https://avatars.githubusercontent.com/u/2658040?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Max Base</b></sub></a><br /><a href="#ideas-BaseMax" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3ABaseMax" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://renovatebot.com"><img src="https://avatars.githubusercontent.com/u/38656520?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Renovate Bot</b></sub></a><br /><a href="#security-renovatebot" title="Security">🛡️</a> <a href="#maintenance-renovatebot" title="Maintenance">🚧</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://houndci.com"><img src="https://avatars.githubusercontent.com/u/17184073?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hound</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3Ahoundci" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
