@@ -34,15 +34,17 @@
 
 ## Repository Overview
 
-- charts - Out of date website and not deployed. Built with Ruby
+- [built-in-datatypes](https://slurp.readthedocs.io/en/latest/built-in-datatypes.html) - Command line Ruby script that checks if XML schema files are using the correct built-in data types
+- [charts](https://slurp.onrender.com/) - Static site built with Ruby on [Render](https://render.com/)
+- [danger](https://danger.onrender.com/) - Danger on [Render](https://render.com/)
 - [doc](https://slurp.readthedocs.io/) - Welcome to slurp’s documentation! Python, Sphinx and Markdown mainly
 - [docs](https://fuchsia.surf/) - Fuchsia Programming Jekyll website with Easter Eggs hosted on GitHub Pages with Tunes !!!
 - [eclipse-cheatsheets-to-dita-to-pdf](https://slurp.readthedocs.io/en/latest/eclipse-cheatsheets-to-dita-to-pdf.html) - Eclipse cheat sheets to DITA to PDF
 - [hashcheck](https://slurp.readthedocs.io/en/latest/hashcheck.html) - Ruby script to check file checksums with the Windows CertUtil Command
-- [logorama](https://logorama.herokuapp.com/) - Logos done Rama
+- [logorama](https://logorama.herokuapp.com/) - Logos done Rama. Hosted on Heroku Cloud Platform
 - [ruby-cheatsheets-to-dita](https://slurp.readthedocs.io/en/latest/ruby-cheat-sheets.html) - Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
 - scrapers - Web scrapers in progress. FQL, Golang, PHP, Perl, Python, Ruby and Shell. Colly, ferret, lxml, Nokogiri, Regex, Scrapy, XPath. awk, cd, curl, echo, exit, grep, mkdir, pcregrep, sed, sort, sleep, tail, uniq
-- [seek](https://slurp.readthedocs.io/en/latest/seek.html) - seek is a command line script that builds 🔧 🔩 🔨 CSV results of job searches
+- [seek](https://slurp.readthedocs.io/en/latest/seek.html) - seek is a Ruby based command line script that builds 🔧 🔩 🔨 CSV results of job searches
 - tests/spelling - Output folder showing misspelled words
 - [well-formed](https://slurp.readthedocs.io/en/latest/well-formed.html) - Ruby script used to check the well formedness of XML files
 - xsl-schema-sort - Sorting the elements at the first level deep or nested inside XML Schema files. XPath / XSLT 2.0, XSD script using Saxon. In progress
