@@ -1,6 +1,6 @@
 # ⚙️ Getting stared with Python on IBM System i
 
-## October 2020 Clay Lanzino
+## October 2020
 
 For a little more than 30 years, I have been developing and maintaining
 information systems for companies in different commercial and government
