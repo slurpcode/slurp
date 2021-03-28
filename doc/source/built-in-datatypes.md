@@ -1,6 +1,7 @@
 # 🆎 Built in datatypes
 
-Command line Ruby script that checks if XML schema files are using the correct built-in data types.
+Command line Ruby script that checks if XML schema files are using the correct
+built-in data types.
 
 ## Built with
 
