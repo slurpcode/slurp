@@ -103,8 +103,10 @@ screenshots and then check out Affinity.
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also
-writing test procedures at [BallAerospace](https://www.ball.com/aerospace).
-Then 21 years in the gaming industry, in a range of positions, culminated as
-a Gaming Inspector, observing and reporting on rules violations, safety issues
-and criminal activities for the [Yavapai Prescott Indian Tribe](https://buckyscasino.com/). After “retiring” Harley taught himself a few
-graphic design skills and he works as a freelance designer.
+writing test procedures at [BallAerospace](https://www.ball.com/aerospace). Then
+21 years in the gaming industry, in a range of positions, culminated as a Gaming
+Inspector, observing and reporting on rules violations, safety issues and
+criminal activities for the
+[Yavapai Prescott Indian Tribe](https://buckyscasino.com/). After “retiring”
+Harley taught himself a few graphic design skills and he works as a freelance
+designer.
