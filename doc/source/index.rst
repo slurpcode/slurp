@@ -14,6 +14,7 @@ Welcome to slurp's documentation!
    built-in-datatypes.md
    codewars.md
    codewars-scraper.md
+   java-client-with-ibm-system-i.md
    corel-draw.md
    database.md
    flicker-diff.md
@@ -44,8 +45,8 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    cooking.md
-   driving-off-road.md
    dogs.md
+   driving-off-road.md
    casino-gaming.md
    pc-maintenance.md
    working-out.md
