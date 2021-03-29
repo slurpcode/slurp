@@ -59,6 +59,8 @@ Welcome to slurp's documentation!
    :caption: Easy Going Reading
    :maxdepth: 2
 
+   activism.md
+   beer.md
    cooking.md
    dogs.md
    driving-off-road.md
