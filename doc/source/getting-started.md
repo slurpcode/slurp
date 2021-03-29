@@ -1,12 +1,12 @@
 # 🎬 Getting Started
 
-This set of documentation is written in [Markdown](
-https://daringfireball.net/projects/markdown/syntax) which is a
+This set of documentation is written in
+[Markdown](https://daringfireball.net/projects/markdown/syntax) which is a
 lightweight and easy-to-use syntax for styling all forms of writing.
 
-Markdown takes about 10 minutes to learn and GitHub provides its
-three-minute read on [Mastering Markdown](
-https://guides.github.com/features/mastering-markdown/)
+Markdown takes about 10 minutes to learn and GitHub provides its three-minute
+read on
+[Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 Discussion about code base improvements happens in GitHub
 [issues](https://github.com/slurpcode/slurp/issues) and on
@@ -40,9 +40,8 @@ bundle install
 
 ## Documentation
 
-Python [Sphinx](https://www.sphinx-doc.org/) based
-`Slurp Read the Docs` site based in Markdown.
-Files are stored in `doc/source`. Run with:
+Python [Sphinx](https://www.sphinx-doc.org/) based `Slurp Read the Docs` site
+based in Markdown. Files are stored in `doc/source`. Run with:
 
 ```
 cd doc || exit
@@ -56,8 +55,7 @@ cd docs || exit
 bundle exec jekyll serve
 ```
 
-`Logorama` is a Jekyll based logo showcase site that
-requires Ruby:
+`Logorama` is a Jekyll based logo showcase site that requires Ruby:
 
 ```
 cd logorama || exit
