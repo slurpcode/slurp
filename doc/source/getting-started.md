@@ -14,10 +14,11 @@ Discussion about code base improvements happens in GitHub
 
 ## Hosting
 
+- [Cloudflare Workers](https://workers.cloudflare.com/)
 - [GitHub Pages](https://pages.github.com/)
 - [Heroku](https://www.heroku.com/)
 - [Read the Docs](https://readthedocs.org/)
-- [Cloudflare Workers](https://workers.cloudflare.com/)
+- [Render](https://render.com/)
 
 ## Basic Setup
 
