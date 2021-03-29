@@ -31,6 +31,7 @@ Welcome to slurp's documentation!
    :caption: Mathematics
    :maxdepth: 2
 
+   gauss-jordan.md
    fibonacci.md
 
 .. toctree::
