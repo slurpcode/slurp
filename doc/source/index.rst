@@ -7,24 +7,35 @@ Welcome to slurp's documentation!
 =================================
 
 .. toctree::
-   :caption: Technical Content:
+   :caption: General Technical Content:
    :maxdepth: 2
 
    getting-started.md
    codewars.md
    codewars-scraper.md
    java-client-with-ibm-system-i.md
-   corel-draw.md
-   database.md
    flicker-diff.md
    dita-to-pdf-with-eclipse.md
    eclipse-cheatsheets-to-dita-to-pdf.md
    git.md
+   gnu-aspell.md
    go.md
-   sql-file.md
    links.md
    xml.md
    rst2md.md
+
+.. toctree::
+   :caption: Databases
+   :maxdepth: 2
+
+   database.md
+   sql-file.md
+
+.. toctree::
+   :caption: Graphic Design
+   :maxdepth: 2
+
+   corel-draw.md
    serif-software.md
 
 .. toctree::
