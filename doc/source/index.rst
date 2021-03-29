@@ -11,7 +11,6 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    getting-started.md
-   built-in-datatypes.md
    codewars.md
    codewars-scraper.md
    java-client-with-ibm-system-i.md
@@ -20,24 +19,40 @@ Welcome to slurp's documentation!
    flicker-diff.md
    dita-to-pdf-with-eclipse.md
    eclipse-cheatsheets-to-dita-to-pdf.md
-   eclipse-cheatsheets-to-dita-with-python.md
-   ruby-cheat-sheets.md
-   fibonacci.md
-   python-on-ibm-system-i.md
    git.md
    go.md
-   hashcheck.md
    sql-file.md
    links.md
    xml.md
-   pylint.md
    rst2md.md
+   serif-software.md
+
+.. toctree::
+   :caption: Mathematics
+   :maxdepth: 2
+
+   fibonacci.md
+
+.. toctree::
+   :caption: Python
+   :maxdepth: 2
+
+   eclipse-cheatsheets-to-dita-with-python.md
+   python-on-ibm-system-i.md
+   pylint.md
+   sphinx.md
+   flake8.md
+
+.. toctree::
+   :caption: Ruby
+   :maxdepth: 2
+
+   built-in-datatypes.md
+   ruby-cheat-sheets.md
+   hashcheck.md
    ruby.md
    ruby-strip.md
    seek.md
-   serif-software.md
-   sphinx.md
-   flake8.md
    well-formed.md
 
 .. toctree::
