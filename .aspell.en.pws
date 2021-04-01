@@ -1,23 +1,29 @@
-personal_ws-1.1 en 355
+personal_ws-1.1 en 387
 ALLCAPSRUNTOGETHER
 AWS
 AdemHodzic
+AffinitybySerif
 Anish
 Araica
 Argh
 Armentrout
 BBEdit
 Bampton
+Bartók
 Bartolomeo
 BaseMax
 BaseX
+Béla
 Bhusal
+Bing
+Biodesign
 BitBucket
 Bundler
 CLI
 CODEOWNERS
 COVID
 CSV
+Capterra
 Camtasia
 CertUtil
 CircleCI
@@ -33,6 +39,7 @@ CommonMark
 Corel
 CorelDRAW
 CorelDraw
+DDM
 DITA
 DOM
 Da
@@ -45,9 +52,12 @@ DrawPlus
 EditorConfig
 Enum
 FO
+FQL
 FlexOS
 FreeDOS
+Friedrich
 Frogger
+Fundraise
 GPLv
 Galaxia
 Github
@@ -62,18 +72,23 @@ ICO
 IDEs
 ILE
 IMDb
+IPA’s
 ImgBotApp
 Imgbot
 IntelliJ
+JDBC
 JRuby
 JSON
 JetBrains
+JTOpen
 Karine
 Karinisk
+Kos
 Kuntzsch
 Lanzino
 Liquify
 Logorama
+LEGACY
 Luca
 MSX
 MacOS
@@ -84,6 +99,7 @@ MiB
 MySQL
 NSW
 Namespace
+NETSTAT
 Netlify
 NewYork
 NoSQL
@@ -95,6 +111,7 @@ OpenSearch
 PASE
 PDF's
 PDFs
+PTF
 POSIX
 PTFs
 Pacioli
@@ -112,6 +129,7 @@ Pylint
 QOpenSys
 Quickstart
 RDBMS
+relevent
 RPG
 RPGILE
 RPMs
@@ -124,6 +142,7 @@ Roadmap
 Rossum
 RuboCop
 RubyMine
+Scrapy
 STATEID
 STDIN
 Saxonica
@@ -137,7 +156,10 @@ Snyk
 StateID
 StateId
 Stylesheet
+STRHOSTSVR
 Subramani
+Toolboox
+TCP
 TIOBE
 TJ
 TOML
@@ -157,6 +179,7 @@ XQuery
 XSL
 XSLT
 Xalan
+Yavapai
 YourWebHostingAccountUsername
 Yukihiro
 abb
@@ -166,6 +189,7 @@ alllowercaseruntogether
 ansicolor
 attrs
 aurea
+awk
 bc
 blackbeltdogtraining
 boolean
@@ -223,6 +247,8 @@ formated
 formatter
 formedness
 frogger
+gauss
+geodesist
 gif
 gifs
 github
@@ -244,6 +270,7 @@ io
 itoolkit
 jbampton
 jekyll
+jordan
 jorge
 jpg
 js
@@ -253,6 +280,7 @@ linter
 logorama
 longshot
 lossy
+lxml
 macOS
 markdownlint
 md
@@ -267,6 +295,7 @@ nodejs
 nokogiri
 num
 numpy
+npm
 oXygen
 oneline
 originalProductName
@@ -276,6 +305,7 @@ outputfile
 overcommit
 pandoc
 pconnect
+pcregrep
 pdf
 pdftotext
 percy
@@ -290,6 +320,7 @@ prepend
 preprocessor
 programmatically
 projectManagement
+promoter
 proportione
 publishdate
 px
@@ -314,6 +345,7 @@ schemas
 scikit
 scipy
 sectio
+servlets
 sed
 sha
 sitename

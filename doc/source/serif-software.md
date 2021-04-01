@@ -20,7 +20,7 @@ and Affinity Publisher. Affinity was originally introduced for use on Macs and
 iPads and then Serif expanded Affinity to include apps for Windows (all file
 format outputs are interchangeable).
 
-I find that there are some features of the older Plus line (the LAGACY apps)
+I find that there are some features of the older Plus line (the LEGACY apps)
 that I prefer and many features of the Affinity line that I prefer. In the
 course of my design work, I’m even able to use a mixture of the older legacy
 Plus apps and the newer Affinity apps. In addition, the Affinity apps can all
@@ -50,7 +50,7 @@ principles, with the older legacy, Plus line of apps, I needed just a few
 [tutorials. But Affinity is amazing. The point I would like to make is that
 Affinity is tremendously capable and worth investigating and it’s NOT a
 subscription service. At the end of this article I will include some links to
-several wepages relevent to both Affinity apps and the Serif legacy apps.
+several webpages relevent to both Affinity apps and the Serif legacy apps.
 
 The thing I like most about Affinity is that all of the apps, Publisher,
 Designer and Photo are seamlessly connected, so that when working on any

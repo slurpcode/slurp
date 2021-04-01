@@ -250,6 +250,6 @@ today.
 Jorge Araica is a
 [Graphic Designer](https://www.upwork.com/o/profiles/users/~01abf139414e3d1c0d/)
 with technical background, an old school pro with some knowledge in the
-engineering and programming fields and also a promotor of critical and rational
+engineering and programming fields and also a promoter of critical and rational
 thinking as a way to spread a scientific attitude towards knowledge. Freedom is
 his other passion, and he will stand for it at every opportunity he gets.
