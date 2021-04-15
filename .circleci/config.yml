@@ -158,7 +158,7 @@ jobs:
 
   surge:
     docker:
-      - image: circleci/python:3.9.3-buster-node-browsers
+      - image: circleci/python:3.9.4-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -236,7 +236,7 @@ jobs:
 
   shell:
     docker:
-      - image: circleci/python:3.9.3-buster-node-browsers
+      - image: circleci/python:3.9.4-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
