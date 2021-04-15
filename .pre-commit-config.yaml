@@ -46,8 +46,6 @@ repos:
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 2.1.5
     hooks:
-      - id: bundler-audit
-      - id: fasterer
       - id: markdownlint # Configure in .mdlrc
       - id: reek
       # - id: rubocop
@@ -69,7 +67,7 @@ repos:
       - id: markdownlint
         name: Run markdownlint
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.26.0
+    rev: v1.26.1
     hooks:
       - id: yamllint
         name: Check YAML files with yamllint
