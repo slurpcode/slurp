@@ -104,33 +104,49 @@ All software provided by the RPMs are installed in the /QOpenSys/pkgs prefixed
 directory. To use the software, you can fully qualify the path to the program,
 or you can add /QOpenSys/pkgs/bin to your PATH by using the following command:
 
+```
 PATH=/QOpenSys/pkgs/bin:$PATH
+```
 
+```
 export PATH
+```
 
 Install Python 3 and other useful Python packages.
 
+```
 yum install python3-pip python3-ibm_db python3-itoolkit
+```
 
 Install the Python 3 Machine Learning packages.
 
+```
 yum install python3-numpy python3-pandas python3-scikit-learn python3-scipy
+```
 
-Install node.js.
+Install Node.js.
 
+```
 yum install nodejs10
+```
 
 Install the GCC and development tools.
 
+```
 yum group install "Development tools"
+```
 
 Run the following command to test Python installation.
 
+```
 python3 –-version
+```
 
 Install the dependent package pycryptodomex by using the following command:
 
+```
 python3 -m pip install pycryptodomex
+```
 
 It will then result in the Python software being installed on the IBM i computer
 along with dependent packages.

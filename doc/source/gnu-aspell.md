@@ -1,4 +1,4 @@
-# GNU Aspell
+# 📝 GNU Aspell
 
 We use GNU Aspell to check the spelling of our Markdown files. We test on
 CircleCI using a shell script and a custom dictionary.
