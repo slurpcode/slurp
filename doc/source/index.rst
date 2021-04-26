@@ -43,6 +43,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    gauss-jordan.md
+   fermat.md
    fibonacci.md
 
 .. toctree::
