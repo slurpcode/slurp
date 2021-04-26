@@ -77,6 +77,7 @@ Welcome to slurp's documentation!
    dogs.md
    driving-off-road.md
    casino-gaming.md
+   pizza.md
    pc-maintenance.md
    working-out.md
 
