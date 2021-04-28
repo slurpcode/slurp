@@ -52,8 +52,6 @@ GEM
     faraday-net_http (1.0.1)
     ffi (1.15.0)
     ffi (1.15.0-x64-mingw32)
-    ffi-win32-extensions (1.0.4)
-      ffi
     fileutils (1.5.0)
     flay (2.12.1)
       erubis (~> 2.7.0)
@@ -274,11 +272,6 @@ GEM
       tomlrb
     mixlib-shellout (3.2.5)
       chef-utils
-    mixlib-shellout (3.2.5-universal-mingw32)
-      chef-utils
-      ffi-win32-extensions (~> 1.0.3)
-      win32-process (~> 0.9)
-      wmi-lite (~> 1.0)
     multipart-post (2.1.1)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.1)
@@ -309,7 +302,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    reek (6.0.3)
+    reek (6.0.4)
       kwalify (~> 0.7.0)
       parser (~> 3.0.0)
       psych (~> 3.1)
@@ -389,9 +382,6 @@ GEM
       equalizer (~> 0.0, >= 0.0.9)
     webrick (1.7.0)
     webrobots (0.1.2)
-    win32-process (0.9.0)
-      ffi (>= 1.0.0)
-    wmi-lite (1.0.5)
     zeitwerk (2.4.2)
 
 PLATFORMS
