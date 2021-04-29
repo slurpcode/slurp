@@ -3,35 +3,13 @@ name: Lint
 on: [pull_request]
 
 jobs:
-  markdownlint:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os:
-          - ubuntu-latest
-          - macos-latest
-          - windows-latest
-        node_version:
-          - 10
-          - 12
-          - 14
-        architecture:
-          - x64
-        # an extra windows-x86 run:
-        include:
-          - os: windows-2016
-            node_version: 12
-            architecture: x86
-    name: 🍶 Markdown Node ${{ matrix.node_version }} - ${{ matrix.architecture }} on ${{ matrix.os }}
+  merge-conflict:
+    name: 🥃 Merge Conflict
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup node
-        uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node_version }}
-          architecture: ${{ matrix.architecture }}
-      - run: npm install -g markdownlint-cli@0.27.1
-      - run: markdownlint '**/*.md' --ignore node_modules
+      - name: Check merge conflict
+        run: grep "^<<<<<<< HEAD" $(git ls-files | xargs) && exit 1 || true
   misspell:
     name: 🥛 Check Spelling
     runs-on: ubuntu-latest
@@ -51,34 +29,3 @@ jobs:
       - uses: actions/checkout@v2
       - name: 🧹 Check for trailing whitespace
         run: "! git grep -EIn $'[ \t]+$'"
-  yamllint:
-    name: 🍏 YAML
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'  # Version range or exact version of a Python version to use, using SemVer's version range syntax
-          architecture: 'x64'  # optional x64 or x86. Defaults to x64 if not specified
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install yamllint
-      - name: 🧹 YAML Lint
-        run: |
-          yamllint --strict .
-  rubocop:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby: ['2.6', '2.7']
-    name: ☕ Rubocop Ruby ${{ matrix.ruby }}
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: ${{ matrix.ruby }}
-      - run: |
-          gem install bundler
-          bundle install --jobs 4 --retry 3
-          bundle exec rubocop

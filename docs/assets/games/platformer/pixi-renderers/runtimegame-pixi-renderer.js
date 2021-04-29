@@ -14,7 +14,7 @@ gdjs.RuntimeGamePixiRenderer = function(game, width, height, forceFullscreen)
     this._isFullPage = true; //Used to track if the canvas is displayed on the full page.
     this._isFullscreen = false; //Used to track if the window is displayed as fullscreen (see setFullscreen method).
     this._forceFullscreen = forceFullscreen; //If set to true, the canvas will always be displayed as fullscreen, even if _isFullscreen == false.
-    
+
     /** @type {PIXI.SystemRenderer} */
     this._pixiRenderer = null;
     this._currentWidth = width; // Current width of the renderer (not the canvas)
@@ -119,7 +119,7 @@ gdjs.RuntimeGamePixiRenderer.prototype.resize = function() {
     // should be done to the size set on the game.
     var rendererWidth = this.getCurrentWidth();
     var rendererHeight = this.getCurrentHeight();
-    if (this._pixiRenderer.width !== rendererWidth || 
+    if (this._pixiRenderer.width !== rendererWidth ||
         this._pixiRenderer.height !== rendererHeight) {
         this._pixiRenderer.resize(rendererWidth, rendererHeight);
     }
@@ -157,7 +157,7 @@ gdjs.RuntimeGamePixiRenderer.prototype.resize = function() {
     this._pixiRenderer.view.style["left"] = ((marginLeft+(maxWidth-canvasWidth)/2)+"px");
     this._pixiRenderer.view.style.width = canvasWidth+"px";
     this._pixiRenderer.view.style.height = canvasHeight+"px";
-    
+
     // Store the canvas size for fast access to it.
     this._canvasWidth = canvasWidth;
     this._canvasHeight = canvasHeight;
@@ -296,15 +296,15 @@ gdjs.RuntimeGamePixiRenderer.prototype.bindStandardEvents = function(manager, wi
         manager.onMouseMove(pos[0], pos[1]);
     };
     renderer.view.onmousedown = function(e){
-        manager.onMouseButtonPressed(e.button === 2 ? gdjs.InputManager.MOUSE_RIGHT_BUTTON : 
-            e.button === 1 ? gdjs.InputManager.MOUSE_MIDDLE_BUTTON : 
+        manager.onMouseButtonPressed(e.button === 2 ? gdjs.InputManager.MOUSE_RIGHT_BUTTON :
+            e.button === 1 ? gdjs.InputManager.MOUSE_MIDDLE_BUTTON :
             gdjs.InputManager.MOUSE_LEFT_BUTTON);
         if (window.focus !== undefined) window.focus();
         return false;
     };
     renderer.view.onmouseup = function(e){
-        manager.onMouseButtonReleased(e.button === 2 ? gdjs.InputManager.MOUSE_RIGHT_BUTTON : 
-            e.button === 1 ? gdjs.InputManager.MOUSE_MIDDLE_BUTTON : 
+        manager.onMouseButtonReleased(e.button === 2 ? gdjs.InputManager.MOUSE_RIGHT_BUTTON :
+            e.button === 1 ? gdjs.InputManager.MOUSE_MIDDLE_BUTTON :
             gdjs.InputManager.MOUSE_LEFT_BUTTON);
         return false;
     };

@@ -29,7 +29,7 @@ jobs:
       - run:
           name: 🧹 Run YAML lint
           command: |
-            yamllint --strict .
+            yamllint --strict -c .github/linters/.yaml-lint.yml .
       - run:
           name: 🧹 Run Pylint
           command: |

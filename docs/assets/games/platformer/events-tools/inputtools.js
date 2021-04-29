@@ -95,7 +95,7 @@ gdjs.evtTools.input.keysNameToCode = {
     "x": 88,
     "y": 89,
     "z": 90,
-    
+
     "Num0": 48,
     "Num1": 49,
     "Num2": 50,

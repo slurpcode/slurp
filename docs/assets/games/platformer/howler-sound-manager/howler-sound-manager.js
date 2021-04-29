@@ -308,7 +308,7 @@ gdjs.HowlerSoundManager.prototype.clearAll = function() {
 
 gdjs.HowlerSoundManager.prototype.preloadAudio = function(onProgress, onComplete, resources) {
 	resources = resources || this._resources;
-	
+
 	//Construct the list of files to be loaded.
 	//For one loaded file, it can have one or more resources
 	//that use it.
