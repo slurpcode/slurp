@@ -1,0 +1,23 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: rubocop
+    versions:
+    - 1.12.0
+    - 1.12.1
+    - 1.13.0
+    - 1.9.1
+  - dependency-name: nokogiri
+    versions:
+    - 1.11.3
+  - dependency-name: mechanize
+    versions:
+    - 2.8.0
+  - dependency-name: github-pages
+    versions:
+    - "213"
