@@ -46,7 +46,7 @@ gdjs.evtTools.network.sendHttpRequest = function(host, uri, body, method, conten
  * Convert a variable to JSON.
  * TODO: Move to gdjs.Variable static
  * @param {gdjs.Variable} variable The variable to convert to JSON
- * @returns {string} The JSON string representing the variable 
+ * @returns {string} The JSON string representing the variable
  */
 gdjs.evtTools.network.variableStructureToJSON = function(variable)
 {
