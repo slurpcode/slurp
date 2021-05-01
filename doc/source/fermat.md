@@ -1,4 +1,4 @@
-# ➗ The Fermat Theorem And More Than Three Centuries Of History
+# ➗ Fermat's Theorem And More Than Three Centuries Of History
 
 In 1607, an illustrious jurist and mathematician named Pierre de Fermat was born
 in Beaumont de Lomagne (France).
