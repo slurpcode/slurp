@@ -7,7 +7,7 @@ Welcome to slurp's documentation!
 =================================
 
 .. toctree::
-   :caption: General Technical Content:
+   :caption: General Technical Content
    :maxdepth: 2
 
    getting-started.md
@@ -67,6 +67,13 @@ Welcome to slurp's documentation!
    ruby-strip.md
    seek.md
    well-formed.md
+
+.. toctree::
+   :caption: World Locations
+   :maxdepth: 2
+
+   arizona.md
+   jordan.md
 
 .. toctree::
    :caption: Easy Going Reading
