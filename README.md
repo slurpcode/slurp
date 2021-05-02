@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-26-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-27-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -228,6 +228,7 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center"><a href="https://houndci.com"><img src="https://avatars.githubusercontent.com/u/17184073?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hound</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3Ahoundci" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/Idaaraica"><img src="https://avatars.githubusercontent.com/u/27341901?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Idaís Araica</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=Idaaraica" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.upwork.com/freelancers/~013dd1f9db3380689d"><img src="https://avatars.githubusercontent.com/u/81928799?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mujahid Al-Majali</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=Majalian" title="Documentation">📖</a></td>
   </tr>
 </table>
 
