@@ -52,8 +52,6 @@ GEM
     faraday-net_http (1.0.1)
     ffi (1.15.0)
     ffi (1.15.0-x64-mingw32)
-    ffi-win32-extensions (1.0.4)
-      ffi
     fileutils (1.5.0)
     flay (2.12.1)
       erubis (~> 2.7.0)
@@ -274,11 +272,6 @@ GEM
       tomlrb
     mixlib-shellout (3.2.5)
       chef-utils
-    mixlib-shellout (3.2.5-universal-mingw32)
-      chef-utils
-      ffi-win32-extensions (~> 1.0.3)
-      win32-process (~> 0.9)
-      wmi-lite (~> 1.0)
     multipart-post (2.1.1)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.1)
@@ -293,7 +286,7 @@ GEM
       sawyer (~> 0.8.0, >= 0.5.3)
     paint (2.2.1)
     parallel (1.20.1)
-    parser (3.0.1.0)
+    parser (3.0.1.1)
       ast (~> 2.4.1)
     path_expander (1.1.0)
     pathutil (0.16.2)
@@ -317,17 +310,17 @@ GEM
     regexp_parser (2.1.1)
     rexml (3.2.5)
     rouge (3.26.0)
-    rubocop (1.13.0)
+    rubocop (1.14.0)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml
-      rubocop-ast (>= 1.2.0, < 2.0)
+      rubocop-ast (>= 1.5.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 3.0)
-    rubocop-ast (1.4.1)
-      parser (>= 2.7.1.5)
+    rubocop-ast (1.5.0)
+      parser (>= 3.0.1.1)
     ruby-enum (0.9.0)
       i18n
     ruby-progressbar (1.11.0)
@@ -389,9 +382,6 @@ GEM
       equalizer (~> 0.0, >= 0.0.9)
     webrick (1.7.0)
     webrobots (0.1.2)
-    win32-process (0.9.0)
-      ffi (>= 1.0.0)
-    wmi-lite (1.0.5)
     zeitwerk (2.4.2)
 
 PLATFORMS
