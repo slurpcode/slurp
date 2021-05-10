@@ -52,8 +52,6 @@ GEM
     faraday-net_http (1.0.1)
     ffi (1.15.0)
     ffi (1.15.0-x64-mingw32)
-    ffi-win32-extensions (1.0.4)
-      ffi
     fileutils (1.5.0)
     flay (2.12.1)
       erubis (~> 2.7.0)
@@ -248,7 +246,7 @@ GEM
       mixlib-cli (~> 2.1, >= 2.1.1)
       mixlib-config (>= 2.2.1, < 4)
       mixlib-shellout
-    mechanize (2.8.0)
+    mechanize (2.8.1)
       addressable (~> 2.7)
       domain_name (~> 0.5, >= 0.5.20190701)
       http-cookie (~> 1.0, >= 1.0.3)
@@ -263,7 +261,7 @@ GEM
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2021.0225)
-    mini_portile2 (2.5.0)
+    mini_portile2 (2.5.1)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -274,11 +272,6 @@ GEM
       tomlrb
     mixlib-shellout (3.2.5)
       chef-utils
-    mixlib-shellout (3.2.5-universal-mingw32)
-      chef-utils
-      ffi-win32-extensions (~> 1.0.3)
-      win32-process (~> 0.9)
-      wmi-lite (~> 1.0)
     multipart-post (2.1.1)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.1)
@@ -389,9 +382,6 @@ GEM
       equalizer (~> 0.0, >= 0.0.9)
     webrick (1.7.0)
     webrobots (0.1.2)
-    win32-process (0.9.0)
-      ffi (>= 1.0.0)
-    wmi-lite (1.0.5)
     zeitwerk (2.4.2)
 
 PLATFORMS
