@@ -71,7 +71,7 @@ Welcome to slurp's documentation!
 .. toctree::
    :caption: Countries
    :maxdepth: 2
-   
+
    jordan.md
 
 .. toctree::
