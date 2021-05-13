@@ -1,6 +1,6 @@
 # 🏘️ Istanbul
 
-Istanbul, even though some still prefer to call it Constantinople, is the name of this city since 1930 when its name was officially changed to Istanbul. The word “Istanbul” is derived from Greek phrase "εἰς τὴν Πόλιν" which means “to the city”. Even though the city was called as “Der Saadet” meaning the “gate to prosperity” in Ottoman Turkish, the name Istanbul was preferred as it was used since 17th century.
+Istanbul, even though some still prefer to call it Constantinople, is the name of this city since 1930 when its name was officially changed to Istanbul. The word “Istanbul” is derived from the Greek phrase "εἰς τὴν Πόλιν" which means “to the city”. Even though the city was called “Der Saadet” meaning the “gate to prosperity” in Ottoman Turkish, the name Istanbul was preferred as it was used since the 17th century.
 
 Istanbul, a historical city thanks to being the capital of several empires including Byzantium and Ottoman Empire, with its population over 16 million people, is the most populous city of Republic of Turkey (and also of Europe), or with its widely known name, Turkey. As it is the most populous city of Turkey, the city is thought to be the capital of Turkey, but the capital of Turkey is Ankara.
 
