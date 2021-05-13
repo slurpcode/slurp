@@ -69,11 +69,22 @@ Welcome to slurp's documentation!
    well-formed.md
 
 .. toctree::
-   :caption: World Locations
+   :caption: Countries
+   :maxdepth: 2
+
+   jordan.md
+
+.. toctree::
+   :caption: States
    :maxdepth: 2
 
    arizona.md
-   jordan.md
+
+.. toctree::
+   :caption: Notable Locations
+   :maxdepth: 2
+
+   chino-valley.md
 
 .. toctree::
    :caption: Easy Going Reading
