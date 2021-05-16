@@ -1,5 +1,6 @@
 <?php
 /**
+ * Fetching the max contributions per day from github
  *
  * PHP version 7
  *
@@ -8,7 +9,7 @@
  * from github account page
  *
  * @author Aleksandar Jakovljevic <aleksandarjakovljevic@gmail.com
- * @category CLI_script
+ * @category CLI_Script
  * @license  https://www.gnu.org/licenses/gpl-3.0.html GNU GENERAL PUBLIC LICENSE
  * @link  https://github.com/slurpcode/slurp
  * @Package  scrappers
