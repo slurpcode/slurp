@@ -1,7 +1,16 @@
 <?php
 /**
  * @file
- * This file can be used to fetch number of maximum contributions per day from github account page
+ * This file can be used to fetch number of maximum contributions per day
+ * from github account page
+ *
+ * PHP version 7
+ *
+ * @author Aleksandar Jakovljevic <aleksandarjakovljevic@gmail.com
+ * @category CLI script
+ * @license https://www.gnu.org/licenses/gpl-3.0.html
+ * @link
+ * @Package scrappers
  */
 
 require_once 'base/common.php';
