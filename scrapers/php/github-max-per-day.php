@@ -1,16 +1,17 @@
 <?php
 /**
+ *
+ * PHP version 7
+ *
  * @file
  * This file can be used to fetch number of maximum contributions per day
  * from github account page
  *
- * PHP version 7
- *
  * @author Aleksandar Jakovljevic <aleksandarjakovljevic@gmail.com
- * @category CLI script
- * @license https://www.gnu.org/licenses/gpl-3.0.html
- * @link
- * @Package scrappers
+ * @category CLI_script
+ * @license  https://www.gnu.org/licenses/gpl-3.0.html GNU GENERAL PUBLIC LICENSE
+ * @link  https://github.com/slurpcode/slurp
+ * @Package  scrappers
  */
 
 require_once 'base/common.php';
