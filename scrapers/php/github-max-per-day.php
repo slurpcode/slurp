@@ -9,11 +9,10 @@
  * from github account page
  *
  * @category CLI_Script
- * @Package  scrappers
  * @author Aleksandar Jakovljevic <aleksandarjakovljevic@gmail.com
  * @license  https://www.gnu.org/licenses/gpl-3.0.html GNU GENERAL PUBLIC LICENSE
  * @link  https://github.com/slurpcode/slurp
- *
+ * @Package  scrappers
  */
 
 require_once 'base/common.php';
