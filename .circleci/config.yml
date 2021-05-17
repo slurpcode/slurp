@@ -277,6 +277,11 @@ jobs:
           command: |
             cd scrapers/php
             php ./github-max-per-day.php fabpot
+      - run:
+          name: 🐘 Print the energy points number from a users Khan Academy profile using php
+          command: |
+            cd scrapers/php
+            php ./khan.php JohnBampton
 
 workflows:
   version: 2
