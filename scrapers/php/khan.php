@@ -91,6 +91,8 @@ function get_energy_points($user)
     return isset($fullUserProfileDecoded['data']['user']['points']) ? $fullUserProfileDecoded['data']['user']['points'] : '';
 }
 
+sleep(90);
+
 $points = get_energy_points($argv[1]);
 
 echo $points . PHP_EOL;
