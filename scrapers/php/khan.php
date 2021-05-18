@@ -19,6 +19,9 @@
 
 include('base/common.php');
 
+/**
+ * @return string Timestamp in miliseconds
+ */
 function millitime()
 {
     $microtime = microtime();
@@ -29,6 +32,11 @@ function millitime()
     return sprintf('%d%03d', $comps[1], $comps[0] * 1000);
 }
 
+/**
+ * @param $dashParameter
+ * @param $user
+ * @return bool|string
+ */
 function getFullUserProfile($dashParameter, $user)
 {
 
@@ -46,12 +54,12 @@ function getFullUserProfile($dashParameter, $user)
         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
         CURLOPT_CUSTOMREQUEST => 'POST',
         CURLOPT_POSTFIELDS => '{
-    "operationName": "getFullUserProfile",
-    "variables": {
-        "username": "' . $user . '"
-    },
-    "query": "query getFullUserProfile($kaid: String, $username: String) {\\n  user(kaid: $kaid, username: $username) {\\n    id\\n    kaid\\n    key\\n    userId\\n    email\\n    username\\n    profileRoot\\n    gaUserId\\n    qualarooId\\n    isPhantom\\n    isDeveloper: hasPermission(name: \\"can_do_what_only_admins_can_do\\")\\n    isCurator: hasPermission(name: \\"can_curate_tags\\", scope: ANY_ON_CURRENT_LOCALE)\\n    isCreator: hasPermission(name: \\"has_creator_role\\", scope: ANY_ON_CURRENT_LOCALE)\\n    isPublisher: hasPermission(name: \\"can_publish\\", scope: ANY_ON_CURRENT_LOCALE)\\n    isModerator: hasPermission(name: \\"can_moderate_users\\", scope: GLOBAL)\\n    isParent\\n    isSatStudent\\n    isTeacher\\n    isDataCollectible\\n    isChild\\n    isOrphan\\n    isCoachingLoggedInUser\\n    canModifyCoaches\\n    nickname\\n    hideVisual\\n    joined\\n    points\\n    countVideosCompleted\\n    publicBadges {\\n      badgeCategory\\n      description\\n      isOwned\\n      isRetired\\n      name\\n      points\\n      absoluteUrl\\n      hideContext\\n      icons {\\n        smallUrl\\n        compactUrl\\n        emailUrl\\n        largeUrl\\n        __typename\\n      }\\n      relativeUrl\\n      safeExtendedDescription\\n      slug\\n      translatedDescription\\n      translatedSafeExtendedDescription\\n      __typename\\n    }\\n    bio\\n    background {\\n      name\\n      imageSrc\\n      __typename\\n    }\\n    soundOn\\n    muteVideos\\n    prefersReducedMotion\\n    noColorInVideos\\n    autocontinueOn\\n    avatar {\\n      name\\n      imageSrc\\n      __typename\\n    }\\n    hasChangedAvatar\\n    newNotificationCount\\n    canHellban: hasPermission(name: \\"can_ban_users\\", scope: GLOBAL)\\n    canMessageUsers: hasPermission(name: \\"can_send_moderator_messages\\", scope: GLOBAL)\\n    discussionBanned\\n    isSelf: isActor\\n    hasStudents: hasCoachees\\n    hasClasses\\n    hasChildren\\n    hasCoach\\n    badgeCounts\\n    homepageUrl\\n    isMidsignupPhantom\\n    includesDistrictOwnedData\\n    preferredKaLocale {\\n      id\\n      kaLocale\\n      status\\n      __typename\\n    }\\n    underAgeGate {\\n      parentEmail\\n      daysUntilCutoff\\n      approvalGivenAt\\n      __typename\\n    }\\n    authEmails\\n    signupDataIfUnverified {\\n      email\\n      emailBounced\\n      __typename\\n    }\\n    pendingEmailVerifications {\\n      email\\n      unverifiedAuthEmailToken\\n      __typename\\n    }\\n    tosAccepted\\n    shouldShowAgeCheck\\n    __typename\\n  }\\n  actorIsImpersonatingUser\\n}\\n"
-}',
+            "operationName": "getFullUserProfile",
+            "variables": {
+                "username": "' . $user . '"
+            },
+            "query": "query getFullUserProfile($kaid: String, $username: String) {\\n  user(kaid: $kaid, username: $username) {\\n    id\\n    kaid\\n    key\\n    userId\\n    email\\n    username\\n    profileRoot\\n    gaUserId\\n    qualarooId\\n    isPhantom\\n    isDeveloper: hasPermission(name: \\"can_do_what_only_admins_can_do\\")\\n    isCurator: hasPermission(name: \\"can_curate_tags\\", scope: ANY_ON_CURRENT_LOCALE)\\n    isCreator: hasPermission(name: \\"has_creator_role\\", scope: ANY_ON_CURRENT_LOCALE)\\n    isPublisher: hasPermission(name: \\"can_publish\\", scope: ANY_ON_CURRENT_LOCALE)\\n    isModerator: hasPermission(name: \\"can_moderate_users\\", scope: GLOBAL)\\n    isParent\\n    isSatStudent\\n    isTeacher\\n    isDataCollectible\\n    isChild\\n    isOrphan\\n    isCoachingLoggedInUser\\n    canModifyCoaches\\n    nickname\\n    hideVisual\\n    joined\\n    points\\n    countVideosCompleted\\n    publicBadges {\\n      badgeCategory\\n      description\\n      isOwned\\n      isRetired\\n      name\\n      points\\n      absoluteUrl\\n      hideContext\\n      icons {\\n        smallUrl\\n        compactUrl\\n        emailUrl\\n        largeUrl\\n        __typename\\n      }\\n      relativeUrl\\n      safeExtendedDescription\\n      slug\\n      translatedDescription\\n      translatedSafeExtendedDescription\\n      __typename\\n    }\\n    bio\\n    background {\\n      name\\n      imageSrc\\n      __typename\\n    }\\n    soundOn\\n    muteVideos\\n    prefersReducedMotion\\n    noColorInVideos\\n    autocontinueOn\\n    avatar {\\n      name\\n      imageSrc\\n      __typename\\n    }\\n    hasChangedAvatar\\n    newNotificationCount\\n    canHellban: hasPermission(name: \\"can_ban_users\\", scope: GLOBAL)\\n    canMessageUsers: hasPermission(name: \\"can_send_moderator_messages\\", scope: GLOBAL)\\n    discussionBanned\\n    isSelf: isActor\\n    hasStudents: hasCoachees\\n    hasClasses\\n    hasChildren\\n    hasCoach\\n    badgeCounts\\n    homepageUrl\\n    isMidsignupPhantom\\n    includesDistrictOwnedData\\n    preferredKaLocale {\\n      id\\n      kaLocale\\n      status\\n      __typename\\n    }\\n    underAgeGate {\\n      parentEmail\\n      daysUntilCutoff\\n      approvalGivenAt\\n      __typename\\n    }\\n    authEmails\\n    signupDataIfUnverified {\\n      email\\n      emailBounced\\n      __typename\\n    }\\n    pendingEmailVerifications {\\n      email\\n      unverifiedAuthEmailToken\\n      __typename\\n    }\\n    tosAccepted\\n    shouldShowAgeCheck\\n    __typename\\n  }\\n  actorIsImpersonatingUser\\n}\\n"
+        }',
         CURLOPT_HTTPHEADER => array(
             'authority: www.khanacademy.org',
             'pragma: no-cache',
@@ -76,23 +84,28 @@ function getFullUserProfile($dashParameter, $user)
     return $response;
 }
 
-function get_energy_points($user)
+/**
+ * @param $user
+ * @return mixed|string
+ */
+function getEnergyPoints($user)
 {
     $url = "https://www.khanacademy.org/profile/" . $user . "/";
     $content = get_content($url);
     preg_match('/\"x-ka-static-version\":\"([^\"]*)\"/m', $content, $matches);
-    $static_version = $matches[1];
+    $staticVersion = $matches[1];
     $millisecondsTime = millitime();
-    $dashParameter = $static_version . '_' . $millisecondsTime;
+    $dashParameter = $staticVersion . '_' . $millisecondsTime;
 
     $fullUserProfile = getFullUserProfile($dashParameter, $user);
     $fullUserProfileDecoded = json_decode($fullUserProfile, true);
 
-    return isset($fullUserProfileDecoded['data']['user']['points']) ? $fullUserProfileDecoded['data']['user']['points'] : '';
+    return isset($fullUserProfileDecoded['data']['user']['points']) ?
+        $fullUserProfileDecoded['data']['user']['points'] : '';
 }
 
 sleep(90);
 
-$points = get_energy_points($argv[1]);
+$points = getEnergyPoints($argv[1]);
 
 echo $points . PHP_EOL;
