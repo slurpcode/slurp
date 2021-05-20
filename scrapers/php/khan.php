@@ -1,5 +1,5 @@
 <?php
-include('base/common.php');
+require 'base/common.php';
 
 function get_energy_points($user) {
     $url = "https://www.khanacademy.org/profile/$user/";
