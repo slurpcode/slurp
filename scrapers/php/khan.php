@@ -1,6 +1,13 @@
 <?php
 require 'base/common.php';
 
+/**
+ * Get_Energy_points
+ *
+ * PHP version 7
+ *
+ */
+
 function Get_Energy_points($user)
 {
     $url = "https://www.khanacademy.org/profile/$user/";
