@@ -10,7 +10,7 @@ repos:
       - id: identity
       - id: check-hooks-apply
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.4.0
+    rev: v4.0.0
     hooks:
       - id: check-ast
       - id: check-builtin-literals
@@ -30,7 +30,7 @@ repos:
       - id: requirements-txt-fixer
       # - id: trailing-whitespace
   - repo: https://github.com/psf/black
-    rev: 20.8b1
+    rev: 21.5b1
     hooks:
       - id: black
         name: Run black on Python files
@@ -40,14 +40,12 @@ repos:
   #    - id: dead
   #      name: Dead simple python dead code detection
   - repo: https://github.com/asottile/reorder_python_imports
-    rev: v2.4.0
+    rev: v2.5.0
     hooks:
       - id: reorder-python-imports
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 2.1.5
     hooks:
-      - id: bundler-audit
-      - id: fasterer
       - id: markdownlint # Configure in .mdlrc
       - id: reek
       # - id: rubocop
@@ -68,12 +66,13 @@ repos:
     hooks:
       - id: markdownlint
         name: Run markdownlint
+        entry: markdownlint -c .github/linters/.markdown-lint.yml
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.26.0
+    rev: v1.26.1
     hooks:
       - id: yamllint
         name: Check YAML files with yamllint
-        entry: yamllint --strict .
+        entry: yamllint --strict -c .github/linters/.yaml-lint.yml .
         types: [yaml]
   # - repo: https://github.com/PyCQA/bandit
   #  rev: 1.7.0

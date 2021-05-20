@@ -7,47 +7,96 @@ Welcome to slurp's documentation!
 =================================
 
 .. toctree::
-   :caption: Technical Content:
+   :caption: General Technical Content
    :maxdepth: 2
 
    getting-started.md
-   built-in-datatypes.md
    codewars.md
    codewars-scraper.md
    java-client-with-ibm-system-i.md
-   corel-draw.md
-   database.md
    flicker-diff.md
    dita-to-pdf-with-eclipse.md
    eclipse-cheatsheets-to-dita-to-pdf.md
-   eclipse-cheatsheets-to-dita-with-python.md
-   ruby-cheat-sheets.md
-   fibonacci.md
-   python-on-ibm-system-i.md
    git.md
+   gnu-aspell.md
    go.md
-   hashcheck.md
-   sql-file.md
    links.md
    xml.md
-   pylint.md
    rst2md.md
+
+.. toctree::
+   :caption: Databases
+   :maxdepth: 2
+
+   database.md
+   sql-file.md
+
+.. toctree::
+   :caption: Graphic Design
+   :maxdepth: 2
+
+   corel-draw.md
+   serif-software.md
+
+.. toctree::
+   :caption: Mathematics
+   :maxdepth: 2
+
+   gauss-jordan.md
+   fermat.md
+   fibonacci.md
+
+.. toctree::
+   :caption: Python
+   :maxdepth: 2
+
+   eclipse-cheatsheets-to-dita-with-python.md
+   python-on-ibm-system-i.md
+   pylint.md
+   sphinx.md
+   flake8.md
+
+.. toctree::
+   :caption: Ruby
+   :maxdepth: 2
+
+   built-in-datatypes.md
+   ruby-cheat-sheets.md
+   hashcheck.md
    ruby.md
    ruby-strip.md
    seek.md
-   serif-software.md
-   sphinx.md
-   flake8.md
    well-formed.md
+
+.. toctree::
+   :caption: Countries
+   :maxdepth: 2
+
+   jordan.md
+
+.. toctree::
+   :caption: States
+   :maxdepth: 2
+
+   arizona.md
+
+.. toctree::
+   :caption: Notable Locations
+   :maxdepth: 2
+
+   chino-valley.md
 
 .. toctree::
    :caption: Easy Going Reading
    :maxdepth: 2
 
+   activism.md
+   beer.md
    cooking.md
    dogs.md
    driving-off-road.md
    casino-gaming.md
+   pizza.md
    pc-maintenance.md
    working-out.md
 

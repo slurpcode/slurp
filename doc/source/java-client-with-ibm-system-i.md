@@ -66,7 +66,7 @@ Here is just a sampling of the many IBM i resources you can access using JTOpen:
 
 To download and install JTOpen please visit the following link:
 
-https://sourceforge.net/projects/jt400/
+<https://sourceforge.net/projects/jt400/>
 
 JTOpen is comprised of the following files:
 
@@ -106,7 +106,7 @@ import com.ibm.as400.access.AS400JDBCDriver;
 Please visit the following link to download my Java connection prototype - IBM
 System i -AS/400:
 
-https://github.com/ClayLanzino/IBM-System-i_AS400/tree/master/Java_Scripts
+<https://github.com/ClayLanzino/IBM-System-i_AS400/tree/master/Java_Scripts>
 
 Hoping it will be of some help to the community.
 
