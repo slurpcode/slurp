@@ -8,7 +8,7 @@ Istanbul is the country’s economic, cultural, and historic center. Turkey owes
 
 The historical importance of Istanbul is mainly due to its geographical location. It is located in north-western Turkey and it is divided into two by the Bosporus, which is the only way to go to the Black Sea from the Mediterranean Sea. So, historically it has been ideally located for trade and defense. Its defensive importance continues thanks to the Montreux Convention Regarding the Regime of the Straits. Thanks to that, the USA cannot send its warships to the Black Sea on which Russia has a border. As we have mentioned before, the city connects Asia and Europe, and it is not difficult to say Istanbul is also a cultural bridge between Asia and Europe just like its bridges that connect the two continents.
 
-World Heritage Sites are areas or landmarks with legal protection by an international convention administered by UNESCO and 8 of these sites are located in Istanbul. This must have an effect over tourists because Istanbul is also Turkey’s mostly visited city. In 2018, over 13.4 million foreigner visitors visited the city, and this make the city the world’s fifth-most popular tourist destination.
+World Heritage Sites are areas or landmarks with legal protection by an international convention administered by UNESCO and 8 of these sites are located in Istanbul. This must affect tourists because Istanbul is also Turkey’s most visited city. In 2018, over 13.4 million foreign visitors visited the city, and this makes the city the world’s fifth-most popular tourist destination.
 
 Istanbul is primarily known for its Byzantine and Ottoman architecture. Even though it is a Turkish city since 1453, the city still contains both Christian and ancient monuments.
 
