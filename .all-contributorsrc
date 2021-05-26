@@ -278,6 +278,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ajakov",
+      "name": "Aleksandar Jakovljevic",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2115393?v=4",
+      "profile": "https://aleksandarjakovljevic.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,
