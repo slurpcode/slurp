@@ -98,7 +98,7 @@ Drag in this file of 3rd party data, again selecting OTG during the import.   Yo
  <item
        title="Split the blue track">
     <description>
-       The &apos;jump&apos; in the data where the ficticious recording went down should now be visible.  Right-click on the point at the North-end of the jump (the earlier point), and select <b>Split track after 0143</b>.
+       The &apos;jump&apos; in the data where the fictitious recording went down should now be visible.  Right-click on the point at the North-end of the jump (the earlier point), and select <b>Split track after 0143</b>.
     </description>
  </item>
  <item
