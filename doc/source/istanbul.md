@@ -14,7 +14,7 @@ Istanbul is primarily known for its Byzantine and Ottoman architecture. Even tho
 
 The city has 39 districts that have their councils and mayors, but these districts are administered by the Istanbul Metropolitan Municipality. This system was brought from France by republicans known as young Turks. This system is now applied in all the cities of Turkey.
 
-As Istanbul passed into other hands, it has been a cosmopolitan city throughout the history. It continues to have that characteristic of its, but it has become more homogenized since the Ottoman era. There are more than 2 million of Arabs, from 2 to 4 million of Kurds, 3,000 Greeks, 123,363 Armenians and 25,000 Jews in Istanbul.
+As Istanbul passed into other hands, it has been a cosmopolitan city throughout history. It continues to have that characteristic of its, but it has become more homogenized since the Ottoman era. There are more than 2 million Arabs, from 2 to 4 million Kurds, 3,000 Greeks, 123,363 Armenians, and 25,000 Jews in Istanbul.
 
 The city is also important for domestic policy. The current president of Turkey was the mayor of Istanbul. A political party’s performance in Istanbul is seen as an example of their governance. The current mayor of Istanbul, Ekrem Imamoğlu, is wanted to be presidential candidate by the opponents of current government.
 
