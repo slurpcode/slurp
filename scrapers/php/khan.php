@@ -39,7 +39,6 @@ function millitime()
  */
 function getFullUserProfile($dashParameter, $user)
 {
-
     $url = "https://www.khanacademy.org/api/internal/graphql/getFullUserProfile?lang=en&_=" . $dashParameter;
 
     $curl = curl_init();
