@@ -16,7 +16,7 @@ The city has 39 districts that have their councils and mayors, but these distric
 
 As Istanbul passed into other hands, it has been a cosmopolitan city throughout history. It continues to have that characteristic of its, but it has become more homogenized since the Ottoman era. There are more than 2 million Arabs, from 2 to 4 million Kurds, 3,000 Greeks, 123,363 Armenians, and 25,000 Jews in Istanbul.
 
-The city is also important for domestic policy. The current president of Turkey was the mayor of Istanbul. A political party’s performance in Istanbul is seen as an example of their governance. The current mayor of Istanbul, Ekrem Imamoğlu, is wanted to be presidential candidate by the opponents of current government.
+The city is also important for domestic policy. The current president of Turkey was the mayor of Istanbul. A political party’s performance in Istanbul is seen as an example of its governance. The current mayor of Istanbul, Ekrem Imamoğlu, is wanted to be a presidential candidate by the opponents of the current government.
 
 When it comes to the city’s other features, sports have an important part. Turkey’s oldest club, Beşiktaş JK, was established in 1903 in Istanbul. Also, the other two most important sport clubs of the country, Galatasaray and Fenerbahçe were established in Istanbul. Beyond that, Istanbul owns many sports facilities and many of them have been built or upgraded since 2000. Istanbul hosted 2005 and 2020 UEFA Champions League Finals, 2009 and 2019 UEFA Super Cup Finals, 2001 EuroBasket finals, 2010 FIBA World Championship Final as well as the 2011 - 2012 and 2016 - 2017 Euro League Final Fours.
 
