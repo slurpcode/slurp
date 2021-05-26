@@ -12,7 +12,7 @@ If we are to talk about a country, we should talk about its economy. Turkey has 
 
 One of the biggest industries in Turkey is tourism. It has been so beneficial to the economy of the country that tourism has been called a “smokeless industry”. Turkey ranked sixth in the world in terms of the number of international tourist arrivals, with over 50 million foreign tourists visiting the country.
 
-Another import point about Turkey is that there are 204 universities in the country. Some thinks this number is unnecessarily high, but the government continues to establish new universities each year. Every city should have at least a university was their main idea regarding this issue, and they have achieved this goal, but they have not stopped yet. There are 840 thousand university students in the country in total and this number is so high that graduating from a university is not important anymore.
+Another important point about Turkey is that there are 204 universities in the country. Some think this number is unnecessarily high, but the government continues to establish new universities each year. Every city should have at least a university as their main idea regarding this issue, and they have achieved this goal, but they have not stopped yet. There are 840 thousand university students in the country in total and this number is so high that graduating from a university is not important anymore.
 
 The health is thought to be one of the areas where Turkey is good, but the numbers are saying this is not true. In 2018, the total expenditure on health as a share of GDP was the lowest among OECD countries at %6.3 of GDP. Also, Turkey has one of the highest rates of obesity in the world (%29.5).
 
