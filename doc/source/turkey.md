@@ -10,7 +10,7 @@ Even though, due to being the most populous city in Turkey, Istanbul is thought 
 
 If we are to talk about a country, we should talk about its economy. Turkey has a GDP of $794 billion in total which is the 20th biggest one in the world but when you consider the population (GDP per capita) Turkey is 67th in the world. Also, the purchasing power of the Turkish population is the 45th best one in the world.
 
-One of the biggest industries in Turkey is tourism. It has been so beneficial to economy of the country that the tourism has been called “smokeless industry”. Turkey ranked sixth in the world in terms of the number of international tourist arrivals, with over 50 million foreign tourists visiting the country.
+One of the biggest industries in Turkey is tourism. It has been so beneficial to the economy of the country that tourism has been called a “smokeless industry”. Turkey ranked sixth in the world in terms of the number of international tourist arrivals, with over 50 million foreign tourists visiting the country.
 
 Another import point about Turkey is that there are 204 universities in the country. Some thinks this number is unnecessarily high, but the government continues to establish new universities each year. Every city should have at least a university was their main idea regarding this issue, and they have achieved this goal, but they have not stopped yet. There are 840 thousand university students in the country in total and this number is so high that graduating from a university is not important anymore.
 
