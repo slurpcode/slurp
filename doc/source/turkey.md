@@ -4,7 +4,7 @@ Turkey, officially known as the Republic of Turkey, is the country that is the b
 
 The country has a population of over 80 million and Kurds are the largest minority with a population of over 16 million. Since the beginning of the Syrian Civil War, Turkey has been a shelter to Syrians and there are over 2 million Syrian refugees in Turkey. Even though there are ethnicities other than Turkish in the country, every Turkey citizen is accepted Turkish by law. That does not mean Turkey forces people to forget about their roots. The law has been put into order to ensure that every citizen is treated equally.
 
-The country’s official language is Turkish. Kurdish is the second most spoken language in the country, but it is not accepted as an official language, there are people who supports this idea, though.
+The country’s official language is Turkish. Kurdish is the second most spoken language in the country, but it is not accepted as an official language, there are people who support this idea, though.
 
 Even though, due to being the most populous city in Turkey, Istanbul is thought to be the capital of the country, the country’s capital is Ankara since the law about the country’s capital was accepted in 1923 by the new parliament of the new country.
 
