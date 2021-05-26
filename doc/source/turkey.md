@@ -1,6 +1,6 @@
 # 🇹🇷 Turkey
 
-Turkey, officially known as the Republic of Turkey, is the country which is the bridge between Europe and Asia. It shares borders with 8 different countries and 3 seas. It consists of 7 geographical regions and 81 cities. The region on which the country is situated is called Anatolia and accepted as a peninsula. Anatolia has been a strategically important area throughout the history. Turkish people came to Anatolia in 1071 first and since then they are living there. Never mind, let’s focus on the country again.
+Turkey, officially known as the Republic of Turkey, is the country that is the bridge between Europe and Asia. It shares borders with 8 different countries and 3 seas. It consists of 7 geographical regions and 81 cities. The region in which the country is situated is called Anatolia and is accepted as a peninsula. Anatolia has been a strategically important area throughout history. Turkish people came to Anatolia in 1071 first and since then they are living there. Never mind, let’s focus on the country again.
 
 The country has a population over 80 million and Kurds are the largest minority with a population over 16 million. Since the beginning of Syrian Civil War, Turkey has been a shelter to Syrians and there are over 2 million Syrian refugees in Turkey. Even though there are ethnicities other than Turkish in the country, every Turkey citizen is accepted Turkish by law. That does not mean Turkey forces people to forget about their roots. The law has been put into order to ensure that every citizen is treated equally.
 
