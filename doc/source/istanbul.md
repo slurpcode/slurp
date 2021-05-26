@@ -12,7 +12,7 @@ World Heritage Sites are areas or landmarks with legal protection by an internat
 
 Istanbul is primarily known for its Byzantine and Ottoman architecture. Even though it is a Turkish city since 1453, the city still contains both Christian and ancient monuments.
 
-The city has 39 districts who have their own councils and mayors, but these districts are administered by the Istanbul Metropolitan Municipality. This system was brought from France by republicans known as young-turks. This system is now applied in all the cities of Turkey.
+The city has 39 districts that have their councils and mayors, but these districts are administered by the Istanbul Metropolitan Municipality. This system was brought from France by republicans known as young Turks. This system is now applied in all the cities of Turkey.
 
 As Istanbul passed into other hands, it has been a cosmopolitan city throughout the history. It continues to have that characteristic of its, but it has become more homogenized since the Ottoman era. There are more than 2 million of Arabs, from 2 to 4 million of Kurds, 3,000 Greeks, 123,363 Armenians and 25,000 Jews in Istanbul.
 
