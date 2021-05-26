@@ -8,7 +8,7 @@ The country’s official language is Turkish. Kurdish is the second most spoken 
 
 Even though, due to being the most populous city in Turkey, Istanbul is thought to be the capital of the country, the country’s capital is Ankara since the law about the country’s capital was accepted in 1923 by the new parliament of the new country.
 
-If we are to talk about a country, we should talk about their economy. Turkey has a GDP of $794 billion in total which is the 20th biggest one in the world but when you consider the population (GDP per capita) Turkey is 67th in the world. Also, the purchasing power of the Turkish population is the 45th best one in the world.
+If we are to talk about a country, we should talk about its economy. Turkey has a GDP of $794 billion in total which is the 20th biggest one in the world but when you consider the population (GDP per capita) Turkey is 67th in the world. Also, the purchasing power of the Turkish population is the 45th best one in the world.
 
 One of the biggest industries in Turkey is tourism. It has been so beneficial to economy of the country that the tourism has been called “smokeless industry”. Turkey ranked sixth in the world in terms of the number of international tourist arrivals, with over 50 million foreign tourists visiting the country.
 
