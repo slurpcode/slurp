@@ -95,7 +95,7 @@ You now have a Debrief <b>Project</b>, to contain your tutorial data.
                Now that data is present, it&apos;s time to create a scenario based upon it.
             </intro>
             <onCompletion>
-               We&apos;ve provided the TMA algortihm with some data, let&apos;s see it calculate a solution
+               We&apos;ve provided the TMA algorithm with some data, let&apos;s see it calculate a solution
             </onCompletion>
             <param name="path" value="single_create.xml"/>
 

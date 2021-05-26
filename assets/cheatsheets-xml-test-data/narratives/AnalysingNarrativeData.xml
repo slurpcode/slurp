@@ -35,6 +35,6 @@
 		<description>Similar to the previous encounter with bookmarks (via the Time Controller), it is possible to add a bookmark directly from a narrative entry.  If a narrative entry is of great significance to your navigation through the time period, click on the entry and select &quot;Add DTG as bookmark&quot; from the Narrative view&apos;s pull down menu (top-right).  The bookmark description will be populated with the narrative entry - but feel free to edit it if applicable.  The bookmark can now be found in the &quot;Bookmarks&quot; view, even after you&apos;ve closed the current plot.</description>
 	</item>
 	<item title="Done">
-		<description>That's it for narrative data.  It's not a significant part of Debrief anaylsis, but if you do receive good quality command narrative data (or other non geospatial data) then it may just prove useful.</description>
+		<description>That's it for narrative data.  It's not a significant part of Debrief analysis, but if you do receive good quality command narrative data (or other non geospatial data) then it may just prove useful.</description>
 	</item>
 </cheatsheet>

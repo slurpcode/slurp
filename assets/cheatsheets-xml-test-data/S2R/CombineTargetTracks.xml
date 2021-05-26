@@ -17,7 +17,7 @@ Please see the associated help page for a discussion of the track merge operatio
    <item
          title="Right click on tracks">
       <description>
-         Next, right click on one of the selected tracks and select <b>Group tracks into TMA_xxxx</b>.  You&apos;ll see the second track dissappear, and inside the <b>TMA_xxxx</b> track you&apos;ll see two track segments,
+         Next, right click on one of the selected tracks and select <b>Group tracks into TMA_xxxx</b>.  You&apos;ll see the second track disappear, and inside the <b>TMA_xxxx</b> track you&apos;ll see two track segments,
       </description>
    </item>
    <item
@@ -34,7 +34,7 @@ Please see the associated help page for a discussion of the track merge operatio
          You can continue to keep your target track represented as 3 or more track segments for as long as you like.  But, when you need to export the data for presentation or subsequent analysis then you need to merge them.  To do this, select the parent item for the track segments (<b>Track segments (3 items)</b>), right-click on it and select <b>Merge all track segments</b>.  The tracks will merge.  Note, alternatively you could have selected different track segments to merge by selecting them individually at the next level down.
       </description>
       <subitem
-            label="Note: If the track sections cover overlapping time periods the merge operation will fail. Just decide which track is the more accurate track and trim the time period of the other track, then start the merge operation again. If track overlap is a frequently occuring problem, please contact the maintainer and a merge algorithm will be developed."
+            label="Note: If the track sections cover overlapping time periods the merge operation will fail. Just decide which track is the more accurate track and trim the time period of the other track, then start the merge operation again. If track overlap is a frequently occurring problem, please contact the maintainer and a merge algorithm will be developed."
             skip="true">
       </subitem>
    </item>
