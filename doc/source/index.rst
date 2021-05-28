@@ -72,7 +72,9 @@ Welcome to slurp's documentation!
    :caption: Cities
    :maxdepth: 2
 
+   amman.md
    istanbul.md
+   prescott.md
 
 .. toctree::
    :caption: Countries
@@ -98,6 +100,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    activism.md
+   australian-army.md
    beer.md
    cooking.md
    dogs.md

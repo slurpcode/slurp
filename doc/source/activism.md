@@ -69,5 +69,5 @@ writing test procedures at [BallAerospace](https://www.ball.com/aerospace). Then
 Inspector, observing and reporting on rules violations, safety issues and
 criminal activities for the
 [Yavapai Prescott Indian Tribe](https://buckyscasino.com/). After “retiring”
-Harley taught himself a few graphic design skills and he works as a freelance
+Harley taught himself a few graphic design skills, and he works as a freelance
 designer.
