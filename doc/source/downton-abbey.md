@@ -1,6 +1,6 @@
 # 📺 Downton Abbey
 
-created and co-written by Julian Fellowes
+Created and co-written by Julian Fellowes
 
 Downton Abbey is a British television series that aired on ITV in the U.K. and
 on PBS in the U.S.A. for six years beginning in 2010 on ITV and 2011 on PBS. It
