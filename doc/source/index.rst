@@ -105,6 +105,7 @@ Welcome to slurp's documentation!
    cooking.md
    dogs.md
    driving-off-road.md
+   first-australian-task-force.md
    casino-gaming.md
    pizza.md
    pc-maintenance.md
