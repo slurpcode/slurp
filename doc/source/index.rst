@@ -99,6 +99,7 @@ Welcome to slurp's documentation!
    :caption: Easy Going Reading
    :maxdepth: 2
 
+   arak.md
    activism.md
    australian-army.md
    beer.md
@@ -109,6 +110,7 @@ Welcome to slurp's documentation!
    casino-gaming.md
    pizza.md
    pc-maintenance.md
+   whiskey.md
    working-out.md
 
 .. toctree::
