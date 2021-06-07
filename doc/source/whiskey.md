@@ -83,7 +83,7 @@ north as New York.
 
 ## 🇯🇵 Japan
 
-![image6](_static/images/whiskey/image6.JPG)
+![image6](_static/images/whiskey/image6.jpg)
 
 Who can forget Bob Harris (Bill Murray) struggling through his photo shoot in
 2003's Lost in Translation: `“For relaxing times… make it Suntory time?”`
