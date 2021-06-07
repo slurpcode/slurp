@@ -68,7 +68,7 @@ rye whisky, although rye is the grain.
 
 ## 🇺🇸 United States
 
-![image5](_static/images/whiskey/image5.JPG)
+![image5](_static/images/whiskey/image5.jpg)
 
 Talk about pride and something distinctly American. Bourbon… wait, I meant rye
 whiskey… no we're talking Tennessee whiskey, benefiting from the Lincoln County
