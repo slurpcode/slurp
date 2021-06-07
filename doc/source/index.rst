@@ -110,7 +110,7 @@ Welcome to slurp's documentation!
    pizza.md
    working-out.md
 
-   .. toctree::
+.. toctree::
    :caption: Drinks
    :maxdepth: 2
 
