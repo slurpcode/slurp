@@ -1,4 +1,4 @@
-# Arak
+# 🥛 Arak
 
 A middle eastern drink.
 
@@ -15,7 +15,7 @@ Drinking arak is a traditional ritual of the celebration, and one of the
 traditions of drinking it is to knock the bottoms of the cups together before
 drinking.
 
-![image2](_static/images/arak/image2.jpg)
+![image2](_static/images/arak/image2.JPG)
 
 It is advised not to drink Arak on an empty stomach. Among the most famous
 dishes that go along with the arak drink, are oriental mezze dishes, such as

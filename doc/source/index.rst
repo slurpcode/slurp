@@ -99,19 +99,24 @@ Welcome to slurp's documentation!
    :caption: Easy Going Reading
    :maxdepth: 2
 
-   arak.md
    activism.md
    australian-army.md
-   beer.md
    cooking.md
    dogs.md
    driving-off-road.md
    first-australian-task-force.md
    casino-gaming.md
-   pizza.md
    pc-maintenance.md
-   whiskey.md
+   pizza.md
    working-out.md
+
+   .. toctree::
+   :caption: Drinks
+   :maxdepth: 2
+
+   arak.md
+   beer.md
+   whiskey.md
 
 .. toctree::
    :caption: Television
