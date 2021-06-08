@@ -1,4 +1,4 @@
-# Arak
+# 🥛 Arak
 
 A middle eastern drink.
 
