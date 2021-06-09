@@ -26,7 +26,7 @@ group :jekyll_plugins do
   gem 'jemoji'
 end
 
-gem 'nokogiri', '>= 1.11.0.rc4'
+gem 'nokogiri'
 gem 'rake'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
