@@ -1,4 +1,4 @@
-# Colorado
+# 🇺🇸 Colorado
 
 Best known for its wonderful and diverse scenery, encompassing most of the southern Rocky
 Mountains in the U.S.A., Colorado is simply put, colorful. The word “Colorado” is derived from
