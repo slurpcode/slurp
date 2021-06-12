@@ -86,7 +86,8 @@ The final chorus to Rocky Mountain High by John Denver: “And the Colorado Rock
 Mountain High I’ve seen it rainin’ fire in the sky Though he’d be a poorer man
 if he never saw eagles fly Rocky Mountain High”
 
-<https://en.wikipedia.org/wiki/Colorado> <https://www.colorado.gov/>
+- <https://en.wikipedia.org/wiki/Colorado>
+- <https://www.colorado.gov/>
 - <https://www.colorado.com/>
 - <https://en.wikipedia.org/wiki/Denver>
 
