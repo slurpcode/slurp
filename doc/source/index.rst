@@ -94,6 +94,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    arizona.md
+   colorado.md
 
 .. toctree::
    :caption: Easy Going Reading
