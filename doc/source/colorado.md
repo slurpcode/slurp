@@ -87,7 +87,8 @@ Mountain High I’ve seen it rainin’ fire in the sky Though he’d be a poorer
 if he never saw eagles fly Rocky Mountain High”
 
 <https://en.wikipedia.org/wiki/Colorado> <https://www.colorado.gov/>
-<https://www.colorado.com/> <https://en.wikipedia.org/wiki/Denver>
+- <https://www.colorado.com/>
+- <https://en.wikipedia.org/wiki/Denver>
 
 ## About the author
 
