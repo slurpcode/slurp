@@ -1,4 +1,5 @@
 <?php
+
 require 'base/common.php';
 
 /**
