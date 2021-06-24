@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#" dir="ltr">
+    <head>
+        <title>Golang Demo Form to PDF with Gin</title>
+        <meta charset="UTF-8">
+
+        <meta property="og:image" content="https://pdfstar.herokuapp.com/static/images/gin.jpg">
+
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://pdfstar.herokuapp.com/">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/static/main.css">
+    </head>
+    <body>
+      <header>
+
+      </header>
+
+    <div>
+        <form action="/pdf" method="post">
+            <label for="name">Enter your name: </label><input type="text" name="name" id="name">
+
+            <input type="submit" value="GO">
+        </form>
+    </div>
+    </body>
+</html>

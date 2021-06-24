@@ -1,0 +1,64 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ast (2.4.2)
+    chef-utils (17.2.29)
+      concurrent-ruby
+    concurrent-ruby (1.1.9)
+    ffi (1.15.3-x64-mingw32)
+    ffi-win32-extensions (1.0.4)
+      ffi
+    kramdown (2.3.1)
+      rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
+    mdl (0.11.0)
+      kramdown (~> 2.3)
+      kramdown-parser-gfm (~> 1.1)
+      mixlib-cli (~> 2.1, >= 2.1.1)
+      mixlib-config (>= 2.2.1, < 4)
+      mixlib-shellout
+    mixlib-cli (2.1.8)
+    mixlib-config (3.0.9)
+      tomlrb
+    mixlib-shellout (3.2.5)
+      chef-utils
+    mixlib-shellout (3.2.5-universal-mingw32)
+      chef-utils
+      ffi-win32-extensions (~> 1.0.3)
+      win32-process (~> 0.9)
+      wmi-lite (~> 1.0)
+    parallel (1.20.1)
+    parser (3.0.1.1)
+      ast (~> 2.4.1)
+    rainbow (3.0.0)
+    regexp_parser (2.1.1)
+    rexml (3.2.5)
+    rubocop (1.17.0)
+      parallel (~> 1.10)
+      parser (>= 3.0.0.0)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8, < 3.0)
+      rexml
+      rubocop-ast (>= 1.7.0, < 2.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 3.0)
+    rubocop-ast (1.7.0)
+      parser (>= 3.0.1.1)
+    ruby-progressbar (1.11.0)
+    tomlrb (2.0.1)
+    unicode-display_width (2.0.0)
+    win32-process (0.9.0)
+      ffi (>= 1.0.0)
+    wmi-lite (1.0.5)
+
+PLATFORMS
+  ruby
+  x64-mingw32
+
+DEPENDENCIES
+  mdl
+  rubocop
+
+BUNDLED WITH
+   2.2.3

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # ./flicker-diff.sh pdf-name
 # ./flicker-diff.sh IBM_Systemi_Using_Python_ES
