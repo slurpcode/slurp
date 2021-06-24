@@ -18,6 +18,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    amman.md
+   dharamshala.md
    istanbul.md
    prescott.md
 
