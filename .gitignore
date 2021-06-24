@@ -16,6 +16,7 @@ newspells.txt
 profile.cov
 venv
 doc/build/
+pdfstar/pdfs
 workers.dev/magic/dist/
 workers.dev/magic/node_modules/
 workers.dev/magic/worker/
