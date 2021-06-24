@@ -1,8 +1,7 @@
 # Go PDFSTAR
 
-Web application that automatically deploys to Heroku when all the
-CircleCI build steps pass. Deploys the master branch and produces
-a `Hello World` style PDF.
+Web application that automatically deploys to Heroku when all the CircleCI build
+steps pass. Deploys the master branch and produces a `Hello World` style PDF.
 
 ## Links
 
