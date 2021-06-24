@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#" dir="ltr">
+    <head>
+        <title>Mace Windu</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A grim Jedi Master with an amethyst-bladed lightsaber, Mace Windu was the champion of the Jedi Order, with little tolerance for the failings of the Senate, the arguments of politicians, or the opinions of rebellious Jedi.">
+        <meta name="keywords" content="Mace,Windu,Jedi,Master,Lightsaber">
+        <meta name="author" content="Mace Windu">
+        <meta property="fb:app_id" content="">
+        <meta property="og:description" content="A grim Jedi Master with an amethyst-bladed lightsaber, Mace Windu was the champion of the Jedi Order, with little tolerance for the failings of the Senate, the arguments of politicians, or the opinions of rebellious Jedi.">
+
+        <meta property="og:image" content="https://macewindu.herokuapp.com/static/images/macewindu.jpg">
+        <meta property="og:image:alt" content="Mace Windu champion of the Jedi Order">
+
+        <meta property="og:image" content="https://macewindu.herokuapp.com/static/images/macewindu2.jpg">
+        <meta property="og:image:width" content="1280">
+        <meta property="og:image:height" content="720">
+        <meta property="og:image:alt" content="Mace Windu champion of the Jedi Order">
+
+        <meta property="og:image" content="https://macewindu.herokuapp.com/static/images/macewindu3.jpg">
+        <meta property="og:image:width" content="960">
+        <meta property="og:image:height" content="610">
+        <meta property="og:image:alt" content="Mace Windu champion of the Jedi Order">
+
+        <meta property="og:site_name" content="Mace Windu">
+        <meta property="og:title" content="Mace Windu champion of the Jedi Order">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://macewindu.herokuapp.com">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/static/main.css">
+        <link rel="icon" href="/static/images/icons/animated_favicon.ico" type="image/gif">
+    </head>
+    <body>
+      <div>
+        <h1>Mace Windu</h1>
+        <img alt="Mace Windu" src="/static/images/macewindu.jpg">
+        <div id="piechart"></div>
+        <div>
+          Starting: Current Unix Time {{ .StartTime }}<br>
+          Visiting: <a href="{{.Address}}" target="_blank" rel="noopener noreferrer">{{ .Address }}</a><br><br>
+          {{range .Data}}
+            <a href="{{index . 1}}" target="_blank" rel="noopener noreferrer">{{index . 0}}</a><br/>
+          {{end}}<br>
+          Finished: Current Unix Time {{ .Time }}<br/>
+          {{ .RegTime }}
+
+        </div>
+      </div>
+      <h2>
+          <span class="typer" id="main"
+                data-words="Help me, Obi-Wan Kenobi. You’re my only hope.;
+I find your lack of faith disturbing.;
+It’s the ship that made the Kessel run in less than twelve parsecs. I’ve outrun Imperial starships. Not the local bulk cruisers, mind you. I’m talking about the big Corellian ships, now. She’s fast enough for you, old man.;
+The Force will be with you. Always.;
+Why, you stuck-up, half-witted, scruffy-looking nerf herder!;
+Never tell me the odds!;
+Do. Or do not. There is no try.;
+No. I am your father.;
+When gone am I, the last of the Jedi will you be. The Force runs strong in your family. Pass on what you have learned.;
+I’ll never turn to the dark side. You’ve failed, your highness. I am a Jedi, like my father before me."
+                data-colors="{{ .Colors }}"
+                data-delim=";"
+                data-delay="100"
+                data-deleteDelay="1000"></span>
+          <span class="cursor" data-owner="main"></span>
+      </h2>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+            let array = [];
+            for(let i=0;i<7;i++){
+                array.push(Math.floor(Math.random()*50));
+            }
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Look Ice Cool', array[0]],
+                ['Lightsaber Battles', array[1]],
+                ['Sleep', array[2]],
+                ['Jedi Council Tasks', array[3]],
+                ['Eat', array[4]],
+                ['Commute', array[5]],
+                ['Watch TV', array[6]]
+            ]);
+            var day = "";
+            var d = Math.floor(Math.random()*7);
+            switch (d) {
+                case 0:
+                    day = "Monday";
+                    break;
+                case 1:
+                    day = "Tuesday";
+                    break;
+                case 2:
+                    day = "Wednesday";
+                    break;
+                case 3:
+                    day = "Thursday";
+                    break;
+                case 4:
+                    day = "Friday";
+                    break;
+                case 5:
+                    day = "Saturday";
+                    break;
+                default:
+                    day = "Sunday";
+            }
+            var options = {
+                'title': 'Mace\'s ' + day + ' Activities',
+                'backgroundColor': '#F0F3F4',
+                'is3D': true,
+                'width': 550,
+                'height': 550,
+                'chartArea': {'width': '75%', 'height': '80%'},
+            };
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+            chart.draw(data, options);
+            setTimeout(drawChart, 5000);
+        }
+        </script>
+      <script src="/static/js/typer.js"></script>
+  </body>
+</html>
