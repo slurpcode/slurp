@@ -24,8 +24,7 @@ func main() {
 	router.Static("/static", "static")
 
 	router.GET("/", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "index.tmpl.html", gin.H{
-		})
+		c.HTML(http.StatusOK, "index.tmpl.html", gin.H{})
 	})
 	router.POST("/pdf", handler())
 	router.Run(":" + port)
@@ -43,13 +42,13 @@ func handler() gin.HandlerFunc {
 		pdf.AddPage()
 		pdf.SetFont("Arial", "B", 16)
 		pdf.Cell(40, 10, hello)
-		
+
 		now := time.Now()
 		nanos := now.UnixNano()
 		t := rand.Int63()
 		filename := fmt.Sprintf("hello-%v-%v", nanos, t)
 		savepath := ""
-		if os.Getenv("APP_ENV") =="production" {
+		if os.Getenv("APP_ENV") == "production" {
 			savepath = "/tmp"
 		} else {
 			savepath = "./pdfs"
