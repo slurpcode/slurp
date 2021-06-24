@@ -8,7 +8,7 @@ permalink: /about/
 
 ## Concept and web development
 
-- [Barnabas](https://www.upwork.com/fl/johnbampton)
+- [Beast](https://github.com/jbampton)
 
 ## Logo Design
 
