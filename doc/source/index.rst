@@ -7,11 +7,74 @@ Welcome to slurp's documentation!
 =================================
 
 .. toctree::
-   :caption: General Technical Content
+   :caption: Start Here
    :maxdepth: 2
 
    getting-started.md
    codewars.md
+
+.. toctree::
+   :caption: Cities
+   :maxdepth: 2
+
+   amman.md
+   istanbul.md
+   prescott.md
+
+.. toctree::
+   :caption: Countries
+   :maxdepth: 2
+
+   jordan.md
+   turkey.md
+
+.. toctree::
+   :caption: Notable Locations
+   :maxdepth: 2
+
+   chino-valley.md
+
+.. toctree::
+   :caption: States
+   :maxdepth: 2
+
+   arizona.md
+   colorado.md
+
+.. toctree::
+   :caption: Drinks
+   :maxdepth: 2
+
+   arak.md
+   beer.md
+   whiskey.md
+
+.. toctree::
+   :caption: Easy Going Reading
+   :maxdepth: 2
+
+   activism.md
+   australian-army.md
+   cooking.md
+   dogs.md
+   driving-off-road.md
+   first-australian-task-force.md
+   casino-gaming.md
+   pc-maintenance.md
+   pizza.md
+   silversmith.md
+   working-out.md
+
+.. toctree::
+   :caption: Television
+   :maxdepth: 2
+
+   downton-abbey.md
+
+.. toctree::
+   :caption: General Technical Content
+   :maxdepth: 2
+
    codewars-scraper.md
    java-client-with-ibm-system-i.md
    flicker-diff.md
@@ -67,64 +130,6 @@ Welcome to slurp's documentation!
    ruby-strip.md
    seek.md
    well-formed.md
-
-.. toctree::
-   :caption: Cities
-   :maxdepth: 2
-
-   amman.md
-   istanbul.md
-   prescott.md
-
-.. toctree::
-   :caption: Countries
-   :maxdepth: 2
-
-   jordan.md
-   turkey.md
-
-.. toctree::
-   :caption: Notable Locations
-   :maxdepth: 2
-
-   chino-valley.md
-
-.. toctree::
-   :caption: States
-   :maxdepth: 2
-
-   arizona.md
-   colorado.md
-
-.. toctree::
-   :caption: Easy Going Reading
-   :maxdepth: 2
-
-   activism.md
-   australian-army.md
-   cooking.md
-   dogs.md
-   driving-off-road.md
-   first-australian-task-force.md
-   casino-gaming.md
-   pc-maintenance.md
-   pizza.md
-   working-out.md
-
-.. toctree::
-   :caption: Drinks
-   :maxdepth: 2
-
-   arak.md
-   beer.md
-   whiskey.md
-
-.. toctree::
-   :caption: Television
-   :maxdepth: 2
-
-   downton-abbey.md
-
 
 Indices and tables
 ==================
