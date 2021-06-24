@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#" dir="ltr">
+    <head>
+        <title>Mace Windu base Pie Chart</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A grim Jedi Master with an amethyst-bladed lightsaber, Mace Windu was the champion of the Jedi Order, with little tolerance for the failings of the Senate, the arguments of politicians, or the opinions of rebellious Jedi.">
+        <meta name="keywords" content="Mace,Windu,Jedi,Master,Lightsaber">
+        <meta name="author" content="Mace Windu">
+        <meta property="fb:app_id" content="">
+        <meta property="og:description" content="A Mace Windu based Google Pie Chart running on Gin with Golang">
+        <meta property="og:image" content="https://macewindu.herokuapp.com/static/images/mace-pie-chart.png">
+        <meta property="og:image:width" content="742">
+        <meta property="og:image:height" content="527">
+        <meta property="og:image:alt" content="A Mace Windu based Google Pie Chart">
+        <meta property="og:site_name" content="Mace Windu">
+        <meta property="og:title" content="Mace Windu champion of the Jedi Order">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://macewindu.herokuapp.com/google-charts">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/static/charts.css">
+    </head>
+  <body>
+    <h1>A Mace Windu based Google Pie Chart</h1>
+
+    <div id="piechart" style="width: 900px; height: 500px;"></div>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            var data = google.visualization.arrayToDataTable([
+                ['Task', 'Hours per Day'],
+                ['Look Ice Cool', {{ .pie_cool }}],
+                ['Lightsaber Battles', {{ .pie_battles }}],
+                ['Sleep', {{ .pie_sleep }}],
+                ['Jedi Council Tasks', {{ .pie_council }}],
+                ['Eat', {{ .pie_eat }}],
+                ['Commute',  {{ .pie_commute }}],
+                ['Watch TV', {{ .pie_tv }}]
+            ]);
+
+            var options = {
+                chartArea:{left:10},
+                is3D: true,
+                title: 'Mace\'s Daily Activities',
+                slices: { {{.offset_number}}: {offset: {{.offset_amount}} } }
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+            chart.draw(data, options);
+        }
+    </script>
+  </body>
+</html>
