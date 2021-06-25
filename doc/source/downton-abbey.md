@@ -25,7 +25,7 @@ working class and the decline of the aristocracy.
 
 Downton Abbey has received many awards and great acclaim, such as a Golden Globe
 award, several Primetime Emmy Awards (and the most nominations of any series),
-and recognition by Guiness World Records as the “the most critically acclaimed
+and recognition by Guinness World Records as the “the most critically acclaimed
 English-language television series of 2011”. It was the most watched television
 series on both ITV and PBS.
 
