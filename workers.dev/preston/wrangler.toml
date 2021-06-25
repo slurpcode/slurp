@@ -2,4 +2,3 @@ name = "preston"
 type = "webpack"
 account_id = "716a4fb5f5ec1ff5ec1a990259927847"
 workers_dev = true
-

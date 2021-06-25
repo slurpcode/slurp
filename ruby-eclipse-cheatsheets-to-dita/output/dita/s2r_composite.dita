@@ -45,7 +45,7 @@
           <step id="idp140696534678400">
             <cmd>Drop ambiguous data</cmd>
             <info>
-         Now, using the Outline View, expand the <b>SENSOR_A</b> dataset and select all of the child items (select the top one, scroll to the bottom of the list, then select the bottom one whilst holding down the shift-key).  Now, right click on one of the entries and select <b>Keep starboard bearings</b>.  The port bearings will dissappear.
+         Now, using the Outline View, expand the <b>SENSOR_A</b> dataset and select all of the child items (select the top one, scroll to the bottom of the list, then select the bottom one whilst holding down the shift-key).  Now, right click on one of the entries and select <b>Keep starboard bearings</b>.  The port bearings will disappear.
       </info>
             <stepxmp/>
           </step>
@@ -220,7 +220,7 @@ Please see the associated help page for a discussion of the track merge operatio
           <step id="idp140696534812800">
             <cmd>Right click on tracks</cmd>
             <info>
-         Next, right click on one of the selected tracks and select <b>Group tracks into TMA_xxxx</b>.  You'll see the second track dissappear, and inside the <b>TMA_xxxx</b> track you'll see two track segments,
+         Next, right click on one of the selected tracks and select <b>Group tracks into TMA_xxxx</b>.  You'll see the second track disappear, and inside the <b>TMA_xxxx</b> track you'll see two track segments,
       </info>
             <stepxmp/>
           </step>

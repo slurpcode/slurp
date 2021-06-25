@@ -50,7 +50,7 @@ principles, with the older legacy, Plus line of apps, I needed just a few
 [tutorials. But Affinity is amazing. The point I would like to make is that
 Affinity is tremendously capable and worth investigating and it’s NOT a
 subscription service. At the end of this article I will include some links to
-several wepages relevent to both Affinity apps and the Serif legacy apps.
+several wepages relevant to both Affinity apps and the Serif legacy apps.
 
 The thing I like most about Affinity is that all of the apps, Publisher,
 Designer and Photo are seamlessly connected, so that when working on any

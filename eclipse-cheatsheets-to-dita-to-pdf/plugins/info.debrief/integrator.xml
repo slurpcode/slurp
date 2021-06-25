@@ -5,4 +5,3 @@
   </target>
   <target name="dita2debrief" depends="debrief.init, dita2pdf2"/>
 </project>
-

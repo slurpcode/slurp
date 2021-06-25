@@ -24,7 +24,8 @@ repos:
       - id: check-yaml
       - id: debug-statements
       - id: detect-private-key
-      # - id: end-of-file-fixer
+      - id: end-of-file-fixer
+        exclude: ^charts/assets/.*$|^charts/lang/README\.de\.md$|^charts/log\.txt$|^charts/README\.md$|^docs/assets/js/.*$|^docs/assets/games/.*$|rubycritic/.*$
       - id: fix-byte-order-marker
       - id: mixed-line-ending
       # - id: pretty-format-json
