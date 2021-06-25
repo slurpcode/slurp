@@ -130,10 +130,9 @@ and interaction with the locals.
 
 ## About The Author
 
-[Akshay Kapoor](https://www.linkedin.com/in/the-ak), a
-Software Engineer and freelancer on a never-ending learning journey; a tech
-savvy who loves to travel and trek to get away from the monotony of daily life
-and fulfil the dearth of adrenaline rush. Apart from travel, having passion for
-photography to capture the moments to relish and admire them forever. In leisure
-time, likes to watch comedy movies in the company of brewed beer and some
-friends.
+[Akshay Kapoor](https://www.linkedin.com/in/the-ak), a Software Engineer and
+freelancer on a never-ending learning journey; a tech savvy who loves to travel
+and trek to get away from the monotony of daily life and fulfil the dearth of
+adrenaline rush. Apart from travel, having passion for photography to capture
+the moments to relish and admire them forever. In leisure time, likes to watch
+comedy movies in the company of brewed beer and some friends.
