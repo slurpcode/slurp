@@ -28,7 +28,7 @@ When the British held India as a colony, they found in the 1820's that during
 the course of the long voyages from England to India, their ales would sometimes
 spoil. They discovered that adding more hops would preserve the ale quite well
 and an Australian advertisement coined the term India Pale Ale. Thus the term
-IPA. IPA’s are my favorite!
+IPA. IPA's are my favorite!
 
 Another thing that I have found to be interesting is the effect of the beer’s
 temperature on the experience of beer drinking. During the summer I keep my IPA
