@@ -131,7 +131,7 @@ gdjs.InputManager.prototype.getMouseY = function() {
 
 /**
  * Should be called whenever a mouse button is pressed
- * @param {number} buttonCode The mouse button code associated to the event. 
+ * @param {number} buttonCode The mouse button code associated to the event.
  * See gdjs.InputManager.MOUSE_LEFT_BUTTON, gdjs.InputManager.MOUSE_RIGHT_BUTTON, gdjs.InputManager.MOUSE_MIDDLE_BUTTON
  */
 gdjs.InputManager.prototype.onMouseButtonPressed = function(buttonCode) {

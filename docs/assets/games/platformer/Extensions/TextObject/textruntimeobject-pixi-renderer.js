@@ -69,7 +69,7 @@ gdjs.TextRuntimeObjectPixiRenderer.prototype.updateStyle = function() {
     style.dropShadowAngle = this._object._shadowAngle;
     style.dropShadowDistance = this._object._shadowDistance;
     style.padding = this._object._padding;
-    // Prevent spikey outlines by adding a miter limit 
+    // Prevent spikey outlines by adding a miter limit
     style.miterLimit = 3;
 
     this.updatePosition();
@@ -123,7 +123,7 @@ gdjs.TextRuntimeObjectPixiRenderer.prototype._getGradientHex = function() {
                 this._object._gradient[colorIndex][2]
             )
         );
-    } 
+    }
     return gradient;
 }
 /**

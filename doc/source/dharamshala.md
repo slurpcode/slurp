@@ -24,7 +24,7 @@ auto-rickshaws and taxis for local sightseeing. Motorcycle rentals can be found
 in a few of the tourist booking shops in McLeod. If you love to walk, you can
 also explore some parts of the town on foot also.
 
-### **Things to do in Dharamshala:**
+## **Things to do in Dharamshala:**
 
 **Spiritual healing & Meditation**: Dharamshala - McLeodganj has earned a
 reputation in recent years, nationally and internationally, as the center for
@@ -128,7 +128,9 @@ can book hotel rooms, resorts, homestays from any of the hotel booking sites.
 Several Airbnb options for homestays can also be found for more homely feeling
 and interaction with the locals.
 
-**About the Author**: [Akshay Kapoor](https://www.linkedin.com/in/the-ak), a
+## About The Author
+
+[Akshay Kapoor](https://www.linkedin.com/in/the-ak), a
 Software Engineer and freelancer on a never-ending learning journey; a tech
 savvy who loves to travel and trek to get away from the monotony of daily life
 and fulfil the dearth of adrenaline rush. Apart from travel, having passion for

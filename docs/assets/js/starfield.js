@@ -54,7 +54,7 @@ Starfield.prototype.start = function() {
 	// Start the timer.
 	this.intervalId = setInterval(function() {
 		self.update();
-		self.draw();	
+		self.draw();
 	}, 1000 / this.fps);
 };
 
@@ -70,7 +70,7 @@ Starfield.prototype.update = function() {
 		star.y += dt * star.velocity;
 		// If the star has moved from the bottom of the screen, spawn it at the top.
 		if(star.y > this.height) {
-			this.stars[i] = new Star(Math.random()*this.width, 0, Math.random()*3+1, 
+			this.stars[i] = new Star(Math.random()*this.width, 0, Math.random()*3+1,
 		 	(Math.random()*(this.maxVelocity - this.minVelocity))+this.minVelocity);
 		}
 	}
@@ -95,7 +95,7 @@ Starfield.prototype.draw = function() {
 
 function Star(x, y, size, velocity) {
 	this.x = x;
-	this.y = y; 
+	this.y = y;
 	this.size = size;
 	this.velocity = velocity;
 }

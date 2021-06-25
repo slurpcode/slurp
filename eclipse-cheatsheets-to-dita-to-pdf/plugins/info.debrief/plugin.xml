@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<plugin id="info.debrief"> 
+<plugin id="info.debrief">
   <require plugin="org.dita.pdf2"/>
   <feature extension="dita.conductor.transtype.check" value="debrief"/>
   <feature extension="dita.transtype.print" value="debrief"/>
