@@ -246,7 +246,7 @@
     <xs:any namespace="##any" processContents="lax"/>
   </xs:sequence>
   <xs:attribute name="Id" type="ID" use="optional"/>
-  <xs:attribute name="MimeType" type="string" use="optional"/> <xs:!-- add a grep facet -->
+  <xs:attribute name="MimeType" type="string" use="optional"/>
   <xs:attribute name="Encoding" type="anyURI" use="optional"/>
 </xs:complexType>
 
