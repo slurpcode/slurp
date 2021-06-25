@@ -28,7 +28,7 @@ Amman, which is the capital of Jordan is your destination for night life, countl
 
 And don’t get me started on adventure in Jordan!
 
-Walking the Jordanian trail, it’s a 40 days hiking adventure where you get to hike through 75 villages and cities on more than a 420 Miles walk. Going through The King’s road, you get to experience the most authentic and most beautiful nature in Jordan, from Madaba to Karak and Tafilah, then to Ma’an and finally Aqaba, getting lost in the scenery is guaranteed to anyone taking this road!
+Walking the Jordanian trail, it’s a 40 days hiking adventure where you get to hike through 75 villages and cities on more than a 420 Miles walk. Going through The King’s road, you get to experience the most authentic and most beautiful nature in Jordan, from Madaba to Karak and Tafilah, then to Ma'an and finally Aqaba, getting lost in the scenery is guaranteed to anyone taking this road!
 
 It’s hot in summer, cold in winter and wonderful in the spring, you really don’t want to miss out on visiting this wonderful country!
 

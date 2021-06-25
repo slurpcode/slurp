@@ -109,7 +109,7 @@ are:
 - **Bakes ‘N’ Brews** is a renowned cafe in Dharamshala. It is both a cafe and a
   bakery known for its coffee and good food. It is also known for its warm and
   homely feel.
-- **Tunna’s Café** is a book café where you can sit and enjoy the view of mighty
+- **Tunna's Café** is a book café where you can sit and enjoy the view of mighty
   Himalayas, admire the azure blue sky, can sit for hours, and still never be
   bored, enjoying the beauty of Dharamshala sipping coffee and relish various
   munching options available.
