@@ -12,14 +12,22 @@ Welcome to slurp's documentation!
 
    getting-started.md
    codewars.md
+   git.md
 
 .. toctree::
    :caption: Cities
    :maxdepth: 2
 
    amman.md
+   brisbane.md
    dharamshala.md
+   dubai.md
+   hongkong.md
    istanbul.md
+   melbourne.md
+   moscow.md
+   newcastle.md
+   paris.md
    prescott.md
 
 .. toctree::
@@ -56,6 +64,7 @@ Welcome to slurp's documentation!
 
    activism.md
    australian-army.md
+   ball-aero.md
    cooking.md
    dogs.md
    driving-off-road.md
@@ -81,7 +90,6 @@ Welcome to slurp's documentation!
    flicker-diff.md
    dita-to-pdf-with-eclipse.md
    eclipse-cheatsheets-to-dita-to-pdf.md
-   git.md
    gnu-aspell.md
    go.md
    links.md
@@ -109,6 +117,9 @@ Welcome to slurp's documentation!
    gauss-jordan.md
    fermat.md
    fibonacci.md
+   st-deviation.md
+   statistical-est.md
+   common-errors.md
 
 .. toctree::
    :caption: Python
