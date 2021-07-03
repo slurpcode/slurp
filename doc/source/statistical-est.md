@@ -1,4 +1,4 @@
-# Statistical estimation
+# 🔢 Statistical estimation
 
 Predicting something that is happening or something that has already happened, is ultimately the basis of statistics and is deeply rooted in our daily lives. We can also make estimates around a range of possibilities. When for example we say "I think I can finish this task in about six or seven days", we are already defining a time interval to complete it.
 
