@@ -1,4 +1,4 @@
-# The most common statistical errors used by researchers in their studies
+# ⚠️ The most common statistical errors used by researchers in their studies
 
 Most of the people when applying the statistics for a study or research, in general, they make certain mistakes that we will and we will try to focus on, in order to avoid them.
 
