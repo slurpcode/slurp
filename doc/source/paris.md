@@ -1,4 +1,4 @@
-# Paris
+# 🥖 Paris
 
 We know, COVID-19 had us locked up in homes, so I’d like to take you in a virtual trip to Paris since it’s the main sites people are missing on visiting during these terrible times.
 
