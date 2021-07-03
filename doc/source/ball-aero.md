@@ -1,4 +1,4 @@
-# Ball Aerospace
+# 🔥 Ball Aerospace
 
 Whew! That’s a big subject! In 2016 Ball Aerospace celebrated it’s 60th year of aerospace research and equipment production. Today, approximately 65 years since its founding in 1956, in Boulder, Colorado, Ball Aerospace is huge. In 2014 it was cited as the 88th largest defense contractor in the world. I worked there from 1980 to 1986 in Ball’s primary facility in Boulder, Colorado.
 
