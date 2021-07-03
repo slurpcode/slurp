@@ -1,4 +1,4 @@
-# Newcastle
+# 🦘Newcastle
 
 The second-largest city in New South Wales and the sixth-largest in Australia. It is located at the mouth of the Hunter River. It is known, quite reasonably, as the 'gateway to the Hunter Valley' and certainly is the commercial, administrative and industrial center of the region.
 
