@@ -1,4 +1,4 @@
-# Melbourne
+# ☀️ Melbourne
 
 The city of Melbourne is situated in the southern Australian state of Victoria. Opening out like a fan from the shores of Port Phillip Bay, Melbourne is home to over 4 million residents and regularly features in the top rankings of 'world's most livable cities.
 
