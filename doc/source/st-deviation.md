@@ -1,4 +1,4 @@
-# Standard deviation
+# ➗ Standard deviation
 
 When we speak in statistics of the standard deviation or the standard deviation, it is represented by the Greek letter Sigma σ (in lowercase), as well as by the Latin letter (s) or by its acronym in English SD (Standard Deviation) and is a measure A that quantifies the spread or variation of a data set.
 
