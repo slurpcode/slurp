@@ -1,4 +1,4 @@
-# Moscow
+# 🐗 Moscow
 
 Prepare the Vodka cause we’re about to dive in to Mother Russia!
 
