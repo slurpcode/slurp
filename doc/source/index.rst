@@ -15,6 +15,23 @@ Welcome to slurp's documentation!
    git.md
 
 .. toctree::
+   :caption: Sound
+   :maxdepth: 2
+
+   the-dj.md
+
+.. toctree::
+   :caption: Mathematics
+   :maxdepth: 2
+
+   gauss-jordan.md
+   fermat.md
+   fibonacci.md
+   standard-deviation.md
+   statistical-estimation.md
+   common-errors.md
+
+.. toctree::
    :caption: Cities
    :maxdepth: 2
 
@@ -109,17 +126,6 @@ Welcome to slurp's documentation!
 
    corel-draw.md
    serif-software.md
-
-.. toctree::
-   :caption: Mathematics
-   :maxdepth: 2
-
-   gauss-jordan.md
-   fermat.md
-   fibonacci.md
-   st-deviation.md
-   statistical-est.md
-   common-errors.md
 
 .. toctree::
    :caption: Python
