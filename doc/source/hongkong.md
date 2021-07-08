@@ -1,4 +1,4 @@
-# Hong Kong
+# 🐉 Hong Kong
 
 Hong Kong is located on the southern coast of The Peoples Republic of China. The former British colony consists of three main areas; The New Territories, The Kowloon Peninsula, and Hong Kong Island.
 
