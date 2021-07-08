@@ -1,4 +1,4 @@
-# Brisbane
+# 🪃 Brisbane
 
 Right this moment while you’re just checking out the title of this article and wonder what is it about, I’ll take you all over the beautiful modern city of Brisbane in Australia!
 This specific city holds a great deal to me since my friend John is from there, and he’s officially my favorite Australian friend and can’t say that will be easy to beat!
