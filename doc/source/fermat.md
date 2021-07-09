@@ -215,3 +215,12 @@ be shown on the screen. In fact, the Gaussians can demonstrate the calculations
 in detail and we will be able to realize that in effect, the formula is not
 fulfilled and therefore, Fermat effectively continues to be right in the
 statement of his theorem.
+
+## About The Author
+
+Graduated in Mechanical Engineering, and a master's degree in teaching
+component, I gave classes in several institutes of mathematics and physics, but
+I also dedicated several years of my life as a television producer, I did the
+scripts for mikes, the camera direction, editing of video and even the location.
+Later I was dedicated to SEO writing for a couple of years. I like poetry, chess
+and dominoes.

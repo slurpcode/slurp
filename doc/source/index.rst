@@ -24,9 +24,12 @@ Welcome to slurp's documentation!
    :caption: Mathematics
    :maxdepth: 2
 
+   bayes.md
    gauss-jordan.md
    fermat.md
    fibonacci.md
+   frequentist.md
+   numeral-symbols.md
    standard-deviation.md
    statistical-estimation.md
    common-errors.md
