@@ -29,7 +29,9 @@ Welcome to slurp's documentation!
    fermat.md
    fibonacci.md
    frequentist.md
+   curiosities.md
    numeral-symbols.md
+   probabilities.md
    standard-deviation.md
    statistical-estimation.md
    common-errors.md
