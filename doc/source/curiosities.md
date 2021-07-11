@@ -1,4 +1,4 @@
-# Mathematical curiosities
+# 1️⃣ Mathematical curiosities
 
 ## 1) Kaprekar's constant is a mysterious number
 
