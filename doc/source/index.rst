@@ -15,10 +15,26 @@ Welcome to slurp's documentation!
    git.md
 
 .. toctree::
-   :caption: Sound
+   :caption: Essential Reading
    :maxdepth: 2
 
-   the-dj.md
+   goa.md
+   grunge.md
+   lsd.md
+   60s.md
+   vietnam.md
+
+.. toctree::
+   :caption: Important Reading
+   :maxdepth: 2
+
+   al-karama.md
+   amer.md
+   captian.md
+   omar.md
+   teresa.md
+   al-latrun.md
+   wasfi.md
 
 .. toctree::
    :caption: Mathematics
@@ -35,6 +51,12 @@ Welcome to slurp's documentation!
    standard-deviation.md
    statistical-estimation.md
    common-errors.md
+
+.. toctree::
+   :caption: Sound
+   :maxdepth: 2
+
+   the-dj.md
 
 .. toctree::
    :caption: Cities
