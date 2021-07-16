@@ -1,4 +1,4 @@
-# Probabilities
+# ♾️ Probabilities
 
 The man usually faces certain situations where he does not have a total control
 of his certainty and on many occasions we ask ourselves the probability that an
