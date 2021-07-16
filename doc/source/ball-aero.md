@@ -84,6 +84,8 @@ Check out some of the following references for more details:
 <https://www.dailycamera.com/2021/02/02/balls-boulder-campus-expansion-could-doubleworkforce-to-nearly-2k/>
 <https://choosecolorado.com/success-stories/ball-aerospace/>
 
+![ball_aerospace](_static/images/Ball_Aerospace_Logo.png)
+
 ## About The Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace

@@ -91,6 +91,8 @@ if he never saw eagles fly Rocky Mountain High”
 - <https://www.colorado.com/>
 - <https://en.wikipedia.org/wiki/Denver>
 
+![colorado_logo](_static/images/Colorado_Logo0.png)
+
 ## About the author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace

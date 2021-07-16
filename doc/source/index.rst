@@ -56,6 +56,9 @@ Welcome to slurp's documentation!
    :caption: Sound
    :maxdepth: 2
 
+   acid-house.md
+   acid-trance.md
+   ambient.md
    the-dj.md
 
 .. toctree::

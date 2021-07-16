@@ -60,6 +60,8 @@ No, Democrats are not always right and Republicans are not always wrong, but as
 an ACTIVIST, I MUST speak the TRUTH and THAT is something we ALL need to keep in
 mind and LOOK FOR.
 
+![activism](_static/images/Activism_Logo.png)
+
 ## About The Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace

@@ -65,6 +65,8 @@ to get yourself a cookbook or two and start experimenting. This last paragraph
 is somewhat of a let-down, eh? But entire big, fat books are written on the
 subject because the combinations are endless. Have fun! “Just do it”
 
+![cooking_logo](_static/images/Cooking_Healthy_Meals_Logo0.png)
+
 ## About The Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
