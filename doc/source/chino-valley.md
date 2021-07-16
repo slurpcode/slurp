@@ -81,6 +81,8 @@ Here’s some references:
 - <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Mammals/Pronghorn>
 - <https://en.wikipedia.org/wiki/Chino_Valley,_Arizona>
 
+![chino_logo](_static/images/Chino_Valley_Logo0.png)
+
 ## About The Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
