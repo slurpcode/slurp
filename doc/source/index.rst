@@ -45,7 +45,9 @@ Welcome to slurp's documentation!
    fermat.md
    fibonacci.md
    frequentist.md
+   long-term-behavior-of-markov.md
    curiosities.md
+   markov-chains.md
    numeral-symbols.md
    probabilities.md
    standard-deviation.md
@@ -137,6 +139,7 @@ Welcome to slurp's documentation!
    flicker-diff.md
    dita-to-pdf-with-eclipse.md
    eclipse-cheatsheets-to-dita-to-pdf.md
+   firebase-best-practices.md
    gnu-aspell.md
    go.md
    links.md
