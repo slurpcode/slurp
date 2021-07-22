@@ -6,7 +6,7 @@ Firebase itself, however, is more than just a database. It's a complete product 
 
 ## What is Firebase Cloud Firestore?
 
-The Firebase Cloud Firestore is a NoSQL database provided by Google Firebase. It provides real-time syncing between the cloud database and the client app, it stores data in hierarchical data structures which are documents organized into collections. 
+The Firebase Cloud Firestore is a NoSQL database provided by Google Firebase. It provides real-time syncing between the cloud database and the client app, it stores data in hierarchical data structures which are documents organized into collections.
 
 ## Firestore Best Practices
 
@@ -51,7 +51,7 @@ When we use Firestore to store our app users' data make sure to never save your 
 Firebase Storage allows you to share or store content produced by your users such as images, videos, or even audio files. It is a powerful object storage solution that stands out for its simplicity and cost-efficiency.
 Storage Best Practices
 
-### Add Rules
+### Add Your Rules
 
 Just like securing Firestore Database with rules, we can secure Storage with rules, they are here for a reason, so do add them!
 

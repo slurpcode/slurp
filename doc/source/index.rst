@@ -20,6 +20,7 @@ Welcome to slurp's documentation!
 
    goa.md
    grunge.md
+   iran-kashan-tabatabai-house.md
    lsd.md
    60s.md
    vietnam.md
