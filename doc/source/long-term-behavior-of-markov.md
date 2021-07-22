@@ -123,10 +123,12 @@ Let's go to an example: In a certain region we have the following sequence of at
 
 ![schema](_static/images/long-term/image1.png)
 
+```
 Leaves
-	C	S
-C	1/2	1/3
-S	1/2	2/3
+    C   S
+C   1/2 1/3
+S   1/2 2/3
+```
 
 It reaches
 
