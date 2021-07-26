@@ -1,4 +1,4 @@
-## Steve Irwin, an Australian Legend 
+# 🦘 Steve Irwin, an Australian Legend 
 
 Steve Irwin's life was cut short when he was impaled through the chest by a stingray in 2006 near the Great Barrier Reef but his legacy remains immense, he was a popular television personality, a zookeeper science educator, and a conservationist.  
 
@@ -25,5 +25,3 @@ Like urban for too many. the enormous diversity of life on Earth as a remote abs
 ## About the Author: 
 
 Mujahid Al-Majali, a 29-year-old former air force soldier and an economic development and business specialist, also does translation and copywriting. Loves long drives, chill music and old school movies. A nicotine addict and a huge fan of Jack Daniel’s whiskey. Owned multiple businesses in Amman and southern of Jordan PRE-COVID and now focusing on translation and copywriting part of my experience through Upwork. 
-
- 
