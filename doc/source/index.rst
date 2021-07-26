@@ -36,6 +36,7 @@ Welcome to slurp's documentation!
    teresa.md
    al-latrun.md
    wasfi.md
+   steve-irwin.md
 
 .. toctree::
    :caption: Mathematics
