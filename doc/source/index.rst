@@ -18,11 +18,11 @@ Welcome to slurp's documentation!
    :caption: Essential Reading
    :maxdepth: 2
 
-   60s.md
    goa.md
    grunge.md
    iran-kashan-tabatabai-house.md
    lsd.md
+   60s.md
    vietnam.md
 
 .. toctree::
@@ -30,11 +30,11 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    al-karama.md
-   al-latrun.md
    amer.md
    captian.md
    omar.md
    teresa.md
+   al-latrun.md
    wasfi.md
    steve-irwin.md
 
@@ -43,18 +43,18 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    bayes.md
-   common-errors.md
-   curiosities.md
+   gauss-jordan.md
    fermat.md
    fibonacci.md
    frequentist.md
-   gauss-jordan.md
    long-term-behavior-of-markov.md
+   curiosities.md
    markov-chains.md
    numeral-symbols.md
    probabilities.md
    standard-deviation.md
    statistical-estimation.md
+   common-errors.md
 
 .. toctree::
    :caption: Sound
@@ -137,16 +137,16 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    codewars-scraper.md
+   java-client-with-ibm-system-i.md
+   flicker-diff.md
    dita-to-pdf-with-eclipse.md
    eclipse-cheatsheets-to-dita-to-pdf.md
    firebase-best-practices.md
-   flicker-diff.md
    gnu-aspell.md
    go.md
-   java-client-with-ibm-system-i.md
    links.md
-   rst2md.md
    xml.md
+   rst2md.md
 
 .. toctree::
    :caption: Databases
@@ -167,20 +167,20 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    eclipse-cheatsheets-to-dita-with-python.md
-   flake8.md
-   pylint.md
    python-on-ibm-system-i.md
+   pylint.md
    sphinx.md
+   flake8.md
 
 .. toctree::
    :caption: Ruby
    :maxdepth: 2
 
    built-in-datatypes.md
-   hashcheck.md
    ruby-cheat-sheets.md
-   ruby-strip.md
+   hashcheck.md
    ruby.md
+   ruby-strip.md
    seek.md
    well-formed.md
 
