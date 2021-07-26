@@ -19,7 +19,7 @@ coming after you.
 
 ![beach](_static/images/goa/image1.jpg)
 
-Anjuna and Vagator are relatively relaxed so you could easily sit in Curlies'
+Anjuna and Vagator are realtively relaxed so you could easily sit in Curlies'
 and see the waves come and go while you smoke that blunt. Morjim is yet another
 beautiful beach and somehow doesn't stay crowded. From my personal experience,
 an early-morning session at Morjim would be no less than magical.
