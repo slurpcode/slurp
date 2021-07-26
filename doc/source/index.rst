@@ -33,10 +33,10 @@ Welcome to slurp's documentation!
    amer.md
    captian.md
    omar.md
+   steve-irwin.md
    teresa.md
    al-latrun.md
    wasfi.md
-   steve-irwin.md
 
 .. toctree::
    :caption: Mathematics
