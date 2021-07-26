@@ -22,6 +22,7 @@ The Australia Zoo even manages a 500 plus square mile reserve in the north of Qu
 
 Like urban for too many. the enormous diversity of life on Earth as a remote abstraction something that belongs to another more fantastical world people like urban Jane Goodall and David Attenborough help us appreciate the natural world by bringing it into our homes and selling us on its importance and vulnerability with their care, Wonder, thoughtfulness, and, enthusiasm.  
 
-## About the Author: 
+## About the Author
+
 
 Mujahid Al-Majali, a 29-year-old former air force soldier and an economic development and business specialist, also does translation and copywriting. Loves long drives, chill music and old school movies. A nicotine addict and a huge fan of Jack Daniel’s whiskey. Owned multiple businesses in Amman and southern of Jordan PRE-COVID and now focusing on translation and copywriting part of my experience through Upwork. 
