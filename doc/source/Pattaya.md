@@ -45,6 +45,6 @@ If you like a girl, don’t hesitate, just say “hi” and start a conversation
 Be aware of the many ladyboys in Beach Front, easy to spot because they are very aggressive in trying to “boom boom” you. The typical prices are less than 1.000 baht for short time and 1.500 baht for all night.
 
 
-## About the Author:
+## About the Author
 
 Mujahid Al-Majali, a 29-year-old former air force soldier and an economic development and business specialist, also does translation and copywriting. Loves long drives, chill music and old school movies. A nicotine addict and a huge fan of Jack Daniel’s whiskey. Owned multiple businesses in Amman and southern of Jordan PRE-COVID and now focusing on translation and copywriting part of my experience through Upwork.
