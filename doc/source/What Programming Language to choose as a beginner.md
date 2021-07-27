@@ -10,14 +10,19 @@ Let’s look at the below example for understanding why python is easier to lear
 
 This is how we can print “Hello World” in C++ :
 
-![alt](https://i.imgur.com/VjN2vAB.png)
+![C++](_static/images/c++.jpg)
 
 This is how we can print “Hello World” in Java:
 
-![alt](https://i.imgur.com/5Wn1qcH.png)
+![Java](_static/images/java.jpg)
 
 This is how we can print “Hello World” in Python:
 
-![alt](https://i.imgur.com/YMM2LMq.png)
+![Python](_static/images/python.jpg)
 
 So I am pretty sure you must have made your mind till now that learning python is both easy and beneficial for you.
+
+## About the Author
+
+
+Pulkit Govrani is an aspiring [Web Developer](https://www.upwork.com/freelancers/~01701403d8b0e94e03) who loves to share his knowledge through various blogs and tutorials. He has solved lots of programming problems which has given him enormous amount of learning. Now he is sharing it through various medium.
