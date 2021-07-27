@@ -10,15 +10,15 @@ Let’s look at the below example for understanding why python is easier to lear
 
 This is how we can print “Hello World” in C++ :
 
-![C++](_static/images/What_Programming_Language_Images/c++.jpg)
+![C++](_static/images/What_Programming_Language_Images/c++.png)
 
 This is how we can print “Hello World” in Java:
 
-![Java](_static/images/What_Programming_Language_Images/java.jpg)
+![Java](_static/images/What_Programming_Language_Images/java.png)
 
 This is how we can print “Hello World” in Python:
 
-![Python](_static/images/What_Programming_Language_Images/python.jpg)
+![Python](_static/images/What_Programming_Language_Images/python.png)
 
 So I am pretty sure you must have made your mind till now that learning python is both easy and beneficial for you.
 
