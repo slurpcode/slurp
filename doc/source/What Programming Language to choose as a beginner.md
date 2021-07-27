@@ -1,4 +1,4 @@
-**What Programming Language to choose as a beginner?**  
+## What Programming Language to choose as a beginner?  
 
 According to me you should choose python over any other language if you are just starting to learn programming. Let me tell you the reasons that why should you choose it.  
 
