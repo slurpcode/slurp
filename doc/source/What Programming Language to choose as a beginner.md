@@ -7,16 +7,16 @@ choose it.
 Python was developed around 1980s as a language which can be more readable,
 intuitive and easily. It has a pretty easy syntax (syntax means the way how a
 programming language is written). Python does a lot of complex functions inside
-it to make things easier for the user.  
+it to make things easier for the user.
 It can be used in Machine Learning, Data Science and Web development as well. So
 it can be termed as an allrounder programming language. Let’s look at the below
 example for understanding why python is easier to learn.
 
-This is how we can print “Hello World” in C++ :  
-![C++](_static/images/What_Programming_Language_Images/c++.png)  
-This is how we can print “Hello World” in Java:  
+This is how we can print “Hello World” in C++ :
+![C++](_static/images/What_Programming_Language_Images/c++.png)
+This is how we can print “Hello World” in Java:
 ![Java](_static/images/What_Programming_Language_Images/java.png) This is how we
-can print “Hello World” in Python:  
+can print “Hello World” in Python:
 ![Python](_static/images/What_Programming_Language_Images/python.png)
 
 So I am pretty sure you must have made your mind till now that learning python
