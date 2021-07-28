@@ -34,7 +34,7 @@ to study a third foreign language and it can be German or Spanish.
 French, there is a preparatory period including one year of linguistics training
 but if you are a linguistics student, the preparatory period includes two years
 of linguistics training. ![image6](_static/images/gsu/image6.jpeg) There are 5
-faculties and 12 programs in the university.  
+faculties and 12 programs in the university.
 ![image7](_static/images/gsu/image7.png) In order to be accepted to the
 university, you have 3 options. The university accepts 50% of its students from
 the entrance exams, 25% from Galatasaray High School and the other 25% from
