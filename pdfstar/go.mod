@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	github.com/gin-contrib/sse v0.1.0
-	github.com/gin-gonic/gin v1.7.2
+	github.com/gin-gonic/gin v1.7.3
 	github.com/go-playground/validator/v10 v10.6.1 // indirect
 	github.com/golang/protobuf v1.5.2
 	github.com/json-iterator/go v1.1.11 // indirect
