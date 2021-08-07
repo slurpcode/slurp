@@ -1,4 +1,4 @@
-﻿# 🏝️ Pattaya 
+﻿# 🏝️ Pattaya
 
 is a city on the East Coast of the Gulf of Thailand about 100 kilometers south-east of Bangkok, It is a place that has beautiful temples, stunning beaches and so many activities to get involved in, making it a great place to visit.
 
@@ -6,11 +6,11 @@ A quiet fishing village as recently as the 1960s, this city has it all, whether 
 
 Here are some of the best sites to visit if you’re into good old tourism where you like stuff such as ancient sites, beaches, and other activities normal tourists do, cause you know, this is Pattaya after all, and if you no nothing about what it’s famous for, you gonna wait till the end of this article to figure it out!
 
-- The Sanctuary of Truth 
+- The Sanctuary of Truth
 
 is located in the Naklua area of Pattaya, a small way out of town on a spectacular piece of coastline with a great view. Built entirely of wood, the detail and craftsmanship that has gone into the temple is simply breathtaking.
 
-Ornate carvings and sculptures are based on traditional Buddhist and Hindu symbols, and the high peak of the building reaches an impressive 105 meters. 
+Ornate carvings and sculptures are based on traditional Buddhist and Hindu symbols, and the high peak of the building reaches an impressive 105 meters.
 
 - Coral Island
 
