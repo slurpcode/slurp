@@ -79,7 +79,7 @@ Welcome to slurp's documentation!
    moscow.md
    newcastle.md
    paris.md
-   Pattaya.md
+   pattaya.md
    prescott.md
 
 .. toctree::
