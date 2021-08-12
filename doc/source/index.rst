@@ -121,10 +121,12 @@ Welcome to slurp's documentation!
    dogs.md
    driving-off-road.md
    first-australian-task-force.md
+   gsu.md
    casino-gaming.md
    pc-maintenance.md
    pizza.md
    silversmith.md
+   what-programming-language.md
    working-out.md
 
 .. toctree::
