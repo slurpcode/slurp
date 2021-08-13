@@ -18,7 +18,8 @@ Welcome to slurp's documentation!
    :caption: Essential Reading
    :maxdepth: 2
 
-   goa.md
+   cocaine.md
+   goa-and-the-stuff.md
    grunge.md
    iran-kashan-tabatabai-house.md
    lsd.md
@@ -63,6 +64,9 @@ Welcome to slurp's documentation!
    acid-house.md
    acid-trance.md
    ambient.md
+   goa.md
+   hardcore.md
+   house.md
    the-dj.md
 
 .. toctree::
@@ -115,6 +119,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    activism.md
+   australian-actors.md
    australian-army.md
    ball-aero.md
    cooking.md
