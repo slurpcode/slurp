@@ -1,4 +1,4 @@
-# Goa
+# 🎵 Goa
 
 "Strange style, many also dispute its self-existence, saying that it is a sub-genre of trance. It once undoubtedly started as a sub-genre, but by the end of the 1990s, it had moved so far away from its "mother" that, despite the musical similarities, we could speak of a truly independent style. There are also obvious Indian influences in appearance - even the name of genre refers to the former Portuguese colony.
 

@@ -1,4 +1,4 @@
-# Hardcore
+# 🎸 Hardcore
 
 "Hardcore is rooted in the 1970s and early 1980s industrial music, specifically the elements of hard electronic dance music. Groups such as Throbbing Gristle, Coil, Cabaret Voltaire, SPK, Foetus and Einstürzende Neubauten produced music using a wide range of electronic instruments. The message diffused by industrial was then very provocative. Some of the musical sounds and experimentation of industrial have directly influenced hardcore since the beginning of the movement."
 

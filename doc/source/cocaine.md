@@ -1,4 +1,4 @@
-# Cocaine
+# 💊 Cocaine
 
 Also known as coke is a stimulatory drug mostly used for recreational use and commonly snorted but can be smoked and/or injected.
 
