@@ -21,7 +21,6 @@ Welcome to slurp's documentation!
    cocaine.md
    goa-and-the-stuff.md
    grunge.md
-   iran-kashan-tabatabai-house.md
    lsd.md
    60s.md
    vietnam.md
@@ -38,6 +37,13 @@ Welcome to slurp's documentation!
    teresa.md
    al-latrun.md
    wasfi.md
+
+.. toctree::
+   :caption: Persia
+   :maxdepth: 2
+
+   persepolis.md
+   iran-kashan-tabatabai-house.md
 
 .. toctree::
    :caption: Mathematics
