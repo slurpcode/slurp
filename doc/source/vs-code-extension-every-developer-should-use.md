@@ -22,7 +22,7 @@ As the name suggests this extension gives you many JavaScript code snippets thus
 
 ## 4. Bracket Pair Colorizer:
 
-This is one of the personal favourite extensions of mine. It includes simple functioning i.e, it maches starting and ending brackets in vs code which eventually helps you to resolve the errors faster.
+This is one of the personal favourite extensions of mine. It includes simple functioning i.e, it matches starting and ending brackets in vs code which eventually helps you to resolve the errors faster.
 
 I think these much are extensions are enough for you to explore after this blog. I hope i am helping the community through this blog.
 
