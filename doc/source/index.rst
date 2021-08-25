@@ -161,6 +161,7 @@ Welcome to slurp's documentation!
    links.md
    xml.md
    rst2md.md
+   vs-code-extension-every-developer-should-use.md
 
 .. toctree::
    :caption: Databases
