@@ -21,7 +21,7 @@ This is how we can print “Hello World” in Python:
 
 ![Python](_static/images/What_Programming_Language_Images/python.png)
 
-So I am pretty sure you must have made your mind till now that learning python
+So I am pretty sure you must have made your mind till now that learning Python
 is both easy and beneficial for you.
 
 ## About the Author
