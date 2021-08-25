@@ -16,7 +16,7 @@ We can open the live server by right clicking on the mouse while VS Code is runn
 Prettier is a code formatting extension therefore it helps you to clean and format the code automatically.
 It does the work everytime whenever someone saves the work in VS code and therefore reduces the time of formatting. It is very useful whenever a team is working on some project as it leads to better and clear understanding of the code.
 
-## 3. Javascript Code Snippets:
+## 3. JavaScript Code Snippets:
 
 As the name suggests this extension gives you many javascript code snippets thus reducing time to setup the code. It provides different types of ES6 Snippets including arrays, DOM manipulation, etc.
 
