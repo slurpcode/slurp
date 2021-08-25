@@ -6,7 +6,7 @@ Visual studio code is a text editor which is open source i.e, free to use and it
 VS Code’s simplicity and easy to use features makes itself favourite choice for the developers. It has a feature through which you can install the extensions according to your needs. Therefore these extensions are also open source and are made by the developers for the community.  
 Here are some of the extensions which are going to increase your productivity as a developer:
 
-##  1. Live Server:
+## 1. Live Server:
 
 This is an extension which makes a local server enabling the user to see all the characterstics of the app. It works perfectly for both dynamic and static web pages.
 We can open the live server by right clicking on the mouse while VS Code is running behind and then selecting the Open with Live Server option.
