@@ -6,7 +6,7 @@ Visual studio code is a text editor which is open source i.e, free to use and it
 is made by microsoft. VS Code’s simplicity and easy to use features makes itself
 favourite choice for the developers. It has a feature through which you can
 install the extensions according to your needs. Therefore these extensions are
-also open source and are made by the developers for the community.  
+also open source and are made by the developers for the community.
 Here are some of the extensions which are going to increase your productivity as
 a developer:
 
