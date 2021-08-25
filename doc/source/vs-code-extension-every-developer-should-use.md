@@ -18,7 +18,7 @@ It does the work everytime whenever someone saves the work in VS code and theref
 
 ## 3. JavaScript Code Snippets:
 
-As the name suggests this extension gives you many javascript code snippets thus reducing time to setup the code. It provides different types of ES6 Snippets including arrays, DOM manipulation, etc.
+As the name suggests this extension gives you many JavaScript code snippets thus reducing time to setup the code. It provides different types of ES6 Snippets including arrays, DOM manipulation, etc.
 
 ## 4. Bracket Pair Colorizer:
 
