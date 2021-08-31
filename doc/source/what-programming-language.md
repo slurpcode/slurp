@@ -10,16 +10,18 @@ programming language is written). Python does a lot of complex functions inside
 it to make things easier for the user. It can be used in Machine Learning, Data
 Science and Web development as well. So it can be termed as an allrounder
 programming language. Let’s look at the below example for understanding why
-python is easier to learn.
+Python is easier to learn.
 
 This is how we can print “Hello World” in C++ :
 ![C++](_static/images/What_Programming_Language_Images/c++.png) This is how we
 can print “Hello World” in Java:
+
 ![Java](_static/images/What_Programming_Language_Images/java.png) This is how we
 can print “Hello World” in Python:
+
 ![Python](_static/images/What_Programming_Language_Images/python.png)
 
-So I am pretty sure you must have made your mind till now that learning python
+So I am pretty sure you must have made your mind till now that learning Python
 is both easy and beneficial for you.
 
 ## About the Author
