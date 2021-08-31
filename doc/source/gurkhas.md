@@ -75,7 +75,8 @@ Sources:
 * nam.ac.uk
 
 
-**Written by cheesecake from Slurp Discord Server**
+# About the Author
+ Ayush Rana (aka cheesecake) a Front End Engineer and Graphics Designer from Kathmandu, Nepal loves travelling,trekking, writing softwares and sports. He is currently working as a Contractor Software Engineer at Dryhurst Corp, Illinois. 
 
 
 

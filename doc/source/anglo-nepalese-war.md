@@ -93,5 +93,6 @@ The British never had the intention to destroy either the existence or the indep
 ![Bhimsen Thapa's troops, right, at Segauli, 1816, with India Pattern Brown Bess muskets and chupi bayonets.](https://en.wikipedia.org/wiki/Anglo-Nepalese_War#/media/File:Sugauli_treaty.jpg)
 
 
-**Written by cheesecake from Slurp Discord Server**
+# About the Author
+ Ayush Rana (aka cheesecake) a Front End Engineer and Graphics Designer from Kathmandu, Nepal loves travelling,trekking, writing softwares and sports. He is currently working as a Contractor Software Engineer at Dryhurst Corp, Illinois. 
 
