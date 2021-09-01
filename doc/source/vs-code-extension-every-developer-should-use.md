@@ -1,4 +1,4 @@
-# :boom: Top 4 VS Code extensions every developer should use
+# 🎇 Top 4 VS Code extensions every developer should use
 
 ## What is VS Code?
 
