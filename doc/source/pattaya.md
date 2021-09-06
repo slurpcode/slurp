@@ -1,4 +1,4 @@
-﻿# 🏝️ Pattaya
+# 🏝️ Pattaya
 
 is a city on the East Coast of the Gulf of Thailand about 100 kilometers south-east of Bangkok, It is a place that has beautiful temples, stunning beaches and so many activities to get involved in, making it a great place to visit.
 

@@ -1,3 +1,6 @@
+# https://github.com/DavidAnson/markdownlint#rules--aliases
+# markdownlint -c .github/linters/.markdown-lint.yml .
+
 # MD001/heading-increment/header-increment
 MD001: false
 
