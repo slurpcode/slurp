@@ -13,7 +13,7 @@ that our data is extended over a more extended range of values.
 It is important to note that the median is calculated by adding all the data we
 have and dividing it by the number of data.
 
-![image1](_static\images\deviation\image1.jpg)
+![image1](_static/images/deviation/image1.jpg)
 
 ## General considerations
 
@@ -62,7 +62,7 @@ that is represented in the sample (it is the same).
 Generally, if we take a 95% confidence interval, half its width will be
 approximately equal to twice the standard deviation.
 
-![image2](_static\images\deviation\image2.jpg)
+![image2](_static/images/deviation/image2.jpg)
 
 Many scientific researchers consider the standard deviation from experimental
 data, and only those effects that are twice the standard deviation away from
@@ -71,7 +71,7 @@ statistically significant. This is how they distinguish common variation in
 measurements, or normal random error, from truly genuine and significant
 effects.
 
-![image3](_static\images\deviation\image3.jpeg)
+![image3](_static/images/deviation/image3.jpeg)
 
 When it comes to finance, the standard deviation is also an important indicator,
 since the rate of return on any investment uses this deviation to give you an
@@ -86,7 +86,7 @@ Let's go with an example to clarify the above:
 
 A math teacher after an exam obtained the following results:
 
-![image4](_static\images\deviation\image4.jpg)
+![image4](_static/images/deviation/image4.jpg)
 
 04, 17, 09, 10, 12, 05, 15, 14, 11, 10
 
