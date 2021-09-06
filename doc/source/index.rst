@@ -86,6 +86,7 @@ Welcome to slurp's documentation!
    dharamshala.md
    dubai.md
    hongkong.md
+   ibiza.md
    istanbul.md
    melbourne.md
    moscow.md

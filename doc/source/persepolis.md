@@ -14,7 +14,7 @@ Iran.
 
 - <https://en.m.wikipedia.org/wiki/Persepolis>
 
-## About The Author
+## About the Author
 
 John Bampton is a Founder, CTO and Lead programmer. John loves reading, teaching
 for free and GitHub. John's goal in life is to spread freedom and street smarts.
