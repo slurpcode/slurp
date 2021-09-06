@@ -2,17 +2,16 @@
 
 ## Collaboration with Discord Servers, GitHub, Free Education Gamified
 
-My good friend `Max` and mainly myself promote free education and we
-heavily use both Discord and GitHub for mass collaboration. We find
-younger developers come from the Windows 10 environment where paid software
-tools are common. Paid software is extremely expensive and even more
-so for users in poorer countries where GDP is lower.
+My good friend `Max` and mainly myself promote free education and we heavily use
+both Discord and GitHub for mass collaboration. We find younger developers come
+from the Windows 10 environment where paid software tools are common. Paid
+software is extremely expensive and even more so for users in poorer countries
+where GDP is lower.
 
-[GNU](https://www.gnu.org/) is a Unix-like operating system.
-Open Source is more about collaboration than code. GNU is completely
-free software and the GNU OS kernel Hurd started before the Linux
-kernel in 1984. These days there are many alternatives to paid
-software and GNU has a plethora of tools that are all free.
+[GNU](https://www.gnu.org/) is a Unix-like operating system. Open Source is more
+about collaboration than code. GNU is completely free software and the GNU OS
+kernel Hurd started before the Linux kernel in 1984. These days there are many
+alternatives to paid software and GNU has a plethora of tools that are all free.
 
 ## Popular GNU Software
 
