@@ -1,8 +1,8 @@
 # 🆓 GNU Freedom
 
-GNU is a Unix-like operating system. Open Source is more about
-collaboration than code. GNU is completely free software and the
-GNU OS kernel Hurd started before the Linux kernel in 1984.
+GNU is a Unix-like operating system. Open Source is more about collaboration
+than code. GNU is completely free software and the GNU OS kernel Hurd started
+before the Linux kernel in 1984.
 
 ## Popular GNU Software
 
