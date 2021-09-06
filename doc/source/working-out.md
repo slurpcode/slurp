@@ -46,6 +46,8 @@ will always feel better after my workout. Every single time....... And the
 strangest thing of all is that I seem to hear better after a workout (I have
 severe hearing loss). Who would have thought?
 
+![Working Out](_static/images/working-out/working-out-logo.jpg)
+
 ## About The Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace

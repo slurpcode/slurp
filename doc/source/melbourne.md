@@ -79,7 +79,7 @@ part of my experience through Upwork.
 
 References:
 
-<https://en.wikipedia.org/wiki/Melbourne>
+- <https://en.wikipedia.org/wiki/Melbourne>
 - <https://www.melbourne.vic.gov.au/Pages/home.aspx>
 - <https://www.unimelb.edu.au/>
 - <https://www.visitmelbourne.com/>
