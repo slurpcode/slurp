@@ -13,6 +13,7 @@ Welcome to slurp's documentation!
    getting-started.md
    codewars.md
    git.md
+   gnu.md
 
 .. toctree::
    :caption: Essential Reading
@@ -39,13 +40,6 @@ Welcome to slurp's documentation!
    wasfi.md
 
 .. toctree::
-   :caption: Persia
-   :maxdepth: 2
-
-   persepolis.md
-   iran-kashan-tabatabai-house.md
-
-.. toctree::
    :caption: Mathematics
    :maxdepth: 2
 
@@ -62,6 +56,14 @@ Welcome to slurp's documentation!
    standard-deviation.md
    statistical-estimation.md
    common-errors.md
+
+.. toctree::
+   :caption: Persia
+   :maxdepth: 2
+
+   persepolis.md
+   irans-best-wrestlers.md
+   iran-kashan-tabatabai-house.md
 
 .. toctree::
    :caption: Sound

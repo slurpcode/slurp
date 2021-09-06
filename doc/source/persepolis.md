@@ -6,7 +6,7 @@ complex which was the ceremonial center of the acient empire.
 In 330 BC Alexander the Great destroyed Persepolis. In recent times there has
 been efforts to rebuild and restore some of the amazing columns, buildings,
 carved reliefs and even the original staircase built by Darius. Giant carved
-bulls stand guard flanked alongside the entryway.
+bearded bull like men stand guard flanked alongside an entryway.
 
 Persepolis was the capital of the Achaemenid Empire (c. 550–330 BC) in the
 plains of Marvdasht which are surrounded by the southern Zagros mountains of
