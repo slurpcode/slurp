@@ -88,6 +88,7 @@ Welcome to slurp's documentation!
    hongkong.md
    ibiza.md
    istanbul.md
+   las-vegas.md
    melbourne.md
    moscow.md
    newcastle.md

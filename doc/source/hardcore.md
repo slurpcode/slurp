@@ -21,7 +21,7 @@ coming out with something harder and more menacing, in much the same way The
 Beatles wanted to make a harder record than The Who so they came up with Helter
 Skelter. And then a year later Black Sabbath came out with Paranoid."
 
-![hardcore](doc/source/_static/images/hardcore/hardcore.jpg)
+![hardcore](_static/images/hardcore/hardcore.jpg)
 
 "The original hardcore usually starts at 150 BPM, and the sky is the limit. The
 pace is amazing, and if we add the armada of various distortions, larsen's
