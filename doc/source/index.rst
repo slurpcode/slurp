@@ -61,8 +61,8 @@ Welcome to slurp's documentation!
    :caption: Persia
    :maxdepth: 2
 
-   persepolis.md
    irans-best-wrestlers.md
+   persepolis.md
    iran-kashan-tabatabai-house.md
 
 .. toctree::
