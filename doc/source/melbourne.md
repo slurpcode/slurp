@@ -52,10 +52,10 @@ Peek into the lives of the newcomers who helped shape Melbourne's culture at the
 Immigration Museum. Then taste the cuisines they introduced to Australia in
 famous food strips like Lygon Street and Acland Street.
 
-Just a short roll from the pâtisseries of Acland Street is Luna Park, the bayside
-fun-fair that's been putting a smile on Melbourne since 1912. Take a ride on one
-of the world's oldest roller coasters, but be sure to let those pastries settle
-first!
+Just a short roll from the pâtisseries of Acland Street is Luna Park, the
+bayside fun-fair that's been putting a smile on Melbourne since 1912. Take a
+ride on one of the world's oldest roller coasters, but be sure to let those
+pastries settle first!
 
 From St Kilda, follow the boardwalk south to where the true giants of Melbourne
 architecture await -the Bathing Boxes of Brighton Beach.
@@ -80,6 +80,5 @@ part of my experience through Upwork.
 References:
 
 <https://en.wikipedia.org/wiki/Melbourne>
-<https://www.melbourne.vic.gov.au/Pages/home.aspx>
-<https://www.unimelb.edu.au/>
+<https://www.melbourne.vic.gov.au/Pages/home.aspx> <https://www.unimelb.edu.au/>
 <https://www.visitmelbourne.com/>
