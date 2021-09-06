@@ -1,6 +1,6 @@
 # 🎇 What Programming Language to choose as a beginner?
 
-According to me you should choose python over any other language if you are just
+According to me you should choose Python over any other language if you are just
 starting to learn programming. Let me tell you the reasons that why should you
 choose it.
 
@@ -13,13 +13,13 @@ programming language. Let’s look at the below example for understanding why
 Python is easier to learn.
 
 This is how we can print “Hello World” in C++ :
-![C++](_static/images/What_Programming_Language_Images/c++.png) This is how we
+![C++](_static/images/what-programming-language-images/c++.png) This is how we
 can print “Hello World” in Java:
 
-![Java](_static/images/What_Programming_Language_Images/java.png) This is how we
+![Java](_static/images/what-programming-language-images/java.png) This is how we
 can print “Hello World” in Python:
 
-![Python](_static/images/What_Programming_Language_Images/python.png)
+![Python](_static/images/what-programming-language-images/python.png)
 
 So I am pretty sure you must have made your mind till now that learning Python
 is both easy and beneficial for you.
@@ -29,5 +29,5 @@ is both easy and beneficial for you.
 Pulkit Govrani is an aspiring
 [Web Developer](https://www.upwork.com/freelancers/~01701403d8b0e94e03) who
 loves to share his knowledge through various blogs and tutorials. He has solved
-lots of programming problems which has given him enormous amount of learning.
+lots of programming problems which has given him an enormous amount of learning.
 Now he is sharing it through various medium.
