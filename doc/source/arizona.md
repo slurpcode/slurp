@@ -82,7 +82,7 @@ RESOURCES - Check these websites for more information on Arizona:
 - <https://en.wikipedia.org/wiki/Navajo_Nation>
 - <https://www.mapsofworld.com/usa/states/arizona/>
 
-![arizona](_static/images/Arizona_Logo.png)
+![arizona](_static/images/arizona/arizona.png)
 
 ## About The Author
 

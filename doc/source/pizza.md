@@ -45,6 +45,8 @@ it, Buffalo sauce. Add some little green onion slices, and you have pure bliss
 in your mouth, IN MY OPINION. You can find the PBC here:
 <https://www.prescottbrewingcompany.com/> ENJOY!
 
+![Pizza is everything](_static/images/pizza/pizza-logo.png)
+
 ## About The Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
