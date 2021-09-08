@@ -49,6 +49,8 @@ PC has multiple calendars available, but some are better than others. In
 summary, BE CAREFUL and get that BACKUP program (and external storage) and use
 it OFTEN!
 
+![PC Maintenance](_static/images/pc-maintenance/pc-maintenance.png)
+
 ## About The Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
