@@ -149,6 +149,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    downton-abbey.md
+   law-and-order.md
 
 .. toctree::
    :caption: General Technical Content
