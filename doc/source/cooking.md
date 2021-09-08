@@ -65,7 +65,7 @@ to get yourself a cookbook or two and start experimenting. This last paragraph
 is somewhat of a let-down, eh? But entire big, fat books are written on the
 subject because the combinations are endless. Have fun! “Just do it”
 
-![cooking_logo](_static/images/cooking-healthy-meals/cooking-healthy-meals.png)
+![Cooking Healthy Meals](_static/images/cooking-healthy-meals/cooking-healthy-meals.png)
 
 ## About The Author
 
