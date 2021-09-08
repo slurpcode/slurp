@@ -117,6 +117,13 @@ Welcome to slurp's documentation!
    colorado.md
 
 .. toctree::
+   :caption: Databases
+   :maxdepth: 2
+
+   database.md
+   sql-file.md
+
+.. toctree::
    :caption: Drinks
    :maxdepth: 2
 
@@ -140,16 +147,9 @@ Welcome to slurp's documentation!
    casino-gaming.md
    pc-maintenance.md
    pizza.md
+   rick-grimes.md
    silversmith.md
-   what-programming-language.md
    working-out.md
-
-.. toctree::
-   :caption: Television
-   :maxdepth: 2
-
-   downton-abbey.md
-   law-and-order.md
 
 .. toctree::
    :caption: General Technical Content
@@ -167,13 +167,7 @@ Welcome to slurp's documentation!
    xml.md
    rst2md.md
    vs-code-extension-every-developer-should-use.md
-
-.. toctree::
-   :caption: Databases
-   :maxdepth: 2
-
-   database.md
-   sql-file.md
+   what-programming-language.md
 
 .. toctree::
    :caption: Graphic Design
@@ -203,6 +197,13 @@ Welcome to slurp's documentation!
    ruby-strip.md
    seek.md
    well-formed.md
+
+.. toctree::
+   :caption: Television
+   :maxdepth: 2
+
+   downton-abbey.md
+   law-and-order.md
 
 Indices and tables
 ==================

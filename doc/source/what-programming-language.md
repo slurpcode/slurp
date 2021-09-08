@@ -1,8 +1,8 @@
 # 🎇 What Programming Language to choose as a beginner?
 
-According to me you should choose Python over any other language if you are just
-starting to learn programming. Let me tell you the reasons that why should you
-choose it.
+According to myself Pulkit Govrani, you should choose Python over any other
+language if you are just starting to learn programming. Let me tell you the
+reasons that why should you choose it.
 
 Python was developed around 1980s as a language which can be more readable,
 intuitive and easily. It has a pretty easy syntax (syntax means the way how a
