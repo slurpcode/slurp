@@ -50,7 +50,9 @@ links that I used in researching this article:
 
 ENJOY! Seriously, but not too much!
 
-![beer_logo](_static/images/Beer_Logo0b.png)
+## Logo
+
+![Beer Logo](_static/images/beer/beer-logo.png)
 
 ## About The Author
 
