@@ -44,9 +44,11 @@ entertainment that you get.
 
 You might even meet other people whose company you enjoy, people who enjoy
 activities other than gambling. Hey, maybe you can all go water skiing, bowling,
-or something…..
+or something...
 
-![casino_logo](_static/images/Casino_Gaming_Logo0.png)
+## Logo
+
+![casino_logo](_static/images/casino-gaming/casino-gaming-logo.png)
 
 ## About The Author
 

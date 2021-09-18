@@ -30,7 +30,7 @@ Sex tourism! It remains a sizeable chunk of Thailand’s overall tourism trade, 
 
 The red-light district is covered in various go-go bars, each featuring dancers in varying stages of undress performing for the crowd. After sitting down at a bar, it’s typical for women to join you and ask for “lady drinks”, though this isn’t something you’re obliged to get involved in and it’s fine to tell them no. Baccara A Go Go is one of the most popular bars on the strip, along with Airport Club, where guests can enjoy regular shows by dancers on their stages. Alcatraz is also a popular bar and, in keeping with its name and the atmosphere of the city, features prison cells and handcuffs that can really get pulses racing.
 
-![Pattaya](_static/images/Pattaya.jpg)
+![Pattaya](_static/images/pattaya/pattaya.jpg)
 
 All along walking street, you’ll meet hundreds of people enticing you into their venues, whether it’s for harmless fun, transgender shows or bars, or with something a little smuttier in mind. Much like on Khaosan Road in Bangkok, you’ll meet people offering to take you to all manner of shows, such as the infamous “pingpong show”, which can get irritating but it’s to be expected in such a place. Many massage shops are also quick to offer the “happy endings” that are often joked about at home.
 
