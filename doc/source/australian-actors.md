@@ -74,7 +74,7 @@ the decline of the Mayan civilization and was filmed in Yucatec Maya language
 with subtitles. The film, which featured an Indigenous cast of Mexican and
 Native American actors, was critically acclaimed and a box office success.
 
-![image2](_static/images/australian-actors/image2.jpg)
+![Mel Gibson and Danny Glover](_static/images/australian-actors/mel-gibson-and-danny-glover.jpg)
 
 Nicole Kidman? With a long list of awards, honors and achievements in her kitty
 including the Australia's top civil honor the Companion of the Order of
