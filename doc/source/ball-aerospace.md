@@ -84,6 +84,8 @@ Check out some of the following references for more details:
 - <https://www.dailycamera.com/2021/02/02/balls-boulder-campus-expansion-could-doubleworkforce-to-nearly-2k/>
 - <https://choosecolorado.com/success-stories/ball-aerospace/>
 
+## Logo
+
 ![Ball Aerospace](_static/images/ball-aerospace/ball-aerospace-logo.png)
 
 ## About The Author
