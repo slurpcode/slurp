@@ -72,6 +72,7 @@ Welcome to slurp's documentation!
    acid-house.md
    acid-trance.md
    ambient.md
+   big-beat.md
    goa.md
    hardcore.md
    house.md
