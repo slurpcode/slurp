@@ -14,7 +14,7 @@ that users report a feeling of being physically tired when using the drug when
 in fact pure cocaine actually produces a very energetic effect.
 
 Feeling pleasure motivates us to repeat behaviors, when the reward circuit is
-activated, Each individual cell on the circuit release electrical and chemical
+activated, each individual cell on the circuit release electrical and chemical
 signals, the small gap between the sending and receiving cells is called the
 synapse.
 
@@ -24,8 +24,8 @@ onward within the cell. Some dopamine molecules re-enter the sending cell via
 dopamine transporters and can be re-released.
 
 When a reward is encountered the presynaptic cell releases a larger amount of
-dopamine in a sudden burst. dopamine transporters will then quickly remove the
-excess. dopamine surges in response to natural rewards help the brain learn and
+dopamine in a sudden burst. Dopamine transporters will then quickly remove the
+excess. Dopamine surges in response to natural rewards help the brain learn and
 adapt to a complex world.
 
 However, drugs are able to hijack this process contributing to unhealthy
@@ -94,6 +94,8 @@ huge fan of Jack Daniel’s whiskey. Owned multiple businesses in Amman and
 southern of Jordan PRE-COVID and now focusing on translation and copywriting
 part of my experience through Upwork.
 
-Resources: <https://www.drugabuse.gov/publications/drugfacts/cocaine>
-<https://www.webmd.com/mental-health/addiction/cocaine-use-and-its-effects>
-<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851032/>
+## Resources
+
+- <https://www.drugabuse.gov/publications/drugfacts/cocaine>
+- <https://www.webmd.com/mental-health/addiction/cocaine-use-and-its-effects>
+- <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851032/>
