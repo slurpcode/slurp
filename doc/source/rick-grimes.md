@@ -76,7 +76,7 @@ wrong.” The key division in life isn’t between folks that make mistakes and
 other people who don’t, it’s between those that learn from them and people who
 are too stubborn, foolish, or proud to try and do so.
 
-About the Author
+## About the Author
 
 Mujahid Al-Majali, a 29-year-old former air force soldier and an economic
 development and business specialist, also does translation and copywriting.
