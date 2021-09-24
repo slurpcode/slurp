@@ -1,4 +1,4 @@
-# Sheriff Rick Grimes is an Idiot
+# ⚖️ Sheriff Rick Grimes is an Idiot
 
 Sheriff Rick Grimes, the lead character, is a fuckin moron. Millions of fans are
 on #TeamGrimes and cheering for Rick.

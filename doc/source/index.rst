@@ -139,7 +139,7 @@ Welcome to slurp's documentation!
    activism.md
    australian-actors.md
    australian-army.md
-   ball-aero.md
+   ball-aerospace.md
    cooking.md
    dogs.md
    driving-off-road.md
