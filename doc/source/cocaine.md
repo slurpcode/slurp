@@ -98,4 +98,4 @@ part of my experience through Upwork.
 
 - <https://www.drugabuse.gov/publications/drugfacts/cocaine>
 - <https://www.webmd.com/mental-health/addiction/cocaine-use-and-its-effects>
-- <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851032/
+- <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2851032/>
