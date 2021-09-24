@@ -37,12 +37,12 @@ The remnants of Big Beat went on to something even more unforgiveable."
 
 You can find more details about its formation and development on Ishkur's Guide
 to Electronic Music, and you can listen to big beat tracks right away.
-http://music.ishkur.com/?query=BigBeat
+<http://music.ishkur.com/?query=BigBeat>
 
 The Every Noise at Once platform provides an opportunity for people to get to
 know better the names of the creators who have ever been in the genre and thus
 the peculiarities of it.
-https://everynoise.com/everynoise1d.cgi?root=big%20beat&scope=all
+<https://everynoise.com/everynoise1d.cgi?root=big%20beat&scope=all>
 
 Sources :
 
