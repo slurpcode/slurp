@@ -23,6 +23,7 @@ Welcome to slurp's documentation!
    goa-and-the-stuff.md
    grunge.md
    lsd.md
+   queen-rhapsody.md
    60s.md
    vietnam.md
 
