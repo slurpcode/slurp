@@ -62,6 +62,10 @@ and its varied attractions and statistics:
 - <https://www.visit-prescott.com/>
 - <https://www.tripadvisor.com/Tourism-g31323-Prescott_Arizona-Vacations.html>
 
+## Logo
+
+![Prescott, AZ](_static/images/prescott/prescott.jpg)
+
 ## About The Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace

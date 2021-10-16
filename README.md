@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -252,6 +252,10 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://aleksandarjakovljevic.com/"><img src="https://avatars.githubusercontent.com/u/2115393?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aleksandar Jakovljevic</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ajakov" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/basalumutgazi"><img src="https://avatars.githubusercontent.com/u/81925269?v=4?s=100" width="100px;" alt=""/><br /><sub><b>basalumutgazi</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=basalumutgazi" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/soummyaah"><img src="https://avatars.githubusercontent.com/u/6349692?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Soumya Sharma</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=soummyaah" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/pulkitgovrani"><img src="https://avatars.githubusercontent.com/u/56475062?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pulkitgovrani</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=pulkitgovrani" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/HadeerAIA"><img src="https://avatars.githubusercontent.com/u/66886721?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hadeer_Elfiky</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=HadeerAIA" title="Documentation">📖</a></td>
   </tr>
 </table>
 

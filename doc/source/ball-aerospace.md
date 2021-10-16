@@ -79,12 +79,14 @@ which we are surrounded today.
 
 Check out some of the following references for more details:
 
-<https://en.wikipedia.org/wiki/Ball_Aerospace_%26_Technologies>
-<https://www.ball.com/aerospace>
-<https://www.dailycamera.com/2021/02/02/balls-boulder-campus-expansion-could-doubleworkforce-to-nearly-2k/>
-<https://choosecolorado.com/success-stories/ball-aerospace/>
+- <https://en.wikipedia.org/wiki/Ball_Aerospace_%26_Technologies>
+- <https://www.ball.com/aerospace>
+- <https://www.dailycamera.com/2021/02/02/balls-boulder-campus-expansion-could-doubleworkforce-to-nearly-2k/>
+- <https://choosecolorado.com/success-stories/ball-aerospace/>
 
-![ball_aerospace](_static/images/Ball_Aerospace_Logo.png)
+## Logo
+
+![Ball Aerospace](_static/images/ball-aerospace/ball-aerospace-logo.png)
 
 ## About The Author
 

@@ -70,9 +70,11 @@ tons of torque, lets me use the clutch at very low RPMs and the result is that
 after over 165,000 miles, I’m still on my original clutch. Can you tell? I
 really like my Jeep. Here’s a couple of pretty places I’ve been.
 
-![Driving off road 1](_static/images/driving-1.png)
+![Driving off road 1](_static/images/driving/driving-1.png)
 
-![Driving off road 2](_static/images/driving-2.png)
+![Driving off road 2](_static/images/driving/driving-2.png)
+
+![Driving off road logo](_static/images/driving/driving-off-road.jpg)
 
 ## About The Author
 
