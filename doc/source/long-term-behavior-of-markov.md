@@ -32,8 +32,7 @@ but associated with the eigenvalue λ = 1 and it is also a probability vector.
 
 Let's suppose that we have a Markov chain with a transition matrix P, we can
 define a stationary vector as a probability vector X that fulfills the condition
-git 
-PX = X.
+git PX = X.
 
 We must take into account that a stationary vector is an eigenvalue vector of P
 but that it is associated with the eigenvalue λ = 1.
