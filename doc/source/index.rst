@@ -13,15 +13,17 @@ Welcome to slurp's documentation!
    getting-started.md
    codewars.md
    git.md
+   gnu.md
 
 .. toctree::
    :caption: Essential Reading
    :maxdepth: 2
 
-   goa.md
+   cocaine.md
+   goa-and-the-stuff.md
    grunge.md
-   iran-kashan-tabatabai-house.md
    lsd.md
+   queen-rhapsody.md
    60s.md
    vietnam.md
 
@@ -33,6 +35,7 @@ Welcome to slurp's documentation!
    amer.md
    captian.md
    omar.md
+   steve-irwin.md
    teresa.md
    al-latrun.md
    wasfi.md
@@ -56,12 +59,25 @@ Welcome to slurp's documentation!
    common-errors.md
 
 .. toctree::
+   :caption: Persia
+   :maxdepth: 2
+
+   irans-best-wrestlers.md
+   persepolis.md
+   iran-kashan-tabatabai-house.md
+
+.. toctree::
    :caption: Sound
    :maxdepth: 2
 
    acid-house.md
    acid-trance.md
    ambient.md
+   big-beat.md
+   goa.md
+   hardcore.md
+   house.md
+   progressive.md
    the-dj.md
 
 .. toctree::
@@ -73,12 +89,14 @@ Welcome to slurp's documentation!
    dharamshala.md
    dubai.md
    hongkong.md
+   ibiza.md
    istanbul.md
+   las-vegas.md
    melbourne.md
    moscow.md
    newcastle.md
    paris.md
-   Pattaya.md
+   pattaya.md
    prescott.md
 
 .. toctree::
@@ -102,6 +120,13 @@ Welcome to slurp's documentation!
    colorado.md
 
 .. toctree::
+   :caption: Databases
+   :maxdepth: 2
+
+   database.md
+   sql-file.md
+
+.. toctree::
    :caption: Drinks
    :maxdepth: 2
 
@@ -114,23 +139,20 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    activism.md
+   australian-actors.md
    australian-army.md
-   ball-aero.md
+   ball-aerospace.md
    cooking.md
    dogs.md
    driving-off-road.md
    first-australian-task-force.md
+   gsu.md
    casino-gaming.md
    pc-maintenance.md
    pizza.md
+   rick-grimes.md
    silversmith.md
    working-out.md
-
-.. toctree::
-   :caption: Television
-   :maxdepth: 2
-
-   downton-abbey.md
 
 .. toctree::
    :caption: General Technical Content
@@ -147,13 +169,8 @@ Welcome to slurp's documentation!
    links.md
    xml.md
    rst2md.md
-
-.. toctree::
-   :caption: Databases
-   :maxdepth: 2
-
-   database.md
-   sql-file.md
+   vs-code-extension-every-developer-should-use.md
+   what-programming-language.md
 
 .. toctree::
    :caption: Graphic Design
@@ -183,6 +200,13 @@ Welcome to slurp's documentation!
    ruby-strip.md
    seek.md
    well-formed.md
+
+.. toctree::
+   :caption: Television
+   :maxdepth: 2
+
+   downton-abbey.md
+   law-and-order.md
 
 Indices and tables
 ==================

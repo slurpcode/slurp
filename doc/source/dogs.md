@@ -47,6 +47,8 @@ www.blackbeltdogtraining.com/articles and download and read “Bringing Home You
 New Dog”. It’s a great starting place for you and your new friend! There are
 many other articles as well that can be very helpful. Enjoy!
 
+![Dogs](_static/images/dogs/dogs.jpg)
+
 ## About The Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace

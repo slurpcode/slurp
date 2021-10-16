@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-29-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -251,16 +251,14 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://www.upwork.com/freelancers/~013dd1f9db3380689d"><img src="https://avatars.githubusercontent.com/u/81928799?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mujahid Al-Majali</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=Majalian" title="Documentation">📖</a></td>
     <td align="center"><a href="https://aleksandarjakovljevic.com/"><img src="https://avatars.githubusercontent.com/u/2115393?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aleksandar Jakovljevic</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ajakov" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/basalumutgazi"><img src="https://avatars.githubusercontent.com/u/81925269?v=4?s=100" width="100px;" alt=""/><br /><sub><b>basalumutgazi</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=basalumutgazi" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/soummyaah"><img src="https://avatars.githubusercontent.com/u/6349692?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Soumya Sharma</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=soummyaah" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/pulkitgovrani"><img src="https://avatars.githubusercontent.com/u/56475062?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pulkitgovrani</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=pulkitgovrani" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/HadeerAIA"><img src="https://avatars.githubusercontent.com/u/66886721?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hadeer_Elfiky</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=HadeerAIA" title="Documentation">📖</a></td>
   </tr>
 </table>
 
-[DiscordBadge]: https://img.shields.io/discord/834373930692116531?label=Discord&logo=discord&logoColor=white
-[PatreonBadge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Donelanguage%26type%3Dpledges
-[SponsorBadge]: https://camo.githubusercontent.com/da8bc40db5ed31e4b12660245535b5db67aa03ce/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d53706f6e736f72266d6573736167653d254532253944254134266c6f676f3d476974487562
-[TwitterBadge]: https://twitter.com/onelangteam
-[DiscordUrl]: https://discord.gg/sFCE2HcMCa
-[PatreonUrl]: https://patreon.com/onelanguage
-[TwitterUrl]: https://img.shields.io/twitter/follow/onelangteam.svg?style=flatl&label=Follow&logo=twitter&logoColor=white&color=1da1f2
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
@@ -269,3 +267,11 @@ Thanks goes to these wonderful people
 This project follows the
 [all-contributors](https://github.com/all-contributors/all-contributors)
 specification. Contributions of any kind welcome!
+
+[DiscordBadge]: https://img.shields.io/discord/834373930692116531?label=Discord&logo=discord&logoColor=white
+[PatreonBadge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Donelanguage%26type%3Dpledges
+[SponsorBadge]: https://camo.githubusercontent.com/da8bc40db5ed31e4b12660245535b5db67aa03ce/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d53706f6e736f72266d6573736167653d254532253944254134266c6f676f3d476974487562
+[TwitterBadge]: https://twitter.com/onelangteam
+[DiscordUrl]: https://discord.gg/sFCE2HcMCa
+[PatreonUrl]: https://patreon.com/onelanguage
+[TwitterUrl]: https://img.shields.io/twitter/follow/onelangteam.svg?style=flatl&label=Follow&logo=twitter&logoColor=white&color=1da1f2

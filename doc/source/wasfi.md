@@ -7,7 +7,7 @@ Jordanians with sincerity, dedication and the achievement of civilizational
 achievements that are respected and appreciated by all Jordanians without
 exception.
 
-![wasfi](_static/images/wasfi/image1.jpeg)
+![Wasfi](_static/images/wasfi/image1.jpeg)
 
 We remember the late Wasfi al-Tal, who had the white hands in accomplishing
 dozens of civilized projects. In his first government in 1962, the establishment
