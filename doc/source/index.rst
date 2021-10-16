@@ -77,7 +77,6 @@ Welcome to slurp's documentation!
    goa.md
    hardcore.md
    house.md
-   progressive.md
    the-dj.md
 
 .. toctree::
