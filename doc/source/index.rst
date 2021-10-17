@@ -78,6 +78,7 @@ Welcome to slurp's documentation!
    hardcore.md
    house.md
    the-dj.md
+   nu-school-breaks.md
 
 .. toctree::
    :caption: Cities
