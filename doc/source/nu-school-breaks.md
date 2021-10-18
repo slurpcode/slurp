@@ -16,7 +16,7 @@ The term "nu skool breaks" is widely attributed to Rennie Pilgrem and Adam
 Freeland, who used it to describe the sound at their night
 Friction, which was launched at Bar Rumba in 1996, with promoter Ian Williams.
 
-![Adam Freeland (Beatport)](_static/images/schoolbreaks/a1.png) ![Rennie Pilgrem(Last.fm)](_static/images/schoolbreaks/a3.png)
+![Adam Freeland (Beatport)](_static/images/schoolbreaks/a1.png) ![Rennie Pilgrem(Last.fm)](_static/images/schoolbreaks/a2.png)
 
 
 The tracks "Renegades" by Uptown Connection and "Double Impact" by
