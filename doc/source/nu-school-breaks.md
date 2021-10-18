@@ -9,7 +9,7 @@ electro, and drum and bass.
 Typically, tracks ranged between 125 and 140 beats per minute (bpm), often
 featuring a dominant bass line. In contrast with big beat, another subgenre of
 breakbeat, the sound set consisted less of hip hop samples and acid-type sounds,
- instead emphasizing dancefriendliness and "new" sounds produced by modern
+ instead emphasizing dance-friendliness and "new" sounds produced by modern
  production techniques using synthesizers, effect processors, and computers.
 
 The term "nu skool breaks" is widely attributed to Rennie Pilgrem and Adam
