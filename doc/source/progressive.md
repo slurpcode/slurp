@@ -1,4 +1,5 @@
 # 🎶 Progressive
+
 The progressive marker was used to distinguish the works of performers experimenting with a fusion of jazz and rock in the late
 1960s, and the first techno producers in Detroit and Chicago in the 1980s.
 In the electronic music scene, the word progressive refers both to the gradual construction that can be observed in the recordings and
