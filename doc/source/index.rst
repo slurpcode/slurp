@@ -45,6 +45,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    bayes.md
+   Determination_coefficient.md
    gauss-jordan.md
    fermat.md
    fibonacci.md
@@ -77,6 +78,7 @@ Welcome to slurp's documentation!
    goa.md
    hardcore.md
    house.md
+   progressive.md
    the-dj.md
 
 .. toctree::
