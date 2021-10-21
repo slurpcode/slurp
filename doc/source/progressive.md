@@ -49,6 +49,7 @@ been in the genre and thus the peculiarities of it.
 - Every Noise at Once
 
 ## About the Author
+
 "Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical
 expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional
 musicians. His devotion to movie sounds shows in his art - widosub's music is filled with landscapes of emotions, dramatic twists and
