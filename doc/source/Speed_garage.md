@@ -8,12 +8,7 @@ A widely regarded pioneer of the speed garage sound is record producer, DJ and r
 
 Speed Garage differs from regular Garage in its affections for Jamaican culture and cliches. Not actual Jamaica, of course, but Jamaican transplants in England (this is a UK genre after all). Dancehall call and responses, gun shots and other stock reggae sound effects, and of course that stupid bassline which sounds like the school teacher in the Charlie Brown cartoons scolding one of the Peanuts kids for his inability to spit, sing and gargle at the same time.  
 
-<td> 
-    <img src="https://djmag.com/sites/default/files/styles/djmag_landscape__691x372_/public/article/image/1_9nHfeL4m1ABnwwtcEMUHHA.jpeg?itok=yTclVyI7" 
-    style='width:700px;height:400px;'/>
-    <p style='text-align: left;'> <i>[Armand van Helden (Dj Mag)]</i><br></p>
-</td>
-
+![Armand van Helden (Dj Mag)](https://djmag.com/sites/default/files/styles/djmag_landscape__691x372_/public/article/image/1_9nHfeL4m1ABnwwtcEMUHHA.jpeg?itok=yTclVyI7)
 
 Some like to point to the 1994 track George Morel - Let's Groove as the originator of the dumb bassline, but he was using the Reese bass -- a rolling bassline that was a big thing in Darkstep at the time -- in a high register for some reason. So you can call that the first Speed Garage track if you like. The Electronic Music Standards and Classifications Consortium will not penalize you for it.
 
