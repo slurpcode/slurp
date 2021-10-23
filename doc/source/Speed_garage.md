@@ -1,3 +1,5 @@
+#  Speed garage
+
 Speed garage (occasionally known as plus-8) is a genre of electronic dance music, associated with the UK garage scene.
 
 Speed garage features sped-up NY garage 4-to-the-floor rhythms that are combined with breakbeats. Snares are placed as over the 2nd and the 4th kickdrums, so in other places of the drum pattern. Speed garage tunes have warped, heavy basslines, influenced by jungle and reggae. Sweeping bass is typical for speed garage. It is also typical for speed garage tunes to have a breakdown. Speed garage tunes sometimes featured timestretched vocals. As it is heavily influenced by jungle, speed garage makes heavy use of jungle and dub sound effects, such as gunshots and sirens.
