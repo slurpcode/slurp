@@ -62,9 +62,11 @@ Welcome to slurp's documentation!
    :caption: Persia
    :maxdepth: 2
 
+   persian-farsi.md
    irans-best-wrestlers.md
    persepolis.md
    iran-kashan-tabatabai-house.md
+   iran-shiraz-shapouri-house.md
 
 .. toctree::
    :caption: Sound
