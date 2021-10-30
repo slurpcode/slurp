@@ -5,7 +5,7 @@ sphinx:
   configuration: doc/source/conf.py
 
   # If using Sphinx, optionally build your docs in additional formats such as PDF
-formats:
+formats: all
 
 python:
   install:
