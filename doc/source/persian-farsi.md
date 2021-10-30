@@ -13,6 +13,10 @@ Areas with Persian-speakers as mother tongue
 
 Map showing the presence of Persian speakers in the countries of the world by shades of blue
 
+![An Old Persian inscription written in Old Persian cuneiform in Persepolis, Iran](_static/images/Perspolis_Inscription.jpg)
+
+An Old Persian inscription written in Old Persian cuneiform in Persepolis, Iran
+
 ## About The Author
 
 ...
