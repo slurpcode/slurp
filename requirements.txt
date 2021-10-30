@@ -4,12 +4,8 @@ lxml
 matplotlib
 pandas
 pylint
-recommonmark
 requests
 scrapy
 seaborn
-sphinx
-sphinx-intl
-sphinx_rtd_theme
 virtualenv
 yamllint
