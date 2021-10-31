@@ -69,13 +69,6 @@ Welcome to slurp's documentation!
    iran-shiraz-shapouri-house.md
 
 .. toctree::
-   :musical_keyboard: Music
-   :maxdepth: 2
-
-   trance.md
-   trip-hop.md
-
-.. toctree::
    :caption: Sound
    :maxdepth: 2
 
@@ -86,6 +79,8 @@ Welcome to slurp's documentation!
    goa.md
    hardcore.md
    house.md
+   trance.md
+   trip-hop.md
    the-dj.md
    nu-school-breaks.md
 
