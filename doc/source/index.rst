@@ -35,7 +35,6 @@ Welcome to slurp's documentation!
    amer.md
    captian.md
    omar.md
-   steve-irwin.md
    teresa.md
    al-latrun.md
    wasfi.md
@@ -156,6 +155,7 @@ Welcome to slurp's documentation!
    pizza.md
    rick-grimes.md
    silversmith.md
+   steve-irwin.md
    working-out.md
 
 .. toctree::
