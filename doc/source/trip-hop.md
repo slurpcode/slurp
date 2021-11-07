@@ -1,4 +1,4 @@
-# Trip Hop
+# 🎼 Trip Hop
 
 Trip hop (sometimes used synonymously with "downtempo") is a musical genre that originated in the early 1990s in the United Kingdom, especially Bristol. It has been described as "a fusion of hip hop and electronica until neither genre is recognizable", and may incorporate a range of styles, including funk, dub, soul, psychedelia, R&B, and house, as well as other forms of electronic music. Trip hop can be highly experimental and its also known for its melancholic sound..
 
