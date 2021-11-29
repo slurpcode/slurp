@@ -6,7 +6,7 @@ Speed garage features sped-up NY garage 4-to-the-floor rhythms that are combined
 
 A widely regarded pioneer of the speed garage sound is record producer, DJ and remixer Armand van Helden, whose Dark Garage remix of the Sneaker Pimps' "Spin Spin Sugar" in 1996 helped bring the style of speed garage into the mainstream arena.
 
-Speed Garage differs from regular Garage in its affections for Jamaican culture and cliches. Not actual Jamaica, of course, but Jamaican transplants in England (this is a UK genre after all). Dancehall call and responses, gun shots and other stock reggae sound effects, and of course that stupid bassline which sounds like the school teacher in the Charlie Brown cartoons scolding one of the Peanuts kids for his inability to spit, sing and gargle at the same time.  
+Speed Garage differs from regular Garage in its affections for Jamaican culture and cliches. Not actual Jamaica, of course, but Jamaican transplants in England (this is a UK genre after all). Dancehall call and responses, gun shots and other stock reggae sound effects, and of course that stupid bassline which sounds like the school teacher in the Charlie Brown cartoons scolding one of the Peanuts kids for his inability to spit, sing and gargle at the same time.
 
 ![Armand van Helden (Dj Mag)](https://djmag.com/sites/default/files/styles/djmag_landscape__691x372_/public/article/image/1_9nHfeL4m1ABnwwtcEMUHHA.jpeg?itok=yTclVyI7)
 
@@ -29,12 +29,11 @@ The Every Noise at Once platform provides an opportunity for people to get to kn
 
 <ins>Sources:</ins>
 
-\-   MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)<br />
-\-   Wikipedia<br />
-\-   Ishkur's Guide to Electronic Music<br />
-\-   Every Noise at Once<br />
+\- MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)<br />
+\- Wikipedia<br />
+\- Ishkur's Guide to Electronic Music<br />
+\- Every Noise at Once<br />
 
 ## About the author
 
 "Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional musicians. His devotion to movie sounds shows in his art - widosub's music is filled with landscapes of emotions, dramatic twists and melancholic moods. He's one of the hosts of Tilos Rádió's MustBeat show, in which he's is focusing on drum'n'bass and chillout music. He's also one half of the duo Empty Universe."
-
