@@ -1,7 +1,7 @@
 # Slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-33-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -256,6 +256,7 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center"><a href="https://github.com/pulkitgovrani"><img src="https://avatars.githubusercontent.com/u/56475062?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pulkitgovrani</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=pulkitgovrani" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/HadeerAIA"><img src="https://avatars.githubusercontent.com/u/66886721?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hadeer_Elfiky</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=HadeerAIA" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.widosub.com/"><img src="https://avatars.githubusercontent.com/u/86823010?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Guido F. Matis</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=wihub" title="Documentation">📖</a></td>
   </tr>
 </table>
 
