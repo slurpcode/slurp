@@ -1,4 +1,4 @@
-#  Speed garage
+# 🏎️ Speed garage
 
 Speed garage (occasionally known as plus-8) is a genre of electronic dance music, associated with the UK garage scene.
 
