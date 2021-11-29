@@ -1,4 +1,4 @@
-# Nu School Breaks
+# 💔 Nu School Breaks
 
 Nu skool breaks (or nu breaks as it is sometimes referred) is a subgenre of
 breakbeat originating during the period between 1998 and 2002. The style is
