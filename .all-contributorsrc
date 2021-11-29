@@ -323,6 +323,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "wihub",
+      "name": "Guido F. Matis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86823010?v=4",
+      "profile": "https://www.widosub.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
