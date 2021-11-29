@@ -82,6 +82,7 @@ Welcome to slurp's documentation!
    trip-hop.md
    the-dj.md
    nu-school-breaks.md
+   speed-garage.md
 
 .. toctree::
    :caption: Cities
