@@ -79,6 +79,7 @@ Welcome to slurp's documentation!
    hardcore.md
    house.md
    idm.md
+   nu-jazz.md
    nu-school-breaks.md
    speed-garage.md
    techno.md
