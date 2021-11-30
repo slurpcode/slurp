@@ -78,6 +78,7 @@ Welcome to slurp's documentation!
    goa.md
    hardcore.md
    house.md
+   idm.md
    nu-school-breaks.md
    speed-garage.md
    trance.md
