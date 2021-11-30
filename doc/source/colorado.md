@@ -91,7 +91,7 @@ if he never saw eagles fly Rocky Mountain High”
 - <https://www.colorado.com/>
 - <https://en.wikipedia.org/wiki/Denver>
 
-![colorado_logo](_static/images/colorado/colorado.png)
+![Colorado Logo](_static/images/colorado/colorado.png)
 
 ## About the author
 
