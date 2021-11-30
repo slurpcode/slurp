@@ -78,11 +78,12 @@ Welcome to slurp's documentation!
    goa.md
    hardcore.md
    house.md
+   idm.md
+   nu-school-breaks.md
+   speed-garage.md
    trance.md
    trip-hop.md
    the-dj.md
-   nu-school-breaks.md
-   speed-garage.md
 
 .. toctree::
    :caption: Cities
