@@ -81,6 +81,7 @@ Welcome to slurp's documentation!
    idm.md
    nu-school-breaks.md
    speed-garage.md
+   techno.md
    trance.md
    trip-hop.md
    the-dj.md
