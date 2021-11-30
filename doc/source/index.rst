@@ -35,7 +35,6 @@ Welcome to slurp's documentation!
    amer.md
    captian.md
    omar.md
-   steve-irwin.md
    teresa.md
    al-latrun.md
    wasfi.md
@@ -63,9 +62,11 @@ Welcome to slurp's documentation!
    :caption: Persia
    :maxdepth: 2
 
+   persian-farsi.md
    irans-best-wrestlers.md
    persepolis.md
    iran-kashan-tabatabai-house.md
+   iran-shiraz-shapouri-house.md
 
 .. toctree::
    :caption: Sound
@@ -78,7 +79,12 @@ Welcome to slurp's documentation!
    goa.md
    hardcore.md
    house.md
+   idm.md
+   nu-school-breaks.md
    progressive.md
+   speed-garage.md
+   trance.md
+   trip-hop.md
    the-dj.md
 
 .. toctree::
@@ -153,6 +159,7 @@ Welcome to slurp's documentation!
    pizza.md
    rick-grimes.md
    silversmith.md
+   steve-irwin.md
    working-out.md
 
 .. toctree::

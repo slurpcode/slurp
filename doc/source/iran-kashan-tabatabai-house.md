@@ -40,6 +40,6 @@ It is one of the prominent historic houses of Kashan and Iran, together with the
 
 ![Wall of Tabatabei Historical House](https://upload.wikimedia.org/wikipedia/commons/c/ce/%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B2_%D8%AA%D8%B2%D8%A6%DB%8C%D9%86%D8%A7%D8%AA_%D8%AF%DB%8C%D9%88%D8%A7%D8%B1%DB%8C_%D8%AE%D8%A7%D9%86%D9%87_%D8%B7%D8%A8%D8%A7%D8%B7%D8%A8%D8%A7%DB%8C%DB%8C.jpg)
 
-## Author
+## About The Author
 
 ...

@@ -1,4 +1,4 @@
-# Queen Rhapsody
+# 👑 Queen Rhapsody
 
 One of those bands that can be easy to overlook. They’re the kind of band you
 take for granted, because you can't remember a time when they weren't there - so
