@@ -44,6 +44,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    bayes.md
+   determination_coefficient.md
    gauss-jordan.md
    fermat.md
    fibonacci.md
@@ -81,6 +82,7 @@ Welcome to slurp's documentation!
    idm.md
    nu-jazz.md
    nu-school-breaks.md
+   progressive.md
    speed-garage.md
    techno.md
    trance.md
