@@ -44,7 +44,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    bayes.md
-   determination_coefficient.md
+   determination-coefficient.md
    gauss-jordan.md
    fermat.md
    fibonacci.md
