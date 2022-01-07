@@ -1,6 +1,6 @@
 # 🕌 Persian or Farsi
 
-**Persian** is a language which is mostly used in Iran. As you know **Farsi**
+**Persian** is a language which is mostly used in the country of Iran. As you know **Farsi**
 is an alias of Persian.
 
 Which means, Persian and Farsi both are same. Feel free to call it Farsi or

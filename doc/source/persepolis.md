@@ -13,9 +13,3 @@ plains of Marvdasht which are surrounded by the southern Zagros mountains of
 Iran.
 
 - <https://en.m.wikipedia.org/wiki/Persepolis>
-
-## About the Author
-
-John Bampton is a Founder, CTO and Lead programmer. John loves reading, teaching
-for free and GitHub. John's goal in life is to spread freedom and street smarts.
-Coders are $5, Communication is $100 and trust is priceless !!!

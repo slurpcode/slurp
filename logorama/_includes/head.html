@@ -8,10 +8,10 @@
   <meta property="og:image" content="https://logorama.github.io/assets/images/logos/logo-36.png">
   <meta property="og:image" content="https://logorama.github.io/assets/images/logos/logo-52.png">
   <meta property="og:image" content="https://logorama.github.io/assets/images/logos/logo-53.png">
-  <link rel="icon" type="image/gif" href="/assets/images/favicon.ico">
+  <link rel="icon" type="image/gif" href="/slurp/assets/images/favicon.ico">
 
   {%- seo -%}
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/slurp/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
@@ -21,7 +21,7 @@
       $(document).ready(function() {
           window.setInterval(function(){
               var r = Math.floor(Math.random() * 57);
-              $("#logo").attr("src", "/assets/images/logos/logo-"+ r +".png")
+              $("#logo").attr("src", "/slurp/assets/images/logos/logo-"+ r +".png")
           }, 7500);
       });
   </script>

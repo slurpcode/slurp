@@ -80,9 +80,11 @@ Welcome to slurp's documentation!
    hardcore.md
    house.md
    idm.md
+   nu-jazz.md
    nu-school-breaks.md
    progressive.md
    speed-garage.md
+   techno.md
    trance.md
    trip-hop.md
    the-dj.md
