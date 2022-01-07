@@ -1,4 +1,4 @@
-# Determination coefficient
+# 9️ Determination coefficient
 
 The coefficient of determination is that part of the variance that can be explained through linear regression. Its nomenclature is R<sup>2</sup> and its purpose is to be able to reflect how much a model fits to the dependent variable or to which it is intended to explain.
 To find the coefficient of determination we must use the following formula:
