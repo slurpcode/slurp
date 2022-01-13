@@ -2,8 +2,8 @@
 
 ## What is VS Code?
 
-Visual studio code is a text editor which is open source i.e., free to use, and
-it is made by microsoft. VS Code’s simplicity and easy to use features makes
+Visual Studio Code is a text editor which is open source i.e., free to use, and
+it is made by Microsoft. VS Code’s simplicity and easy to use features makes
 itself favourite choice for the developers. It has a feature through which you
 can install the extensions according to your needs. Therefore, these extensions
 are also open source and are made by the developers for the community. Here are
@@ -34,7 +34,7 @@ including arrays, DOM manipulation, etc.
 ## 4. Bracket Pair Colorizer:
 
 This is one of the personal favourite extensions of mine. It includes simple
-functioning i.e, it matches starting and ending brackets in vs code which
+functioning i.e, it matches starting and ending brackets in VS Code which
 eventually helps you to resolve the errors faster.
 
 I think these much are extensions are enough for you to explore after this blog.
