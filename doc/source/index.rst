@@ -89,6 +89,12 @@ Welcome to slurp's documentation!
    trance.md
    trip-hop.md
    the-dj.md
+   
+.. toctree::
+   :caption: Early Instruments
+   :maxdepth: 2
+
+   denis-dor.md
 
 .. toctree::
    :caption: Cities
