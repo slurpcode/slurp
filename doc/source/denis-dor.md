@@ -1,6 +1,6 @@
 # 🎵 Denis D'or
 
-![Denis D’or](_static/images/denis-dor/img.jpg)
+![Prokop Diviš](_static/images/denis-dor/img.jpg)
 
 The Denis D’or, the “Golden Dionysis”, was an early one-off keyboard instrument built by the Czech theologian 
 and pioneer of electrical research Václav Prokop Diviš (1698 – 1765). Described as an ‘orchestrion’ because of its
