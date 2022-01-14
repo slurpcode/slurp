@@ -1,4 +1,4 @@
-# Negative Binomial Distribution
+# ➖ Negative Binomial Distribution
 
 When we refer to probability theory and statistics, this type of negative binomial distribution is of discrete probability and it is important to refer to it as including the Pascal distribution. Also being an extension of a geometric distribution, which is used in processes where it is necessary to repeat the test until a number of favorable cases is achieved, that is, the first success.
 
