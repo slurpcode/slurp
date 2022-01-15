@@ -55,7 +55,7 @@ Let's go with the first example of Poisson distribution: Jorge is a veterinarian
 
 X = No. of pets Jorge receives at his veterinary clinic in one day
 X ~ Poisson (μ)
-μ = 4
+`μ = 4`
 P (X = 3) =?
 F(x) = P(X = x) = (e^(-μ)*μ^x)/x!
 F(3) = P(X = 3) = (e^(-4)*4^3)/3! = 0,1954
