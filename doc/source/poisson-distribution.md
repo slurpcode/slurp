@@ -1,4 +1,4 @@
-# Poisson Distribution
+# 🧮 Poisson Distribution
 
 ## Some History
 
