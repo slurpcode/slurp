@@ -52,6 +52,7 @@ Welcome to slurp's documentation!
    long-term-behavior-of-markov.md
    curiosities.md
    markov-chains.md
+   negative_binomial_distribution.md
    numeral-symbols.md
    probabilities.md
    standard-deviation.md
@@ -88,6 +89,12 @@ Welcome to slurp's documentation!
    trance.md
    trip-hop.md
    the-dj.md
+   
+.. toctree::
+   :caption: Early Instruments
+   :maxdepth: 2
+
+   denis-dor.md
 
 .. toctree::
    :caption: Cities
