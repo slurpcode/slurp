@@ -228,17 +228,17 @@ After knowing what the first digit is, we calculate its frequency of appearance 
 
 The following table was calculated for each of the digits from 1 to 9:
 
- | Digito d      | P(d) | %     |
-| :-----------: | :-----------: | :-----------: |
- | 1      | 0,301       | 30,1   |
- | 2      | 0,176       | 17,6   |
- | 3      | 0,125       | 12,5   |
- | 4      | 0,301       | 9,7   |
- | 5      | 0,301       | 7,9   |
- | 6      | 0,301       | 6,7   |
- | 7      | 0,301       | 5,8   |
- | 8      | 0,301       | 5,1   |
- | 9      | 0,046       | 4,6   |
+| Digito d | P(d)  |  %   |
+| :------: | :---: | :--: |
+|    1     | 0,301 | 30,1 |
+|    2     | 0,176 | 17,6 |
+|    3     | 0,125 | 12,5 |
+|    4     | 0,301 | 9,7  |
+|    5     | 0,301 | 7,9  |
+|    6     | 0,301 | 6,7  |
+|    7     | 0,301 | 5,8  |
+|    8     | 0,301 | 5,1  |
+|    9     | 0,046 | 4,6  |
 
 We are not going to do a complete exercise, why we should handle a very large amount of data, but the calculation itself is very easy to perform.
 
