@@ -23,7 +23,7 @@ The necessary conditions to apply this process are:
 
 4- On the other hand, p and q are independent and also constant in each test.
 
-5- If we determine that X is “the amount of tests that are necessary to achieve x successes or obtain A as a result”, we can then say that X follows a negative binominal distribution whose parameters are p and r.
+5- If we determine that X is “the amount of tests that are necessary to achieve x successes or obtain A as a result”, we can then say that X follows a negative binomial distribution whose parameters are p and r.
 
 6- The nomenclature to use for this type of distribution is:
 
@@ -36,7 +36,7 @@ X = the number of Bernoulli trials required to obtain the ith success
 7- The probability function X is given by:
 ![formula](_static/images/negative_binomial_distribution/formula_1.PNG)
 
-Let's go with the first example of a negative binominal distribution: suppose we have an electronic component whose chance of passing the quality control is 0.9. If we assume that among the results there is independence with respect to quality control and in view that they are different electronic components.
+Let's go with the first example of a negative binomial distribution: suppose we have an electronic component whose chance of passing the quality control is 0.9. If we assume that among the results there is independence with respect to quality control and in view that they are different electronic components.
 
 ![photo](_static/images/negative_binomial_distribution/electronic_man.jpg)
 
@@ -68,7 +68,7 @@ Since they propose to review 5 components, then we must find the probability for
 
 P (x = 5) =?
 
-Let's substitute the values into the negative binominal distribution formula:
+Let's substitute the values into the negative binomial distribution formula:
 ![formula](_static/images/negative_binomial_distribution/formula_2.PNG)
 
 Answer to question 2:
@@ -77,10 +77,10 @@ The question we must ask ourselves mathematically is:
 
 P (x < 5) =?
 
-To find the probability of all variables less than 5, we generally calculate each of the probabilities when x = 1, x = 2, x = 3, x = 4 and add them together. But it is important to take into account that for a binominal distribution x = r, r + 1, r + 2, ..., this implies that x starts from the value r = 3, so in this case P (x <5) only goes to consider the values x = 3 and x = 4, therefore:
+To find the probability of all variables less than 5, we generally calculate each of the probabilities when x = 1, x = 2, x = 3, x = 4 and add them together. But it is important to take into account that for a binomial distribution x = r, r + 1, r + 2, ..., this implies that x starts from the value r = 3, so in this case P (x <5) only goes to consider the values x = 3 and x = 4, therefore:
 ![formula](_static/images/negative_binomial_distribution/formula_3.PNG)
 
-Example 2 of negative binominal distribution: a clinical study is carried out in which the volunteers are analyzed, because they have a variant of a gene that is capable of increasing the risk for a certain disease. The probability is 0.1 for a person to be a carrier and there are two questions:
+Example 2 of negative binomial distribution: a clinical study is carried out in which the volunteers are analyzed, because they have a variant of a gene that is capable of increasing the risk for a certain disease. The probability is 0.1 for a person to be a carrier and there are two questions:
 
 ![photo](_static/images/negative_binomial_distribution/analyzed_lady.jpg)
 
@@ -118,7 +118,7 @@ P (x ≥ 4) = 1 - (0.018 + 0.01) = 0.972
 
 Answer to question 2:
 
-What the second question asks us is to calculate the mathematical expectation or the mean value of the negative binominal distribution and for this we must use the following formula:
+What the second question asks us is to calculate the mathematical expectation or the mean value of the negative binomial distribution and for this we must use the following formula:
 
 ![formula](_static/images/negative_binomial_distribution/formula_5.PNG)
 
@@ -141,7 +141,7 @@ The probabilities both p and q are constant in all the experiments and therefore
 
 X ~ G (p)
 
-5- The same assumptions as the binominal distribution are fulfilled, only that in this case n is not fixed. To see the difference we are going to suppose that we have an expert marksman and we want to know after 10 attempts how many times does he hit the target? In this case we would be facing a binominal distribution since we are establishing the number of attempts, but if we are facing a geometric distribution the question could be in which attempt does the first failure occur? Or in which attempt does the shooter achieve his first hit hitting the target?
+5- The same assumptions as the binomial distribution are fulfilled, only that in this case n is not fixed. To see the difference we are going to suppose that we have an expert marksman and we want to know after 10 attempts how many times does he hit the target? In this case we would be facing a binomial distribution since we are establishing the number of attempts, but if we are facing a geometric distribution the question could be in which attempt does the first failure occur? Or in which attempt does the shooter achieve his first hit hitting the target?
 How to get the amount function
 As we expressed before, the variable x is the amount of tests necessary to obtain the first success. So the random variable will take positive integer values from the number x = (1, 2,…).
 The quantity function is in charge of matching for each value of X the possibility of achieving the first success in the x-th test and for this it will be necessary to use the following formula:
@@ -159,7 +159,7 @@ We now go to the first example of Geometric Distribution: suppose we are in the 
 
 The first thing to observe is that this problem satisfies all the conditions of a geometric distribution: We do not realize that there are only two possibilities: they are to hit the target and obtain a success or failure. Later we observe that each shot is independent, so that if a shot hits or misses this will have nothing to do with another shot being successful or missing and we also realize that the probability of success is constant and the 95%.
 
-As we can see, so far all the conditions of a binominal distribution have been met but they do not specify the number of shots, since all we want to know is the probability that it fails for the first time in its 15th attempt and therefore, this small difference makes that we are in the presence of a geometric distribution.
+As we can see, so far all the conditions of a binomial distribution have been met but they do not specify the number of shots, since all we want to know is the probability that it fails for the first time in its 15th attempt and therefore, this small difference makes that we are in the presence of a geometric distribution.
 
 We can realize that:
 
