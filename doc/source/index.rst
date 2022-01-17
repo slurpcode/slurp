@@ -58,6 +58,7 @@ Welcome to slurp's documentation!
    probabilities.md
    standard-deviation.md
    statistical-estimation.md
+   poisson-distribution.md
    common-errors.md
 
 .. toctree::
