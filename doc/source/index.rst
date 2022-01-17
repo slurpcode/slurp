@@ -43,6 +43,7 @@ Welcome to slurp's documentation!
    :caption: Mathematics
    :maxdepth: 2
 
+   anderson_darling_test.md
    bayes.md
    determination-coefficient.md
    gauss-jordan.md
