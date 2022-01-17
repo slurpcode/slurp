@@ -85,7 +85,7 @@ Welcome to slurp's documentation!
    house.md
    idm.md
    nu-jazz.md
-   nu-school-breaks.md
+   nu-skool-breaks.md
    progressive.md
    speed-garage.md
    techno.md
