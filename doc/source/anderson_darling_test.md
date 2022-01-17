@@ -1,4 +1,4 @@
-# Anderson Darling Test
+# 📉 Anderson Darling Test
 
 This is another of the tests called goodness of fit and based on the normal distribution, it measures the area that exists between the fitted line and the empirical distribution function (based on the data). The Anderson Darling test is measured using a squared distance that has a higher weight, with respect to the tails of the distribution.
 
