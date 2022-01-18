@@ -60,6 +60,7 @@ Welcome to slurp's documentation!
    statistical-estimation.md
    poisson-distribution.md
    common-errors.md
+   block_design.md
 
 .. toctree::
    :caption: Persia
