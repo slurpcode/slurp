@@ -49,6 +49,7 @@ Welcome to slurp's documentation!
    fermat.md
    fibonacci.md
    frequentist.md
+   free-distribution-testing.md
    long-term-behavior-of-markov.md
    curiosities.md
    markov-chains.md
