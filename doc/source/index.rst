@@ -97,6 +97,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    denis-dor.md
+   electromechanical_piano.md
 
 .. toctree::
    :caption: Cities
