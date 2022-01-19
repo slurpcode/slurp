@@ -495,7 +495,10 @@ MSEE =
 
 
 F =
-![\\frac{MSTreat}{MSEE}](https://latex.codecogs.com/png.latex?%5Cfrac%7BMSTreat%7D%7BMSEE%7D "\frac{MSTreat}{MSEE}") = 
+![\\frac{MSTreat}{MSEE}](https://latex.codecogs.com/png.latex?%5Cfrac%7BMSTreat%7D%7BMSEE%7D "\frac{MSTreat}{MSEE}")
+
+=
+
 ![\\frac{1072861,08}{25809,7}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1072861%2C08%7D%7B25809%2C7%7D "\frac{1072861,08}{25809,7}")
 = 41,57
 
