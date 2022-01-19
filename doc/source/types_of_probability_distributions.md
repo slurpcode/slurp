@@ -2,9 +2,9 @@
 
 The primary objective of statistics is to access quantitative knowledge of a certain fraction of reality and that is why it is necessary to build a model of this plot of reality that we want to study. Of course, it is no secret to anyone that reality is always more complex than any model that tries to represent it. However, most of the model formulations that are acceptable to both institutions and users, make it possible to obviate the distance that exists between the model and reality or possible errors.
 
-When a theoretical model is carried out that includes in its formulation, as in most cases, they are reduced to probability functions. As we well know, that probability comes from games of chance and that the impulse of the first investigations regarding the calculation of probabilities (16th century) started from there. 
+When a theoretical model is carried out that includes in its formulation, as in most cases, they are reduced to probability functions. As we well know, that probability comes from games of chance and that the impulse of the first investigations regarding the calculation of probabilities (16th century) started from there.
 
-![photo](_static/images/types_of_probability_distributions/nerd.jpg) 
+![photo](_static/images/types_of_probability_distributions/nerd.jpg)
 
 But it was not until the eighteenth century when probabilities were really implemented from a mathematical perspective, with what was called the "weak law of large numbers", which states that by increasing the amount of evidence it can be concluded that the frequency of an event always tends to a fixed number, which is precisely what is called probability.
 
@@ -15,7 +15,6 @@ In the case that the variable takes values within an interval that are isolated,
 The density function is a way of describing the probability distribution in the case of continuous variables and in the case of discrete variables, it can be very useful to use the mass function and it is the distribution function that represents the cumulative probabilities.
 
 Researchers are concerned with building probability distribution models that are capable of representing the theoretical behavior of those random phenomena that arise in the real world. For the empirical scientist, modeling probability distributions of what is observable is a basic need, since it is through these models or theoretical constructions that it can be experienced in circumstances where reality does not allow it. Models are extremely useful as long as they reflect the reality they are intended to represent or rather predict. The important thing is to exacerbate the most important properties of everything that surrounds us, even if it is through the simplification that every model brings with it.
-
 
 Different types of probability distribution
 
@@ -45,20 +44,19 @@ Probability distributions for discrete variables in a finite domain:
 
 In later articles we will dedicate ourselves to the distributions for continuous variables, but now we will go on to explain in detail with a worked example, the main probability distributions that are used in discrete variables.
 
-
 The Binomial distribution:
 
 Many of the phenomena that occur in real life can be studied as a discrete random variable with binominal distribution, so that this study can be of good practical use.
 
-We now go with a solved exercise of binominal distribution: A study carried out by the association of motorway drivers shows us that 60% of drivers wear seat belts. 
+We now go with a solved exercise of binominal distribution: A study carried out by the association of motorway drivers shows us that 60% of drivers wear seat belts.
 
-![photo](_static/images/types_of_probability_distributions/car.jpg) 
+![photo](_static/images/types_of_probability_distributions/car.jpg)
 
 To check if this statement is true, a sample made up of 10 drivers who circulate on the main highway is selected. But in addition, it is required to know the probability that exactly seven of these drivers wear a seat belt and it is necessary to know the probability that at least 7 of these drivers wear a seat belt.
 
 We can realize that there are only two possible results, since the seat belt is worn or the drivers simply do not wear the seat belt. If the driver wears a seat belt this is a result that we will call "success", otherwise we will call it "failure".
 
-![photo](_static/images/types_of_probability_distributions/success.jpg) 
+![photo](_static/images/types_of_probability_distributions/success.jpg)
 
 According to the information provided by the association of motorway drivers, the probability of success is 60% and as we know the tests are independent, so that if the fifth driver is not wearing a seat belt, this does not mean that the sixth driver is not wearing a seat belt. is using you. Therefore, our random variable is "the number of drivers wearing seatbelts", that is, the number of successes where the number of drivers in the sample is n = 10 and the probability is p = 0, 6.
 
@@ -106,9 +104,9 @@ Let's go as an example of the Bernoulli distribution: Suppose we want to play to
 
 We will consider a success when rolling the grade is obtained a 3 and a failure if any other result is obtained. Since we determine that X is the number of times a 3 is rolled, we know that it can take two values:
 
--	X = 0 when rolling the die does not get a 3
--	X = 1 If we roll the dice and we get a 3
-We are now going to assign the probabilities of obtaining a 3:
+- X = 0 when rolling the die does not get a 3
+- X = 1 If we roll the dice and we get a 3
+  We are now going to assign the probabilities of obtaining a 3:
 
 ![formula](_static/images/types_of_probability_distributions/formula_4.PNG)
 
@@ -228,7 +226,7 @@ This type of distribution ends up being fundamental when we study small samples 
 
 3- The probabilities in the first test are: P (A) = p or P (A) = q; where q = 1 - p and the probabilities of obtaining one or the other result vary in subsequent tests.
 
-4- What is derived from the distribution: If we obtain a number of results “A” that come from n tests, the distribution of the random variable X will be a hypergeometric one whose parameters will be N, n, p and therefore: 
+4- What is derived from the distribution: If we obtain a number of results “A” that come from n tests, the distribution of the random variable X will be a hypergeometric one whose parameters will be N, n, p and therefore:
 
 X ~ H (N, n, p)
 
@@ -240,7 +238,7 @@ Let's establish this mathematically:
 
 There is a total of ![formula](_static/images/types_of_probability_distributions/s_1.PNG) Different ways to get x amount of results of type A and also (nx) results of type A ̅, When we start from a population that is made up of Np amount of elements of type A together with Nq quantity of elements of type A ̅.
 
-On the other hand, when we carry out n quantity of extractions or tests there are a total of ![formula](_static/images/types_of_probability_distributions/s_2.PNG)  groups of n elements of possible samples and if we apply Laplace's rule we will have:
+On the other hand, when we carry out n quantity of extractions or tests there are a total of ![formula](_static/images/types_of_probability_distributions/s_2.PNG) groups of n elements of possible samples and if we apply Laplace's rule we will have:
 
 ![formula](_static/images/types_of_probability_distributions/formula_20.PNG)
 
@@ -264,7 +262,7 @@ This coefficient becomes smaller as the sample size is larger and it can be seen
 
 When we calculate the limit of a hypergeometric distribution in the case that N tends to infinity, we can say that just as we have seen that the mean of this type of hypergeometric distribution takes the same value as the mean calculated in a binominal distribution. We can also say that if the parameter N approaches infinity, the so-called exhaustiveness coefficient tends to 1 and that is why the hypergeometric variance approaches the binomial. In the same way, it can be proved that the quantum function in this case (N → ∞) of the hypergeometric distribution also tends to approximate the quantum function of the binomial distribution.
 
- The mode of a hypergeometric distribution
+The mode of a hypergeometric distribution
 
 In the same way as the mode is obtained in a binominal distribution, we can obtain the mode for a hypergeometric distribution. So the values or the integer value that is verified for the following expression Xo will give us the expected calculation:
 
@@ -338,7 +336,7 @@ In this answer we are not interested in the gender of each one of them, but rath
 
 We can also define the number of letters students of three friends chosen randomly from the total of 14 students. The hypergeometric distribution values will be: N = 14, M = 6 and n = 3
 
-Given the case that Y = 3 this would imply that the three friends study letters, however, in the case that Y = 0 this would not indicate that the three friends study science. 
+Given the case that Y = 3 this would imply that the three friends study letters, however, in the case that Y = 0 this would not indicate that the three friends study science.
 
 The required probability is:
 
@@ -346,4 +344,4 @@ P (study the same) = P (Y = 3) + P (Y = 0) ≅ 0.05495 + 0.15385 ≅ 0.2088
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
