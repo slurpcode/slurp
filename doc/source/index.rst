@@ -162,6 +162,7 @@ Welcome to slurp's documentation!
    australian-army.md
    ball-aerospace.md
    cooking.md
+   cinema-is-considered-as-the-seventh-art.md
    dogs.md
    driving-off-road.md
    first-australian-task-force.md
