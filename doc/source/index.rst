@@ -61,6 +61,7 @@ Welcome to slurp's documentation!
    types_of_probability_distributions.md
    poisson-distribution.md
    common-errors.md
+   block_design.md
 
 .. toctree::
    :caption: Persia
