@@ -20,7 +20,7 @@ equipment, watch and clock mechanisms, Telegraphic time detectors,
 telexes, networked electronic clocks, fire alarms, Microphones,
 Seismographs, electronic Gyroscopes and possibly the first electro-magnetic musical instrument.
 
-![iMatthias Hipp](_static/images/electromechanical_piano/img_1.jpg)
+![Matthias Hipp](_static/images/electromechanical_piano/img_1.jpg)
 
 Hipp described his invention in the 1867 edition of the
 Polytechnisches Journal – Das elektrische Clavier; von M. Hipp,
