@@ -32,7 +32,7 @@ Music was encoded into the paper by cutting variable length perforations – pit
 track for volume. The paper roll traversed over a set of brushes or ‘feathers’ which they made contact through the
 perforations, closed a circuit and triggered the piano hammer mechanism of a standard acoustic piano:
 
-![img_2](_static/images/electromechanical_piano/img_2.jpg)
+![Electromechanical piano](_static/images/electromechanical_piano/img_2.jpg)
 
 “A small instrument serves as a player–machine, in which
 there is a resilient metal tip for each key; these tips rest on
