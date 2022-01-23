@@ -311,7 +311,6 @@ The idea is to test if the median varies from 500 ° F with 95% confidence (α =
 |493.5|-6.5|-|10|
 |505.8|5.8|+|9|
 
-
 The statement of the hypotheses is:
 
 `Ho: Me = 500 ° F`
@@ -414,24 +413,3 @@ The alternative hypothesis is then proved and therefore the null hypothesis is r
 ## About the Author
 
 Graduated in Mechanical Engineering, and a master’s degree in teaching component, I gave classes in several institutes of mathematics and physics, but I also dedicated several years of my life as a television producer, I did the scripts for mikes, the camera direction, editing of video and even the location. Later I was dedicated to SEO writing for a couple of years. I like poetry, chess and dominoes.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
