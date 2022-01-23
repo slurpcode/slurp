@@ -231,6 +231,12 @@ Welcome to slurp's documentation!
    downton-abbey.md
    law-and-order.md
 
+.. toctree::
+   :caption: Movies
+   :maxdepth: 2
+
+   harriet_the_movie.md
+
 Indices and tables
 ==================
 
