@@ -335,7 +335,7 @@ The null hypothesis is rejected if Tcal < T (α, n), and n is the number of data
 
 We do not go to the table that provides the critical values of Wilcoxon for the two-tailed tests and we intersect the values of α = 0.05 and 15:
 
-![chart](_static/images/poisson-distribution/chart5.jpg)
+![chart](_static/images/free-distribution-testing/chart5.jpg)
 
 As we can see, the result of the table is equal to 25 and therefore:
 
@@ -348,7 +348,7 @@ Then the premise is not fulfilled if Tcal < T (α, n), which implies that the nu
 
 The following data shows us the rates of defective work performed by employees, before and after a salary incentive. It is about comparing the two data sets, in order to know if the salary increase decreased the number of defective units produced with a significance level of 0.01.
 
-![worker](_static/images/poisson-distribution/worker.jpg)
+![worker](_static/images/free-distribution-testing/worker.jpg)
 
 |Before (1)|After(2)|
 |:----:|:----:|
@@ -402,7 +402,7 @@ We can then say that the null hypothesis is rejected, when the alternative hypot
 
 To find `T (α, n)` we go to the Table of critical values of the Wilcoxon T test for a single tail, with a significance of 0.01 and a value of n = 10
 
-![chart6](_static/images/poisson-distribution/chart 6.jpg)
+![chart6](_static/images/free-distribution-testing/chart 6.jpg)
 
 By tables we obtain that T (α, n) = 5, if we compare this value with that obtained from the Tcal we have:
 
