@@ -236,6 +236,13 @@ Welcome to slurp's documentation!
 
    harriet_the_movie.md
 
+.. toctree::
+   :caption: Chess
+   :maxdepth: 2
+
+   garry_kasparov_a_chess_player.md
+
+
 Indices and tables
 ==================
 
