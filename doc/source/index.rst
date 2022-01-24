@@ -101,6 +101,8 @@ Welcome to slurp's documentation!
 
    denis-dor.md
    electromechanical_piano.md
+   wireless-organ.md
+
 
 .. toctree::
    :caption: Cities
@@ -165,6 +167,7 @@ Welcome to slurp's documentation!
    australian-army.md
    ball-aerospace.md
    cooking.md
+   cinema-is-considered-as-the-seventh-art.md
    dogs.md
    driving-off-road.md
    first-australian-task-force.md
@@ -230,6 +233,12 @@ Welcome to slurp's documentation!
 
    downton-abbey.md
    law-and-order.md
+
+.. toctree::
+   :caption: Movies
+   :maxdepth: 2
+
+   harriet_the_movie.md
 
 Indices and tables
 ==================
