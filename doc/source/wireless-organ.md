@@ -1,6 +1,7 @@
 # 📡🧠 Wireless Organ
 
 ## Georges Désilets
+
 Georges Désilets was born to farming parents in 1866 in Nicolet, Quebec. As a young adult he joined the
 seminary. By the age of 27 in July of 1893 he was ordained into the ministry. As part of the work of his spiritual
 vocation he began to teach astronomy, chemistry and physics at the seminary. Later he focused his instructional
@@ -9,6 +10,7 @@ scientific and technological pursuits as hobbyists. Supported by a church or par
 well appointed homes, had access to books, and the prime resource of any hobbyist: free time to tinker.
 
 ## First Version
+
 The first version of the instrument had a short drum that delivered a
 1 1/2 octave range, Désilets later attached a 4 octave touch
 sensitive organ keyboard to a much longer spark-drum and attached
@@ -41,6 +43,7 @@ popularity of the vacuum tube by Lee De Forest and others had made his spark-gen
 ## Next topic: Optophonic Piano
 
 ## Sources :
+
 - Wikipedia / 120years.net / Sothismedias
 
 ## About the author:
