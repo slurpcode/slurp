@@ -175,6 +175,7 @@ Welcome to slurp's documentation!
    rick-grimes.md
    silversmith.md
    steve-irwin.md
+   wireless-organ.md
    working-out.md
 
 .. toctree::
