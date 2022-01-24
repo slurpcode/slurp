@@ -1,6 +1,6 @@
 docutils==0.17.1
-recommonmark
 sphinx
 sphinx-intl
 sphinx_rtd_theme
 sphinx-markdown-tables
+myst-parser
