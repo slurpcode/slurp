@@ -3,3 +3,4 @@ recommonmark
 sphinx
 sphinx-intl
 sphinx_rtd_theme
+sphinx-markdown-tables
