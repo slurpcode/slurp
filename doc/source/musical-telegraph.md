@@ -24,7 +24,7 @@ himself and the other to a bathtub; by rubbing his hand on the
 bathtub’s surface he created an audible humming tone
 proportional to the electric current.
 
-![Proffesor Elisha Gray](_static/images/musical-telegraph/proffesor.png)
+![Professor Elisha Gray](_static/images/musical-telegraph/professor.png)
 
 Gray discovered that he could control sound from a self vibrating
 electromagnetic circuit and in doing so invented a basic single
