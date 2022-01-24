@@ -7,8 +7,7 @@ century when it was slowly replaced by other telecommunication systems.
 
 ## Musical Telegraph
 
-One of the first synthesizers that used electricity to generate and transmit sounds. Invented by Elisha Gray in
-1876. (And here we must digress. Elisha Gray also “invented” the telephone, in 1874, but arrived at the U.S.
+One of the first synthesizers that used electricity to generate and transmit sounds. Invented by Elisha Gray in 1876. (And here we must digress. Elisha Gray also “invented” the telephone, in 1874, but arrived at the U.S.
 Patent Office a scant three hours after Alexander Graham Bell did, and thus lost out on the glory. After years of
 lawsuits, Gray’s company, Western Electric, became the sole-source manufacturer of telephones, while Bell’s
 company controlled the transmission lines.)
@@ -55,9 +54,9 @@ Elisha Gray; Patent notes No. 173,618, Feb. 15, 1876.
 - Wikipedia / 120years.net / Sweetwater.com
 
 ## About The Author:
+
 "Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical
 expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional
 musicians. His devotion to movie sounds shows in his art - widosub's music is filled with landscapes of emotions, dramatic twists and
 melancholic moods. He's one of the hosts of Tilos Rádió's MustBeat show, in which he's is focusing on drum'n'bass and chillout
 music. He's also one half of the duo Empty Universe."
-
