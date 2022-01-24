@@ -62,6 +62,7 @@ Welcome to slurp's documentation!
    poisson-distribution.md
    common-errors.md
    block_design.md
+   sampling_methods.md
 
 .. toctree::
    :caption: Persia
