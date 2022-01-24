@@ -100,6 +100,8 @@ Welcome to slurp's documentation!
 
    denis-dor.md
    electromechanical_piano.md
+   wireless-organ.md
+
 
 .. toctree::
    :caption: Cities
