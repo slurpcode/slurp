@@ -100,6 +100,8 @@ Welcome to slurp's documentation!
 
    denis-dor.md
    electromechanical_piano.md
+   wireless-organ.md
+
 
 .. toctree::
    :caption: Cities
@@ -175,7 +177,6 @@ Welcome to slurp's documentation!
    rick-grimes.md
    silversmith.md
    steve-irwin.md
-   wireless-organ.md
    working-out.md
 
 .. toctree::
