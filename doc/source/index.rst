@@ -239,6 +239,12 @@ Welcome to slurp's documentation!
 
    harriet_the_movie.md
 
+.. toctree::
+   :caption: Chess
+   :maxdepth: 2
+
+   bobby-fischer.md
+
 Indices and tables
 ==================
 

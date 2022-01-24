@@ -67,7 +67,7 @@ And then Fischer forfeits the match.
 
 And he's down two-nothing,
 
-![chess](_static/images/chess/chess.jpg)
+![the-game](_static/images/chess/the-game.jpg)
 
 which is pretty messed up. And then finally for the third game Fischer said, look, let's go to a back room with no cameras, please.
 
