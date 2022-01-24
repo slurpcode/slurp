@@ -1,6 +1,6 @@
-
+docutils
+myst-parser
 sphinx
 sphinx-intl
-sphinx_rtd_theme
 sphinx-markdown-tables
-myst-parser
+sphinx_rtd_theme
