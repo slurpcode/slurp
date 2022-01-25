@@ -102,7 +102,7 @@ Welcome to slurp's documentation!
    denis-dor.md
    electromechanical_piano.md
    wireless-organ.md
-
+   jungle_drum_bass.md
 
 .. toctree::
    :caption: Cities
@@ -246,12 +246,6 @@ Welcome to slurp's documentation!
 
    boris_spassky.md
    garry_kasparov_a_chess_player.md
-
-.. toctree::
-   :caption: Music
-   :maxdepth: 2
-
-   jungle_drum_bass.md
 
 Indices and tables
 ==================
