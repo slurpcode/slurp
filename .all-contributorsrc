@@ -332,6 +332,33 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "NurbekHalikulov",
+      "name": "Nurbek Halikulov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52626998?v=4",
+      "profile": "https://github.com/NurbekHalikulov",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Manasi2001",
+      "name": "Manasi Chhibber",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68627617?v=4",
+      "profile": "https://github.com/Manasi2001",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "devnikesh",
+      "name": "Nikesh Shrestha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63302392?v=4",
+      "profile": "https://github.com/devnikesh",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

@@ -43,6 +43,7 @@ Welcome to slurp's documentation!
    :caption: Mathematics
    :maxdepth: 2
 
+   anderson_darling_test.md
    bayes.md
    determination-coefficient.md
    gauss-jordan.md
@@ -52,11 +53,16 @@ Welcome to slurp's documentation!
    long-term-behavior-of-markov.md
    curiosities.md
    markov-chains.md
+   negative_binomial_distribution.md
    numeral-symbols.md
    probabilities.md
    standard-deviation.md
    statistical-estimation.md
+   types_of_probability_distributions.md
+   poisson-distribution.md
    common-errors.md
+   block_design.md
+   sampling_methods.md
 
 .. toctree::
    :caption: Persia
@@ -81,13 +87,23 @@ Welcome to slurp's documentation!
    house.md
    idm.md
    nu-jazz.md
-   nu-school-breaks.md
+   nu-skool-breaks.md
    progressive.md
    speed-garage.md
    techno.md
    trance.md
    trip-hop.md
    the-dj.md
+
+.. toctree::
+   :caption: Early Instruments
+   :maxdepth: 2
+
+   denis-dor.md
+   electromechanical_piano.md
+   musical-telegraph.md
+   wireless-organ.md
+
 
 .. toctree::
    :caption: Cities
@@ -152,6 +168,7 @@ Welcome to slurp's documentation!
    australian-army.md
    ball-aerospace.md
    cooking.md
+   cinema-is-considered-as-the-seventh-art.md
    dogs.md
    driving-off-road.md
    first-australian-task-force.md
@@ -217,6 +234,19 @@ Welcome to slurp's documentation!
 
    downton-abbey.md
    law-and-order.md
+
+.. toctree::
+   :caption: Movies
+   :maxdepth: 2
+
+   harriet_the_movie.md
+
+.. toctree::
+   :caption: Chess
+   :maxdepth: 2
+
+   garry_kasparov_a_chess_player.md
+
 
 Indices and tables
 ==================

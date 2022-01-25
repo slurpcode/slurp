@@ -30,10 +30,10 @@ by the late 90s Clyde Stubblefield's infamous drum break was rarely sampled and
 producers would just re-create it on their own gear with heavy compression,
 distortion, EQ and filtering. But Big Beat's signature sound came from the big
 booming bass kick on the one of every bar -- heavier, thicker, and more
-prominant than the rest of the percussion."
+prominent than the rest of the percussion."
 
 "Big Beat may still be around, but it definitely overdosed on itself after 2000.
-The remnants of Big Beat went on to something even more unforgiveable."
+The remnants of Big Beat went on to something even more unforgivable."
 
 You can find more details about its formation and development on Ishkur's Guide
 to Electronic Music, and you can listen to big beat tracks right away.
