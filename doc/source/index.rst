@@ -62,6 +62,7 @@ Welcome to slurp's documentation!
    poisson-distribution.md
    common-errors.md
    block_design.md
+   sampling_methods.md
 
 .. toctree::
    :caption: Persia
@@ -100,6 +101,7 @@ Welcome to slurp's documentation!
 
    denis-dor.md
    electromechanical_piano.md
+   musical-telegraph.md
    wireless-organ.md
 
 
@@ -243,7 +245,12 @@ Welcome to slurp's documentation!
    :caption: Chess
    :maxdepth: 2
 
+<<<<<<< HEAD
    bobby-fischer.md
+=======
+   garry_kasparov_a_chess_player.md
+
+>>>>>>> 91d3841ea531597250ce148be716fc78b597f4ef
 
 Indices and tables
 ==================
