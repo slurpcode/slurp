@@ -101,6 +101,7 @@ Welcome to slurp's documentation!
 
    denis-dor.md
    electromechanical_piano.md
+   musical-telegraph.md
    wireless-organ.md
    jungle_drum_bass.md
 
