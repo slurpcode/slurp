@@ -1,6 +1,6 @@
 # 👑 Boris Spassky     
 
-![Boris](_static/images/boris_spassky/Boris.jpg)
+![Boris](_static/images/boris_spassky/boris.jpg)
 
 Born on January 30, 1937 in Leningrad (ST Petersburg). He was a child prodigy of chess who had a universal style as he could combine the aggressive style of Mikhail Tal or the prophylaxis game of Petrosian. He learned to play chess at age 5 (his sister was USSR female champion). During the Second World War he and his family had to leave the city. Boris spent several years of his childhood in an orphanage, surrounded by hunger and misery.
 
