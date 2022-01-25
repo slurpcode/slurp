@@ -245,12 +245,9 @@ Welcome to slurp's documentation!
    :caption: Chess
    :maxdepth: 2
 
-<<<<<<< HEAD
    bobby-fischer.md
-=======
    garry_kasparov_a_chess_player.md
 
->>>>>>> 91d3841ea531597250ce148be716fc78b597f4ef
 
 Indices and tables
 ==================
