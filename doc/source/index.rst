@@ -244,8 +244,14 @@ Welcome to slurp's documentation!
    :caption: Chess
    :maxdepth: 2
 
+   boris_spassky.md
    garry_kasparov_a_chess_player.md
 
+.. toctree::
+   :caption: Music
+   :maxdepth: 2
+
+   jungle_drum_bass.md
 
 Indices and tables
 ==================
