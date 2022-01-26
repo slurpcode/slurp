@@ -63,6 +63,7 @@ Welcome to slurp's documentation!
    common-errors.md
    block_design.md
    sampling_methods.md
+   parametric_statistics.md
 
 .. toctree::
    :caption: Persia
