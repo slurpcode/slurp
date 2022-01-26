@@ -86,6 +86,7 @@ Welcome to slurp's documentation!
    hardcore.md
    house.md
    idm.md
+   jungle_drum_bass.md
    nu-jazz.md
    nu-skool-breaks.md
    progressive.md
@@ -103,7 +104,6 @@ Welcome to slurp's documentation!
    electromechanical_piano.md
    musical-telegraph.md
    wireless-organ.md
-   jungle_drum_bass.md
 
 .. toctree::
    :caption: Cities
