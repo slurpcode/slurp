@@ -47,7 +47,7 @@ We are going to calculate each of the columns of a table with the data that we w
 We will fill the first column with the first part of the formula which is: (2i-1).
 
 In the second column we will place the data from our observations with the number of students per classroom, but in order from least to greatest and we will call it Y<sub>i</sub>.
-While the third column (Y<sub>n+1-i</sub>)  will be made up of the same data as the second column, but ordered from highest to lowest, that is, in reverse order.
+While the third column (Y<sub>n+1-i</sub>) will be made up of the same data as the second column, but ordered from highest to lowest, that is, in reverse order.
 
 ![formula](_static/images/anderson_darling_test/table_2.PNG)
 
@@ -75,13 +75,13 @@ Ln F (Y2) = ln (0.0694) = -2.66786 ≅ -2.6679
 
 While for the ninth column we must extract the natural logarithm to the values found in the sixth column, for example, for the first two rows we have:
 
-Ln  ⁡[1-F(Y<sub>n+1-i</sub> )]  = ln (0,0764) = -2,57177
+Ln ⁡[1-F(Y<sub>n+1-i</sub> )] = ln (0,0764) = -2,57177
 
 Ln (0.1151) = -2.16195
 
 Thus we are calculating the values for each of the columns until the 20 rows are completed and once we have the entire table complete, we can now apply Anderson Darling's formula to obtain the values of the last column, that is, the tenth. If we realize, in order to apply the formula:
 
-Ln  ⁡[1-F(Y<sub>n+1-i</sub> )]  = ln (0,0764) = -2,57177
+Ln ⁡[1-F(Y<sub>n+1-i</sub> )] = ln (0,0764) = -2,57177
 
 We only have to divide the first column (2i-1) by the number of data (n) and then multiply the result, by the sum of the values obtained in the eighth lnF (Y<sub>i</sub>) + ninth column ln⁡(1-F(Y<sub>n+1-i</sub>))], for example, we will do this calculation for the first two rows:
 
@@ -188,9 +188,9 @@ Suppose we have the information on advertising and sales of a certain company.
 
 ![photo](_static/images/anderson_darling_test/sales.jpg)
 
- We want to know if the residuals of the model follow a normal distribution, for this we have the following data:
+We want to know if the residuals of the model follow a normal distribution, for this we have the following data:
 
- ![formula](_static/images/anderson_darling_test/table_5.PNG)
+![formula](_static/images/anderson_darling_test/table_5.PNG)
 
 To facilitate the calculations of the formulas, we include in the table the residuals squared to form the third column, cubed to form the fourth column and raised to four to form the fifth column. Once we have the table full, we can perform the sums of each of the columns, it is important to take into account that the sum of the remainder is zero and we can then calculate the coefficient of asymmetry and the kurtosis through the formulas:
 
@@ -224,7 +224,7 @@ We are going to establish the necessary steps to apply this test in an illustrat
 
 To do this, the researcher takes a sample of some drivers and classifies them in the following association table
 
- ![formula](_static/images/anderson_darling_test/table_6.PNG)
+![formula](_static/images/anderson_darling_test/table_6.PNG)
 
 We will use a level of significance α = 0.05
 
@@ -244,10 +244,9 @@ The same procedure for the high socioeconomic level: (42x51 / 94) = 22.8 - (42x4
 
 These calculations indicate the frequencies given the case that the null hypothesis is true and therefore, if the variables are independent.
 
-
 We can now make the table of expected values:
 
- ![formula](_static/images/anderson_darling_test/table_7.PNG)
+![formula](_static/images/anderson_darling_test/table_7.PNG)
 
 3- The third step is to calculate the test statistic
 
@@ -283,11 +282,11 @@ As we can see in the following graph, the value of the test statistic is to the 
 On the other hand, the Chi-square statistic can also be used to evaluate the goodness of fit of a theoretical distribution when representing the real distribution formed by the data of a certain sample, that is, if the data of the observations are adjusted to a certain expected or theoretical distribution.
 Suppose that we classify the individuals of a population according to their blood group and according to the studies carried out in that population, the distribution in percentages is expected to be:
 
- ![formula](_static/images/anderson_darling_test/table_8.PNG)
+![formula](_static/images/anderson_darling_test/table_8.PNG)
 
 For a sample of 150 blood donors, the following distribution was obtained:
 
- ![formula](_static/images/anderson_darling_test/table_9.PNG)
+![formula](_static/images/anderson_darling_test/table_9.PNG)
 
 The hypotheses regarding the problem are as follows:
 
@@ -301,7 +300,7 @@ This time the level of significance is set at α = 0.01
 
 We must calculate with the percentages applied to the sample, our expected frequencies
 
- ![formula](_static/images/anderson_darling_test/table_10.PNG)
+![formula](_static/images/anderson_darling_test/table_10.PNG)
 
 The degrees of freedom are obtained by subtracting the unit from the number of rows: 4 - 1 = 3
 
@@ -314,6 +313,7 @@ According to the table, the critical value obtained is: 11.3449. We can see that
 ![photo](_static/images/anderson_darling_test/graph.jpg)
 
 So the null hypothesis will be accepted and this implies that the data fit the theoretical distribution and that the observed differences are not statistically significant.
+
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes

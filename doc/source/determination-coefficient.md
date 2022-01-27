@@ -10,8 +10,8 @@ Substituting the values we have:
 ![formula](_static/images/determination_coefficient/second_formula.png)
 
 We are going to analyze the formula of the coefficient of determination, the first thing is to realize that the numerator is very similar to the formula of the variance, but as we can see there are two important differences. The first is that the "y" has a circumflex (y ̂) which is that kind of little hat that is at the top. This means that the variable is not exactly its real value, but an estimate of “y”. The second difference is that the N (which represents the number of observations) is missing in the denominator. This is because in the denominator of the determination coefficient we also have another variance, whose formula also includes the value of N, therefore, both cancel to simplify the expression.
- Another important aspect of the coefficient of determination is that its values range between 0 and 1, as this coefficient gets closer to 1 it indicates that it will fit more closely to the model of the variable that we are trying to explain. Conversely, as the coefficient of determination gets closer to zero (0), the model will be less fit and therefore less reliable.
- Let's suppose that we want to relate the number of goals that a certain soccer player makes to the number of games he plays. Of course, the more games he plays, the more goals he scores.
+Another important aspect of the coefficient of determination is that its values range between 0 and 1, as this coefficient gets closer to 1 it indicates that it will fit more closely to the model of the variable that we are trying to explain. Conversely, as the coefficient of determination gets closer to zero (0), the model will be less fit and therefore less reliable.
+Let's suppose that we want to relate the number of goals that a certain soccer player makes to the number of games he plays. Of course, the more games he plays, the more goals he scores.
 
 ![photo](_static/images/determination_coefficient/player.jpg)
 
@@ -46,9 +46,9 @@ Where X1 = The external temperature in ºF
 X2 = The insulation of the enclosure in centimeters
 X3 = The years of use that the heater has
 Although it is true that the summary also reflects the coefficient of determination and also the adjusted R<sup>2</sup>, in the same way we are interested in understanding what each of the elements that make up its formulas means.
-When we refer to the estimation of the explained variable (y ̂), It is simply to substitute each one of the data corresponding to X1, X2 and X3 in the linear regression model, in this way we obtain each of the 〖and (〖y ̂  〗_i) we require for the formulas. To do this, we must go to Excel and generate a new column with the values of the coefficients and the data for each of the rows. In our case, the instruction would be:
+When we refer to the estimation of the explained variable (y ̂), It is simply to substitute each one of the data corresponding to X1, X2 and X3 in the linear regression model, in this way we obtain each of the 〖and (〖y ̂ 〗\_i) we require for the formulas. To do this, we must go to Excel and generate a new column with the values of the coefficients and the data for each of the rows. In our case, the instruction would be:
 
-= $H$18 + $H$19 * B2 + $H$20 * C2 + $H$21 * D2.
+= $H$18 + $H$19 _ B2 + $H$20 _ C2 + $H$21 \* D2.
 
 It is important to note that before and after the letter that defines the column of the cells that correspond to the value of the coefficients, the symbol of ($) must be placed, since these data are constant for all observations and is the way that Excel has to freeze the value, when dragging the command to the last row. The values for the estimation of “y” will be the following:
 
@@ -95,7 +95,7 @@ The variation explained by X1 will be the intersection between the circle that c
 
 ![formula](_static/images/determination_coefficient/fifth_formula.png)
 
-r<sub>y(2.1)</sub>   is what we call the semi-partial correlation coefficient
+r<sub>y(2.1)</sub> is what we call the semi-partial correlation coefficient
 
 In the same way, X1 adds to the contribution of the variable X2 what is represented in the Venn diagram by the letter a = a + b + c - (b + c) = 0.64 - 036 = 0.28. The formula indicated is:
 
