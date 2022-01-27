@@ -70,9 +70,9 @@ Welcome to slurp's documentation!
 
    persian-farsi.md
    irans-best-wrestlers.md
-   persepolis.md
-   iran-kashan-tabatabai-house.md
+   persepolis.md   
    iran-shiraz-shapouri-house.md
+   iran-kashan-tabatabai-house.md
 
 .. toctree::
    :caption: Sound
