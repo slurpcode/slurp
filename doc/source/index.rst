@@ -70,9 +70,9 @@ Welcome to slurp's documentation!
 
    persian-farsi.md
    irans-best-wrestlers.md
-   persepolis.md
-   iran-kashan-tabatabai-house.md
+   persepolis.md   
    iran-shiraz-shapouri-house.md
+   iran-kashan-tabatabai-house.md
 
 .. toctree::
    :caption: Sound
@@ -86,6 +86,7 @@ Welcome to slurp's documentation!
    hardcore.md
    house.md
    idm.md
+   jungle_drum_bass.md
    nu-jazz.md
    nu-skool-breaks.md
    progressive.md
@@ -103,7 +104,6 @@ Welcome to slurp's documentation!
    electromechanical_piano.md
    musical-telegraph.md
    wireless-organ.md
-
 
 .. toctree::
    :caption: Cities
@@ -245,8 +245,9 @@ Welcome to slurp's documentation!
    :caption: Chess
    :maxdepth: 2
 
+   bobby-fischer.md
+   boris_spassky.md
    garry_kasparov_a_chess_player.md
-
 
 Indices and tables
 ==================
