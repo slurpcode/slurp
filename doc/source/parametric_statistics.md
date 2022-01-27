@@ -437,7 +437,7 @@ maximum likelihood estimate should be used, since the properties of
 logarithms help greatly in its calculation.
 
 
-![Formula](./_static/images/parametric_statistics/formula1.jpg)
+![Formula](./_static/images/parametric_statistics/formula1.jpeg)
 
 By properties of logarithms, the multiplications of the values ​​of the
 density function become the sum of their natural logarithms and that is
