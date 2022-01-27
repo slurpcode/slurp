@@ -70,7 +70,7 @@ Welcome to slurp's documentation!
 
    persian-farsi.md
    irans-best-wrestlers.md
-   persepolis.md   
+   persepolis.md
    iran-shiraz-shapouri-house.md
    iran-kashan-tabatabai-house.md
 
