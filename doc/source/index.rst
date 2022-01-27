@@ -245,6 +245,7 @@ Welcome to slurp's documentation!
    :caption: Chess
    :maxdepth: 2
 
+   bobby-fischer.md
    boris_spassky.md
    garry_kasparov_a_chess_player.md
 
