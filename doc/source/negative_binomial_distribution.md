@@ -6,7 +6,7 @@ The negative binomial distribution measures the number of successes in a sequenc
 
 Let us remember that in a Bernoulli distribution, the main characteristic is that it is dichotomous and therefore there are only two possible outcomes.
 
-When we refer to a geometric random variable, it is because a number of Bernoulli trials are needed to obtain the first success. 
+When we refer to a geometric random variable, it is because a number of Bernoulli trials are needed to obtain the first success.
 
 ![photo](_static/images/negative_binomial_distribution/success.jpg)
 
@@ -154,7 +154,7 @@ k = the number of failed attempts before obtaining the first success
 p = the probability of success of each test
 
 We now go to the first example of Geometric Distribution: suppose we are in the presence of an expert marksman who has a 95% probability of hitting the target and we want to know what is the probability that he misses his 15th shot for the first time?
- 
+
 ![photo](_static/images/negative_binomial_distribution/gun.jpg)
 
 The first thing to observe is that this problem satisfies all the conditions of a geometric distribution: We do not realize that there are only two possibilities: they are to hit the target and obtain a success or failure. Later we observe that each shot is independent, so that if a shot hits or misses this will have nothing to do with another shot being successful or missing and we also realize that the probability of success is constant and the 95%.
@@ -236,7 +236,7 @@ The denominator of this formula is also called Q which represents the canonical 
 So the Boltzmann distribution can also be written as:
 ![formula](_static/images/negative_binomial_distribution/formula_13.PNG)
 
-We can calculate the partition function if we know the energy that each of the levels of our system of interest have. If we want to know the partition 
+We can calculate the partition function if we know the energy that each of the levels of our system of interest have. If we want to know the partition
 function for atoms, we can find their values in a database called: NIST Atomic Spectra.
 
 This distribution offers us the quantitative relationship that exists between the probabilities of both states that are occupied and we can establish this relationship of probabilities between states i and j as:
@@ -260,11 +260,11 @@ We speak of a forbidden line in physics and chemistry when the spectral line emi
 
 Applied to statistical mechanics
 
-In statistical mechanics, the Boltzmann distribution is used when we study isolated systems of fixed composition that are also in thermal equilibrium, that is, in energy exchange equilibrium, and the most widely used application is when we use the Boltzmann distribution for the canonical set . This distribution is even used in certain special cases that derive from the canonical assembly, but which also intervene in the distribution in different 
+In statistical mechanics, the Boltzmann distribution is used when we study isolated systems of fixed composition that are also in thermal equilibrium, that is, in energy exchange equilibrium, and the most widely used application is when we use the Boltzmann distribution for the canonical set . This distribution is even used in certain special cases that derive from the canonical assembly, but which also intervene in the distribution in different
 aspects:
 
 For the general case of the canonical set: in statistical physics, the canonical set is one that allows describing the states that occur in a macroscopic system that has a certain number of particles, temperature and volume.
-When the canonical set does not interact with a smaller subsystem: in this case, it is advisable to find the statistical frequency of a subsystem of a given state. The canonical set has the property of separability in the case that it has been applied to any of the following conditions: when those systems that are in interaction have not fixed their composition and therefore, each subsystem is independent of the rest and therefore , the expected 
+When the canonical set does not interact with a smaller subsystem: in this case, it is advisable to find the statistical frequency of a subsystem of a given state. The canonical set has the property of separability in the case that it has been applied to any of the following conditions: when those systems that are in interaction have not fixed their composition and therefore, each subsystem is independent of the rest and therefore , the expected
 frequency distribution of these subsystem states has the Boltzmann form.
 
 When the particle system does not interact and we are in the presence of a Maxwell Boltzmann distribution of classical gases: in particle systems, many times the particles share the same level and regularly change places with another particle. In statistics, the Maxwell Boltzmann distribution gives us the opportunity to calculate the expected number of particles that are in a given state and these particles do not interact when they are in equilibrium within a classical case. In this way, the distribution of the expected number of particles has the Boltzmann shape.
@@ -331,7 +331,7 @@ We are going to consider a distribution of particles where in the fundamental le
 
 ![formula](_static/images/negative_binomial_distribution/formula_20.PNG)
 
-But suppose that at the first level there are two interacting particles, where one of them gains one unit of energy and rises to the second level, while the other loses one unit of energy and goes to the fundamental level (0). 
+But suppose that at the first level there are two interacting particles, where one of them gains one unit of energy and rises to the second level, while the other loses one unit of energy and goes to the fundamental level (0).
 
 ![photo](_static/images/negative_binomial_distribution/energy4.jpg)
 

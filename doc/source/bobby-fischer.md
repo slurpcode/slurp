@@ -88,4 +88,3 @@ It didn't at all.
 He loved it. And he won after that, and won and won, and pretty much after the 21st match, it became impossible for Spassky to win. And it was like, oh, my God! Fischer wins! Fischer wins!
 
 he's, the World Chess Champion, and he's from the U.S. He walks out in Reykjavik, there's people everywhere. He's mobbed. Fischer was huge, and he became a Cold War hero!
-
