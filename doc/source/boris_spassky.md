@@ -1,4 +1,4 @@
-# 👑 Boris Spassky     
+# 👑 Boris Spassky
 
 ![Boris](_static/images/boris_spassky/boris.jpg)
 
