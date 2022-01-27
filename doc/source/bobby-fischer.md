@@ -1,4 +1,4 @@
-# Bobby Fischer, yeah?
+# ♖ Bobby Fischer, yeah?
 ![check-mate](_static/images/chess/check-mate.jpg)
 Check. Mate.
 
