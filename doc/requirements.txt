@@ -1,5 +1,6 @@
-docutils==0.17.1
-recommonmark
+docutils
+myst-parser
 sphinx
 sphinx-intl
+sphinx-markdown-tables
 sphinx_rtd_theme

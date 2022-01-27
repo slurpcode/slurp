@@ -63,6 +63,7 @@ Welcome to slurp's documentation!
    poisson-distribution.md
    common-errors.md
    block_design.md
+   sampling_methods.md
 
 .. toctree::
    :caption: Persia
@@ -86,6 +87,7 @@ Welcome to slurp's documentation!
    hardcore.md
    house.md
    idm.md
+   jungle_drum_bass.md
    nu-jazz.md
    nu-skool-breaks.md
    progressive.md
@@ -101,6 +103,8 @@ Welcome to slurp's documentation!
 
    denis-dor.md
    electromechanical_piano.md
+   musical-telegraph.md
+   wireless-organ.md
 
 .. toctree::
    :caption: Cities
@@ -165,6 +169,7 @@ Welcome to slurp's documentation!
    australian-army.md
    ball-aerospace.md
    cooking.md
+   cinema-is-considered-as-the-seventh-art.md
    dogs.md
    driving-off-road.md
    first-australian-task-force.md
@@ -236,6 +241,14 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    harriet_the_movie.md
+
+.. toctree::
+   :caption: Chess
+   :maxdepth: 2
+
+   bobby-fischer.md
+   boris_spassky.md
+   garry_kasparov_a_chess_player.md
 
 Indices and tables
 ==================

@@ -2,9 +2,9 @@
 
 The primary objective of statistics is to access quantitative knowledge of a certain fraction of reality and that is why it is necessary to build a model of this plot of reality that we want to study. Of course, it is no secret to anyone that reality is always more complex than any model that tries to represent it. However, most of the model formulations that are acceptable to both institutions and users, make it possible to obviate the distance that exists between the model and reality or possible errors.
 
-When a theoretical model is carried out that includes in its formulation, as in most cases, they are reduced to probability functions. As we well know, that probability comes from games of chance and that the impulse of the first investigations regarding the calculation of probabilities (16th century) started from there. 
+When a theoretical model is carried out that includes in its formulation, as in most cases, they are reduced to probability functions. As we well know, that probability comes from games of chance and that the impulse of the first investigations regarding the calculation of probabilities (16th century) started from there.
 
-![photo](_static/images/types_of_probability_distributions/nerd.jpg) 
+![photo](_static/images/types_of_probability_distributions/nerd.jpg)
 
 But it was not until the eighteenth century when probabilities were really implemented from a mathematical perspective, with what was called the "weak law of large numbers", which states that by increasing the amount of evidence it can be concluded that the frequency of an event always tends to a fixed number, which is precisely what is called probability.
 
@@ -25,7 +25,7 @@ Probability distributions for discrete variables in a finite domain:
 
 1- The binomial distribution: it is that distribution that is capable of describing the number of hits in independent experiments whose possible results are binary, this implies that there are only two possibilities "yes" or "no", where the probability of success we call it p and qa the probability of failure and both sum to the unit, therefore: q = 1 - p.
 
-2- The Bernoulli distribution is the classical binominal distribution and takes values of 1 or zero (0).
+2- The Bernoulli distribution is the classical binomial distribution and takes values of 1 or zero (0).
 
 3- The Rademacher distribution: In this distribution values of 1 and -1 are taken, where each of both values has a probability of ½.
 
@@ -48,17 +48,17 @@ In later articles we will dedicate ourselves to the distributions for continuous
 
 The Binomial distribution:
 
-Many of the phenomena that occur in real life can be studied as a discrete random variable with binominal distribution, so that this study can be of good practical use.
+Many of the phenomena that occur in real life can be studied as a discrete random variable with binomial distribution, so that this study can be of good practical use.
 
-We now go with a solved exercise of binominal distribution: A study carried out by the association of motorway drivers shows us that 60% of drivers wear seat belts. 
+We now go with a solved exercise of binomial distribution: A study carried out by the association of motorway drivers shows us that 60% of drivers wear seat belts.
 
-![photo](_static/images/types_of_probability_distributions/car.jpg) 
+![photo](_static/images/types_of_probability_distributions/car.jpg)
 
 To check if this statement is true, a sample made up of 10 drivers who circulate on the main highway is selected. But in addition, it is required to know the probability that exactly seven of these drivers wear a seat belt and it is necessary to know the probability that at least 7 of these drivers wear a seat belt.
 
 We can realize that there are only two possible results, since the seat belt is worn or the drivers simply do not wear the seat belt. If the driver wears a seat belt this is a result that we will call "success", otherwise we will call it "failure".
 
-![photo](_static/images/types_of_probability_distributions/success.jpg) 
+![photo](_static/images/types_of_probability_distributions/success.jpg)
 
 According to the information provided by the association of motorway drivers, the probability of success is 60% and as we know the tests are independent, so that if the fifth driver is not wearing a seat belt, this does not mean that the sixth driver is not wearing a seat belt. is using you. Therefore, our random variable is "the number of drivers wearing seatbelts", that is, the number of successes where the number of drivers in the sample is n = 10 and the probability is p = 0, 6.
 
@@ -228,7 +228,7 @@ This type of distribution ends up being fundamental when we study small samples 
 
 3- The probabilities in the first test are: P (A) = p or P (A) = q; where q = 1 - p and the probabilities of obtaining one or the other result vary in subsequent tests.
 
-4- What is derived from the distribution: If we obtain a number of results “A” that come from n tests, the distribution of the random variable X will be a hypergeometric one whose parameters will be N, n, p and therefore: 
+4- What is derived from the distribution: If we obtain a number of results “A” that come from n tests, the distribution of the random variable X will be a hypergeometric one whose parameters will be N, n, p and therefore:
 
 X ~ H (N, n, p)
 
@@ -254,19 +254,19 @@ The mean and variance
 
 When we consider a hypergeometric variable whose parameters are N, n and p, we can also consider that it was generated by a repetitive n dichotomous process, where these n dichotomies are not independent. Furthermore, a hypergeometric variable can be considered to be nothing more than the sum of the n non-independent dichotomous variables.
 
-As we know from previous articles, the mean of the sum of our random variables, which can be both independent and dependent, is nothing more than the sum of the means and that is why the mean in any hypergeometric distribution as well as in the binominal distribution, it will be: μ = np. On the contrary, when the variables are not independent we cannot say that the variance of the variable will be the sum of the variances. In this case, the variance of a hypergeometric distribution whose parameters are N, n and p will be given by:
+As we know from previous articles, the mean of the sum of our random variables, which can be both independent and dependent, is nothing more than the sum of the means and that is why the mean in any hypergeometric distribution as well as in the binomial distribution, it will be: μ = np. On the contrary, when the variables are not independent we cannot say that the variance of the variable will be the sum of the variances. In this case, the variance of a hypergeometric distribution whose parameters are N, n and p will be given by:
 
 ![formula](_static/images/types_of_probability_distributions/formula_22.PNG)
 
-We can see that this way ends up being the variance of a binominal distribution (n, p) but that it is affected by a correction coefficient that is: ![formula](_static/images/types_of_probability_distributions/s_3.PNG) This coefficient is called exhaustiveness, also known as the correction factor for finite populations and comes from the effect produced by the non-replacement of the sample elements that were extracted.
+We can see that this way ends up being the variance of a binomial distribution (n, p) but that it is affected by a correction coefficient that is: ![formula](_static/images/types_of_probability_distributions/s_3.PNG) This coefficient is called exhaustiveness, also known as the correction factor for finite populations and comes from the effect produced by the non-replacement of the sample elements that were extracted.
 
-This coefficient becomes smaller as the sample size is larger and it can be seen that it tends to 1 while the population size N is large enough. This implies how irrelevant replenishment can be in those experiments where successive extractions are made but on a fairly large population, that is, in a very large population regardless of the size of n, thanks to the correction factor that is capable of to convert a hypergeometric distribution to a binominal distribution.
+This coefficient becomes smaller as the sample size is larger and it can be seen that it tends to 1 while the population size N is large enough. This implies how irrelevant replenishment can be in those experiments where successive extractions are made but on a fairly large population, that is, in a very large population regardless of the size of n, thanks to the correction factor that is capable of to convert a hypergeometric distribution to a binomial distribution.
 
-When we calculate the limit of a hypergeometric distribution in the case that N tends to infinity, we can say that just as we have seen that the mean of this type of hypergeometric distribution takes the same value as the mean calculated in a binominal distribution. We can also say that if the parameter N approaches infinity, the so-called exhaustiveness coefficient tends to 1 and that is why the hypergeometric variance approaches the binomial. In the same way, it can be proved that the quantum function in this case (N → ∞) of the hypergeometric distribution also tends to approximate the quantum function of the binomial distribution.
+When we calculate the limit of a hypergeometric distribution in the case that N tends to infinity, we can say that just as we have seen that the mean of this type of hypergeometric distribution takes the same value as the mean calculated in a binomial distribution. We can also say that if the parameter N approaches infinity, the so-called exhaustiveness coefficient tends to 1 and that is why the hypergeometric variance approaches the binomial. In the same way, it can be proved that the quantum function in this case (N → ∞) of the hypergeometric distribution also tends to approximate the quantum function of the binomial distribution.
 
  The mode of a hypergeometric distribution
 
-In the same way as the mode is obtained in a binominal distribution, we can obtain the mode for a hypergeometric distribution. So the values or the integer value that is verified for the following expression Xo will give us the expected calculation:
+In the same way as the mode is obtained in a binomial distribution, we can obtain the mode for a hypergeometric distribution. So the values or the integer value that is verified for the following expression Xo will give us the expected calculation:
 
 ![formula](_static/images/types_of_probability_distributions/formula_23.PNG)
 
@@ -338,7 +338,7 @@ In this answer we are not interested in the gender of each one of them, but rath
 
 We can also define the number of letters students of three friends chosen randomly from the total of 14 students. The hypergeometric distribution values will be: N = 14, M = 6 and n = 3
 
-Given the case that Y = 3 this would imply that the three friends study letters, however, in the case that Y = 0 this would not indicate that the three friends study science. 
+Given the case that Y = 3 this would imply that the three friends study letters, however, in the case that Y = 0 this would not indicate that the three friends study science.
 
 The required probability is:
 
