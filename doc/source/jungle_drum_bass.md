@@ -25,7 +25,7 @@ The Every Noise at Once platform provides an opportunity for people to get to kn
 - MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)
 - Wikipedia
 - Ishkur's Guide to Electronic Music
-- Every Noise at Once 
+- Every Noise at Once
 
 ## About the author
 
