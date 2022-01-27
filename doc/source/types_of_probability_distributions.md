@@ -2,9 +2,9 @@
 
 The primary objective of statistics is to access quantitative knowledge of a certain fraction of reality and that is why it is necessary to build a model of this plot of reality that we want to study. Of course, it is no secret to anyone that reality is always more complex than any model that tries to represent it. However, most of the model formulations that are acceptable to both institutions and users, make it possible to obviate the distance that exists between the model and reality or possible errors.
 
-When a theoretical model is carried out that includes in its formulation, as in most cases, they are reduced to probability functions. As we well know, that probability comes from games of chance and that the impulse of the first investigations regarding the calculation of probabilities (16th century) started from there. 
+When a theoretical model is carried out that includes in its formulation, as in most cases, they are reduced to probability functions. As we well know, that probability comes from games of chance and that the impulse of the first investigations regarding the calculation of probabilities (16th century) started from there.
 
-![photo](_static/images/types_of_probability_distributions/nerd.jpg) 
+![photo](_static/images/types_of_probability_distributions/nerd.jpg)
 
 But it was not until the eighteenth century when probabilities were really implemented from a mathematical perspective, with what was called the "weak law of large numbers", which states that by increasing the amount of evidence it can be concluded that the frequency of an event always tends to a fixed number, which is precisely what is called probability.
 
@@ -50,15 +50,15 @@ The Binomial distribution:
 
 Many of the phenomena that occur in real life can be studied as a discrete random variable with binomial distribution, so that this study can be of good practical use.
 
-We now go with a solved exercise of binomial distribution: A study carried out by the association of motorway drivers shows us that 60% of drivers wear seat belts. 
+We now go with a solved exercise of binomial distribution: A study carried out by the association of motorway drivers shows us that 60% of drivers wear seat belts.
 
-![photo](_static/images/types_of_probability_distributions/car.jpg) 
+![photo](_static/images/types_of_probability_distributions/car.jpg)
 
 To check if this statement is true, a sample made up of 10 drivers who circulate on the main highway is selected. But in addition, it is required to know the probability that exactly seven of these drivers wear a seat belt and it is necessary to know the probability that at least 7 of these drivers wear a seat belt.
 
 We can realize that there are only two possible results, since the seat belt is worn or the drivers simply do not wear the seat belt. If the driver wears a seat belt this is a result that we will call "success", otherwise we will call it "failure".
 
-![photo](_static/images/types_of_probability_distributions/success.jpg) 
+![photo](_static/images/types_of_probability_distributions/success.jpg)
 
 According to the information provided by the association of motorway drivers, the probability of success is 60% and as we know the tests are independent, so that if the fifth driver is not wearing a seat belt, this does not mean that the sixth driver is not wearing a seat belt. is using you. Therefore, our random variable is "the number of drivers wearing seatbelts", that is, the number of successes where the number of drivers in the sample is n = 10 and the probability is p = 0, 6.
 
@@ -228,7 +228,7 @@ This type of distribution ends up being fundamental when we study small samples 
 
 3- The probabilities in the first test are: P (A) = p or P (A) = q; where q = 1 - p and the probabilities of obtaining one or the other result vary in subsequent tests.
 
-4- What is derived from the distribution: If we obtain a number of results “A” that come from n tests, the distribution of the random variable X will be a hypergeometric one whose parameters will be N, n, p and therefore: 
+4- What is derived from the distribution: If we obtain a number of results “A” that come from n tests, the distribution of the random variable X will be a hypergeometric one whose parameters will be N, n, p and therefore:
 
 X ~ H (N, n, p)
 
@@ -338,7 +338,7 @@ In this answer we are not interested in the gender of each one of them, but rath
 
 We can also define the number of letters students of three friends chosen randomly from the total of 14 students. The hypergeometric distribution values will be: N = 14, M = 6 and n = 3
 
-Given the case that Y = 3 this would imply that the three friends study letters, however, in the case that Y = 0 this would not indicate that the three friends study science. 
+Given the case that Y = 3 this would imply that the three friends study letters, however, in the case that Y = 0 this would not indicate that the three friends study science.
 
 The required probability is:
 
