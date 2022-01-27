@@ -171,9 +171,7 @@ where the null hypothesis is accepted.
 
 ![Hypothesis - Acceptance Region 1](./_static/images/parametric_statistics/image2.jpeg)
 
-
 ![Hypothesis - Acceptance Region 2](./_static/images/parametric_statistics/image3.jpeg)
-
 
 On the other hand, the hypothesis is simple when the value of the
 parameter is perfectly specified and it is compound, if it has two or
@@ -227,11 +225,11 @@ significance and represents the probability that the contrast statistic
 is located in the critical or rejection zone.
 
 In directional contrasts,
-![\\alpha](https://latex.codecogs.com/png.latex?%5Calpha "\alpha") is
+![\alpha](https://latex.codecogs.com/png.latex?%5Calpha "\\alpha") is
 concentrated at one end of the distribution, while in bilateral
 hypothesis contrasts, α is distributed or divided between both ends of
 the distribution
-![\\left( \\frac{\\alpha}{2} \\right)](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B%5Calpha%7D%7B2%7D%20%5Cright%29 "\left( \frac{\alpha}{2} \right)").
+![\left( \frac{\alpha}{2} \right)](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B%5Calpha%7D%7B2%7D%20%5Cright%29 "\\left( \frac{\alpha}{2} \right)").
 It is important to take into account that the unilateral tests are
 generally better than the bilateral ones and the choice of any of the
 tests is conditioned by the alternative hypothesis. When the latter is
@@ -302,17 +300,16 @@ following elements: the estimation error and the sample average.
 By means of the following formula we can obtain the error when
 constructing an interval for the average:
 
-![\\frac{S}{sqrt{n}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20E%20=%20t%20x%20S/%5Csqrt%7Bn%7D "\frac{S}{sqrt{n}}")
+![\frac{S}{sqrt{n}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20E%20=%20t%20x%20S/%5Csqrt%7Bn%7D "\\frac{S}{sqrt{n}}")
 
 Where (S) is the standard deviation of the sample, n is the sample size
 and t is a value that is searched in the Student t table with two
 values:
-![\\frac{\\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\frac{\alpha}{2}")
-and the degrees of freedom that are calculated with (n - 1) = (20 - 1) =
-19. If we establish a 95% confidence, this implies that
-![\\alpha](https://latex.codecogs.com/png.latex?%5Calpha "\alpha") =
+![\frac{\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\\frac{\alpha}{2}")
+and the degrees of freedom that are calculated with (n - 1) = (20 - 1) = 19. If we establish a 95% confidence, this implies that
+![\alpha](https://latex.codecogs.com/png.latex?%5Calpha "\\alpha") =
 0.05 and therefore
-![\\frac{\\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\frac{\alpha}{2}")
+![\frac{\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\\frac{\alpha}{2}")
 = 0.025, already having both data we go to the table:
 
 ![Table](./_static/images/parametric_statistics/image7.jpeg)
@@ -326,8 +323,8 @@ The standard deviation is S = 0.8
 Substituting the values ​​in the formula we will obtain that the error
 is:
 
-E = t x ![\\frac{S}{sqrt{n}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7BS%7D%7B%5Csqrt%7Bn%7D%7D%20 "\frac{S}{sqrt{n}}") = 2.093 * 
-![\\frac{0.8}{sqrt{20}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B0.8%7D%7B%5Csqrt%7B20%7D%7D%20 "\frac{0.8}{sqrt{20}}") = 0.37
+E = t x ![\frac{S}{sqrt{n}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7BS%7D%7B%5Csqrt%7Bn%7D%7D%20 "\\frac{S}{sqrt{n}}") = 2.093 \*
+![\frac{0.8}{sqrt{20}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B0.8%7D%7B%5Csqrt%7B20%7D%7D%20 "\\frac{0.8}{sqrt{20}}") = 0.37
 
 Now we are going to construct the estimation interval and for this it
 will be necessary to add and subtract the error from the average, as we
@@ -420,10 +417,10 @@ density functions, to maximize them. Suppose we have a sample X =
 (X1,... Xn) and we have the parameters θ = (θ1,..., θn), the maximum
 likelihood function is denoted by the letter L and is defined as:
 
-L![(\\theta) = \\prod\_{i = 1}\^{n}{f\\left( x\_{i},\\theta \\right)}](https://latex.codecogs.com/png.latex?%28%5Ctheta%29%20%3D%20%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%7Bf%5Cleft%28%20x_%7Bi%7D%2C%5Ctheta%20%5Cright%29%7D "(\theta) = \prod_{i = 1}^{n}{f\left( x_{i},\theta \right)}")
+L![(\theta) = \prod_{i = 1}^{n}{f\left( x_{i},\theta \right)}](https://latex.codecogs.com/png.latex?%28%5Ctheta%29%20%3D%20%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%7Bf%5Cleft%28%20x_%7Bi%7D%2C%5Ctheta%20%5Cright%29%7D "(\\theta) = \prod_{i = 1}^{n}{f\left( x_{i},\theta \right)}")
 
 It is important to note that this symbol
-![\\prod\_{}\^{}(\\ldots)](https://latex.codecogs.com/png.latex?%5Cprod_%7B%7D%5E%7B%7D%28%5Cldots%29 "\prod_{}^{}(\ldots)")
+![\prod_{}^{}(\ldots)](https://latex.codecogs.com/png.latex?%5Cprod_%7B%7D%5E%7B%7D%28%5Cldots%29 "\\prod_{}^{}(\ldots)")
 means that it is a productive and is treated in a similar way to the
 summation for sums, only that in this case it represents the
 multiplication of each and every one of the density functions, which in
@@ -435,7 +432,6 @@ the sample-based parameters are.
 To simplify the calculations, the natural logarithm function of the
 maximum likelihood estimate should be used, since the properties of
 logarithms help greatly in its calculation.
-
 
 ![Formula](./_static/images/parametric_statistics/formula1.jpeg)
 
@@ -456,7 +452,7 @@ Once we calculate the natural or natural logarithm, we must derive the
 result and set it equal to zero, remember that this is the mathematical
 way to find the maximum or minimum of a function.
 
-![\\frac{\\delta L(\\theta)}{\\delta\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cdelta%20L%28%5Ctheta%29%7D%7B%5Cdelta%5Ctheta%7D "\frac{\delta L(\theta)}{\delta\theta}")
+![\frac{\delta L(\theta)}{\delta\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cdelta%20L%28%5Ctheta%29%7D%7B%5Cdelta%5Ctheta%7D "\\frac{\delta L(\theta)}{\delta\theta}")
 = 0
 
 Once we have derived the function, we will have to solve for θ and this
@@ -470,61 +466,60 @@ thing we must do is determine the Poisson function that is given by the
 formula:
 
 f(x) =
-![\\frac{e\^{- \\lambda}.\\lambda\^{x}}{x!}](https://latex.codecogs.com/png.latex?%5Cfrac%7Be%5E%7B-%20%5Clambda%7D.%5Clambda%5E%7Bx%7D%7D%7Bx%21%7D "\frac{e^{- \lambda}.\lambda^{x}}{x!}")
+![\frac{e^{- \lambda}.\lambda^{x}}{x!}](https://latex.codecogs.com/png.latex?%5Cfrac%7Be%5E%7B-%20%5Clambda%7D.%5Clambda%5E%7Bx%7D%7D%7Bx%21%7D "\\frac{e^{- \lambda}.\lambda^{x}}{x!}")
 
 Being λ the parameter, so λ = θ and if we use the maximum likelihood
 formula we have:
 
-L![(\\theta) = \\prod\_{i = 1}\^{n}\\frac{e\^{- \\theta}.\\theta\^{x\_{i}}}{x\_{i}!}](https://latex.codecogs.com/png.latex?%28%5Ctheta%29%20%3D%20%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7Be%5E%7B-%20%5Ctheta%7D.%5Ctheta%5E%7Bx_%7Bi%7D%7D%7D%7Bx_%7Bi%7D%21%7D "(\theta) = \prod_{i = 1}^{n}\frac{e^{- \theta}.\theta^{x_{i}}}{x_{i}!}")
+L![(\theta) = \prod_{i = 1}^{n}\frac{e^{- \theta}.\theta^{x_{i}}}{x_{i}!}](https://latex.codecogs.com/png.latex?%28%5Ctheta%29%20%3D%20%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7Be%5E%7B-%20%5Ctheta%7D.%5Ctheta%5E%7Bx_%7Bi%7D%7D%7D%7Bx_%7Bi%7D%21%7D "(\\theta) = \prod_{i = 1}^{n}\frac{e^{- \theta}.\theta^{x_{i}}}{x_{i}!}")
 
 There is a property for the productory that states that:
 
-![\\prod\_{i = 1}\^{n}k](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dk "\prod_{i = 1}^{n}k")
-= ![k\^{n}](https://latex.codecogs.com/png.latex?k%5E%7Bn%7D "k^{n}")
+![\prod_{i = 1}^{n}k](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dk "\\prod_{i = 1}^{n}k")
+= ![k^{n}](https://latex.codecogs.com/png.latex?k%5E%7Bn%7D "k^{n}")
 
+So if we take ![e^{- \theta}](https://latex.codecogs.com/png.latex?e%5E%7B-%20%5Ctheta%7D "e^{- \\theta}") as a constant since it does not depend on the changing value (i) we can say that the first element of the function remains as: ![\prod_{i = 1}^{n}e^{- \theta}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7De%5E%7B-%20%5Ctheta%7D "\\prod_{i = 1}^{n}e^{- \theta}") = ![e^{- n\theta}](https://latex.codecogs.com/png.latex?e%5E%7B-%20n%5Ctheta%7D "e^{- n\\theta}").
 
-So if we take ![e\^{- \\theta}](https://latex.codecogs.com/png.latex?e%5E%7B-%20%5Ctheta%7D "e^{- \theta}") as a constant since it does not depend on the changing value (i) we can say that the first element of the function remains as: ![\\prod\_{i = 1}\^{n}e\^{- \\theta}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7De%5E%7B-%20%5Ctheta%7D "\prod_{i = 1}^{n}e^{- \theta}")  = ![e\^{- n\\theta}](https://latex.codecogs.com/png.latex?e%5E%7B-%20n%5Ctheta%7D "e^{- n\theta}").
-
-While ![\\prod\_{i = 1}\^{n}\\theta\^{x\_{i}}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Ctheta%5E%7Bx_%7Bi%7D%7D "\prod_{i = 1}^{n}\theta^{x_{i}}") =
-![\\theta\^{\\sum\_{}\^{}x\_{i}}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D "\theta^{\sum_{}^{}x_{i}}")
+While ![\prod_{i = 1}^{n}\theta^{x_{i}}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Ctheta%5E%7Bx_%7Bi%7D%7D "\\prod_{i = 1}^{n}\theta^{x_{i}}") =
+![\theta^{\sum_{}^{}x_{i}}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D "\\theta^{\sum_{}^{}x_{i}}")
 this last term rises to the summation since it is a multiplication of
 powers of equal base, where the same base is left and the exponents are
 added, the exponents being the sum of
-![x\_{i}](https://latex.codecogs.com/png.latex?x_%7Bi%7D "x_{i}") and
+![x_{i}](https://latex.codecogs.com/png.latex?x_%7Bi%7D "x_{i}") and
 the factorial term found in the denominator will be replaced by
-![\\prod\_{i = 1}\^{n}x\_{i}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\prod_{i = 1}^{n}x_{i}")!
+![\prod_{i = 1}^{n}x_{i}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\\prod_{i = 1}^{n}x_{i}")!
 and when we put all the elements together, we have that this term would
 be:
 
-L(![\\theta = \\frac{e\^{- n\\theta}.\\theta\^{\\sum\_{}\^{}x\_{i}}}{\\prod\_{i = 1}\^{n}x\_{i}!}](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D%20%5Cfrac%7Be%5E%7B-%20n%5Ctheta%7D.%5Ctheta%5E%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7D%7B%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%21%7D "\theta = \frac{e^{- n\theta}.\theta^{\sum_{}^{}x_{i}}}{\prod_{i = 1}^{n}x_{i}!}")
+L(![\theta = \frac{e^{- n\theta}.\theta^{\sum_{}^{}x_{i}}}{\prod_{i = 1}^{n}x_{i}!}](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D%20%5Cfrac%7Be%5E%7B-%20n%5Ctheta%7D.%5Ctheta%5E%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7D%7B%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%21%7D "\\theta = \frac{e^{- n\theta}.\theta^{\sum_{}^{}x_{i}}}{\prod_{i = 1}^{n}x_{i}!}")
 
 We add the natural logarithm to both sides of the equation so that it
 does not change and we have to:
 
 Ln
-L(![\\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\theta =")Ln![\\frac{e\^{- n\\theta}.\\theta\^{\\sum\_{}\^{}x\_{i}}}{\\prod\_{i = 1}\^{n}x\_{i}!}](https://latex.codecogs.com/png.latex?%5Cfrac%7Be%5E%7B-%20n%5Ctheta%7D.%5Ctheta%5E%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7D%7B%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%21%7D "\frac{e^{- n\theta}.\theta^{\sum_{}^{}x_{i}}}{\prod_{i = 1}^{n}x_{i}!}")
+L(![\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\\theta =")Ln![\frac{e^{- n\theta}.\theta^{\sum_{}^{}x_{i}}}{\prod_{i = 1}^{n}x_{i}!}](https://latex.codecogs.com/png.latex?%5Cfrac%7Be%5E%7B-%20n%5Ctheta%7D.%5Ctheta%5E%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7D%7B%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%21%7D "\\frac{e^{- n\theta}.\theta^{\sum_{}^{}x_{i}}}{\prod_{i = 1}^{n}x_{i}!}")
 
 By properties of logarithms, the logarithm of a multiplication is the
 sum of the logarithms and the logarithm of the division is the
 subtraction of the logarithms, therefore it does not remain that:
 
 Ln
-L(![\\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\theta =")Ln
-![e\^{- n\\theta}](https://latex.codecogs.com/png.latex?e%5E%7B-%20n%5Ctheta%7D "e^{- n\theta}") +
+L(![\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\\theta =")Ln
+![e^{- n\theta}](https://latex.codecogs.com/png.latex?e%5E%7B-%20n%5Ctheta%7D "e^{- n\\theta}") +
 Ln
-![\\theta\^{\\sum\_{}\^{}x\_{i}}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D "\theta^{\sum_{}^{}x_{i}}")
+![\theta^{\sum_{}^{}x_{i}}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D "\\theta^{\sum_{}^{}x_{i}}")
 -- Ln
-![\\prod\_{i = 1}\^{n}x\_{i}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\prod_{i = 1}^{n}x_{i}")
+![\prod_{i = 1}^{n}x_{i}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\\prod_{i = 1}^{n}x_{i}")
 
 By properties of logarithms, the exponents can be placed by multiplying
 the logarithm and the product of a logarithm becomes a summation
 
 Ln
-L(![\\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\theta =")-n![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta")
-![\\ln e](https://latex.codecogs.com/png.latex?%5Cln%20e "\ln e") +
-![\\sum\_{}\^{}x\_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D "\sum_{}^{}x_{i}")
-Ln![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta") +
-![\\sum\_{i = 1}\^{n}x\_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\sum_{i = 1}^{n}x_{i}")
+L(![\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\\theta =")-n![\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\\theta")
+![\ln e](https://latex.codecogs.com/png.latex?%5Cln%20e "\\ln e") +
+![\sum_{}^{}x_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D "\\sum_{}^{}x_{i}")
+Ln![\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\\theta") +
+![\sum_{i = 1}^{n}x_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\\sum_{i = 1}^{n}x_{i}")
 
 When I apply the logarithm to a function, it preserves the maximums so
 that the maximum of the function L(θ) that will be reached in a certain
@@ -532,31 +527,29 @@ that the maximum of the function L(θ) that will be reached in a certain
 θ. So the derivative set to zero of the logarithmic function to find the
 maximum probability value will be equal if we express it:
 
-![\\frac{\\delta L(\\theta)}{\\delta\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cdelta%20L%28%5Ctheta%29%7D%7B%5Cdelta%5Ctheta%7D "\frac{\delta L(\theta)}{\delta\theta}")
+![\frac{\delta L(\theta)}{\delta\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cdelta%20L%28%5Ctheta%29%7D%7B%5Cdelta%5Ctheta%7D "\\frac{\delta L(\theta)}{\delta\theta}")
 = 0
 
 The derivative of Lne = 1 and the derivative of θ = 1 so the derivative
 of the first term will be simply (-n) and the derivative of
-Ln![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta") =
-![\\frac{1}{\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B%5Ctheta%7D "\frac{1}{\theta}")
+Ln![\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\\theta") =
+![\frac{1}{\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B%5Ctheta%7D "\\frac{1}{\theta}")
 and the derivative of the last term is zero (0) because if we realize it
 does not have θ and therefore it is assumed as a constant.
 
-![\\frac{\\delta L(\\theta)}{\\delta\\theta} = - n](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cdelta%20L%28%5Ctheta%29%7D%7B%5Cdelta%5Ctheta%7D%20%3D%20-%20n "\frac{\delta L(\theta)}{\delta\theta} = - n") +
-![\\frac{\\sum\_{}\^{}x\_{i}}{\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7B%5Ctheta%7D "\frac{\sum_{}^{}x_{i}}{\theta}")
+![\frac{\delta L(\theta)}{\delta\theta} = - n](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cdelta%20L%28%5Ctheta%29%7D%7B%5Cdelta%5Ctheta%7D%20%3D%20-%20n "\\frac{\delta L(\theta)}{\delta\theta} = - n") +
+![\frac{\sum_{}^{}x_{i}}{\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7B%5Ctheta%7D "\\frac{\sum_{}^{}x_{i}}{\theta}")
 
 I equal the term to zero and I clear θ
 
 ![- n](https://latex.codecogs.com/png.latex?-%20n "- n") +
-![\\frac{\\sum\_{}\^{}x\_{i}}{\\theta} = 0](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7B%5Ctheta%7D%20%3D%200 "\frac{\sum_{}^{}x_{i}}{\theta} = 0")
+![\frac{\sum_{}^{}x_{i}}{\theta} = 0](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7B%5Ctheta%7D%20%3D%200 "\\frac{\sum_{}^{}x_{i}}{\theta} = 0")
 
-![\\sum\_{}\^{}x\_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D "\sum_{}^{}x_{i}")
-= n![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta")
+![\sum_{}^{}x_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D "\\sum_{}^{}x_{i}")
+= n![\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\\theta")
 
-
-![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta") 
-= ![\\frac{\\sum_{}^{}x_{i}}{n}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7Bn%7D "\frac{\sum_{}^{}x_{i}}{n}") 
-
+![\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\\theta")
+= ![\frac{\sum_{}^{}x_{i}}{n}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7Bn%7D "\\frac{\sum_{}^{}x_{i}}{n}")
 
 This value being the average of all the data and the maximum likelihood
 value of the problem.
@@ -576,120 +569,117 @@ As we understand that the method can be a bit complicated, we are going
 to perform another exercise
 
 Suppose we have a function: f(x) =
-![\\frac{1}{2\\theta\^{3}}.x\^{3}.e\^{\\frac{- x}{\\theta}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.x%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x%7D%7B%5Ctheta%7D%7D "\frac{1}{2\theta^{3}}.x^{3}.e^{\frac{- x}{\theta}}")
+![\frac{1}{2\theta^{3}}.x^{3}.e^{\frac{- x}{\theta}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.x%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x%7D%7B%5Ctheta%7D%7D "\\frac{1}{2\theta^{3}}.x^{3}.e^{\frac{- x}{\theta}}")
 
 The idea is to try to find an estimator of this function using the
 maximum likelihood method and we are going to vary the way we do the
 calculations a bit, to see if we get to a better understanding.
 
-L(![\\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\theta =")
-![\\prod\_{i = 1}\^{n}{\\frac{1}{2\\theta\^{3}}.{x\_{i}}\^{3}.e\^{\\frac{- x\_{i}}{\\theta}}}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%7B%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.%7Bx_%7Bi%7D%7D%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D%7D "\prod_{i = 1}^{n}{\frac{1}{2\theta^{3}}.{x_{i}}^{3}.e^{\frac{- x_{i}}{\theta}}}")
+L(![\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\\theta =")
+![\prod_{i = 1}^{n}{\frac{1}{2\theta^{3}}.{x_{i}}^{3}.e^{\frac{- x_{i}}{\theta}}}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%7B%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.%7Bx_%7Bi%7D%7D%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D%7D "\\prod_{i = 1}^{n}{\frac{1}{2\theta^{3}}.{x_{i}}^{3}.e^{\frac{- x_{i}}{\theta}}}")
 
-L(![\\theta = \\frac{1}{2\\theta\^{3}}.{x\_{1}}\^{3}.e\^{\\frac{- x\_{1}}{\\theta}}](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.%7Bx_%7B1%7D%7D%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x_%7B1%7D%7D%7B%5Ctheta%7D%7D "\theta = \frac{1}{2\theta^{3}}.{x_{1}}^{3}.e^{\frac{- x_{1}}{\theta}}")
-\*
-![\\frac{1}{2\\theta\^{3}}.{x\_{2}}\^{3}.e\^{\\frac{- x\_{2}}{\\theta}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.%7Bx_%7B2%7D%7D%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x_%7B2%7D%7D%7B%5Ctheta%7D%7D "\frac{1}{2\theta^{3}}.{x_{2}}^{3}.e^{\frac{- x_{2}}{\theta}}")
-\*...
-\*![\\frac{1}{2\\theta\^{3}}.{x\_{n}}\^{3}.e\^{\\frac{- x\_{n}}{\\theta}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.%7Bx_%7Bn%7D%7D%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x_%7Bn%7D%7D%7B%5Ctheta%7D%7D "\frac{1}{2\theta^{3}}.{x_{n}}^{3}.e^{\frac{- x_{n}}{\theta}}")
+L(![\theta = \frac{1}{2\theta^{3}}.{x_{1}}^{3}.e^{\frac{- x_{1}}{\theta}}](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.%7Bx_%7B1%7D%7D%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x_%7B1%7D%7D%7B%5Ctheta%7D%7D "\\theta = \frac{1}{2\theta^{3}}.{x_{1}}^{3}.e^{\frac{- x_{1}}{\theta}}") \*
+![\frac{1}{2\theta^{3}}.{x_{2}}^{3}.e^{\frac{- x_{2}}{\theta}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.%7Bx_%7B2%7D%7D%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x_%7B2%7D%7D%7B%5Ctheta%7D%7D "\\frac{1}{2\theta^{3}}.{x_{2}}^{3}.e^{\frac{- x_{2}}{\theta}}")
+\*... \*![\frac{1}{2\theta^{3}}.{x_{n}}^{3}.e^{\frac{- x_{n}}{\theta}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D.%7Bx_%7Bn%7D%7D%5E%7B3%7D.e%5E%7B%5Cfrac%7B-%20x_%7Bn%7D%7D%7B%5Ctheta%7D%7D "\\frac{1}{2\theta^{3}}.{x_{n}}^{3}.e^{\frac{- x_{n}}{\theta}}")
 
 We can realize that each term that is multiplied repeats
-(![\\frac{1}{2\\theta\^{3}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D "\frac{1}{2\theta^{3}}")
+(![\frac{1}{2\theta^{3}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D "\\frac{1}{2\theta^{3}}")
 and if we extract it and multiply it n times (one for each term) we
 have:
-![\\left( \\frac{1}{2\\theta\^{3}} \\right)\^{n}](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%5E%7Bn%7D "\left( \frac{1}{2\theta^{3}} \right)^{n}")
+![\left( \frac{1}{2\theta^{3}} \right)^{n}](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%5E%7Bn%7D "\\left( \frac{1}{2\theta^{3}} \right)^{n}")
 
 On the other hand, if we group:
-(![{x\_{1}}\^{3} \\ast](https://latex.codecogs.com/png.latex?%7Bx_%7B1%7D%7D%5E%7B3%7D%20%5Cast "{x_{1}}^{3} \ast")
-![{x\_{2}}\^{3} \\ast \\ldots{x\_{n}}\^{3}](https://latex.codecogs.com/png.latex?%7Bx_%7B2%7D%7D%5E%7B3%7D%20%5Cast%20%5Cldots%7Bx_%7Bn%7D%7D%5E%7B3%7D "{x_{2}}^{3} \ast \ldots{x_{n}}^{3}")=
-![\\prod\_{i = 1}\^{n}x\_{i}\^{3}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%5E%7B3%7D "\prod_{i = 1}^{n}x_{i}^{3}")
+(![{x_{1}}^{3} \ast](https://latex.codecogs.com/png.latex?%7Bx_%7B1%7D%7D%5E%7B3%7D%20%5Cast "{x_{1}}^{3} \\ast")
+![{x_{2}}^{3} \ast \ldots{x_{n}}^{3}](https://latex.codecogs.com/png.latex?%7Bx_%7B2%7D%7D%5E%7B3%7D%20%5Cast%20%5Cldots%7Bx_%7Bn%7D%7D%5E%7B3%7D "{x_{2}}^{3} \\ast \ldots{x_{n}}^{3}")=
+![\prod_{i = 1}^{n}x_{i}^{3}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%5E%7B3%7D "\\prod_{i = 1}^{n}x_{i}^{3}")
 
 We need to group:
-![e\^{\\frac{- x\_{1}}{\\theta}} \\ast e\^{\\frac{- x\_{2}}{\\theta}} \\ast](https://latex.codecogs.com/png.latex?e%5E%7B%5Cfrac%7B-%20x_%7B1%7D%7D%7B%5Ctheta%7D%7D%20%5Cast%20e%5E%7B%5Cfrac%7B-%20x_%7B2%7D%7D%7B%5Ctheta%7D%7D%20%5Cast "e^{\frac{- x_{1}}{\theta}} \ast e^{\frac{- x_{2}}{\theta}} \ast")...\*![e\^{\\frac{- x\_{n}}{\\theta}}](https://latex.codecogs.com/png.latex?e%5E%7B%5Cfrac%7B-%20x_%7Bn%7D%7D%7B%5Ctheta%7D%7D "e^{\frac{- x_{n}}{\theta}}")
+![e^{\frac{- x_{1}}{\theta}} \ast e^{\frac{- x_{2}}{\theta}} \ast](https://latex.codecogs.com/png.latex?e%5E%7B%5Cfrac%7B-%20x_%7B1%7D%7D%7B%5Ctheta%7D%7D%20%5Cast%20e%5E%7B%5Cfrac%7B-%20x_%7B2%7D%7D%7B%5Ctheta%7D%7D%20%5Cast "e^{\\frac{- x_{1}}{\theta}} \ast e^{\frac{- x_{2}}{\theta}} \ast")...\*![e^{\frac{- x_{n}}{\theta}}](https://latex.codecogs.com/png.latex?e%5E%7B%5Cfrac%7B-%20x_%7Bn%7D%7D%7B%5Ctheta%7D%7D "e^{\\frac{- x_{n}}{\theta}}")
 
 We can realize that each \"x\" is different from the other, but if they
 share the same base, so if we apply multiplication of powers of equal
 base, we leave the same base and add the exponents, therefore the result
 of grouping this part of the function we are left as:
 
-![e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20e%5E%7B%5Csum_%7Bi%20=%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D "e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}")
+![e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20e%5E%7B%5Csum_%7Bi%20=%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D "e^{\\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}")
 
 By joining each of the groupings and compacting them in the maximum
 likelihood function, we obtain that:
 
-L(![\\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\theta =")
-![\\left( \\frac{1}{2\\theta\^{3}} \\right)\^{n}.\\prod\_{i = 1}\^{n}{x\_{i}\^{3}.}e\^{\\sum\_{i = 1}\^{n}\\frac{- x\_{i}}{\\theta}}](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%5E%7Bn%7D.%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%7Bx_%7Bi%7D%5E%7B3%7D.%7De%5E%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D "\left( \frac{1}{2\theta^{3}} \right)^{n}.\prod_{i = 1}^{n}{x_{i}^{3}.}e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}")
+L(![\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\\theta =")
+![\left( \frac{1}{2\theta^{3}} \right)^{n}.\prod_{i = 1}^{n}{x_{i}^{3}.}e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%5E%7Bn%7D.%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%7Bx_%7Bi%7D%5E%7B3%7D.%7De%5E%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D "\\left( \frac{1}{2\theta^{3}} \right)^{n}.\prod_{i = 1}^{n}{x_{i}^{3}.}e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}")
 
 Since this expression is so difficult to derive, it is necessary to
 apply the natural logarithm to simplify the calculations.
 
 Ln
-L(![\\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\theta =")
+L(![\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\\theta =")
 Ln
-![\\left( \\frac{1}{2\\theta\^{3}} \\right)\^{n}.\\prod\_{i = 1}\^{n}{x\_{i}\^{3}.}e\^{\\sum\_{i = 1}\^{n}\\frac{- x\_{i}}{\\theta}}](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%5E%7Bn%7D.%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%7Bx_%7Bi%7D%5E%7B3%7D.%7De%5E%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D "\left( \frac{1}{2\theta^{3}} \right)^{n}.\prod_{i = 1}^{n}{x_{i}^{3}.}e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}")
+![\left( \frac{1}{2\theta^{3}} \right)^{n}.\prod_{i = 1}^{n}{x_{i}^{3}.}e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%5E%7Bn%7D.%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7D%7Bx_%7Bi%7D%5E%7B3%7D.%7De%5E%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D "\\left( \frac{1}{2\theta^{3}} \right)^{n}.\prod_{i = 1}^{n}{x_{i}^{3}.}e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}")
 
 Applying properties of logarithms we have:
 
 Ln
-![\\left( \\frac{1}{2\\theta\^{3}} \\right)\^{n}](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%5E%7Bn%7D "\left( \frac{1}{2\theta^{3}} \right)^{n}") +
+![\left( \frac{1}{2\theta^{3}} \right)^{n}](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%5E%7Bn%7D "\\left( \frac{1}{2\theta^{3}} \right)^{n}") +
 Ln
-![\\prod\_{i = 1}\^{n}x\_{i}\^{3}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%5E%7B3%7D "\prod_{i = 1}^{n}x_{i}^{3}") +
+![\prod_{i = 1}^{n}x_{i}^{3}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%5E%7B3%7D "\\prod_{i = 1}^{n}x_{i}^{3}") +
 Ln
-![e\^{\\sum\_{i = 1}\^{n}\\frac{- x\_{i}}{\\theta}}](https://latex.codecogs.com/png.latex?e%5E%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D "e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}")
+![e^{\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}](https://latex.codecogs.com/png.latex?e%5E%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D%7D "e^{\\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}}")
 
 Ln
-L(![\\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\theta =")
+L(![\theta =](https://latex.codecogs.com/png.latex?%5Ctheta%20%3D "\\theta =")
 n Ln
-![\\left( \\frac{1}{2\\theta\^{3}} \\right) +](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%20%2B "\left( \frac{1}{2\theta^{3}} \right) +")
+![\left( \frac{1}{2\theta^{3}} \right) +](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%20%2B "\\left( \frac{1}{2\theta^{3}} \right) +")
 3Ln
-![\\prod\_{i = 1}\^{n}x\_{i}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\prod_{i = 1}^{n}x_{i}") +
-![\\sum\_{i = 1}\^{n}\\frac{- x\_{i}}{\\theta}](https://latex.codecogs.com/png.latex?%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D "\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}")
+![\prod_{i = 1}^{n}x_{i}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\\prod_{i = 1}^{n}x_{i}") +
+![\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}](https://latex.codecogs.com/png.latex?%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D "\\sum_{i = 1}^{n}\frac{- x_{i}}{\theta}")
 Ln e
 
 It should be noted that Lne = 1 and as LnL(θ) = l(θ) to simplify since
 the logarithmic function has the same maximum value, we have:
 
-![l(\\theta) =](https://latex.codecogs.com/png.latex?l%28%5Ctheta%29%20%3D "l(\theta) =")n(Ln1
+![l(\theta) =](https://latex.codecogs.com/png.latex?l%28%5Ctheta%29%20%3D "l(\\theta) =")n(Ln1
 -- Ln
-![2\\theta\^{3} + 3\\ln\\prod\_{i = 1}\^{n}x\_{i} + \\sum\_{i = 1}\^{n}\\frac{- x\_{i}}{\\theta}](https://latex.codecogs.com/png.latex?2%5Ctheta%5E%7B3%7D%20%2B%203%5Cln%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%20%2B%20%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D "2\theta^{3} + 3\ln\prod_{i = 1}^{n}x_{i} + \sum_{i = 1}^{n}\frac{- x_{i}}{\theta}")
+![2\theta^{3} + 3\ln\prod_{i = 1}^{n}x_{i} + \sum_{i = 1}^{n}\frac{- x_{i}}{\theta}](https://latex.codecogs.com/png.latex?2%5Ctheta%5E%7B3%7D%20%2B%203%5Cln%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%20%2B%20%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7D%5Cfrac%7B-%20x_%7Bi%7D%7D%7B%5Ctheta%7D "2\\theta^{3} + 3\ln\prod_{i = 1}^{n}x_{i} + \sum_{i = 1}^{n}\frac{- x_{i}}{\theta}")
 
 Now we must derive this expression and set it equal to zero to extract
 the maximum value of θ
 
-But we will derive term by term to better understand the result, then the first term would remain as: -n.Ln2![\\theta\^{3}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B3%7D "\theta^{3}") since Ln1 = 0 and its derivative is a multiplication of two elements --n.Ln2![\\theta\^{3}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B3%7D "\theta^{3}") and by properties of derivatives, the derivative of a multiplication is
+But we will derive term by term to better understand the result, then the first term would remain as: -n.Ln2![\theta^{3}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B3%7D "\\theta^{3}") since Ln1 = 0 and its derivative is a multiplication of two elements --n.Ln2![\theta^{3}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B3%7D "\\theta^{3}") and by properties of derivatives, the derivative of a multiplication is
 the derivative of the first element (-n) by the second without
 derivation, plus the derivative of the second element (Ln2θ \^ 3) by the
 first without derivation. However, the first term does not contain θ and
-is therefore zero (0). While the derivative of (Ln2![\\theta\^{3}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B3%7D "\theta^{3}") is ![\\frac{1}{2\\theta\^{3}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D "\frac{1}{2\theta^{3}}") multiplied by its internal derivative that is ![6\\theta\^{2}](https://latex.codecogs.com/png.latex?6%5Ctheta%5E%7B2%7D "6\theta^{2}"), but we must multiply this second element by the first without derivative that is --n, recapitulating we have that the derivative of first term is: -n![\\frac{6\\theta\^{2}}{2\\theta\^{3}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B6%5Ctheta%5E%7B2%7D%7D%7B2%5Ctheta%5E%7B3%7D%7D "\frac{6\theta^{2}}{2\theta^{3}}") = ![\\frac{- n.3}{\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B-%20n.3%7D%7B%5Ctheta%7D "\frac{- n.3}{\theta}") = ![\\frac{- 3n}{\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B-%203n%7D%7B%5Ctheta%7D "\frac{- 3n}{\theta}")
+is therefore zero (0). While the derivative of (Ln2![\theta^{3}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B3%7D "\\theta^{3}") is ![\frac{1}{2\theta^{3}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D "\\frac{1}{2\theta^{3}}") multiplied by its internal derivative that is ![6\theta^{2}](https://latex.codecogs.com/png.latex?6%5Ctheta%5E%7B2%7D "6\\theta^{2}"), but we must multiply this second element by the first without derivative that is --n, recapitulating we have that the derivative of first term is: -n![\frac{6\theta^{2}}{2\theta^{3}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B6%5Ctheta%5E%7B2%7D%7D%7B2%5Ctheta%5E%7B3%7D%7D "\\frac{6\theta^{2}}{2\theta^{3}}") = ![\frac{- n.3}{\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B-%20n.3%7D%7B%5Ctheta%7D "\\frac{- n.3}{\theta}") = ![\frac{- 3n}{\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B-%203n%7D%7B%5Ctheta%7D "\\frac{- 3n}{\theta}")
 
 The derivative of the second term is zero since this term lacks θ and
 then it is assumed as a constant and for the third term, we must apply
 the properties of the derivative of a division. Recall that the
-derivative of a quotient is: The derivative of the numerator (![\\sum\_{i = 1}\^{n}x\_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\sum_{i = 1}^{n}x_{i}")) which since it does not depend on (θ) is zero (0) multiplied by the
+derivative of a quotient is: The derivative of the numerator (![\sum_{i = 1}^{n}x_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\\sum_{i = 1}^{n}x_{i}")) which since it does not depend on (θ) is zero (0) multiplied by the
 denominator (θ) = 0.θ without deriving and the derivative of the
 denominator which is (1) is subtracted by the numerator without deriving
-![\\sum\_{i = 1}\^{n}x\_{i} = \\sum\_{i = 1}\^{n}x\_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%20%3D%20%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\sum_{i = 1}^{n}x_{i} = \sum_{i = 1}^{n}x_{i}"),
+![\sum_{i = 1}^{n}x_{i} = \sum_{i = 1}^{n}x_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%20%3D%20%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D "\\sum_{i = 1}^{n}x_{i} = \sum_{i = 1}^{n}x_{i}"),
 divided by the denominator without deriving squared
-![\\theta\^{2}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B2%7D "\theta^{2}").
+![\theta^{2}](https://latex.codecogs.com/png.latex?%5Ctheta%5E%7B2%7D "\\theta^{2}").
 
 Returning to all the above, the derivative of the third term would be as:
 
-![0.\\theta -](https://latex.codecogs.com/png.latex?0.%5Ctheta%20- "0.\theta -") = ![\\frac{\\sum\_{i = 1}\^{n}x\_{i}}{\\theta\^{2}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D "\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}}")
+![0.\theta -](https://latex.codecogs.com/png.latex?0.%5Ctheta%20- "0.\\theta -") = ![\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D "\\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}}")
 
 The expression of the derivative in total would be:
 
-![\\frac{\\delta l(\\theta)}{\\delta\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cdelta%20l%28%5Ctheta%29%7D%7B%5Cdelta%5Ctheta%7D "\frac{\delta l(\theta)}{\delta\theta}")
-=![\\frac{- 3n}{\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B-%203n%7D%7B%5Ctheta%7D "\frac{- 3n}{\theta}")+
-![\\frac{\\sum\_{i = 1}\^{n}x\_{i}}{\\theta\^{2}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D "\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}}")
+![\frac{\delta l(\theta)}{\delta\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Cdelta%20l%28%5Ctheta%29%7D%7B%5Cdelta%5Ctheta%7D "\\frac{\delta l(\theta)}{\delta\theta}")
+=![\frac{- 3n}{\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B-%203n%7D%7B%5Ctheta%7D "\\frac{- 3n}{\theta}")+
+![\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D "\\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}}")
 
 If we set this derivative equal to zero and solve for θ
 
-![\\frac{- 3n}{\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B-%203n%7D%7B%5Ctheta%7D "\frac{- 3n}{\theta}")+
-![\\frac{\\sum\_{i = 1}\^{n}x\_{i}}{\\theta\^{2}} = 0](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D%20%3D%200 "\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}} = 0")
+![\frac{- 3n}{\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B-%203n%7D%7B%5Ctheta%7D "\\frac{- 3n}{\theta}")+
+![\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}} = 0](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D%20%3D%200 "\\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}} = 0")
 
+![\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}} = \frac{3n}{\theta}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B%5Csum_%7Bi%20=%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D%20=%20%5Cfrac%7B3n%7D%7B%5Ctheta%7D "\\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}} = \frac{3n}{\theta}")
 
-![\\frac{\\sum_{i = 1}^{n}x_{i}}{\\theta^{2}} = \\frac{3n}{\\theta}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B%5Csum_%7Bi%20=%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D%20=%20%5Cfrac%7B3n%7D%7B%5Ctheta%7D "\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}} = \frac{3n}{\theta}")
+![\sum_{i = 1}^{n}x_{i} = \frac{{3n}{\theta^{2}}}{\theta}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Csum_%7Bi%20=%201%7D%5E%7Bn%7Dx_%7Bi%7D%20=%20%5Cfrac%7B%7B3n%7D%7B%5Ctheta%5E%7B2%7D%7D%7D%7B%5Ctheta%7D "\\sum_{i = 1}^{n}x_{i} = \frac{{3n}{\theta^{2}}}{\theta}")
 
-![\\sum_{i = 1}^{n}x_{i} = \\frac{{3n}{\\theta^{2}}}{\\theta}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Csum_%7Bi%20=%201%7D%5E%7Bn%7Dx_%7Bi%7D%20=%20%5Cfrac%7B%7B3n%7D%7B%5Ctheta%5E%7B2%7D%7D%7D%7B%5Ctheta%7D "\sum_{i = 1}^{n}x_{i} = \frac{{3n}{\theta^{2}}}{\theta}")
+![\sum_{i = 1}^{n}x_{i} = {3n}{\theta}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Csum_%7Bi%20=%201%7D%5E%7Bn%7Dx_%7Bi%7D%20=%20%7B3n%7D%7B%5Ctheta%7D "\\sum_{i = 1}^{n}x_{i} = {3n}{\theta}")
 
-![\\sum_{i = 1}^{n}x_{i} = {3n}{\\theta}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Csum_%7Bi%20=%201%7D%5E%7Bn%7Dx_%7Bi%7D%20=%20%7B3n%7D%7B%5Ctheta%7D "\sum_{i = 1}^{n}x_{i} = {3n}{\theta}")
-
-![{\\theta} = \\frac{\\sum_{i = 1}^{n}x_{i}}{3n}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%7B%5Ctheta%7D%20=%20%5Cfrac%7B%5Csum_%7Bi%20=%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B3n%7D "{\theta} = \frac{\sum_{i = 1}^{n}x_{i}}{3n}")
+![{\theta} = \frac{\sum_{i = 1}^{n}x_{i}}{3n}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%7B%5Ctheta%7D%20=%20%5Cfrac%7B%5Csum_%7Bi%20=%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B3n%7D "{\\theta} = \frac{\sum_{i = 1}^{n}x_{i}}{3n}")
