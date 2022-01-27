@@ -36,6 +36,3 @@ Loves long drives, chill music and old school movies. A nicotine addict and a
 huge fan of Jack Daniel’s whiskey. Owned multiple businesses in Amman and
 southern of Jordan PRE-COVID and now focusing on translation and copywriting
 part of my experience through Upwork.
-
-
-
