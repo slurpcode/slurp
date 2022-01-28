@@ -68,7 +68,7 @@ Hypothesis tests for a population median
 
 |            |      Left Tail Test      | Right tail test | Two Tail Test |
 | :--------: | :----------------------: | :-------------: | ------------- |
-| Hypothesis | `Ho: Median ≥ 〖Med〗_0` 
+| Hypothesis | `Ho: Median ≥ 〖Med〗_0`
 
 `Ha: Median < 〖Med〗_0`
 | `Ho: Median ≤ 〖Med〗_0`
