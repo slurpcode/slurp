@@ -1,4 +1,4 @@
-# **Sampling methods**
+# 📊 **Sampling methods**
 
 Researchers in their studies often use different sampling methods, so as
 not to have to investigate an entire population in order to collect

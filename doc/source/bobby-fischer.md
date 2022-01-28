@@ -88,3 +88,7 @@ It didn't at all.
 He loved it. And he won after that, and won and won, and pretty much after the 21st match, it became impossible for Spassky to win. And it was like, oh, my God! Fischer wins! Fischer wins!
 
 he's, the World Chess Champion, and he's from the U.S. He walks out in Reykjavik, there's people everywhere. He's mobbed. Fischer was huge, and he became a Cold War hero!
+
+## About the Author
+
+Mujahid Al-Majali, a 29-year-old former air force soldier and an economic development and business specialist, also does translation and copywriting. Loves long drives, chill music and old school movies. A nicotine addict and a huge fan of Jack Daniel’s whiskey. Owned multiple businesses in Amman and southern of Jordan PRE-COVID and now focusing on translation and copywriting part of my experience through Upwork.

@@ -49,6 +49,7 @@ Welcome to slurp's documentation!
    gauss-jordan.md
    fermat.md
    fibonacci.md
+   free-distribution-testing.md
    frequentist.md
    long-term-behavior-of-markov.md
    curiosities.md
@@ -63,6 +64,7 @@ Welcome to slurp's documentation!
    common-errors.md
    block_design.md
    sampling_methods.md
+   parametric_statistics.md
 
 .. toctree::
    :caption: Persia
@@ -70,7 +72,7 @@ Welcome to slurp's documentation!
 
    persian-farsi.md
    irans-best-wrestlers.md
-   persepolis.md   
+   persepolis.md
    iran-shiraz-shapouri-house.md
    iran-kashan-tabatabai-house.md
 
@@ -247,7 +249,9 @@ Welcome to slurp's documentation!
 
    bobby-fischer.md
    boris_spassky.md
+   elo_rating.md
    garry_kasparov_a_chess_player.md
+   mikhail_tal.md
 
 Indices and tables
 ==================
