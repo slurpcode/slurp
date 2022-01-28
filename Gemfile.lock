@@ -410,6 +410,7 @@ GEM
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
+    wdm (0.1.1)
     webrick (1.7.0)
     webrobots (0.1.2)
     win32-process (0.9.0)
@@ -445,6 +446,7 @@ DEPENDENCIES
   rubycritic
   selenium-webdriver
   tzinfo-data
+  wdm (~> 0.1.0)
 
 BUNDLED WITH
-   2.1.4
+   2.2.32
