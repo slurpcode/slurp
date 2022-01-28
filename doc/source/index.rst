@@ -49,6 +49,7 @@ Welcome to slurp's documentation!
    gauss-jordan.md
    fermat.md
    fibonacci.md
+   free-distribution-testing.md
    frequentist.md
    long-term-behavior-of-markov.md
    curiosities.md
