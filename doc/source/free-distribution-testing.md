@@ -81,7 +81,7 @@ Hypothesis tests for a population median
 | Keywords | "Minor", "Decrease" | "Major", "Increase" | "Same", "Difference"|
 
 Nomenclature:
-`P = statistic of the binominal distribution test`
+`P = statistic of the binomial distribution test`
 `〖Med〗_0  = hypothetical value of the population median`
 `x = lower frequency, either with a (+) or (-) sign`
 `n = sample size`

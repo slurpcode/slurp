@@ -326,7 +326,7 @@ The standard deviation is S = 0.8
 Substituting the values ​​in the formula we will obtain that the error
 is:
 
-E = t x ![\\frac{S}{sqrt{n}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7BS%7D%7B%5Csqrt%7Bn%7D%7D%20 "\frac{S}{sqrt{n}}") = 2.093 * 
+E = t x ![\\frac{S}{sqrt{n}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7BS%7D%7B%5Csqrt%7Bn%7D%7D%20 "\frac{S}{sqrt{n}}") = 2.093 *
 ![\\frac{0.8}{sqrt{20}}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B0.8%7D%7B%5Csqrt%7B20%7D%7D%20 "\frac{0.8}{sqrt{20}}") = 0.37
 
 Now we are going to construct the estimation interval and for this it
@@ -347,7 +347,7 @@ The study of populations is determined by a probability function that
 establishes the random behavior of our variable of interest. In most
 cases we can know the distribution of the population, but it may be that
 we do not know the variance in the mean of that population. We can know
-that our variable of interest is binominal, but we do not know what the
+that our variable of interest is binomial, but we do not know what the
 probability of population success is. Perhaps in other cases we can know
 that it is governed by a Poisson process, but that we do not know the
 number of rare events that exist per interval.
@@ -554,8 +554,8 @@ I equal the term to zero and I clear θ
 = n![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta")
 
 
-![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta") 
-= ![\\frac{\\sum_{}^{}x_{i}}{n}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7Bn%7D "\frac{\sum_{}^{}x_{i}}{n}") 
+![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta")
+= ![\\frac{\\sum_{}^{}x_{i}}{n}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7Bn%7D "\frac{\sum_{}^{}x_{i}}{n}")
 
 
 This value being the average of all the data and the maximum likelihood
