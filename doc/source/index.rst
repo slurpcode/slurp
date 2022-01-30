@@ -84,9 +84,11 @@ Welcome to slurp's documentation!
    acid-trance.md
    ambient.md
    big-beat.md
+   dubstep.md
    goa.md
    hardcore.md
    house.md
+   electro.md
    idm.md
    jungle_drum_bass.md
    nu-jazz.md
