@@ -256,9 +256,6 @@ Welcome to slurp's documentation!
    law-and-order.md
 
 
-
-
-
 Indices and tables
 ==================
 
