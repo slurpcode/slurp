@@ -242,7 +242,7 @@ Welcome to slurp's documentation!
    garry_kasparov_a_chess_player.md
    mikhail_tal.md
 
-   .. toctree::
+.. toctree::
    :caption: Movies
    :maxdepth: 2
 
