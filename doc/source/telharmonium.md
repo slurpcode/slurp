@@ -1,16 +1,16 @@
 # 🎹 Telharmonium
 
-The Telharmonium (also known as the Dynamophone) was an early electrical organ, developed by Thaddeus 
-Cahill c. 1896 and patented in 1897. The electrical signal from the Telharmonium was transmitted over wires; 
+The Telharmonium (also known as the Dynamophone) was an early electrical organ, developed by Thaddeus
+Cahill c. 1896 and patented in 1897. The electrical signal from the Telharmonium was transmitted over wires;
 it was heard on the receiving end by means of "horn" speakers.
 
 ![img_1](_static/images/telharmonium/img_1.jpg)
 
-*[The Keyboard of the Telharmonium]*
+_[The Keyboard of the Telharmonium]_
 
 Like the later Hammond organ, the Telharmonium used tonewheels
 to generate musical sounds as electrical signals by additive
-synthesis. It is considered to be the first electromechanical 
+synthesis. It is considered to be the first electromechanical
 musical instrument.
 
 In 1895 Thaddeus Cahill submitted his first patent for the
@@ -29,15 +29,15 @@ The first design of the instrument set out the principles of the
 ‘Telharmonium’ or ‘Dynamophone’ that would be developed by
 Cahill over the next twenty years. Cahill’s vision was to create a
 universal ’perfect instrument’; an instrument that could produce
-absolutely perfect tones, mechanically controlled with scientific certainty. The Telharmonium would allow the 
-player to combine the sustain of a pipe organ with the expression of a piano, the musical intensity of a violin with 
-polyphony of a string section and the timbre and power of wind instruments with the chord ability of an organ. 
+absolutely perfect tones, mechanically controlled with scientific certainty. The Telharmonium would allow the
+player to combine the sustain of a pipe organ with the expression of a piano, the musical intensity of a violin with
+polyphony of a string section and the timbre and power of wind instruments with the chord ability of an organ.
 Having corrected the ‘defects’ of these traditional instruments the superior
 Telharmonium would render them obsolete.
 
 ![img_2](_static/images/telharmonium/img_2.jpg)
 
-*[Thaddeus Cahill’s patent documents for the first Telharmonium of 1897]*
+_[Thaddeus Cahill’s patent documents for the first Telharmonium of 1897]_
 
 Telharmonium tones were described as "clear and pure" — referring to the
 electronic sine wave tones it was capable of producing. However, it was not
@@ -53,10 +53,10 @@ as the flute, bassoon, clarinet, and also the cello. The Telharmonium needed
 
 ## About the Author
 
-Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical 
-expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional 
+Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical
+expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional
 musicians. His devotion to movie sounds shows in his art - widosub's music is filled with landscapes of emotions, dramatic twists and
-melancholic moods. He's one of the hosts of Tilos Rádió's MustBeat show, in which he's is focusing on drum'n'bass and chillout 
+melancholic moods. He's one of the hosts of Tilos Rádió's MustBeat show, in which he's is focusing on drum'n'bass and chillout
 music. He's also one half of the duo Empty Universe.
 
 ## References
