@@ -33,9 +33,9 @@ house music right away.
 <https://music.ishkur.com/?query=Electro>#
 
 ## Sources: 
- - MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)
- - Wikipedia 
- - Ishkur's Guide to Electronic Music
+- MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)
+- Wikipedia 
+- Ishkur's Guide to Electronic Music
 
 ## About the author:
 
