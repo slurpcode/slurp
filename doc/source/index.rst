@@ -252,6 +252,7 @@ Welcome to slurp's documentation!
 
    bobby-fischer.md
    boris_spassky.md
+   chess-and-mathematics.md
    elo_rating.md
    garry_kasparov_a_chess_player.md
    mikhail_tal.md
