@@ -56,7 +56,7 @@ Welcome to slurp's documentation!
    curiosities.md
    markov-chains.md
    negative_binomial_distribution.md
-   nonparametric_tests.md 
+   nonparametric_tests.md
    numeral-symbols.md
    probabilities.md
    standard-deviation.md
