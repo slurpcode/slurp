@@ -23,6 +23,7 @@ Welcome to slurp's documentation!
    goa-and-the-stuff.md
    grunge.md
    lsd.md
+   methamphetamine.md
    queen-rhapsody.md
    60s.md
    vietnam.md
@@ -57,6 +58,7 @@ Welcome to slurp's documentation!
    long-term-behavior-of-markov.md
    markov-chains.md
    negative_binomial_distribution.md
+   nonparametric_tests.md
    numeral-symbols.md
    parametric_statistics.md
    poisson-distribution.md
