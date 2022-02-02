@@ -2,7 +2,7 @@
 
 When we need to analyze the data for an investigation, we must choose the appropriate analysis method, to avoid at all costs reaching erroneous conclusions. To select the most appropriate analysis technique, different aspects must be taken with respect to the nature of the data to be quantified and the study design. It is also necessary to take into account the number of groups and observations to be compared, if the samples are independent or not, if there are repeated observations with respect to the same individuals, if the variables are qualitative or continuous, and their probability distribution. All these elements are decisive before deciding which statistical technique to use.
 
-When the normal distribution is not obvious or simply cannot be assumed since the sample size is small, the variable of interest is usually transformed to achieve symmetry in its distribution, or robust techniques that are not very sensitive to the absence of normality. 
+When the normal distribution is not obvious or simply cannot be assumed since the sample size is small, the variable of interest is usually transformed to achieve symmetry in its distribution, or robust techniques that are not very sensitive to the absence of normality.
 
 But nonparametric methods are easier to implement and do not require a normal distribution of data, and can also be used with small sample sizes.
 
@@ -23,7 +23,7 @@ The contrast can be observed with the differences in the scores between the elem
 
 If it is the case that the null hypothesis is true, both populations will have the same central value and therefore the ranges are expected to be randomly distributed between their positive and negative differences. This directly implies that the sums of their ranges are approximately equal. On the other hand, the test statistic that we will call "T" will be taken as the smallest value that exists between the two sums of the ranges, both positive T (+) and negative T (-).
 
-When we have a number of observations greater than 15, that is, n > 15, it can be assumed that the null hypothesis that is established for the value of the sampling distribution of T, approaches a normal distribution. So we can assume that the test statistic for this type of case is Z. With the required level of significance, the null hypothesis will be rejected, when Z is found in any of the critical sections located in the two tails (if it is the case) or in the region established for a single tail, always depending on the alternative hypothesis. 
+When we have a number of observations greater than 15, that is, n > 15, it can be assumed that the null hypothesis that is established for the value of the sampling distribution of T, approaches a normal distribution. So we can assume that the test statistic for this type of case is Z. With the required level of significance, the null hypothesis will be rejected, when Z is found in any of the critical sections located in the two tails (if it is the case) or in the region established for a single tail, always depending on the alternative hypothesis.
 
 Therefore, the formulas used in these cases are:
 
@@ -64,7 +64,7 @@ Applying the normal distribution formulas since the number of observations is gr
 
 ![formula](_static/images/nonparametric_tests/formula_2.PNG)
 
-If we look within the table for the value of α = 0.05 and we look at the values found both in the row and in the column, we can establish the value of Z for this level of significance. 
+If we look within the table for the value of α = 0.05 and we look at the values found both in the row and in the column, we can establish the value of Z for this level of significance.
 
 ![table](_static/images/nonparametric_tests/table_3.jpg)
 
@@ -88,11 +88,11 @@ The Kruskal-Wallis test is appropriate when the data have a natural order and mu
 
 Requirements and conditions to be able to apply this test:
 
--	The samples that are contrasted need not come from a normal distribution.
+- The samples that are contrasted need not come from a normal distribution.
 
--	Homoscedasticity: Given that the null hypothesis proposes that all groups belong to the same population and that therefore they will have the same medians, it will be an essential requirement that all groups have the same variance. This can be verified through graphical representations or using the Levenne or Barttlet tests.
+- Homoscedasticity: Given that the null hypothesis proposes that all groups belong to the same population and that therefore they will have the same medians, it will be an essential requirement that all groups have the same variance. This can be verified through graphical representations or using the Levenne or Barttlet tests.
 
--	They must all have the same distribution: Although it is true that the distribution of the groups does not necessarily have to be normal, it is necessary that it be the same in all the groups. For example, all groups show an asymmetry to the right.
+- They must all have the same distribution: Although it is true that the distribution of the groups does not necessarily have to be normal, it is necessary that it be the same in all the groups. For example, all groups show an asymmetry to the right.
 
 If these conditions are met, the requirements to apply the Kruskal Wallis test or the H statistic will be:
 
@@ -100,7 +100,7 @@ When k is the size of the groups is equal to 3 and the number of observations fo
 
 For the rest of the cases not specified in the previous point, the H statistic is assumed to follow an X<sup>2</sup> distribution (Chi square) and that it also has k - 1 degrees of freedom.
 
-In almost all the bibliography consulted, the ANOVA test is considered quite robust for medium or large samples, whose distribution is not normal. In general, they recommend the use of the Kruskal Wallis test when the populations to be compared are clearly asymmetric and also fulfill the condition that they all have a homogeneous variance and are in the same direction. 
+In almost all the bibliography consulted, the ANOVA test is considered quite robust for medium or large samples, whose distribution is not normal. In general, they recommend the use of the Kruskal Wallis test when the populations to be compared are clearly asymmetric and also fulfill the condition that they all have a homogeneous variance and are in the same direction.
 
 Given the case that the variance between populations is not homogeneous, the most appropriate test may be an ANOVA with Welch correction and it is important to note that when dealing with only ordinal data, the ANOVA test is not an option.
 
@@ -259,7 +259,7 @@ We substitute the values in the formula:
 
 ![formula](_static/images/nonparametric_tests/formula_8.PNG)
 
-We enter the chi square table with the value of the degrees of freedom: 
+We enter the chi square table with the value of the degrees of freedom:
 k - 1 = 3 - 1 = 2 and with a significance of α = 0.05, we obtain that the critical value is 5.991
 
 ![table](_static/images/nonparametric_tests/table_9.jpg)
@@ -274,4 +274,4 @@ By rejecting the null hypothesis, the alternative hypothesis is then accepted in
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
