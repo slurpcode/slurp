@@ -23,6 +23,7 @@ Welcome to slurp's documentation!
    goa-and-the-stuff.md
    grunge.md
    lsd.md
+   methamphetamine.md
    queen-rhapsody.md
    60s.md
    vietnam.md
@@ -55,6 +56,7 @@ Welcome to slurp's documentation!
    curiosities.md
    markov-chains.md
    negative_binomial_distribution.md
+   nonparametric_tests.md
    numeral-symbols.md
    probabilities.md
    standard-deviation.md
@@ -84,6 +86,8 @@ Welcome to slurp's documentation!
    acid-trance.md
    ambient.md
    big-beat.md
+   dubstep.md
+   electro.md
    goa.md
    hardcore.md
    house.md
@@ -105,6 +109,7 @@ Welcome to slurp's documentation!
    denis-dor.md
    electromechanical_piano.md
    musical-telegraph.md
+   telharmonium.md
    wireless-organ.md
 
 .. toctree::
