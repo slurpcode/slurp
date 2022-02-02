@@ -6,7 +6,7 @@ Dr. Perry Halkitis: "Believed to be only used by hicks in rural areas. They use 
 
 ![meth](_static/images/methamphetamine/meth_1.jpg)
 
-Over 11 million Americans have tried meth at least once. The same data says that 440,000 were last month's users. But this is all data from 2012. Its use is likely still on the rise, according to DEA meth seizure data. Crystal Meth is extremely addictive,
+Over 11 million Americans have tried meth at least once. The same data says that 440,000 were last month's users. But this is all data from 2012. Its use is likely still on the rise, according to DEA meth seizure data. Crystal Meth is extremely addictive.
 
 Methamphetamine meth for short is a very addictive stimulant drug it is a powder that can be made into a pill or a shiny rock called a crystal. The powder can be eaten or snorted at the nose it can also be mixed with liquid and injected into your body with a needle
 
