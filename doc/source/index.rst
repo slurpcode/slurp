@@ -46,27 +46,27 @@ Welcome to slurp's documentation!
 
    anderson_darling_test.md
    bayes.md
+   block_design.md
+   common-errors.md
+   curiosities.md
    determination-coefficient.md
-   gauss-jordan.md
    fermat.md
    fibonacci.md
    free-distribution-testing.md
    frequentist.md
+   gauss-jordan.md
    long-term-behavior-of-markov.md
-   curiosities.md
    markov-chains.md
    negative_binomial_distribution.md
    nonparametric_tests.md
    numeral-symbols.md
+   parametric_statistics.md
+   poisson-distribution.md
    probabilities.md
+   sampling_methods.md
    standard-deviation.md
    statistical-estimation.md
    types_of_probability_distributions.md
-   poisson-distribution.md
-   common-errors.md
-   block_design.md
-   sampling_methods.md
-   parametric_statistics.md
 
 .. toctree::
    :caption: Persia
@@ -162,6 +162,7 @@ Welcome to slurp's documentation!
    :caption: Drinks
    :maxdepth: 2
 
+   absinthe.md
    arak.md
    beer.md
    whiskey.md
@@ -176,6 +177,7 @@ Welcome to slurp's documentation!
    ball-aerospace.md
    cooking.md
    cinema-is-considered-as-the-seventh-art.md
+   david-bowie-the-legend.md
    dogs.md
    driving-off-road.md
    first-australian-task-force.md
@@ -236,19 +238,6 @@ Welcome to slurp's documentation!
    well-formed.md
 
 .. toctree::
-   :caption: Television
-   :maxdepth: 2
-
-   downton-abbey.md
-   law-and-order.md
-
-.. toctree::
-   :caption: Movies
-   :maxdepth: 2
-
-   harriet_the_movie.md
-
-.. toctree::
    :caption: Chess
    :maxdepth: 2
 
@@ -257,6 +246,20 @@ Welcome to slurp's documentation!
    elo_rating.md
    garry_kasparov_a_chess_player.md
    mikhail_tal.md
+
+.. toctree::
+   :caption: Movies
+   :maxdepth: 2
+
+   harriet_the_movie.md
+
+.. toctree::
+   :caption: Television
+   :maxdepth: 2
+
+   downton-abbey.md
+   law-and-order.md
+
 
 Indices and tables
 ==================
