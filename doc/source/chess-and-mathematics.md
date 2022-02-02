@@ -1,4 +1,4 @@
-# Chess And Mathematics
+# ♘📐Chess And Mathematics
 
 ## The Close Relationship between Chess and Mathematics
 
