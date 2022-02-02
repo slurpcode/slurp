@@ -61,6 +61,7 @@ Welcome to slurp's documentation!
    nonparametric_tests.md
    numeral-symbols.md
    parametric_statistics.md
+   point-estimation-methods.md
    poisson-distribution.md
    probabilities.md
    sampling_methods.md
@@ -243,6 +244,7 @@ Welcome to slurp's documentation!
 
    bobby-fischer.md
    boris_spassky.md
+   chess-and-mathematics.md
    elo_rating.md
    garry_kasparov_a_chess_player.md
    mikhail_tal.md
