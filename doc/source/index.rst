@@ -86,6 +86,8 @@ Welcome to slurp's documentation!
    acid-trance.md
    ambient.md
    big-beat.md
+   dubstep.md
+   electro.md
    goa.md
    hardcore.md
    house.md
@@ -107,6 +109,7 @@ Welcome to slurp's documentation!
    denis-dor.md
    electromechanical_piano.md
    musical-telegraph.md
+   telharmonium.md
    wireless-organ.md
 
 .. toctree::
