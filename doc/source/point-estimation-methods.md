@@ -246,7 +246,7 @@ We can commit a type I error when rejecting the null hypothesis being true, sinc
 
 `α=P(p≥0.07/ p =0.05)= P(  X/n  ≥0.07 / p = 0.05)`
 
-X being the number of clients who use the perfume among the people interviewed and n is the number of the sample, which in this case is 200. To find the probability, we use the information that, as is a Bernouilli probability distribution, the sum of the values of X would be a function of B(n,p) and therefore:
+X being the number of clients who use the perfume among the people interviewed and n is the number of the sample, which in this case is 200. To find the probability, we use the information that, as is a Bernoulli probability distribution, the sum of the values of X would be a function of B(n,p) and therefore:
 
 `α=P(p≥0.07/ p =0.05)= P(X ≥ (0.07)(200) = 14 / p = 0.05)`
 
