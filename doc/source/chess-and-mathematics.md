@@ -6,7 +6,7 @@
 
 It all begins with the deep sadness of a king of India named Sheram, who had lost his son in of the battles and there was nothing that could make him happy.
 
-One day someone named Sissa appeared at his court and requested an audience with the king, where he presented a game in which he assured him he would suceed
+One day someone named Sissa appeared at his court and requested an audience with the king, where he presented a game in which he assured him he would succeed
 in cheering him up again and amusing him: **Chess.** After introducing him to the board and explaining the rules, the king began to play feeling absolutely in awe
 and after playing many games, he realized that his grief had been largely mitigated, so Sissa had succeeded.
 Sheram was very grateful for such a wonderful gift, so he wanted to reward Sissa and suggested that she ask for whatever he wanted, since the king was rich enough to fulfill the most burdensome wish.
