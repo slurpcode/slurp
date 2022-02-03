@@ -1,4 +1,4 @@
-**Tests to see if the data meet a normal distribution**
+# 📊 Tests to see if the data meet a normal distribution
 
 Parametric hypothesis tests have as a condition compliance with
 normality and for this it will be necessary to test this assumption.
@@ -105,7 +105,7 @@ Ho: The data come from a normal distribution
 
 H1: The data do not come from a normal distribution
 
-Shapiro Wilk test
+## Shapiro Wilk test
 
 This test is used to contrast normality in the case that the sample size
 is less than 50 observations. The idea is to order the sample from
@@ -214,7 +214,7 @@ g\) 7th column: ${(Xi - \overline{X})}^{2}$ is calculated
 | 6                          | 16,02     | 15,97               | \-0,05                                                   | 0             | 0                                                                 | 0,0009                        |
 | 7                          | 16,04     | 15,96               | \-0,08                                                   | 0             | 0                                                                 | 0,0025                        |
 | 8                          | 16,05     | 15,90               | \-0,015                                                  | 0             | 0                                                                 | 0,0036                        |
-| \[\sum_{}^{}\text{total}\] |           |                     |                                                          |               | 0.0159                                                            | 0,0166                        |
+| $\sum total$ |           |                     |                                                          |               | 0.0159                                                            | 0,0166                        |
 
 
 The test statistic is obtained by dividing the square of the sum of the
@@ -298,7 +298,7 @@ contrast with a normal distribution of estimated parameters, it will be
 necessary to consider the possibility of complementing the Kolmogorov
 Smirnov test with the Lilliefors test.
 
-Advantages of Kolmogórov Smirnov:
+## Advantages of Kolmogórov Smirnov:
 
 1.- It is more powerful than other goodness-of-fit tests such as Chi
 square.
@@ -309,7 +309,7 @@ calculate.
 3.- The statistic of this test only depends on the size of the sample,
 since it is not dependent on the frequency distribution.
 
-Example of the test kolmogorov Smirnov
+## Example of the test kolmogorov Smirnov
 
 We are going to apply the steps to follow for this test with a specific
 example, for subsequent observations simply follow the same steps that
@@ -373,7 +373,7 @@ $Z_{97}$= $\frac{97 - 92,2}{2,85}$ = -0,77
 In this way we continue to calculate each of the Z values ​​corresponding
 to the subsequent upper limits and place them in a table:
 
-Interval limits Z values ​​of interval limits
+## Interval limits Z values ​​of interval limits
 
 |                 |                               |
 | --------------- | ----------------------------- |
@@ -430,7 +430,7 @@ In the following table we will show the theoretical frequencies and the
 observed frequencies that are adapted as follows in the corresponding
 intervals and then, it is when the Kolmogorov Smirnov method is applied.
 
-Calculation of the D statistic of the Kolmogorov Smirnov test
+## Calculation of the D statistic of the Kolmogorov Smirnov test
 
 
 |                                       |         |         |          |          |          |
@@ -466,7 +466,7 @@ there are no significant differences between the calculated theoretical
 frequencies and the observed frequencies, this implies that the
 observations have a normal distribution.
 
-Lilliefors test
+## Lilliefors test
 
 The Lilliefors test is a correction of the Kolmogorov Smirnov test,
 which, as we know, is used when the parameters of its hypothetical
@@ -567,15 +567,6 @@ and the intersection will be the value of interest of the cumulative
 probability, which in this case will be of: 0.0885. In this way, we are
 looking for the corresponding values ​​in the table for each value of Z
 and we can place them in the following table:
-
-
-    
-  |$S_{7}$ (X)|   $\varphi_{7}$($X_{i}$)
-  |$$\left| {S_{7}\ \left( X_{i} \right) - \varphi}_{7}(X_{i}) \right|$$   
-  |
-  
-
-
 
 ||||||
 |-|-|-|-|-|
