@@ -136,7 +136,7 @@ third from the penultimate value and so on until the last value is
 subtracted from the first value. We are going to suppose that we have
 seven values, then we can conclude that the sequence of differences is
 going to be the following:
- 
+
 |               |                                     |                                                          |
 | ------------- | ----------------------------------- | -------------------------------------------------------- |
 | Observation i | Xi values sorted in ascending order | $$\left\lbrack x_{(n - i + 1)} - \ x_{i} \right\rbrack$$ |
