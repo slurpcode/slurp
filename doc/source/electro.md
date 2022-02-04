@@ -34,19 +34,25 @@ house music right away.
 
 ## Sources: 
 <<<<<<< HEAD
+<<<<<<< HEAD
  - MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)
  - Wikipedia 
  - Ishkur's Guide to Electronic Music
 
 ## About the author:
 =======
+=======
+>>>>>>> 21935978bcc0f9729af85261369259946044a7d5
 - MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)
 - Wikipedia 
 - Ishkur's Guide to Electronic Music
 
 ## About the author:
 
+<<<<<<< HEAD
 >>>>>>> 9e74b43c4c477b21cd4aad088fdc9ecfad24c3e9
+=======
+>>>>>>> 21935978bcc0f9729af85261369259946044a7d5
 Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical 
 expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional 
 musicians. His devotion to movie sounds shows in his art - widosub's music is filled with landscapes of emotions, dramatic twists and
