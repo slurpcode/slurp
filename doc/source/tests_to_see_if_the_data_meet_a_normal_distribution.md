@@ -148,7 +148,6 @@ going to be the following:
 | 6             | X6                                  | X2 – X6                                                  |
 | 7             | X7                                  | X1 – X7                                                  |
 
-
 The acceptance zone for the null hypothesis is made up of the values ​​of
 the test statistic W, which are less than the expected value or the
 value that is tabulated $W_{(1 - \alpha;\ n)}$
@@ -201,21 +200,19 @@ values ​​of the 5th column are multiplied by the 6th column
 
 g\) 7th column: ${(Xi - \overline{X})}^{2}$ is calculated
 
-
-|                            |           |                     |                                                          |               |                                                                   |                               |
-| -------------------------- | --------- | ------------------- | -------------------------------------------------------- | ------------- | ----------------------------------------------------------------- | ----------------------------- |
-| 1º                         | 2º        | 3º                  | 4º                                                       | 5º            | 6º                                                                | 7º                            |
-| i| $$X_{i}$$  | $$X_{(n - i + 1)}$$ | $$\left\lbrack X_{(n - i + 1)} - \ X_{i} \right\rbrack$$  | $$ai$$   | $$ai\left\lbrack X_{(n - i + 1)} - \ X_{i} \right\rbrack$$  | $${(Xi - \overline{X})}^{2}$$ |
-| 1                          | 15,90     | 16,05               | 0,15                                                     | 0,6052        | 0,090780                                                          | 0,0081                        |
-| 2                          | 15,96     | 16,04               | 0,08                                                     | 0,3164        | 0,025312                                                          | 0,0009                        |
-| 3                          | 15,97     | 16,02               | 0,05                                                     | 0,1743        | 0,008715                                                          | 0,0004                        |
-| 4                          | 15,98     | 16,00               | 0,02                                                     | 0,0561        | 0,001122                                                          | 0,0001                        |
-| 5                          | 16,00     | 15,98               | \-0,02                                                   | 0             | 0                                                                 | 0,0001                        |
-| 6                          | 16,02     | 15,97               | \-0,05                                                   | 0             | 0                                                                 | 0,0009                        |
-| 7                          | 16,04     | 15,96               | \-0,08                                                   | 0             | 0                                                                 | 0,0025                        |
-| 8                          | 16,05     | 15,90               | \-0,015                                                  | 0             | 0                                                                 | 0,0036                        |
-| $\sum total$ |           |                     |                                                          |               | 0.0159                                                            | 0,0166                        |
-
+|              |            |                     |                                                           |         |                                                             |                               |
+| ------------ | ---------- | ------------------- | --------------------------------------------------------- | ------- | ----------------------------------------------------------- | ----------------------------- |
+| 1º           | 2º         | 3º                  | 4º                                                        | 5º      | 6º                                                          | 7º                            |
+| i            | $$X_{i}$$  | $$X_{(n - i + 1)}$$ | $$\left\lbrack X_{(n - i + 1)} - \ X_{i} \right\rbrack$$  | $$ai$$  | $$ai\left\lbrack X_{(n - i + 1)} - \ X_{i} \right\rbrack$$  | $${(Xi - \overline{X})}^{2}$$ |
+| 1            | 15,90      | 16,05               | 0,15                                                      | 0,6052  | 0,090780                                                    | 0,0081                        |
+| 2            | 15,96      | 16,04               | 0,08                                                      | 0,3164  | 0,025312                                                    | 0,0009                        |
+| 3            | 15,97      | 16,02               | 0,05                                                      | 0,1743  | 0,008715                                                    | 0,0004                        |
+| 4            | 15,98      | 16,00               | 0,02                                                      | 0,0561  | 0,001122                                                    | 0,0001                        |
+| 5            | 16,00      | 15,98               | \-0,02                                                    | 0       | 0                                                           | 0,0001                        |
+| 6            | 16,02      | 15,97               | \-0,05                                                    | 0       | 0                                                           | 0,0009                        |
+| 7            | 16,04      | 15,96               | \-0,08                                                    | 0       | 0                                                           | 0,0025                        |
+| 8            | 16,05      | 15,90               | \-0,015                                                   | 0       | 0                                                           | 0,0036                        |
+| $\sum total$ |            |                     |                                                           |         | 0.0159                                                      | 0,0166                        |
 
 The test statistic is obtained by dividing the square of the sum of the
 values ​​in the 5th column $b^{2}\ $= $\left( \sum_{i = 1}^{k}{ai\ \left\lbrack x_{(n - i + 1)} - \ x_{i} \right\rbrack} \right)^{2}\ $ between
@@ -348,7 +345,6 @@ obtained:
 | 5    | 106 - 109             | 7   | 100 |
 |      | Total                 | 100 |     |
 
-
 Where the total average of the sample gives a value of $\overline{X\ }$=
 99.2 and its standard deviation is σ = 2.85
 
@@ -402,7 +398,6 @@ third column:
 
 ![image5](_static/images/tests_to_see_if_the_data_meet_a_normal_distribution/image5.jpeg)
 
-
 |                 |                               |                               |                      |                 |      |
 | --------------- | ----------------------------- | ----------------------------- | -------------------- | --------------- | ---- |
 | Interval limits | Z values ​​of interval limits | Typified area under the curve | Differences of areas | Differences x N | fa   |
@@ -420,8 +415,7 @@ if we subtract the first two values ​​we have: -0.4854 - (-0.4994) =
 value of the previous interval, thus filling in the 4th column.
 
 The 5th column is made up of multiplying the differences in areas found
-in the 4th column by the size of the sample, which in this case is n =
-100. For example: 0.014 x 100 = 1.4 we repeat this procedure to the rest
+in the 4th column by the size of the sample, which in this case is n = 100. For example: 0.014 x 100 = 1.4 we repeat this procedure to the rest
 of the values, while the 6th column will be made up of the accumulated
 frequency (fa), that is, the value of the 5th column is added the next
 value and so on.
@@ -431,7 +425,6 @@ observed frequencies that are adapted as follows in the corresponding
 intervals and then, it is when the Kolmogorov Smirnov method is applied.
 
 ## Calculation of the D statistic of the Kolmogorov Smirnov test
-
 
 |                                       |         |         |          |          |          |
 | ------------------------------------- | ------- | ------- | -------- | -------- | -------- |
@@ -568,18 +561,18 @@ probability, which in this case will be of: 0.0885. In this way, we are
 looking for the corresponding values ​​in the table for each value of Z
 and we can place them in the following table:
 
-||||||
-|-|-|-|-|-|
-| $$X_{i}$$  | $S_{7}$ (X) | $\varphi_{7}$($X_{i}$) | $$\|{S_{7}\ \left( X_{i} \right) - \varphi}_{7}(X_{i})\|$$ | $$\| {S_{7}\ \left( X_{i - 1} \right) - \varphi}_{7}(X_{i}) \|$$ |
-| \-4       | 1/7 = 0,1428  | 0,0885                     | 0,0543                                                                | 0 – 0,0885 = 0,0885                                                       |
-| \-2       | 2/7 = 0,2857  | 0,1841                     | 0,1016                                                                | 0,1428 - 0,1841= 0,0413                                                   |
-| 0         | 3/7 = 0,4285  | 0,3264                     | 0,1021                                                                | 0,2857 - 0,3264 = 0,0407                                                  |
-| 1         | 4/7 = 0,5714  | 0,4129                     | 0,1585                                                                | 0,4285 - 0,4129 = 0,0156                                                  |
-| 5         | 5/7 = 0,7142  | 0,7486                     | 0,0344                                                                | 0,5714 - 0,7486 = 0,1772                                                  |
-| 6         | 6/7 = 0,8571  | 0,8159                     | 0,0412                                                                | 0,7142 - 0,8159 = 0,1017                                                  |
-| 8         | 7/7 = 1       | 0,9115                     | 0,0885                                                                | 0,8571 - 0,9115 = 0,0544                                                  |
+|           |              |                        |                                                            |                                                                  |
+| --------- | ------------ | ---------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------- |
+| $$X_{i}$$ | $S_{7}$ (X)  | $\varphi_{7}$($X_{i}$) | $$\|{S_{7}\ \left( X_{i} \right) - \varphi}_{7}(X_{i})\|$$ | $$\| {S_{7}\ \left( X_{i - 1} \right) - \varphi}_{7}(X_{i}) \|$$ |
+| \-4       | 1/7 = 0,1428 | 0,0885                 | 0,0543                                                     | 0 – 0,0885 = 0,0885                                              |
+| \-2       | 2/7 = 0,2857 | 0,1841                 | 0,1016                                                     | 0,1428 - 0,1841= 0,0413                                          |
+| 0         | 3/7 = 0,4285 | 0,3264                 | 0,1021                                                     | 0,2857 - 0,3264 = 0,0407                                         |
+| 1         | 4/7 = 0,5714 | 0,4129                 | 0,1585                                                     | 0,4285 - 0,4129 = 0,0156                                         |
+| 5         | 5/7 = 0,7142 | 0,7486                 | 0,0344                                                     | 0,5714 - 0,7486 = 0,1772                                         |
+| 6         | 6/7 = 0,8571 | 0,8159                 | 0,0412                                                     | 0,7142 - 0,8159 = 0,1017                                         |
+| 8         | 7/7 = 1      | 0,9115                 | 0,0885                                                     | 0,8571 - 0,9115 = 0,0544                                         |
 
-As we can see, the first $X_{i}\ $ is made up of the data ordered from
+As we can see, the first $X\_{i}\ $ is made up of the data ordered from
 least to greatest.
 
 The second column that we call $\varphi_{7}$($X_{i}$) is made up of the
