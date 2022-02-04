@@ -249,6 +249,7 @@ Welcome to slurp's documentation!
    elo_rating.md
    garry_kasparov_a_chess_player.md
    mikhail_tal.md
+   tata-steel-chess-wijk-aan-zee-2022.md
 
 .. toctree::
    :caption: Movies
