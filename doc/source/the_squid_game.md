@@ -16,7 +16,7 @@ The first game that the 456 players face is red light, green light and those who
 
 To the surprise of the players who may die, they appeal to the third clause of the contract, where it is specified that everyone will be sent home if the majority of the participants vote in favor of ending the games, but yes, they will not receive money any. All the participants vote and it is the player 001 with the decisive vote of him, the one who places the balance in favor of everyone returning home safe and sound.
 
-Gi-hun goes to the police to report the macabre games, but no one believes him for lack of evidence. However, a detective named Hwang Jun-ho whose brother has disappeared realizes that they both received the same card. 
+Gi-hun goes to the police to report the macabre games, but no one believes him for lack of evidence. However, a detective named Hwang Jun-ho whose brother has disappeared realizes that they both received the same card.
 
 Subsequently, each of the players is invited again and due to the precarious economic position they accept 187 of the 201 who remained alive, including Gi-hun.
 
@@ -30,7 +30,7 @@ The third game is made up of groups of 10 players for each team that are on two 
 
 In the fourth game the players are instructed to pair up and they choose their best ally. To their surprise, the participants are horrified to learn that they will actually play against their chosen partner, the game is with marbles and whoever gets their partner's marbles in half an hour wins and survives. Gi-hun chooses the old man with memory loss who is player 001 and when he is about to lose, he takes advantage of his opponent's memory loss thinking that he would not notice, but at the last moment the old man reproaches him but he leaves all his marbles anyway and Gi-hun goes on to the next round.
 
-In the fifth game, the participants have 16 minutes to cross a bridge made up of normal or tempered glass panels. The tempered ones can support the weight of two people, but the normal ones break when standing on them. Afraid to step on the normal glass panes, many delay or refuse to move forward, but because they have a set time, the last few players are at a disadvantage as they can't make it to the other side just in time. 
+In the fifth game, the participants have 16 minutes to cross a bridge made up of normal or tempered glass panels. The tempered ones can support the weight of two people, but the normal ones break when standing on them. Afraid to step on the normal glass panes, many delay or refuse to move forward, but because they have a set time, the last few players are at a disadvantage as they can't make it to the other side just in time.
 
 Sang-Woo pushes Player 017 to the next panel for taking too long and the glass shatters, revealing the safe panel. Only the last three players who are Sang-Woo, Player 067 and Gi-hun manage to cross the bridge.
 
@@ -38,4 +38,4 @@ Sang-woo kills the player 067 so that only he and the protagonist remain for the
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
