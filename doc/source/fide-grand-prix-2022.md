@@ -6,154 +6,146 @@ This tournament is bifurcated in three legs (Berlin and Belgrade will host these
 
 ## -PLAYERS
 
+| **Country**       | **Player**                   | **Qualification Method**        | **Rating** |
+| ----------------- | ---------------------------- | ------------------------------- | ---------- |
+| **_China_**       | **_Ding Liren_**             | **_Rating_**                    | **_2799_** |
+| **_USA_**         | **_Levon Aronian_**          | **_Rating_**                    | **_2772_** |
+| **_Netherlands_** | **_Anish Giri_**             | **_Rating_**                    | **_2772_** |
+| **_USA_**         | **_Wesley So_**              | **_Rating_**                    | **_2772_** |
+| **_Azerbaijan_**  | **_Shakhriyar Mamedyarov_**  | **_Rating_**                    | **_2767_** |
+| **_Russia_**      | **_Alexnder Grischuk_**      | **_Rating_**                    | **_2764_** |
+| **_Hungary_**     | **_Richard Rapport_**        | **_Rating_**                    | **_2763_** |
+| **_France_**      | **_Maxime Vachier-Lagrave_** | **_Grand Swiss_**               | **_2761_** |
+| **_USA_**         | **_Leinier Dominguez_**      | **_Rating_**                    | **_2752_** |
+| **_USA_**         | **_Hikaru Nakamura_**        | **_Nominee of FIDE President_** | **_2736_** |
+| **_India_**       | **_Vidit Gujrathi_**         | **_World Cup_**                 | **_2727_** |
+| **_Russia_**      | **_Nikita Vitiugov_**        | **_Rating_**                    | **_2726_** |
+| **_Russia_**      | **_Dmitry Andreikin_**       | **_Rating_**                    | **_2724_** |
+| **_Russia_**      | **_Daniil Dubov_**           | **_Nominee of Organizer_**      | **_2720_** |
+| **_India_**       | **_Pentala Harikrishna_**    | **_Rating (Replacement)_**      | **_2719_** |
+| **_Russia_**      | **_Andrey Esipenko_**        | **_Rating (Replacement)_**      | **_2714_** |
+| **_China_**       | **_Yu Yangyi_**              | **_Grand Swiss_**               | **_2713_** |
+| **_USA_**         | **_Sam Shankland_**          | **_World Cup_**                 | **_2708_** |
+| **_Spain_**       | **_Alexei Shirov_**          | **_Grand Swiss_**               | **_2704_** |
+| **_Russia_**      | **_Vladimir Fedoseev_**      | **_World Cup_**                 | **_2704_** |
+| **_Poland_**      | **_Radoslaw Wojtaszek_**     | **_Rating (Replacement)_**      | **_2686_** |
+| **_Russia_**      | **_Alexandr Predke_**        | **_Grand Swiss_**               | **_2682_** |
+| **_Russia_**      | **_Grigoriy Oparin_**        | **_Grand Swiss_**               | **_2681_** |
+| **_Germany_**     | **_Vincent Keymer_**         | **_Grand Swiss_**               | **_2664_** |
+| **_France_**      | **_Etienne Bacrot_**         | **_World Cup_**                 | **_2642_** |
+| **_Iran_**        | **_Amin Tabatabaei_**        | **_World Cup_**                 | **_2623_** |
 
+**\*Each player will earn points for their individual performance which will be added to decide the final standings.**
 
-|**Country** |**Player** |**Qualification Method** |**Rating** |
-| - | - | - | - |
-|***China*** |***Ding Liren*** |***Rating*** |***2799*** |
-|***USA*** |***Levon Aronian*** |***Rating*** |***2772*** |
-|***Netherlands*** |***Anish Giri*** |***Rating*** |***2772*** |
-|***USA*** |***Wesley So*** |***Rating*** |***2772*** |
-|***Azerbaijan*** |***Shakhriyar Mamedyarov*** |***Rating*** |***2767*** |
-|***Russia*** |***Alexnder Grischuk*** |***Rating*** |***2764*** |
-|***Hungary*** |***Richard Rapport*** |***Rating*** |***2763*** |
-|***France*** |***Maxime Vachier-Lagrave*** |***Grand Swiss*** |***2761*** |
-|***USA*** |***Leinier Dominguez*** |***Rating*** |***2752*** |
-|***USA*** |***Hikaru Nakamura*** |***Nominee of FIDE President*** |***2736*** |
-|***India*** |***Vidit Gujrathi*** |***World Cup*** |***2727*** |
-|***Russia*** |***Nikita Vitiugov*** |***Rating*** |***2726*** |
-|***Russia*** |***Dmitry Andreikin*** |***Rating*** |***2724*** |
-|***Russia*** |***Daniil Dubov*** |***Nominee of Organizer*** |***2720*** |
-|***India*** |***Pentala Harikrishna*** |***Rating (Replacement)*** |***2719*** |
-|***Russia*** |***Andrey Esipenko*** |***Rating (Replacement)*** |***2714*** |
-|***China*** |***Yu Yangyi*** |***Grand Swiss*** |***2713*** |
-|***USA*** |***Sam Shankland*** |***World Cup*** |***2708*** |
-|***Spain*** |***Alexei Shirov*** |***Grand Swiss*** |***2704*** |
-|***Russia*** |***Vladimir Fedoseev*** |***World Cup*** |***2704*** |
-|***Poland*** |***Radoslaw Wojtaszek*** |***Rating (Replacement)*** |***2686*** |
-|***Russia*** |***Alexandr Predke*** |***Grand Swiss*** |***2682*** |
-|***Russia*** |***Grigoriy Oparin*** |***Grand Swiss*** |***2681*** |
-|***Germany*** |***Vincent Keymer*** |***Grand Swiss*** |***2664*** |
-|***France*** |***Etienne Bacrot*** |***World Cup*** |***2642*** |
-|***Iran*** |***Amin Tabatabaei*** |***World Cup*** |***2623*** |
-
-***Each player will earn points for their individual performance which will be added to decide the final standings.**
-
-
-|**Place in each Tournament** |**Grand Prix Points** |
-| - | - |
-|**Winner** |**13** |
-|**Runner-up** |**10** |
-|**Semifinalist (2 Players)** |**7** |
-|**2nd in Group (4 Players)** |**4** |
-|**3rd in Group (4 Players)** |**2** |
-|**4th in Group (4 Players)** |**0** |
+| **Place in each Tournament** | **Grand Prix Points** |
+| ---------------------------- | --------------------- |
+| **Winner**                   | **13**                |
+| **Runner-up**                | **10**                |
+| **Semifinalist (2 Players)** | **7**                 |
+| **2nd in Group (4 Players)** | **4**                 |
+| **3rd in Group (4 Players)** | **2**                 |
+| **4th in Group (4 Players)** | **0**                 |
 
 ## -Time Control
 
 The time control throughout the Grand Prix (except in tiebreaks) is 90 minutes for the first 40 moves, with 30 minutes for the rest of the game after move 40. There is a 30-second increment starting from move one.
 
-Any ties, either in the group or knockout stage, are broken in rapid games (15 minutes plus 10-second increment) and, if still tied, in blitz games (three minutes plus two-second increment**
+Any ties, either in the group or knockout stage, are broken in rapid games (15 minutes plus 10-second increment) and, if still tied, in blitz games (three minutes plus two-second increment\*\*
 
 ## -FIRST LEG
 
 The first leg of the event takes place from February 3 to February 17 at Berlin. Rounds start at 6 a.m. PST/15:00 CET.
 
-
 ![Fide Grand Prix 2022](_static/images/fide-grand-prix-2022/fide-grand-prix-2022.jpeg)
 
 (16 Participants of FIDE Grand Prix Berlin. Image credits: FIDE)
 
+| **Country**   | **Player**                   | **Rating** |
+| ------------- | ---------------------------- | ---------- |
+| **_USA_**     | **_Wesley So_**              | **_2772_** |
+| **_USA_**     | **_Levon Aronian_**          | **_2772_** |
+| **_Russia_**  | **_Alexander Grischuk_**     | **_2764_** |
+| **_Hungary_** | **_Richard Rapport_**        | **_2763_** |
+| **_USA_**     | **_Leinier Dominguez_**      | **_2752_** |
+| **_USA_**     | **_Hikaru Nakamura_**        | **_2736_** |
+| **_Russia_**  | **\*Andrey Esipenko\*\***    | **_2714_** |
+| **_India_**   | **_Pentala Harikrishna_**    | **_2717_** |
+| **_India_**   | **_Vidit Gujrathi_**         | **_2727_** |
+| **_Russia_**  | **_Daniil Dubov_**           | **_2720_** |
+| **_Russia_**  | **_Vladimir Fedoseev_**      | **_2704_** |
+| **_Spain_**   | **_Alexei Shirov_**          | **_2704_** |
+| **_Poland_**  | **\*Radoslaw Wojtaszek\*\*** | **_2686_** |
+| **_Russia_**  | **_Grigoriy Oparin_**        | **_2681_** |
+| **_Germany_** | **_Vincent Keymer_**         | **_2664_** |
+| **_France_**  | **_Etienne Bacrot_**         | **_2642_** |
 
-
-|**Country** |**Player** |**Rating** |
-| - | - | - |
-|***USA*** |***Wesley So*** |***2772*** |
-|***USA*** |***Levon Aronian*** |***2772*** |
-|***Russia*** |***Alexander Grischuk*** |***2764*** |
-|***Hungary*** |***Richard Rapport*** |***2763*** |
-|***USA*** |***Leinier Dominguez*** |***2752*** |
-|***USA*** |***Hikaru Nakamura*** |***2736*** |
-|***Russia*** |***Andrey Esipenko\**** |***2714*** |
-|***India*** |***Pentala Harikrishna*** |***2717*** |
-|***India*** |***Vidit Gujrathi*** |***2727*** |
-|***Russia*** |***Daniil Dubov*** |***2720*** |
-|***Russia*** |***Vladimir Fedoseev*** |***2704*** |
-|***Spain*** |***Alexei Shirov*** |***2704*** |
-|***Poland*** |***Radoslaw Wojtaszek\**** |***2686*** |
-|***Russia*** |***Grigoriy Oparin*** |***2681*** |
-|***Germany*** |***Vincent Keymer*** |***2664*** |
-|***France*** |***Etienne Bacrot*** |***2642*** |
-***\*Andrey Esipenko and Radoslaw Wojtaszek[ replaced ](https://www.chess.com/news/view/ding-liren-fide-grand-prix-2022)Ding Liren and Dmitry Andreikin***
+**_\*Andrey Esipenko and Radoslaw Wojtaszek[ replaced ](https://www.chess.com/news/view/ding-liren-fide-grand-prix-2022)Ding Liren and Dmitry Andreikin_**
 
 ## -SECOND LEG
 
 The Second leg will be held in Belgrade.
 
-
-|**Country** |**Player** |**Rating** |
-| - | - | - |
-|***China*** |***Ding Liren*** |***2799*** |
-|***Netherlands*** |***Anish Giri*** |***2772*** |
-|***Azerbaijan*** |***Shakhriyar Mamedyarov*** |***2767*** |
-|***Russia*** |***Alexander Grischuk*** |***2764*** |
-|***Hungary*** |***Richard Rapport*** |***2763*** |
-|***France*** |***Maxime Vachier-Lagrave*** |***2761*** |
-|***Russia*** |***Nikita Vitiugov*** |***2731*** |
-|***India*** |***Pentala Harikrishna*** |***2717*** |
-|***India*** |***Vidit Gujrathi*** |***2727*** |
-|***China*** |***Yu Yangyi*** |***2724*** |
-|***USA*** |***Sam Shankland*** |***2708*** |
-|***Russia*** |***Vladimir Fedoseev*** |***2704*** |
-|***Spain*** |***Alexei Shirov*** |***2704*** |
-|***Russia*** |***Alexandr Predke*** |***2682*** |
-|***Iran*** |***Amin Tabatabaei*** |***2643*** |
-|***France*** |***Etienne Bacrot*** |***2642*** |
+| **Country**       | **Player**                   | **Rating** |
+| ----------------- | ---------------------------- | ---------- |
+| **_China_**       | **_Ding Liren_**             | **_2799_** |
+| **_Netherlands_** | **_Anish Giri_**             | **_2772_** |
+| **_Azerbaijan_**  | **_Shakhriyar Mamedyarov_**  | **_2767_** |
+| **_Russia_**      | **_Alexander Grischuk_**     | **_2764_** |
+| **_Hungary_**     | **_Richard Rapport_**        | **_2763_** |
+| **_France_**      | **_Maxime Vachier-Lagrave_** | **_2761_** |
+| **_Russia_**      | **_Nikita Vitiugov_**        | **_2731_** |
+| **_India_**       | **_Pentala Harikrishna_**    | **_2717_** |
+| **_India_**       | **_Vidit Gujrathi_**         | **_2727_** |
+| **_China_**       | **_Yu Yangyi_**              | **_2724_** |
+| **_USA_**         | **_Sam Shankland_**          | **_2708_** |
+| **_Russia_**      | **_Vladimir Fedoseev_**      | **_2704_** |
+| **_Spain_**       | **_Alexei Shirov_**          | **_2704_** |
+| **_Russia_**      | **_Alexandr Predke_**        | **_2682_** |
+| **_Iran_**        | **_Amin Tabatabaei_**        | **_2643_** |
+| **_France_**      | **_Etienne Bacrot_**         | **_2642_** |
 
 ## -THIRD LEG
 
 Third leg will be held in Berlin, Germany.
 
-
-|**Country** |**Player** |**Rating** |
-| - | - | - |
-|***Netherlands*** |***Anish Giri*** |***2772*** |
-|***USA*** |***Wesley So*** |***2772*** |
-|***USA*** |***Levon Aronian*** |***2772*** |
-|***Azerbaijan*** |***Shakhriyar Mamedyarov*** |***2767*** |
-|***France*** |***Maxime Vachier-Lagrave*** |***2761*** |
-|***USA*** |***Leinier Dominguez*** |***2752*** |
-|***USA*** |***Hikaru Nakamura*** |***2736*** |
-|***Russia*** |***Nikita Vitiugov*** |***2731*** |
-|***Russia*** |***Dmitry Andreikin*** |***2724*** |
-|***Russia*** |***Daniil Dubov*** |***2720*** |
-|***China*** |***Yu Yangyi*** |***2713*** |
-|***USA*** |***Sam Shankland*** |***2708*** |
-|***Russia*** |***Alexandr Predke*** |***2682*** |
-|***Russia*** |***Grigoriy Oparin*** |***2681*** |
-|***Germany*** |***Vincent Keymer*** |***2664*** |
-|***Iran*** |***Amin Tabatabaei*** |***2643*** |
+| **Country**       | **Player**                   | **Rating** |
+| ----------------- | ---------------------------- | ---------- |
+| **_Netherlands_** | **_Anish Giri_**             | **_2772_** |
+| **_USA_**         | **_Wesley So_**              | **_2772_** |
+| **_USA_**         | **_Levon Aronian_**          | **_2772_** |
+| **_Azerbaijan_**  | **_Shakhriyar Mamedyarov_**  | **_2767_** |
+| **_France_**      | **_Maxime Vachier-Lagrave_** | **_2761_** |
+| **_USA_**         | **_Leinier Dominguez_**      | **_2752_** |
+| **_USA_**         | **_Hikaru Nakamura_**        | **_2736_** |
+| **_Russia_**      | **_Nikita Vitiugov_**        | **_2731_** |
+| **_Russia_**      | **_Dmitry Andreikin_**       | **_2724_** |
+| **_Russia_**      | **_Daniil Dubov_**           | **_2720_** |
+| **_China_**       | **_Yu Yangyi_**              | **_2713_** |
+| **_USA_**         | **_Sam Shankland_**          | **_2708_** |
+| **_Russia_**      | **_Alexandr Predke_**        | **_2682_** |
+| **_Russia_**      | **_Grigoriy Oparin_**        | **_2681_** |
+| **_Germany_**     | **_Vincent Keymer_**         | **_2664_** |
+| **_Iran_**        | **_Amin Tabatabaei_**        | **_2643_** |
 
 ## -Prize Fund
 
 Each tournament has a monetary prize fund of 150,000 Euros which will be distributed as tabulated below.
 
-
-|**Place in Tournament** |**Prize** |
-| - | - |
-|***Winner*** |***24,000*** |
-|***Runner-up*** |***18,000*** |
-|***Semifinalist*** |***12,000*** |
-|***Semifinalist*** |***12,000*** |
-|***2nd in Group*** |***9,000*** |
-|***2nd in Group*** |***9,000*** |
-|***2nd in Group*** |***9,000*** |
-|***2nd in Group*** |***9,000*** |
-|***3rd in Group*** |***7,000*** |
-|***3rd in Group*** |***7,000*** |
-|***3rd in Group*** |***7,000*** |
-|***3rd in Group*** |***7,000*** |
-|***4th in Group*** |***5,000*** |
-|***4th in Group*** |***5,000*** |
-|***4th in Group*** |***5,000*** |
-|***4th in Group*** |***5,000*** |
+| **Place in Tournament** | **Prize**    |
+| ----------------------- | ------------ |
+| **_Winner_**            | **_24,000_** |
+| **_Runner-up_**         | **_18,000_** |
+| **_Semifinalist_**      | **_12,000_** |
+| **_Semifinalist_**      | **_12,000_** |
+| **_2nd in Group_**      | **_9,000_**  |
+| **_2nd in Group_**      | **_9,000_**  |
+| **_2nd in Group_**      | **_9,000_**  |
+| **_2nd in Group_**      | **_9,000_**  |
+| **_3rd in Group_**      | **_7,000_**  |
+| **_3rd in Group_**      | **_7,000_**  |
+| **_3rd in Group_**      | **_7,000_**  |
+| **_3rd in Group_**      | **_7,000_**  |
+| **_4th in Group_**      | **_5,000_**  |
+| **_4th in Group_**      | **_5,000_**  |
+| **_4th in Group_**      | **_5,000_**  |
+| **_4th in Group_**      | **_5,000_**  |
