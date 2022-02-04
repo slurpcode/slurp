@@ -67,6 +67,7 @@ Welcome to slurp's documentation!
    sampling_methods.md
    standard-deviation.md
    statistical-estimation.md
+   tests_to_see_if_the_data_meet_a_normal_distribution.md
    types_of_probability_distributions.md
 
 .. toctree::
