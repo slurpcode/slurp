@@ -16,10 +16,9 @@ jobs:
           name: 🏗️ Install the Python Dependencies 🐍
           command: |
             sudo apt update
-            sudo apt-get install aspell python3-pip
+            sudo apt-get install aspell python3-pip gcc gfortran libopenblas-dev liblapack-dev python-dev
             python3 --version
             pip3 --version
-            sudo apt-get install gcc gfortran libopenblas-dev liblapack-dev python-dev
             sudo pip3 install --upgrade virtualenv --progress-bar off
             python3 -m venv venv || virtualenv venv && . venv/bin/activate
             sudo pip3 install -r requirements.txt
