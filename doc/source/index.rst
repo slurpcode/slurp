@@ -48,7 +48,7 @@ Welcome to slurp's documentation!
    bayes.md
    block_design.md
    common-errors.md
-   continious-probability-distribution.md
+   continuous-probability-distribution.md
    curiosities.md
    determination-coefficient.md
    fermat.md

@@ -47,17 +47,17 @@ This type of distribution is quite flexible when it comes to modeling the shapes
 
 1. The number of people involved in traffic accidents in the urban area
 
-![People involved in traffic accidents](_static/images/continious-probability-distribution/image1.jpg)
+![People involved in traffic accidents](_static/images/continuous-probability-distribution/image1.jpg)
 
 2. The space or time required for the observation of X number of events that have a Poisson distribution.
 
 3. The height where the precipitations begin: we can realize that the precipitations begin at a low altitude in a more usual way, than those that begin at a high altitude.
 
-![Raining](_static/images/continious-probability-distribution/image2.jpg)
+![Raining](_static/images/continuous-probability-distribution/image2.jpg)
 
 4. How the fibers of the wool are distributed: in this case we can realize that the wool is generally distributed, with a greater quantity of finer fibers than the cases in which the distribution is of few fibers, but thicker.
 
-![Fibers of wool](_static/images/continious-probability-distribution/image3.jpg)
+![Fibers of wool](_static/images/continuous-probability-distribution/image3.jpg)
 
 ## Disadvantages Of Gamma Distribution:
 
@@ -89,7 +89,7 @@ Once the fundamental formulas have been defined, we are going to carry out sever
 
 Example 1 of gamma distribution: in a city there is a certain company that is responsible for measuring electrical energy consumption in millions of kilowatts per hour, it is also known that energy consumption follows a gamma distribution whose parameters are α = 5 and β = 8, in addition to being aware that the minimum energy required to supply the city is 1865 kW per hour. It is required to calculate the standard deviation and the mean of the electricity consumption of that city.
 
-![Lit Up Industry](_static/images/continious-probability-distribution/image4.jpg)
+![Lit Up Industry](_static/images/continuous-probability-distribution/image4.jpg)
 
 It is important to take into account that the mean is the same as the expected value of the gamma distribution and then remember that the formula to find it is:
 
@@ -106,7 +106,7 @@ Once the variance is found, we can now calculate the standard deviation, since t
 
 Example 2 of the gamma distribution: daily energy consumption in a city is measured in millions of kilowatts per hour, if we know that this random variable follows a gamma distribution whose parameters are `α = 3` and `β = 2` and we are also aware that the power plant that supplies the city has a capacity to generate a maximum of 12 million kilowatts per hour per day. It is required to know what probability there is that one day the power plant will not be able to meet the demand.
 
-![Electricity Grid](_static/images/continious-probability-distribution/image5.jpg)
+![Electricity Grid](_static/images/continuous-probability-distribution/image5.jpg)
 
 To answer this question, we must first calculate the gamma function, and how we expressed previously, it will end up being a factorial, so we define it as:
 
@@ -138,7 +138,7 @@ Remember that to use the integral tabulation method we must derive the first fun
 |Step 3|2|4e^(-x/2)|
 |Step 4|0|-8e^(-x/2)
 
-![Multiplying by cross as indicated by arrows](_static/images/continious-probability-distribution/image6.jpg)
+![Multiplying by cross as indicated by arrows](_static/images/continuous-probability-distribution/image6.jpg)
 
 `P(x ≤1) = 1/16 (-2x^2 e^(-x/2) - 4xe^(-x/2) - 16e^(-x/2))|■(1@0)┤ = 1/16-2e^(-x/2) (x^2+4x+8)|■(1@0)┤ =`
 
@@ -148,7 +148,7 @@ Therefore, the probability that one day the power plant will not be able to sati
 
 Example 3 of the gamma distribution: the daily electricity consumption of a certain city, measured in millions of kilowatts per hour, can be considered as a random variable whose distribution is gamma, its parameters being `α = 3` and `λ = 0.5`. It is known that the power plant has a capacity of 10 million kilowatts per hour per day and it is required to know:
 
-![Supply Area](_static/images/continious-probability-distribution/image7.jpg)
+![Supply Area](_static/images/continuous-probability-distribution/image7.jpg)
 
 1. What is the probability that the supply on any given day is insufficient?
 2. What is the probability that the city consumes between 3 and 8 million kilowatts per hour in a day?
@@ -172,7 +172,7 @@ Substituting `α = 3` and `λ = 0.5 = 1/2` in the last formula we have that:
 
 We are going to calculate the probability of the gamma distribution, to solve the integral we are going to use the integral tabulation method again, as we already know, it can also be solved by the part integral method, but it would be more complicated and time consuming to calculate, so Again we are going to establish the first function of the integral as: `a(x) = x^2` and the second function will be: `b(x) = e^(-x/2)`, where for the first step we will place the functions without deriving or integrating, but for the second and the rest of the steps we will derive the first function until reaching zero and we will integrate the second function until the last calculated step of the first function. As we can see, we will obtain exactly the same values as in the previous exercise, so we will use the same image:
 
-![Supply Area](_static/images/continious-probability-distribution/image8.jpg)
+![Supply Area](_static/images/continuous-probability-distribution/image8.jpg)
 
 `P(x ≥10) = 1 – P( x < 10) = 1 - 〖0,5〗^3/2 ∫_0^10▒x^2  e^(-x/2) dx = `
 
@@ -232,7 +232,7 @@ Main characteristics of the Beta distribution
 
 In engineering, project managers often use a method called the Program Evolution and Review Technique, which is abbreviated as PERT. This method is used to coordinate the different activities that are part of a large project, for example, the construction of the Apollo spacecraft launched into space, was one of its most successful applications.
 
-![Apollo Spacecraft](_static/images/continious-probability-distribution/image9.jpg)
+![Apollo Spacecraft](_static/images/continuous-probability-distribution/image9.jpg)
 
 In PERT analysis one of the most common assumptions is to know the time required to carry out any particular activity and once started, it can be considered to have a Beta distribution. In the case that everything goes well it is determined as A = optimistic time and if everything goes wrong it is determined as B = pessimistic time.
 
@@ -240,7 +240,7 @@ In general, the Beta distribution is used to model the variation in the percenta
 
 We go with the first resolved exercise of beta distribution: suppose that a brand of televisions is going to require technical service during its first year of operation, if the proportion follows a random variable such as the Beta distribution where its parameters are α = 3 and β = 2. It is required to know what probability exists that at least 80% of the last models that were sold of this brand during this year, require technical service in this first year of operation.
 
-![Girl using her Tablet](_static/images/continious-probability-distribution/image10.jpg)
+![Girl using her Tablet](_static/images/continuous-probability-distribution/image10.jpg)
 
 The probability formula of the Beta distribution is given by:
 
@@ -274,7 +274,7 @@ So we have an 18.08% probability that at least 80% of the latest models sold of 
 
 Beta distribution example 2: suppose that a stress is applied to a 1 m iron bar, which is fixed at each of its ends, where y = "The distance from the point where the bar breaks to the extreme left expressed in meters ”and we know in advance that“ y ”has a Beta distribution, the expected value and its variance being equivalent to:
 
-![Mathmatical Equation](_static/images/continious-probability-distribution/image11.jpg)
+![Mathmatical Equation](_static/images/continuous-probability-distribution/image11.jpg)
 
 `E (y) = 1/2`
 `Var (y) = 1/28`
