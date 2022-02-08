@@ -23,7 +23,7 @@ gdjs.Timer = function(name)
  * @return {string} The name of the timer
  */
 gdjs.Timer.prototype.getName = function() {
-	return this._name;
+    return this._name;
 }
 
 /**
@@ -31,7 +31,7 @@ gdjs.Timer.prototype.getName = function() {
  * @return {number} The time of the timer, in milliseconds.
  */
 gdjs.Timer.prototype.getTime = function() {
-	return this._time;
+    return this._time;
 }
 
 /**
@@ -39,7 +39,7 @@ gdjs.Timer.prototype.getTime = function() {
  * @param {number} time The elapsed time, in milliseconds.
  */
 gdjs.Timer.prototype.updateTime = function(time) {
-	if ( !this._paused ) this._time += time;
+    if ( !this._paused ) this._time += time;
 }
 
 /**
@@ -47,14 +47,14 @@ gdjs.Timer.prototype.updateTime = function(time) {
  * @param {number} time The new time, in milliseconds.
  */
 gdjs.Timer.prototype.setTime = function(time) {
-	this._time = time;
+    this._time = time;
 }
 
 /**
  * Reset the time to zero.
  */
 gdjs.Timer.prototype.reset = function() {
-	this.setTime(0);
+    this.setTime(0);
 }
 
 /**
@@ -62,12 +62,12 @@ gdjs.Timer.prototype.reset = function() {
  * @param {boolean} enable true to pause the timer, false otherwise.
  */
 gdjs.Timer.prototype.setPaused = function(enable) {
-	this._paused = enable;
+    this._paused = enable;
 }
 
 /**
  * Check if the timer is paused.
  */
 gdjs.Timer.prototype.isPaused = function() {
-	return this._paused;
+    return this._paused;
 }

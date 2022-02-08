@@ -16,26 +16,26 @@
     <xsl:template match="/" name="root">
         <map>
             <title>Debrief Topic Map</title>
-            <!--	this topic meta content was not part of the original Debrief project
-            		and is just used for testing some new features and does not follow
-            		DITA guidelines on authoring
+            <!--    this topic meta content was not part of the original Debrief project
+                    and is just used for testing some new features and does not follow
+                    DITA guidelines on authoring
              -->
             <topicmeta>
-            	<searchtitle>Eclipse cheat sheets to PDF</searchtitle>
-            	<shortdesc>Document Publishing Adventures with the DITA Open Toolkit</shortdesc>
-			    <author>Debrief</author>
-			    <author>John Bampton</author>
-			    <source>http://debrief.info/</source>
-			    <publisher>GitHub John Bampton</publisher>
-			    <critdates>
-				      <created date="{format-date(current-date(),'[Y0001]-[M01]-[D01]')}"/>
-				</critdates>
-				<audience type="programmer" job="troubleshooting" experiencelevel="expert"/>
-				<category>Java</category>
-				<category>Document Publishing</category>
+                <searchtitle>Eclipse cheat sheets to PDF</searchtitle>
+                <shortdesc>Document Publishing Adventures with the DITA Open Toolkit</shortdesc>
+                <author>Debrief</author>
+                <author>John Bampton</author>
+                <source>http://debrief.info/</source>
+                <publisher>GitHub John Bampton</publisher>
+                <critdates>
+                      <created date="{format-date(current-date(),'[Y0001]-[M01]-[D01]')}"/>
+                </critdates>
+                <audience type="programmer" job="troubleshooting" experiencelevel="expert"/>
+                <category>Java</category>
+                <category>Document Publishing</category>
 
-			    <othermeta name="Publishing" content="PDF,TocJS,XHTML,DITA,HTMLhelp"/>
-			  </topicmeta>
+                <othermeta name="Publishing" content="PDF,TocJS,XHTML,DITA,HTMLhelp"/>
+              </topicmeta>
 
             <xsl:for-each select="collection(iri-to-uri('../cheatsheets-xml-test-data/?select=[a-zA-Z]*_composite.xml;recurse=yes'))">
                 <xsl:sort select="count(document('')//debrief:order/debrief:value[. = tokenize(document-uri(current()),'/')[last()]]/preceding-sibling::debrief:value)"/>

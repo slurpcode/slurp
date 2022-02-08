@@ -59,7 +59,7 @@ gdjs.VariablesContainer.prototype.initFrom = function(data, keepOldVariables) {
             var idx = gdjs.VariablesContainer._deletedVars.indexOf(varData.name)
             if (idx !== -1) gdjs.VariablesContainer._deletedVars[idx] = undefined;
         }
-	}
+    }
 
     if ( !keepOldVariables ) {
         this._variablesArray.length = i;
@@ -81,7 +81,7 @@ gdjs.VariablesContainer.prototype.initFrom = function(data, keepOldVariables) {
  * @param {gdjs.Variable} variable The variable to be added
  */
 gdjs.VariablesContainer.prototype.add = function(name, variable) {
-	this._variables.put(name, variable);
+    this._variables.put(name, variable);
 };
 
 /**
@@ -91,7 +91,7 @@ gdjs.VariablesContainer.prototype.add = function(name, variable) {
  */
 gdjs.VariablesContainer.prototype.remove = function(name) {
     var variable = this._variables.items[name];
-	if (variable) {
+    if (variable) {
         variable.setUndefinedInContainer();
     }
 };
@@ -103,16 +103,16 @@ gdjs.VariablesContainer.prototype.remove = function(name) {
  */
 gdjs.VariablesContainer.prototype.get = function(name) {
     var variable = this._variables.items[name];
-	if (!variable) { //Add automatically inexisting variables.
+    if (!variable) { //Add automatically inexisting variables.
         variable = new gdjs.Variable();
         this._variables.put(name, variable);
-	} else {
+    } else {
         if ( variable.isUndefinedInContainer() ) { //Reuse variables removed before.
             gdjs.Variable.call(variable);
         }
     }
 
-	return variable;
+    return variable;
 };
 
 /**
@@ -126,10 +126,10 @@ gdjs.VariablesContainer.prototype.get = function(name) {
  * should not happen.
  */
 gdjs.VariablesContainer.prototype.getFromIndex = function(id) {
-	if ( id >= this._variablesArray.length ) { //Add automatically inexisting variables.
+    if ( id >= this._variablesArray.length ) { //Add automatically inexisting variables.
         var variable = new gdjs.Variable();
         return this._variables.put(name, variable);
-	}
+    }
     else {
         var variable = this._variablesArray[id];
         if ( variable.isUndefinedInContainer() ) { //Reuse variables removed before.
@@ -146,7 +146,7 @@ gdjs.VariablesContainer.prototype.getFromIndex = function(id) {
  */
 gdjs.VariablesContainer.prototype.has = function(name) {
     var variable = this._variables.items[name];
-	return variable && !variable.isUndefinedInContainer();
+    return variable && !variable.isUndefinedInContainer();
 };
 
 

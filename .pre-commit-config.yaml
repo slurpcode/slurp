@@ -85,9 +85,9 @@ repos:
   #  rev: 3.8.4
   #  hooks:
   #    - id: flake8
-  # - repo: https://github.com/syntaqx/git-hooks
-  #  rev: v0.0.16
-  #  hooks:
-  #    - id: go-fmt
-  #    - id: go-test
-  #    - id: go-mod-tidy
+  - repo: https://github.com/syntaqx/git-hooks
+    rev: v0.0.16
+    hooks:
+      - id: go-fmt
+      - id: go-test
+      - id: go-mod-tidy

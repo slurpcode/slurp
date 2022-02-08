@@ -13,12 +13,12 @@ import (
 )
 
 type ScrappedData struct {
-	Data [][]string
-	Address string
+	Data      [][]string
+	Address   string
 	StartTime string
-	Time string
-	RegTime string
-	Colors string
+	Time      string
+	RegTime   string
+	Colors    string
 }
 
 func main() {
@@ -65,13 +65,13 @@ func main() {
 		offsetAmount := 0.2
 
 		c.HTML(http.StatusOK, "charts.tmpl.html", map[string]interface{}{
-			"pie_cool": r.Intn(50),
-			"pie_battles": r.Intn(50),
-			"pie_sleep": r.Intn(50),
-			"pie_council": r.Intn(50),
-			"pie_eat": r.Intn(50),
-			"pie_commute": r.Intn(50),
-			"pie_tv": r.Intn(50),
+			"pie_cool":      r.Intn(50),
+			"pie_battles":   r.Intn(50),
+			"pie_sleep":     r.Intn(50),
+			"pie_council":   r.Intn(50),
+			"pie_eat":       r.Intn(50),
+			"pie_commute":   r.Intn(50),
+			"pie_tv":        r.Intn(50),
 			"offset_number": offsetNumber,
 			"offset_amount": offsetAmount,
 		})
@@ -99,7 +99,7 @@ func scrapeGoogle() ScrappedData {
 	var ret [][]string
 	// Find all links
 	co.OnHTML("a[href^='/url?q']", func(e *colly.HTMLElement) {
-		if len(e.Text) > 0 && e.Text != "Cached"  { // fix ??
+		if len(e.Text) > 0 && e.Text != "Cached" { // fix ??
 			var record = make([]string, 2)
 			record[0] = e.Text
 			link := e.Attr("href")
@@ -110,7 +110,7 @@ func scrapeGoogle() ScrappedData {
 
 	co.OnScraped(func(r *colly.Response) {
 		t := time.Now()
-		unixTime = fmt.Sprintf("%s",gettime(t.Unix()))
+		unixTime = fmt.Sprintf("%s", gettime(t.Unix()))
 		regTime = fmt.Sprintf("%d-%02d-%02dT%02d:%02d:%02d\n",
 			t.Year(), t.Month(), t.Day(), t.Hour(), t.Minute(), t.Second())
 	})
@@ -121,7 +121,7 @@ func scrapeGoogle() ScrappedData {
 	for i, v := range perm {
 		dest[v] = col[i]
 	}
-	colors := strings.Join(dest,",")
+	colors := strings.Join(dest, ",")
 
 	co.Visit("https://www.google.com/search?q=mace+windu")
 	d := ScrappedData{Data: ret, Address: url, StartTime: startTime, Time: unixTime, RegTime: regTime, Colors: colors}

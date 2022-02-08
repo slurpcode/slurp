@@ -85,14 +85,14 @@ gdjs.FontFaceObserverFontManager._getFontFamilyFromFilename = function(filename)
  * specified in the FontFaceObserverFontManager constructor.
  */
 gdjs.FontFaceObserverFontManager.prototype.loadFonts = function(onProgress, onComplete, resources) {
-	resources = resources || this._resources;
+    resources = resources || this._resources;
 
-	//Construct the list of files to be loaded.
-	//For one loaded file, it can have one or more resources
-	//that use it.
+    //Construct the list of files to be loaded.
+    //For one loaded file, it can have one or more resources
+    //that use it.
     var filesResources = {};
-	for(var i = 0, len = resources.length;i<len;++i) {
-		var res = resources[i];
+    for(var i = 0, len = resources.length;i<len;++i) {
+        var res = resources[i];
         if ( res.file && res.kind === "font" ) {
             filesResources[res.file] = filesResources[res.file] ? filesResources[res.file].concat(res) : [res];
         }
@@ -100,7 +100,7 @@ gdjs.FontFaceObserverFontManager.prototype.loadFonts = function(onProgress, onCo
 
     var totalCount = Object.keys(filesResources).length;
     if (totalCount === 0)
-    	return onComplete(totalCount); //Nothing to load.
+        return onComplete(totalCount); //Nothing to load.
 
     var loadingCount = 0;
     var that = this;

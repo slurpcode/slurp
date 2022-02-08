@@ -523,7 +523,7 @@ def draw_plotly_chart(chart_div, data, title, height, width, type)
       height: #{height + data.size * 15}, // Each legend entry is 15 high.
       width: #{width},
       showlegend: true,
-	      legend: {
+          legend: {
           "orientation": "h"
         }
       };

@@ -93,8 +93,8 @@ gdjs.PlatformRuntimeBehavior = function(runtimeScene, behaviorData, owner)
     this._oldWidth = 0;
     this._oldHeight = 0;
 
-	this._manager = gdjs.PlatformObjectsManager.getManager(runtimeScene);
-	this._registeredInManager = false;
+    this._manager = gdjs.PlatformObjectsManager.getManager(runtimeScene);
+    this._registeredInManager = false;
 };
 
 gdjs.PlatformRuntimeBehavior.prototype = Object.create( gdjs.RuntimeBehavior.prototype );
@@ -105,7 +105,7 @@ gdjs.PlatformRuntimeBehavior.JUMPTHRU = 1;
 gdjs.PlatformRuntimeBehavior.NORMALPLAFTORM = 0;
 
 gdjs.PlatformRuntimeBehavior.prototype.onDestroy = function() {
-	if ( this._manager && this._registeredInManager ) this._manager.removePlatform(this);
+    if ( this._manager && this._registeredInManager ) this._manager.removePlatform(this);
 };
 
 gdjs.PlatformRuntimeBehavior.prototype.doStepPreEvents = function(runtimeScene) {

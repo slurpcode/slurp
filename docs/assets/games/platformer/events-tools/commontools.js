@@ -100,53 +100,53 @@ gdjs.evtTools.common.logicalNegation = function(bool) {
 };
 
 gdjs.evtTools.common.acosh = function(arg) {
-	// http://kevin.vanzonneveld.net
-	// +   original by: Onno Marsman
-	return Math.log(arg + Math.sqrt(arg * arg - 1));
+    // http://kevin.vanzonneveld.net
+    // +   original by: Onno Marsman
+    return Math.log(arg + Math.sqrt(arg * arg - 1));
 };
 
 gdjs.evtTools.common.asinh = function(arg) {
-	// http://kevin.vanzonneveld.net
-	// +   original by: Onno Marsman
-	return Math.log(arg + Math.sqrt(arg * arg + 1));
+    // http://kevin.vanzonneveld.net
+    // +   original by: Onno Marsman
+    return Math.log(arg + Math.sqrt(arg * arg + 1));
 };
 
 gdjs.evtTools.common.atanh = function(arg) {
-	// http://kevin.vanzonneveld.net
-	// +   original by: Onno Marsman
-	return 0.5 * Math.log((1 + arg) / (1 - arg));
+    // http://kevin.vanzonneveld.net
+    // +   original by: Onno Marsman
+    return 0.5 * Math.log((1 + arg) / (1 - arg));
 };
 
 gdjs.evtTools.common.cosh = function(arg) {
-	return (Math.exp(arg) + Math.exp(-arg)) / 2;
+    return (Math.exp(arg) + Math.exp(-arg)) / 2;
 };
 
 gdjs.evtTools.common.sinh = function(arg) {
-	return (Math.exp(arg) - Math.exp(-arg)) / 2;
+    return (Math.exp(arg) - Math.exp(-arg)) / 2;
 };
 
 gdjs.evtTools.common.tanh = function(arg) {
-	return (Math.exp(arg) - Math.exp(-arg)) / (Math.exp(arg) + Math.exp(-arg));
+    return (Math.exp(arg) - Math.exp(-arg)) / (Math.exp(arg) + Math.exp(-arg));
 };
 
 gdjs.evtTools.common.cot = function(arg) {
-	return 1/Math.tan(arg);
+    return 1/Math.tan(arg);
 };
 
 gdjs.evtTools.common.csc = function(arg) {
-	return 1/Math.sin(arg);
+    return 1/Math.sin(arg);
 };
 
 gdjs.evtTools.common.sec = function(arg) {
-	return 1/Math.cos(arg);
+    return 1/Math.cos(arg);
 };
 
 gdjs.evtTools.common.log10 = function(arg) {
-	return Math.log(arg) / Math.LN10;
+    return Math.log(arg) / Math.LN10;
 };
 
 gdjs.evtTools.common.log2 = function(arg) {
-	return Math.log(arg) / Math.LN2;
+    return Math.log(arg) / Math.LN2;
 };
 
 gdjs.evtTools.common.sign = function(arg) {
