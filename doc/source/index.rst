@@ -252,6 +252,7 @@ Welcome to slurp's documentation!
    garry_kasparov_a_chess_player.md
    mikhail_tal.md
    tata-steel-chess-wijk-aan-zee-2022.md
+   should-chess-be-added-in-academcis.md
 
 .. toctree::
    :caption: Movies
