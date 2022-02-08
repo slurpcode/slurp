@@ -2,7 +2,7 @@
 
 Chess is a mental sport which is played since ancient times, the Chess
 we play today is evolved from many different variants of chess but the
-*'Chaurang'* believed as first of such variants played in India and
+_'Chaurang'_ believed as first of such variants played in India and
 later travelled across the world in different variants played in
 different parts of the World. Today, Chess has developed lots of
 theories, studies, strategies, principles, etc. and have become a very
@@ -27,7 +27,8 @@ educational tool which will help child to improve and inculcate all this
 qualities which will be lifelong.
 
 ![image1](_static/images/should-chess-be-added-in-academics/media/image1.jpeg)
->Chess in Education Commission(FIDE)
+
+> Chess in Education Commission(FIDE)
 
 A study by Smith and Cage (2000) posited that students who received
 chess instruction scored significantly higher on all measures of
@@ -56,7 +57,8 @@ productivity and efficiency of whole world. This is truly exceptional by
 adding particular game in academics can change the future.
 
 ![image2](_static/images/should-chess-be-added-in-academics/media/image2.jpeg)
->CPS Academic Chess Programs
+
+> CPS Academic Chess Programs
 
 ## Reference
 
