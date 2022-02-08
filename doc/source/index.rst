@@ -248,6 +248,7 @@ Welcome to slurp's documentation!
    boris_spassky.md
    chess-and-mathematics.md
    elo_rating.md
+   fide-grand-prix-2022.md
    garry_kasparov_a_chess_player.md
    mikhail_tal.md
    tata-steel-chess-wijk-aan-zee-2022.md
