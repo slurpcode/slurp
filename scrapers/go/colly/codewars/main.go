@@ -37,7 +37,7 @@ func scrape(username string) {
 	var record []string
 	c := colly.NewCollector(
 		colly.AllowedDomains(allowed),
-		//colly.CacheDir(""),
+		// colly.CacheDir(""),
 	)
 
 	err := c.Limit(&colly.LimitRule{
@@ -74,6 +74,11 @@ func scrape(username string) {
 		record = append(record, strings.Replace(e.Text, ",", "", -1))
 	})
 	// Start scraping on https://www.codewars.com
-	_ = c.Visit(fmt.Sprintf(url, allowed, username))
+	err = c.Visit(fmt.Sprintf(url, allowed, username))
+
+	if err != nil {
+                log.Fatal(err)
+        }
+
 	fmt.Println(record)
 }
