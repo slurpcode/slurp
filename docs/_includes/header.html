@@ -3,8 +3,8 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="/">
-      <img id="logo" src="/slurp/assets/images/logos/fuchsia-139.png" alt="Fuchsia Programming" title="Fuchsia Programming">
+    <a class="site-title" rel="author" href="{{site.baseurl}}/">
+      <img id="logo" src="{{site.baseurl}}/assets/images/logos/fuchsia-139.png" alt="Fuchsia Programming" title="Fuchsia Programming">
     </a>
 
     {%- if page_paths -%}

@@ -38,7 +38,7 @@ func scrape(username string) {
 		colly.AllowedDomains(allowed),
 		//colly.CacheDir(""),
 	)
-	c.Limit(&colly.LimitRule{
+	_ = c.Limit(&colly.LimitRule{
 		// Filter domains affected by this rule
 		DomainGlob: "py.checkio.org/*",
 		// Set a delay between requests to these domains
@@ -55,6 +55,6 @@ func scrape(username string) {
 	c.OnXML("//span[@class='profile_level_value']", func(e *colly.XMLElement) {
 		record = append(record, e.Text)
 	})
-	c.Visit(fmt.Sprintf(url, username))
+	_ = c.Visit(fmt.Sprintf(url, username))
 	fmt.Println(record)
 }
