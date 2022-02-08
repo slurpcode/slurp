@@ -37,5 +37,5 @@ func main() {
 
 	})
 	// Start scraping on https://khanacademy.org
-	c.Visit(fmt.Sprintf(url, allowed, "XSLTGod"))
+	_ = c.Visit(fmt.Sprintf(url, allowed, "XSLTGod"))
 }

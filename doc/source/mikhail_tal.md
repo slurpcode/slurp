@@ -2,25 +2,25 @@
 
 ![chess](_static/images/mikhail_tal/mikhail_tal_1.jpg)
 
-He was known by many names; the magician from Riga, the pirate of Latvia, Fortunes favorite, the hypnotist and so on. 
+He was known by many names; the magician from Riga, the pirate of Latvia, Fortunes favorite, the hypnotist and so on.
 
-Mikhail Tal was born on 9th of November 1936. He was a Soviet Latvian chess grandmaster and the eighth world champions from 1960 - 1961. Widely regarded as a creative genius and the best attacking player of all time Tal played in a daring combinatorial style. His play was well known above all for improvisation and unpredictability. Every game, he once said, was as inimitable and invaluable as a poem. 
+Mikhail Tal was born on 9th of November 1936. He was a Soviet Latvian chess grandmaster and the eighth world champions from 1960 - 1961. Widely regarded as a creative genius and the best attacking player of all time Tal played in a daring combinatorial style. His play was well known above all for improvisation and unpredictability. Every game, he once said, was as inimitable and invaluable as a poem.
 
 The Mikhail Tal memorial has been held in Moscow annually since 2006 to honor Tal's memory.
 
-He was born in Riga, Latvia into a Jewish family. According to his friend Gennadi Sosonko, his true father was a family friend identified only as uncle Robert. From the very beginning of his life he suffered from illness. Tal learned to read at the age of three and was allowed to start university studies while only 15. 
+He was born in Riga, Latvia into a Jewish family. According to his friend Gennadi Sosonko, his true father was a family friend identified only as uncle Robert. From the very beginning of his life he suffered from illness. Tal learned to read at the age of three and was allowed to start university studies while only 15.
 
 At the age of 8 Tal learned to play chess while watching his father, a doctor and a medical researcher.
 
-shortly thereafter he joined the Riga palace for Young Pioneers chess club. His play was not exceptional at first but you worked hard to improve. Alexander Koblenz began tutoring Tal in 1949 after which Tal's game rapidly improved and by 1951 he had qualified for the Latvian championship. In the 1952 Latvian championship Tal finished ahead of his trainer. Tal won his first Latvian title in 1953 and was awarded the title of candidate master. 
+shortly thereafter he joined the Riga palace for Young Pioneers chess club. His play was not exceptional at first but you worked hard to improve. Alexander Koblenz began tutoring Tal in 1949 after which Tal's game rapidly improved and by 1951 he had qualified for the Latvian championship. In the 1952 Latvian championship Tal finished ahead of his trainer. Tal won his first Latvian title in 1953 and was awarded the title of candidate master.
 
-He became a Soviet master in 1954 by defeating Vladimir Saigin in a qualifying match. That same year he also scored his first win over a grandmaster when Yuri Averbakh lost on time in a drawn position. 
+He became a Soviet master in 1954 by defeating Vladimir Saigin in a qualifying match. That same year he also scored his first win over a grandmaster when Yuri Averbakh lost on time in a drawn position.
 
-Tal won a very strong tournament at Zurich in 1959. Following the internal zonal the top players carried out to the candidate’s tournament, Yugoslavia, 1959. 
+Tal won a very strong tournament at Zurich in 1959. Following the internal zonal the top players carried out to the candidate’s tournament, Yugoslavia, 1959.
 
-Tal showed superior form by winning with 20 out of 28 points ahead of Paul Kares with 18,5 followed by Tigran Petrosian, Vasily Smislov, the sixteen-year-old Bobby Fischer, Svetozar Gligorić, Friedrich Olafson and Paul Benco. 
+Tal showed superior form by winning with 20 out of 28 points ahead of Paul Kares with 18,5 followed by Tigran Petrosian, Vasily Smislov, the sixteen-year-old Bobby Fischer, Svetozar Gligorić, Friedrich Olafson and Paul Benco.
 
-Tal's victory was attributed to his dominance over the lower half of the field while scoring only one win and three losses vs Keres. He won all four individual games against Fisher and took three and a half points out of four from each Gligorić, Olafson and Benko. 
+Tal's victory was attributed to his dominance over the lower half of the field while scoring only one win and three losses vs Keres. He won all four individual games against Fisher and took three and a half points out of four from each Gligorić, Olafson and Benko.
 
 Tal was absolutely unique. His playing style was of course unrepeatable. He was a man in whose presence others sensed their mediocrity.
 
