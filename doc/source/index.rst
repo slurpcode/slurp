@@ -48,6 +48,7 @@ Welcome to slurp's documentation!
    bayes.md
    block_design.md
    common-errors.md
+   continious-probability-distribution.md
    curiosities.md
    determination-coefficient.md
    fermat.md
@@ -90,6 +91,7 @@ Welcome to slurp's documentation!
    electro.md
    goa.md
    hardcore.md
+   helmholtz-sound-synthesiser.md
    house.md
    idm.md
    jungle_drum_bass.md
@@ -97,6 +99,7 @@ Welcome to slurp's documentation!
    nu-skool-breaks.md
    progressive.md
    speed-garage.md
+   singing-arc.md
    techno.md
    trance.md
    trip-hop.md
@@ -130,6 +133,7 @@ Welcome to slurp's documentation!
    paris.md
    pattaya.md
    prescott.md
+   tokyo.md
 
 .. toctree::
    :caption: Countries
