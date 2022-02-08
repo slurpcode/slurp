@@ -37,5 +37,9 @@ func main() {
 
 	})
 	// Start scraping on https://khanacademy.org
-	_ = c.Visit(fmt.Sprintf(url, allowed, "XSLTGod"))
+	err := c.Visit(fmt.Sprintf(url, allowed, "XSLTGod"))
+
+	if err != nil {
+		log.Fatal(err)
+	}
 }

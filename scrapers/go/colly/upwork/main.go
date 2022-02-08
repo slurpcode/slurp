@@ -31,5 +31,9 @@ func main() {
 
 	})
 	// Start scraping on https://www.upwork.com
-	_ = c.Visit(fmt.Sprintf(url, allowed, "johnbampton"))
+	err := c.Visit(fmt.Sprintf(url, allowed, "johnbampton"))
+
+	if err != nil {
+		log.Fatal(err)
+	}
 }
