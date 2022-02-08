@@ -41,7 +41,7 @@ func scrape(keywords string) {
 		//colly.CacheDir(""),
 	)
 
-	c.Limit(&colly.LimitRule{
+	_ = c.Limit(&colly.LimitRule{
 		// Filter domains affected by this rule
 		DomainGlob: "brainyquote.com/*",
 		// Set a delay between requests to these domains
@@ -63,6 +63,6 @@ func scrape(keywords string) {
 	})
 
 	// Start scraping on https://www.brainyquote.com
-	c.Visit(fmt.Sprintf(url, term))
+	_ = c.Visit(fmt.Sprintf(url, term))
 	fmt.Println(record)
 }
