@@ -359,6 +359,16 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ayushrana182",
+      "name": "Ayush  Rana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43984189?v=4",
+      "profile": "http://tinyurl.com/ayushr",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 6,
