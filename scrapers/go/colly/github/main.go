@@ -53,7 +53,7 @@ func scrape(username string, delay int) []string {
 		colly.AllowedDomains(allowed),
 		//colly.CacheDir(""),
 	)
-	c.Limit(&colly.LimitRule{
+	_ = c.Limit(&colly.LimitRule{
 		// Filter domains affected by this rule
 		DomainGlob: "github.com/*",
 		// Set a delay between requests to these domains
@@ -85,6 +85,6 @@ func scrape(username string, delay int) []string {
 	c.OnXML("//a[contains(@href,'tab=following')]/span", func(e *colly.XMLElement) {
 		record = append(record, strings.TrimSpace(e.Text))
 	})
-	c.Visit(fmt.Sprintf(url, allowed, username))
+	_ = c.Visit(fmt.Sprintf(url, allowed, username))
 	return record
 }
