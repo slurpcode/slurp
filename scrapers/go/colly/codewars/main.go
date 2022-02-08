@@ -39,7 +39,8 @@ func scrape(username string) {
 		colly.AllowedDomains(allowed),
 		//colly.CacheDir(""),
 	)
-	_ = c.Limit(&colly.LimitRule{
+
+	err := c.Limit(&colly.LimitRule{
 		// Filter domains affected by this rule
 		DomainGlob: "codewars.com/*",
 		// Set a delay between requests to these domains
@@ -47,6 +48,10 @@ func scrape(username string) {
 		// Add an additional random delay
 		RandomDelay: 1 * time.Second,
 	})
+
+	if err != nil {
+		log.Fatal(err)
+	}
 	c.OnRequest(func(r *colly.Request) {
 		fmt.Println("Visiting", r.URL)
 	})
