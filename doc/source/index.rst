@@ -137,6 +137,7 @@ Welcome to slurp's documentation!
    :caption: Countries
    :maxdepth: 2
 
+   greece.md
    jordan.md
    turkey.md
 
@@ -247,6 +248,7 @@ Welcome to slurp's documentation!
    boris_spassky.md
    chess-and-mathematics.md
    elo_rating.md
+   fide-grand-prix-2022.md
    garry_kasparov_a_chess_player.md
    mikhail_tal.md
    tata-steel-chess-wijk-aan-zee-2022.md
@@ -256,6 +258,8 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    harriet_the_movie.md
+   life_is_beautiful.md
+   the_seventh_seal.md
 
 .. toctree::
    :caption: Television
@@ -263,6 +267,7 @@ Welcome to slurp's documentation!
 
    downton-abbey.md
    law-and-order.md
+   the_squid_game.md
 
 
 Indices and tables
