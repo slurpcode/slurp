@@ -254,7 +254,6 @@ Welcome to slurp's documentation!
    should-chess-be-added-in-academcis.md
    tata-steel-chess-wijk-aan-zee-2022.md
 
-
 .. toctree::
    :caption: Movies
    :maxdepth: 2
