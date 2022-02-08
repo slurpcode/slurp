@@ -3,13 +3,6 @@ name: Lint
 on: [pull_request]
 
 jobs:
-  merge-conflict:
-    name: 🥃 Merge Conflict
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Check merge conflict
-        run: grep "^<<<<<<< HEAD" $(git ls-files | xargs) && exit 1 || true
   misspell:
     name: 🥛 Check Spelling
     runs-on: ubuntu-latest
@@ -43,10 +36,3 @@ jobs:
           key: pre-commit|${{ env.PY }}|${{ hashFiles('.pre-commit-config.yaml') }}
       - name: Run pre-commit
         run: pre-commit run --all-files
-  trailing-whitespace:
-    name: 🧋 Trailing whitespace
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: 🧹 Check for trailing whitespace
-        run: "! git grep -EIn $'[ \t]+$' | grep -v rubycritic"
