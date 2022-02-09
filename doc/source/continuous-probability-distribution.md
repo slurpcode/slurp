@@ -13,6 +13,7 @@ When we are in the presence of a continuous variable, its probability distributi
 On the other hand, when we refer to a discrete probability distribution, there is no possibility of an event whose probability is zero, whereas that is not the case when we refer to a continuous random variable. To clarify a bit what it is about, let's suppose that we measure the width of the leaf of a tree, it is possible to obtain a result of 3.5 cm, however, the probability is zero in view of the fact that there are infinite values between 3 cm and 4 cm, each of these values having a probability of zero and of course, the probability that this interval has is not zero. To solve this paradox when the variable X acquires a certain value in an infinite set, it simply cannot be calculated through the sum of the probabilities of its individual values.
 
 ## Characteristics of the continuous probability distribution
+
 1. The variable can have integer values as well as fractional values: 1; 3.8; 5; 6.3; 7.2; 8, 8.4; 11.3; ..., etc.
 2. The continuous variable generates a continuous probability distribution
 3. The probabilities that are associated with each value of x must be equal to or greater than zero, that is, the density function will only take values equal to or greater than zero and can only be defined for quadrants I and II:
@@ -43,6 +44,7 @@ In the case that α = 1 and β = 0, we can observe that the gamma distribution w
 When `α = 1`, we are in the presence of a negative exponential distribution whose parameter will be equal to `λ = 1 / β`.
 
 ## Advantages Of Gamma Distribution
+
 This type of distribution is quite flexible when it comes to modeling the shapes that have positive asymmetry, from those that are more pointed and concentrated, to the most accurate and dispersed. We can establish several examples of variables whose behavior can be modeled through the gamma distribution:
 
 1. The number of people involved in traffic accidents in the urban area
@@ -75,7 +77,7 @@ Actually the integral must be from -∞ to ∞, but in the gamma function only v
 
 This expression is a factorial that ends up extending to the field of complex numbers, but we are not going to extend much in this area. Once we know what the gamma function is and we substitute it in the integral of the density function, when performing the corresponding calculations, we can establish the gamma distribution that we can define as:
 
-`F(x) = {█(1/(β^α Γ(α))*x^(α-1) e^((-x)/β)  @0;in the oder case)┤;  if x > 0`
+`F(x) = {█(1/(β^α Γ(α))*x^(α-1) e^((-x)/β) @0;in the oder case)┤; if x > 0`
 
 On the other hand, we are going to establish the expected value of x from the gamma distribution:
 
@@ -122,7 +124,7 @@ By substituting the values α = 3, β = 2 and Γ (α) in the formula we have tha
 
 On the other hand, to know the probability that one day the power plant will not meet the demand, we must use the following formula:
 
-`P(x ≤ 1) = 1/(2^3.2) ∫_0^1▒〖x^2 e^((-x)/2)  dx〗`
+`P(x ≤ 1) = 1/(2^3.2) ∫_0^1▒〖x^2 e^((-x)/2) dx〗`
 
 To calculate this integral, we know that it cannot be done by substitution and that we can use the integral by parts, but we are also aware that for this we would have to integrate three times and the process becomes very cumbersome, so it is best to use the method of integral by tabulation where we will call the first function of the integral as: a (x) = x ^ 2 and the second function of the integral as:
 
@@ -130,8 +132,8 @@ To calculate this integral, we know that it cannot be done by substitution and t
 
 Remember that to use the integral tabulation method we must derive the first function until it becomes zero, while the second function must be integrated up to the same step where the first function becomes zero, then:
 
-||a(x) = x^2and its derivatives|b(x) = e^((-x)/2) and its integrals|b(x) = e^((-x)/2) and its integrals|
-| ----------- | ----------- |----------- |
+|     | a(x) = x^2and its derivatives | b(x) = e^((-x)/2) and its integrals | b(x) = e^((-x)/2) and its integrals |
+| --- | ----------------------------- | ----------------------------------- | ----------------------------------- |
 
 |Step 1|x^2|e^((-x)/2)|
 |Step 2|2x|-2e^(-x/2)|
@@ -142,7 +144,7 @@ Remember that to use the integral tabulation method we must derive the first fun
 
 `P(x ≤1) = 1/16 (-2x^2 e^(-x/2) - 4xe^(-x/2) - 16e^(-x/2))|■(1@0)┤ = 1/16-2e^(-x/2) (x^2+4x+8)|■(1@0)┤ =`
 
-`P(x ≤1) =1/16 [- 15,76-(-16)]=1/16  0,2302=0,1438`
+`P(x ≤1) =1/16 [- 15,76-(-16)]=1/16 0,2302=0,1438`
 
 Therefore, the probability that one day the power plant will not be able to satisfy the city's energy demand will be 14.38%.
 
@@ -168,17 +170,17 @@ Again the value of the gamma function is:
 
 Substituting `α = 3` and `λ = 0.5 = 1/2` in the last formula we have that:
 
-`P(x ≥10) = 1 – P( x < 10) = 1 - 〖0,5〗^3/2 ∫_0^10▒x^2  e^(-x/2) dx`
+`P(x ≥10) = 1 – P( x < 10) = 1 - 〖0,5〗^3/2 ∫_0^10▒x^2 e^(-x/2) dx`
 
 We are going to calculate the probability of the gamma distribution, to solve the integral we are going to use the integral tabulation method again, as we already know, it can also be solved by the part integral method, but it would be more complicated and time consuming to calculate, so Again we are going to establish the first function of the integral as: `a(x) = x^2` and the second function will be: `b(x) = e^(-x/2)`, where for the first step we will place the functions without deriving or integrating, but for the second and the rest of the steps we will derive the first function until reaching zero and we will integrate the second function until the last calculated step of the first function. As we can see, we will obtain exactly the same values as in the previous exercise, so we will use the same image:
 
 ![Supply Area](_static/images/continuous-probability-distribution/image8.jpg)
 
-`P(x ≥10) = 1 – P( x < 10) = 1 - 〖0,5〗^3/2 ∫_0^10▒x^2  e^(-x/2) dx = `
+`P(x ≥10) = 1 – P( x < 10) = 1 - 〖0,5〗^3/2 ∫_0^10▒x^2 e^(-x/2) dx = `
 
 `1 – P( x < 10) = 1 - 〖0,5〗^3/2(-2x^2 e^(-x/2) - 4xe^(-x/2) - 16e^(-x/2))|■(10@0)┤ `
 
-`1 – P( x < 10) = 1 - 〖0,5〗^3/2 [2e^(-x/2) (x^2+4x+8)]|■(10@0)┤  = 0,124652`
+`1 – P( x < 10) = 1 - 〖0,5〗^3/2 [2e^(-x/2) (x^2+4x+8)]|■(10@0)┤ = 0,124652`
 
 It is important to take into account that the result is not the same, since the integral is evaluated at two different points than those defined in the previous problem and we can reach the conclusion that the probability that the supply is not sufficient on any given day, is 12.46%.
 
@@ -186,7 +188,7 @@ Answer to question 2:
 
 For the answer to the second question the process is very similar, with the difference that this time we are going to evaluate the integral between points 3 and 8, in addition to not having to subtract the probability to unity, so that when calculating the probability of the gamma distribution for this case we have:
 
-`P( 3 < x < 8) = 〖0,5〗^3/2 ∫_3^8▒x^2  e^(-x/2) dx = 〖0,5〗^3/2 [2e^(-x/2) (x^2+4x+8)]|■(8@3)┤ = 0,571`
+`P( 3 < x < 8) = 〖0,5〗^3/2 ∫_3^8▒x^2 e^(-x/2) dx = 〖0,5〗^3/2 [2e^(-x/2) (x^2+4x+8)]|■(8@3)┤ = 0,571`
 
 This is how we can conclude that there is a 57.1% probability that the city has an electricity consumption between 3 and 8 million kilowatts per hour in a day.
 
@@ -217,14 +219,14 @@ Main characteristics of the Beta distribution
 2. It depends on two parameters that are α and β, where both are greater than zero: α > 0 and β > 0
 
 3. The density function of the random variable X is represented by:
-`f(x) {█(x^(α-1〖(1-x)〗^(b-1) )/(B(α,β))@0 ;in the oder case)┤ ;  0 < x < 1`
+   `f(x) {█(x^(α-1〖(1-x)〗^(b-1) )/(B(α,β))@0 ;in the oder case)┤ ; 0 < x < 1`
 
 4. The Beta function is defined by:
-`B(α,β)= ∫_0^1▒〖x^(α-1) 〖(1-x)〗^(β-1) dx 〗= (Γ(α)Γ(β))/(Γ(α+β)) `
+   `B(α,β)= ∫_0^1▒〖x^(α-1) 〖(1-x)〗^(β-1) dx 〗= (Γ(α)Γ(β))/(Γ(α+β)) `
 
 5. The variance and the mean of a Beta distribution are defined by:
 
-`μ=  α/((α+ β))`
+`μ= α/((α+ β))`
 
 `Var(x) = αβ/((α+β)^2 (α+β+1))`
 
@@ -262,11 +264,11 @@ As we can see, part of the Beta distribution formula is expressed as a function 
 
 `f(x) = (5-1)!/(3-1)!(2-1)! x^2 (1-x) = 4!/2!1! x^2 (1-x) = 12x^2 (1-x) = 12x^2 - 12x^3`
 
-`P(x > 0,8) = 1 – P(X ≤ 0,8) = 1 - f(0,8) =  1-∫_0^0,8▒〖(12x^2  - 12x^3)dx〗`
+`P(x > 0,8) = 1 – P(X ≤ 0,8) = 1 - f(0,8) = 1-∫_0^0,8▒〖(12x^2 - 12x^3)dx〗`
 
-`P(x > 0,8) = 1 - f(0,8) =1-[∫_0^0,8▒〖12x^2 〗 dx  - ∫_0^0,8▒〖12x^3 dx〗]`
+`P(x > 0,8) = 1 - f(0,8) =1-[∫_0^0,8▒〖12x^2 〗 dx - ∫_0^0,8▒〖12x^3 dx〗]`
 
-`P(x > 0,8) =1 - f(0,8) = ├ 1-((12 x^3)/3  - (12 x^4)/4)┤| ■(0,8@0) =1 - ├ (4x^3  - 3x^4 )┤| ■(0,8@0)`
+`P(x > 0,8) =1 - f(0,8) = ├ 1-((12 x^3)/3 - (12 x^4)/4)┤| ■(0,8@0) =1 - ├ (4x^3 - 3x^4 )┤| ■(0,8@0)`
 
 `P(x > 0,8) =1 - f(0,8) = 1 - 4〖( 0,8)〗^3- 3〖(0.8)〗^4 = 1 – 0,8192 = 0,1808`
 
@@ -290,17 +292,17 @@ Answer to question 1:
 
 Here we must find the parameters α and β, but we have the data of the mean and the variance, if we write both formulas and set them equal to the data values given in the problem we have:
 
-`μ=E(y)=  α/((α+ β)) = 1/2`
+`μ=E(y)= α/((α+ β)) = 1/2`
 
 `Var(y) = αβ/((α+β)^2 (α+β+1)) = 1/28`
 
-`2α= α+ β 	 (1)`
+`2α= α+ β (1)`
 
-`α = β   If we substitute (1) in (2) we have:`
+`α = β If we substitute (1) in (2) we have:`
 
 `α^2/((2α)^2 (2α+1)) = 1/28`
 
-`α^2/(4α^2 (2α+1)) = 1/28   and eliminate the α^2`
+`α^2/(4α^2 (2α+1)) = 1/28 and eliminate the α^2`
 
 `1/(4(2α+1)) = 1/28`
 
@@ -336,9 +338,9 @@ To find the probability we must first calculate the Beta function:
 
 Once we have the beta function defined, we are going to calculate the probability:
 
-`P(x > 0,6) = 1 – P( ≤ 0,6) = 1 – f(0,6) = 1 - ∫_0^0,6▒(30x^2  - 60x^3+ 30x^4 )dx`
+`P(x > 0,6) = 1 – P( ≤ 0,6) = 1 – f(0,6) = 1 - ∫_0^0,6▒(30x^2 - 60x^3+ 30x^4 )dx`
 
-`1 – f(0,6) = 1 - [30∫_0^0,6▒〖x^2 dx〗 – 60 ∫_0^0,6▒x^3  + 30∫_0^0,6▒x^4  ] `
+`1 – f(0,6) = 1 - [30∫_0^0,6▒〖x^2 dx〗 – 60 ∫_0^0,6▒x^3 + 30∫_0^0,6▒x^4 ] `
 
 `1 – f(0,6) = 1 - ├ ((30x^3)/3- (60x^4)/4+ (30x^5)/5)┤| ■(0,6@0) = 1 – ├ (10x^3-15x^4+6x^5 )┤| ■(0,6@0)`
 
