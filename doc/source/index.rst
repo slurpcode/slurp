@@ -99,7 +99,6 @@ Welcome to slurp's documentation!
    nu-skool-breaks.md
    progressive.md
    speed-garage.md
-   singing-arc.md
    techno.md
    trance.md
    trip-hop.md
@@ -112,6 +111,7 @@ Welcome to slurp's documentation!
    denis-dor.md
    electromechanical_piano.md
    musical-telegraph.md
+   singing-arc.md
    telharmonium.md
    wireless-organ.md
 
