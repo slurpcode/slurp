@@ -251,6 +251,7 @@ Welcome to slurp's documentation!
    fide-grand-prix-2022.md
    garry_kasparov_a_chess_player.md
    mikhail_tal.md
+   should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
 
 .. toctree::
