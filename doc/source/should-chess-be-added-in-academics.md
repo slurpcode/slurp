@@ -26,7 +26,7 @@ consequences of decision, etc. The chess can become an excellent
 educational tool which will help child to improve and inculcate all this
 qualities which will be lifelong.
 
-![image1](_static/images/should-chess-be-added-in-academics/media/image1.jpeg)
+![Chess in Education Commission (FIDE)](_static/images/should-chess-be-added-in-academics/media/image1.jpeg)
 >Chess in Education Commission(FIDE)
 
 A study by Smith and Cage (2000) posited that students who received
@@ -55,7 +55,7 @@ help children to excel in different fields and as a whole increase
 productivity and efficiency of whole world. This is truly exceptional by
 adding particular game in academics can change the future.
 
-![image2](_static/images/should-chess-be-added-in-academics/media/image2.jpeg)
+![CPS Academic Chess Programs](_static/images/should-chess-be-added-in-academics/media/image2.jpeg)
 >CPS Academic Chess Programs
 
 ## Reference
