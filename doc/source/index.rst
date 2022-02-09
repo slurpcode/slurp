@@ -110,8 +110,14 @@ Welcome to slurp's documentation!
 
    denis-dor.md
    electromechanical_piano.md
+   electrophon.md
+   hugoniot_organ.md
    musical-telegraph.md
+   optophonic_piano.md
+   staccatone.md
+   synthetic_tone.md
    telharmonium.md
+   theremin.md
    wireless-organ.md
 
 .. toctree::
