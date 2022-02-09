@@ -4,7 +4,7 @@
   <body>
     {%- include header.html -%}
     <div id="overlay">
-      <img id="imgo" src="/slurp/assets/images/fuchsia-flower-only.png" alt="Fuchsia">
+      <img id="imgo" src="{{site.baseurl}}/assets/images/fuchsia-flower-only.png" alt="Fuchsia">
     </div>
     <div id="youtube">
 
@@ -12,7 +12,7 @@
     <main class="page-content {{ page.color | escape }}" aria-label="Content">
       <div class="wrapper {{ page.page-type | escape }}">
         {{ content }}
-        <img id="px" alt="&#9829;" title="&#9829;" src="/slurp/assets/images/FFFFFF-0.png">
+        <img id="px" alt="&#9829;" title="&#9829;" src="{{site.baseurl}}/assets/images/FFFFFF-0.png">
       </div>
     </main>
     <div style="display:none;" id="effect"></div>

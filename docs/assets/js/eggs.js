@@ -179,7 +179,7 @@ function eggs() {
                             });
                         } else {
                             var url =
-                                "/slurp/assets/images/backgrounds/" +
+                                "/assets/images/backgrounds/" +
                                 background +
                                 ".jpg";
                             $("body").css(
@@ -263,7 +263,7 @@ function eggs() {
                             $("#youtube").after('<canvas id="c"></canvas>');
                             stopPlay(false);
                             $("#audio").append(
-                                '<audio id="my_audio" src="/slurp/assets/audio/rain.mp4" loop></audio>'
+                                '<audio id="my_audio" src="/assets/audio/rain.mp4" loop></audio>'
                             );
                             let promise = document
                                 .querySelector("audio")
@@ -279,7 +279,7 @@ function eggs() {
                                     });
                             }
                             $.getScript(
-                                "/slurp/assets/js/raindrops.js",
+                                "/assets/js/raindrops.js",
                                 function() {}
                             );
                         }
@@ -287,7 +287,7 @@ function eggs() {
                         if (match.toString() === "platformer") {
                             h = $(window).height() - 60;
                             $("#youtube").after(
-                                '<iframe id="c" src="/slurp/assets/games/platformer/index.html" height="' +
+                                '<iframe id="c" src="/assets/games/platformer/index.html" height="' +
                                     h +
                                     '" frameborder="0" allowfullscreen></iframe>'
                             );
@@ -343,7 +343,7 @@ function eggs() {
                             winter = true;
                             stopPlay(false);
                             $("#audio").append(
-                                '<audio id="my_audio" src="/slurp/assets/audio/winter.mp4" loop></audio>'
+                                '<audio id="my_audio" src="/assets/audio/winter.mp4" loop></audio>'
                             );
                             let promise = document
                                 .querySelector("audio")
@@ -359,7 +359,7 @@ function eggs() {
                                     });
                             }
                             $.getScript(
-                                "/slurp/assets/js/snowstorm-min.js",
+                                "/assets/js/snowstorm-min.js",
                                 function() {
                                     snowStorm.flakesMaxActive = 75;
                                     snowStorm.useTwinkleEffect = true;
@@ -387,49 +387,49 @@ function allBeasts(which) {
     var columns = c.width / font_size;
 
     $("#allBeast").append(
-        '<img id="img_orange" src="/slurp/assets/images/beasts/orange.png">'
+        '<img id="img_orange" src="/assets/images/beasts/orange.png">'
     );
     $("#allBeast").append(
-        '<img id="img_alien" src="/slurp/assets/images/beasts/alien.png">'
+        '<img id="img_alien" src="/assets/images/beasts/alien.png">'
     );
     $("#allBeast").append(
-        '<img id="img_darth" src="/slurp/assets/images/beasts/darth.png" alt="darth">'
+        '<img id="img_darth" src="/assets/images/beasts/darth.png" alt="darth">'
     );
     $("#allBeast").append(
-        '<img id="img_jaguar" src="/slurp/assets/images/beasts/jaguar.png">'
+        '<img id="img_jaguar" src="/assets/images/beasts/jaguar.png">'
     );
     $("#allBeast").append(
-        '<img id="img_min" src="/slurp/assets/images/beasts/min.png">'
+        '<img id="img_min" src="/assets/images/beasts/min.png">'
     );
     $("#allBeast").append(
-        '<img id="img_ghost" src="/slurp/assets/images/beasts/ghost.png">'
+        '<img id="img_ghost" src="/assets/images/beasts/ghost.png">'
     );
     $("#allBeast").append(
-        '<img id="img_bubble" src="/slurp/assets/images/beasts/bubble.png">'
+        '<img id="img_bubble" src="/assets/images/beasts/bubble.png">'
     );
     $("#allBeast").append(
-        '<img id="img_bear" src="/slurp/assets/images/beasts/bear.png">'
+        '<img id="img_bear" src="/assets/images/beasts/bear.png">'
     );
     $("#allBeast").append(
-        '<img id="img_thexder" src="/slurp/assets/images/beasts/thexder.png">'
+        '<img id="img_thexder" src="/assets/images/beasts/thexder.png">'
     );
     $("#allBeast").append(
-        '<img id="img_dino" src="/slurp/assets/images/beasts/dino.png">'
+        '<img id="img_dino" src="/assets/images/beasts/dino.png">'
     );
     $("#allBeast").append(
-        '<img id="img_space" src="/slurp/assets/images/beasts/space.png">'
+        '<img id="img_space" src="/assets/images/beasts/space.png">'
     );
     $("#allBeast").append(
-        '<img id="img_yeti" src="/slurp/assets/images/beasts/yeti.png">'
+        '<img id="img_yeti" src="/assets/images/beasts/yeti.png">'
     );
     $("#allBeast").append(
-        '<img id="img_police" src="/slurp/assets/images/beasts/police.png">'
+        '<img id="img_police" src="/assets/images/beasts/police.png">'
     );
     $("#allBeast").append(
-        '<img id="img_karate" src="/slurp/assets/images/beasts/karate.png">'
+        '<img id="img_karate" src="/assets/images/beasts/karate.png">'
     );
     $("#allBeast").append(
-        '<img id="img_punch" src="/slurp/assets/images/beasts/punch.png">'
+        '<img id="img_punch" src="/assets/images/beasts/punch.png">'
     );
 
     // var image = document.getElementById('source');
@@ -498,7 +498,7 @@ function beasts(background) {
     c.width = window.innerWidth;
     var font_size = 32;
     var columns = c.width / font_size;
-    var effectImage = "/slurp/assets/images/beasts/" + background + ".png";
+    var effectImage = "/assets/images/beasts/" + background + ".png";
     $("#effect").append('<img id="source" src="' + effectImage + '">');
     var image = document.getElementById("source");
     // an array of drops - one per column
@@ -547,7 +547,7 @@ function beastsHorizontal(background) {
     c.width = window.innerWidth;
     var font_size = 32;
     var rows = c.height / font_size;
-    var effectImage = "/slurp/assets/images/beasts/" + background + ".png";
+    var effectImage = "/assets/images/beasts/" + background + ".png";
     $("#effect").append('<img id="source" src="' + effectImage + '">');
     var image = document.getElementById("source");
     // an array of drops - one per row
@@ -597,7 +597,7 @@ function flowers() {
     var font_size = 32;
     var columns = c.width / font_size;
     $("#effect").append(
-        '<img id="source" src="/slurp/assets/images/icons/favicon-32x32.png">'
+        '<img id="source" src="/assets/images/icons/favicon-32x32.png">'
     );
     var image = document.getElementById("source");
     // an array of drops - one per column
@@ -639,7 +639,7 @@ function flowers() {
 
 function matrix() {
     $("#audio").append(
-        '<audio id="my_audio" src="/slurp/assets/audio/matrix.mp4" loop></audio>'
+        '<audio id="my_audio" src="/assets/audio/matrix.mp4" loop></audio>'
     );
     let promise = document.querySelector("audio").play();
     if (promise !== undefined) {
