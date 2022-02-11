@@ -65,7 +65,7 @@ chess have come.
 
 ## Reference
 
-1.  https://thinkerspublishing.com/product/vladimir-tukmakovmodern-chess-formula-the-powerful-impact-of-engines/
+1.  https://thinkerspublishing.com/product/vladimir-tukmakov-modern-chess-formula-the-powerful-impact-of-engines/
 
 2.  https://www.aaai.org/Papers/Workshops/1997/WS-97-04/WS97-04-013.pdf
 
