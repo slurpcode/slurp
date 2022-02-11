@@ -1,4 +1,4 @@
-**Effect of modern chess engines on professional chess players**
+# 🐟 Effect of modern chess engines on professional chess players
 
 As the technology is impacting world in every field possible that
 mankind can think of the game of chess is no exception. Chess has
@@ -21,11 +21,9 @@ the highest of authorities. Since the highest of all oracles is soulless
 and cynical it is ready to help anyone ignoring opinions and
 preferences."
 
-![](./effect_of_modern_chess_engines_on_professional_chess_players/media/image1.png){width="2.6666666666666665in"
-height="2.6666666666666665in"}Stockfish 14.1 (Strongest chess engine
-with rated elo
-
-of 3566)8^th^ Feb,2022
+![Stockfish 14.1 (Strongest chess engine
+with rated elo of 3566)8^th^ Feb,2022](_static/images/effect_of_modern_chess_engines_on_professional_chess_players/image1.png)
+>Stockfish 14.1 (Strongest chess engine with rated elo of 3566)8^th^ Feb,2022
 
 With the assistance of modern chess engines top professionals got the
 element to surprise their opponents in the opening by playing odd
@@ -48,10 +46,10 @@ database of games track the cheaters and take necessary action on them.
 FIDE has already approved a complex cheat detection system with a
 behavior-tracking module for FIDE Online Arena games.
 
-> ![](./effect_of_modern_chess_engines_on_professional_chess_players/media/image2.jpeg){width="3.785416666666667in"
-> height="2.854861111111111in"}
+![Former world champion Garry Kasparov playing against Deep Blue. CREDIT:
+Sovfoto / Universal Images Group Rights Managed / For Education Use Only](_static/images/effect_of_modern_chess_engines_on_professional_chess_players/image2.jpeg)
 
-Former world champion Garry Kasparov playing against Deep Blue. CREDIT:
+>Former world champion Garry Kasparov playing against Deep Blue. CREDIT:
 Sovfoto / Universal Images Group Rights Managed / For Education Use Only
 
 This modern chess engines have given new prospective to look at chess.
@@ -65,15 +63,13 @@ Gambit' was one of the reasons for chess boom. With all these things
 happening all at once we can say without hesitation the good days for
 chess have come.
 
-**Reference;**
+## Reference
 
-1.  [https://thinkerspublishing.com/product/vladimir-tukmakovmodern-chess-formula-the-powerful-impact-of-engines/]{.underline}
+1.  https://thinkerspublishing.com/product/vladimir-tukmakovmodern-chess-formula-the-powerful-impact-of-engines/
 
-2.  [https://www.aaai.org/Papers/Workshops/1997/WS-97-04/WS97-]{.underline}
+2.  https://www.aaai.org/Papers/Workshops/1997/WS-97-04/WS97-04-013.pdf
 
-[04-013.pdf]{.underline}
-
-**About the Author;**
+## About the Author
 
 Jashwaneel Patil is a student pursuing Bachelor of Engineering in
 Electrical and a young mind who likes to explore and research in
