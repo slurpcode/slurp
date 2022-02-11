@@ -266,6 +266,7 @@ Welcome to slurp's documentation!
 
    harriet_the_movie.md
    life_is_beautiful.md
+   the_fight_club.md
    the_seventh_seal.md
 
 .. toctree::
