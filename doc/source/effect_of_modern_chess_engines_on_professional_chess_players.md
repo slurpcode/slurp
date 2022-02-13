@@ -23,7 +23,8 @@ preferences."
 
 ![Stockfish 14.1 (Strongest chess engine
 with rated elo of 3566)8^th^ Feb,2022](_static/images/effect_of_modern_chess_engines_on_professional_chess_players/image1.png)
->Stockfish 14.1 (Strongest chess engine with rated elo of 3566)8^th^ Feb,2022
+
+> Stockfish 14.1 (Strongest chess engine with rated elo of 3566)8^th^ Feb,2022
 
 With the assistance of modern chess engines top professionals got the
 element to surprise their opponents in the opening by playing odd
@@ -49,8 +50,8 @@ behavior-tracking module for FIDE Online Arena games.
 ![Former world champion Garry Kasparov playing against Deep Blue. CREDIT:
 Sovfoto / Universal Images Group Rights Managed / For Education Use Only](_static/images/effect_of_modern_chess_engines_on_professional_chess_players/image2.jpeg)
 
->Former world champion Garry Kasparov playing against Deep Blue. CREDIT:
-Sovfoto / Universal Images Group Rights Managed / For Education Use Only
+> Former world champion Garry Kasparov playing against Deep Blue. CREDIT:
+> Sovfoto / Universal Images Group Rights Managed / For Education Use Only
 
 This modern chess engines have given new prospective to look at chess.
 Deep Blue's victory over Kasparov in 1997 declared a new era of chess.
