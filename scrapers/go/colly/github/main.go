@@ -51,7 +51,7 @@ func scrape(username string, delay int) []string {
 	var record []string
 	c := colly.NewCollector(
 		colly.AllowedDomains(allowed),
-		//colly.CacheDir(""),
+		// colly.CacheDir(""),
 	)
 	err := c.Limit(&colly.LimitRule{
 		// Filter domains affected by this rule
