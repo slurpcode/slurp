@@ -32,13 +32,12 @@ met with the French press to promote the vision of chess as a sport.
 Rapid and blitz are the formats of play considered for the Paris 2024
 competitions. Chess is played by millions of people every day and is
 also growing in France, where 67% of the members of the French Chess
-Federation are aged under 18 years old. FIDE was created in Paris in
-1924. Inclusion of chess in the Olympic program of Paris-2024 would be
+Federation are aged under 18 years old. FIDE was created in Paris in 1924. Inclusion of chess in the Olympic program of Paris-2024 would be
 an outstanding symbolic gift for FIDE's 100th anniversary.\"
 
 ![Chess at the Paris Olympic Games 2024?](_static/images/inclusion_of_chess_in_olympics/image1.jpg)
 
->Chess at the Paris Olympic Games 2024? \| Photo: FIDE Facebook page
+> Chess at the Paris Olympic Games 2024? \| Photo: FIDE Facebook page
 
 After all this struggle we can assume that it is not far that we will
 witness chess action in Olympics. If countries with large number of
