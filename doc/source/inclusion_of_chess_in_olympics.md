@@ -46,7 +46,7 @@ chess enthusiast and serious chess environment get the chance to host
 Olympics in future that country can surely flex about its achievement of
 pushing and finally including chess in Olympics.
 
-# About the Author
+## About the Author
 
 Jashwaneel Patil is a student pursuing Bachelor of Engineering in
 Electrical and a young mind who likes to explore and research in
