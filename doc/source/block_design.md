@@ -325,13 +325,13 @@ The effect of the treatment (ti) will be the doses of fertilizer that
 are expected to be tested in the corn plant, to increase its yield and
 in this case, in each treatment it is established as:
 
--   A = 2gr
+- A = 2gr
 
--   B = 4gr
+- B = 4gr
 
--   C = 8gr
+- C = 8gr
 
--   D = 10gr
+- D = 10gr
 
 Bj is the effect of the j-th block
 

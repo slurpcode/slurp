@@ -176,9 +176,9 @@ We are going to calculate the probability of the gamma distribution, to solve th
 
 ![Supply Area](_static/images/continuous-probability-distribution/image8.jpg)
 
-`P(x ≥10) = 1 – P( x < 10) = 1 - 〖0,5〗^3/2 ∫_0^10▒x^2 e^(-x/2) dx = `
+`P(x ≥10) = 1 – P( x < 10) = 1 - 〖0,5〗^3/2 ∫_0^10▒x^2 e^(-x/2) dx =`
 
-`1 – P( x < 10) = 1 - 〖0,5〗^3/2(-2x^2 e^(-x/2) - 4xe^(-x/2) - 16e^(-x/2))|■(10@0)┤ `
+`1 – P( x < 10) = 1 - 〖0,5〗^3/2(-2x^2 e^(-x/2) - 4xe^(-x/2) - 16e^(-x/2))|■(10@0)┤`
 
 `1 – P( x < 10) = 1 - 〖0,5〗^3/2 [2e^(-x/2) (x^2+4x+8)]|■(10@0)┤ = 0,124652`
 
@@ -222,7 +222,7 @@ Main characteristics of the Beta distribution
    `f(x) {█(x^(α-1〖(1-x)〗^(b-1) )/(B(α,β))@0 ;in the oder case)┤ ; 0 < x < 1`
 
 4. The Beta function is defined by:
-   `B(α,β)= ∫_0^1▒〖x^(α-1) 〖(1-x)〗^(β-1) dx 〗= (Γ(α)Γ(β))/(Γ(α+β)) `
+   `B(α,β)= ∫_0^1▒〖x^(α-1) 〖(1-x)〗^(β-1) dx 〗= (Γ(α)Γ(β))/(Γ(α+β))`
 
 5. The variance and the mean of a Beta distribution are defined by:
 
@@ -340,7 +340,7 @@ Once we have the beta function defined, we are going to calculate the probabilit
 
 `P(x > 0,6) = 1 – P( ≤ 0,6) = 1 – f(0,6) = 1 - ∫_0^0,6▒(30x^2 - 60x^3+ 30x^4 )dx`
 
-`1 – f(0,6) = 1 - [30∫_0^0,6▒〖x^2 dx〗 – 60 ∫_0^0,6▒x^3 + 30∫_0^0,6▒x^4 ] `
+`1 – f(0,6) = 1 - [30∫_0^0,6▒〖x^2 dx〗 – 60 ∫_0^0,6▒x^3 + 30∫_0^0,6▒x^4 ]`
 
 `1 – f(0,6) = 1 - ├ ((30x^3)/3- (60x^4)/4+ (30x^5)/5)┤| ■(0,6@0) = 1 – ├ (10x^3-15x^4+6x^5 )┤| ■(0,6@0)`
 

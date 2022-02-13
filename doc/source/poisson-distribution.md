@@ -69,7 +69,7 @@ X = No. customers who enter the bank in one minute
 μ = 0.4
 If we want to evaluate the probability that no customer enters the bank, then the value of x = 0 by instituting the data of the Poisson formula we have:
 
-`P( x = 0) = (e^(-0,4)*〖0,4〗^0)/0! = 0,67 `
+`P( x = 0) = (e^(-0,4)*〖0,4〗^0)/0! = 0,67`
 
 If we want it in percentage 0.67x 100 = 67%
 But now we are going to calculate the probability that 2 clients enter the bank in one minute
@@ -155,7 +155,7 @@ We will call the first significant digit as d1 and the second as d2:
 
 `P(d1) = log_10⁡(1+ 1/d1)`
 
-`P(d2) = ∑▒log_10⁡[1/((d1+d2))] `
+`P(d2) = ∑▒log_10⁡[1/((d1+d2))]`
 
 Benford's law determines that the probability that the 1st digit is a set digit "n" is:
 

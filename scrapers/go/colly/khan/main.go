@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocolly/colly/v2"
 	"log"
 	"regexp"
+
+	"github.com/gocolly/colly/v2"
 )
 
 func main() {
@@ -37,5 +38,9 @@ func main() {
 
 	})
 	// Start scraping on https://khanacademy.org
-	_ = c.Visit(fmt.Sprintf(url, allowed, "XSLTGod"))
+	err := c.Visit(fmt.Sprintf(url, allowed, "XSLTGod"))
+
+	if err != nil {
+		log.Fatal(err)
+	}
 }
