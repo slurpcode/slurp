@@ -359,6 +359,26 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ayushrana182",
+      "name": "Ayush  Rana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43984189?v=4",
+      "profile": "http://tinyurl.com/ayushr",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "smriad",
+      "name": "S. M. Riad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21966124?v=4",
+      "profile": "https://github.com/smriad",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
