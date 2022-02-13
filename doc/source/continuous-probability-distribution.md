@@ -202,7 +202,7 @@ To find the expected value of the gamma distribution and its variance, we will s
 
 ## Beta Distribution
 
-The Beta distribution is allowed when we have a continuous random variable that also takes values in the interval (0,1), this makes it quite appropriate when it comes to modeling proportions. For example, in Bayesian inference it is widely used when the observations have a binominal distribution and it is established as an a priori distribution.
+The Beta distribution is allowed when we have a continuous random variable that also takes values in the interval (0,1), this makes it quite appropriate when it comes to modeling proportions. For example, in Bayesian inference it is widely used when the observations have a binomial distribution and it is established as an a priori distribution.
 
 One of the major advantages of the Beta distribution is its ability to fit a wide range of empirical distributions, since it is capable of adopting very diverse forms that will depend on the values adopted by the parameters α and β, which are capable of define the distribution.
 
