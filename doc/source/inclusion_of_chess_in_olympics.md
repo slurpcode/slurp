@@ -3,7 +3,7 @@
 Chess is oldest game known to mankind and played since ancient times. A
 single game of chess to play requires different qualities and skills
 like calculation of complex positions, concentration, decision making,
-pattern recognition, etc. which requires serios mental strength. In a
+pattern recognition, etc. which requires serious mental strength. In a
 classical game of chess which normally goes on for 5 to 7 hours drains
 the energy of the players. Also, chess is considered as most
 intellectual game. It is most played game across the globe still it is
