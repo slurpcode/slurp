@@ -112,15 +112,15 @@ Welcome to slurp's documentation!
 
    denis-dor.md
    electromechanical_piano.md
+   musical-telegraph.md
+   singing-arc.md
+   telharmonium.md
+   optophonic_piano.md
+   synthetic_tone.md
    electrophon.md
    hugoniot_organ.md
-   musical-telegraph.md
-   optophonic_piano.md
-   singing-arc.md
-   staccatone.md
-   synthetic_tone.md
-   telharmonium.md
    theremin.md
+   staccatone.md
    wireless-organ.md
 
 .. toctree::

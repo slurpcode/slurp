@@ -5,7 +5,7 @@ French researcher (died; France, 1927 ) into electronic sound systems and invent
 "With this scheme the various types of wave forms for different timbres may be placed in radial sectors on a disk; another disk carrying the scanning slits in circular tracks rotates before this wave-form disk. A source of light and photocell complete the translating arrangements. Each slit track scans its corresponding wave cycle at a speed corresponding to one pitch of an
 approximate tempered scale. Thus, one wave and one slit track serve for each tone frequency of the tempered scale. Naturally the lowest pitch tracks are nearest the center and the highest are nearest the circumference of the scanning disk.
 
-![hugoniot_organ](_static/images/hugoniot_organ/hugoniot_organ.png)
+![Hugoniot Organ](_static/images/hugoniot_organ/hugoniot_organ.png)
 
 [A diagram from Hugoniot’s patent for a tone-wheel sound generator December 1919]
 
