@@ -56,6 +56,7 @@ Welcome to slurp's documentation!
    free-distribution-testing.md
    frequentist.md
    gauss-jordan.md
+   kendall_repeated_variables_correlation.md
    long-term-behavior-of-markov.md
    markov-chains.md
    negative_binomial_distribution.md
