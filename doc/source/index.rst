@@ -257,12 +257,15 @@ Welcome to slurp's documentation!
    bobby-fischer.md
    boris_spassky.md
    chess-and-mathematics.md
+   effect_of_modern_chess_engines_on_professional_chess_players.md
    elo_rating.md
    fide-grand-prix-2022.md
    garry_kasparov_a_chess_player.md
+   inclusion_of_chess_in_olympics.md
    mikhail_tal.md
    should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
+
 
 .. toctree::
    :caption: Movies
