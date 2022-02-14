@@ -19,12 +19,12 @@ so that this wave form is repeated at the scanning frequency; i.e., the number o
 
 Hugoniot’s died in 1927 before he could develop his ideas any further than prototypes yet he left behind a legacy of innovation that influenced a new generation of French pioneering instrument designers including Pierre Toulon and Givelet & Coupleaux.
 
-Next topic: Theremin 
+Next topic: Theremin
 
 ## Sources
+
 - Wikipedia / 120years.net / Oxfordmusiconline.com
 
 ## About the author
 
 "Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional musicians. His devotion to movie sounds shows in his art - widosub's music is filled with landscapes of emotions, dramatic twists and melancholic moods. He's one of the hosts of Tilos Rádió's MustBeat show, in which he's is focusing on drum'n'bass and chillout music. He's also one half of the duo Empty Universe."
-

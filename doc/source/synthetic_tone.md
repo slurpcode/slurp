@@ -18,9 +18,10 @@ The manner in which each of these variables
 influences the perceived tone can thus be determined. It is also possible to reproduce a vibrato whose rate, extent, and intensity relationship
 are identical with those of artistic singing. One factor at a time can then be varied and the relative importance of the several elements in the artistic tone determined. The device is also very convenient for demonstrating in the classroom the principle of sonance.
 
-Next topic: Electrophon 
+Next topic: Electrophon
 
 ## Sources
+
 - Wikipedia / 120years.net / Scholarworks.uni.edu
 
 ## About the author
