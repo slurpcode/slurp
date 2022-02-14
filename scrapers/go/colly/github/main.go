@@ -73,7 +73,7 @@ func scrape(username string, delay int) []string {
 	})
 	c.OnHTML("div[class='js-yearly-contributions'] h2[class='f4 text-normal mb-2']", func(e *colly.HTMLElement) {
 		pos := strings.Index(e.Text, " contribution")
-		record = append(record, strings.TrimSpace(strings.Replace(e.Text[0:pos], ",", "", -1)))
+		record = append(record, strings.TrimSpace(strings.ReplaceAll(e.Text[0:pos], ",", "", -1)))
 	})
 	/* GitHub seems to have removed the "count" of repos from profiles - can this be fixed with a crawl ??
 	c.OnXML("//a[contains(@href,'tab=repositories')]/span", func(e *colly.XMLElement) {
