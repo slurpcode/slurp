@@ -80,9 +80,10 @@ func scrape(username string, delay int) []string {
 		record = append(record, strings.TrimSpace(e.Text))
 	})
 	*/
-	c.OnXML("//a[contains(@href,'tab=stars')]/span", func(e *colly.XMLElement) {
+	/*c.OnXML("//a[contains(@href,'tab=stars')]/span", func(e *colly.XMLElement) {
 		record = append(record, strings.TrimSpace(e.Text))
 	})
+	*/
 	c.OnXML("//a[contains(@href,'tab=followers')]/span", func(e *colly.XMLElement) {
 		record = append(record, strings.TrimSpace(e.Text))
 	})
