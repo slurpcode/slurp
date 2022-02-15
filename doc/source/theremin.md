@@ -17,7 +17,7 @@ Leon Termen realised that rather than being a problem, body capacitance could be
 
 The original Theremin used a foot pedal to control the volume and a switch mechanism to alter the pitch. This prototype evolved into a production model Theremin in 1920, this was a unique design, resembling a gramophone cabinet on 4 legs with a protruding metal antennae and a metal loop. The instrument was played by moving the hands around the metal loop for volume and around the antennae for pitch. The output was a monophonic continuous tone modulated by the performer. The timbre of the instrument was fixed and resembled a violin string sound. The sound was produced directly by the heterodyning combination of two radio-frequency oscillators: one operating at a fixed frequency of 170,000 Hz, the other with a variable frequency between 168,000 and 170,000 Hz. The frequency of the second oscillator being determined by the proximity of the musician’s hand to the pitch antenna. The difference of the fixed and variable radio frequencies results in an audible beat frequency between 0 and 2,000 Hz. The audible sound came from the oscillators, later models adding an amplifier and large triangular loudspeaker.
 
-Here you can see the Teremin in action: <https://youtu.be/VJ4dfYUlW1w>, or <https://youtu.be/ajM4vYCZMZk> 
+Here you can see the Teremin in action: <https://youtu.be/VJ4dfYUlW1w>, or <https://youtu.be/ajM4vYCZMZk>
 
 Next topic: Staccatone
 
