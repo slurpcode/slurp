@@ -50,6 +50,7 @@ Welcome to slurp's documentation!
    block_design.md
    black-sholes-model.md
    common-errors.md
+   continuous-probability-distribution.md
    curiosities.md
    determination-coefficient.md
    fermat.md
@@ -95,6 +96,7 @@ Welcome to slurp's documentation!
    electro.md
    goa.md
    hardcore.md
+   helmholtz-sound-synthesiser.md
    house.md
    idm.md
    jungle_drum_bass.md
@@ -114,7 +116,14 @@ Welcome to slurp's documentation!
    denis-dor.md
    electromechanical_piano.md
    musical-telegraph.md
+   singing-arc.md
    telharmonium.md
+   optophonic_piano.md
+   synthetic_tone.md
+   electrophon.md
+   hugoniot_organ.md
+   theremin.md
+   staccatone.md
    wireless-organ.md
 
 .. toctree::
@@ -135,6 +144,7 @@ Welcome to slurp's documentation!
    paris.md
    pattaya.md
    prescott.md
+   tokyo.md
 
 .. toctree::
    :caption: Countries
@@ -250,11 +260,15 @@ Welcome to slurp's documentation!
    bobby-fischer.md
    boris_spassky.md
    chess-and-mathematics.md
+   effect_of_modern_chess_engines_on_professional_chess_players.md
    elo_rating.md
    fide-grand-prix-2022.md
    garry_kasparov_a_chess_player.md
+   inclusion_of_chess_in_olympics.md
    mikhail_tal.md
+   should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
+
 
 .. toctree::
    :caption: Movies
@@ -262,6 +276,7 @@ Welcome to slurp's documentation!
 
    harriet_the_movie.md
    life_is_beautiful.md
+   the_fight_club.md
    the_seventh_seal.md
 
 .. toctree::
