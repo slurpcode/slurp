@@ -45,8 +45,10 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    anderson_darling_test.md
+   analysis-of-variance.md
    bayes.md
    block_design.md
+   black-sholes-model.md
    common-errors.md
    curiosities.md
    determination-coefficient.md
@@ -55,6 +57,7 @@ Welcome to slurp's documentation!
    free-distribution-testing.md
    frequentist.md
    gauss-jordan.md
+   kendalls-correlation-coefficient.md
    long-term-behavior-of-markov.md
    markov-chains.md
    negative_binomial_distribution.md
