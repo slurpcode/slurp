@@ -19,6 +19,8 @@ jobs:
             sudo apt-get install aspell python3-pip
             python3 --version
             pip3 --version
+            go build ./...
+            go install ./...
             sudo pip3 install --upgrade virtualenv --progress-bar off
             python3 -m venv venv || virtualenv venv && . venv/bin/activate
             sudo pip3 install -r requirements.txt
@@ -189,7 +191,7 @@ jobs:
   go-test:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: cimg/go:1.17.7
+      - image: circleci/golang:1.13.3 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
@@ -215,7 +217,7 @@ jobs:
   csv-lint:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: cimg/go:1.17.7 #
+      - image: circleci/golang:1.13.3 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
