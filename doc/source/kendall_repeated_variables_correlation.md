@@ -1,4 +1,4 @@
-# Kendall\'s correlation coefficient for repeating variables
+# 🔢 Kendall\'s correlation coefficient for repeating variables
 
 ## Normal distribution:
 
@@ -805,3 +805,12 @@ interpreted in the same way as the Pearson correlation coefficient,
 therefore, at As it gets closer to zero (0), the correlation between
 both variables is lower and this result indicates that the correlation
 is practically null.
+
+## About The Author
+
+ Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching
+ component, she gave classes in several institutes of mathematics and physics,
+ but she also dedicated several years of my life as a television producer, she
+ did the scripts for mikes, the camera direction, editing of video and even the
+ location. Later she was dedicated to SEO writing for a couple of years. she l
+ ike poetry, chess and dominoes
