@@ -62,7 +62,7 @@ func scrape(username string) {
 		record = append(record, e.Text)
 	})
 	c.OnXML("//div[@class='stat-box'][ancestor::div[@class='stat-container']/h2/text()='Progress']/div[@class='stat'][b/text()='Honor:']/text()", func(e *colly.XMLElement) {
-		record = append(record, strings.ReplaceAll(e.Text, ",", "", -1))
+		record = append(record, strings.ReplaceAll(e.Text, ",", ""))
 	})
 	c.OnXML("//div[@class='stat-box'][ancestor::div[@class='stat-container']/h2/text()='Progress']/div[@class='stat'][b/text()='Leaderboard Position:']/text()", func(e *colly.XMLElement) {
 		record = append(record, strings.ReplaceAll(strings.TrimPrefix(e.Text, "#"), ",", ""))
@@ -71,7 +71,7 @@ func scrape(username string) {
 		record = append(record, strings.TrimPrefix(e.Text, "Top "))
 	})
 	c.OnXML("//div[@class='stat-box'][ancestor::div[@class='stat-container']/h2/text()='Progress']/div[@class='stat'][b/text()='Total Completed Kata:']/text()", func(e *colly.XMLElement) {
-		record = append(record, strings.ReplaceAll(e.Text, ",", "", -1))
+		record = append(record, strings.ReplaceAll(e.Text, ",", ""))
 	})
 	// Start scraping on https://www.codewars.com
 	err = c.Visit(fmt.Sprintf(url, allowed, username))
