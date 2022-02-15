@@ -23,4 +23,6 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
+	github.com/gocolly/colly/v2 v2.1.0
+	github.com/urfave/cli/v2 v2.3.0
 )
