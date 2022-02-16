@@ -44,5 +44,5 @@ thanks to the latest developments, music can also be played directly from the cl
 
 Sources:
 
-  * - MENNYEK KAPUI - Az elektroniks zene  vtizede (The decade of electronic music)
+* - MENNYEK KAPUI - Az elektroniks zene  vtizede (The decade of electronic music)
     ** - Facebook
