@@ -34,7 +34,7 @@ jobs:
       - run:
           name: 🧹 Run Pylint
           command: |
-            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0103,C0114,E0401,R0201,R0903,W0221
+            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0116,C0209,C0103,C0114,E0401,R0201,R0903,W0221
       - run:
           name: 🧹 Run Flake8
           command: |
