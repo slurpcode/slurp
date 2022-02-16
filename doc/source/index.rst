@@ -122,6 +122,12 @@ Welcome to slurp's documentation!
    theremin.md
    staccatone.md
    wireless-organ.md
+   clavecin_electrique.md
+   electronic_musical_instrument.md 
+   choralcelo.md
+   audion_piano.md
+   sound_producing_device.md
+   spharophon.md
 
 .. toctree::
    :caption: Cities
