@@ -33,8 +33,10 @@ jobs:
             yamllint --strict -c .github/linters/.yaml-lint.yml .
       - run:
           name: 🧹 Run Pylint
+          # --disable=C0116,C0209,C0103,C0114,E0401,R0201,R0903,W0221
           command: |
-            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0116,C0209,C0103,C0114,E0401,R0201,R0903,W0221
+            find . -name "*.py" -not -path "**/venv/*" | xargs pylint
+
       - run:
           name: 🧹 Run Flake8
           command: |
@@ -76,10 +78,10 @@ jobs:
           name: 🧹 Run Rubocop
           command: |
             bundle exec rubocop
-      #- run:
-      #    name: 🧹 Run Markdown lint
-      #    command: |
-      #      bundle exec mdl .
+      - run:
+          name: 🧹 Run Markdown lint
+          command: |
+            bundle exec mdl .
       - run:
           name: 🧹 Run Reek
           command: |
