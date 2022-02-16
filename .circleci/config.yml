@@ -76,10 +76,10 @@ jobs:
           name: 🧹 Run Rubocop
           command: |
             bundle exec rubocop
-      - run:
-          name: 🧹 Run Markdown lint
-          command: |
-            bundle exec mdl .
+      #- run:
+      #    name: 🧹 Run Markdown lint
+      #    command: |
+      #      bundle exec mdl .
       - run:
           name: 🧹 Run Reek
           command: |
@@ -190,7 +190,7 @@ jobs:
   go-test:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: circleci/golang:1.13.3 #
+      - image: circleci/golang:1.16.3 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
@@ -216,7 +216,7 @@ jobs:
   csv-lint:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: circleci/golang:1.13.3 #
+      - image: circleci/golang:1.16.3 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
