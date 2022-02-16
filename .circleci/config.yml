@@ -19,6 +19,7 @@ jobs:
             sudo apt-get install aspell python3-pip gcc gfortran libopenblas-dev liblapack-dev python-dev
             python3 --version
             pip3 --version
+
             sudo pip3 install --upgrade virtualenv --progress-bar off
             python3 -m venv venv || virtualenv venv && . venv/bin/activate
             sudo pip3 install -r requirements.txt
@@ -33,7 +34,7 @@ jobs:
       - run:
           name: 🧹 Run Pylint
           command: |
-            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0116,C0209,C0103,C0114,E0401,R0201,R0903,W0221
+            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0103,C0114,E0401,R0201,R0903,W0221
       - run:
           name: 🧹 Run Flake8
           command: |
@@ -151,10 +152,10 @@ jobs:
           command: |
             sudo apt update
             sudo apt-get install aspell
-      #- run:
-      #    name: 🧹 Run Markdown Spell Check
-      #    command: |
-      #      bash ./check-spelling.sh || exit 1
+      - run:
+          name: 🧹 Run Markdown Spell Check
+          command: |
+            bash ./check-spelling.sh || exit 1
 
   surge:
     docker:
@@ -189,8 +190,7 @@ jobs:
   go-test:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: circleci/golang:1.17.6 #
-
+      - image: circleci/golang:1.13.3 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
@@ -216,8 +216,7 @@ jobs:
   csv-lint:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: circleci/golang:1.17.6
-      #- image: cimg/go:1.17.7
+      - image: circleci/golang:1.13.3 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
