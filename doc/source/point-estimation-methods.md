@@ -97,7 +97,7 @@ Once the value of k is known, we can find the mathematical expectation
 
 Once we know how to calculate the mathematical expectation, we can carry out a population moment exercise.
 
-## Exercise 1 Of Moments:
+## Exercise 1 Of Moments
 
 Let x be a random variable with a probability density function that is given by:
 
@@ -217,7 +217,7 @@ The first being adding equal to β. It is important to emphasize that the way to
 
 In this case, we will observe evidence against the null hypothesis given the case that we obtain, a proportion of the sample that is relatively high.
 
-## When the type of contrast that we are carrying out when the problem is two samples is:
+## When the type of contrast that we are carrying out when the problem is two samples is
 
 `Ho: ph = pm`
 

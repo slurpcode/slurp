@@ -18,11 +18,11 @@ Trip hop tracks often incorporate Rhodes pianos, saxophones, trumpets, flutes, a
 
 You can find more details about its formation and development on Ishkur's Guide to Electronic Music, and you can listen to trip hop music right away.
 
-https://music.ishkur.com/?query=TripHop
+<https://music.ishkur.com/?query=TripHop>
 
 The Every Noise at Once platform provides an opportunity for people to get to know better the names of the creators who have ever been in the genre and thus the peculiarities of it.
 
-https://everynoise.com/everynoise1d.cgi?root=trip%20hop&scope=all
+<https://everynoise.com/everynoise1d.cgi?root=trip%20hop&scope=all>
 
 ## Sources
 

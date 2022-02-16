@@ -244,7 +244,6 @@ The same procedure for the high socioeconomic level: (42x51 / 94) = 22.8 - (42x4
 
 These calculations indicate the frequencies given the case that the null hypothesis is true and therefore, if the variables are independent.
 
-
 We can now make the table of expected values:
 
  ![formula](_static/images/anderson_darling_test/table_7.PNG)

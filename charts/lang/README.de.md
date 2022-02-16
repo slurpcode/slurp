@@ -92,5 +92,3 @@ Dieses Repository besteht aus:
 62. [Shields.io](https://shields.io/)
 63. [MacVim](http://macvim.org)
 64. [RVM](https://rvm.io)
-
-

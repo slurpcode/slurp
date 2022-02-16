@@ -32,13 +32,13 @@ You can find more details about its formation and development on Ishkur's Guide 
 house music right away.
 <https://music.ishkur.com/?query=Electro>#
 
-## Sources:
+## Sources
 
 - MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)
 - Wikipedia
 - Ishkur's Guide to Electronic Music
 
-## About the author:
+## About the author
 
 Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical
 expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional

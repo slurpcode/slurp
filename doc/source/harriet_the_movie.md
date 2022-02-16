@@ -1,4 +1,4 @@
-# 🎥 Harriet, the movie!
+# 🎥 Harriet, the movie
 
 The movie titled “Harriet” premiered at The Toronto Film Festival on Sept. 10, 2019. It was a terrific and eye opening expansion of everything I thought I knew about the Civil War era Underground Railroad Conductor Harriet Tubman. The film exposed much information about Harriet that the general public in the U.S. was unaware of and in the process made a few mistakes as well. It received great acclaim and also some criticism for being “formulaic”. The acclaim was primarily for the lead actor, oddly enough a British citizen, named Cynthia Erivo. I found her to be a completely believable character, yet the woman she portrayed was almost super-human in her real life existence.
 

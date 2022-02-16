@@ -25,7 +25,6 @@ The Cold War is happening. Life Magazine called it the match of the century, and
 
 And then Fischer didn't show up.
 
-
 He was still in, uh, New York, and he said, I don't want to play in this match 'cause it's not enough prize money! Can you believe this!
 
 It's not enough!
@@ -37,7 +36,6 @@ This is Henry Kissinger
 saying that you need to get your ass over to Iceland now.
 
 So, he finally shows up in Iceland, and Spassky's like, fine, great, let's get started.
-
 
 But Fischer was like, there's too many cameras.
 
@@ -64,7 +62,6 @@ And he was thinking that they would do it,
 but they didn't.
 
 And then Fischer forfeits the match.
-
 
 And he's down two-nothing,
 

@@ -61,7 +61,7 @@ probability sampling, bias is eliminated in a population and all
 individuals are given a fair chance when it comes to being included in
 the sample.
 
-## In probability sampling, four different types of techniques can be named:
+## In probability sampling, four different types of techniques can be named
 
 1.- The simple random sampling technique: This is one of the best
 techniques as far as probability sampling is concerned and also a lot of
@@ -295,7 +295,7 @@ However, the investigator can make contact with those people who know
 people with this disease or perhaps some volunteers related to the
 cause, in order to find the victims and be able to gather information.
 
-## To perform a snowball sampling you must perform two steps:
+## To perform a snowball sampling you must perform two steps
 
 1.- The first is to identify the potential subjects that the population
 has and, in general, only one or a couple of individuals can be found
@@ -356,7 +356,7 @@ obtained.
 
 ![Quota Sampling](_static/images/sampling_methods/image9.jpg)
 
-## Steps to carry out quota sampling:
+## Steps to carry out quota sampling
 
 1.- The population must be divided into subgroups where the
 characteristics of each subgroup must be part of this subgroup only.
