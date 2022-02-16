@@ -19,9 +19,6 @@ jobs:
             sudo apt-get install aspell python3-pip gcc gfortran libopenblas-dev liblapack-dev python-dev
             python3 --version
             pip3 --version
-            go build ./...
-            go install ./...
-            go run ./...
             sudo pip3 install --upgrade virtualenv --progress-bar off
             python3 -m venv venv || virtualenv venv && . venv/bin/activate
             sudo pip3 install -r requirements.txt
@@ -154,10 +151,10 @@ jobs:
           command: |
             sudo apt update
             sudo apt-get install aspell
-      - run:
-          name: 🧹 Run Markdown Spell Check
-          command: |
-            bash ./check-spelling.sh || exit 1
+      #- run:
+      #    name: 🧹 Run Markdown Spell Check
+      #    command: |
+      #      bash ./check-spelling.sh || exit 1
 
   surge:
     docker:
