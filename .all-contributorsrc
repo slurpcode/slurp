@@ -369,6 +369,35 @@
         "doc",
         "code"
       ]
+    },
+    {
+      "login": "smriad",
+      "name": "S. M. Riad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21966124?v=4",
+      "profile": "https://github.com/smriad",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "sbhatm1213",
+      "name": "sbhatm1213",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20096270?v=4",
+      "profile": "https://github.com/sbhatm1213",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "johnbampton",
+      "name": "Beast",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20361754?v=4",
+      "profile": "https://discord.gg/sFCE2HcMCa",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
