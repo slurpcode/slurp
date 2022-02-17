@@ -115,6 +115,12 @@ Welcome to slurp's documentation!
    musical-telegraph.md
    singing-arc.md
    telharmonium.md
+   optophonic_piano.md
+   synthetic_tone.md
+   electrophon.md
+   hugoniot_organ.md
+   theremin.md
+   staccatone.md
    wireless-organ.md
 
 .. toctree::
