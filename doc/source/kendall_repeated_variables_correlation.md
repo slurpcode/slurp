@@ -21,7 +21,7 @@ Let\'s go with a simple example, we have a variable (x) that has the
 following data:
 
 | **(x)** |
-|---------|
+| ------- |
 | 1       |
 | 1,5     |
 | 2       |
@@ -51,8 +51,7 @@ Now we go to the column next to (x), we identify it as F (x) and in the
 first row of data we assign the following instruction:
 
 = NORM.DIST (we choose the cell where the first value of x is found; the
-cell that contains the mean value; the same with the standard deviation;
-0)
+cell that contains the mean value; the same with the standard deviation; 0)
 
 Thus we obtain the first value of our normal distribution, now we must
 place the \"\$\" symbol before and after the letter that represents the
@@ -121,14 +120,12 @@ the blood pressure that is considered healthy according to the age of
 the people, in this way we can set three ranges of blood pressure: low,
 medium and high, so we will list them from 1 to 3, respectively.
 
->Blood pressure
+> Blood pressure
 
-| **Low**   | 1   |
-|-----------|-----|
-| **Mid**   | 2   |
+| **Low**  | 1   |
+| -------- | --- |
+| **Mid**  | 2   |
 | **High** | 3   |
-
-
 
 Of course, the older you get, your blood pressure tends to be even
 higher at normal levels. So we expect the Kendall coefficient to be
@@ -139,14 +136,14 @@ age:
 > Age range
 
 | **0 - 19**     | 1   |
-|----------------|-----|
+| -------------- | --- |
 | **20 - 39**    | 2   |
 | **40 or more** | 3   |
 
 According to these ranges, the following results were obtained:
 
 | **Age** | **Blood pressure** |
-|---------|--------------------|
+| ------- | ------------------ |
 | 2       | 2                  |
 | 2       | 2                  |
 | 2       | 2                  |
@@ -171,7 +168,7 @@ We should notice that the values ​​of the ranges are repeated and that
 changes the correlation method.
 
 | **Rank (x)** | **Age** |
-|--------------|---------|
+| ------------ | ------- |
 | 1            | 1       |
 | 2            | 1       |
 | 3            | 2       |
@@ -196,7 +193,7 @@ are 1 + 2 = 3, we can obtain the data in the table that correspond to
 the sum of positions.
 
 | **Age range** | **Positions**      | **Amount of repetitions (t)** | **Sum of positions** | **Assigned Rank** | **t (t-1)** |
-|-----------|----------------|---------------|-----------|-----------|-----------|
+| ------------- | ------------------ | ----------------------------- | -------------------- | ----------------- | ----------- |
 | 1             | 1 y 2              | 2                             | 3                    | 1,5               | 2           |
 | 2             | 3,4,5,6,7,8,9 y 10 | 8                             | 52                   | 6,5               | 56          |
 | 3             | 11,12,13,14 y 15   | 5                             | 65                   | 13                | 20          |
@@ -224,7 +221,7 @@ highest and we will give values ​​to the range (y) from 1 to 15, yes,
 after ordering the variable, so we will have the following tables:
 
 | **Blood pressure** | **Rank (y)** |
-|--------------------|--------------|
+| ------------------ | ------------ |
 | 1                  | 1            |
 | 1                  | 2            |
 | 2                  | 3            |
@@ -242,7 +239,7 @@ after ordering the variable, so we will have the following tables:
 | 3                  | 15           |
 
 | **Blood pressure range** | **Positions**       | **Amount of repetitions (t)** | **Sum of positions** | **Assigned Rank** | **t (t - 1)** |
-|---------------|--------------|------------|-----------|-----------|-----------|
+| ------------------------ | ------------------- | ----------------------------- | -------------------- | ----------------- | ------------- |
 | 1                        | 1 y 2               | 2                             | 3                    | 1.5               | 2             |
 | 2                        | 3,4,5,6,7,8 y 9     | 8                             | 42                   | 6                 | 42            |
 | 3                        | 10,11,12,13,14 y 15 | 6                             | 75                   | 12.5              | 30            |
@@ -256,7 +253,7 @@ add two columns with the new ranges assigned for each of the variables,
 so that we will obtain a table as shown below:
 
 | **Original value Age** | **Assigned rank (x)** | **Original value Blood pressure** | **Assigned rank (y)** |
-|---------------|-------------------|---------------------|-------------------|
+| ---------------------- | --------------------- | --------------------------------- | --------------------- |
 | 2                      | 6.5                   | 2                                 | 6                     |
 | 2                      | 6.5                   | 2                                 | 6                     |
 | 2                      | 6.5                   | 2                                 | 6                     |
@@ -278,7 +275,7 @@ this we will join our ranges (x) and (y) with which we are going to work
 from now on:
 
 | **Assigned rank (x)** | **Assigned rank (y)** |
-|-----------------------|-----------------------|
+| --------------------- | --------------------- |
 | 6.5                   | 6                     |
 | 6.5                   | 6                     |
 | 6.5                   | 6                     |
@@ -303,7 +300,7 @@ be ordered in this way, with its respective ordered pair and without
 losing the agreement. The table will be as follows:
 
 | **Row** | **Assigned rank (x)** | **Assigned rank (y)** |
-|---------|-----------------------|-----------------------|
+| ------- | --------------------- | --------------------- |
 | 1       | 1.5                   | 1.5                   |
 | 2       | 1.5                   | 1.5                   |
 | 3       | 6.5                   | 6                     |
@@ -341,7 +338,7 @@ $y_{j}$. In the same way, it happens for the second value of 1.5, so
 both have 13 matching pairs.
 
 | **Row** | **Assigned rank (x)** | **Assigned rank (y)** | **Matching values** |
-|------------------|------------------|------------------|------------------|
+| ------- | --------------------- | --------------------- | ------------------- |
 | 1       | 1.5                   | 1.5                   | 13                  |
 | 2       | 1.5                   | 1.5                   | 13                  |
 | 3       | 6.5                   | 6                     | 4                   |
@@ -388,7 +385,7 @@ and row 10. The rest of the rows no longer have discordant values, so we
 can now generate a table of discordant values:
 
 | **Row** | **Assigned rank (x)** | **Assigned rank (y)** | **Matching values** | **Discordant values** |
-|---------------|---------------|---------------|---------------|---------------|
+| ------- | --------------------- | --------------------- | ------------------- | --------------------- |
 | 1       | 1.5                   | 1.5                   | 13                  | 0                     |
 | 2       | 1.5                   | 1.5                   | 13                  | 0                     |
 | 3       | 6.5                   | 6                     | 4                   | 0                     |
@@ -439,7 +436,7 @@ secondary, technical and university. So after qualifying he was able to
 get the following data:
 
 | **Level of instruction** | **Degree of collaboration** |
-|--------------------------|-----------------------------|
+| ------------------------ | --------------------------- |
 | Technical                | Medium                      |
 | Academic                 | Medium                      |
 | Technical                | High                        |
@@ -470,21 +467,21 @@ defined that:
 Degree of collaboration
 
 | **Low**    | 1   |
-|------------|-----|
+| ---------- | --- |
 | **Medium** | 2   |
 | **High**   | 3   |
 
 Academic level
 
 | **High school** | 1   |
-|-----------------|-----|
+| --------------- | --- |
 | **Technical**   | 2   |
 | **Academic**    | 3   |
 
 So they substituted the values ​​in the initial table:
 
 | **Level of instruction** | **Degree of collaboration** |
-|--------------------------|-----------------------------|
+| ------------------------ | --------------------------- |
 | 2                        | 2                           |
 | 3                        | 2                           |
 | 2                        | 3                           |
@@ -518,7 +515,7 @@ range (x) with numbers from the 1 to N, as we know, for this particular
 example N = 22, so we are left with a table as follows:
 
 | **Degree of collaboration** | **Rank (x)** |
-|-----------------------------|--------------|
+| --------------------------- | ------------ |
 | 1                           | 1            |
 | 1                           | 2            |
 | 1                           | 3            |
@@ -548,7 +545,7 @@ assigned range and the last column represents at (t - 1), so we get a
 table as shown below:
 
 | **Range of collaborators** | **Positions**                | **Amount of repetitions (t)** | **Sum of positions** | **Assigned Rank** | **t (t-1)** |
-|--------------|--------------------|------------|----------|----------|----------|
+| -------------------------- | ---------------------------- | ----------------------------- | -------------------- | ----------------- | ----------- |
 | 1                          | 1, 2, 3, 4, 5 y 6            | 6                             | 21                   | 3,5               | 30          |
 | 2                          | 7, 8, 9, 10, 11, 12, 13 y 14 | 8                             | 84                   | 10,5              | 56          |
 | 3                          | 15, 16, 17, 18, 19, 20 y 21  | 7                             | 126                  | 18                | 42          |
@@ -563,7 +560,7 @@ corresponding range (y), with their respective values ​​from 1 to 21,
 being as follows:
 
 | **Degree of collaboration** | **Rank (x)** |
-|-----------------------------|--------------|
+| --------------------------- | ------------ |
 | 1                           | 1            |
 | 1                           | 2            |
 | 1                           | 3            |
@@ -589,7 +586,7 @@ being as follows:
 From this table we build the following:
 
 | **Range of collaborators** | **Positions**                | **Amount of repetitions (t)** | **Sum of positions** | **Assigned Rank** | **t (t-1)** |
-|--------------|--------------------|------------|----------|----------|----------|
+| -------------------------- | ---------------------------- | ----------------------------- | -------------------- | ----------------- | ----------- |
 | 1                          | 1, 2, 3, 4, 5 y 6            | 6                             | 21                   | 3,5               | 30          |
 | 2                          | 7, 8, 9, 10, 11, 12, 13 y 14 | 8                             | 84                   | 10,5              | 56          |
 | 3                          | 15, 16, 17, 18, 19, 20 y 21  | 7                             | 126                  | 18                | 42          |
@@ -602,7 +599,7 @@ We make a table with the original values ​​of each variable and its
 respective assigned range, therefore:
 
 | **Original value of the instruction level** | **Assigned rank (x)** | **Original value of the degree of collaboration** | **Assigned rank (y)** |
-|-----------------------|--------------|---------------------|--------------|
+| ------------------------------------------- | --------------------- | ------------------------------------------------- | --------------------- |
 | 2                                           | 11,5                  | 2                                                 | 10,5                  |
 | 3                                           | 18                    | 2                                                 | 10,5                  |
 | 2                                           | 11,5                  | 3                                                 | 18                    |
@@ -637,7 +634,7 @@ We will also add a column with the number of the row, so that they will
 notice the observations we make with respect to the row.
 
 | **Raw** | **Assigned rank (x)** | **Assigned rank (y)** |
-|---------|-----------------------|-----------------------|
+| ------- | --------------------- | --------------------- |
 | 1       | 4,5                   | 3,5                   |
 | 2       | 4,5                   | 3,5                   |
 | 3       | 4,5                   | 3,5                   |
@@ -685,7 +682,7 @@ concordant pair.
 We are then assembling the table of concordant values:
 
 | **Raw** | **Assigned rank (x)** | **Assigned rank (y)** | **Concordant pairs** |
-|-----------------|-----------------|-----------------|----------------------|
+| ------- | --------------------- | --------------------- | -------------------- |
 | 1       | 4,5                   | 3,5                   | 11                   |
 | 2       | 4,5                   | 3,5                   | 11                   |
 | 3       | 4,5                   | 3,5                   | 11                   |
@@ -738,7 +735,7 @@ from 10 to 22, but we can realize that for the first 4 rows there are no
 values ​​less than 3.5 in all subsequent values. Therefore, the
 discordant values ​​for all these rows are null.
 
-For row 5 we must look for the values ​​of $y_{j}\ $that are less than
+For row 5 we must look for the values ​​of $y\_{j}\ $that are less than
 10.5 but starting from row 10 and we find them in rows 17 and 19, there
 we will have two discordant pairs, as is the case for row 7. While that
 for row 6, the values ​​less than 18 that are from row 10 down, are the
@@ -758,7 +755,7 @@ From rows 16 to 22, the first condition is not met, that is, the values
 The complete table looks like this:
 
 | **Raw** | **Assigned rank (x)** | **Assigned rank (y)** | **Concordant pairs** | **Discordant pairs** |
-|--------------|--------------|--------------|-----------------|---------------|
+| ------- | --------------------- | --------------------- | -------------------- | -------------------- |
 | 1       | 4,5                   | 3,5                   | 11                   | 0                    |
 | 2       | 4,5                   | 3,5                   | 11                   | 0                    |
 | 3       | 4,5                   | 3,5                   | 11                   | 0                    |
@@ -808,9 +805,9 @@ is practically null.
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching
- component, she gave classes in several institutes of mathematics and physics,
- but she also dedicated several years of my life as a television producer, she
- did the scripts for mikes, the camera direction, editing of video and even the
- location. Later she was dedicated to SEO writing for a couple of years. she l
- ike poetry, chess and dominoes
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching
+component, she gave classes in several institutes of mathematics and physics,
+but she also dedicated several years of my life as a television producer, she
+did the scripts for mikes, the camera direction, editing of video and even the
+location. Later she was dedicated to SEO writing for a couple of years. she l
+ike poetry, chess and dominoes

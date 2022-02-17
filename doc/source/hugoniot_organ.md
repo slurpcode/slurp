@@ -22,6 +22,7 @@ Hugoniot’s died in 1927 before he could develop his ideas any further than pro
 Next topic: Theremin
 
 ## Sources
+
 - Wikipedia / 120years.net / Oxfordmusiconline.com
 
 ## About the author

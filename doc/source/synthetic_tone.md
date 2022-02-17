@@ -21,6 +21,7 @@ are identical with those of artistic singing. One factor at a time can then be v
 Next topic: Electrophon
 
 ## Sources
+
 - Wikipedia / 120years.net / Scholarworks.uni.edu
 
 ## About the author

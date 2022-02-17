@@ -10,7 +10,6 @@ The principles of beat frequency or heterodyning oscillators were discovered by 
 
 [Leon Termen plays the ‘Theremin’ or ‘Thereminvox’.Paris, 1927]
 
-
 One problem with utilising the heterodyning effect (heterodyning is the effect where two high frequency signals are added producing a third audible tone which is the difference of the two high frequencies. This effect was the basis of many "vacuum tube based electronic instruments”.) for musical purposes was that as the body came near the vacuum tubes the capacitance of the body caused variations in frequency.
 
 Leon Termen realised that rather than being a problem, body capacitance could be used as a control mechanism for an instrument and finally freeing the performer from the keyboard and fixed intonation. Termen’s first machine, built in the USSR in 1917 was christened the “Theremin” (after himself) or the “Aetherophone” (sound from the ‘ether’) and was the first instrument to exploit the heterodyning principle.
