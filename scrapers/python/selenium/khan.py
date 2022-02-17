@@ -22,6 +22,10 @@ def get_energy_points(user):
 
 
 def main():
+    """
+    Main method
+    Update the 'user' here, to get their Energy Score
+    """
     user = "johnbampton"
     profile_energy = get_energy_points(user)
     print(f"User => {user} ; Energy Point => {profile_energy} ;")

@@ -127,9 +127,9 @@ def create_images(logos_dir):
             for color in cmap_list:
                 i += 1
                 plt.imsave(
-                    os.path.join(cwd, "images/logos/%s/%s.png" % (d, i)),
+                    os.path.join(cwd, f"images/logos/{d}/{i}.png"),
                     lum_img,
-                    cmap="%s" % color,
+                    cmap=f"{color}",
                 )
 
 
