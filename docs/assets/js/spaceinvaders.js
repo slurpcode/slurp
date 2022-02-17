@@ -841,7 +841,7 @@ Sounds.prototype.loadSound = function(name, url) {
     try {
         req.send();
     } catch(e) {
-        console.log("An exception occured getting sound the sound " + name + " this might be " +
+        console.log("An exception occurred getting sound the sound " + name + " this might be " +
             "because the page is running from the file system, not a webserver.");
         console.log(e);
     }
