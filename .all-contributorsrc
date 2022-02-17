@@ -389,6 +389,15 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "johnbampton",
+      "name": "Beast",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20361754?v=4",
+      "profile": "https://discord.gg/sFCE2HcMCa",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
