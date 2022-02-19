@@ -74,6 +74,7 @@ jobs:
       - run:
           name: 🧹 Run Rubocop
           command: |
+            bundle install
             bundle exec rubocop
       - run:
           name: 🧹 Run Markdown lint
