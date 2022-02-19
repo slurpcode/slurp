@@ -244,14 +244,11 @@ def create_dita(path)
       "
   <topicref href=\"dita/#{File.basename(filename, '.*')}.dita\" type=\"task\"/>"
     transformed_document = template.transform(document)
-    File.write("output/dita/#{File.basename(filename, '.*')}.dita",
-      transformed_document
-    )
+    File.write("output/dita/#{File.basename(filename, '.*')}.dita", transformed_document)
   end
 
   ditamap += '
 </map>'
-#   File.open('output/map.ditamap', 'w'){|f| f.write(ditamap)}
   File.write('output/map.ditamap', ditamap)
   puts ditamap
 end
