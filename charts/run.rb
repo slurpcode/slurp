@@ -520,7 +520,7 @@ def draw_plotly_chart(chart_div, data, title, height, width, type)
         size: 12,
         color: 'black'
       },
-      height: #{height + data.size * 15}, // Each legend entry is 15 high.
+      height: #{height + (data.size * 15)}, // Each legend entry is 15 high.
       width: #{width},
       showlegend: true,
 	      legend: {
@@ -546,7 +546,7 @@ end
 # data variable
 structure = generate_data
 # home page plus other pages with 50 charts per page
-page_count = structure.size / 50 + 1
+page_count = (structure.size / 50) + 1
 
 # common HTML page header include
 def page_header(site_config, page_count)
@@ -659,7 +659,7 @@ page_build(page, page_count, 1)
 # add chart divs to each page
 structure.map.with_index do |chart, i|
   data0 = clean_chart(chart[0])
-  i = i / 50 + 1
+  i = (i / 50) + 1
   instance_variable_set("@page#{i}",
                         "#{gp(i)}\n      " +
     case site_config['chart_type']
@@ -808,7 +808,7 @@ if site_config['chart_type'] == 'all'
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
     data1 = chart[1..]
-    i = ind / 50 + 1
+    i = (ind / 50) + 1
 
     case (i - 1) % 8
     when 0..1 # d3pie
@@ -848,7 +848,7 @@ else
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
     data1 = chart[1..]
-    i = ind / 50 + 1
+    i = (ind / 50) + 1
     case site_config['chart_type']
     when 'd3pie'
       type = i & 1 == 1 ? 0 : '35%'
