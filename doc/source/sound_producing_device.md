@@ -19,7 +19,7 @@ The instrument was to have numerous spectrogram for each note representing the v
 
 Each note of the instrument had it’s own speaker making the ‘Sound-Producing Device’ fully polyphonic as well as velocity sensitive.
 
-Next topic: Wireless Organ 
+Next topic: Wireless Organ
 
 ## Sources
 
