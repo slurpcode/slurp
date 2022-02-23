@@ -45,8 +45,10 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    anderson_darling_test.md
+   analysis-of-variance.md
    bayes.md
    block_design.md
+   black-sholes-model.md
    common-errors.md
    continuous-probability-distribution.md
    curiosities.md
@@ -56,6 +58,7 @@ Welcome to slurp's documentation!
    free-distribution-testing.md
    frequentist.md
    gauss-jordan.md
+   kendalls-correlation-coefficient.md
    long-term-behavior-of-markov.md
    markov-chains.md
    negative_binomial_distribution.md
@@ -122,6 +125,12 @@ Welcome to slurp's documentation!
    theremin.md
    staccatone.md
    wireless-organ.md
+   clavecin_electrique.md
+   electronic_musical_instrument.md
+   choralcelo.md
+   audion_piano.md
+   sound_producing_device.md
+   spharophon.md
 
 .. toctree::
    :caption: Cities

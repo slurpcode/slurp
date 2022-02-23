@@ -1,4 +1,4 @@
-# 🎤 Electrophon
+# 🎺 Sphärophon 
 
 Jörg Georg Adam Mager was a German musician and inventor, who was a pioneer of early electronic music.
 
@@ -12,7 +12,7 @@ Further developments of the Sphärophon lead to the Kurbelsphärophon unveiled a
 This adaptation added a second manual dial that allowed the player
 to interrupt the instrument’s continuous output and avoid the continuous glissando of the Sphärophon by queuing up another note and added two pedals to control each note’s volume and envelope.
 
-![electrophon](_static/images/electrophon/electrophon.png)
+![Spharophon](_static/images/spharophon/spharophon.png)
 
 [Mager playing the Kurbelsphärophon]
 
@@ -20,7 +20,7 @@ With this resource at his disposal Mager continued to develop his instrument des
 by adjusting the capacitance of the sound generating circuit to alter
 the intervals between each key and scale the acoustic length of the keyboard. An octave could be made as small as a major second, so that each successive step represented an interval of a 12th tone. Additional tone colour was added by mechanical resonators, series of filters and specially formed resonant speakers.
 
-Next topic: Hugoniot Organ
+Next topic: The Luminaphone 
 
 ## Sources
 
