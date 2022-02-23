@@ -126,7 +126,7 @@ Welcome to slurp's documentation!
    staccatone.md
    wireless-organ.md
    clavecin_electrique.md
-   electronic_musical_instrument.md 
+   electronic_musical_instrument.md
    choralcelo.md
    audion_piano.md
    sound_producing_device.md
