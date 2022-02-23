@@ -52,20 +52,20 @@ The Black Scholes model in its beginnings tried to value options in order to cal
 
 Considerations to take into account to apply the Black Scholes equation:
 
--	Taxes or transaction costs are not taken into account in the model
--	A risk-free and constant interest rate is assumed for the due date.
--	Volatility is assumed to remain constant
--	It should be based on the idea that there is no arbitration without risk
--	The option does not bear interest
--	Finally, it is also assumed that the probability distribution regarding the return is concerned, is a normal distribution.
+- Taxes or transaction costs are not taken into account in the model
+- A risk-free and constant interest rate is assumed for the due date.
+- Volatility is assumed to remain constant
+- It should be based on the idea that there is no arbitration without risk
+- The option does not bear interest
+- Finally, it is also assumed that the probability distribution regarding the return is concerned, is a normal distribution.
 
 Let's now go to the Black Sholes equation to find the price of a Call option:
 
-`C=SxN(d_1 )-X e^(-rT)  x N(d_2)`
+`C=SxN(d_1 )-X e^(-rT) x N(d_2)`
 
 Where the values of d_1 and d_2 are obtained from the following formulas:
 
-`d_1=   ln⁡〖S/X+ (r+ σ^2/2)x T〗/(σ √T)`
+`d_1= ln⁡〖S/X+ (r+ σ^2/2)x T〗/(σ √T)`
 
 `d_2= d_1- σ √T`
 
@@ -100,7 +100,7 @@ S = € 50
 
 We are going to calculate both d_1and d_2
 
-`d_1= ln⁡〖50/40+ (0.1+ 〖0.3〗^2/2)  0.25〗/(0.3 √0.25) = 1.72`
+`d_1= ln⁡〖50/40+ (0.1+ 〖0.3〗^2/2) 0.25〗/(0.3 √0.25) = 1.72`
 
 `d_2= d_1- σ √T = 1.72 – 0.3√0.25 = 1.57`
 
@@ -126,29 +126,29 @@ Now we can calculate the fair price that the buyer must pay to obtain the Call p
 
 Substituting the values:
 
-`C=50 .0,9582-(40 .e^(-0,1 x 0,25) )  x 0,9429`
+`C=50 .0,9582-(40 .e^(-0,1 x 0,25) ) x 0,9429`
 
-`C=11,1226  €`
+`C=11,1226 €`
 
 Of course, we can also do the calculations in Excel and instead of using the probability tables when evaluating the normal distribution, we can simply give the following instruction in the cell: NORM.S.DIST (place the cell where it is located calculated the value d_1; TRUE). When one places the word "true" after the (;) the NORM.S.DIST function returns the cumulative normal distribution which is the same as using the probability tables.
 
-|S|50|
-|---|---|
-|X|40|
-|r|0,1|
-|σ|0,3|
-|T|0,25|
+| S   | 50   |
+| --- | ---- |
+| X   | 40   |
+| r   | 0,1  |
+| σ   | 0,3  |
+| T   | 0,25 |
 
-|d1|1,7292903|
-|---|---|
-|d2|1,5792903|
+| d1  | 1,7292903 |
+| --- | --------- |
+| d2  | 1,5792903 |
 
-|N(d1)|0,9581214|
-|---|---|
-|N(d2)|0,9428653|
+| N(d1) | 0,9581214 |
+| ----- | --------- |
+| N(d2) | 0,9428653 |
 
-|C|11,122638|
-|---|---|
+| C   | 11,122638 |
+| --- | --------- |
 
 As we can see, in both ways we obtain that the fair price of the Call option is € 11.12
 
@@ -175,27 +175,27 @@ The Black Scholes equation for the advisable price of the put option is:
 
 `P=X. e^(-rT).N(-d_2 )-S.N(〖-d〗_1)`
 
-It is important to take into account that for the put option when evaluating the normal distribution we must use the calculation of d_1but with the sign changed, that is: N (-〖 d〗_1) and the same for the calculation of the normal distribution of d_2, in the formula is also used is N(-〖 d〗_2).
+It is important to take into account that for the put option when evaluating the normal distribution we must use the calculation of d_1but with the sign changed, that is: N (-〖 d〗\_1) and the same for the calculation of the normal distribution of d_2, in the formula is also used is N(-〖 d〗\_2).
 
 Once we carry out all the calculations in Excel we are left with:
 
-|S|4500|
-|---|---|
-|X|4800|
-|r|2,80%|
-|σ|9%|
-|T|0,5|
+| S   | 4500  |
+| --- | ----- |
+| X   | 4800  |
+| r   | 2,80% |
+| σ   | 9%    |
+| T   | 0,5   |
 
-|d1|-0,7623|
-|---|---|
-|d2|-0,8260|
+| d1  | -0,7623 |
+| --- | ------- |
+| d2  | -0,8260 |
 
-|N(-d1)|0,7771|
-|---|---|
-|N(-d2)|0,7956|
+| N(-d1) | 0,7771 |
+| ------ | ------ |
+| N(-d2) | 0,7956 |
 
-|P|268,9296|
-|---|---|
+| P   | 268,9296 |
+| --- | -------- |
 
 To clarify a bit the difference between the Call option and the Put option, in the former, the buyer must pay a premium to have the right, but not the obligation, to buy an underlying asset and the seller has the obligation to sell the asset, if the buyer wants to exercise his right to purchase.
 
@@ -221,39 +221,39 @@ Now, to calculate the intrinsic value of a Put option, we must subtract the pric
 
 In order not to go into details, we are simply going to place improvised values of each of the variables that are required to calculate the appropriate value of the premium of a certain option and according to the Black Scholes equation, we will obtain the result for both the call option to buy as for the Put option.
 
-|S|30|
-|---|---|
-|X|32|
-|r|8%|
-|σ|30%|
-|T|0.5|
+| S   | 30  |
+| --- | --- |
+| X   | 32  |
+| r   | 8%  |
+| σ   | 30% |
+| T   | 0.5 |
 
 We carry out the pertinent calculations in Excel and obtain the values:
 
-|d1|-0.00961|
-|---|---|
-|d2|-0.221742|
+| d1  | -0.00961  |
+| --- | --------- |
+| d2  | -0.221742 |
 
-|N(d1)|0.4961664|
-|---|---|
-|N(d2)|0.4122575|
+| N(d1) | 0.4961664 |
+| ----- | --------- |
+| N(d2) | 0.4122575 |
 
-|N(-d1)|0.5038336|
-|---|---|
-|N(-d2)|0.5877425|
+| N(-d1) | 0.5038336 |
+| ------ | --------- |
+| N(-d2) | 0.5877425 |
 
-|C|2.2100264|
-|---|---|
-|P|2.9552884|
+| C   | 2.2100264 |
+| --- | --------- |
+| P   | 2.9552884 |
 
 Now we are going to make a data table with the possible prices quoted at the expiration date of a Call purchase option and we will place them in column “D” (in this case we will establish that they range between € 20 and € 50). It is important to leave the first row of this item completely blank.
 
-|Variation of the share price at the expiration date|Call premium price|Intrinsic value|
-|----|----|----|
-|0|2,2100264|0|
-|20|||
-|21|||
-|22|||
+| Variation of the share price at the expiration date | Call premium price | Intrinsic value |
+| --------------------------------------------------- | ------------------ | --------------- |
+| 0                                                   | 2,2100264          | 0               |
+| 20                                                  |                    |                 |
+| 21                                                  |                    |                 |
+| 22                                                  |                    |                 |
 
 Of course, it does not reach the value 22 until 50 ...
 
@@ -265,39 +265,39 @@ The third column "F" is intended for the calculation of the intrinsic value, whi
 
 Later we must choose all this table including its blank values and go to the upper part of Excel and choose "Data", and then display the "Analysis what if" menu that is in the upper right, then we choose the option "table of data ”and a box will appear, with two possibilities that are: input cell (row) and input cell (column), we position ourselves in the second option (column) and there we choose with the mouse the cell that corresponds to the value of "S", that is, cell B2 and we click "accept", in this way the rest of the data in our table will be automatically filled out as follows:
 
-|Variation of the share price at the expiration date|Call premium price|Intrinsic value|
-|----|----|----|
-|20|0,041343887|0|
-|21|0,077187987|0|
-|22	|0,134547121	|0|
-|23|	0,220885826|	0|
-|24|	0,344077707|	0|
-|25|	0,511811418|	0|
-|26|	0,73100205	|0|
-|27|	1,007292956|	0|
-|28|	1,344707004|	0|
-|29|	1,745473503|	0|
-|30|	2,210026361|	0|
-|31|	2,73714607	|0|
-|32|	3,324205122|	0|
-|33|	3,96747298	|1|
-|34|	4,662440339|	2|
-|35|	5,404130505|	3|
-|36|	6,187375462|	4|
-|37|	7,007043826|	5|
-|38|	7,858215942|	6|
-|39|	8,736307512|	7|
-|40|	9,637147112|	8|
-|41|	10,55701516|	9|
-|42|	11,49265261|	10|
-|43|	12,44124741|	11|
-|44|	13,4004058	|12|
-|45|	14,3681145	|13|
-|46|	15,34269833|	14|
-|47|	16,32277683|	15|
-|48|	17,3072223	|16|
-|49|	18,29512072|	17|
-|50|	19,28573653|	18|
+| Variation of the share price at the expiration date | Call premium price | Intrinsic value |
+| --------------------------------------------------- | ------------------ | --------------- |
+| 20                                                  | 0,041343887        | 0               |
+| 21                                                  | 0,077187987        | 0               |
+| 22                                                  | 0,134547121        | 0               |
+| 23                                                  | 0,220885826        | 0               |
+| 24                                                  | 0,344077707        | 0               |
+| 25                                                  | 0,511811418        | 0               |
+| 26                                                  | 0,73100205         | 0               |
+| 27                                                  | 1,007292956        | 0               |
+| 28                                                  | 1,344707004        | 0               |
+| 29                                                  | 1,745473503        | 0               |
+| 30                                                  | 2,210026361        | 0               |
+| 31                                                  | 2,73714607         | 0               |
+| 32                                                  | 3,324205122        | 0               |
+| 33                                                  | 3,96747298         | 1               |
+| 34                                                  | 4,662440339        | 2               |
+| 35                                                  | 5,404130505        | 3               |
+| 36                                                  | 6,187375462        | 4               |
+| 37                                                  | 7,007043826        | 5               |
+| 38                                                  | 7,858215942        | 6               |
+| 39                                                  | 8,736307512        | 7               |
+| 40                                                  | 9,637147112        | 8               |
+| 41                                                  | 10,55701516        | 9               |
+| 42                                                  | 11,49265261        | 10              |
+| 43                                                  | 12,44124741        | 11              |
+| 44                                                  | 13,4004058         | 12              |
+| 45                                                  | 14,3681145         | 13              |
+| 46                                                  | 15,34269833        | 14              |
+| 47                                                  | 16,32277683        | 15              |
+| 48                                                  | 17,3072223         | 16              |
+| 49                                                  | 18,29512072        | 17              |
+| 50                                                  | 19,28573653        | 18              |
 
 It is then when we choose the whole table, we go to the upper part of our Excel in "Insert", we display the "Dispersion" menu and we choose the third option which is "Dispersion with smoothed lines" and in this way we will obtain the expected graph.
 
