@@ -1,8 +1,8 @@
 # 🥇 Fibonacci series
 
-## The Fibonacci series, the Phi number and how they manage to describe the universal proportions, which are part of the world around us
+## The Fibonacci series, the Phi number, and how they manage to describe the universal proportions, which are part of the world around us
 
-Leonardo de Pisa was an Italian mathematician, who has been better known
+Leonardo de Pisa was an Italian mathematician, who is better known
 throughout the world as Fibonacci. This mathematician discovered a sequence
 commonly known as "The Fibonacci series"; he came up with this idea when
 calculating the number of rabbits that could be obtained over the period of
@@ -10,38 +10,38 @@ several months, after inducing them to breed.
 
 Suppose that at the beginning of the first month we have a pair of newborn
 rabbits. Therefore, we have one (1) pair of rabbits that will take a month to
-develop enough to be able to pair. So at the end of the first month, we can
-already cross this pair of rabbits, and we will have 1 + 0 = 1 couples, the same
-pair of rabbits, because they have not yet procreated.
+develop enough to be able to mate. So at the end of the first month, we
+mate this pair of rabbits and, adding together the number of pairs in this
+generation and the previous generation, we have 1 + 0 = 1 couple---the same
+pair of rabbits, because the babies have not yet been born.
 
 Now, at the end of the second month the first couple gives birth to a second
-pair of rabbits, and the first pair pairs again, but (of course) they have not
-yet sired them and in this case we will already have 1 + 1 = 2, to a couple of
-pairs rabbits.
+pair of rabbits and then mates again. The newborn pair is (of course) not yet
+matured and the next pair of babies has not yet been born so we have
+1 + 1 = 2 pairs of rabbits.
 
 By the end of the third month, the first pair of rabbits gives birth to a third
-pair, while the second pair is turning one month old, and they come together to
-pair, only that the first pair crosses again. In this case, the first pair
-already had two pairs of rabbits. Therefore, the number of rabbit pairs for this
-month will be: 2 + 1 = 3
+pair and mates again. The second pair is now mature and mates. The first pair
+has already sired two pairs of rabbits, but neither of these pairs has sired any
+of their own children yet. Two pairs---the ones from one month ago---survive
+into this generation, but only one pair---the one from two months ago---is
+old enough to birth a new pair for this generation. Therefore, the number of
+pairs for this month is: 2 + 1 = 3
 
-If we follow the succession, at the end of the fourth month, the first pair of
-rabbits will have already produced three pairs of rabbits, while the second pair
-will already have had their first pair of rabbits. We would then have that the
-number of rabbit pairs would be: 3 + 2 = 5.
+At the end of the fourth month, the first pair of rabbits has sired three
+pairs, while the second pair has sired their first pair of rabbits. So we have
+one pair for each of the rabbits in the previous month, 3, plus one extra pair
+for each of the pairs two months ago, 2, because only those pairs are old
+enough to produce children for this generation. This gives 3 + 2 = 5 pairs of
+rabbits this month.
 
-If we continue doing these calculations, we would have that, if we start with
-the numbers 1 and 1 + 0 = 1 and add them both, it would give us the number 2 as
-a result, so that:
+If we keep doing these calculations from the starting point of 0 and 1, adding
+the previous two numbers together, we can continue the sequence:
 
+- 0 + 1 = 1
 - 1 + 1 = 2
 - 1 + 2 = 3
 - 2 + 3 = 5
-
-If we continue adding the last result with the previous one, we can obtain the
-rest of the series. So we can continue building the sequence, always with the
-sum of the two previous results:
-
 - 5 + 3 = 8
 - 8 + 5 = 13
 - 13 + 8 = 21 and so on
@@ -50,11 +50,11 @@ sum of the two previous results:
 
 ## How this sequence influences the explanation of certain proportions in nature
 
-This type of mathematical pattern is found in countless examples within nature.
+This type of mathematical pattern is found in countless places within nature.
 For example, the number of petals a flower has almost always matches a number in
-the Fibonacci series. While it is true that some flowers have 3 petals, you will
-find others that have 5 petals, while some will have 8 and you can even find
-flowers with up to 13 petals. But in very few exceptions, you will find a flower
+the Fibonacci series. Some flowers have 3 petals, you will
+find others that have 5 petals, some will have 8, and you can even find
+flowers with 13 petals. Much less often will you find a flower
 with a number of petals that does not match a Fibonacci number. That is, with 4,
 6, 7, 9, 10 or 11 petals.
 
@@ -62,54 +62,53 @@ The numbers that belong to this series are presented in a big part of the world
 that surround us.
 
 In the year 1753 a Scottish mathematician named Robert Simson discovered that
-the quotient of two consecutive numbers in the Fibonacci series always tends to
-be closer to 1.6180339. The result will always be alternatively, a number
-somewhat above and later, another a little below 1.6180339, but yes, without
+the quotient of two consecutive numbers in the Fibonacci series tends towards
+1.6180339... as the numbers get larger. The result will always be alternatively
+somewhat above or somewhat below 1.6180339... but trends closer and closer without
 reaching it absolutely.
 
 The number to which the relationship between two successive numbers of this same
-series converges, was called the golden number, which in addition to being
-irrational, is denoted by the Greek letter Phi.
+series converges is called the golden ratio. It is an irrational number, like
+the more well-known irrational numbers pi and e, and is denoted by the Greek
+letter phi.
 
-If you notice how the seeds that are in the center of any sunflower are
-arranged, you will notice that each seed is at a certain angle with respect to
-the previous one, which corresponds to approximately 137.5º.
+If you closely track the angular positions of the seeds of a sunflower as they
+spiral out from the center, you may notice that each seed is at a certain fixed
+angle from the one next closest to the center, and that this angle is
+approximately 137.5º. This is called the golden angle, and it is obtained
+by partitioning the 360º degrees of a circle into two parts according to the
+golden ratio.
 
-You can obtain this same angle by multiplying the decimals of the Phi number by
-360º, and you will obtain an angle greater than 180º. If we take the complement
-of this angle, it will give us as a result 137.5º which coincides with what we
-call the golden angle.
-
-This allows the seeds to have the optimal filling, that is, the same space
-between one seed and another. Resulting in a distribution of seeds from the
-center to the periphery and completely covering the area, in the most suitable
-way possible. This is how the new leaves that are generated in the sunflower do
-not block the sun from the previous leaves and also cover the maximum of the
-surface, thus managing to receive as much rain as possible. This same phenomenon
+This angle allows the seeds to pack into the space available in the most optimal
+way, that is, with the least leftover space. This causes the seeds or florets to
+completely cover the disk of the sunflower in a characteristic spiral pattern.
+This angle allows the new leaves that are generated in the sunflower to
+not block the sun for the previous leaves and also cover the maximum amount of
+surface, thus receiving as much sun as possible. The same phenomenon
 occurs with the leaves of an artichoke.
 
-But, this does not end there, if you count the spirals that form in the center
+But it does not end there. If you count the spirals that form in the center
 of a sunflower, you will realize that there are 89 spirals in one direction and
-55 in the other; they can also have 144 and 89, where again these three numbers
-belong to the illustrious succession.
+55 in the other; they can also have 144 and 89. Both are successive pairs
+from the same illustrious sequence.
 
-Trees do not escape this analogy, since if you look closely at the angle that is
-formed between two consecutive branches, you will realize that they have an
+Trees do not escape this phenomenon. If you look closely at the angle that is
+formed between two consecutive branches, you may realize that they too have an
 angle of approximately 137.5º between them.
 
-The succession created by Leonardo de Pisa is also related to the so-called
+The sequence discovered by Leonardo de Pisa is also related to the so-called
 golden spiral, which is generated by drawing a series of adjacent squares, the
 sides of which are made up of the terms of the Fibonacci series. The spiral is
-formed by the arcs of circumference, which are formed by the radii of the sides
+formed by combining quarter-circle arcs with radii equal to the side lengths
 of these squares.
 
 ![cephalopod mollusk](_static/images/fibonacci/fibonacci2.jpg)
 
-If we look at the shell of the nautilus (cephalopod mollusk) we can see the
-similarity with the golden spiral, only that instead of forming the spiral with
-the sides of a square, it is formed with equilateral triangles. Both spirals
-differ in the opening, but in both cases they have the same length to generate
-the first polygon.
+The shell of a nautilus (a type of cephalopod mollusk) has a similarity with
+the golden spiral, only that instead of forming the spiral with
+arcs through the sides of squares, it is formed with arcs through the sides of
+equilateral triangles. Both spirals differ at the opening, but in both cases
+they have the same length to generate the first polygon.
 
 ![Shell](_static/images/fibonacci/fibonacci3.jpg)
 ![Spiral Drawing](_static/images/fibonacci/fibonacci4.jpg)
