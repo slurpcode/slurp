@@ -96,7 +96,6 @@ Welcome to slurp's documentation!
    electro.md
    goa.md
    hardcore.md
-   helmholtz-sound-synthesiser.md
    house.md
    idm.md
    jungle_drum_bass.md
@@ -115,6 +114,7 @@ Welcome to slurp's documentation!
 
    denis-dor.md
    electromechanical_piano.md
+   helmholtz-sound-synthesiser.md
    musical-telegraph.md
    singing-arc.md
    telharmonium.md
