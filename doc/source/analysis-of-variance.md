@@ -30,14 +30,14 @@ Lately the factory has received complaints from some customers, who are dissatis
 
 The way to measure the viscosity is using an instrument that has a rotor that is submerged inside the jar of adhesive gel. This is how the mean value of resistance to torsion can be measured and this procedure is carried out with five jars from each of the 5 batches and they are chosen at random. In turn, each batch has five levels, this implies that the test is repeated five times per batch and is what is called “one factor design”. The results obtained are expressed below:
 
-|  | Description |Lot 1 |Lot 2 |Lot 3 |Lot 4 |Lot 5 |
-| ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |
-| Jar 1|29,39 |30,63 |27,16 |31,03 |29,67 |
-| Jar 2 |31,51 |32,10 |26,63 |30,98 |29,32 |
-| Jar 3 |30,88 |30,11 |25,31 |28,95 |26,87 |
-| Jar 4 |27,63 |29,63 |27,66 |31,45 |31,59 |
-| Jar 5|28,85 |29,68|27,10 |29,70 |29,41 |
-| Mean |29,65 |30,43 |26,77 |30,42 |29,37 |
+|       | Description | Lot 1 | Lot 2 | Lot 3 | Lot 4 | Lot 5 |
+| ----- | ----------- | ----- | ----- | ----- | ----- | ----- |
+| Jar 1 | 29,39       | 30,63 | 27,16 | 31,03 | 29,67 |
+| Jar 2 | 31,51       | 32,10 | 26,63 | 30,98 | 29,32 |
+| Jar 3 | 30,88       | 30,11 | 25,31 | 28,95 | 26,87 |
+| Jar 4 | 27,63       | 29,63 | 27,66 | 31,45 | 31,59 |
+| Jar 5 | 28,85       | 29,68 | 27,10 | 29,70 | 29,41 |
+| Mean  | 29,65       | 30,43 | 26,77 | 30,42 | 29,37 |
 
 Now we are going to build what is called the ANOVA table, where we must be clear about the nomenclature to use:
 
@@ -48,6 +48,7 @@ Yij = The j-th observation of the i-th treatment,
 Y ̅i = The mean of the i-th treatment
 Y ̿ = The global mean of all observations
 ```
+
 We are now going to build the ANOVA table, and then look for the values of the sum of its squares. This allows us to quantify the variability of a group of data, in addition to knowing the mean of each of the data in the set. The following formula is responsible for dividing the global variability into 2 parts. The first is the variability with respect to the factor levels and the second is the variability that refers to random errors.
 
 When building the ANOVA table we must specify the elements that it includes:
@@ -64,65 +65,65 @@ If we divide the specific mean of squares of the batch factor by the mean of squ
 The formulas and nomenclature to be used are the following:
 
 `SS (Total) = SS (Factor) + SS (Error)`
-`∑_(i=1)^a▒∑_(j=1)^ni▒〖( Yij-Y ̿  )〗^2 =  ∑_(i=1)^a▒〖ni〖(Y ̅i- Y ̿)〗^2 〗+ ∑_(i=1)^a▒∑_(j=1)^ni▒〖(Yij-Y ̅i)〗^2`
+`∑_(i=1)^a▒∑_(j=1)^ni▒〖( Yij-Y ̿ )〗^2 = ∑_(i=1)^a▒〖ni〖(Y ̅i- Y ̿)〗^2 〗+ ∑_(i=1)^a▒∑_(j=1)^ni▒〖(Yij-Y ̅i)〗^2`
 
 Where each of the sums corresponds one by one to the sum of squares of the previous equation. While it is true that this formula can be seen as somewhat complicated, if we focus on each element individually, it becomes much easier to understand. In the following table we are going to build each of the elements that make up the formula, where the first column is made up of the measurements that we obtained of tensile strength.
 
-| Lot | Yij |Y ̅i |Y ̿ |Y ̅i- Y ̿ |Yij- Y ̿ |Yij-Y ̅i | 〖(Y ̅i- Y ̿)〗^2 |〖(Yij-Y ̅i)〗^2|〖(Yij-Y ̿)〗^2|
-| ----------- | ----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |----------- |
-|1|29,39|29,65|29,33|0,32|0,06|-0,26|0,1|0,07|0|
-|1|31,51|29,65|29,33|0,32|2,18|1,86|0,1|3,46|4,75|
-|1|30,88|29,65|29,33|0,32|1,55|1,23|0,1|1,51|2,4|
-|1|27,63|29,65|29,33|0,32|-1,7|-2,02|0,1|4,08|2,89|
-|1|28,85|29,65|29,33|0,32|-0,48|-0,8|0,1|0,64|0,23|
-|2|30,63|30,43|29,33|1,1|1,3|0,2|1,21|0,04|1,69|
-|2|32,1|30,43|29,33|1,1|2,77|1,67|1,21|2,79|7,68|
-|2|30,11|30,43|29,33|1,1|0,78|-0,32|1,21|0,1|0,61|
-|2|29,63|30,43|29,33|1,1|0,3|-0,8|1,21|0,64|0,09|
-|2|29,68|30,43|29,33|1,1|0,35|-0,75|1,21|0,56|0,12|
-|3|27,16|26,77|29,33|-2,56|-2,17|0,39|6,55|0,15|4,71|
-|3|26,63|26,77|29,33|-2,56|-2,7|-0,14|6,55|0,02|7,29|
-|3|25,31|26,77|29,33|-2,56|-4,02|-1,46|6,55|2,14|16,16|
-|3|27,66|26,77|29,33|-2,56|-1,67|0,89|6,55|0,79|2,79|
-|3|27,1|26,77|29,33|-2,56|-2,23|0,33|6,55|0,11|4,97|
-|4|31,03|30,42|29,33|1,09|1,7|0,61|1,19|0,37|2,89|
-|4|30,98|30,42|29,33|1,09|1,65|0,56|1,19|0,31|2,72|
-|4|28,95|30,42|29,33|1,09|-0,38|-1,47|1,19|2,16|0,14|
-|4|31,45|30,42|29,33|1,09|2,12|1,03|1,19|1,06|4,49|
-|4|29,7|30,42|29,33|1,09|0,37|-0,72|1,19|0,52|0,14|
-|5|29,67|29,37|29,33|0,04|0,34|0,3|0|0,09|0,12|
-|5|29,32|29,37|29,33|0,04|-0,01|-0,05|0|0|0|
-|5|26,87|29,37|29,33|0,04|-2,46|-2,5|0|6,26|6,05|
-|5|31,59|29,37|29,33|0,04|2,26|2,22|0|4,93|5,11|
-|5|29,41|29,37|29,33|0,04|0,08|0,04|0|0|0,01|
-|SS|||||||45,25|32,8|78,05|
+| Lot | Yij   | Y ̅i   | Y ̿    | Y ̅i- Y ̿ | Yij- Y ̿ | Yij-Y ̅i | 〖(Y ̅i- Y ̿)〗^2 | 〖(Yij-Y ̅i)〗^2 | 〖(Yij-Y ̿)〗^2 |
+| --- | ----- | ----- | ----- | ------- | ------- | ------- | --------------- | --------------- | -------------- |
+| 1   | 29,39 | 29,65 | 29,33 | 0,32    | 0,06    | -0,26   | 0,1             | 0,07            | 0              |
+| 1   | 31,51 | 29,65 | 29,33 | 0,32    | 2,18    | 1,86    | 0,1             | 3,46            | 4,75           |
+| 1   | 30,88 | 29,65 | 29,33 | 0,32    | 1,55    | 1,23    | 0,1             | 1,51            | 2,4            |
+| 1   | 27,63 | 29,65 | 29,33 | 0,32    | -1,7    | -2,02   | 0,1             | 4,08            | 2,89           |
+| 1   | 28,85 | 29,65 | 29,33 | 0,32    | -0,48   | -0,8    | 0,1             | 0,64            | 0,23           |
+| 2   | 30,63 | 30,43 | 29,33 | 1,1     | 1,3     | 0,2     | 1,21            | 0,04            | 1,69           |
+| 2   | 32,1  | 30,43 | 29,33 | 1,1     | 2,77    | 1,67    | 1,21            | 2,79            | 7,68           |
+| 2   | 30,11 | 30,43 | 29,33 | 1,1     | 0,78    | -0,32   | 1,21            | 0,1             | 0,61           |
+| 2   | 29,63 | 30,43 | 29,33 | 1,1     | 0,3     | -0,8    | 1,21            | 0,64            | 0,09           |
+| 2   | 29,68 | 30,43 | 29,33 | 1,1     | 0,35    | -0,75   | 1,21            | 0,56            | 0,12           |
+| 3   | 27,16 | 26,77 | 29,33 | -2,56   | -2,17   | 0,39    | 6,55            | 0,15            | 4,71           |
+| 3   | 26,63 | 26,77 | 29,33 | -2,56   | -2,7    | -0,14   | 6,55            | 0,02            | 7,29           |
+| 3   | 25,31 | 26,77 | 29,33 | -2,56   | -4,02   | -1,46   | 6,55            | 2,14            | 16,16          |
+| 3   | 27,66 | 26,77 | 29,33 | -2,56   | -1,67   | 0,89    | 6,55            | 0,79            | 2,79           |
+| 3   | 27,1  | 26,77 | 29,33 | -2,56   | -2,23   | 0,33    | 6,55            | 0,11            | 4,97           |
+| 4   | 31,03 | 30,42 | 29,33 | 1,09    | 1,7     | 0,61    | 1,19            | 0,37            | 2,89           |
+| 4   | 30,98 | 30,42 | 29,33 | 1,09    | 1,65    | 0,56    | 1,19            | 0,31            | 2,72           |
+| 4   | 28,95 | 30,42 | 29,33 | 1,09    | -0,38   | -1,47   | 1,19            | 2,16            | 0,14           |
+| 4   | 31,45 | 30,42 | 29,33 | 1,09    | 2,12    | 1,03    | 1,19            | 1,06            | 4,49           |
+| 4   | 29,7  | 30,42 | 29,33 | 1,09    | 0,37    | -0,72   | 1,19            | 0,52            | 0,14           |
+| 5   | 29,67 | 29,37 | 29,33 | 0,04    | 0,34    | 0,3     | 0               | 0,09            | 0,12           |
+| 5   | 29,32 | 29,37 | 29,33 | 0,04    | -0,01   | -0,05   | 0               | 0               | 0              |
+| 5   | 26,87 | 29,37 | 29,33 | 0,04    | -2,46   | -2,5    | 0               | 6,26            | 6,05           |
+| 5   | 31,59 | 29,37 | 29,33 | 0,04    | 2,26    | 2,22    | 0               | 4,93            | 5,11           |
+| 5   | 29,41 | 29,37 | 29,33 | 0,04    | 0,08    | 0,04    | 0               | 0               | 0,01           |
+| SS  |       |       |       |         |         |         | 45,25           | 32,8            | 78,05          |
 
-If we realize in the formula, the sum of `〖(Y ̅i- Y ̿)〗^2= SS (Factor)`, while that of `〖(Yij-Y ̅i)〗^2 = SS (Error)` and  `〖(Yij-Y ̿)〗^2 = SS (Total)`
+If we realize in the formula, the sum of `〖(Y ̅i- Y ̿)〗^2= SS (Factor)`, while that of `〖(Yij-Y ̅i)〗^2 = SS (Error)` and `〖(Yij-Y ̿)〗^2 = SS (Total)`
 
 We are now going to show how the degrees of freedom that indicate the amount of independent data used to calculate the sum of squares are calculated. When we are designing a factor of k levels, which in this case is five batches and each batch has five jars, this indicates that `k = 5` and `N = 25`, so the degrees of freedom are obtained as follows :
 
-||Degrees Of Freedom||
-|----|----|----|
-|SS (Factor)|k-1|5-1=4|
-|SS (Error)|N-k|25-5=20|
-|SS (Total)|N-1|25-1=24|
+|             | Degrees Of Freedom |         |
+| ----------- | ------------------ | ------- |
+| SS (Factor) | k-1                | 5-1=4   |
+| SS (Error)  | N-k                | 25-5=20 |
+| SS (Total)  | N-1                | 25-1=24 |
 
 We must now obtain the mean of squares (MS) and the ratio F, for this we must divide each sum of squares by its corresponding degrees of freedom.
 
 Sum of squares Degrees of freedom Mean squares Reason F
 
-||Sum Of Squares|Degrees Of Freedom| Mean Squares| Reason F|
-|----|----|----|----|----|
-|SS(Factor)|45,25|4|45,25/4 = 11,31|11,31/1,64 = 6,89|
-|SS(Error)|32,8|20|32, 8/20=1,64||
+|            | Sum Of Squares | Degrees Of Freedom | Mean Squares    | Reason F          |
+| ---------- | -------------- | ------------------ | --------------- | ----------------- |
+| SS(Factor) | 45,25          | 4                  | 45,25/4 = 11,31 | 11,31/1,64 = 6,89 |
+| SS(Error)  | 32,8           | 20                 | 32, 8/20=1,64   |                   |
 
 We can now pour the data into a summary table:
 
-|Source|Degrees Of Freedom| Sum Of Squares| Mean Squares| Reason F|
-|-----|-----|-----|-----|-----|
-|Lot|4|45.25|11.31|6.90|
-|Error|20|32.80|1.64||
-|Total|24|78.05|||
+| Source | Degrees Of Freedom | Sum Of Squares | Mean Squares | Reason F |
+| ------ | ------------------ | -------------- | ------------ | -------- |
+| Lot    | 4                  | 45.25          | 11.31        | 6.90     |
+| Error  | 20                 | 32.80          | 1.64         |          |
+| Total  | 24                 | 78.05          |              |          |
 
 When the means are equal, the null hypothesis is true and both the square means of the factor (batch) and the error are very similar and as for the ratio F, it would have a value very close to 1. On the contrary, when rejects the null hypothesis, the mean square of the factor will be greater than the mean square of the error and for this case, the ratio F is greater than one.
 
@@ -135,13 +136,13 @@ Subsequently, we must mark the “Output range” round and choose a cell to sho
 
 ## VARIANCE ANALYSIS
 
-|Origin Of Variations|Sum Of Squares| Degrees Of Freedom| Mean Squares| F | Probability| Critical value for F|
-|----|----|----|----|----|----|----|
-|Between Groups|45,26|4|11,31|6,899|0,0012|2,866|
-|Within Groups|32,80|20|1,64||||
-|Total|78,053|24|||||
+| Origin Of Variations | Sum Of Squares | Degrees Of Freedom | Mean Squares | F     | Probability | Critical value for F |
+| -------------------- | -------------- | ------------------ | ------------ | ----- | ----------- | -------------------- |
+| Between Groups       | 45,26          | 4                  | 11,31        | 6,899 | 0,0012      | 2,866                |
+| Within Groups        | 32,80          | 20                 | 1,64         |       |             |                      |
+| Total                | 78,053         | 24                 |              |       |             |                      |
 
-It is important to emphasize that the alpha value cannot be compared with the F ratio, since the alpha value is only compared with the value of p and in this case, we can realize that this value is 0,0012  which is ultimately significantly less than 0,05  this indicates that the null hypothesis can be rejected.
+It is important to emphasize that the alpha value cannot be compared with the F ratio, since the alpha value is only compared with the value of p and in this case, we can realize that this value is 0,0012 which is ultimately significantly less than 0,05 this indicates that the null hypothesis can be rejected.
 
 We can also observe that the ratio F can be compared with the critical value of F, we must take into account that the fact that the ratio F is greater than 1 is not a reliable indication, since this can happen thanks to chance. However, if the ratio F is greater than its critical value, it is a comparable indication that a value of p is less than alpha and both results mean that the null hypothesis must be rejected.
 
@@ -149,13 +150,13 @@ In this case we can realize that not only is the value of p less than alpha, but
 
 If we look at the means of each of the lots
 
-|Lot Number|Mean|
-|---|----|
-|1|29,65|
-|2|30,43|
-|3|26,77|
-|4|30,42|
-|5|29,37|
+| Lot Number | Mean  |
+| ---------- | ----- |
+| 1          | 29,65 |
+| 2          | 30,43 |
+| 3          | 26,77 |
+| 4          | 30,42 |
+| 5          | 29,37 |
 
 Based on the results of the averages of each batch, we can see that batch three has a torsional strength of 26.77 that compared to the other four batches we can see that its average is lower, so it is recommended to investigate Bottom batch 3 to find out what is the factor that affects the viscosity of that batch and try to correct it, since the adherence of the gel is being affected.
 
@@ -241,6 +242,7 @@ a = number of rows
 b = number of columns
 N = total number of data
 ```
+
 We are defining for our exercise the values of:
 
 N = 12 Since the total number of data supplied is 12
@@ -378,19 +380,19 @@ To calculate the sum of squares of the interaction between both SSAB factors, we
 
 The sum of each row and column is also calculated
 
-|Sum Factor Intersection|1|2|Sum of Coulumns|
-|----|----|----|----|
-|1|6,5|6,08|12,58|
-|2|6,08|5,65|11,73|
-|Sum of Rows|12,58|11,73|24,31|
+| Sum Factor Intersection | 1     | 2     | Sum of Coulumns |
+| ----------------------- | ----- | ----- | --------------- |
+| 1                       | 6,5   | 6,08  | 12,58           |
+| 2                       | 6,08  | 5,65  | 11,73           |
+| Sum of Rows             | 12,58 | 11,73 | 24,31           |
 
 Each sum of the 4 intersections of values is squared and divided by the number of data included between those intersections, in this case it is 3. To then subtract the sum of the rows and columns divided in turn by the number of data that involve that it is 6 for both the rows and the columns and finally the 2 values of the summations of rows or columns are added (The calculation is the same), but it is divided again by the number of values involved totals, which is 12.
 
-`SSAB = ([〖6,5〗^2+ 〖6,08〗^2+ 〖6,08〗^2+ 〖5,65〗^2)])/3-  ((〖12,58〗^2+〖11,73〗^2+ 〖12,58〗^2+ 〖11,73〗^2  ))/6+  〖24,31〗^2/12 =0,000033`
+`SSAB = ([〖6,5〗^2+ 〖6,08〗^2+ 〖6,08〗^2+ 〖5,65〗^2)])/3- ((〖12,58〗^2+〖11,73〗^2+ 〖12,58〗^2+ 〖11,73〗^2 ))/6+ 〖24,31〗^2/12 =0,000033`
 
 We are now going to calculate SST, for this we must first have what is called the variation factor that is not more than the last term of the previous equation:
 
-`Fv = 〖24,31〗^2/12  = 49,2075`
+`Fv = 〖24,31〗^2/12 = 49,2075`
 
 Now I square all 12 data
 
@@ -431,14 +433,13 @@ Calculate the sum of all the data in the previous table:
 
 We are going to make a table with the data obtained:
 
-||SS|GL|
-|----|---|----|
-|Factor A|0,0588|a-1= 2-1= 1|
-|Factor B|0,0588|b-1= 2-1=1|
-|Interaction A B|0,000033|(a-1)(b-1) = 1*1 =1|
-|Error|0,000033|(N-1)-a-b-ab = 12-1-1-1-1= 8|
-|Total|0,1259|N-1 = 11|
-
+|                 | SS       | GL                           |
+| --------------- | -------- | ---------------------------- |
+| Factor A        | 0,0588   | a-1= 2-1= 1                  |
+| Factor B        | 0,0588   | b-1= 2-1=1                   |
+| Interaction A B | 0,000033 | (a-1)(b-1) = 1\*1 =1         |
+| Error           | 0,000033 | (N-1)-a-b-ab = 12-1-1-1-1= 8 |
+| Total           | 0,1259   | N-1 = 11                     |
 
 The error is calculated = `SSA + SSB + SSAB - SST`
 
@@ -462,6 +463,7 @@ FA = MSA / MSE = 0.588 / 0.001033375 = 56.9
 FB = MSB / MSE = 0.588 / 0.001033375 = 56.9
 FAB = MSAB / MSE = 0.000033 / 0.001033375 = 0.0319226
 ```
+
 The next step is to find the different critical Fs to be able to make the relevant comparisons and for this it will be necessary to use the following format:
 
 Critical F (Degrees of freedom Factor; Degrees of freedom Error; Significance level that we establish)
@@ -473,6 +475,7 @@ Critical F A (1, 8, 0.05)
 Critical F B (1, 8, 0.05)
 Critical F A B (1, 8, 0.05)
 ```
+
 As we can see, in this case the critical values of each factor are the same, but we must take into account that this does not happen in all cases.
 
 We go to the table of critical values of the distribution of F with a significance level of 0.05 and we must intercept the degree of freedom of each factor that is located in the columns of the table, with the degree of freedom of the error it is represented in the table by the rows.

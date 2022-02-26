@@ -10,20 +10,20 @@ When it comes to graphing the function whose distribution is normal, we are left
 
 Let's go with a simple example, we have a variable (x) that has the following data:
 
-|(x)|
-|---|
-|1|
-|1,5|
-|2|
-|3|
-|3,5|
-|4|
-|4,5|
-|5|
-|5,5|
-|6|
-|6,5|
-|7|
+| (x) |
+| --- |
+| 1   |
+| 1,5 |
+| 2   |
+| 3   |
+| 3,5 |
+| 4   |
+| 4,5 |
+| 5   |
+| 5,5 |
+| 6   |
+| 6,5 |
+| 7   |
 
 We introduce these values in Excel and to find the distribution of the function we must have the standard deviation and the median. To do this, we simply go to "Data" → "Data Analysis" → "Descriptive Statistics" and a window opens, where we must place in the input range all the values that make up the column of our variable (x), We must also check the box of the output range and in it, we position ourselves on any cell, which is where we want the result of the analysis to be shown, finally, we simply click on OK and a table will appear with the required data, even with other descriptive statistics data that may be of interest to us.
 
@@ -60,69 +60,69 @@ In the previous article we explained in detail how the value of S is calculated 
 
 We have the blood pressure data of 15 people of different ages, to assign the blood pressure ranges, we are based on a table that indicates the blood pressure that is considered healthy according to the age of the people, in this way we can set three ranges of blood pressure: low, medium and high, so we will list them from 1 to 3, respectively.
 
-|Blood pressure||
-|-----|----|
-|Low|1|
-|Mid|2|
-|High|3|
+| Blood pressure |     |
+| -------------- | --- |
+| Low            | 1   |
+| Mid            | 2   |
+| High           | 3   |
 
 Of course, the older you get, your blood pressure tends to be even higher at normal levels. So we expect the Kendall coefficient to be positive, since the older the blood pressure is, the higher it is. On the other hand, we will also assign three different ranges according to age:
 
-|Age Range||
-|----|----|
-|0-19|1|
-|20-39|2|
-|40 or more|3|
+| Age Range  |     |
+| ---------- | --- |
+| 0-19       | 1   |
+| 20-39      | 2   |
+| 40 or more | 3   |
 
 According to these ranges, the following results were obtained:
 
-|Age|Blood Pressure|
-|----|----|
-|2|2|
-|2|2|
-|2|2|
-|3|3|
-|2|2|
-|1|1|
-|3|3|
-|2|2|
-|2|2|
-|1|1|
-|3|3|
-|2|3|
-|3|3|
-|3|2|
+| Age | Blood Pressure |
+| --- | -------------- |
+| 2   | 2              |
+| 2   | 2              |
+| 2   | 2              |
+| 3   | 3              |
+| 2   | 2              |
+| 1   | 1              |
+| 3   | 3              |
+| 2   | 2              |
+| 2   | 2              |
+| 1   | 1              |
+| 3   | 3              |
+| 2   | 3              |
+| 3   | 3              |
+| 3   | 2              |
 
 The first thing we are going to do is order the independent variable age from lowest to highest and assign the range (x) a value from 1 to N (In this case N=15) to accompany the previously ordered variable (x).
 
 We should notice that the values of the ranges are repeated and that changes the correlation method.
 
-|Rank(x)| Age|
-|----|----|
-|1|1|
-|2|1|
-|3|2|
-|4|2|
-|5|2|
-|6|2|
-|7|2|
-|8|2|
-|9|2|
-|10|2|
-|11|3|
-|12|3|
-|13|3|
-|14|3|
-|15|3|
+| Rank(x) | Age |
+| ------- | --- |
+| 1       | 1   |
+| 2       | 1   |
+| 3       | 2   |
+| 4       | 2   |
+| 5       | 2   |
+| 6       | 2   |
+| 7       | 2   |
+| 8       | 2   |
+| 9       | 2   |
+| 10      | 2   |
+| 11      | 3   |
+| 12      | 3   |
+| 13      | 3   |
+| 14      | 3   |
+| 15      | 3   |
 
 We must now make a table where the age range is specified, what positions that range occupies in the previous table, for example: how can you observe the age range 1 occupies positions 1 and 2, it is repeated twice that is our value from (t), if we add the positions that are 1 + 2 = 3, we can obtain the data in the table that correspond to the sum of positions.
 
-|Age Range|Positions|Amount Of Repetetions(t)|Sum Of Positions|Assigned Rank|t(t-1)|
-|----|----|----|-----|----|----|
-|1|1 y 2|2|3|1,5|2|
-|2|3,4,5,6,7,8,9 y 10|8|52|6,5|56|
-|3|11,12,13,14 y 15|5|65|13|20|
-||||||Sum|78|
+| Age Range | Positions          | Amount Of Repetetions(t) | Sum Of Positions | Assigned Rank | t(t-1) |
+| --------- | ------------------ | ------------------------ | ---------------- | ------------- | ------ | --- |
+| 1         | 1 y 2              | 2                        | 3                | 1,5           | 2      |
+| 2         | 3,4,5,6,7,8,9 y 10 | 8                        | 52               | 6,5           | 56     |
+| 3         | 11,12,13,14 y 15   | 5                        | 65               | 13            | 20     |
+|           |                    |                          |                  |               | Sum    | 78  |
 
 To obtain the assigned range we must divide the sum of positions by the number of repetitions, in the first row we can observe `3/2 = 1.5` and the last column we obtain it with the value of the number of repetitions (t), with the formula `t (t - 1)` and in this case it is `2 (2-1) = 2`.
 
@@ -134,95 +134,95 @@ We will have to repeat the same procedure for rank 3. Once the table is complete
 
 Now we will repeat the entire previous process, but this time for blood pressure, that is, we will order the blood pressure range from lowest to highest and we will give values to the range (y) from 1 to 15, yes, after ordering the variable, so we will have the following tables:
 
-|Blood Pressure|Rank(y)|
-|----|----|
-|1|1|
-|1|2|
-|2|3|
-|2|4|
-|2|5|
-|2|6|
-|2|7|
-|2|8|
-|2|9|
-|3|10|
-|3|11|
-|3|12|
-|3|13|
-|3|14|
-|3|15|
+| Blood Pressure | Rank(y) |
+| -------------- | ------- |
+| 1              | 1       |
+| 1              | 2       |
+| 2              | 3       |
+| 2              | 4       |
+| 2              | 5       |
+| 2              | 6       |
+| 2              | 7       |
+| 2              | 8       |
+| 2              | 9       |
+| 3              | 10      |
+| 3              | 11      |
+| 3              | 12      |
+| 3              | 13      |
+| 3              | 14      |
+| 3              | 15      |
 
-|Blood Pressure Range|Positions|Amount Of Repetitions(t)|Sum Of Positions|Assigned Rank|t(t-1)|
-|----|----|----|----|----|----|
-|1|1 y 2|2|3|1.5|2|
-|2|3,4,5,6,7,8 y 9|8|42|6|42|
-|3|10,11,12,13,14 y 15|6|75|12.5|30|
-||||||Sum|74|
+| Blood Pressure Range | Positions           | Amount Of Repetitions(t) | Sum Of Positions | Assigned Rank | t(t-1) |
+| -------------------- | ------------------- | ------------------------ | ---------------- | ------------- | ------ | --- |
+| 1                    | 1 y 2               | 2                        | 3                | 1.5           | 2      |
+| 2                    | 3,4,5,6,7,8 y 9     | 8                        | 42               | 6             | 42     |
+| 3                    | 10,11,12,13,14 y 15 | 6                        | 75               | 12.5          | 30     |
+|                      |                     |                          |                  |               | Sum    | 74  |
 
 We can then find `Ty = 1/2 ∑▒〖t(t-1)〗 = 74/2 = 37`
 
 Now we will simply return to our initial table, only this time we will add two columns with the new ranges assigned for each of the variables, so that we will obtain a table as shown below:
 
-|Original Value Age|Assigned Rank (x)| Original Value(Blood Pressure)| Assigned Rank(y)|
-|----|----|----|----|
-|2|6.5|2|6|
-|2|6.5|2|6|
-|2|6.5|2|6|
-|3|13|3|12.5|
-|2|6.5|2|6|
-|1|1.5|1|1.5|
-|3|13|3|12.5|
-|2|6.5|2|6|
-|1|1.5|1|1.5|
-|3|13|3|12.5|
-|2|6.5|2|6|
-|2|6.5|2|6|
-|1|1.5|1|1.5|
-|2|6.5|3|12.5|
-|3|13|3|12.5|
-|2|6.5|3|12.5|
-|3|13|3|12.5|
-|3|13|2|6|
+| Original Value Age | Assigned Rank (x) | Original Value(Blood Pressure) | Assigned Rank(y) |
+| ------------------ | ----------------- | ------------------------------ | ---------------- |
+| 2                  | 6.5               | 2                              | 6                |
+| 2                  | 6.5               | 2                              | 6                |
+| 2                  | 6.5               | 2                              | 6                |
+| 3                  | 13                | 3                              | 12.5             |
+| 2                  | 6.5               | 2                              | 6                |
+| 1                  | 1.5               | 1                              | 1.5              |
+| 3                  | 13                | 3                              | 12.5             |
+| 2                  | 6.5               | 2                              | 6                |
+| 1                  | 1.5               | 1                              | 1.5              |
+| 3                  | 13                | 3                              | 12.5             |
+| 2                  | 6.5               | 2                              | 6                |
+| 2                  | 6.5               | 2                              | 6                |
+| 1                  | 1.5               | 1                              | 1.5              |
+| 2                  | 6.5               | 3                              | 12.5             |
+| 3                  | 13                | 3                              | 12.5             |
+| 2                  | 6.5               | 3                              | 12.5             |
+| 3                  | 13                | 3                              | 12.5             |
+| 3                  | 13                | 2                              | 6                |
 
 We are then going to look for the concordant and discordant pairs, for this we will join our ranges (x) and (y) with which we are going to work from now on:
 
-|Assigned rank (x)|Assigned rank (y)|
-|----|----|
-|6.5|6|
-|6.5|6|
-|6.5|6|
-|13|12.5|
-|6.5|6|
-|1.5|1.5|
-|13|12.5|
-|6.5|6|
-|6.5|6|
-|1.5|1.5|
-|6.5|12.5|
-|13|12.5|
-|6.5|12.5|
-|13|12.5|
-|13|6|
+| Assigned rank (x) | Assigned rank (y) |
+| ----------------- | ----------------- |
+| 6.5               | 6                 |
+| 6.5               | 6                 |
+| 6.5               | 6                 |
+| 13                | 12.5              |
+| 6.5               | 6                 |
+| 1.5               | 1.5               |
+| 13                | 12.5              |
+| 6.5               | 6                 |
+| 6.5               | 6                 |
+| 1.5               | 1.5               |
+| 6.5               | 12.5              |
+| 13                | 12.5              |
+| 6.5               | 12.5              |
+| 13                | 12.5              |
+| 13                | 6                 |
 
 The data in the range (x) are ordered from smallest to largest, but so that it does not lose the order of its ordered pair, both columns must be selected go to "Data" → "Sort" → Choose variable range (x) → Choose the option "Sort from lowest to highest" and the range (x) will be ordered in this way, with its respective ordered pair and without losing the agreement. The table will be as follows:
 
-|Row|Assigned Rank(x)|Assigned Rank(y)|
-|----|----|----|
-|1|1.5|1.5|
-|2|1.5|1.5|
-|3|6.5|6|
-|4|6.5|6|
-|5|6.5|6|
-|6|6.5|6|
-|7|6.5|6|
-|8|6.5|6|
-|9|6.5|12.5|
-|10|6.5|12.5|
-|11|13|6|
-|12|13|12.5|
-|13|13|12.5|
-|14|13|12.5|
-|15|13|12.5|
+| Row | Assigned Rank(x) | Assigned Rank(y) |
+| --- | ---------------- | ---------------- |
+| 1   | 1.5              | 1.5              |
+| 2   | 1.5              | 1.5              |
+| 3   | 6.5              | 6                |
+| 4   | 6.5              | 6                |
+| 5   | 6.5              | 6                |
+| 6   | 6.5              | 6                |
+| 7   | 6.5              | 6                |
+| 8   | 6.5              | 6                |
+| 9   | 6.5              | 12.5             |
+| 10  | 6.5              | 12.5             |
+| 11  | 13               | 6                |
+| 12  | 13               | 12.5             |
+| 13  | 13               | 12.5             |
+| 14  | 13               | 12.5             |
+| 15  | 13               | 12.5             |
 
 Now we are going to look for the pairs of concordant and discordant coordinates, for this we will have to compare the first value with the value found in the lower cells. To find the concordant values, it must be satisfied that:
 
@@ -230,25 +230,25 @@ Now we are going to look for the pairs of concordant and discordant coordinates,
 
 Being x_i the value that we are considering at the moment and x_j the values that are in the subsequent cells, therefore, we must take into account all the values that are in the following lower cells x_j and that are greater than the cell that Let's consider x_i the same for y_i and y_j.
 
-If we look at the first value, we realize that it is worth 1.5 for both (x) and (y), therefore from row 3 to row 15 all the values are greater than 1.5, therefore, the first is true condition x_i <  x_j. But also all the values of those 13 rows, satisfy the condition y_i < y_j. In the same way, it happens for the second value of 1.5, so both have 13 matching pairs.
+If we look at the first value, we realize that it is worth 1.5 for both (x) and (y), therefore from row 3 to row 15 all the values are greater than 1.5, therefore, the first is true condition x_i < x_j. But also all the values of those 13 rows, satisfy the condition y_i < y_j. In the same way, it happens for the second value of 1.5, so both have 13 matching pairs.
 
-|Row|Assigned Rank(x)|Assigned Rank(y)|Matching Values|
-|---|----|----|----|
-|1|1.5|1.5|13|
-|2|1.5|1.5|13|
-|3|6.5|6|4|
-|4|6.5|6|4|
-|5|6.5|6|4|
-|6|6.5|6|4|
-|7|6.5|6|4|
-|8|6.5|6|4|
-|9|6.5|12.5|0|
-|10|6.5|12.5|0|
-|11|13|6|0|
-|12|13|12.5|0|
-|13|13|12.5|0|
-|14|13|12.5|0|
-|15|13|12.5|0|
+| Row | Assigned Rank(x) | Assigned Rank(y) | Matching Values |
+| --- | ---------------- | ---------------- | --------------- |
+| 1   | 1.5              | 1.5              | 13              |
+| 2   | 1.5              | 1.5              | 13              |
+| 3   | 6.5              | 6                | 4               |
+| 4   | 6.5              | 6                | 4               |
+| 5   | 6.5              | 6                | 4               |
+| 6   | 6.5              | 6                | 4               |
+| 7   | 6.5              | 6                | 4               |
+| 8   | 6.5              | 6                | 4               |
+| 9   | 6.5              | 12.5             | 0               |
+| 10  | 6.5              | 12.5             | 0               |
+| 11  | 13               | 6                | 0               |
+| 12  | 13               | 12.5             | 0               |
+| 13  | 13               | 12.5             | 0               |
+| 14  | 13               | 12.5             | 0               |
+| 15  | 13               | 12.5             | 0               |
 
 Rows from 3 to 8 have 4 concordant possibilities, since we will have to compare their values and find those greater than 6.5 and 6 respectively, both for (x) and for (y), as both conditions must be met, these only It happens in the last four rows, where are the cells that contain the value of 13 > 6.5 and 12.5 > 6.
 
@@ -262,24 +262,24 @@ This implies that the subsequent values x_j to the considered value of x_i must 
 
 On the other hand, for rows 9 and 10, we can find that the values of x_j are greater than x_i in the following rows, however, for y_i there is only one smaller value that is found in row 11. So that meet both conditions, we only have one discordant value for both row 9 and row 10. The rest of the rows no longer have discordant values, so we can now generate a table of discordant values:
 
-|Row|Assigned Rank(x)|Assigned Rank(y)|Matching Values|Discordant values|
-|---|----|----|----|----|
-|1|1.5|1.5|13|0|
-|2|1.5|1.5|13|0|
-|3|6.5|6|4|0|
-|4|6.5|6|4|0|
-|5|6.5|6|4|0|
-|6|6.5|6|4|0|
-|7|6.5|6|4|0|
-|8|6.5|6|4|0|
-|9|6.5|12.5|0|1|
-|10|6.5|12.5|0|1|
-|11|13|6|0|0|
-|12|13|12.5|0|0|
-|13|13|12.5|0|0|
-|14|13|12.5|0|0|
-|15|13|12.5|0|0|
-|||Sum|50|2|
+| Row | Assigned Rank(x) | Assigned Rank(y) | Matching Values | Discordant values |
+| --- | ---------------- | ---------------- | --------------- | ----------------- |
+| 1   | 1.5              | 1.5              | 13              | 0                 |
+| 2   | 1.5              | 1.5              | 13              | 0                 |
+| 3   | 6.5              | 6                | 4               | 0                 |
+| 4   | 6.5              | 6                | 4               | 0                 |
+| 5   | 6.5              | 6                | 4               | 0                 |
+| 6   | 6.5              | 6                | 4               | 0                 |
+| 7   | 6.5              | 6                | 4               | 0                 |
+| 8   | 6.5              | 6                | 4               | 0                 |
+| 9   | 6.5              | 12.5             | 0               | 1                 |
+| 10  | 6.5              | 12.5             | 0               | 1                 |
+| 11  | 13               | 6                | 0               | 0                 |
+| 12  | 13               | 12.5             | 0               | 0                 |
+| 13  | 13               | 12.5             | 0               | 0                 |
+| 14  | 13               | 12.5             | 0               | 0                 |
+| 15  | 13               | 12.5             | 0               | 0                 |
+|     |                  | Sum              | 50              | 2                 |
 
 We can already find S by subtracting the sum of the concordant values from the discordant ones: `S = 50 - 2 = 48`
 
@@ -289,7 +289,7 @@ The last step is simply to apply the formula to find Kendall's correlation coeff
 
 Substituting the values, we have that:
 
-`τ=48/(√(1/2 15(15-1)-39)  √(1/2 15(15-1)-44))  = 0.757`
+`τ=48/(√(1/2 15(15-1)-39) √(1/2 15(15-1)-44)) = 0.757`
 
 The result indicates that the Kendall correlation coefficient is positive, therefore, there is a positive or direct linear correlation between the variables blood pressure and age, with a weight and strength much closer to 1 than to 0, which indicates a medium to strong correlation between both variables, that is, as age increases, blood pressure also increases.
 
@@ -297,202 +297,202 @@ The result indicates that the Kendall correlation coefficient is positive, there
 
 A certain researcher wants to know if the degree of collaboration that employees have in companies has something to do with their level of education. To see the correlation between these two variables, the researcher took as a sample 21 people who work in a factory and were classified as low, medium or high degree collaborators with the factory and then the files were requested to corroborate their level of instruction. it was observed that the levels oscillated between secondary, technical and university. So after qualifying he was able to get the following data:
 
-|Level Of Instruction|Degree Of Collaboration|
-|----|----|
-|Technical|Medium|
-|Academic|Medium|
-|Technical|High|
-|High School|Low|
-|High School|Low|
-|High School|Low|
-|High School|Low|
-|Academic|Low|
-|Academic|Medium|
-|High School|Medium|
-|Academic|Low|
-|Academic|Medium|
-|Academic|High|
-|Technical|Medium|
-|Technical|High|
-|Technical|High|
-|High School|High|
-|High School|Medium|
-|High School|High|
-|Technical|High|
-|Academic|Medium|
-|High School|Low|
+| Level Of Instruction | Degree Of Collaboration |
+| -------------------- | ----------------------- |
+| Technical            | Medium                  |
+| Academic             | Medium                  |
+| Technical            | High                    |
+| High School          | Low                     |
+| High School          | Low                     |
+| High School          | Low                     |
+| High School          | Low                     |
+| Academic             | Low                     |
+| Academic             | Medium                  |
+| High School          | Medium                  |
+| Academic             | Low                     |
+| Academic             | Medium                  |
+| Academic             | High                    |
+| Technical            | Medium                  |
+| Technical            | High                    |
+| Technical            | High                    |
+| High School          | High                    |
+| High School          | Medium                  |
+| High School          | High                    |
+| Technical            | High                    |
+| Academic             | Medium                  |
+| High School          | Low                     |
 
 To make it easier to calculate Kendall's correlation coefficient, he gave each of those academic and collaborative grades a number, so he defined that:
 
 Degree Of Collaboration
 
-|Low|1|
-|----|----|
-|Medium|2|
-|High|3|
+| Low    | 1   |
+| ------ | --- |
+| Medium | 2   |
+| High   | 3   |
 
 Academic Level
 
-|High School|1|
-|----|----|
-|Technical|2|
-|Academic|3|
+| High School | 1   |
+| ----------- | --- |
+| Technical   | 2   |
+| Academic    | 3   |
 
 So they substituted the values in the initial table:
 
-|Level Of Instruction|Degree Of Collaboration|
-|----|----|
-|2|2|
-|3|2|
-|2|3|
-|1|1|
-|1|1|
-|1|1|
-|1|1|
-|3|1|
-|3|2|
-|3|3|
-|2|2|
-|2|3|
-|2|3|
-|1|3|
-|1|2|
-|1|3|
-|2|3|
-|3|2|
-|1|1|
+| Level Of Instruction | Degree Of Collaboration |
+| -------------------- | ----------------------- |
+| 2                    | 2                       |
+| 3                    | 2                       |
+| 2                    | 3                       |
+| 1                    | 1                       |
+| 1                    | 1                       |
+| 1                    | 1                       |
+| 1                    | 1                       |
+| 3                    | 1                       |
+| 3                    | 2                       |
+| 3                    | 3                       |
+| 2                    | 2                       |
+| 2                    | 3                       |
+| 2                    | 3                       |
+| 1                    | 3                       |
+| 1                    | 2                       |
+| 1                    | 3                       |
+| 2                    | 3                       |
+| 3                    | 2                       |
+| 1                    | 1                       |
 
 Again we must apply the method that we explained previously, to calculate the Kendall correlation coefficient.
 
 To do this, we must take the independent variable (x), in this case it is the level of instruction and we are going to order it from lowest to highest in Excel, but also, once ordered, we are going to generate the range (x) with numbers from the 1 to N, as we know, for this particular example N = 22, so we are left with a table as follows:
 
-|Degree Of Collaboration|Rank(x)|
-|-----|-----|
-|1|1|
-|1|2|
-|1|3|
-|1|4|
-|1|5|
-|1|6|
-|2|7|
-|2|8|
-|2|9|
-|2|10|
-|2|11|
-|2|12|
-|2|13|
-|2|14|
-|3|15|
-|3|16|
-|3|17|
-|3|18|
-|3|19|
-|3|20|
-|3|21|
+| Degree Of Collaboration | Rank(x) |
+| ----------------------- | ------- |
+| 1                       | 1       |
+| 1                       | 2       |
+| 1                       | 3       |
+| 1                       | 4       |
+| 1                       | 5       |
+| 1                       | 6       |
+| 2                       | 7       |
+| 2                       | 8       |
+| 2                       | 9       |
+| 2                       | 10      |
+| 2                       | 11      |
+| 2                       | 12      |
+| 2                       | 13      |
+| 2                       | 14      |
+| 3                       | 15      |
+| 3                       | 16      |
+| 3                       | 17      |
+| 3                       | 18      |
+| 3                       | 19      |
+| 3                       | 20      |
+| 3                       | 21      |
 
 Again we must make a table that includes the number of the row where the value is repeated, the number of repetitions of each value (t), the sum of the positions in the rows where the repeated value is found, the assigned range and the last column represents at `(t - 1)`, so we get a table as shown below:
 
-|Range Of Collaborators|Positions|Amount Of Repetitions(t)|Sum of Positions|Assigned Rank|t(t-1)|
-|-------|-------|-------|-----|-----|-----|
-|1|1, 2, 3, 4, 5 y 6|6|21|3,5|30|
-|2|7, 8, 9, 10, 11, 12, 13 y 14|8|84|10,5|56|
-|3|15, 16, 17, 18, 19, 20 y 21|7|126|18|42|
-|||||Sum|128|
+| Range Of Collaborators | Positions                    | Amount Of Repetitions(t) | Sum of Positions | Assigned Rank | t(t-1) |
+| ---------------------- | ---------------------------- | ------------------------ | ---------------- | ------------- | ------ |
+| 1                      | 1, 2, 3, 4, 5 y 6            | 6                        | 21               | 3,5           | 30     |
+| 2                      | 7, 8, 9, 10, 11, 12, 13 y 14 | 8                        | 84               | 10,5          | 56     |
+| 3                      | 15, 16, 17, 18, 19, 20 y 21  | 7                        | 126              | 18            | 42     |
+|                        |                              |                          |                  | Sum           | 128    |
 
-Now we calculate the value of  `Tx = 1/2 ∑▒〖t(t-1)〗 = 128/2 = 64`
+Now we calculate the value of `Tx = 1/2 ∑▒〖t(t-1)〗 = 128/2 = 64`
 
 We carry out the same process for the dependent variable and where we obtain the values ordered from lowest to highest and their corresponding range (y), with their respective values from 1 to 21, being as follows:
 
-|Degree Of Collaboration|Rank(x)|
-|----|----|
-|1|1|
-|1|2|
-|1|3|
-|1|4|
-|1|5|
-|1|6|
-|2|7|
-|2|8|
-|2|9|
-|2|10|
-|2|11|
-|2|12|
-|2|13|
-|2|14|
-|3|15|
-|3|16|
-|3|17|
-|3|18|
-|3|19|
-|3|20|
-|3|21|
+| Degree Of Collaboration | Rank(x) |
+| ----------------------- | ------- |
+| 1                       | 1       |
+| 1                       | 2       |
+| 1                       | 3       |
+| 1                       | 4       |
+| 1                       | 5       |
+| 1                       | 6       |
+| 2                       | 7       |
+| 2                       | 8       |
+| 2                       | 9       |
+| 2                       | 10      |
+| 2                       | 11      |
+| 2                       | 12      |
+| 2                       | 13      |
+| 2                       | 14      |
+| 3                       | 15      |
+| 3                       | 16      |
+| 3                       | 17      |
+| 3                       | 18      |
+| 3                       | 19      |
+| 3                       | 20      |
+| 3                       | 21      |
 
 From this table we build the following:
 
-|Range Of Collaborators|Positions|Amount Of Repetition(t)|Sum Of Positions|Assigned Rank|t(t-1)|
-|----|----|----|----|----|----|
-|1|1, 2, 3, 4, 5 y 6|6|21|3,5|30|
-|2|7, 8, 9, 10, 11, 12, 13 y 14|8|84|10,5|56|
-|3|15, 16, 17, 18, 19, 20 y 21|7|126|18|42|
-|||||Sum|128|
+| Range Of Collaborators | Positions                    | Amount Of Repetition(t) | Sum Of Positions | Assigned Rank | t(t-1) |
+| ---------------------- | ---------------------------- | ----------------------- | ---------------- | ------------- | ------ |
+| 1                      | 1, 2, 3, 4, 5 y 6            | 6                       | 21               | 3,5           | 30     |
+| 2                      | 7, 8, 9, 10, 11, 12, 13 y 14 | 8                       | 84               | 10,5          | 56     |
+| 3                      | 15, 16, 17, 18, 19, 20 y 21  | 7                       | 126              | 18            | 42     |
+|                        |                              |                         |                  | Sum           | 128    |
 
 We calculate: `Ty = 1/2 ∑▒〖t(t-1)〗 = 128/2 = 64`
 
 We make a table with the original values of each variable and its respective assigned range, therefore:
 
-|Original Value Of The Instruction Level|Assigned Rank(x)|Original Value Of The Degree Of Collaboration|Assigned Rank(y)|
-|----|----|----|----|
-|2|11,5|2|10,5|
-|3|18|2|10,5|
-|2|11,5|3|18|
-|1|4,5|1|3,5|
-|1|4,5|1|3,5|
-|1|4,5|1|3,5|
-|1|4,5|1|3,5|
-|3|18|1|3,5|
-|3|18|2|10,5|
-|1|4,5|2|10,5|
-|3|18|1|3,5|
-|3|18|2|10,5|
-|3|18|3|18|
-|2|11,5|2|18|
-|2|11,5|3|18|
-|2|11,5|3|18|
-|1|4,5|3|18|
-|1|4,5|2|10,5|
-|1|4,5|3|18|
-|2|11,5|3|18|
-|3|18|2|10,5|
-|1|4,5|1|3,5|
+| Original Value Of The Instruction Level | Assigned Rank(x) | Original Value Of The Degree Of Collaboration | Assigned Rank(y) |
+| --------------------------------------- | ---------------- | --------------------------------------------- | ---------------- |
+| 2                                       | 11,5             | 2                                             | 10,5             |
+| 3                                       | 18               | 2                                             | 10,5             |
+| 2                                       | 11,5             | 3                                             | 18               |
+| 1                                       | 4,5              | 1                                             | 3,5              |
+| 1                                       | 4,5              | 1                                             | 3,5              |
+| 1                                       | 4,5              | 1                                             | 3,5              |
+| 1                                       | 4,5              | 1                                             | 3,5              |
+| 3                                       | 18               | 1                                             | 3,5              |
+| 3                                       | 18               | 2                                             | 10,5             |
+| 1                                       | 4,5              | 2                                             | 10,5             |
+| 3                                       | 18               | 1                                             | 3,5              |
+| 3                                       | 18               | 2                                             | 10,5             |
+| 3                                       | 18               | 3                                             | 18               |
+| 2                                       | 11,5             | 2                                             | 18               |
+| 2                                       | 11,5             | 3                                             | 18               |
+| 2                                       | 11,5             | 3                                             | 18               |
+| 1                                       | 4,5              | 3                                             | 18               |
+| 1                                       | 4,5              | 2                                             | 10,5             |
+| 1                                       | 4,5              | 3                                             | 18               |
+| 2                                       | 11,5             | 3                                             | 18               |
+| 3                                       | 18               | 2                                             | 10,5             |
+| 1                                       | 4,5              | 1                                             | 3,5              |
 
 We are left only with the assigned ranges, since it is with them that we are going to build the table of concordant and discordant values. But we must also order the range (x) from lowest to highest. It is important to take into account that for this step it is necessary to order the range (x) but we must choose both variables, that is, also the range (y), so that the relationship with its ordered pair is not lost.
 
 We will also add a column with the number of the row, so that they will notice the observations we make with respect to the row.
 
-|Raw|Assigned Rank(x)|Assigned Rank(y)|
-|----|----|----|
-|1|4,5|3,5|
-|2|4,5|3,5|
-|3|4,5|3,5|
-|4|4,5|3,5|
-|5|4,5|10,5|
-|6|4,5|18|
-|7|4,5|10,5|
-|8|4,5|18|
-|9|4,5|3,5|
-|10|11,5|10,5|
-|11|11,5|18|
-|12|11,5|18|
-|13|11,5|18|
-|14|11,5|18|
-|15|11,5|18|
-|16|18|10,5|
-|17|18|3,5|
-|18|18|10,5|
-|19|18|3,5|
-|20|18|10,5|
-|21|18|18|
-|22|18|10,5|
+| Raw | Assigned Rank(x) | Assigned Rank(y) |
+| --- | ---------------- | ---------------- |
+| 1   | 4,5              | 3,5              |
+| 2   | 4,5              | 3,5              |
+| 3   | 4,5              | 3,5              |
+| 4   | 4,5              | 3,5              |
+| 5   | 4,5              | 10,5             |
+| 6   | 4,5              | 18               |
+| 7   | 4,5              | 10,5             |
+| 8   | 4,5              | 18               |
+| 9   | 4,5              | 3,5              |
+| 10  | 11,5             | 10,5             |
+| 11  | 11,5             | 18               |
+| 12  | 11,5             | 18               |
+| 13  | 11,5             | 18               |
+| 14  | 11,5             | 18               |
+| 15  | 11,5             | 18               |
+| 16  | 18               | 10,5             |
+| 17  | 18               | 3,5              |
+| 18  | 18               | 10,5             |
+| 19  | 18               | 3,5              |
+| 20  | 18               | 10,5             |
+| 21  | 18               | 18               |
+| 22  | 18               | 10,5             |
 
 Remember that matching values must meet two conditions simultaneously:
 
@@ -504,30 +504,30 @@ In row 5, the first condition is met again that all values are greater than 4.5 
 
 We are then assembling the table of concordant values:
 
-|Raw|Assigned Rank(x)|Assigned Rank(y)|Concordant Pairs|
-|----|----|----|----|
-|1|4,5|3,5|11|
-|2|4,5|3,5|11|
-|3|4,5|3,5|11|
-|4|4,5|3,5|11|
-|5|4,5|10,5|6|
-|6|4,5|18|0|
-|7|4,5|10,5|6|
-|8|4,5|18|0|
-|9|4,5|3,5|11|
-|10|11,5|10,5|1|
-|11|11,5|18|0|
-|12|11,5|18|0|
-|13|11,5|18|0|
-|14|11,5|18|0|
-|15|11,5|18|0|
-|16|18|10,5|0|
-|17|18|3,5|0|
-|18|18|10,5|0|
-|19|18|3,5|0|
-|20|18|10,5|0|
-|21|18|18|0|
-|22|18|10,5|0|
+| Raw | Assigned Rank(x) | Assigned Rank(y) | Concordant Pairs |
+| --- | ---------------- | ---------------- | ---------------- |
+| 1   | 4,5              | 3,5              | 11               |
+| 2   | 4,5              | 3,5              | 11               |
+| 3   | 4,5              | 3,5              | 11               |
+| 4   | 4,5              | 3,5              | 11               |
+| 5   | 4,5              | 10,5             | 6                |
+| 6   | 4,5              | 18               | 0                |
+| 7   | 4,5              | 10,5             | 6                |
+| 8   | 4,5              | 18               | 0                |
+| 9   | 4,5              | 3,5              | 11               |
+| 10  | 11,5             | 10,5             | 1                |
+| 11  | 11,5             | 18               | 0                |
+| 12  | 11,5             | 18               | 0                |
+| 13  | 11,5             | 18               | 0                |
+| 14  | 11,5             | 18               | 0                |
+| 15  | 11,5             | 18               | 0                |
+| 16  | 18               | 10,5             | 0                |
+| 17  | 18               | 3,5              | 0                |
+| 18  | 18               | 10,5             | 0                |
+| 19  | 18               | 3,5              | 0                |
+| 20  | 18               | 10,5             | 0                |
+| 21  | 18               | 18               | 0                |
+| 22  | 18               | 10,5             | 0                |
 
 We continue filling the previous table, in row 9 we find again that the values must be greater than 3.5, so we have the same case as rows 1 to 4, that is, 11 concordant pairs.
 
@@ -537,13 +537,13 @@ From rows 11 to 22 there are no concordant pairs since although it is true that 
 
 We continue with the discordant pairs, remember that the conditions are:
 
-`x_i <  x_j and in addition to y_i > y_j`
+`x_i < x_j and in addition to y_i > y_j`
 
 Therefore, the subsequent values to the one we are considering must be greater than x_i and less than y_i.
 
 For the first condition to be fulfilled, we must consider only the rows from 10 to 22, but we can realize that for the first 4 rows there are no values less than 3.5 in all subsequent values. Therefore, the discordant values for all these rows are null.
 
-For row 5 we must look for the values of y_j  that are less than 10.5 but starting from row 10 and we find them in rows 17 and 19, there we will have two discordant pairs, as is the case for row 7. While that for row 6, the values less than 18 that are from row 10 down, are the values that are in row 10 and all the values from row 16 to 22, minus the value that is found in the row 21, therefore, from there we will have 7 discordant values, in the same way as for row 8.
+For row 5 we must look for the values of y_j that are less than 10.5 but starting from row 10 and we find them in rows 17 and 19, there we will have two discordant pairs, as is the case for row 7. While that for row 6, the values less than 18 that are from row 10 down, are the values that are in row 10 and all the values from row 16 to 22, minus the value that is found in the row 21, therefore, from there we will have 7 discordant values, in the same way as for row 8.
 
 For row 9 there are no discordant pairs since there are no values less than 3.5. Later for row 10, there are only two values less than 10.5 and from row 11 to 15, all the values are less than 18, except for row 21, so there are 6 discordant pairs, the same happens for all rows between 11 and 15.
 
@@ -551,31 +551,31 @@ From rows 16 to 22, the first condition is not met, that is, the values are grea
 
 The complete table looks like this:
 
-|Raw|Assigned Rank(x)|Assigned Rank(y)|Concordant Pairs|
-|----|----|----|----|
-|1|4,5|3,5|11|
-|2|4,5|3,5|11|
-|3|4,5|3,5|11|
-|4|4,5|3,5|11|
-|5|4,5|10,5|6|
-|6|4,5|18|0|
-|7|4,5|10,5|6|
-|8|4,5|18|0|
-|9|4,5|3,5|11|
-|10|11,5|10,5|1|
-|11|11,5|18|0|
-|12|11,5|18|0|
-|13|11,5|18|0|
-|14|11,5|18|0|
-|15|11,5|18|0|
-|16|18|10,5|0|
-|17|18|3,5|0|
-|18|18|10,5|0|
-|19|18|3,5|0|
-|20|18|10,5|0|
-|21|18|18|0|
-|22|18|10,5|0|
-||Sum|67|50|
+| Raw | Assigned Rank(x) | Assigned Rank(y) | Concordant Pairs |
+| --- | ---------------- | ---------------- | ---------------- |
+| 1   | 4,5              | 3,5              | 11               |
+| 2   | 4,5              | 3,5              | 11               |
+| 3   | 4,5              | 3,5              | 11               |
+| 4   | 4,5              | 3,5              | 11               |
+| 5   | 4,5              | 10,5             | 6                |
+| 6   | 4,5              | 18               | 0                |
+| 7   | 4,5              | 10,5             | 6                |
+| 8   | 4,5              | 18               | 0                |
+| 9   | 4,5              | 3,5              | 11               |
+| 10  | 11,5             | 10,5             | 1                |
+| 11  | 11,5             | 18               | 0                |
+| 12  | 11,5             | 18               | 0                |
+| 13  | 11,5             | 18               | 0                |
+| 14  | 11,5             | 18               | 0                |
+| 15  | 11,5             | 18               | 0                |
+| 16  | 18               | 10,5             | 0                |
+| 17  | 18               | 3,5              | 0                |
+| 18  | 18               | 10,5             | 0                |
+| 19  | 18               | 3,5              | 0                |
+| 20  | 18               | 10,5             | 0                |
+| 21  | 18               | 18               | 0                |
+| 22  | 18               | 10,5             | 0                |
+|     | Sum              | 67               | 50               |
 
 We find `S = 67 - 50 = 17`
 
