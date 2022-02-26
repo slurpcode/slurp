@@ -96,7 +96,6 @@ Welcome to slurp's documentation!
    electro.md
    goa.md
    hardcore.md
-   helmholtz-sound-synthesiser.md
    house.md
    idm.md
    jungle_drum_bass.md
@@ -113,24 +112,25 @@ Welcome to slurp's documentation!
    :caption: Early Instruments
    :maxdepth: 2
 
+   audion_piano.md
+   choralcelo.md
+   clavecin_electrique.md
    denis-dor.md
    electromechanical_piano.md
-   musical-telegraph.md
-   singing-arc.md
-   telharmonium.md
-   optophonic_piano.md
-   synthetic_tone.md
-   electrophon.md
-   hugoniot_organ.md
-   theremin.md
-   staccatone.md
-   wireless-organ.md
-   clavecin_electrique.md
    electronic_musical_instrument.md
-   choralcelo.md
-   audion_piano.md
+   electrophon.md
+   musical-telegraph.md
+   helmholtz-sound-synthesiser.md
+   hugoniot_organ.md
+   optophonic_piano.md
+   singing-arc.md
    sound_producing_device.md
    spharophon.md
+   staccatone.md
+   synthetic_tone.md
+   telharmonium.md
+   theremin.md
+   wireless-organ.md
 
 .. toctree::
    :caption: Cities
