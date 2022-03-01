@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 🍒 Check Out
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: 🍅 Install
         run: |
           wget -O - -q https://git.io/misspell | sh -s -- -b .
@@ -19,7 +19,7 @@ jobs:
     name: Run pre-commit  # https://pre-commit.com/
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: actions/setup-python@v2
         with:
           python-version: '3.x'  # Version range or exact version of a Python version to use, using SemVer's version range syntax
