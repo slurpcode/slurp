@@ -28,7 +28,7 @@ The musical notes produced by the vacuum tubes in this manner have practically n
 Each one of the twenty five oscillators had its own independent speaker, mounted in a large loudspeaker horn on top of the keyboard and the whole ensemble was housed in a housing resembling a harmonium. A larger 88 non keyboard version was planned but not put into production. The Pianorad was first demonstrated on june 12, 1926 at Gernsback’s own radio station WRNY in New York City performed by Ralph Christman.
 The Pianorad continued to be used at the radio station for some time, accompanying piano and violin concerts.
 
-Next topic: Keyboard Electric Harmonium 
+Next topic: Keyboard Electric Harmonium
 
 ## Sources
 
