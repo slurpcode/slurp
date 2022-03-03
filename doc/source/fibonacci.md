@@ -1,12 +1,12 @@
 # 🥇 Fibonacci series
 
-## The Fibonacci series, the Phi number, and how they manage to describe the universal proportions, which are part of the world around us
+## The Fibonacci series, the Phi number, and how they describe the universal proportions of the world around us
 
 Leonardo de Pisa was an Italian mathematician who is better known
 throughout the world as Fibonacci. This mathematician discovered a sequence
 commonly known as "The Fibonacci series"; he came up with this idea when
-calculating the number of rabbits that could be obtained over a period of
-several months, after inducing them to breed.
+calculating the number of rabbits that could be bred over a period of
+several months.
 
 Suppose that at the beginning of the first month we have a pair of newborn
 rabbits. Therefore, we have one (1) pair of rabbits that will take a month to
@@ -17,7 +17,7 @@ pair of rabbits, because the babies have not yet been born.
 
 Now, at the end of the second month the first couple gives birth to a second
 pair of rabbits and then mates again. The newborn pair is (of course) not yet
-matured and the next pair of babies has not yet been born so we have
+matured and the next pair of babies has not yet been born, so we have
 1 + 1 = 2 pairs of rabbits.
 
 By the end of the third month, the first pair of rabbits gives birth to a third
@@ -108,7 +108,7 @@ The shell of a nautilus (a type of cephalopod mollusk) has a similarity with
 the golden spiral, only that instead of forming the spiral with
 arcs through the sides of squares, it is formed with arcs through the sides of
 equilateral triangles. For a given fixed side length of the starting polygon,
-fibonacci spirals formed from triangles spiral in more tightly than those formed
+Fibonacci spirals formed from triangles spiral in more tightly than those formed
 from squares.
 
 ![Shell](_static/images/fibonacci/fibonacci3.jpg)
@@ -162,7 +162,7 @@ and intended to reveal the mathematical secrets of harmonious forms to the artis
 of the time with this treatise, using the golden ratio as his main tool.
 
 Leonardo da Vinci himself, through what he called the "sectio aurea", or
-"golden ratio", exibited the ideal symmetry in his paintings "The Mona Lisa",
+"golden ratio", exhibited the ideal symmetry in his paintings "The Mona Lisa",
 "The Last Supper", and "The Vitruvian Man".
 
 ![Leonardo Da Vinci](_static/images/fibonacci/fibonacci7.jpg)
