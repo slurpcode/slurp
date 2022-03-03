@@ -48,7 +48,7 @@ the previous two numbers together, we can continue the sequence:
 
 ![Fibonacci sequence](_static/images/fibonacci/fibonacci1.jpg)
 
-## How this sequence influences the explanation of certain proportions in nature
+## The Fibonacci sequence in nature
 
 This type of mathematical pattern is found in countless places within nature.
 For example, the number of petals a flower has almost always matches a number in
