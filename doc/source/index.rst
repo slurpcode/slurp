@@ -113,24 +113,28 @@ Welcome to slurp's documentation!
    :caption: Early Instruments
    :maxdepth: 2
 
+   electronic_musical_instrument.md 
    denis-dor.md
    electromechanical_piano.md
    musical-telegraph.md
-   singing-arc.md
    telharmonium.md
+   singing-arc.md
+   wireless-organ.md
    optophonic_piano.md
    synthetic_tone.md
    electrophon.md
    hugoniot_organ.md
    theremin.md
    staccatone.md
-   wireless-organ.md
+   spharophon.md
+   the_luminaphone.md 
+   radio_harmonium.md
+   pianorad.md
+   keyboard_electric_harmonium.md 
    clavecin_electrique.md
-   electronic_musical_instrument.md
    choralcelo.md
    audion_piano.md
    sound_producing_device.md
-   spharophon.md
 
 .. toctree::
    :caption: Cities
