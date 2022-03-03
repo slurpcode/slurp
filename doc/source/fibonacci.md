@@ -2,10 +2,10 @@
 
 ## The Fibonacci series, the Phi number, and how they manage to describe the universal proportions, which are part of the world around us
 
-Leonardo de Pisa was an Italian mathematician, who is better known
+Leonardo de Pisa was an Italian mathematician who is better known
 throughout the world as Fibonacci. This mathematician discovered a sequence
 commonly known as "The Fibonacci series"; he came up with this idea when
-calculating the number of rabbits that could be obtained over the period of
+calculating the number of rabbits that could be obtained over a period of
 several months, after inducing them to breed.
 
 Suppose that at the beginning of the first month we have a pair of newborn
@@ -107,13 +107,14 @@ of these squares.
 The shell of a nautilus (a type of cephalopod mollusk) has a similarity with
 the golden spiral, only that instead of forming the spiral with
 arcs through the sides of squares, it is formed with arcs through the sides of
-equilateral triangles. Both spirals differ at the opening, but in both cases
-they have the same length to generate the first polygon.
+equilateral triangles. For a given fixed side length of the starting polygon,
+fibonacci spirals formed from triangles spiral in more tightly than those formed
+from squares.
 
 ![Shell](_static/images/fibonacci/fibonacci3.jpg)
 ![Spiral Drawing](_static/images/fibonacci/fibonacci4.jpg)
 
-Not satisfied with the similarities described in advance, we can also note that
+Not satisfied with the similarities described above? We also see that
 equivalent spirals are present in certain galaxies and hurricanes.
 
 ![Galaxia final](_static/images/fibonacci/fibonacci5.jpg)
@@ -121,67 +122,69 @@ equivalent spirals are present in certain galaxies and hurricanes.
 
 ## The Fibonacci series and the golden ratio in art
 
-Great music composers in the 20th century, such as Olivier Messiaen, Delia
+Great composers in the 20th century, such as Olivier Messiaen, Delia
 Derbyshire, Béla Bartók, and the band Tool, used this famous succession to
-invent new structures for their musical chords.
+invent new musical structures and to inspire their art.
 
-This Phi number has been directly involved in art for thousands of years. Since
-it also interferes with the ideal proportions of certain ancient architectural
+The golden ratio, phi, has been directly involved in art for thousands of years,
+and was associated with the ideal proportions of certain ancient architectural
 structures.
 
-This is because again the Phi number is also obtained when we divide a line into
-two certain unequal parts. If we take the quotient of the longest part and the
-smallest part, it will end up being equal to the total length of the line
-divided by its longest part. That is to say:
+This importance of the golden ratio in art and architecture may be related to this
+special construction: If one divides a distance into two unequal segments, such
+that the ratio of the lengths of the longer segment and the shorter segment is
+equal to the ratio of the lengths of the entire distance and the longer segment,
+these ratios will be equal to the golden ratio.
+
+That is to say:
 
 a / b = (a + b) / a
 
-Where “a” is the longest part of the line and “b”, the shortest. We can see that
-the Pyramid of Giza has a length of 230 meters on each side of its base and its
-height is 146 meters. The relationship between the two measures is approximately
-1.575, which, as we can see, is quite close to the golden number.
+Where “a” is the longer segment and “b” the shorter.
 
-Those numbers can be applied to the proportions of a rectangle, called the
-golden rectangle, considered one of the most visually satisfying geometric
+The Pyramid of Giza has a length of 230 meters on each side of its base and its
+height is 146 meters. The relationship between the two measures is approximately
+1.575, which is quite close to the golden ratio of 1.618.
+
+A rectangle whose length and width satisfy the golden ratio is called a
+golden rectangle, and is considered one of the most visually satisfying geometric
 shapes.
 
 Even the famous mathematician and sculptor Phidias, born in 500 BC, is believed
-to have applied the Phi number to the design of the sculptures in the Parthenon.
+to have applied the golden ratio to the design of sculptures in the Parthenon.
 
-On the other hand, a Franciscan friar named Luca Bartolomeo de Pacioli was an
-economist, accountant, mathematician and highly recognized for being one of the
-forerunners of probability calculus. This friar published a book on mathematics
-in 1509 called "De divina proportione", which was illustrated by none other than
-Leonardo da Vinci. There he claimed that "Without mathematics there is no art"
-and this compendium of writings, only intended to reveal the secret to the
-artists about harmonic forms, using the golden ratio as the main tool.
+The Franciscan friar, economist, and mathematician Luca Bartolomeo de Pacioli
+was highly recognized for being one of the early contributors to the field of
+accounting and inventor of double-entry book-keeping. He published a mathematical
+treatise in 1509 called "De divina proportione", which was illustrated by none
+other than Leonardo da Vinci. He claimed that "without mathematics there is no art"
+and intended to reveal the mathematical secrets of harmonious forms to the artists
+of the time with this treatise, using the golden ratio as his main tool.
 
-In fact, Leonardo da Vinci himself, through what he called the "sectio aurea",
-defined the ideal symmetry in his paintings such as "The Mona Lisa", "The Last
-Supper" and "The Vitruvian Man".
+Leonardo da Vinci himself, through what he called the "sectio aurea", or
+"golden ratio", exibited the ideal symmetry in his paintings "The Mona Lisa",
+"The Last Supper", and "The Vitruvian Man".
 
 ![Leonardo Da Vinci](_static/images/fibonacci/fibonacci7.jpg)
 
-Da Vinci claimed that the ideal proportion of a person is closely linked to the
-quotient between the measurement of his height and the distance from the ground
-to his navel, since for a harmonious human being this relationship tended to
-Phi. In the same way, this number was repeated in an approximate way with the
-relationship between the distance between his fingers to his shoulder and the
-measurement from the elbow to his fingers. In fact, "The Vitruvian Man" was
-designed with these proportions.
+Da Vinci claimed a relationship between ideal human proportions and the golden
+ratio. He observed that the ratio between height and the distance from the ground
+to the navel approached phi for particularly harmonious figures. Similarly,
+the ratio of the distance between the fingers and the shoulder and the
+distance from the elbow to the fingers seemed also to approach this number.
+"The Vitruvian Man" was designed with these ideal proportions.
 
 As if that weren't enough, this sequence has multiple applications in
-mathematics, computer science, and even game theory. A mathematical curiosity is
-to add ten consecutive numbers chosen at random from the famous series; You will
-notice that the result of the sum will always be a multiple of 11. As we can
-see, that the Fibonacci series is full of mathematical anecdotes, which can
-fascinate anyone who delights in this type of event.
+mathematics, computer science, and game theory. As one example, take this mathematical
+curiosity: add any ten consecutive numbers from this famous series, and the result
+will always be a multiple of 11. Clearly, the Fibonacci series is at the center of
+countless fascinating mathematical anecdotes.
 
-## About The Author
+## Original Author
 
-Graduated in Mechanical Engineering, and a master's degree in teaching
-component, I gave classes in several institutes of mathematics and physics, but
-I also dedicated several years of my life as a television producer, I did the
-scripts for mikes, the camera direction, editing of video and even the location.
-Later I was dedicated to SEO writing for a couple of years. I like poetry, chess
-and dominoes.
+I Graduated in Mechanical Engineering, with a Master's degree in the teaching
+component. I gave classes in several institutes of mathematics and physics, but
+I also dedicated several years of my life to being a television producer. I did
+scripts for the mics, camera direction, editing of video, and even the location.
+I then wrote for search engine optimization for a couple of years. I like poetry,
+chess and dominoes.
