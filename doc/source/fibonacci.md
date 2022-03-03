@@ -105,7 +105,7 @@ of these squares.
 ![cephalopod mollusk](_static/images/fibonacci/fibonacci2.jpg)
 
 The shell of a nautilus (a type of cephalopod mollusk) has a similarity with
-the golden spiral, only that instead of forming the spiral with
+the golden spiral, only that instead of be formed with
 arcs through the sides of squares, it is formed with arcs through the sides of
 equilateral triangles. For a given fixed side length of the starting polygon,
 Fibonacci spirals formed from triangles spiral in more tightly than those formed
@@ -122,7 +122,7 @@ equivalent spirals are present in certain galaxies and hurricanes.
 
 ## The Fibonacci series and the golden ratio in art
 
-Great composers in the 20th century, such as Olivier Messiaen, Delia
+Great composers of the 20th century, such as Olivier Messiaen, Delia
 Derbyshire, Béla Bartók, and the band Tool, used this famous succession to
 invent new musical structures and to inspire their art.
 
