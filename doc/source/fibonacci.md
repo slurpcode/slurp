@@ -1,6 +1,6 @@
 # 🥇 Fibonacci series
 
-## The Fibonacci series, the Phi number, and how they describe the universal proportions of the world around us
+## The Fibonacci series, the golden ratio, and how they describe the universal proportions of the world around us
 
 Leonardo de Pisa was an Italian mathematician who is better known
 throughout the world as Fibonacci. This mathematician discovered a sequence
