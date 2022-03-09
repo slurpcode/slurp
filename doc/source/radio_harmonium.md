@@ -28,7 +28,7 @@ Although some applications had used earlier technologies such as the spark gap t
 
 Not all electronic circuit valves/electron tubes are vacuum tubes. Gas-filled tubes are similar devices, but containing a gas, typically at low pressure, which exploit phenomena related to electric discharge in gases, usually without a heater.
 
-Next topic: Pianorad 
+Next topic: Pianorad
 
 ## Sources
 - Wikipedia / 120years.net

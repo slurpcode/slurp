@@ -1,4 +1,4 @@
-# 💿 Clavecin Électrique 
+# 💿 Clavecin Électrique
 
 This instrument was constructed by the Jesuit priest Jean-Baptiste Delaborde in Paris, France, 1759. The Clavecin Électrique or ‘Electric Harpsichord’ is one of the earliest documented instruments that used electricity to create musical sound. Despite it’s name The Clavecin Électrique was not a stringed instrument but a carillon type keyboard instrument using a static electrical charge (supplied by a Leyden Jar, an early form of capacitor invented by the Dutch scientist Pieter van Musschenbroek of Leiden around 1745) to vibrate metal bells – The mechanism based on a contemporary warning-bell device: “The warning bell mechanism was based on an apparently unnamed method used in early electrical laboratories to audibly warn an experimenter of the presence of an electrical charge; it was probably invented by Andreas [Andrew] Gordon in Erfurt in 1741 and was described or demonstrated to Benjamin Franklin in Boston in 1746.
 
@@ -17,13 +17,13 @@ This method allowed the player to create a series sustained notes from the bells
 
 
 [The cover of Delaborde’s ‘Clavessin Electrique’ of 1761(120years.net)]
- 
-Next topic: Clavecin Magnetique 
+
+Next topic: Clavecin Magnetique
 
 ## Sources
 
 -	Wikipedia
--	120years.net 
+-	120years.net
 
 ## About the author
 
