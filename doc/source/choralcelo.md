@@ -19,14 +19,14 @@ Melville (sic) L. Severy and George D. Sinclair both of Boston
 
 The Choralcelo obtains sound of the violincello, the trumpet and the French horn, the oboe and the bassoon, the harp and the pipe organ from a single compass from the wire strings
 used in the pianoforte, which are vibrated by means of small electro- magnets stationed at scientifically determined points along their length. The surprise in the Choralcelo is that the ordinary piano string can be made to give more sounds than those obtained from it under the blows of the hammer, and the variety of these sounds is great on the account of the immensely increased possibility of making what the student musician knows as overtone.
-The concert this evening faithfully demonstrated the merits of the Choralcelo, and it may be expected to contribute important things to music.Great skill is required in it’s handling.	
+The concert this evening faithfully demonstrated the merits of the Choralcelo, and it may be expected to contribute important things to music.Great skill is required in it’s handling.
 The player is embarrassed somewhat by the very largeness of the means at his disposal. He must learn to select. With careful study this new instrument is designed to do many and large things and the contention of it’s inventor seems to be fully justified”
 
 ![Choralcelo](_static/images/choralcelo/choralcelo1.jpg)
 
 [Remains of a Choralcelo at the National Music Museum, Vermilion Sands, South Dakota]
 
-Next topic: Audion Piano 
+Next topic: Audion Piano
 
 ## Sources
 
