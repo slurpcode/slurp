@@ -1,7 +1,7 @@
 # slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-41-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-42-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Ffuchsia.surf%2F)](https://slurpcode.github.io/slurp)
@@ -267,6 +267,7 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://github.com/sbhatm1213"><img src="https://avatars.githubusercontent.com/u/20096270?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sbhatm1213</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=sbhatm1213" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/commits?author=sbhatm1213" title="Documentation">📖</a></td>
     <td align="center"><a href="https://discord.gg/sFCE2HcMCa"><img src="https://avatars.githubusercontent.com/u/20361754?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Beast</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=johnbampton" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/eminarium"><img src="https://avatars.githubusercontent.com/u/8333184?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Merdan Durdiyev</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=eminarium" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://bandism.net/"><img src="https://avatars.githubusercontent.com/u/22633385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ikko Ashimine</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=eltociear" title="Code">💻</a></td>
   </tr>
 </table>
 
