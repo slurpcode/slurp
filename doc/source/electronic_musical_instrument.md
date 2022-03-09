@@ -8,10 +8,9 @@ An electronic instrument might include a user interface for controlling its soun
 
 [Robert Moog, inventor of the Moog synthesizer (Wikipedia)]
 
-
 All electronic musical instruments can be viewed as a subset of audio signal processing applications.
 Simple electronic musical instruments are sometimes called sound effects; the border between sound effects and actual musical instruments is often unclear.
- 
+
 In the 21st century, electronic musical instruments are now widely used in most styles of music. In popular music styles such as electronic dance music, almost all of the instrument sounds used in recordings are electronic instruments (e.g., bass synth, synthesizer, drum machine).
 
 Development of new electronic musical instruments, controllers, and synthesizers continues to be a highly active and interdisciplinary field of research. Specialized conferences,
@@ -19,7 +18,7 @@ notably the International Conference on New Interfaces for Musical Expression, h
 
 In the 18th-century, musicians and composers adapted a number of acoustic instruments to exploit the novelty of electricity. Thus, in the broadest sense, the first electrified musical instrument was the Denis d'or keyboard, dating from 1753, followed shortly by the clavecin électrique by the Frenchman Jean-Baptiste de Laborde in 1761. The Denis d'or consisted of a keyboard instrument of over 700 strings, electrified temporarily to enhance sonic qualities. The clavecin électrique was a keyboard instrument with plectra (picks) activated electrically. However, neither instrument used electricity as a sound-source.
 
-Next topic: Denis d'or 
+Next topic: Denis d'or
 
 ## Sources
 

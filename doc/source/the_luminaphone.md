@@ -2,7 +2,7 @@
 
 Harry Grindell Matthews was born on 17 March 1880 in Winterbourne, Gloucestershire. He studied at the Merchant Venturers' School in Bristol and became an electronic engineer. During the Second Boer War he served in the South African Constabulary and was twice wounded.
 
-In 1911 Matthews said he had invented an Aerophone device, a radiotelephone, and transmitted messages between a ground station and an aeroplane from a distance of two miles. His experiments attracted government attention and on 4 July 1912 he visited Buckingham Palace. 
+In 1911 Matthews said he had invented an Aerophone device, a radiotelephone, and transmitted messages between a ground station and an aeroplane from a distance of two miles. His experiments attracted government attention and on 4 July 1912 he visited Buckingham Palace.
 However, when the British Admiralty requested a demonstration of the Aerophone, Matthews demanded that no experts be present at the scene. When four of the observers dismantled part of the apparatus before the demonstration began and took notes, Matthews cancelled the demonstration and drove observers away.
 
 Newspapers rushed to Matthews' defence. The War Office denied any tampering and claimed that the demonstration was a failure. The government later stated that the affair was just a misunderstanding.
@@ -21,7 +21,7 @@ The Luminaphone, patented in 1925 (Patent GB254437A ), was an early example of a
 a selenium photo-cell that generated a pitched voltage pulse. The frequency of the pitch was determined by the frequency of the perforation in the metal dome. The luminaphone’s three octave keyboard had one lamp per key (a total of 36 keys and lamps) – when a key was pressed the assigned lamp would illuminate and project through the rotating perforated dome onto the photo-cell, generating the
 relevant pitch.
 
-Next topic: Radio Harmonium 
+Next topic: Radio Harmonium
 
 ## Sources
 

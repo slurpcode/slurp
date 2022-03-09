@@ -20,7 +20,7 @@ The instrument had a three octave keyboard with a variable tuning that allowed 1
 
 [Theremin’s later version of the Harmonium]
 
-Next topic: Kurbelsphärophon 
+Next topic: Kurbelsphärophon
 
 ## Sources
 
