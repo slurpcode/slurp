@@ -6,7 +6,6 @@ This instrument was constructed by the Jesuit priest Jean-Baptiste Delaborde in 
 
 The ‘Clavessin Electrique’ from Jean-Baptiste Laborde’s “Le Clavessin électrique; avec une nouvelle théorie du mécanisme et des phénomènes de l’électricité” 1761.
 
-
 An eight-bell instrument based on this principle was developed in about 1747 by Ebenezer Kinnersley, an associate of Franklin in Philadelphia, and the device subsequently received substantial publicity when it was mentioned in Franklin’s publication of his experiments with atmospheric electricity. Nearly 80 years were to elapse before the next sounds were produced by electricity.
 
 This method allowed the player to create a series sustained notes from the bells, similar to an organ:
@@ -15,15 +14,14 @@ This method allowed the player to create a series sustained notes from the bells
 
 ![Clavecin Électrique](_static/images/clavecin_electrique/clavecin_electrique2.jpg)
 
-
 [The cover of Delaborde’s ‘Clavessin Electrique’ of 1761(120years.net)]
 
 Next topic: Clavecin Magnetique
 
 ## Sources
 
--	Wikipedia
--	120years.net
+- Wikipedia
+- 120years.net
 
 ## About the author
 

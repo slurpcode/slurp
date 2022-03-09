@@ -8,7 +8,6 @@ An electronic instrument might include a user interface for controlling its soun
 
 [Robert Moog, inventor of the Moog synthesizer (Wikipedia)]
 
-
 All electronic musical instruments can be viewed as a subset of audio signal processing applications.
 Simple electronic musical instruments are sometimes called sound effects; the border between sound effects and actual musical instruments is often unclear.
 
