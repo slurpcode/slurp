@@ -115,7 +115,7 @@ Welcome to slurp's documentation!
    :caption: Early Instruments
    :maxdepth: 2
 
-   electronic_musical_instrument.md 
+   electronic_musical_instrument.md
    denis-dor.md
    electromechanical_piano.md
    musical-telegraph.md
@@ -129,10 +129,10 @@ Welcome to slurp's documentation!
    theremin.md
    staccatone.md
    spharophon.md
-   the_luminaphone.md 
+   the_luminaphone.md
    radio_harmonium.md
    pianorad.md
-   keyboard_electric_harmonium.md 
+   keyboard_electric_harmonium.md
    clavecin_electrique.md
    choralcelo.md
    audion_piano.md

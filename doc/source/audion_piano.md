@@ -21,7 +21,7 @@ This instrument – based on previous experiments as early as 1907 – was the f
 
 The Audion Piano, controlled by a single keyboard manual, used a single triode valve per octave, controlled by a set of keys allowing one monophonic note to be played per octave. This audio signal could be processed by a series of capacitors and resistors to produce variable and complex timbres and the output of the instrument could be sent to a set of speakers placed around a room giving the sound a novel spatial effect. De Forest planned a later version of the instrument that would have separate valves per key allowing full polyphony- it is not known if this instrument was ever constructed.
 
-Next topic: Sound-Producing Device 
+Next topic: Sound-Producing Device
 
 ## Sources
 

@@ -1,4 +1,4 @@
-# 🎺 Sphärophon 
+# 🎺 Sphärophon
 
 Jörg Georg Adam Mager was a German musician and inventor, who was a pioneer of early electronic music.
 
@@ -20,7 +20,7 @@ With this resource at his disposal Mager continued to develop his instrument des
 by adjusting the capacitance of the sound generating circuit to alter
 the intervals between each key and scale the acoustic length of the keyboard. An octave could be made as small as a major second, so that each successive step represented an interval of a 12th tone. Additional tone colour was added by mechanical resonators, series of filters and specially formed resonant speakers.
 
-Next topic: The Luminaphone 
+Next topic: The Luminaphone
 
 ## Sources
 
