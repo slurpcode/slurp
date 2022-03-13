@@ -37,14 +37,14 @@ system by typing in a terminal: `ruby -v`
 After installing Ruby 2.5 you can run `bundle install` from the repositories
 root directory to install the needed RubyGems.
 
-[Python 3.6](http://brewformulas.org/Python3) can also be installed with
+[Python 3.8](https://formulae.brew.sh/formula/python@3.8) can also be installed with
 Homebrew. After installing Python you can open a terminal and type:
 `python3 --version`
 
-You can also install [Perl 5 through Homebrew](http://brewformulas.org/Perl) and
+You can also install [Perl 5 through Homebrew](https://formulae.brew.sh/formula/perl) and
 you can see if Perl is already installed by typing in the terminal: `perl -v`
 
-[Cloc](http://brewformulas.org/Cloc) is the only package that needs Perl.
+[Cloc](https://formulae.brew.sh/formula/cloc) is the only package that needs Perl.
 
 The lowest version of Perl that I have tested with is Perl 5.18.2 but I have
 also tested with the current maintenance release Perl 5.26.1. The

@@ -45,9 +45,12 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    anderson_darling_test.md
+   analysis-of-variance.md
    bayes.md
    block_design.md
+   black-sholes-model.md
    common-errors.md
+   continuous-probability-distribution.md
    curiosities.md
    determination-coefficient.md
    fermat.md
@@ -55,6 +58,7 @@ Welcome to slurp's documentation!
    free-distribution-testing.md
    frequentist.md
    gauss-jordan.md
+   kendalls-correlation-coefficient.md
    long-term-behavior-of-markov.md
    markov-chains.md
    negative_binomial_distribution.md
@@ -92,6 +96,7 @@ Welcome to slurp's documentation!
    electro.md
    goa.md
    hardcore.md
+   helmholtz-sound-synthesiser.md
    house.md
    idm.md
    jungle_drum_bass.md
@@ -108,11 +113,28 @@ Welcome to slurp's documentation!
    :caption: Early Instruments
    :maxdepth: 2
 
+   electronic_musical_instrument.md
    denis-dor.md
    electromechanical_piano.md
    musical-telegraph.md
    telharmonium.md
+   singing-arc.md
    wireless-organ.md
+   optophonic_piano.md
+   synthetic_tone.md
+   electrophon.md
+   hugoniot_organ.md
+   theremin.md
+   staccatone.md
+   spharophon.md
+   the_luminaphone.md
+   radio_harmonium.md
+   pianorad.md
+   keyboard_electric_harmonium.md
+   clavecin_electrique.md
+   choralcelo.md
+   audion_piano.md
+   sound_producing_device.md
 
 .. toctree::
    :caption: Cities
@@ -132,6 +154,7 @@ Welcome to slurp's documentation!
    paris.md
    pattaya.md
    prescott.md
+   tokyo.md
 
 .. toctree::
    :caption: Countries
@@ -247,11 +270,15 @@ Welcome to slurp's documentation!
    bobby-fischer.md
    boris_spassky.md
    chess-and-mathematics.md
+   effect_of_modern_chess_engines_on_professional_chess_players.md
    elo_rating.md
    fide-grand-prix-2022.md
    garry_kasparov_a_chess_player.md
+   inclusion_of_chess_in_olympics.md
    mikhail_tal.md
+   should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
+
 
 .. toctree::
    :caption: Movies
@@ -259,6 +286,7 @@ Welcome to slurp's documentation!
 
    harriet_the_movie.md
    life_is_beautiful.md
+   the_fight_club.md
    the_seventh_seal.md
 
 .. toctree::
