@@ -78,9 +78,7 @@ jobs:
       - run:
           name: 🧹 Run Markdown lint
           command: |
-            npm install -g markdownlint-cli
-            markdownlint -c .github/linters/.markdown-lint.yml .
-            markdownlint --fix
+            bundle exec mdl .
       - run:
           name: 🧹 Run Reek
           command: |

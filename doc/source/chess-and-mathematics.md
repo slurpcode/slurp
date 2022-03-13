@@ -79,7 +79,7 @@ There are many curious data around the mathematics applied in this game, among w
 
 This number was estimated by Claude Shannon through a statistical average, where it is established that each player has an average of 30 choices in each movement and must be calculated for two players. We also start from the average of 40 moves in each game, so the Shannon number is calculated as follows:
 
-`〖(30*30)〗^40= 900^40≈10^120  `
+`〖(30*30)〗^40= 900^40≈10^120`
 
 Today the approximations to the Shannon number are close to the value 10123, to get an idea of how immense this number we can take into account that the number of atoms in the universe is estimated at a number around 1080, therefore, it is shocking to know that there is a greater possibility of obtaining different and unique chess games, than atoms in the universe.
 

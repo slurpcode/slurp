@@ -84,7 +84,7 @@ The first leg of the event takes place from February 3 to February 17 at Berlin.
 |***Russia*** |***Grigoriy Oparin*** |***2681*** |
 |***Germany*** |***Vincent Keymer*** |***2664*** |
 |***France*** |***Etienne Bacrot*** |***2642*** |
-***\*Andrey Esipenko and Radoslaw Wojtaszek[ replaced ](https://www.chess.com/news/view/ding-liren-fide-grand-prix-2022)Ding Liren and Dmitry Andreikin***
+***\*Andrey Esipenko and Radoslaw Wojtaszek[replaced](https://www.chess.com/news/view/ding-liren-fide-grand-prix-2022)Ding Liren and Dmitry Andreikin***
 
 ## -SECOND LEG
 

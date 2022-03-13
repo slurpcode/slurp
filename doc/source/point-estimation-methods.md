@@ -3,6 +3,7 @@
 In the previous article we could see how the estimators support through the maximum likelihood method. But now we are going to study another method to obtain point estimators and it is the moment method.
 
 ## Moment Method
+
 The idea of this method is to match the population characteristics with the corresponding sample characteristics. Suppose we have a random variable x that has a point probability function for the discrete case p(x) or for the continuous case f(x) with a density function. We will call the moment of order k or population moment E(x^k), if the hopes exist.
 
 When studying the moment-generating function for a random variable. We can see that the moments are related to the parameters that are part of an associated distribution.
@@ -19,12 +20,12 @@ On the left side of the equation we have the population moments and they are equ
 
 If we have a single parameter, we only have to find the first population moment and we will have a single equation:
 
-`E(x) = 1/n ∑_(i=1)^n▒x_i `
+`E(x) = 1/n ∑_(i=1)^n▒x_i`
 
 But given the case that we have two parameters, we must solve the system of equations between the first population moment and the second population moment:
 
 1st population moment:
-`E(x) = 1/n ∑_(i=1)^n▒x_i `
+`E(x) = 1/n ∑_(i=1)^n▒x_i`
 
 2nd population moment:
 `E(x^2)=  1/n ∑_(i=1)^n▒〖x_i〗^2`
@@ -52,7 +53,7 @@ Since x is the square of the result, the values that the random variable will ta
 
 According to the mathematical expectation formula, we must carry out the summation of the multiplication of the values that x takes multiplied by its probability, that is:
 
-`E(x) = ∑▒〖x.P(x)〗 = 1. 1/6 + 4.  1/6 + 9. 1/6 + 16. 1/6 + 25.  1/6 + 36.  1/6 `
+`E(x) = ∑▒〖x.P(x)〗 = 1. 1/6 + 4.  1/6 + 9. 1/6 + 16. 1/6 + 25.  1/6 + 36.  1/6`
 
 `E(x) = 91/6 ≈ 15.17`
 
@@ -114,7 +115,7 @@ Once we have the expected value, I will choose a random sample from my populatio
 
 It is important to take into account that a circumflex is placed on θ ̂ because it is already being considered as an estimator, now it only remains to clear θ ̂
 
-`θ ̂=  X ̅/(1- X ̅ ) `
+`θ ̂=  X ̅/(1- X ̅ )`
 
 We now go with a second example of the method of moments with two parameters: suppose that we have a random variable whose distribution is normal N (μ, σ) where μ is the mean and has a standard direction σ. As we already know, the expected value for the first moment is the mean and therefore:
 
@@ -132,7 +133,7 @@ Equating the first moment with the sample average and the second moment with the
 
 As we can see, we have two equations with two unknowns, since we have two parameters in this exercise. Being our unknowns the parameters μ and σ. If we substitute equation (1) in (2) we have:
 
-`X ̅^2+ σ^2=  1/n  ∑_(i=1)^n▒X_i^2   `
+`X ̅^2+ σ^2=  1/n  ∑_(i=1)^n▒X_i^2`
 
 `σ^2=  1/n  ∑_(i=1)^n▒X_i^2 - X ̅^2`
 
@@ -145,7 +146,7 @@ It is important to emphasize that it is not just any factorization, since many w
 On the other hand, we can realize that the right side of the equation is nothing more than the variance of the non-grouped data, so substituting we have:
 
 `σ ̂^2= S^2`
-`μ= X ̅ `
+`μ= X ̅`
 
 So we already have the value of the two parameters
 
@@ -238,7 +239,7 @@ The idea of this type of problem is not precisely to test a numerical value for 
 
 Another way of dealing with hypothesis testing is through the equality of variance or mathematical expectations between possible different populations.
 
-**Hypothesis testing regarding proportions**
+# Hypothesis testing regarding proportions
 
 It is important to find the ideal method when carrying out a hypothesis test, for the case we are studying, where we want to test the population proportion. We are going to keep the assumption about the rule of rejection determined a priori, which is if the estimator of the sample proportion after the advertising campaign is equal to or greater than 0.07.
 
