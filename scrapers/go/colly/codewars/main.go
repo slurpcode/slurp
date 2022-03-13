@@ -37,9 +37,10 @@ func scrape(username string) {
 	var record []string
 	c := colly.NewCollector(
 		colly.AllowedDomains(allowed),
-		//colly.CacheDir(""),
+		// colly.CacheDir(""),
 	)
-	_ = c.Limit(&colly.LimitRule{
+
+	err := c.Limit(&colly.LimitRule{
 		// Filter domains affected by this rule
 		DomainGlob: "codewars.com/*",
 		// Set a delay between requests to these domains
@@ -47,6 +48,10 @@ func scrape(username string) {
 		// Add an additional random delay
 		RandomDelay: 1 * time.Second,
 	})
+
+	if err != nil {
+		log.Fatal(err)
+	}
 	c.OnRequest(func(r *colly.Request) {
 		fmt.Println("Visiting", r.URL)
 	})
@@ -69,6 +74,11 @@ func scrape(username string) {
 		record = append(record, strings.Replace(e.Text, ",", "", -1))
 	})
 	// Start scraping on https://www.codewars.com
-	_ = c.Visit(fmt.Sprintf(url, allowed, username))
+	err = c.Visit(fmt.Sprintf(url, allowed, username))
+
+	if err != nil {
+                log.Fatal(err)
+        }
+
 	fmt.Println(record)
 }
