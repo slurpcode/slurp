@@ -97,7 +97,7 @@ Once the value of k is known, we can find the mathematical expectation
 
 Once we know how to calculate the mathematical expectation, we can carry out a population moment exercise.
 
-## Exercise 1 Of Moments:
+## Exercise 1 Of Moments
 
 Let x be a random variable with a probability density function that is given by:
 

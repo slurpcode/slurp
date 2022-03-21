@@ -6,8 +6,6 @@ This tournament is bifurcated in three legs (Berlin and Belgrade will host these
 
 ## -PLAYERS
 
-
-
 |**Country** |**Player** |**Qualification Method** |**Rating** |
 | - | - | - | - |
 |***China*** |***Ding Liren*** |***Rating*** |***2799*** |
@@ -39,7 +37,6 @@ This tournament is bifurcated in three legs (Berlin and Belgrade will host these
 
 ***Each player will earn points for their individual performance which will be added to decide the final standings.**
 
-
 |**Place in each Tournament** |**Grand Prix Points** |
 | - | - |
 |**Winner** |**13** |
@@ -59,12 +56,9 @@ Any ties, either in the group or knockout stage, are broken in rapid games (15 m
 
 The first leg of the event takes place from February 3 to February 17 at Berlin. Rounds start at 6 a.m. PST/15:00 CET.
 
-
 ![Fide Grand Prix 2022](_static/images/fide-grand-prix-2022/fide-grand-prix-2022.jpeg)
 
 (16 Participants of FIDE Grand Prix Berlin. Image credits: FIDE)
-
-
 
 |**Country** |**Player** |**Rating** |
 | - | - | - |
@@ -90,7 +84,6 @@ The first leg of the event takes place from February 3 to February 17 at Berlin.
 
 The Second leg will be held in Belgrade.
 
-
 |**Country** |**Player** |**Rating** |
 | - | - | - |
 |***China*** |***Ding Liren*** |***2799*** |
@@ -114,7 +107,6 @@ The Second leg will be held in Belgrade.
 
 Third leg will be held in Berlin, Germany.
 
-
 |**Country** |**Player** |**Rating** |
 | - | - | - |
 |***Netherlands*** |***Anish Giri*** |***2772*** |
@@ -137,7 +129,6 @@ Third leg will be held in Berlin, Germany.
 ## -Prize Fund
 
 Each tournament has a monetary prize fund of 150,000 Euros which will be distributed as tabulated below.
-
 
 |**Place in Tournament** |**Prize** |
 | - | - |

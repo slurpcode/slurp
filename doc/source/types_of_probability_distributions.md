@@ -16,7 +16,6 @@ The density function is a way of describing the probability distribution in the 
 
 Researchers are concerned with building probability distribution models that are capable of representing the theoretical behavior of those random phenomena that arise in the real world. For the empirical scientist, modeling probability distributions of what is observable is a basic need, since it is through these models or theoretical constructions that it can be experienced in circumstances where reality does not allow it. Models are extremely useful as long as they reflect the reality they are intended to represent or rather predict. The important thing is to exacerbate the most important properties of everything that surrounds us, even if it is through the simplification that every model brings with it.
 
-
 Different types of probability distribution
 
 The probability distributions will depend on the type of variable, so we will begin by explaining the different types of distribution for a discrete variable, that is, whose values are integers. But in turn, the different types of probabilistic distribution for a discrete variable are subdivided into: Variables defined in a finite domain or in an infinite domain.
@@ -44,7 +43,6 @@ Probability distributions for discrete variables in a finite domain:
 10- The Benford distribution: In this distribution you can see the frequency of the first digit of a set or group of numbers, which are found in decimal notation.
 
 In later articles we will dedicate ourselves to the distributions for continuous variables, but now we will go on to explain in detail with a worked example, the main probability distributions that are used in discrete variables.
-
 
 The Binomial distribution:
 

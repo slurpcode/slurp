@@ -61,7 +61,7 @@ This type of distribution is quite flexible when it comes to modeling the shapes
 
 ![Fibers of wool](_static/images/continuous-probability-distribution/image3.jpg)
 
-## Disadvantages Of Gamma Distribution:
+## Disadvantages Of Gamma Distribution
 
 This distribution can become somewhat difficult to calculate in the case that the parameter α is not an integer value and the calculation of the estimation of sample parameters can also be complicated. However, these types of drawbacks can be remedied using computers when performing calculations.
 

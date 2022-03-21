@@ -114,7 +114,7 @@ As the statement of the exercise urges us to test if the median "is equal to" an
 
 `Ha ≠ 22.5`
 
-The simplest way is to test the null hypothesis is to compare it with the given value and that it is based on the sample of size n. Then each value of the sample that is greater than 〖Med〗 _0 is replaced by the sign (+), while each value of the sample less than 〖Med〗 _0 is replaced by the sign (-). In other words, each of the sample values are compared with 22.5 and if they are greater we will denote them with a sign (+), while if they are less we will place a sign (-) and those values equal to 22, 5 should be completely ignored.
+The simplest way is to test the null hypothesis is to compare it with the given value and that it is based on the sample of size n. Then each value of the sample that is greater than 〖Med〗 _0 is replaced by the sign (+), while each value of the sample less than 〖Med〗_0 is replaced by the sign (-). In other words, each of the sample values are compared with 22.5 and if they are greater we will denote them with a sign (+), while if they are less we will place a sign (-) and those values equal to 22, 5 should be completely ignored.
 
 |Weight (Kg)| Sign|
 |:----:|:----:|
@@ -256,7 +256,7 @@ When the size of the samples is large enough to determine through hypothesis tes
 
 In the case that the size of the samples cannot determine with certainty if the populations are distributed in a normal way and there is not much information available that can give us some guidance, with respect to the nature of the origin of these populations through previous studies or having prior knowledge that the variable is generally distributed in a normal way, it is best to use the Wilcoxon signed-rank test, since it does not need to assume the normality of the populations.
 
-## Main Characteristics Of The Wilcoxon Signed-Rank Test:
+## Main Characteristics Of The Wilcoxon Signed-Rank Test
 
 In many publications it is common to find the assertion that the Wilcoxon signed-rank test contrasts the median of the differences, but this is true only under certain circumstances, since what the Wilcoxon signed-rank test really does is to compare the existing differences between the pairs of data that manage to follow a symmetric distribution around a certain value. For example, when two samples come from the same population, what is expected is that the differences that exist between each pair of observations, are distributed around zero symmetrically.
 

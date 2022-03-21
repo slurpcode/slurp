@@ -42,11 +42,11 @@ popularity of the vacuum tube by Lee De Forest and others had made his spark-gen
 
 ## Next topic: Optophonic Piano
 
-## Sources :
+## Sources
 
 - Wikipedia / 120years.net / Sothismedias
 
-## About the author:
+## About the author
 
 "Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical
 expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional
