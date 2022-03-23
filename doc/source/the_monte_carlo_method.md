@@ -104,7 +104,7 @@ We can realize that we have 666 points under the curve and as we know the total 
 
 (number of points under the function) / (number of points in total) = 666/1000 = 0.666
 
-This calculation indicates that 66.60% of the points are below the function 
+This calculation indicates that 66.60% of the points are below the function
 
 y= √x
 
@@ -191,7 +191,7 @@ Although this exercise can be calculated very easily in the traditional way, we 
 
 ![Dentist](_static/images/the_monte_carlo_method/dentist.jpg)
 
-The first two columns are data provided by the empirical count, but already in column “C” we will have to find the relative frequency of the days and for this, it will be necessary to divide the absolute frequency by the total 
+The first two columns are data provided by the empirical count, but already in column “C” we will have to find the relative frequency of the days and for this, it will be necessary to divide the absolute frequency by the total
 number of days, which in this case is 200.
 
 Now, in Excel I must freeze the data of the total of days, since it is common for all the relative frequencies. This is achieved by placing the “$” symbol between “B” that indicates the column where this data is located and the “7” that indicates the row. So cell C2 will be as follows: = B2 / B $ 8, in this way we can drag the formula, without changing the data for the total number of days found in cell “B8”.
