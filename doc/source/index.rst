@@ -98,7 +98,6 @@ Welcome to slurp's documentation!
    electro.md
    goa.md
    hardcore.md
-   helmholtz-sound-synthesiser.md
    house.md
    idm.md
    jungle_drum_bass.md
@@ -133,7 +132,8 @@ Welcome to slurp's documentation!
    radio_harmonium.md
    pianorad.md
    keyboard_electric_harmonium.md
-   clavecin_electrique.md
+   clavecin_electrique.md   
+   helmholtz-sound-synthesiser.md
    choralcelo.md
    audion_piano.md
    sound_producing_device.md
