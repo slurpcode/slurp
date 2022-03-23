@@ -45,8 +45,10 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    anderson_darling_test.md
+   analysis-of-variance.md
    bayes.md
    block_design.md
+   black-sholes-model.md
    common-errors.md
    continuous-probability-distribution.md
    curiosities.md
@@ -56,6 +58,8 @@ Welcome to slurp's documentation!
    free-distribution-testing.md
    frequentist.md
    gauss-jordan.md
+   graphic_schema_theory.md
+   kendalls-correlation-coefficient.md
    long-term-behavior-of-markov.md
    markov-chains.md
    negative_binomial_distribution.md
@@ -69,6 +73,7 @@ Welcome to slurp's documentation!
    standard-deviation.md
    statistical-estimation.md
    tests_to_see_if_the_data_meet_a_normal_distribution.md
+   the_monte_carlo_method.md
    types_of_probability_distributions.md
 
 .. toctree::
@@ -110,18 +115,28 @@ Welcome to slurp's documentation!
    :caption: Early Instruments
    :maxdepth: 2
 
+   electronic_musical_instrument.md
    denis-dor.md
    electromechanical_piano.md
    musical-telegraph.md
-   singing-arc.md
    telharmonium.md
+   singing-arc.md
+   wireless-organ.md
    optophonic_piano.md
    synthetic_tone.md
    electrophon.md
    hugoniot_organ.md
    theremin.md
    staccatone.md
-   wireless-organ.md
+   spharophon.md
+   the_luminaphone.md
+   radio_harmonium.md
+   pianorad.md
+   keyboard_electric_harmonium.md
+   clavecin_electrique.md
+   choralcelo.md
+   audion_piano.md
+   sound_producing_device.md
 
 .. toctree::
    :caption: Cities
@@ -257,6 +272,7 @@ Welcome to slurp's documentation!
    bobby-fischer.md
    boris_spassky.md
    chess-and-mathematics.md
+   chess_addiction.md
    effect_of_modern_chess_engines_on_professional_chess_players.md
    elo_rating.md
    fide-grand-prix-2022.md
