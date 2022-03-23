@@ -1,45 +1,46 @@
 #!/usr/bin/env ruby
 
-require 'date'
-require 'fileutils'
-require 'nokogiri'
-require 'optparse'
-require 'optparse/time'
-require 'paint'
+require "date"
+require "fileutils"
+require "nokogiri"
+require "optparse"
+require "optparse/time"
+require "paint"
 # require 'pp'
-require 'time'
+require "time"
 
 # Custom OptionParser class
 class Parser
-  VERSION = '1.0.0'
+  VERSION = "1.0.0"
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
     attr_accessor :path, :delay, :time
 
-    def initialize; end
+    def initialize
+    end
 
     def define_options(parser)
       parser.banner =
-        "Usage: #{Paint['ruby-cheatsheets-to-dita.rb [options]', :red, :white]}"
-      parser.separator ''
-      parser.separator 'Specific options:'
+        "Usage: #{Paint["ruby-cheatsheets-to-dita.rb [options]", :red, :white]}"
+      parser.separator ""
+      parser.separator "Specific options:"
 
       # add additional options
       specify_path_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
 
-      parser.separator ''
-      parser.separator 'Common options:'
+      parser.separator ""
+      parser.separator "Common options:"
       # No argument, shows at tail.  This will print an options summary.
       # Try it and see!
-      parser.on_tail('-h', '--help', 'Show this message') do
+      parser.on_tail("-h", "--help", "Show this message") do
         puts parser
         exit
       end
       # Another typical switch to print the version.
-      parser.on_tail('--version', 'Show version') do
+      parser.on_tail("--version", "Show version") do
         puts VERSION
         exit
       end
@@ -47,16 +48,16 @@ class Parser
 
     def specify_path_option(parser)
       parser.on(
-        '-p',
-        '--path path',
+        "-p",
+        "--path path",
         'Enter the directory or path relative to this
                                      directory to the cheatsheets XML test data: '
-      ){|p| self.path = p}
+      ) { |p| self.path = p }
     end
 
     def delay_execution_option(parser)
       # Cast 'delay' argument to a Float.
-      parser.on('--delay N', Float, 'Delay N seconds before executing') do |n|
+      parser.on("--delay N", Float, "Delay N seconds before executing") do |n|
         self.delay = n
       end
     end
@@ -64,11 +65,11 @@ class Parser
     def execute_at_time_option(parser)
       # Cast 'time' argument to a Time object.
       parser.on(
-        '-t',
-        '--time [TIME]',
+        "-t",
+        "--time [TIME]",
         Time,
-        'Begin execution at given time'
-      ){|time| self.time = time}
+        "Begin execution at given time"
+      ) { |time| self.time = time }
     end
   end
 
@@ -105,7 +106,7 @@ directory to the cheatsheets XML test data: '
 end
 
 def create_path(path)
-  path.tr('\\', '/')
+  path.tr("\\", "/")
 end
 
 def create_dita(path)
@@ -116,7 +117,7 @@ def create_dita(path)
     satc_composite.xml
   ]
 
-  n = 'NoPrint'
+  n = "NoPrint"
 
   stylesheet =
     "<xsl:stylesheet
@@ -234,7 +235,7 @@ def create_dita(path)
     <othermeta name=\"type\" content=\"Naval\"/>
   </topicmeta>"
 
-  FileUtils.mkdir_p('output/dita')
+  FileUtils.mkdir_p("output/dita")
   Dir.glob("#{path}/**/*_composite.xml").sort_by do |x|
     order.index(File.basename(x))
   end.each do |filename|
@@ -242,14 +243,14 @@ def create_dita(path)
     template = Nokogiri.XSLT(stylesheet)
     ditamap +=
       "
-  <topicref href=\"dita/#{File.basename(filename, '.*')}.dita\" type=\"task\"/>"
+  <topicref href=\"dita/#{File.basename(filename, ".*")}.dita\" type=\"task\"/>"
     transformed_document = template.transform(document)
-    File.write("output/dita/#{File.basename(filename, '.*')}.dita", transformed_document)
+    File.write("output/dita/#{File.basename(filename, ".*")}.dita", transformed_document)
   end
 
   ditamap += '
 </map>'
-  File.write('output/map.ditamap', ditamap)
+  File.write("output/map.ditamap", ditamap)
   puts ditamap
 end
 
