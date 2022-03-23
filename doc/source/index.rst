@@ -132,7 +132,7 @@ Welcome to slurp's documentation!
    radio_harmonium.md
    pianorad.md
    keyboard_electric_harmonium.md
-   clavecin_electrique.md   
+   clavecin_electrique.md
    helmholtz-sound-synthesiser.md
    choralcelo.md
    audion_piano.md
