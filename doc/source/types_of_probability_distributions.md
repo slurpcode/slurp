@@ -106,7 +106,7 @@ We will consider a success when rolling the grade is obtained a 3 and a failure 
 
 - X = 0 when rolling the die does not get a 3
 - X = 1 If we roll the dice and we get a 3
-We are now going to assign the probabilities of obtaining a 3:
+  We are now going to assign the probabilities of obtaining a 3:
 
 ![formula](_static/images/types_of_probability_distributions/formula_4.PNG)
 
@@ -238,7 +238,7 @@ Let's establish this mathematically:
 
 There is a total of ![formula](_static/images/types_of_probability_distributions/s_1.PNG) Different ways to get x amount of results of type A and also (nx) results of type A ̅, When we start from a population that is made up of Np amount of elements of type A together with Nq quantity of elements of type A ̅.
 
-On the other hand, when we carry out n quantity of extractions or tests there are a total of ![formula](_static/images/types_of_probability_distributions/s_2.PNG)  groups of n elements of possible samples and if we apply Laplace's rule we will have:
+On the other hand, when we carry out n quantity of extractions or tests there are a total of ![formula](_static/images/types_of_probability_distributions/s_2.PNG) groups of n elements of possible samples and if we apply Laplace's rule we will have:
 
 ![formula](_static/images/types_of_probability_distributions/formula_20.PNG)
 
@@ -262,7 +262,7 @@ This coefficient becomes smaller as the sample size is larger and it can be seen
 
 When we calculate the limit of a hypergeometric distribution in the case that N tends to infinity, we can say that just as we have seen that the mean of this type of hypergeometric distribution takes the same value as the mean calculated in a binomial distribution. We can also say that if the parameter N approaches infinity, the so-called exhaustiveness coefficient tends to 1 and that is why the hypergeometric variance approaches the binomial. In the same way, it can be proved that the quantum function in this case (N → ∞) of the hypergeometric distribution also tends to approximate the quantum function of the binomial distribution.
 
- The mode of a hypergeometric distribution
+The mode of a hypergeometric distribution
 
 In the same way as the mode is obtained in a binomial distribution, we can obtain the mode for a hypergeometric distribution. So the values or the integer value that is verified for the following expression Xo will give us the expected calculation:
 
@@ -344,4 +344,4 @@ P (study the same) = P (Y = 3) + P (Y = 0) ≅ 0.05495 + 0.15385 ≅ 0.2088
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
