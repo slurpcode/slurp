@@ -8,42 +8,42 @@
  */
 gdjs.SceneStack = function(runtimeGame) {
     if (!runtimeGame) {
-    	throw "SceneStack must be constructed with a gdjs.RuntimeGame."
+        throw "SceneStack must be constructed with a gdjs.RuntimeGame."
     }
 
     this._runtimeGame = runtimeGame;
 
     /** @type gdjs.RuntimeScene[] */
-	this._stack = [];
+    this._stack = [];
 };
 
 gdjs.SceneStack.prototype.onRendererResized = function() {
-	for(var i = 0;i < this._stack.length; ++i) {
-		this._stack[i].onCanvasResized();
-	}
+    for(var i = 0;i < this._stack.length; ++i) {
+        this._stack[i].onCanvasResized();
+    }
 };
 
 gdjs.SceneStack.prototype.step = function(elapsedTime) {
-	if (this._stack.length === 0) return false;
+    if (this._stack.length === 0) return false;
 
-	var currentScene = this._stack[this._stack.length - 1];
+    var currentScene = this._stack[this._stack.length - 1];
     if (currentScene.renderAndStep(elapsedTime)) {
-    	var request = currentScene.getRequestedChange();
+        var request = currentScene.getRequestedChange();
         //Something special was requested by the current scene.
         if (request === gdjs.RuntimeScene.STOP_GAME) {
             this._runtimeGame.getRenderer().stopGame();
             return true;
         } else if (request === gdjs.RuntimeScene.POP_SCENE) {
-        	this.pop();
+            this.pop();
         } else if (request === gdjs.RuntimeScene.PUSH_SCENE) {
-        	this.push(currentScene.getRequestedScene());
+            this.push(currentScene.getRequestedScene());
         } else if (request === gdjs.RuntimeScene.REPLACE_SCENE) {
             this.replace(currentScene.getRequestedScene());
         } else if (request === gdjs.RuntimeScene.CLEAR_SCENES) {
-        	this.replace(currentScene.getRequestedScene(), true);
+            this.replace(currentScene.getRequestedScene(), true);
         } else {
-        	console.error("Unrecognized change in scene stack.");
-        	return false;
+            console.error("Unrecognized change in scene stack.");
+            return false;
         }
     }
 
@@ -51,16 +51,16 @@ gdjs.SceneStack.prototype.step = function(elapsedTime) {
 };
 
 gdjs.SceneStack.prototype.renderWithoutStep = function(elapsedTime) {
-	if (this._stack.length === 0) return false;
+    if (this._stack.length === 0) return false;
 
-	var currentScene = this._stack[this._stack.length - 1];
+    var currentScene = this._stack[this._stack.length - 1];
     currentScene.render(elapsedTime);
 
     return true;
 };
 
 gdjs.SceneStack.prototype.pop = function() {
-	if (this._stack.length <= 1) return null;
+    if (this._stack.length <= 1) return null;
 
     // Unload the current scene
     var scene = this._stack.pop();
@@ -72,7 +72,7 @@ gdjs.SceneStack.prototype.pop = function() {
         currentScene.onResume();
     }
 
-	return scene;
+    return scene;
 };
 
 gdjs.SceneStack.prototype.push = function(newSceneName, externalLayoutName) {
@@ -98,7 +98,7 @@ gdjs.SceneStack.prototype.push = function(newSceneName, externalLayoutName) {
 };
 
 gdjs.SceneStack.prototype.replace = function(newSceneName, clear) {
-	if (!!clear) {
+    if (!!clear) {
         // Unload all the scenes
         while (this._stack.length !== 0) {
             var scene = this._stack.pop();
@@ -112,14 +112,14 @@ gdjs.SceneStack.prototype.replace = function(newSceneName, clear) {
         }
     }
 
-	return this.push(newSceneName);
+    return this.push(newSceneName);
 };
 
 /**
  * Return the current gdjs.RuntimeScene being played, or null if none is run.
  */
 gdjs.SceneStack.prototype.getCurrentScene = function() {
-	if (this._stack.length === 0) return null;
+    if (this._stack.length === 0) return null;
 
-	return this._stack[this._stack.length - 1];
+    return this._stack[this._stack.length - 1];
 };

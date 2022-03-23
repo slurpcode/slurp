@@ -28,8 +28,8 @@ gdjs.SpriteAnimationFrame = function(imageManager, frameData)
     else this.points.clear();
 
     //Initialize points:
-	for(var i = 0, len = frameData.points.length;i<len;++i) {
-		var ptData = frameData.points[i];
+    for(var i = 0, len = frameData.points.length;i<len;++i) {
+        var ptData = frameData.points[i];
 
         var point = {x:parseFloat(ptData.x), y:parseFloat(ptData.y)};
         this.points.put(ptData.name, point);
@@ -51,14 +51,14 @@ gdjs.SpriteAnimationFrame = function(imageManager, frameData)
     //Load the custom collision mask, if any:
     if ( frameData.hasCustomCollisionMask ) {
         this.hasCustomHitBoxes = true;
-    	for(var i = 0, len = frameData.customCollisionMask.length;i<len;++i) {
-    		var polygonData = frameData.customCollisionMask[i];
+        for(var i = 0, len = frameData.customCollisionMask.length;i<len;++i) {
+            var polygonData = frameData.customCollisionMask[i];
 
             //Add a polygon, if necessary (Avoid recreating a polygon if it already exists).
             if ( i >= this.customHitBoxes.length ) this.customHitBoxes.push(new gdjs.Polygon());
 
-        	for(var j = 0, len2 = polygonData.length;j<len2;++j) {
-        		var pointData = polygonData[j];
+            for(var j = 0, len2 = polygonData.length;j<len2;++j) {
+                var pointData = polygonData[j];
 
                 //Add a point, if necessary (Avoid recreating a point if it already exists).
                 if ( j >= this.customHitBoxes[i].vertices.length )
@@ -85,10 +85,10 @@ gdjs.SpriteAnimationFrame = function(imageManager, frameData)
  * @return The requested point.
  */
 gdjs.SpriteAnimationFrame.prototype.getPoint = function(name) {
-	if ( name == "Centre" || name == "Center") return this.center;
-	else if ( name == "Origin" ) return this.origin;
+    if ( name == "Centre" || name == "Center") return this.center;
+    else if ( name == "Origin" ) return this.origin;
 
-	return this.points.containsKey(name) ? this.points.get(name) : this.origin;
+    return this.points.containsKey(name) ? this.points.get(name) : this.origin;
 };
 
 /**
@@ -153,14 +153,14 @@ gdjs.SpriteAnimation = function(imageManager, animData)
  */
 gdjs.SpriteRuntimeObject = function(runtimeScene, objectData)
 {
-	gdjs.RuntimeObject.call( this, runtimeScene, objectData );
+    gdjs.RuntimeObject.call( this, runtimeScene, objectData );
 
     this._currentAnimation = 0;
     this._currentDirection = 0;
     this._currentFrame = 0;
     this._frameElapsedTime = 0;
     this._animationSpeedScale = 1;
-	this._animationPaused = false;
+    this._animationPaused = false;
     this._scaleX = 1;
     this._scaleY = 1;
     this._blendMode = 0;

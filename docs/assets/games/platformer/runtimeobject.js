@@ -75,8 +75,8 @@ gdjs.RuntimeObject = function(runtimeScene, objectData)
     else
         this._behaviorsTable.clear();
 
-	for(var i = 0, len = objectData.behaviors.length;i<len;++i) {
-		var autoData = objectData.behaviors[i];
+    for(var i = 0, len = objectData.behaviors.length;i<len;++i) {
+        var autoData = objectData.behaviors[i];
         var Ctor = gdjs.getBehaviorConstructor(autoData.type);
 
         //Try to reuse already existing behaviors.

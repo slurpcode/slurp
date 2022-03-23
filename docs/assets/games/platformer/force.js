@@ -27,14 +27,14 @@ gdjs.Force = function(x,y, multiplier)
  * Returns the X component of the force.
  */
 gdjs.Force.prototype.getX = function() {
-	return this._x;
+    return this._x;
 }
 
 /**
  * Returns the Y component of the force.
  */
 gdjs.Force.prototype.getY = function() {
-	return this._y;
+    return this._y;
 }
 
 /**
@@ -42,8 +42,8 @@ gdjs.Force.prototype.getY = function() {
  * @param {number} x The new X component
  */
 gdjs.Force.prototype.setX = function(x) {
-	this._x = x;
-	this._dirty = true;
+    this._x = x;
+    this._dirty = true;
 }
 
 /**
@@ -51,8 +51,8 @@ gdjs.Force.prototype.setX = function(x) {
  * @param {number} y The new Y component
  */
 gdjs.Force.prototype.setY = function(y) {
-	this._y = y;
-	this._dirty = true;
+    this._y = y;
+    this._dirty = true;
 }
 
 /**
@@ -61,15 +61,15 @@ gdjs.Force.prototype.setY = function(y) {
  */
 gdjs.Force.prototype.setAngle = function(angle) {
 
-	if ( this._dirty ) {
-		this._length = Math.sqrt(this._x*this._x+this._y*this._y);
-		this._dirty = false;
-	}
+    if ( this._dirty ) {
+        this._length = Math.sqrt(this._x*this._x+this._y*this._y);
+        this._dirty = false;
+    }
 
-	this._angle = angle;
-	var angleInRadians = angle/180*Math.PI;
-	this._x = Math.cos(angleInRadians)*this._length;
-	this._y = Math.sin(angleInRadians)*this._length;
+    this._angle = angle;
+    var angleInRadians = angle/180*Math.PI;
+    this._x = Math.cos(angleInRadians)*this._length;
+    this._y = Math.sin(angleInRadians)*this._length;
 }
 
 /**
@@ -78,29 +78,29 @@ gdjs.Force.prototype.setAngle = function(angle) {
  */
 gdjs.Force.prototype.setLength = function(len) {
 
-	if ( this._dirty ) {
-		this._angle = Math.atan2(this._y, this._x)*180/Math.PI;
-		this._dirty = false;
-	}
+    if ( this._dirty ) {
+        this._angle = Math.atan2(this._y, this._x)*180/Math.PI;
+        this._dirty = false;
+    }
 
-	this._length = len;
-	var angleInRadians = this._angle/180*Math.PI;
-	this._x = Math.cos(angleInRadians)*this._length;
-	this._y = Math.sin(angleInRadians)*this._length;
+    this._length = len;
+    var angleInRadians = this._angle/180*Math.PI;
+    this._x = Math.cos(angleInRadians)*this._length;
+    this._y = Math.sin(angleInRadians)*this._length;
 }
 
 /**
  * Get the angle of the force
  */
 gdjs.Force.prototype.getAngle = function() {
-	if ( this._dirty ) {
-		this._angle = Math.atan2(this._y, this._x)*180/Math.PI;
-		this._length = Math.sqrt(this._x*this._x+this._y*this._y);
+    if ( this._dirty ) {
+        this._angle = Math.atan2(this._y, this._x)*180/Math.PI;
+        this._length = Math.sqrt(this._x*this._x+this._y*this._y);
 
-		this._dirty = false;
-	}
+        this._dirty = false;
+    }
 
-	return this._angle;
+    return this._angle;
 }
 
 
@@ -108,21 +108,21 @@ gdjs.Force.prototype.getAngle = function() {
  * Get the length of the force
  */
 gdjs.Force.prototype.getLength = function() {
-	if ( this._dirty ) {
-		this._angle = Math.atan2(this._y, this._x)*180/Math.PI;
-		this._length = Math.sqrt(this._x*this._x+this._y*this._y);
+    if ( this._dirty ) {
+        this._angle = Math.atan2(this._y, this._x)*180/Math.PI;
+        this._length = Math.sqrt(this._x*this._x+this._y*this._y);
 
-		this._dirty = false;
-	}
+        this._dirty = false;
+    }
 
-	return this._length;
+    return this._length;
 };
 
 /**
  * Return 1 (true) if the force is permanent, 0 (false) if it is instant.
  */
 gdjs.Force.prototype.getMultiplier = function() {
-	return this._multiplier;
+    return this._multiplier;
 };
 
 /**
@@ -130,5 +130,5 @@ gdjs.Force.prototype.getMultiplier = function() {
  * @param {number} multiplier The new value
  */
 gdjs.Force.prototype.setMultiplier = function(multiplier) {
-	this._multiplier = multiplier;
+    this._multiplier = multiplier;
 };
