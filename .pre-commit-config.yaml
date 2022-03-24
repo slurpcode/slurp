@@ -37,11 +37,11 @@ repos:
     hooks:
       - id: black
         name: Run black on Python files
-  #- repo: https://github.com/asottile/dead
-  #  rev: v1.4.0
-  #  hooks:
-  #    - id: dead
-  #      name: Dead simple python dead code detection
+  - repo: https://github.com/asottile/dead
+    rev: v1.4.0
+    hooks:
+      - id: dead
+        name: Dead simple python dead code detection
   - repo: https://github.com/asottile/reorder_python_imports
     rev: v2.7.1
     hooks:
@@ -49,7 +49,7 @@ repos:
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 2.1.5
     hooks:
-      # - id: markdownlint # Configure in .mdlrc
+      - id: markdownlint # Configure in .mdlrc
       - id: reek
       - id: rubocop
       - id: shellcheck
