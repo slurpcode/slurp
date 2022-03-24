@@ -74,7 +74,7 @@ If we place the mouse pointer over any of the points and click on the right butt
 
 ![Table](_static/images/correlation/table_5.jpg)
 
-R is our correlation coefficient, but as we see in the graph it is squared, if we solve for R, we will have to take the square root of 0.8992 and we will obtain the same correlation coefficient that Excel gave us at the beginning, that is: 
+R is our correlation coefficient, but as we see in the graph it is squared, if we solve for R, we will have to take the square root of 0.8992 and we will obtain the same correlation coefficient that Excel gave us at the beginning, that is:
 
 ![Table](_static/images/correlation/table_6.jpg)
 
@@ -94,10 +94,10 @@ y = 4,196 x 6 = 25,176 Kg.
 
 Spearman's correlation coefficient
 
-There is another correlation coefficient, which is equivalent but not parametric to Pearson's coefficient. This coefficient does not use direct data for its calculation as occurs with other types of non-parametric techniques, 
+There is another correlation coefficient, which is equivalent but not parametric to Pearson's coefficient. This coefficient does not use direct data for its calculation as occurs with other types of non-parametric techniques,
 but rather uses its transformation by ranges.
 
-So they can be used when the variables are quantitative or ordinal, but they do not meet the normality distribution. However, at the time of its interpretation it is very similar to the other correlation coefficients and its condition of being calculated by ranges, ultimately makes it less sensitive to extreme values than the 
+So they can be used when the variables are quantitative or ordinal, but they do not meet the normality distribution. However, at the time of its interpretation it is very similar to the other correlation coefficients and its condition of being calculated by ranges, ultimately makes it less sensitive to extreme values than the
 Pearson coefficient.
 
 Another advantage over the Pearson coefficient is that it only makes the correlation between both variables monotonous, in other words, when one variable increases the other variable also increases and in the same way it happens when they decrease.
@@ -165,13 +165,13 @@ In this coefficient we can observe two types of variants:
 
 What conditions are required for its application:
 
--	Can only be used starting from square boards
+- Can only be used starting from square boards
 
--	The variables that allow for their use are of the interval, ordinal or ratio type.
+- The variables that allow for their use are of the interval, ordinal or ratio type.
 
--	Your results are always between the values 1 and -1.
+- Your results are always between the values 1 and -1.
 
--	As we said before, this coefficient is used in those variables that do not have a normal population distribution, therefore when we want to determine the degree of correlation that may exist between two quantitative variables that do not follow normal behavior, this alternative is one of the more viable.
+- As we said before, this coefficient is used in those variables that do not have a normal population distribution, therefore when we want to determine the degree of correlation that may exist between two quantitative variables that do not follow normal behavior, this alternative is one of the more viable.
 
 Procedure to apply this correlation coefficient:
 
@@ -209,11 +209,11 @@ Then we must order the values of our independent variable (x), from lowest to hi
 
 ![Table](_static/images/correlation/table_16.jpg)
 
-How can we tell, both the dependent variable (y) and the range (x) were out of order, since both values always accompany the independent variable (x). 
+How can we tell, both the dependent variable (y) and the range (x) were out of order, since both values always accompany the independent variable (x).
 
 In other words, if we look at the initial table of values where we assign the range (x) and compare it with this last table, we will realize that the rows remain intact, only that they have a new order governed by the variable (x ).
 
-We are now going to calculate S, for this we must compare our values of "y" to see which of the subsequent values (below it) that are in the same column, are greater or less than that value. Those that are greater than the value of "y" that we are considering at that moment, will be our concordant data, while those less than "y" will be our discordant data. 
+We are now going to calculate S, for this we must compare our values of "y" to see which of the subsequent values (below it) that are in the same column, are greater or less than that value. Those that are greater than the value of "y" that we are considering at that moment, will be our concordant data, while those less than "y" will be our discordant data.
 
 To better clarify what has been said above, we will make a table with each value of "y" to compare it with the values of the lower cells, discarding the values of the upper cells.
 
@@ -239,4 +239,4 @@ Now, the correlation is inverse because it is negative and this implies that as 
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.

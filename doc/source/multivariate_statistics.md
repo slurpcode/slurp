@@ -14,9 +14,9 @@ When several characteristics of interest are measured for the same individual, t
 
 The main objectives of using multivariate techniques are:
 
-1) Simplification: The set of techniques that allow us to visualize and interpret large amounts of data, whether of individuals or variables, is what we call multivariate methods and we can understand them at a glance, thanks to the fact that they help us to reduce or simplify these data.
+1. Simplification: The set of techniques that allow us to visualize and interpret large amounts of data, whether of individuals or variables, is what we call multivariate methods and we can understand them at a glance, thanks to the fact that they help us to reduce or simplify these data.
 
-2) The relationship between variables: find the possible relationships that exist between individuals among themselves, the characteristics and between both.
+2. The relationship between variables: find the possible relationships that exist between individuals among themselves, the characteristics and between both.
 
 2.1.- Relationship between characteristics: It is possible to relate these variables when they have common characteristics, for example: we are going to suppose that mathematics, physics and chemistry tests are carried out on a certain group of high school students. If each student that makes up the sample obtains high marks, measures and low marks in the three tests, then we can conclude that there is a relationship between the tests of these three subjects. The characteristic that they could have in common is the measure of intelligence of the individual in general, for the beginning of a certain university career.
 
@@ -26,10 +26,10 @@ Although it is true that we start from the assumption that the variables are rel
 
 Classification of multivariate methods:
 
-1) Those motivated or directed by the variables: These methods are focused on the relationships between the variables, such as factor analysis, correlation matrices, principal component analysis, and regression analysis.
+1. Those motivated or directed by the variables: These methods are focused on the relationships between the variables, such as factor analysis, correlation matrices, principal component analysis, and regression analysis.
 
-2) Those motivated or directed to individuals: These methods focus on the relationships that exist between different individuals, for example: multivariate analysis of variance, discriminant analysis and cluster analysis.
-Multivariate exploratory analysis
+2. Those motivated or directed to individuals: These methods focus on the relationships that exist between different individuals, for example: multivariate analysis of variance, discriminant analysis and cluster analysis.
+   Multivariate exploratory analysis
 
 Descriptive and multivariate statistics describe the behavior of a group or set of data, where the most important are:
 
@@ -63,7 +63,7 @@ Let's explain a little the techniques used for multivariate analysis
 
 1. Dependency Methods:
 
-1.1.- The regression method allows us to investigate up to when the behavior of a variable can be predicted from 
+1.1.- The regression method allows us to investigate up to when the behavior of a variable can be predicted from
 another variable, for example, what economic benefits in a film can be obtained depending on production expenses and marketing expenses.
 
 1.2.- Canonical correlation analysis tries to analyze the possible relationships that exist between two groups of variables.
@@ -88,7 +88,7 @@ another variable, for example, what economic benefits in a film can be obtained 
 
 We are going to delve a little into each of the methods, how they are applied and we will include some solved exercises that help us better understand the method.
 
-1) Multiple regression analysis: Regression is used in research to model the relationships that exist between those variables that are capable of directly influencing a phenomenon in our reality. For example, an economist might be interested in verifying the relationship that exists between the financial indices of a certain company and a possible scenario of economic instability or, on the contrary, of financial equilibrium.
+1. Multiple regression analysis: Regression is used in research to model the relationships that exist between those variables that are capable of directly influencing a phenomenon in our reality. For example, an economist might be interested in verifying the relationship that exists between the financial indices of a certain company and a possible scenario of economic instability or, on the contrary, of financial equilibrium.
 
 In a much broader sense, regression is intended to model a set of data. In other words, the regression formula is used to approximate the relationship that exists between the variables, regression is used not only as a descriptive tool, but also as an inferential instrument.
 
@@ -102,7 +102,7 @@ In a gym, the weight and height measurements of some clients chosen at random ar
 
 ![Table](_static/images/multivariate_statistics/table_1.jpg)
 
-To do multivariate linear regression using Excel, we need to install the Data Analysis Add-in. For this, it will be necessary to open a new Excel sheet and pour our data into it, then we go to the upper menu in "file" and in the drop-down menu we will choose "options", a box opens and in the menu on the left we click on "add-ons", where again the add-on options on the right side of the box are opened, there we must select "tools for VBA analysis" 
+To do multivariate linear regression using Excel, we need to install the Data Analysis Add-in. For this, it will be necessary to open a new Excel sheet and pour our data into it, then we go to the upper menu in "file" and in the drop-down menu we will choose "options", a box opens and in the menu on the left we click on "add-ons", where again the add-on options on the right side of the box are opened, there we must select "tools for VBA analysis"
 and then go to the "go" button and press it.
 
 Another small box opens where we must enable the boxes corresponding to: "tools for analysis" and "tools for VBA analysis" and then click on the "accept" button. Once this procedure is done, we already have the main tool to do our multivariate linear regression.
@@ -195,12 +195,12 @@ When opening Statgraphics we find the following environment:
 ![Table](_static/images/multivariate_statistics/table_7.png)
 
 Where we can extract the data from Excel to avoid copying it again. The way to do it is to go to File → Open → Open data source → External data file → Browse → We look for the place where we have saved our data from exercise 2 in Excel and open it, immediately the empty cells will be filled with the data that we obtained in the sample and we can visualize them as follows:
- 
+
 As you can see, the names of the columns are brought with them from Excel, but if we are going to enter the data one by one, we must position ourselves at the beginning of the column and double-click, where the following box will appear:
- 
+
 In this window where it says "Name" we can identify our variable, in "Comment" we can place the units of the variable and at the bottom, where it says "Type" we must choose the corresponding box, that is, if the variable is numeric, character (for non-numeric variables), date, etc.
 
-A character type variable is, for example, gender or sex, which as we know is not a numeric variable, since it 
+A character type variable is, for example, gender or sex, which as we know is not a numeric variable, since it
 would correspond to female, male or others.
 
 Once we have entered all our data, it is advisable to save our file, for this we go to File → Save as → Save data as and a box opens where we can place the identifier name. It is important to take into account that by default, the program saves the file with an extension ".sgd", which comes from Statgraphics save data, but we can save it with other extensions, for example, as a text or Excel file.
@@ -245,7 +245,7 @@ The StatAdvisor
 
 The summary produced by the program shows the results of fitting a multiple linear regression model that describes the relationship between Y and the rest of the 4 independent variables. The fitted model equation is:
 
-Y = 36.9709 + 0.00502361 * X1 - 0.601445 * X2 + 0.193694 * X3 + 0.0710083 * X4
+Y = 36.9709 + 0.00502361 _ X1 - 0.601445 _ X2 + 0.193694 _ X3 + 0.0710083 _ X4
 
 Since the p-value is less than 0.05, there is a statistically significant relationship between the variables and also with a confidence level of 95.0%.
 
@@ -259,7 +259,7 @@ So far are the recommendations and analysis provided by the StatAdvisor of the S
 
 Let's go back to looking at the multivariate linear regression:
 
-Y = 36.9709 + 0.00502361 * X1 - 0.601445 * X2 + 0.193694 * X3 + 0.0710083 * X4
+Y = 36.9709 + 0.00502361 _ X1 - 0.601445 _ X2 + 0.193694 _ X3 + 0.0710083 _ X4
 
 By interpreting a little the coefficients that accompany each of our independent variables, we can also observe that the smallest of the coefficients is effectively the one that accompanies X1 and therefore, the least significant when it comes to influencing our dependent variable Y. It is therefore, the program recommends that we eliminate this variable from our model.
 
@@ -270,4 +270,4 @@ We can also realize that the next significant variable is the price of pork, sin
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
