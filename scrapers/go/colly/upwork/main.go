@@ -4,8 +4,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocolly/colly/v2"
 	"log"
+
+	"github.com/gocolly/colly/v2"
 )
 
 func main() {
@@ -31,5 +32,9 @@ func main() {
 
 	})
 	// Start scraping on https://www.upwork.com
-	_ = c.Visit(fmt.Sprintf(url, allowed, "johnbampton"))
+	err := c.Visit(fmt.Sprintf(url, allowed, "johnbampton"))
+
+	if err != nil {
+		log.Fatal(err)
+	}
 }
