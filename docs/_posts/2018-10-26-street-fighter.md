@@ -4,5 +4,5 @@ date: 2018-10-26 08:27:01 +1000
 categories: GIF
 ---
 
-![Street Fighter]({{"/assets/images/gifs/street-fighter.gif" | prepend: site.url }}
-"Street Fighter") {%- include default/jorge.html -%}
+<img src="{{site.url}}{{site.baseurl}}/assets/images/gifs/street-fighter.gif" alt="Street Fighter" title="Street Fighter">
+{%- include default/jorge.html -%}
