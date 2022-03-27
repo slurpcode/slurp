@@ -1,23 +1,18 @@
 {
-  "name": "slurp",
-  "version": "1.0.0",
-  "description": "Slurp that code !!",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
+  "author": "John Bampton",
+  "bugs": {
+    "url": "https://github.com/slurpcode/slurp/issues"
   },
   "dependencies": {
     "markdownlint": "^0.25.1",
     "surge": "^0.23.1"
   },
+  "description": "Slurp that code !!",
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified.\""
+  "directories": {
+    "doc": "docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/slurpcode/slurp.git"
-  },
+  "homepage": "https://github.com/slurpcode/slurp#readme",
   "keywords": [
     "fuchsia",
     "flowers",
@@ -26,10 +21,15 @@
     "Golang",
     "Jekyll"
   ],
-  "author": "John Bampton",
   "license": "GPL-3.0-only",
-  "bugs": {
-    "url": "https://github.com/slurpcode/slurp/issues"
+  "main": "index.js",
+  "name": "slurp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slurpcode/slurp.git"
   },
-  "homepage": "https://github.com/slurpcode/slurp#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified.\""
+  },
+  "version": "1.0.0"
 }
