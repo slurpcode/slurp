@@ -77,8 +77,8 @@ func scrape(username string) {
 	err = c.Visit(fmt.Sprintf(url, allowed, username))
 
 	if err != nil {
-                log.Fatal(err)
-        }
+		log.Fatal(err)
+	}
 
 	fmt.Println(record)
 }

@@ -14,13 +14,13 @@ repos:
     hooks:
       - id: check-ast
       - id: check-builtin-literals
-      # - id: check-case-conflict
+      - id: check-case-conflict
       - id: check-docstring-first
-      # - id: check-executables-have-shebangs
+      - id: check-executables-have-shebangs
       - id: check-json
       - id: check-merge-conflict
       - id: check-toml
-      # - id: check-xml
+      - id: check-xml
       - id: check-yaml
       - id: debug-statements
       - id: detect-private-key
@@ -28,7 +28,7 @@ repos:
         exclude: ^charts/assets/.*$|^charts/lang/README\.de\.md$|^charts/log\.txt$|^charts/README\.md$|^docs/assets/js/.*$|^docs/assets/games/.*$|rubycritic/.*$
       - id: fix-byte-order-marker
       - id: mixed-line-ending
-      # - id: pretty-format-json
+      #- id: pretty-format-json
       - id: requirements-txt-fixer
       - id: trailing-whitespace
         exclude: ^rubycritic/.*$
@@ -51,7 +51,7 @@ repos:
     hooks:
       # - id: markdownlint # Configure in .mdlrc
       - id: reek
-      # - id: rubocop
+      - id: rubocop
       - id: shellcheck
   # - repo: git://github.com/Lucas-C/pre-commit-hooks
   #  rev: v1.1.9
@@ -77,17 +77,17 @@ repos:
         name: Check YAML files with yamllint
         entry: yamllint --strict -c .github/linters/.yaml-lint.yml .
         types: [yaml]
-  # - repo: https://github.com/PyCQA/bandit
-  #  rev: 1.7.0
-  #  hooks:
-  #    - id: bandit
-  # - repo: https://gitlab.com/pycqa/flake8
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.0
+    hooks:
+      - id: bandit
+  #- repo: https://gitlab.com/pycqa/flake8
   #  rev: 3.8.4
   #  hooks:
   #    - id: flake8
-  # - repo: https://github.com/syntaqx/git-hooks
-  #  rev: v0.0.16
-  #  hooks:
-  #    - id: go-fmt
-  #    - id: go-test
-  #    - id: go-mod-tidy
+  - repo: https://github.com/syntaqx/git-hooks
+    rev: v0.0.16
+    hooks:
+      - id: go-fmt
+      - id: go-test
+      - id: go-mod-tidy
