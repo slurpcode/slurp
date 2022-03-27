@@ -1,11 +1,5 @@
 {
-  "assignees": [
-    "jbampton"
-  ],
-  "extends": [
-    "config:base"
-  ],
-  "labels": [
-    "renovate"
-  ]
+  "assignees": ["jbampton"],
+  "extends": ["config:base"],
+  "labels": ["renovate"]
 }

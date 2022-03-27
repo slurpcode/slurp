@@ -16,10 +16,6 @@
       "quantity": 1
     }
   },
-  "keywords": [
-    "ruby",
-    "jekyll",
-    "static"
-  ],
+  "keywords": ["ruby", "jekyll", "static"],
   "name": "Logorama"
 }
