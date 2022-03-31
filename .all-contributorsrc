@@ -416,6 +416,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "baileybussiere",
+      "name": "Bailey Bussiere",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41208911?v=4",
+      "profile": "https://github.com/baileybussiere",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,
