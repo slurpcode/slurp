@@ -1,54 +1,55 @@
 #!/usr/bin/env ruby
 # to finish `time`
 
-require 'nokogiri'
-require 'optparse'
-require 'optparse/time'
-require 'paint'
+require "nokogiri"
+require "optparse"
+require "optparse/time"
+require "paint"
 # require 'pp'
 
 # Custom OptionParser class
 class Parser
-  VERSION = '1.0.0'.freeze
+  VERSION = "1.0.0".freeze
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
     attr_accessor :path, :delay, :time
 
-    def initialize; end
+    def initialize
+    end
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint['built_in_datatypes.rb', :red, :white]}"
-      parser.separator ''
-      parser.separator 'Specific options:'
+      parser.banner = "Usage: #{Paint["built_in_datatypes.rb", :red, :white]}"
+      parser.separator ""
+      parser.separator "Specific options:"
 
       # add additional options
       specify_path_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
 
-      parser.separator ''
-      parser.separator 'Common options:'
+      parser.separator ""
+      parser.separator "Common options:"
       # No argument, shows at tail.  This will print an options summary.
       # Try it and see!
-      parser.on_tail('-h', '--help', 'Show this message') do
+      parser.on_tail("-h", "--help", "Show this message") do
         puts parser
         exit
       end
       # Another typical switch to print the version.
-      parser.on_tail('--version', 'Show version') do
+      parser.on_tail("--version", "Show version") do
         puts VERSION
         exit
       end
     end
 
     def specify_path_option(parser)
-      parser.on('-p', '--path path', 'Path to schema'){|p| self.path = p}
+      parser.on("-p", "--path path", "Path to schema") { |p| self.path = p }
     end
 
     def delay_execution_option(parser)
       # Cast 'delay' argument to a Float.
-      parser.on('--delay N', Float, 'Delay N seconds before executing') do |n|
+      parser.on("--delay N", Float, "Delay N seconds before executing") do |n|
         self.delay = n
       end
     end
@@ -56,11 +57,11 @@ class Parser
     def execute_at_time_option(parser)
       # Cast 'time' argument to a Time object.
       parser.on(
-        '-t',
-        '--time [TIME]',
+        "-t",
+        "--time [TIME]",
         Time,
-        'Begin execution at given time'
-      ){|time| self.time = time}
+        "Begin execution at given time"
+      ) { |time| self.time = time }
     end
   end
 
@@ -90,12 +91,12 @@ options = example.parse(ARGV)
 
 sleep(options.delay) if options.delay
 if options.path.nil?
-  print 'Enter the path to the schema: '
+  print "Enter the path to the schema: "
   options.path = $stdin.gets.chomp
 end
 
 def create_path(path)
-  path.tr('\\', '/')
+  path.tr("\\", "/")
 end
 
 @error = 0
@@ -153,7 +154,7 @@ project_path = create_path(options.path)
 Dir.glob("#{project_path}/**/*.xsd").map do |schema|
   doc = Nokogiri.XML(File.open(schema))
   doc.xpath('//*[starts-with(@type,"xs:")]').map do |tag|
-    type = tag.attribute('type').to_s.split(':').last
+    type = tag.attribute("type").to_s.split(":").last
     next if @datatypes.include?(type)
 
     @datatypes << type
