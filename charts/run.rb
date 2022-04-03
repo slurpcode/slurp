@@ -72,8 +72,8 @@ end
 
 # Most popular word in the MIT Open source license
 def mit_word_count
-  read_file('../LICENSE').split.map{|x| x.gsub(/[^a-z0-9]/i, '').downcase}
-                         .group_by{|x| x}.map{|k, v| [k, v.size]}.sort_by{|_, y| -y}
+  read_file('../LICENSE').split.map{ |x| x.gsub(/[^a-z0-9]/i, '').downcase}
+                         .group_by{ |x| x}.map{ |k, v| [k, v.size]}.sort_by{ |_, y| -y}
 end
 
 # returns the filename without its extension
@@ -134,7 +134,7 @@ def log_data
   write_file('log.txt', log)
 
   logdata = read_file('log.txt')
-  logdata = logdata.lines.group_by(&:strip).map{|k, v| [k, v.size]}
+  logdata = logdata.lines.group_by(&:strip).map{ |k, v| [k, v.size]}
   logdata.unshift(%w[Date Amount])
 end
 
@@ -172,12 +172,12 @@ colors(exthash, uniqfile, uniqfilesize)
 
 # colors for most of the schema charts
 schema_colors = {}
-schema_files = Dir['data/schema/*.xsd'].map{|x| File.basename(x)}
+schema_files = Dir['data/schema/*.xsd'].map{ |x| File.basename(x)}
 schema_count = schema_files.size
 colors(schema_colors, schema_files, schema_count)
 
 # extensions
-allfiles = file_extensions.group_by{|x| x}.map{|k, v| [k, v.size]}
+allfiles = file_extensions.group_by{ |x| x}.map{ |k, v| [k, v.size]}
 
 # function that generates the pie chart data
 def generate_data
@@ -434,7 +434,7 @@ def add_apple_icons(icon_path)
     %(
     <link rel="apple-touch-icon" sizes="#{icon_size}" href="#{apple_icon}">)
   end
-  icons.sort_by{|x| x.split('.').first.split('-').last.split('x').first.to_i}.join
+  icons.sort_by{ |x| x.split('.').first.split('-').last.split('x').first.to_i}.join
 end
 
 # common function to add the icons
@@ -489,11 +489,11 @@ def draw_chartjs_chart(type, canvas_id, data, colors, title, titlefontsize, resp
       var myChart = new Chart(ctx, {
         type: '#{type}',
         data: {
-            labels: #{data.map{|x| fir(x)}},
+            labels: #{data.map{ |x| fir(x)}},
             datasets: [{
                 label: '#{title}',
                 data: #{data.map(&:last)},
-                backgroundColor: #{data.map{|x| colors[:"#{x[0]}"].to_s}}
+                backgroundColor: #{data.map{ |x| colors[:"#{x[0]}"].to_s}}
             }]
         },
         options: {
@@ -513,7 +513,7 @@ def draw_plotly_chart(chart_div, data, title, height, width, type)
   %(
     var data = [{
       values: #{data.map(&:last)},
-      labels: #{data.map{|x| fir(x)}},
+      labels: #{data.map{ |x| fir(x)}},
       hole: #{type},
       type: 'pie'
     }];
@@ -830,7 +830,7 @@ if site_config['chart_type'] == 'all'
       instance_variable_set("@page#{i}",
                             gp(i) + draw_plotly_chart(data0, data1, chart_title(chart[0], ind), 400, 400, type))
     when 4..5 # google
-      data1 = data1.map{|x| [fir(x), x.last]}
+      data1 = data1.map{ |x| [fir(x), x.last]}
       v = 'Values'
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
@@ -867,7 +867,7 @@ else
                                                      true, 10, 'Arial Black',
                                                      'Arial Black', 12, 'fff', 999))
     when 'google'
-      data1 = chart[1..].map{|x| [fir(x), x.last]}
+      data1 = chart[1..].map{ |x| [fir(x), x.last]}
       v = 'Values'
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
