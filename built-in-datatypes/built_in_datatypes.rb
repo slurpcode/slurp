@@ -9,7 +9,7 @@ require 'paint'
 
 # Custom OptionParser class
 class Parser
-  VERSION = '1.0.0'
+  VERSION = '1.0.0'.freeze
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions

@@ -257,7 +257,9 @@ def draw_d3pie_chart(type, which, data, num, colors, title, width, height,
                      segmentsize, pieouterradius, pieinnerradius, piedistance, linesenabled,
                      pulloutsegmentsize, titlefont, footerfont, footerfontsize, backgroundcolor,
                      footercolor)
-  high = 1; seen = []; element = ''
+  high = 1
+  seen = []
+  element = ''
   data.map do |x|
     if x[1] > high
       high = x[1]
@@ -384,7 +386,8 @@ end
 def section_built_with(cloc, site_config)
   s = %(
       <div class="col-md-5">
-        #{Kramdown::Document.new(site_config['about'].gsub('[English](README.md) [Deutsche](lang/README.de.md)', '')).to_html}
+        #{Kramdown::Document.new(site_config['about'].gsub('[English](README.md) [Deutsche](lang/README.de.md)',
+                                                           '')).to_html}
       </div>
       <div class="col-md-7">
         <h3>#{site_config['homepage_subheading4']}</h3>
@@ -438,7 +441,8 @@ end
 def add_icons
   icon_path = 'assets/images/icons/'
   s = add_apple_icons(icon_path)
-  b = '<link rel="icon" type="image/png" sizes="'; j = %(" href="#{icon_path})
+  b = '<link rel="icon" type="image/png" sizes="'
+  j = %(" href="#{icon_path})
   s + %(
     #{b}192x192#{j}android-icon-192x192.png">
     #{b}32x32#{j}favicon-32x32.png">
@@ -520,7 +524,7 @@ def draw_plotly_chart(chart_div, data, title, height, width, type)
         size: 12,
         color: 'black'
       },
-      height: #{height + data.size * 15}, // Each legend entry is 15 high.
+      height: #{height + (data.size * 15)}, // Each legend entry is 15 high.
       width: #{width},
       showlegend: true,
 	      legend: {
@@ -546,7 +550,7 @@ end
 # data variable
 structure = generate_data
 # home page plus other pages with 50 charts per page
-page_count = structure.size / 50 + 1
+page_count = (structure.size / 50) + 1
 
 # common HTML page header include
 def page_header(site_config, page_count)
@@ -659,7 +663,7 @@ page_build(page, page_count, 1)
 # add chart divs to each page
 structure.map.with_index do |chart, i|
   data0 = clean_chart(chart[0])
-  i = i / 50 + 1
+  i = (i / 50) + 1
   instance_variable_set("@page#{i}",
                         "#{gp(i)}\n      " +
     case site_config['chart_type']
@@ -770,7 +774,8 @@ if site_config['chart_type'] == 'all'
       end)
   end
 else
-  page = add_website_scripts(site_config['chart_type'], site_scripts, d3_scripts, google_scripts, chartjs_script, plotlyjs_script)
+  page = add_website_scripts(site_config['chart_type'], site_scripts, d3_scripts, google_scripts, chartjs_script,
+                             plotlyjs_script)
 end
 
 # continue to build all the pages
@@ -808,7 +813,7 @@ if site_config['chart_type'] == 'all'
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
     data1 = chart[1..]
-    i = ind / 50 + 1
+    i = (ind / 50) + 1
 
     case (i - 1) % 8
     when 0..1 # d3pie
@@ -829,11 +834,14 @@ if site_config['chart_type'] == 'all'
       v = 'Values'
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
-                            gp(i) + "        google.charts.setOnLoadCallback(drawChart#{data0});\n" + draw_google_chart(type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400))
+                            gp(i) + "        google.charts.setOnLoadCallback(drawChart#{data0});\n" + draw_google_chart(
+                              type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400
+                            ))
     else # chartjs
       type = i & 1 == 1 ? 'pie' : 'doughnut'
       instance_variable_set("@page#{i}",
-                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind), 15, false))
+                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind),
+                                                       15, false))
     end
   end
 else
@@ -848,7 +856,7 @@ else
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
     data1 = chart[1..]
-    i = ind / 50 + 1
+    i = (ind / 50) + 1
     case site_config['chart_type']
     when 'd3pie'
       type = i & 1 == 1 ? 0 : '35%'
@@ -863,12 +871,15 @@ else
       v = 'Values'
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
-                            gp(i) + "        google.charts.setOnLoadCallback(drawChart#{data0});\n" + draw_google_chart(type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400))
+                            gp(i) + "        google.charts.setOnLoadCallback(drawChart#{data0});\n" + draw_google_chart(
+                              type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400
+                            ))
 
     when 'chartjs'
       type = i & 1 == 1 ? 'pie' : 'doughnut'
       instance_variable_set("@page#{i}",
-                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind), 15, false))
+                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind),
+                                                       15, false))
     else
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
