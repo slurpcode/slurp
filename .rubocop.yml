@@ -6,7 +6,7 @@ AllCops:
 
 ### LAYOUT
 Layout/EndOfLine:
-  Enabled: true
+  Enabled: false
 
 Layout/LineLength:
   Enabled: false
@@ -15,23 +15,20 @@ Layout/SpaceAroundEqualsInParameterDefault:
   EnforcedStyle: no_space
 
 Layout/SpaceAroundOperators:
-  Enabled: true
+  Enabled: false
 
 Layout/SpaceBeforeBlockBraces:
   EnforcedStyle: no_space
 
 Layout/SpaceInsideBlockBraces:
   EnforcedStyle: no_space
-  SpaceBeforeBlockParameters: true
+  SpaceBeforeBlockParameters: false
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
 
 Lint/DuplicateBranch:
   Enabled: false
-
-Style/StringLiterals:
-  Enabled: true
 
 ### METRICS
 Metrics/AbcSize:
@@ -63,7 +60,7 @@ Style/MultilineBlockChain:
   Enabled: false
 
 Style/MutableConstant:
-  Enabled: true
+  Enabled: false
 
 Style/Semicolon:
-  Enabled: true
+  Enabled: false
