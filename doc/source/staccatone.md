@@ -1,4 +1,4 @@
-# 🎷 Staccatone 
+# 🎷 Staccatone
 
 The staccatone is an electronic musical instrument invented in 1923, by the journalist radio and writer of science fiction Hugo Gernsback.
 
@@ -18,7 +18,7 @@ and on his own radio station WJZ New York:
 
 “The musical notes produced by the vacuum tubes in this manner have practically no overtones. For this reason the music produced on the Pianorad is of an exquisite pureness of tone not realised in any other musical instrument. The quality is better than that of a flute and much purer. the sound however does not resemble that of any known musical instrument. The notes are quite sharp and distinct, and the Pianorad can be readily distinguished by its music from any other musical instrument in existence.”
 
-Next topic: Sphäraphon 
+Next topic: Sphäraphon
 
 ## Sources
 

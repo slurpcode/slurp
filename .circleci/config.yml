@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.7.5-buster-node-browsers
+      - image: circleci/ruby:3.0.3-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -16,7 +16,7 @@ jobs:
           name: 🏗️ Install the Python Dependencies 🐍
           command: |
             sudo apt update
-            sudo apt-get install aspell python3-pip
+            sudo apt-get install aspell python3-pip gcc gfortran libopenblas-dev liblapack-dev python-dev
             python3 --version
             pip3 --version
             sudo pip3 install --upgrade virtualenv --progress-bar off
@@ -108,7 +108,7 @@ jobs:
 
   well-formed:
     docker:
-      - image: circleci/ruby:2.7.5-buster-node-browsers
+      - image: circleci/ruby:3.0.3-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -125,7 +125,7 @@ jobs:
 
   built-in-datatypes:
     docker:
-      - image: circleci/ruby:2.7.5-buster-node-browsers
+      - image: circleci/ruby:3.0.3-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -142,7 +142,7 @@ jobs:
 
   spelling:
     docker:
-      - image: circleci/ruby:2.7.5-buster-node-browsers
+      - image: circleci/ruby:3.0.3-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -268,7 +268,7 @@ jobs:
 
   php:
     docker:
-      - image: cimg/php:8.1.2
+      - image: cimg/php:8.1.4
     working_directory: ~/repo
     steps:
       - checkout
