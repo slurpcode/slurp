@@ -18,7 +18,7 @@ Layout/SpaceAroundOperators:
   Enabled: false
 
 Layout/SpaceBeforeBlockBraces:
-  EnforcedStyle: no_space
+  Enabled: true
 
 Layout/SpaceInsideBlockBraces:
   EnforcedStyle: no_space
@@ -51,7 +51,6 @@ Metrics/PerceivedComplexity:
 
 ### STYLING
 Style/FrozenStringLiteralComment:
-  EnforcedStyle: never
   Enabled: true
 
 Style/GuardClause:

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require "selenium-webdriver"
 
 capabilities = Selenium::WebDriver::Remote::Capabilities.firefox(accept_insecure_certs: true)

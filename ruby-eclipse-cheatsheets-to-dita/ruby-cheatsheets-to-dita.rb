@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 require "date"
 require "fileutils"
@@ -11,7 +12,7 @@ require "time"
 
 # Custom OptionParser class
 class Parser
-  VERSION = "1.0.0".freeze
+  VERSION = "1.0.0"
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
@@ -51,7 +52,7 @@ class Parser
         "--path path",
         'Enter the directory or path relative to this
                                      directory to the cheatsheets XML test data: '
-      ){|p| self.path = p}
+      ) {|p| self.path = p}
     end
 
     def delay_execution_option(parser)
@@ -68,7 +69,7 @@ class Parser
         "--time [TIME]",
         Time,
         "Begin execution at given time"
-      ){|time| self.time = time}
+      ) {|time| self.time = time}
     end
   end
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 # to finish `time`
 
 require "nokogiri"
@@ -9,7 +11,7 @@ require "paint"
 
 # Custom OptionParser class
 class Parser
-  VERSION = "1.0.0".freeze
+  VERSION = "1.0.0"
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
@@ -43,7 +45,7 @@ class Parser
     end
 
     def specify_path_option(parser)
-      parser.on("-p", "--path path", "Path to schema"){|p| self.path = p}
+      parser.on("-p", "--path path", "Path to schema") {|p| self.path = p}
     end
 
     def delay_execution_option(parser)
@@ -60,7 +62,7 @@ class Parser
         "--time [TIME]",
         Time,
         "Begin execution at given time"
-      ){|time| self.time = time}
+      ) {|time| self.time = time}
     end
   end
 

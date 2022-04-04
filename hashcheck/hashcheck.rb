@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Secure Hash Algorithm choices: md2 md4 md5 sha1 sha256 sha384 sha512
 # to finish `time`
 
@@ -8,7 +10,7 @@ require "paint"
 
 # Custom OptionParser class
 class Parser
-  VERSION = "1.0.0".freeze
+  VERSION = "1.0.0"
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
@@ -43,7 +45,7 @@ class Parser
     end
 
     def specify_file_option(parser)
-      parser.on("-f", "--file file", "Path to file"){|f| self.file = f}
+      parser.on("-f", "--file file", "Path to file") {|f| self.file = f}
     end
 
     def specify_algorithm_option(parser)
@@ -66,7 +68,7 @@ class Parser
         "--time [TIME]",
         Time,
         "Begin execution at given time"
-      ){|time| self.time = time}
+      ) {|time| self.time = time}
     end
   end
 
