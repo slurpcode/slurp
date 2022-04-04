@@ -1,4 +1,4 @@
-# 🧠 Chess addiction!
+# 🧠 Chess addiction
 
 Chess is the game which is played across the globe with parents pursuing their children to play and get better at chess. As the chess player starts playing chess and get better dopamine starts to kick in and effects chess player to get urge of getting more better and better at it. After giving significant amount to chess person starts to develop addiction to play more. Chess addiction is no different than any other video game addiction. Some positions of chess are so aesthetic to watch and play there is always an unconscious thought back of the mind of player that he is doing something smart.
 

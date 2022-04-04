@@ -45,7 +45,7 @@ Sources :
 - Ishkur's Guide to Electronic Music
 - Every Noise at Once
 
-## About the author:
+## About the author
 
 "Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical
 expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional

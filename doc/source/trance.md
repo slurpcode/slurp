@@ -23,7 +23,7 @@ Kitschy, for example, the well-off Paul Paul Dyk.
 You can find more details about its formation and development on Ishkur's Guide to Electronic Music, and you can listen to trance
 music right away.
 
-https://music.ishkur.com/?query=Trance
+<https://music.ishkur.com/?query=Trance>
 
 The Every Noise at Once platform provides an opportunity for people to get to know better the names of the creators who have ever been in the genre and thus the peculiarities of it.
 

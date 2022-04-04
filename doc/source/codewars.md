@@ -1,6 +1,6 @@
 # ⚔️ Codewars
 
-## Achieve mastery through challenge !!!
+## Achieve mastery through challenge
 
 ![Bruce Lee](_static/images/bruce-lee.png)
 

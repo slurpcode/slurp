@@ -18,15 +18,15 @@ When Duddell exhibited his invention to the London institution of Electrical Eng
 
 The carbon arc lamp’s audio capabilities were also used by Thaddeus Cahill to amplify the sound produced by his Telharmonium during his public demonstrations of the instrument some ten years later – a direct ancestor of today’s plasma-loudspeaker. In the 1930s Wolja Saraga experimented with spark-gap sound with his Saraga Generator.
 
-Here you can see the singing arc in action: https://youtu.be/cCEU3ShVE2E
+Here you can see the singing arc in action: <https://youtu.be/cCEU3ShVE2E>
 
 ## Next topic: Helmholtz Sound Synthesiser
 
-## Sources:
+## Sources
 
 - Wikipedia / 120years.net / Youtube
 
-## About the Author:
+## About the Author
 
 "Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional musicians. His devotion to movie sounds shows in his art - widosub's music is filled with landscapes of emotions, dramatic twists and melancholic moods. He's one of the hosts of Tilos Rádió's MustBeat show, in which he's is focusing on drum'n'bass and chillout
 music. He's also one half of the duo Empty Universe."

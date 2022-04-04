@@ -72,7 +72,7 @@ x = 0 + (4 - 0) x Random = (4) * Random
 
 y = lower value + (upper value - lower value) x random number
 
-y = 0 + (2 - 0) * Random = 2 * Random
+y = 0 + (2 - 0) *Random = 2* Random
 
 The other thing that we must define is when the random number is below the curve and for this we must establish that if y <√x definitely the number will be below the function
 
@@ -86,9 +86,9 @@ Now, column "B" in Excel will be made up of the random points on the "x" axis ge
 
 Column "C" should also have this instruction, since we must generate random points for the "y" axis.
 
-In column "D" we are going to find the random values of "x" bounded by the limits initially established for the study of our function, that is, x = 4 * Random. To find the values of this column, we must place the formula in cell D2: = B2 * 4 and drag the result until the counter that is arranged in column "A" reaches the number 1000.
+In column "D" we are going to find the random values of "x" bounded by the limits initially established for the study of our function, that is, x = 4 *Random. To find the values of this column, we must place the formula in cell D2: = B2* 4 and drag the result until the counter that is arranged in column "A" reaches the number 1000.
 
-In the same way as the previous step, column “E” will be destined to obtain the values of “y” limited specifically for this function, as we defined previously y = 2 * Random, so in cell E2 we must include the formula: = C2 * 2 and in the same way as in the previous step, we must drag the result until the counter reaches 1000.
+In the same way as the previous step, column “E” will be destined to obtain the values of “y” limited specifically for this function, as we defined previously y = 2 *Random, so in cell E2 we must include the formula: = C2* 2 and in the same way as in the previous step, we must drag the result until the counter reaches 1000.
 
 On the other hand, column "F" will be composed of y = √x, which will ultimately be the value that I will have to compare with the values of column "E", in order to know if the points are below the curve of my function or not.
 

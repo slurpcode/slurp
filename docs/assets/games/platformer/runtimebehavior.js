@@ -26,7 +26,7 @@ gdjs.RuntimeBehavior = function(runtimeScene, behaviorData, owner)
  * @return {string} The behavior's name.
  */
 gdjs.RuntimeBehavior.prototype.getName = function() {
-	return this.name;
+    return this.name;
 };
 
 /**
@@ -34,7 +34,7 @@ gdjs.RuntimeBehavior.prototype.getName = function() {
  * @return {number} The behavior's name identifier.
  */
 gdjs.RuntimeBehavior.prototype.getNameId = function() {
-	return this._nameId;
+    return this._nameId;
 };
 
 /**
@@ -43,14 +43,14 @@ gdjs.RuntimeBehavior.prototype.getNameId = function() {
  * @param {gdjs.RuntimeScene} runtimeScene The runtimeScene owning the object
  */
 gdjs.RuntimeBehavior.prototype.stepPreEvents = function(runtimeScene) {
-	if ( this._activated ) {
-		var profiler = runtimeScene.getProfiler();
-		if (profiler) profiler.begin(this.name);
+    if ( this._activated ) {
+        var profiler = runtimeScene.getProfiler();
+        if (profiler) profiler.begin(this.name);
 
-		this.doStepPreEvents(runtimeScene);
+        this.doStepPreEvents(runtimeScene);
 
-		if (profiler) profiler.end(this.name);
-	}
+        if (profiler) profiler.end(this.name);
+    }
 };
 
 /**
@@ -59,14 +59,14 @@ gdjs.RuntimeBehavior.prototype.stepPreEvents = function(runtimeScene) {
  * @param {gdjs.RuntimeScene} runtimeScene The runtimeScene owning the object
  */
 gdjs.RuntimeBehavior.prototype.stepPostEvents = function(runtimeScene) {
-	if ( this._activated ) {
-		var profiler = runtimeScene.getProfiler();
-		if (profiler) profiler.begin(this.name);
+    if ( this._activated ) {
+        var profiler = runtimeScene.getProfiler();
+        if (profiler) profiler.begin(this.name);
 
-		this.doStepPostEvents(runtimeScene);
+        this.doStepPostEvents(runtimeScene);
 
-		if (profiler) profiler.end(this.name);
-	}
+        if (profiler) profiler.end(this.name);
+    }
 };
 
 /**
@@ -74,15 +74,15 @@ gdjs.RuntimeBehavior.prototype.stepPostEvents = function(runtimeScene) {
  * @param {boolean} enable true to enable the behavior, false to disable it
  */
 gdjs.RuntimeBehavior.prototype.activate = function(enable) {
-	if ( enable === undefined ) enable = true;
-	if ( !this._activated && enable ) {
-		this._activated = true;
-		this.onActivate();
-	}
-	else if ( this._activated && !enable ) {
-		this._activated = false;
-		this.onDeActivate();
-	}
+    if ( enable === undefined ) enable = true;
+    if ( !this._activated && enable ) {
+        this._activated = true;
+        this.onActivate();
+    }
+    else if ( this._activated && !enable ) {
+        this._activated = false;
+        this.onDeActivate();
+    }
 };
 
 /**
@@ -98,7 +98,7 @@ gdjs.RuntimeBehavior.prototype.onCreated = function() {
  * Return true if the behavior is activated
  */
 gdjs.RuntimeBehavior.prototype.activated = function() {
-	return this._activated;
+    return this._activated;
 };
 
 /**

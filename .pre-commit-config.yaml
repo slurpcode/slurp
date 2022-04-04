@@ -49,25 +49,25 @@ repos:
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 2.1.5
     hooks:
-      # - id: markdownlint # Configure in .mdlrc
+      - id: markdownlint # Configure in .mdlrc
       - id: reek
       - id: rubocop
       - id: shellcheck
-  # - repo: git://github.com/Lucas-C/pre-commit-hooks
-  #  rev: v1.1.9
-  #  hooks:
-  #    - id: forbid-tabs
-  #    - id: remove-tabs
+  - repo: git://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.1.9
+    hooks:
+      - id: forbid-tabs
+      - id: remove-tabs
   - repo: https://github.com/pre-commit/pygrep-hooks
     rev: v1.9.0
     hooks:
       - id: python-check-mock-methods
       - id: python-no-eval
       - id: python-no-log-warn
-  # - repo: https://github.com/igorshubovych/markdownlint-cli
-  #   rev: v0.30.0
-  #   hooks:
-  #     - id: markdownlint
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.30.0
+    hooks:
+      - id: markdownlint
   #       name: Run markdownlint
   #       entry: markdownlint -c .github/linters/.markdown-lint.yml .
   - repo: https://github.com/adrienverge/yamllint

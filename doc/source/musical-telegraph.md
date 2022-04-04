@@ -49,11 +49,11 @@ Elisha Gray; Patent notes No. 173,618, Feb. 15, 1876.
 
 ## Next Topic: Telharmonium
 
-## Sources :
+## Sources
 
 - Wikipedia / 120years.net / Sweetwater.com
 
-## About The Author:
+## About The Author
 
 "Guido F. Matis (a.k.a. widosub), a seasoned producer-composer authority with an unquenchable compassion towards the musical
 expression, and many years of experience in the fields of event organizing, movie post-production, and recording with professional

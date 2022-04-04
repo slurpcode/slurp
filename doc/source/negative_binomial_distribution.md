@@ -127,6 +127,7 @@ This indicates that 20 volunteers are expected to be analyzed to find 2 carriers
 ![photo](_static/images/negative_binomial_distribution/old_lady.jpg)
 
 ## Geometric distribution
+
 This type of geometric distribution is quite convenient for those processes where the tests are repeated, until the desired success or result is achieved, it also has endless applications for the samplings that are carried out in this way. Of course, it also implies that there is a dichotomy in the possible outcomes and the tests must be independent of each other.
 The geometric distribution can come from a Bernoulli or pure experimental process, which also has the following characteristics:
 

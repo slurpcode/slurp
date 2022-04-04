@@ -431,7 +431,7 @@ gdjs.RuntimeGamePixiRenderer.prototype.getCanvas = function() {
  * @returns {boolean} true if WebGL is supported
  */
 gdjs.RuntimeGamePixiRenderer.prototype.isWebGLSupported = function() {
-	return this._pixiRenderer.type === PIXI.RENDERER_TYPE.WEBGL;
+    return this._pixiRenderer.type === PIXI.RENDERER_TYPE.WEBGL;
 };
 
 /**

@@ -163,7 +163,7 @@
             </xs:sequence>
             <xs:attribute name="Count" type="nonNegativeInteger" use="optional"/>
         </xs:extension>
-	</xs:complexContent>
+    </xs:complexContent>
     </xs:complexType>
     <xs:element name="Advice" type="saml:AdviceType"/>
     <xs:complexType name="AdviceType">
