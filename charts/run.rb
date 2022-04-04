@@ -2,27 +2,27 @@
 
 # Reach your final destination
 
-require 'chroma'
-require 'csv'
-require 'fileutils'
-require 'kramdown'
-require 'prawn'
+require "chroma"
+require "csv"
+require "fileutils"
+require "kramdown"
+require "prawn"
 # require 'prawn/table'
-require 'yaml'
+require "yaml"
 
 # chart types
-chart_types = {'d3pie' => 'd3pie',
-               'chartjs' => 'Chart.js',
-               'google' => 'Google Charts',
-               'plotly' => 'plotly.js',
-               'all' => 'All chart types'}
+chart_types = {"d3pie" => "d3pie",
+               "chartjs" => "Chart.js",
+               "google" => "Google Charts",
+               "plotly" => "plotly.js",
+               "all" => "All chart types"}
 
-FileUtils.mkdir_p('site/assets/images/python')
-FileUtils.copy_entry('assets', 'site/assets')
+FileUtils.mkdir_p("site/assets/images/python")
+FileUtils.copy_entry("assets", "site/assets")
 
 # this repository is built with these technologies
 built_with = {}
-CSV.foreach('config/built_with.csv') do |row|
+CSV.foreach("config/built_with.csv") do |row|
   built_with[:"#{row[0]}"] = row[1]
 end
 
@@ -35,9 +35,9 @@ plotlyjs_script = %w[assets/js/plotly.min.js]
 
 # runs Python from a shell command
 def python_charts
-  os = RbConfig::CONFIG['host_os'].downcase
-  python = 'python3'
-  python = 'python' unless os.include?('linux') || os.include?('darwin')
+  os = RbConfig::CONFIG["host_os"].downcase
+  python = "python3"
+  python = "python" unless os.include?("linux") || os.include?("darwin")
 
   # create Python charts for homepage
   `#{python} python/charts.py`
@@ -48,7 +48,7 @@ python_charts
 
 # make the site built with links into kramdown
 def kramdown_links(links)
-  s = ''
+  s = ""
   links.each_with_index do |(key, value), index|
     s += "#{index + 1}. [#{key}](#{value}){:target=\\\"_blank\\\"}{:rel=\\\"noopener\\\"}\n\n"
   end
@@ -59,7 +59,7 @@ end
 
 # function to open and read in file
 def read_file(filename)
-  file = File.open(filename, 'r')
+  file = File.open(filename, "r")
   data = file.read
   file.close
   data
@@ -67,41 +67,41 @@ end
 
 # function
 def ii(index)
-  index.positive? ? index : ''
+  index.positive? ? index : ""
 end
 
 # Most popular word in the MIT Open source license
 def mit_word_count
-  read_file('../LICENSE').split.map{|x| x.gsub(/[^a-z0-9]/i, '').downcase}
-                         .group_by{|x| x}.map{|k, v| [k, v.size]}.sort_by{|_, y| -y}
+  read_file("../LICENSE").split.map { |x| x.gsub(/[^a-z0-9]/i, "").downcase }
+    .group_by { |x| x }.map { |k, v| [k, v.size] }.sort_by { |_, y| -y }
 end
 
 # returns the filename without its extension
 def fir(arr)
-  arr.first.split('.').first
+  arr.first.split(".").first
 end
 
 # common function to write data to file
 def write_file(filename, data)
-  f = File.open(filename, 'w')
+  f = File.open(filename, "w")
   f.write(data)
   f.close
 end
 
 def config(built_with)
   # set up the config file
-  config = read_file('config.yml').chomp('').chop + kramdown_links(built_with)
+  config = read_file("config.yml").chomp("").chop + kramdown_links(built_with)
   # german
-  config_de = read_file('config/de.yml').chomp('').chop + kramdown_links(built_with)
+  config_de = read_file("config/de.yml").chomp("").chop + kramdown_links(built_with)
 
-  write_file('site.yml', "#{config}\n\n#{config_de}")
+  write_file("site.yml", "#{config}\n\n#{config_de}")
 
   # load website config file
-  site_config = YAML.safe_load(read_file('site.yml'))
+  site_config = YAML.safe_load(read_file("site.yml"))
 
   # create README from config file
-  write_file('README.md', site_config['about'].gsub('{:target="_blank"}{:rel="noopener"}', ''))
-  write_file('lang/README.de.md', site_config['aboutde'].gsub('{:target="_blank"}{:rel="noopener"}', ''))
+  write_file("README.md", site_config["about"].gsub('{:target="_blank"}{:rel="noopener"}', ""))
+  write_file("lang/README.de.md", site_config["aboutde"].gsub('{:target="_blank"}{:rel="noopener"}', ""))
 
   site_config
 end
@@ -110,31 +110,31 @@ end
 site_config = config(built_with)
 
 # current chart type
-ct = chart_types[site_config['chart_type']]
+ct = chart_types[site_config["chart_type"]]
 
 # GitHub buttons shown in the footer
 def github_buttons(repository, username)
   [
-    ["/#{repository}", "Star #{username}/#{repository} on GitHub", 'Star', 'star'],
-    ["/#{repository}/subscription", "Watch #{username}/#{repository} on GitHub", 'Watch', 'eye'],
-    ["/#{repository}/fork", "Fork #{username}/#{repository} on GitHub", 'Fork', 'repo-forked']
+    ["/#{repository}", "Star #{username}/#{repository} on GitHub", "Star", "star"],
+    ["/#{repository}/subscription", "Watch #{username}/#{repository} on GitHub", "Watch", "eye"],
+    ["/#{repository}/fork", "Fork #{username}/#{repository} on GitHub", "Fork", "repo-forked"]
   ]
 end
 
 # create the GitHub buttons
-buttons = github_buttons(site_config['repository'], site_config['github_username'])
+buttons = github_buttons(site_config["repository"], site_config["github_username"])
 
 # create cloc data
 # cloc = `cloc . --ignored=ignored.txt --skip-uniqueness --quiet`
-cloc = ''
+cloc = ""
 
 def log_data
   # create git log for histogram on homepage
   log = `git log --pretty=format:"%ad" --date=short`
-  write_file('log.txt', log)
+  write_file("log.txt", log)
 
-  logdata = read_file('log.txt')
-  logdata = logdata.lines.group_by(&:strip).map{|k, v| [k, v.size]}
+  logdata = read_file("log.txt")
+  logdata = logdata.lines.group_by(&:strip).map { |k, v| [k, v.size] }
   logdata.unshift(%w[Date Amount])
 end
 
@@ -146,10 +146,10 @@ end
 
 # data for the d3pie file type report on home page
 def file_extensions
-  Dir.glob('**/*').map do |x|
+  Dir.glob("**/*").map do |x|
     ext = File.extname(x)
-    if ext == ''
-      'folders'
+    if ext == ""
+      "folders"
     else
       ext[1..]
     end
@@ -160,7 +160,7 @@ end
 def colors(color, files, count)
   degrees = 360.0 / count
   files.map.with_index(1) do |f, i|
-    color[:"#{f}"] = 'red'.paint.spin(degrees * i)
+    color[:"#{f}"] = "red".paint.spin(degrees * i)
   end
 end
 
@@ -172,18 +172,18 @@ colors(exthash, uniqfile, uniqfilesize)
 
 # colors for most of the schema charts
 schema_colors = {}
-schema_files = Dir['data/schema/*.xsd'].map{|x| File.basename(x)}
+schema_files = Dir["data/schema/*.xsd"].map { |x| File.basename(x) }
 schema_count = schema_files.size
 colors(schema_colors, schema_files, schema_count)
 
 # extensions
-allfiles = file_extensions.group_by{|x| x}.map{|k, v| [k, v.size]}
+allfiles = file_extensions.group_by { |x| x }.map { |k, v| [k, v.size] }
 
 # function that generates the pie chart data
 def generate_data
   tokens = []
   # loop over schema files
-  Dir.glob('data/schema/*.xsd').map do |schema|
+  Dir.glob("data/schema/*.xsd").map do |schema|
     data = read_file(schema)
     data.scan(/<xs:\w+|\w+="\w+"|\w+="xs:\w+"/).uniq do |x|
       tokens << x unless tokens.include? x
@@ -196,8 +196,8 @@ def generate_data
   structure = []
   tokens.sort.map.with_index do |x, i|
     structure[i] = [x]
-    Dir.glob('data/schema/*.xsd').map do |schema|
-      filename = schema.split('/').last
+    Dir.glob("data/schema/*.xsd").map do |schema|
+      filename = schema.split("/").last
       amount = read_file(schema).scan(x).size
       structure[i] << [filename, amount] unless amount.zero?
     end
@@ -216,30 +216,30 @@ def gp(page_number)
 end
 
 # build all the website pages
-def page_build(page, page_count, start=0)
+def page_build(page, page_count, start = 0)
   (start..page_count).map do |i|
     instance_variable_set("@page#{ii(i)}", instance_variable_get("@page#{ii(i)}") + page)
   end
 end
 
 # add navigation hyperlinks
-def add_links(page_count, use_spacing=0)
-  page = ''
+def add_links(page_count, use_spacing = 0)
+  page = ""
   (0..page_count).map do |i|
     page += %(
-          #{use_spacing.positive? ? '' : '  '}<li><a href="index#{ii(i)}.html">Page #{i + 1}</a></li>)
+          #{use_spacing.positive? ? "" : "  "}<li><a href="index#{ii(i)}.html">Page #{i + 1}</a></li>)
   end
   page
 end
 
 # remove special characters as they clash with JavaScript's naming conventions
 def clean_chart(chart)
-  chart.tr('<"=: ', '')
+  chart.tr('<"=: ', "")
 end
 
 # add JavaScripts to each page
 def add_scripts(scripts, chart_scripts)
-  s = ''
+  s = ""
   scripts.map do |script|
     s += %(
     <script src="assets/#{script}"></script>)
@@ -253,13 +253,13 @@ end
 
 # function that draws the d3pie pie chart
 def draw_d3pie_chart(type, which, data, num, colors, title, width, height,
-                     mainlabelsize, titlesize, valuesize, tooltipsize,
-                     segmentsize, pieouterradius, pieinnerradius, piedistance, linesenabled,
-                     pulloutsegmentsize, titlefont, footerfont, footerfontsize, backgroundcolor,
-                     footercolor)
+  mainlabelsize, titlesize, valuesize, tooltipsize,
+  segmentsize, pieouterradius, pieinnerradius, piedistance, linesenabled,
+  pulloutsegmentsize, titlefont, footerfont, footerfontsize, backgroundcolor,
+  footercolor)
   high = 1
   seen = []
-  element = ''
+  element = ""
   data.map do |x|
     if x[1] > high
       high = x[1]
@@ -268,14 +268,14 @@ def draw_d3pie_chart(type, which, data, num, colors, title, width, height,
     seen << x[1]
   end
   footertext = if high > 1 && seen.size > 1 && seen.count(high) == 1
-                 if type.zero?
-                   "#{high} \"#{element}\"#{element == 'folders' ? '' : ' files'} occurred most frequently"
-                 elsif type == 1
-                   "#{high} maximum occurrences in file \"#{element}\""
-                 else
-                   "#{high} maximum occurrences for the word \"#{element}\""
-                 end
-               end
+    if type.zero?
+      "#{high} \"#{element}\"#{element == "folders" ? "" : " files"} occurred most frequently"
+    elsif type == 1
+      "#{high} maximum occurrences in file \"#{element}\""
+    else
+      "#{high} maximum occurrences for the word \"#{element}\""
+    end
+  end
 
   s = "
     var pie = new d3pie('d3pie_chart_div_#{which}', {
@@ -308,11 +308,11 @@ def draw_d3pie_chart(type, which, data, num, colors, title, width, height,
             },
             'content': ["
   data.each do |x|
-    s += if x[0].include?('.') || type != 2
-           "{'label':'#{x[0].split('.').first}','value':#{x[1]},'color':'#{colors[:"#{x[0]}"]}'},"
-         else
-           "{'label':'#{x[0]}','value':#{x[1]},'color':'black'},"
-         end
+    s += if x[0].include?(".") || type != 2
+      "{'label':'#{x[0].split(".").first}','value':#{x[1]},'color':'#{colors[:"#{x[0]}"]}'},"
+    else
+      "{'label':'#{x[0]}','value':#{x[1]},'color':'black'},"
+    end
   end
   s.chop!
   s + "
@@ -386,11 +386,11 @@ end
 def section_built_with(cloc, site_config)
   s = %(
       <div class="col-md-5">
-        #{Kramdown::Document.new(site_config['about'].gsub('[English](README.md) [Deutsche](lang/README.de.md)',
-                                                           '')).to_html}
+        #{Kramdown::Document.new(site_config["about"].gsub("[English](README.md) [Deutsche](lang/README.de.md)",
+          "")).to_html}
       </div>
       <div class="col-md-7">
-        <h3>#{site_config['homepage_subheading4']}</h3>
+        <h3>#{site_config["homepage_subheading4"]}</h3>
         <pre>
           <code>
             #{cloc}
@@ -404,10 +404,10 @@ def section_built_with(cloc, site_config)
     <div class="row">
       <div class="col-sm-12" id="d3pie_chart_div_homepage_mit"></div>
     </div>)
-  Dir['site/assets/images/python/*'].map do |image|
+  Dir["site/assets/images/python/*"].map do |image|
     s += %(
     <div class="row">
-      <img class="img-responsive" src="#{image.split('site/').last}" alt="#{image.split('/').last.split('.').first.capitalize.split('-').join ' '}">
+      <img class="img-responsive" src="#{image.split("site/").last}" alt="#{image.split("/").last.split(".").first.capitalize.split("-").join " "}">
     </div>)
   end
   s
@@ -415,12 +415,12 @@ end
 
 # function to make the list of GitHub buttons
 def add_github_buttons(arr)
-  s = ''
+  s = ""
   arr.map do |button|
     s += %(
           <li>
             <a class="github-button" href="https://github.com/slurpcode#{button[0]}")
-    s += %( data-icon="octicon-#{button[3]}" ) unless button[3] == ''
+    s += %( data-icon="octicon-#{button[3]}" ) unless button[3] == ""
     s += %( data-size="large" data-show-count="true" aria-label="#{button[1]}">#{button[2]}</a>
           </li>)
   end
@@ -430,16 +430,16 @@ end
 # common function to add the apple icons
 def add_apple_icons(icon_path)
   icons = Dir.glob("#{icon_path}apple-icon-[0-9]*.png").map do |apple_icon|
-    icon_size = apple_icon.split('.').first.split('-').last
+    icon_size = apple_icon.split(".").first.split("-").last
     %(
     <link rel="apple-touch-icon" sizes="#{icon_size}" href="#{apple_icon}">)
   end
-  icons.sort_by{|x| x.split('.').first.split('-').last.split('x').first.to_i}.join
+  icons.sort_by { |x| x.split(".").first.split("-").last.split("x").first.to_i }.join
 end
 
 # common function to add the icons
 def add_icons
-  icon_path = 'assets/images/icons/'
+  icon_path = "assets/images/icons/"
   s = add_apple_icons(icon_path)
   b = '<link rel="icon" type="image/png" sizes="'
   j = %(" href="#{icon_path})
@@ -460,7 +460,7 @@ end
 
 # common function for each Google chart
 def draw_google_chart(type, which_chart, data, chart_string, chart_values,
-                      chart_title, chart_div, width, height)
+  chart_title, chart_div, width, height)
   %(
         function drawChart#{which_chart}() {
           // Create the data table.
@@ -489,11 +489,11 @@ def draw_chartjs_chart(type, canvas_id, data, colors, title, titlefontsize, resp
       var myChart = new Chart(ctx, {
         type: '#{type}',
         data: {
-            labels: #{data.map{|x| fir(x)}},
+            labels: #{data.map { |x| fir(x) }},
             datasets: [{
                 label: '#{title}',
                 data: #{data.map(&:last)},
-                backgroundColor: #{data.map{|x| colors[:"#{x[0]}"].to_s}}
+                backgroundColor: #{data.map { |x| colors[:"#{x[0]}"].to_s }}
             }]
         },
         options: {
@@ -513,7 +513,7 @@ def draw_plotly_chart(chart_div, data, title, height, width, type)
   %(
     var data = [{
       values: #{data.map(&:last)},
-      labels: #{data.map{|x| fir(x)}},
+      labels: #{data.map { |x| fir(x) }},
       hole: #{type},
       type: 'pie'
     }];
@@ -538,7 +538,7 @@ end
 
 # strip p tags from Kramdown output for headings
 def gs(text)
-  text.gsub(%r{</?p>}, '').strip
+  text.gsub(%r{</?p>}, "").strip
 end
 
 # replaces 'd3pie' with one of 'Google Charts', 'Chart.js', 'plotly.js' or 'd3pie' or 'All chart types'
@@ -563,27 +563,27 @@ def page_header(site_config, page_count)
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head;
          any other head content must come *after* these tags -->
-    <title>#{site_config['title']}</title>)
+    <title>#{site_config["title"]}</title>)
   page += add_icons
   page += %(
-    <meta name="description" content="#{site_config['description']}">
-    <meta name="theme-color" content="##{site_config['theme_color']}">
+    <meta name="description" content="#{site_config["description"]}">
+    <meta name="theme-color" content="##{site_config["theme_color"]}">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-theme.min.css">
     <style>
       .container-fluid { padding: 0px; }
-      .navbar, .navbar-default { margin-bottom: 0; padding: 5pt; background-color: ##{site_config['theme_color']}; font-size: 12pt; }
-      .navbar, .navbar-default li a { color: ##{site_config['text_color']} !important; }
-      .navbar-default .navbar-brand { margin-left: 20px !important; color: ##{site_config['logo_text_color']}; font-size: 18pt; font-weight: bold; }
-      .navbar-brand:hover { background-color: #{site_config['nav_hover_color']} !important; }
+      .navbar, .navbar-default { margin-bottom: 0; padding: 5pt; background-color: ##{site_config["theme_color"]}; font-size: 12pt; }
+      .navbar, .navbar-default li a { color: ##{site_config["text_color"]} !important; }
+      .navbar-default .navbar-brand { margin-left: 20px !important; color: ##{site_config["logo_text_color"]}; font-size: 18pt; font-weight: bold; }
+      .navbar-brand:hover { background-color: #{site_config["nav_hover_color"]} !important; }
       div[id^="d3pie_chart_div_"], canvas { margin-bottom: 100px; }
-      footer { background-color: ##{site_config['theme_color']}; min-height: 200px;}
-      footer ul a { color: ##{site_config['text_color']} !important; font-size: 13pt; }
+      footer { background-color: ##{site_config["theme_color"]}; min-height: 200px;}
+      footer ul a { color: ##{site_config["text_color"]} !important; font-size: 13pt; }
       footer .container { margin-left: 15px; }
       .built { text-decoration: none !important; }
-      .selected { background-color: #{site_config['nav_selected_color']}; font-weight: bold; }
-      .navbar-default li:hover a { background-color: #{site_config['nav_hover_color']} !important; }
-      h1 { text-align: center; background-color: ##{site_config['theme_color']}; padding: 14px; color: ##{site_config['text_color']}; }
+      .selected { background-color: #{site_config["nav_selected_color"]}; font-weight: bold; }
+      .navbar-default li:hover a { background-color: #{site_config["nav_hover_color"]} !important; }
+      h1 { text-align: center; background-color: ##{site_config["theme_color"]}; padding: 14px; color: ##{site_config["text_color"]}; }
       pre { white-space: pre-wrap; word-wrap: break-word; }
       .homepage { padding: 5px 30px 5px 30px; }
       .logo { float: left; }
@@ -604,7 +604,7 @@ def page_header(site_config, page_count)
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">#{site_config['nav_heading']}</a>
+          <a class="navbar-brand" href="index.html">#{site_config["nav_heading"]}</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">)
@@ -625,38 +625,38 @@ page_header(site_config, page_count)
 
 # start home page stats
 @page += %(
-    <h1>#{gs(Kramdown::Document.new(site_config['homepage_heading']).to_html)}</h1>
+    <h1>#{gs(Kramdown::Document.new(site_config["homepage_heading"]).to_html)}</h1>
     <div class="row homepage">)
 # add built with links to home page
 @page += section_built_with(cloc, site_config)
 # main page variable
-page = ''
+page = ""
 # create main page heading
-if site_config['chart_type'] == 'all'
+if site_config["chart_type"] == "all"
   (0..page_count - 1).map do |i|
     type = case i % 8
            when 0..1
-             'd3pie'
+             "d3pie"
            when 2..3
-             'plotly'
+             "plotly"
            when 4..5
-             'google'
+             "google"
            else
-             'chartjs'
-           end
-    t = site_type(site_config['chart_pages_heading'], chart_types[type])
+             "chartjs"
+    end
+    t = site_type(site_config["chart_pages_heading"], chart_types[type])
     instance_variable_set("@page#{i + 1}", instance_variable_get("@page#{i + 1}") + %(
       <h1>#{t}</h1>))
   end
 else
   page = %(
-      <h1>#{site_type(site_config['chart_pages_heading'], ct)}</h1>)
+      <h1>#{site_type(site_config["chart_pages_heading"], ct)}</h1>)
 end
 # continue to build all the pages
 page_build(page, page_count, 1)
 # restart page
 page = %(
-      <h2 id="other">#{site_config['other_heading']}</h2>)
+      <h2 id="other">#{site_config["other_heading"]}</h2>)
 # continue to build all the pages
 page_build(page, page_count, 1)
 
@@ -665,48 +665,48 @@ structure.map.with_index do |chart, i|
   data0 = clean_chart(chart[0])
   i = (i / 50) + 1
   instance_variable_set("@page#{i}",
-                        "#{gp(i)}\n      " +
-                        case site_config['chart_type']
-                        when 'all'
-                          case (i - 1) % 8
-                          when 0..1 # d3pie
-                            %(
+    "#{gp(i)}\n      " +
+    case site_config["chart_type"]
+    when "all"
+      case (i - 1) % 8
+      when 0..1 # d3pie
+        %(
       <div class="col-lg-4 col-md-6 col-sm-12" id="d3pie_chart_div_#{data0}"></div>)
-                          when 2..3 # plotly
-                            %(
+      when 2..3 # plotly
+        %(
       <div class="col-lg-4 col-md-6 col-sm-12 plotlypie" id="plotly_chart_div_#{data0}"></div>)
-                          when 4..5 # google
-                            %(
+      when 4..5 # google
+        %(
       <div class="col-lg-4 col-md-6 col-sm-12" id="chart_div_#{data0}"></div>)
-                          else # chartjs
-                            %(
+      else # chartjs
+        %(
       <div class="col-lg-4 col-md-6 col-sm-12">
         <canvas id="chartjs_canvas#{data0}" width="400" height="350"></canvas>
       </div>)
-                          end
-                        when 'chartjs'
-                          %(
+      end
+    when "chartjs"
+      %(
       <div class="col-lg-4 col-md-6 col-sm-12">
         <canvas id="chartjs_canvas#{data0}" width="400" height="350"></canvas>
       </div>)
-                        else
-                          chart_type = site_config['chart_type'] == 'plotly' ? ' plotlypie' : ''
-                          chart_type_id =
-                            case site_config['chart_type']
-                            when 'google'
-                              'chart_div_'
-                            when 'plotly'
-                              'plotly_chart_div_'
-                            else
-                              'd3pie_chart_div_'
-                            end
-                          %(
+    else
+      chart_type = site_config["chart_type"] == "plotly" ? " plotlypie" : ""
+      chart_type_id =
+        case site_config["chart_type"]
+        when "google"
+          "chart_div_"
+        when "plotly"
+          "plotly_chart_div_"
+        else
+          "d3pie_chart_div_"
+        end
+      %(
       <div class="col-lg-4 col-md-6 col-sm-12#{chart_type}" id="#{chart_type_id}#{data0}"></div>)
-                        end)
+    end)
 end
 
 # site built time for footer and sitemap.xml
-sitebuildtime = Time.now.strftime '%FT%T%:z'
+sitebuildtime = Time.now.strftime "%FT%T%:z"
 
 # creates HTML footer for all pages before the scripts are inserted
 def footer(buttons, page_count, sitebuildtime, site_config)
@@ -722,10 +722,10 @@ def footer(buttons, page_count, sitebuildtime, site_config)
   # add rest of page
   s + %(
           <li class="nuchecker">
-            <a target="_blank" rel="noopener">#{site_config['valid_html']}</a>
+            <a target="_blank" rel="noopener">#{site_config["valid_html"]}</a>
           </li>
-          <li><a href="#head1">#{site_config['back_to_top']}</a></li>
-          <li><a class="built">#{site_config['last_update']}#{sitebuildtime}</a></li>
+          <li><a href="#head1">#{site_config["back_to_top"]}</a></li>
+          <li><a class="built">#{site_config["last_update"]}#{sitebuildtime}</a></li>
         </ul>
         <a href="https://info.flagcounter.com/9VsC"
            target="_blank" rel="noopener">
@@ -742,40 +742,40 @@ page = footer(buttons, page_count, sitebuildtime, site_config)
 # continue to build all the websites pages
 page_build(page, page_count)
 # restart common page
-page = ''
+page = ""
 
 # add all the websites external JavaScript files
 def add_website_scripts(type, site_scripts, d3_scripts, google_scripts, chartjs_script, plotly_script)
   case type
-  when 'd3pie'
+  when "d3pie"
     add_scripts(site_scripts, d3_scripts)
-  when 'google'
+  when "google"
     add_scripts(site_scripts, google_scripts)
-  when 'chartjs'
+  when "chartjs"
     add_scripts(site_scripts, chartjs_script)
   else
     add_scripts(site_scripts, plotly_script)
   end
 end
 # add the scripts to each page
-if site_config['chart_type'] == 'all'
-  @page += add_website_scripts('d3pie', site_scripts, d3_scripts, [], [], [])
+if site_config["chart_type"] == "all"
+  @page += add_website_scripts("d3pie", site_scripts, d3_scripts, [], [], [])
   (1..page_count).map do |i|
     instance_variable_set("@page#{i}", gp(i) +
       case (i - 1) % 8
       when 0..1 # d3pie
-        add_website_scripts('d3pie', site_scripts, d3_scripts, [], [], [])
+        add_website_scripts("d3pie", site_scripts, d3_scripts, [], [], [])
       when 2..3 # plotly
-        add_website_scripts('plotly', site_scripts, [], [], [], plotlyjs_script)
+        add_website_scripts("plotly", site_scripts, [], [], [], plotlyjs_script)
       when 4..5 # google
-        add_website_scripts('google', site_scripts, [], google_scripts, [], [])
+        add_website_scripts("google", site_scripts, [], google_scripts, [], [])
       else # chartjs
-        add_website_scripts('chartjs', site_scripts, [], [], chartjs_script, [])
+        add_website_scripts("chartjs", site_scripts, [], [], chartjs_script, [])
       end)
   end
 else
-  page = add_website_scripts(site_config['chart_type'], site_scripts, d3_scripts, google_scripts, chartjs_script,
-                             plotlyjs_script)
+  page = add_website_scripts(site_config["chart_type"], site_scripts, d3_scripts, google_scripts, chartjs_script,
+    plotlyjs_script)
 end
 
 # continue to build all the pages
@@ -784,18 +784,18 @@ page += '
 # continue to build the websites pages
 page_build(page, page_count)
 # restart common page
-page = ''
+page = ""
 # add Google charts JavaScript to the pages that need it
-case site_config['chart_type']
-when 'all'
+case site_config["chart_type"]
+when "all"
   (0..page_count).map do |i|
     next unless [5, 6].include? i % 8
 
     instance_variable_set("@page#{i}",
-                          gp(i) + %(
+      gp(i) + %(
         google.charts.load("current", {"packages":["corechart"]});\n))
   end
-when 'google'
+when "google"
   page = %(
         google.charts.load("current", {"packages":["corechart"]});\n)
 end
@@ -803,12 +803,12 @@ end
 page_build(page, page_count)
 
 # add the charts JavaScript
-if site_config['chart_type'] == 'all'
+if site_config["chart_type"] == "all"
   # home page
-  @page += draw_d3pie_chart(0, 'homepage_all', allfiles, 0, exthash, 'Branch count of files grouped by file extension', 600, 600, 15, 24, 16, 16, 1,
-                            '70%', '35%', 50, false, 35, 'open sans', 'open sans', 18, 'white', 'ff0000')
-  @page += draw_d3pie_chart(2, 'homepage_mit', mit_word_count, 1, exthash, 'Most frequent words in the GPL3.0 License', 600, 600, 15, 24, 16, 16, 2,
-                            '70%', '35%', 50, true, 35, 'open sans', 'open sans', 18, 'white', 'ff0000')
+  @page += draw_d3pie_chart(0, "homepage_all", allfiles, 0, exthash, "Branch count of files grouped by file extension", 600, 600, 15, 24, 16, 16, 1,
+    "70%", "35%", 50, false, 35, "open sans", "open sans", 18, "white", "ff0000")
+  @page += draw_d3pie_chart(2, "homepage_mit", mit_word_count, 1, exthash, "Most frequent words in the GPL3.0 License", 600, 600, 15, 24, 16, 16, 2,
+    "70%", "35%", 50, true, 35, "open sans", "open sans", 18, "white", "ff0000")
 
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
@@ -817,73 +817,73 @@ if site_config['chart_type'] == 'all'
 
     case (i - 1) % 8
     when 0..1 # d3pie
-      type = i & 1 == 1 ? 0 : '35%'
+      type = i & 1 == 1 ? 0 : "35%"
       instance_variable_set("@page#{i}",
-                            gp(i) +
-                                draw_d3pie_chart(1, data0, data1, ind, schema_colors, chart[0],
-                                                 490, 425, 11, 13, 12,
-                                                 12, 3, '75%', type, 20,
-                                                 true, 10, 'Arial Black',
-                                                 'Arial Black', 12, 'fff', 999))
+        gp(i) +
+            draw_d3pie_chart(1, data0, data1, ind, schema_colors, chart[0],
+              490, 425, 11, 13, 12,
+              12, 3, "75%", type, 20,
+              true, 10, "Arial Black",
+              "Arial Black", 12, "fff", 999))
     when 2..3 # plotly
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
-                            gp(i) + draw_plotly_chart(data0, data1, chart_title(chart[0], ind), 400, 400, type))
+        gp(i) + draw_plotly_chart(data0, data1, chart_title(chart[0], ind), 400, 400, type))
     when 4..5 # google
-      data1 = data1.map{|x| [fir(x), x.last]}
-      v = 'Values'
+      data1 = data1.map { |x| [fir(x), x.last] }
+      v = "Values"
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
-                            gp(i) + "        google.charts.setOnLoadCallback(drawChart#{data0});\n" + draw_google_chart(
-                              type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400
-                            ))
+        gp(i) + "        google.charts.setOnLoadCallback(drawChart#{data0});\n" + draw_google_chart(
+          type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400
+        ))
     else # chartjs
-      type = i & 1 == 1 ? 'pie' : 'doughnut'
+      type = i & 1 == 1 ? "pie" : "doughnut"
       instance_variable_set("@page#{i}",
-                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind),
-                                                       15, false))
+        gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind),
+          15, false))
     end
   end
 else
-  if site_config['chart_type'] == 'd3pie'
+  if site_config["chart_type"] == "d3pie"
     # home page two charts
-    @page += draw_d3pie_chart(0, 'homepage_all', allfiles, 0, exthash, 'Branch count of files grouped by file extension', 600, 600, 15, 24, 16, 16, 1,
-                              '70%', '35%', 50, false, 35, 'open sans', 'open sans', 18, 'white', 'ff0000')
-    @page += draw_d3pie_chart(2, 'homepage_mit', mit_word_count, 1, exthash, 'Most frequent words in the MIT License', 600, 600, 15, 24, 16, 16, 1,
-                              '70%', '35%', 50, true, 35, 'open sans', 'open sans', 18, 'white', 'ff0000')
+    @page += draw_d3pie_chart(0, "homepage_all", allfiles, 0, exthash, "Branch count of files grouped by file extension", 600, 600, 15, 24, 16, 16, 1,
+      "70%", "35%", 50, false, 35, "open sans", "open sans", 18, "white", "ff0000")
+    @page += draw_d3pie_chart(2, "homepage_mit", mit_word_count, 1, exthash, "Most frequent words in the MIT License", 600, 600, 15, 24, 16, 16, 1,
+      "70%", "35%", 50, true, 35, "open sans", "open sans", 18, "white", "ff0000")
   end
   # add all the javascript for each pie chart to the main chart pages
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
     data1 = chart[1..]
     i = (ind / 50) + 1
-    case site_config['chart_type']
-    when 'd3pie'
-      type = i & 1 == 1 ? 0 : '35%'
+    case site_config["chart_type"]
+    when "d3pie"
+      type = i & 1 == 1 ? 0 : "35%"
       instance_variable_set("@page#{i}",
-                            gp(i) + draw_d3pie_chart(1, data0, data1, ind, schema_colors, chart[0],
-                                                     490, 425, 11, 13, 12,
-                                                     12, 3, '75%', type, 20,
-                                                     true, 10, 'Arial Black',
-                                                     'Arial Black', 12, 'fff', 999))
-    when 'google'
-      data1 = chart[1..].map{|x| [fir(x), x.last]}
-      v = 'Values'
+        gp(i) + draw_d3pie_chart(1, data0, data1, ind, schema_colors, chart[0],
+          490, 425, 11, 13, 12,
+          12, 3, "75%", type, 20,
+          true, 10, "Arial Black",
+          "Arial Black", 12, "fff", 999))
+    when "google"
+      data1 = chart[1..].map { |x| [fir(x), x.last] }
+      v = "Values"
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
-                            gp(i) + "        google.charts.setOnLoadCallback(drawChart#{data0});\n" + draw_google_chart(
-                              type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400
-                            ))
+        gp(i) + "        google.charts.setOnLoadCallback(drawChart#{data0});\n" + draw_google_chart(
+          type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400
+        ))
 
-    when 'chartjs'
-      type = i & 1 == 1 ? 'pie' : 'doughnut'
+    when "chartjs"
+      type = i & 1 == 1 ? "pie" : "doughnut"
       instance_variable_set("@page#{i}",
-                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind),
-                                                       15, false))
+        gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind),
+          15, false))
     else
       type = i & 1 == 1 ? 0 : 0.4
       instance_variable_set("@page#{i}",
-                            gp(i) + draw_plotly_chart(data0, data1, chart_title(chart[0], ind), 400, 400, type))
+        gp(i) + draw_plotly_chart(data0, data1, chart_title(chart[0], ind), 400, 400, type))
     end
   end
 end
@@ -926,7 +926,7 @@ def build_site(page_count, sitebuildtime, url, sitemap_url)
     <priority>1.00</priority>
   </url>)
   (0..page_count).map do |i|
-    file = File.open("site/index#{ii(i)}.html", 'w')
+    file = File.open("site/index#{ii(i)}.html", "w")
     file.write(instance_variable_get("@page#{ii(i)}"))
     file.close
     sitemap += %(
@@ -938,10 +938,10 @@ def build_site(page_count, sitebuildtime, url, sitemap_url)
   end
   sitemap += '
 </urlset>'
-  file = File.open('site/sitemap.xml', 'w')
+  file = File.open("site/sitemap.xml", "w")
   file.write(sitemap)
   file.close
-  file = File.open('site/robots.txt', 'w')
+  file = File.open("site/robots.txt", "w")
   file.write("Sitemap: #{url}sitemap.xml")
   file.close
 end
@@ -950,7 +950,7 @@ end
 # https://en.wikipedia.org/wiki/Final_Destination
 # http://www.imdb.com/list/ls000699250/
 #
-build_site(page_count, sitebuildtime, site_config['url'], site_config['maps'])
+build_site(page_count, sitebuildtime, site_config["url"], site_config["maps"])
 
 # f = File.open('index.html', 'r')
 # text = f.read
