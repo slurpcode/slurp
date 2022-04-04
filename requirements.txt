@@ -1,3 +1,13 @@
+chromedriver-autoinstaller
+defusedxml
 flake8
+lxml
+matplotlib
+pandas
 pylint
+requests
+scrapy
+seaborn
+selenium
+virtualenv
 yamllint

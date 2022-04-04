@@ -21,7 +21,7 @@ jobs:
             pip3 --version
             sudo pip3 install --upgrade virtualenv --progress-bar off
             python3 -m venv venv || virtualenv venv && . venv/bin/activate
-            sudo pip3 install -r requirements.txt
+            sudo pip3 install yamllint pylint flake8
       - save_cache:
           key: dep-{{ checksum ".circleci/config.yml" }}-{{ checksum "requirements.txt" }}
           paths:
@@ -33,7 +33,7 @@ jobs:
       - run:
           name: 🧹 Run Pylint
           command: |
-            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0103,C0114,E0401,R0201,R0903,W0221,C0116,C0209
+            find . -name "*.py" -not -path "**/venv/*" | xargs pylint --disable=C0103,C0114,C0116,C0209,E0401,R0201,R0903,W0221
       - run:
           name: 🧹 Run Flake8
           command: |
@@ -83,12 +83,12 @@ jobs:
           name: 🧹 Run Reek
           command: |
             bundle exec reek -c .reek.yml
-      - run:
-          name: 📷 Run Percy snapshots
-          command: |
-            cd docs
-            bundle exec jekyll build
-            npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
+      #- run:
+      #    name: 📷 Run Percy snapshots
+      #    command: |
+      #      cd docs
+      #      bundle exec jekyll build
+      #      npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
       - restore_cache:
           keys:
             - v1-dependencies-tomlcheck

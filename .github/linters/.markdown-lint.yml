@@ -19,8 +19,13 @@ MD012: false
 # MD013/line-length
 MD013: false
 
+# MD022/blanks-around-headers
 MD022: false
+
+# MD023/header-start-left
 MD023: false
+
+# MD036/no-emphasis-as-header
 MD036: false
 
 # MD025/single-title/single-h1
