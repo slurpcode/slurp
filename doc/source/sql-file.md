@@ -114,7 +114,7 @@ you want to view.
 At the end of the upload process, you may see a red or pink area with errors or
 warnings in it. You might see a line that looks like this:
 
-/_!50001 CREATE ALGORITHM=UNDEFINED _/
+/_!50001 CREATE ALGORITHM=UNDEFINED_/
 
 This is a line from the .sql file which failed to run.
 
@@ -124,7 +124,7 @@ You might see a warning or error like this:
 operation
 
 This is all normal. You can copy at the lines shown (e.g.: /_!50001 CREATE
-ALGORITHM=UNDEFINED _/ ...and search for them in the .sql file. Or just look at
+ALGORITHM=UNDEFINED_/ ...and search for them in the .sql file. Or just look at
 the VERY end of the .sql file. You will see that all of the database
 structure-creating and data-loading commands ran successfully. But there may be
 a few lines of other setting-oriented directives that did not run.

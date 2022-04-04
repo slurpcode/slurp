@@ -20,8 +20,6 @@ or ceiling by directing a bright light through a series of revolving painted gla
 
 “Imagine that every key of an organ’s keyboard immobilises in a specific position, or moves a determined element, more or less rapidly, in a group of transparent filters which a beam of white light pierces, and this will give you an idea of the instrument Baranoff-Rossiné invented."
 
-
-
 Here you can see the Optophonic Piano in action: <https://youtu.be/I2BnanDDeFg>
 
 Next topic: Synthetic Tone

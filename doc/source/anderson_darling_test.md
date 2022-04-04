@@ -244,7 +244,6 @@ The same procedure for the high socioeconomic level: (42x51 / 94) = 22.8 - (42x4
 
 These calculations indicate the frequencies given the case that the null hypothesis is true and therefore, if the variables are independent.
 
-
 We can now make the table of expected values:
 
  ![formula](_static/images/anderson_darling_test/table_7.PNG)
@@ -314,6 +313,7 @@ According to the table, the critical value obtained is: 11.3449. We can see that
 ![photo](_static/images/anderson_darling_test/graph.jpg)
 
 So the null hypothesis will be accepted and this implies that the data fit the theoretical distribution and that the observed differences are not statistically significant.
+
 ## About The Author
 
  Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes

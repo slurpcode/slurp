@@ -66,12 +66,12 @@ always following a story line that explained every change. A huge part of the
 charm of the series was that the story of the cast, the characters, captivated
 the audience. I was happy to be part of that audience.
 
-- https://en.wikipedia.org/wiki/Law_%26_Order
-- https://www.imdb.com/title/tt0098844/
-- https://lawandorder.fandom.com/wiki/Law_%26_Order
-- https://www.nbc.com/law-order
+- <https://en.wikipedia.org/wiki/Law_%26_Order>
+- <https://www.imdb.com/title/tt0098844/>
+- <https://lawandorder.fandom.com/wiki/Law_%26_Order>
+- <https://www.nbc.com/law-order>
 
-## Related TV series and shows:
+## Related TV series and shows
 
 Hill St. Blues, NCIS, CSI, NYPD Blue, Law & Order Special Victims Unit, Law &
 Order Criminal Intent, Law & Order Trial by Jury and Law & Order LA, "Exiled: A

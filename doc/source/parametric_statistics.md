@@ -171,9 +171,7 @@ where the null hypothesis is accepted.
 
 ![Hypothesis - Acceptance Region 1](./_static/images/parametric_statistics/image2.jpeg)
 
-
 ![Hypothesis - Acceptance Region 2](./_static/images/parametric_statistics/image3.jpeg)
-
 
 On the other hand, the hypothesis is simple when the value of the
 parameter is perfectly specified and it is compound, if it has two or
@@ -436,7 +434,6 @@ To simplify the calculations, the natural logarithm function of the
 maximum likelihood estimate should be used, since the properties of
 logarithms help greatly in its calculation.
 
-
 ![Formula](./_static/images/parametric_statistics/formula1.jpeg)
 
 By properties of logarithms, the multiplications of the values ​​of the
@@ -481,7 +478,6 @@ There is a property for the productory that states that:
 
 ![\\prod\_{i = 1}\^{n}k](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dk "\prod_{i = 1}^{n}k")
 = ![k\^{n}](https://latex.codecogs.com/png.latex?k%5E%7Bn%7D "k^{n}")
-
 
 So if we take ![e\^{- \\theta}](https://latex.codecogs.com/png.latex?e%5E%7B-%20%5Ctheta%7D "e^{- \theta}") as a constant since it does not depend on the changing value (i) we can say that the first element of the function remains as: ![\\prod\_{i = 1}\^{n}e\^{- \\theta}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7De%5E%7B-%20%5Ctheta%7D "\prod_{i = 1}^{n}e^{- \theta}")  = ![e\^{- n\\theta}](https://latex.codecogs.com/png.latex?e%5E%7B-%20n%5Ctheta%7D "e^{- n\theta}").
 
@@ -553,10 +549,8 @@ I equal the term to zero and I clear θ
 ![\\sum\_{}\^{}x\_{i}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D "\sum_{}^{}x_{i}")
 = n![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta")
 
-
 ![\\theta](https://latex.codecogs.com/png.latex?%5Ctheta "\theta")
 = ![\\frac{\\sum_{}^{}x_{i}}{n}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B%5Csum_%7B%7D%5E%7B%7Dx_%7Bi%7D%7D%7Bn%7D "\frac{\sum_{}^{}x_{i}}{n}")
-
 
 This value being the average of all the data and the maximum likelihood
 value of the problem.
@@ -684,7 +678,6 @@ If we set this derivative equal to zero and solve for θ
 
 ![\\frac{- 3n}{\\theta}](https://latex.codecogs.com/png.latex?%5Cfrac%7B-%203n%7D%7B%5Ctheta%7D "\frac{- 3n}{\theta}")+
 ![\\frac{\\sum\_{i = 1}\^{n}x\_{i}}{\\theta\^{2}} = 0](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Csum_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D%20%3D%200 "\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}} = 0")
-
 
 ![\\frac{\\sum_{i = 1}^{n}x_{i}}{\\theta^{2}} = \\frac{3n}{\\theta}](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D%20%5Cfrac%7B%5Csum_%7Bi%20=%201%7D%5E%7Bn%7Dx_%7Bi%7D%7D%7B%5Ctheta%5E%7B2%7D%7D%20=%20%5Cfrac%7B3n%7D%7B%5Ctheta%7D "\frac{\sum_{i = 1}^{n}x_{i}}{\theta^{2}} = \frac{3n}{\theta}")
 

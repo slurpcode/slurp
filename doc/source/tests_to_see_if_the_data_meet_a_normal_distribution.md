@@ -148,7 +148,6 @@ going to be the following:
 | 6             | X6                                  | X2 – X6                                                  |
 | 7             | X7                                  | X1 – X7                                                  |
 
-
 The acceptance zone for the null hypothesis is made up of the values ​​of
 the test statistic W, which are less than the expected value or the
 value that is tabulated $W_{(1 - \alpha;\ n)}$
@@ -201,7 +200,6 @@ values ​​of the 5th column are multiplied by the 6th column
 
 g\) 7th column: ${(Xi - \overline{X})}^{2}$ is calculated
 
-
 |                            |           |                     |                                                          |               |                                                                   |                               |
 | -------------------------- | --------- | ------------------- | -------------------------------------------------------- | ------------- | ----------------------------------------------------------------- | ----------------------------- |
 | 1º                         | 2º        | 3º                  | 4º                                                       | 5º            | 6º                                                                | 7º                            |
@@ -215,7 +213,6 @@ g\) 7th column: ${(Xi - \overline{X})}^{2}$ is calculated
 | 7                          | 16,04     | 15,96               | \-0,08                                                   | 0             | 0                                                                 | 0,0025                        |
 | 8                          | 16,05     | 15,90               | \-0,015                                                  | 0             | 0                                                                 | 0,0036                        |
 | $\sum total$ |           |                     |                                                          |               | 0.0159                                                            | 0,0166                        |
-
 
 The test statistic is obtained by dividing the square of the sum of the
 values ​​in the 5th column $b^{2}\ $= $\left( \sum_{i = 1}^{k}{ai\ \left\lbrack x_{(n - i + 1)} - \ x_{i} \right\rbrack} \right)^{2}\ $ between
@@ -298,7 +295,7 @@ contrast with a normal distribution of estimated parameters, it will be
 necessary to consider the possibility of complementing the Kolmogorov
 Smirnov test with the Lilliefors test.
 
-## Advantages of Kolmogórov Smirnov:
+## Advantages of Kolmogórov Smirnov
 
 1.- It is more powerful than other goodness-of-fit tests such as Chi
 square.
@@ -347,7 +344,6 @@ obtained:
 | 4    | 102 - 105             | 19  | 93  |
 | 5    | 106 - 109             | 7   | 100 |
 |      | Total                 | 100 |     |
-
 
 Where the total average of the sample gives a value of $\overline{X\ }$=
 99.2 and its standard deviation is σ = 2.85
@@ -402,7 +398,6 @@ third column:
 
 ![image5](_static/images/tests_to_see_if_the_data_meet_a_normal_distribution/image5.jpeg)
 
-
 |                 |                               |                               |                      |                 |      |
 | --------------- | ----------------------------- | ----------------------------- | -------------------- | --------------- | ---- |
 | Interval limits | Z values ​​of interval limits | Typified area under the curve | Differences of areas | Differences x N | fa   |
@@ -431,7 +426,6 @@ observed frequencies that are adapted as follows in the corresponding
 intervals and then, it is when the Kolmogorov Smirnov method is applied.
 
 ## Calculation of the D statistic of the Kolmogorov Smirnov test
-
 
 |                                       |         |         |          |          |          |
 | ------------------------------------- | ------- | ------- | -------- | -------- | -------- |

@@ -1,4 +1,4 @@
-# 🤼 Iran's Best Wrestlers!
+# 🤼 Iran's Best Wrestlers
 
 Iran has provided some of the best talent that the world has seen throughout the many years of Iranian wrestling dominance.
 

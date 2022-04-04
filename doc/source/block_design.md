@@ -325,13 +325,13 @@ The effect of the treatment (ti) will be the doses of fertilizer that
 are expected to be tested in the corn plant, to increase its yield and
 in this case, in each treatment it is established as:
 
--   A = 2gr
+- A = 2gr
 
--   B = 4gr
+- B = 4gr
 
--   C = 8gr
+- C = 8gr
 
--   D = 10gr
+- D = 10gr
 
 Bj is the effect of the j-th block
 
@@ -492,7 +492,6 @@ MSTreat =
 MSEE =
 ![\\frac{309717}{(4 - 1)(5 - 1)}](https://latex.codecogs.com/png.latex?%5Cfrac%7B309717%7D%7B%284%20-%201%29%285%20-%201%29%7D "\frac{309717}{(4 - 1)(5 - 1)}")
 = 25809,7
-
 
 F =
 ![\\frac{MSTreat}{MSEE}](https://latex.codecogs.com/png.latex?%5Cfrac%7BMSTreat%7D%7BMSEE%7D "\frac{MSTreat}{MSEE}") =

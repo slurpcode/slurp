@@ -48,7 +48,7 @@ X3 = The years of use that the heater has
 Although it is true that the summary also reflects the coefficient of determination and also the adjusted R<sup>2</sup>, in the same way we are interested in understanding what each of the elements that make up its formulas means.
 When we refer to the estimation of the explained variable (y ̂), It is simply to substitute each one of the data corresponding to X1, X2 and X3 in the linear regression model, in this way we obtain each of the 〖and (〖y ̂  〗_i) we require for the formulas. To do this, we must go to Excel and generate a new column with the values of the coefficients and the data for each of the rows. In our case, the instruction would be:
 
-= $H$18 + $H$19 * B2 + $H$20 * C2 + $H$21 * D2.
+= $H$18 + $H$19 *B2 + $H$20* C2 + $H$21 * D2.
 
 It is important to note that before and after the letter that defines the column of the cells that correspond to the value of the coefficients, the symbol of ($) must be placed, since these data are constant for all observations and is the way that Excel has to freeze the value, when dragging the command to the last row. The values for the estimation of “y” will be the following:
 
