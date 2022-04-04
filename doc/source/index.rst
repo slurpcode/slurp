@@ -144,6 +144,7 @@ Welcome to slurp's documentation!
 
    amman.md
    brisbane.md
+   budapest.md
    dharamshala.md
    dubai.md
    hongkong.md
