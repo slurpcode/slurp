@@ -4,10 +4,10 @@ Budapest is the capital of Hungary and is made up of the union of two
 cities, Buda and Pest, which are separated by the Danube River. Also
 known as the pearl of the Danube, this city is surrounded by historical
 monuments and imposing buildings such as the Parliament and the Chain
-Bridge, as well as well-kept parks, historic cafes and fantastic spas. <br> <br> 
+Bridge, as well as well-kept parks, historic cafes and fantastic spas. <br> <br>
 
 ![budapest](_static/images/budapest/budapest.jpg)
-<br> <br> 
+<br> <br>
 
 We will give you a guide to the most important sites that the city
 offers you, so that if you visit it, do not miss these experiences.
