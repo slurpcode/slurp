@@ -1,7 +1,9 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'chroma'
-gem 'csv'
-gem 'fileutils'
-gem 'kramdown'
-gem 'prawn'
+source "https://rubygems.org"
+
+gem "chroma"
+gem "csv"
+gem "fileutils"
+gem "kramdown"
+gem "prawn"
