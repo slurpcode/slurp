@@ -21,8 +21,7 @@ Layout/SpaceBeforeBlockBraces:
   Enabled: true
 
 Layout/SpaceInsideBlockBraces:
-  EnforcedStyle: no_space
-  SpaceBeforeBlockParameters: false
+  Enabled: true
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
@@ -64,7 +63,6 @@ Style/MutableConstant:
 
 Style/Semicolon:
   Enabled: false
-
 
 Style/StringLiterals:
   Enabled: true
