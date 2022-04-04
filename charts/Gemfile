@@ -1,7 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'chroma'
-gem 'csv'
-gem 'fileutils'
-gem 'kramdown'
-gem 'prawn'
+gem "chroma"
+gem "csv"
+gem "fileutils"
+gem "kramdown"
+gem "prawn"

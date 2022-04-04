@@ -52,6 +52,7 @@ Metrics/PerceivedComplexity:
 ### STYLING
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+  Enabled: true
 
 Style/GuardClause:
   Enabled: false
@@ -64,3 +65,9 @@ Style/MutableConstant:
 
 Style/Semicolon:
   Enabled: false
+
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+  ConsistentQuotesInMultiline: false
