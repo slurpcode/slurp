@@ -79,29 +79,29 @@
 
     <xsl:attribute-set name="region-after-last">
         <xsl:attribute name="extent">
-			<xsl:value-of select="'4cm'"/>
+            <xsl:value-of select="'4cm'"/>
         </xsl:attribute>
         <xsl:attribute name="display-align">after</xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:attribute-set name="region-body.odd-first">
         <xsl:attribute name="margin-top">
-			<xsl:value-of select="'200pt'"/>
+            <xsl:value-of select="'200pt'"/>
         </xsl:attribute>
         <xsl:attribute name="margin-bottom">
-			<xsl:value-of select="$page-margin-bottom"/>
+            <xsl:value-of select="$page-margin-bottom"/>
         </xsl:attribute>
         <xsl:attribute name="{if ($writing-mode = 'lr') then 'margin-left' else 'margin-right'}">
-			<xsl:value-of select="$page-margin-inside"/>
+            <xsl:value-of select="$page-margin-inside"/>
         </xsl:attribute>
         <xsl:attribute name="{if ($writing-mode = 'lr') then 'margin-right' else 'margin-left'}">
-			<xsl:value-of select="$page-margin-outside"/>
+            <xsl:value-of select="$page-margin-outside"/>
         </xsl:attribute>
     </xsl:attribute-set>
 
     <xsl:attribute-set name="region-before-first">
         <xsl:attribute name="extent">
-			<xsl:value-of select="'200pt'"/>
+            <xsl:value-of select="'200pt'"/>
         </xsl:attribute>
     </xsl:attribute-set>
 
@@ -156,12 +156,12 @@
                             <fo:table-body>
                                 <fo:table-row>
                                     <fo:table-cell>
-                                        <fo:block xsl:use-attribute-sets=	"__frontmatter__title">
+                                        <fo:block xsl:use-attribute-sets=    "__frontmatter__title">
                                             <fo:external-graphic src="url({concat($artworkPrefix, '/Customization/OpenTopic/common/artwork/logo.png')})" />
                                         </fo:block>
                                     </fo:table-cell>
                                     <fo:table-cell>
-                                        <fo:block text-align="left" xsl:use-attribute-sets=	"__frontmatter__title">
+                                        <fo:block text-align="left" xsl:use-attribute-sets=    "__frontmatter__title">
                                             <fo:block padding-top="1cm">
                                             Debrief Cheat Sheets
                                             </fo:block>
@@ -223,8 +223,8 @@
         </fo:block>
     </xsl:template>
 
-	<xsl:template match="*[contains(@class, ' task/steps ')]/*[contains(@class, ' task/step ')]">
-		<!-- Switch to variable for the count rather than xsl:number, so that step specializations are also counted -->
+    <xsl:template match="*[contains(@class, ' task/steps ')]/*[contains(@class, ' task/step ')]">
+        <!-- Switch to variable for the count rather than xsl:number, so that step specializations are also counted -->
         <xsl:variable name="actual-step-count" select="number(count(preceding-sibling::*[contains(@class, ' task/step ')])+1)"/>
         <fo:list-item xsl:use-attribute-sets="steps.step" keep-together.within-page="always">
             <fo:list-item-label xsl:use-attribute-sets="steps.step__label listItemstyle">
@@ -253,9 +253,9 @@
     </xsl:template>
 
     <xsl:template match="*[contains(@class, ' task/stepxmp ')]" mode="oursinline">
-        <!-- insert image here 	-->
+        <!-- insert image here     -->
         <fo:external-graphic src="url({concat($artworkPrefix, '/Customization/OpenTopic/common/artwork/newbox.png')})" />
-        <!-- output optional 	 	-->
+        <!-- output optional          -->
         <fo:block font-size="8pt">
             <xsl:if test="child::text()">(</xsl:if>
             <xsl:apply-templates/>

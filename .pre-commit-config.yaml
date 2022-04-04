@@ -53,11 +53,11 @@ repos:
       - id: reek
       - id: rubocop
       - id: shellcheck
-  # - repo: git://github.com/Lucas-C/pre-commit-hooks
-  #  rev: v1.1.9
-  #  hooks:
-  #    - id: forbid-tabs
-  #    - id: remove-tabs
+  - repo: git://github.com/Lucas-C/pre-commit-hooks
+    rev: v1.1.9
+    hooks:
+      - id: forbid-tabs
+      - id: remove-tabs
   - repo: https://github.com/pre-commit/pygrep-hooks
     rev: v1.9.0
     hooks:

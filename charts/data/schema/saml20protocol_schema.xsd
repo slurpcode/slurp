@@ -36,7 +36,7 @@
         <xs:attribute name="Version" type="xs:string" use="required"/>
         <xs:attribute name="IssueInstant" type="xs:dateTime" use="required"/>
         <xs:attribute name="Destination" type="xs:anyURI" use="optional"/>
-    	<xs:attribute name="Consent" type="xs:anyURI" use="optional"/>
+        <xs:attribute name="Consent" type="xs:anyURI" use="optional"/>
     </xs:complexType>
     <xs:element name="Extensions" type="samlp:ExtensionsType"/>
     <xs:complexType name="ExtensionsType">
@@ -45,18 +45,18 @@
         </xs:sequence>
     </xs:complexType>
     <xs:complexType name="StatusResponseType">
-    	<xs:sequence>
+        <xs:sequence>
             <xs:element ref="saml:Issuer" minOccurs="0"/>
             <xs:element ref="ds:Signature" minOccurs="0"/>
             <xs:element ref="samlp:Extensions" minOccurs="0"/>
             <xs:element ref="samlp:Status"/>
-    	</xs:sequence>
-    	<xs:attribute name="ID" type="xs:ID" use="required"/>
-    	<xs:attribute name="InResponseTo" type="xs:NCName" use="optional"/>
-    	<xs:attribute name="Version" type="xs:string" use="required"/>
-    	<xs:attribute name="IssueInstant" type="xs:dateTime" use="required"/>
-    	<xs:attribute name="Destination" type="xs:anyURI" use="optional"/>
-    	<xs:attribute name="Consent" type="xs:anyURI" use="optional"/>
+        </xs:sequence>
+        <xs:attribute name="ID" type="xs:ID" use="required"/>
+        <xs:attribute name="InResponseTo" type="xs:NCName" use="optional"/>
+        <xs:attribute name="Version" type="xs:string" use="required"/>
+        <xs:attribute name="IssueInstant" type="xs:dateTime" use="required"/>
+        <xs:attribute name="Destination" type="xs:anyURI" use="optional"/>
+        <xs:attribute name="Consent" type="xs:anyURI" use="optional"/>
     </xs:complexType>
     <xs:element name="Status" type="samlp:StatusType"/>
     <xs:complexType name="StatusType">
@@ -82,23 +82,23 @@
     </xs:complexType>
     <xs:element name="AssertionIDRequest" type="samlp:AssertionIDRequestType"/>
     <xs:complexType name="AssertionIDRequestType">
-    	<xs:complexContent>
+        <xs:complexContent>
             <xs:extension base="samlp:RequestAbstractType">
                 <xs:sequence>
                     <xs:element ref="saml:AssertionIDRef" maxOccurs="unbounded"/>
                 </xs:sequence>
             </xs:extension>
-    	</xs:complexContent>
+        </xs:complexContent>
     </xs:complexType>
     <xs:element name="SubjectQuery" type="samlp:SubjectQueryAbstractType"/>
     <xs:complexType name="SubjectQueryAbstractType" abstract="true">
-    	<xs:complexContent>
+        <xs:complexContent>
             <xs:extension base="samlp:RequestAbstractType">
                 <xs:sequence>
                     <xs:element ref="saml:Subject"/>
                 </xs:sequence>
             </xs:extension>
-    	</xs:complexContent>
+        </xs:complexContent>
     </xs:complexType>
     <xs:element name="AuthnQuery" type="samlp:AuthnQueryType"/>
     <xs:complexType name="AuthnQueryType">
@@ -201,39 +201,39 @@
     <xs:element name="GetComplete" type="xs:anyURI"/>
     <xs:element name="Response" type="samlp:ResponseType"/>
     <xs:complexType name="ResponseType">
-    	<xs:complexContent>
+        <xs:complexContent>
             <xs:extension base="samlp:StatusResponseType">
                 <xs:choice minOccurs="0" maxOccurs="unbounded">
                     <xs:element ref="saml:Assertion"/>
                     <xs:element ref="saml:EncryptedAssertion"/>
                 </xs:choice>
             </xs:extension>
-    	</xs:complexContent>
+        </xs:complexContent>
     </xs:complexType>
     <xs:element name="ArtifactResolve" type="samlp:ArtifactResolveType"/>
     <xs:complexType name="ArtifactResolveType">
-    	<xs:complexContent>
+        <xs:complexContent>
             <xs:extension base="samlp:RequestAbstractType">
                 <xs:sequence>
                     <xs:element ref="samlp:Artifact"/>
                 </xs:sequence>
             </xs:extension>
-    	</xs:complexContent>
+        </xs:complexContent>
     </xs:complexType>
     <xs:element name="Artifact" type="xs:string"/>
     <xs:element name="ArtifactResponse" type="samlp:ArtifactResponseType"/>
     <xs:complexType name="ArtifactResponseType">
-    	<xs:complexContent>
+        <xs:complexContent>
             <xs:extension base="samlp:StatusResponseType">
                 <xs:sequence>
                     <xs:any namespace="##any" processContents="lax" minOccurs="0"/>
                 </xs:sequence>
             </xs:extension>
-    	</xs:complexContent>
+        </xs:complexContent>
     </xs:complexType>
     <xs:element name="ManageNameIDRequest" type="samlp:ManageNameIDRequestType"/>
     <xs:complexType name="ManageNameIDRequestType">
-    	<xs:complexContent>
+        <xs:complexContent>
             <xs:extension base="samlp:RequestAbstractType">
                 <xs:sequence>
                     <xs:choice>
@@ -247,7 +247,7 @@
                     </xs:choice>
                 </xs:sequence>
             </xs:extension>
-    	</xs:complexContent>
+        </xs:complexContent>
     </xs:complexType>
     <xs:element name="NewID" type="xs:string"/>
     <xs:element name="NewEncryptedID" type="saml:EncryptedElementType"/>

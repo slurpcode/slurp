@@ -34,77 +34,77 @@ gdjs.Polygon = function()
 };
 
 gdjs.Polygon.prototype.move = function(x,y) {
-	for(var i = 0, len = this.vertices.length;i<len;++i) {
+    for(var i = 0, len = this.vertices.length;i<len;++i) {
 
-		this.vertices[i][0] += x;
-		this.vertices[i][1] += y;
-	}
+        this.vertices[i][0] += x;
+        this.vertices[i][1] += y;
+    }
 };
 
 gdjs.Polygon.prototype.rotate = function(angle) {
-	var t, cosa = Math.cos(-angle),
-		sina = Math.sin(-angle); //We want a clockwise rotation
+    var t, cosa = Math.cos(-angle),
+        sina = Math.sin(-angle); //We want a clockwise rotation
 
-	for (var i = 0, len = this.vertices.length;i<len;++i) {
-		t = this.vertices[i][0];
-		this.vertices[i][0] = t*cosa + this.vertices[i][1]*sina;
-		this.vertices[i][1] = -t*sina + this.vertices[i][1]*cosa;
-	}
+    for (var i = 0, len = this.vertices.length;i<len;++i) {
+        t = this.vertices[i][0];
+        this.vertices[i][0] = t*cosa + this.vertices[i][1]*sina;
+        this.vertices[i][1] = -t*sina + this.vertices[i][1]*cosa;
+    }
 };
 
 gdjs.Polygon.prototype.computeEdges = function() {
-	var v1, v2;
-	//Ensure edge array has the right size. ( And avoid recreating an edge array ).
-	while ( this.edges.length < this.vertices.length ) {
-		this.edges.push([0,0]);
-	}
-	if ( this.edges.length != this.vertices.length )
-		this.edges.length = this.vertices.length;
+    var v1, v2;
+    //Ensure edge array has the right size. ( And avoid recreating an edge array ).
+    while ( this.edges.length < this.vertices.length ) {
+        this.edges.push([0,0]);
+    }
+    if ( this.edges.length != this.vertices.length )
+        this.edges.length = this.vertices.length;
 
-	for (var i = 0, len = this.vertices.length;i<len;++i) {
-		v1 = this.vertices[i];
-		if ((i + 1) >= len) v2 = this.vertices[0];
-		else v2 = this.vertices[i + 1];
+    for (var i = 0, len = this.vertices.length;i<len;++i) {
+        v1 = this.vertices[i];
+        if ((i + 1) >= len) v2 = this.vertices[0];
+        else v2 = this.vertices[i + 1];
 
-		this.edges[i][0] = v2[0] - v1[0];
-		this.edges[i][1] = v2[1] - v1[1];
-	}
+        this.edges[i][0] = v2[0] - v1[0];
+        this.edges[i][1] = v2[1] - v1[1];
+    }
 };
 
 gdjs.Polygon.prototype.isConvex = function() {
-	this.computeEdges();
-	var edgesLen = this.edges.length;
+    this.computeEdges();
+    var edgesLen = this.edges.length;
 
-	if ( edgesLen < 3 ) {
-		return false;
-	}
+    if ( edgesLen < 3 ) {
+        return false;
+    }
 
-	var zProductIsPositive = (this.edges[0][0]*this.edges[0+1][1] - this.edges[0][1]*this.edges[0+1][0]) > 0;
+    var zProductIsPositive = (this.edges[0][0]*this.edges[0+1][1] - this.edges[0][1]*this.edges[0+1][0]) > 0;
 
-	for (var i = 1;i<edgesLen-1;++i) {
-		var zCrossProduct = this.edges[i][0]*this.edges[i+1][1] - this.edges[i][1]*this.edges[i+1][0];
-		if ( (zCrossProduct > 0) !== zProductIsPositive ) return false;
-	}
+    for (var i = 1;i<edgesLen-1;++i) {
+        var zCrossProduct = this.edges[i][0]*this.edges[i+1][1] - this.edges[i][1]*this.edges[i+1][0];
+        if ( (zCrossProduct > 0) !== zProductIsPositive ) return false;
+    }
 
-	var lastZCrossProduct = this.edges[edgesLen-1][0]*this.edges[0][1] - this.edges[edgesLen-1][1]*this.edges[0][0];
-	if ( (lastZCrossProduct > 0) !== zProductIsPositive ) return false;
+    var lastZCrossProduct = this.edges[edgesLen-1][0]*this.edges[0][1] - this.edges[edgesLen-1][1]*this.edges[0][0];
+    if ( (lastZCrossProduct > 0) !== zProductIsPositive ) return false;
 
-	return true;
+    return true;
 };
 
 gdjs.Polygon.prototype.computeCenter = function() {
-	this.center[0] = 0;
-	this.center[1] = 0;
-	var len = this.vertices.length;
+    this.center[0] = 0;
+    this.center[1] = 0;
+    var len = this.vertices.length;
 
-	for (var i = 0;i<len;++i) {
-		this.center[0] += this.vertices[i][0];
-		this.center[1] += this.vertices[i][1];
-	}
-	this.center[0] /= len;
-	this.center[1] /= len;
+    for (var i = 0;i<len;++i) {
+        this.center[0] += this.vertices[i][0];
+        this.center[1] += this.vertices[i][1];
+    }
+    this.center[0] /= len;
+    this.center[1] /= len;
 
-	return this.center;
+    return this.center;
 };
 
 gdjs.Polygon.createRectangle = function(width, height) {
@@ -138,17 +138,17 @@ gdjs.Polygon.collisionTest = function(p1, p2, ignoreTouchingEdges) {
 
     var edge = gdjs.Polygon.collisionTest._statics.edge;
     var move_axis = gdjs.Polygon.collisionTest._statics.move_axis;
-		var result = gdjs.Polygon.collisionTest._statics.result;
-		var minDist = Number.MAX_VALUE;
+        var result = gdjs.Polygon.collisionTest._statics.result;
+        var minDist = Number.MAX_VALUE;
 
-		edge[0] = 0;
-		edge[1] = 0;
-		edge[0] = 0;
-		edge[1] = 0;
+        edge[0] = 0;
+        edge[1] = 0;
+        edge[0] = 0;
+        edge[1] = 0;
 
-		result.collision = false;
-		result.move_axis[0] = 0;
-		result.move_axis[1] = 0;
+        result.collision = false;
+        result.move_axis[0] = 0;
+        result.move_axis[1] = 0;
 
     //Iterate over all the edges composing the polygons
     for (var i = 0, len1 = p1.vertices.length, len2 = p2.vertices.length; i < len1+len2; i++) {
@@ -159,12 +159,12 @@ gdjs.Polygon.collisionTest = function(p1, p2, ignoreTouchingEdges) {
         }
 
         var axis = gdjs.Polygon.collisionTest._statics.axis; //Get the axis to which polygons will be projected
-				axis[0] = -edge[1];
-				axis[1] = edge[0];
+                axis[0] = -edge[1];
+                axis[1] = edge[0];
         gdjs.Polygon.normalise(axis);
 
-				var minMaxA = gdjs.Polygon.collisionTest._statics.minMaxA;
-				var minMaxB = gdjs.Polygon.collisionTest._statics.minMaxB;
+                var minMaxA = gdjs.Polygon.collisionTest._statics.minMaxA;
+                var minMaxB = gdjs.Polygon.collisionTest._statics.minMaxB;
         gdjs.Polygon.project(axis, p1, minMaxA); //Do projection on the axis.
         gdjs.Polygon.project(axis, p2, minMaxB);
 
@@ -207,15 +207,15 @@ gdjs.Polygon.collisionTest = function(p1, p2, ignoreTouchingEdges) {
 //Arrays and data structure that are (re)used by gdjs.Polygon.collisionTest to
 //avoid any allocation.
 gdjs.Polygon.collisionTest._statics = {
-	minMaxA: [0,0],
-	minMaxB: [0,0],
-	edge: [0,0],
-	axis: [0,0],
-	move_axis: [0,0],
-	result: {
-		collision:false,
-		move_axis:[0,0]
-	}
+    minMaxA: [0,0],
+    minMaxB: [0,0],
+    edge: [0,0],
+    axis: [0,0],
+    move_axis: [0,0],
+    result: {
+        collision:false,
+        move_axis:[0,0]
+    }
 };
 
 /**
@@ -385,8 +385,8 @@ gdjs.Polygon.crossProduct = function(a, b)
 gdjs.Polygon.project = function(axis, p, result)
 {
     var dp = gdjs.Polygon.dotProduct(axis, p.vertices[0]);
-		result[0] = dp;
-		result[1] = dp;
+        result[0] = dp;
+        result[1] = dp;
 
     for (var i = 1, len = p.vertices.length; i < len; ++i) {
         dp = gdjs.Polygon.dotProduct(axis, p.vertices[i]);

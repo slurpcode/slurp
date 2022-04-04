@@ -106,8 +106,8 @@ Let's go as an example of the Bernoulli distribution: Suppose we want to play to
 
 We will consider a success when rolling the grade is obtained a 3 and a failure if any other result is obtained. Since we determine that X is the number of times a 3 is rolled, we know that it can take two values:
 
--	X = 0 when rolling the die does not get a 3
--	X = 1 If we roll the dice and we get a 3
+-    X = 0 when rolling the die does not get a 3
+-    X = 1 If we roll the dice and we get a 3
 We are now going to assign the probabilities of obtaining a 3:
 
 ![formula](_static/images/types_of_probability_distributions/formula_4.PNG)

@@ -51,7 +51,7 @@ gdjs.evtTools.string.toLowerCase = function(str) {
  */
 gdjs.evtTools.string.subStr = function(str, start, len) {
     if ( start < str.length && start >= 0 )
-    	return str.substr(start, len);
+        return str.substr(start, len);
 
     return "";
 };
@@ -62,7 +62,7 @@ gdjs.evtTools.string.subStr = function(str, start, len) {
  */
 gdjs.evtTools.string.strAt = function(str, start) {
     if ( start < str.length && start >= 0 )
-    	return str.substr(start, 1);
+        return str.substr(start, 1);
 
     return "";
 };

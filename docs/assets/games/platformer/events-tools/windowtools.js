@@ -14,11 +14,11 @@
 gdjs.evtTools.window = gdjs.evtTools.window || {};
 
 gdjs.evtTools.window.setMargins = function(runtimeScene, top, right, bottom, left) {
-	runtimeScene.getGame().getRenderer().setMargins(top, right, bottom, left);
+    runtimeScene.getGame().getRenderer().setMargins(top, right, bottom, left);
 };
 
 gdjs.evtTools.window.setFullScreen = function(runtimeScene, enable, keepAspectRatio) {
-	runtimeScene.getGame().getRenderer().keepAspectRatio(keepAspectRatio);
+    runtimeScene.getGame().getRenderer().keepAspectRatio(keepAspectRatio);
     runtimeScene.getGame().getRenderer().setFullScreen(enable);
 };
 
@@ -35,31 +35,31 @@ gdjs.evtTools.window.setWindowTitle = function(runtimeScene, title) {
 };
 
 gdjs.evtTools.window.getWindowTitle = function(runtimeScene) {
-	runtimeScene.getGame().getRenderer().getWindowTitle();
+    runtimeScene.getGame().getRenderer().getWindowTitle();
 };
 
 gdjs.evtTools.window.getWindowWidth = function() {
-	if (gdjs.RuntimeGameRenderer && gdjs.RuntimeGameRenderer.getScreenWidth)
-		return gdjs.RuntimeGameRenderer.getScreenWidth();
+    if (gdjs.RuntimeGameRenderer && gdjs.RuntimeGameRenderer.getScreenWidth)
+        return gdjs.RuntimeGameRenderer.getScreenWidth();
 
     return (typeof window !== "undefined") ? window.innerWidth : 800;
 };
 
 gdjs.evtTools.window.getWindowHeight = function() {
-	if (gdjs.RuntimeGameRenderer && gdjs.RuntimeGameRenderer.getScreenHeight)
-		return gdjs.RuntimeGameRenderer.getScreenHeight();
+    if (gdjs.RuntimeGameRenderer && gdjs.RuntimeGameRenderer.getScreenHeight)
+        return gdjs.RuntimeGameRenderer.getScreenHeight();
 
     return (typeof window !== "undefined") ? window.innerHeight : 800;
 };
 
 gdjs.evtTools.window.getCanvasWidth = function(runtimeScene) {
-	return runtimeScene.getGame().getRenderer().getCurrentWidth();
+    return runtimeScene.getGame().getRenderer().getCurrentWidth();
 };
 
 gdjs.evtTools.window.getCanvasHeight = function(runtimeScene) {
-	return runtimeScene.getGame().getRenderer().getCurrentHeight();
+    return runtimeScene.getGame().getRenderer().getCurrentHeight();
 };
 
 gdjs.evtTools.window.openURL = function(url, runtimeScene) {
-	return runtimeScene.getGame().getRenderer().openURL(url);
+    return runtimeScene.getGame().getRenderer().openURL(url);
 };
