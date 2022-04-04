@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
-require 'nokogiri'
-require 'open-uri'
+require "nokogiri"
+require "open-uri"
 
 def get_energy_points(user)
   uri = URI.parse("https://www.khanacademy.org/profile/#{user}/")
@@ -10,7 +11,7 @@ def get_energy_points(user)
     doc.xpath('//script[contains(.,"prefersReducedMotion")]').to_s.scan(
       /points":(\d+),"prefersReducedMotion/
     )
-  res.size.positive? ? res : 'Not found'
+  res.size.positive? ? res : "Not found"
 end
 
-puts get_energy_points('XSLTGod')
+puts get_energy_points("XSLTGod")
