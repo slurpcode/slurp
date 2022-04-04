@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.7.5-buster-node-browsers
+      - image: circleci/ruby:3.0.3-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -108,7 +108,7 @@ jobs:
 
   well-formed:
     docker:
-      - image: circleci/ruby:2.7.5-buster-node-browsers
+      - image: circleci/ruby:3.0.3-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -125,7 +125,7 @@ jobs:
 
   built-in-datatypes:
     docker:
-      - image: circleci/ruby:2.7.5-buster-node-browsers
+      - image: circleci/ruby:3.0.3-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -142,7 +142,7 @@ jobs:
 
   spelling:
     docker:
-      - image: circleci/ruby:2.7.5-buster-node-browsers
+      - image: circleci/ruby:3.0.3-buster-node-browsers
     working_directory: ~/repo
     steps:
       - checkout
