@@ -19,6 +19,10 @@ MD012: false
 # MD013/line-length
 MD013: false
 
+MD022: false
+MD023: false
+MD036: false
+
 # MD025/single-title/single-h1
 MD025: false
 
