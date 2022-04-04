@@ -9,7 +9,7 @@ require 'paint'
 
 # Custom OptionParser class
 class Parser
-  VERSION = '1.0.0'
+  VERSION = '1.0.0'.freeze
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
@@ -100,11 +100,14 @@ if options.path.nil?
 end
 
 # Used to check the well formedness of XML files
-@error=0
+@error = 0
 def check(path)
   Dir.glob("#{path}/**/*.{dita,ditamap,xml,xsd,xsl}").each do |filename|
     doc = File.open(filename){|xml| Nokogiri.XML(xml)}
-    (@error=1; puts filename, doc.errors) unless doc.errors.empty?
+    unless doc.errors.empty?
+      (@error = 1
+       puts filename, doc.errors)
+    end
   end
 end
 

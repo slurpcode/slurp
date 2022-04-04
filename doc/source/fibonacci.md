@@ -1,60 +1,60 @@
 # 🥇 Fibonacci series
 
-## The Fibonacci series, the Phi number and how they manage to describe the universal proportions, which are part of the world around us
+## The Fibonacci series, the golden ratio, and how they describe the universal proportions of the world around us
 
-Leonardo de Pisa was an Italian mathematician, who has been better known
+Leonardo de Pisa was an Italian mathematician who is better known
 throughout the world as Fibonacci. This mathematician discovered a sequence
 commonly known as "The Fibonacci series"; he came up with this idea when
-calculating the number of rabbits that could be obtained over the period of
-several months, after inducing them to breed.
+calculating the number of rabbits that could be bred over a period of
+several months.
 
 Suppose that at the beginning of the first month we have a pair of newborn
 rabbits. Therefore, we have one (1) pair of rabbits that will take a month to
-develop enough to be able to pair. So at the end of the first month, we can
-already cross this pair of rabbits, and we will have 1 + 0 = 1 couples, the same
-pair of rabbits, because they have not yet procreated.
+develop enough to be able to mate. So at the end of the first month, we
+mate this pair of rabbits and, adding together the number of pairs in this
+generation and the previous generation, we have 1 + 0 = 1 couple---the same
+pair of rabbits, because the babies have not yet been born.
 
 Now, at the end of the second month the first couple gives birth to a second
-pair of rabbits, and the first pair pairs again, but (of course) they have not
-yet sired them and in this case we will already have 1 + 1 = 2, to a couple of
-pairs rabbits.
+pair of rabbits and then mates again. The newborn pair is (of course) not yet
+matured and the next pair of babies has not yet been born, so we have
+1 + 1 = 2 pairs of rabbits.
 
 By the end of the third month, the first pair of rabbits gives birth to a third
-pair, while the second pair is turning one month old, and they come together to
-pair, only that the first pair crosses again. In this case, the first pair
-already had two pairs of rabbits. Therefore, the number of rabbit pairs for this
-month will be: 2 + 1 = 3
+pair and mates again. The second pair is now mature and mates. The first pair
+has already sired two pairs of rabbits, but neither of these pairs has sired any
+of their own children yet. Two pairs---the ones from one month ago---survive
+into this generation, but only one pair---the one from two months ago---is
+old enough to birth a new pair for this generation. Therefore, the number of
+pairs for this month is: 2 + 1 = 3
 
-If we follow the succession, at the end of the fourth month, the first pair of
-rabbits will have already produced three pairs of rabbits, while the second pair
-will already have had their first pair of rabbits. We would then have that the
-number of rabbit pairs would be: 3 + 2 = 5.
+At the end of the fourth month, the first pair of rabbits has sired three
+pairs, while the second pair has sired their first pair of rabbits. So we have
+one pair for each of the rabbits in the previous month, 3, plus one extra pair
+for each of the pairs two months ago, 2, because only those pairs are old
+enough to produce children for this generation. This gives 3 + 2 = 5 pairs of
+rabbits this month.
 
-If we continue doing these calculations, we would have that, if we start with
-the numbers 1 and 1 + 0 = 1 and add them both, it would give us the number 2 as
-a result, so that:
+If we keep doing these calculations from the starting point of 0 and 1, adding
+the previous two numbers together, we can continue the sequence:
 
+- 0 + 1 = 1
 - 1 + 1 = 2
 - 1 + 2 = 3
 - 2 + 3 = 5
-
-If we continue adding the last result with the previous one, we can obtain the
-rest of the series. So we can continue building the sequence, always with the
-sum of the two previous results:
-
 - 5 + 3 = 8
 - 8 + 5 = 13
 - 13 + 8 = 21 and so on
 
 ![Fibonacci sequence](_static/images/fibonacci/fibonacci1.jpg)
 
-## How this sequence influences the explanation of certain proportions in nature
+## The Fibonacci sequence in nature
 
-This type of mathematical pattern is found in countless examples within nature.
+This type of mathematical pattern is found in countless places within nature.
 For example, the number of petals a flower has almost always matches a number in
-the Fibonacci series. While it is true that some flowers have 3 petals, you will
-find others that have 5 petals, while some will have 8 and you can even find
-flowers with up to 13 petals. But in very few exceptions, you will find a flower
+the Fibonacci series. Some flowers have 3 petals, you will
+find others that have 5 petals, some will have 8, and you can even find
+flowers with 13 petals. Much less often will you find a flower
 with a number of petals that does not match a Fibonacci number. That is, with 4,
 6, 7, 9, 10 or 11 petals.
 
@@ -62,59 +62,59 @@ The numbers that belong to this series are presented in a big part of the world
 that surround us.
 
 In the year 1753 a Scottish mathematician named Robert Simson discovered that
-the quotient of two consecutive numbers in the Fibonacci series always tends to
-be closer to 1.6180339. The result will always be alternatively, a number
-somewhat above and later, another a little below 1.6180339, but yes, without
+the quotient of two consecutive numbers in the Fibonacci series tends towards
+1.6180339... as the numbers get larger. The result will always be alternatively
+somewhat above or somewhat below 1.6180339... but trends closer and closer without
 reaching it absolutely.
 
 The number to which the relationship between two successive numbers of this same
-series converges, was called the golden number, which in addition to being
-irrational, is denoted by the Greek letter Phi.
+series converges is called the golden ratio. It is an irrational number, like
+the more well-known irrational numbers pi and e, and is denoted by the Greek
+letter phi.
 
-If you notice how the seeds that are in the center of any sunflower are
-arranged, you will notice that each seed is at a certain angle with respect to
-the previous one, which corresponds to approximately 137.5º.
+If you closely track the angular positions of the seeds of a sunflower as they
+spiral out from the center, you may notice that each seed is at a certain fixed
+angle from the one next closest to the center, and that this angle is
+approximately 137.5º. This is called the golden angle, and it is obtained
+by partitioning the 360º degrees of a circle into two parts according to the
+golden ratio.
 
-You can obtain this same angle by multiplying the decimals of the Phi number by
-360º, and you will obtain an angle greater than 180º. If we take the complement
-of this angle, it will give us as a result 137.5º which coincides with what we
-call the golden angle.
-
-This allows the seeds to have the optimal filling, that is, the same space
-between one seed and another. Resulting in a distribution of seeds from the
-center to the periphery and completely covering the area, in the most suitable
-way possible. This is how the new leaves that are generated in the sunflower do
-not block the sun from the previous leaves and also cover the maximum of the
-surface, thus managing to receive as much rain as possible. This same phenomenon
+This angle allows the seeds to pack into the space available in the most optimal
+way, that is, with the least leftover space. This causes the seeds or florets to
+completely cover the disk of the sunflower in a characteristic spiral pattern.
+This angle allows the new leaves that are generated in the sunflower to
+not block the sun for the previous leaves and also cover the maximum amount of
+surface, thus receiving as much sun as possible. The same phenomenon
 occurs with the leaves of an artichoke.
 
-But, this does not end there, if you count the spirals that form in the center
+But it does not end there. If you count the spirals that form in the center
 of a sunflower, you will realize that there are 89 spirals in one direction and
-55 in the other; they can also have 144 and 89, where again these three numbers
-belong to the illustrious succession.
+55 in the other; they can also have 144 and 89. Both are successive pairs
+from the same illustrious sequence.
 
-Trees do not escape this analogy, since if you look closely at the angle that is
-formed between two consecutive branches, you will realize that they have an
+Trees do not escape this phenomenon. If you look closely at the angle that is
+formed between two consecutive branches, you may realize that they too have an
 angle of approximately 137.5º between them.
 
-The succession created by Leonardo de Pisa is also related to the so-called
+The sequence discovered by Leonardo de Pisa is also related to the so-called
 golden spiral, which is generated by drawing a series of adjacent squares, the
 sides of which are made up of the terms of the Fibonacci series. The spiral is
-formed by the arcs of circumference, which are formed by the radii of the sides
+formed by combining quarter-circle arcs with radii equal to the side lengths
 of these squares.
 
 ![cephalopod mollusk](_static/images/fibonacci/fibonacci2.jpg)
 
-If we look at the shell of the nautilus (cephalopod mollusk) we can see the
-similarity with the golden spiral, only that instead of forming the spiral with
-the sides of a square, it is formed with equilateral triangles. Both spirals
-differ in the opening, but in both cases they have the same length to generate
-the first polygon.
+The shell of a nautilus (a type of cephalopod mollusk) has a similarity with
+the golden spiral, only that instead of be formed with
+arcs through the sides of squares, it is formed with arcs through the sides of
+equilateral triangles. For a given fixed side length of the starting polygon,
+Fibonacci spirals formed from triangles spiral in more tightly than those formed
+from squares.
 
 ![Shell](_static/images/fibonacci/fibonacci3.jpg)
 ![Spiral Drawing](_static/images/fibonacci/fibonacci4.jpg)
 
-Not satisfied with the similarities described in advance, we can also note that
+Not satisfied with the similarities described above? We also see that
 equivalent spirals are present in certain galaxies and hurricanes.
 
 ![Galaxia final](_static/images/fibonacci/fibonacci5.jpg)
@@ -122,67 +122,69 @@ equivalent spirals are present in certain galaxies and hurricanes.
 
 ## The Fibonacci series and the golden ratio in art
 
-Great music composers in the 20th century, such as Olivier Messiaen, Delia
+Great composers of the 20th century, such as Olivier Messiaen, Delia
 Derbyshire, Béla Bartók, and the band Tool, used this famous succession to
-invent new structures for their musical chords.
+invent new musical structures and to inspire their art.
 
-This Phi number has been directly involved in art for thousands of years. Since
-it also interferes with the ideal proportions of certain ancient architectural
+The golden ratio, phi, has been directly involved in art for thousands of years,
+and was associated with the ideal proportions of certain ancient architectural
 structures.
 
-This is because again the Phi number is also obtained when we divide a line into
-two certain unequal parts. If we take the quotient of the longest part and the
-smallest part, it will end up being equal to the total length of the line
-divided by its longest part. That is to say:
+This importance of the golden ratio in art and architecture may be related to this
+special construction: If one divides a distance into two unequal segments, such
+that the ratio of the lengths of the longer segment and the shorter segment is
+equal to the ratio of the lengths of the entire distance and the longer segment,
+these ratios will be equal to the golden ratio.
+
+That is to say:
 
 a / b = (a + b) / a
 
-Where “a” is the longest part of the line and “b”, the shortest. We can see that
-the Pyramid of Giza has a length of 230 meters on each side of its base and its
-height is 146 meters. The relationship between the two measures is approximately
-1.575, which, as we can see, is quite close to the golden number.
+Where “a” is the longer segment and “b” the shorter.
 
-Those numbers can be applied to the proportions of a rectangle, called the
-golden rectangle, considered one of the most visually satisfying geometric
+The Pyramid of Giza has a length of 230 meters on each side of its base and its
+height is 146 meters. The relationship between the two measures is approximately
+1.575, which is quite close to the golden ratio of 1.618.
+
+A rectangle whose length and width satisfy the golden ratio is called a
+golden rectangle, and is considered one of the most visually satisfying geometric
 shapes.
 
 Even the famous mathematician and sculptor Phidias, born in 500 BC, is believed
-to have applied the Phi number to the design of the sculptures in the Parthenon.
+to have applied the golden ratio to the design of sculptures in the Parthenon.
 
-On the other hand, a Franciscan friar named Luca Bartolomeo de Pacioli was an
-economist, accountant, mathematician and highly recognized for being one of the
-forerunners of probability calculus. This friar published a book on mathematics
-in 1509 called "De divina proportione", which was illustrated by none other than
-Leonardo da Vinci. There he claimed that "Without mathematics there is no art"
-and this compendium of writings, only intended to reveal the secret to the
-artists about harmonic forms, using the golden ratio as the main tool.
+The Franciscan friar, economist, and mathematician Luca Bartolomeo de Pacioli
+was highly recognized for being one of the early contributors to the field of
+accounting and inventor of double-entry book-keeping. He published a mathematical
+treatise in 1509 called "De divina proportione", which was illustrated by none
+other than Leonardo da Vinci. He claimed that "without mathematics there is no art"
+and intended to reveal the mathematical secrets of harmonious forms to the artists
+of the time with this treatise, using the golden ratio as his main tool.
 
-In fact, Leonardo da Vinci himself, through what he called the "sectio aurea",
-defined the ideal symmetry in his paintings such as "The Mona Lisa", "The Last
-Supper" and "The Vitruvian Man".
+Leonardo da Vinci himself, through what he called the "sectio aurea", or
+"golden ratio", exhibited the ideal symmetry in his paintings "The Mona Lisa",
+"The Last Supper", and "The Vitruvian Man".
 
 ![Leonardo Da Vinci](_static/images/fibonacci/fibonacci7.jpg)
 
-Da Vinci claimed that the ideal proportion of a person is closely linked to the
-quotient between the measurement of his height and the distance from the ground
-to his navel, since for a harmonious human being this relationship tended to
-Phi. In the same way, this number was repeated in an approximate way with the
-relationship between the distance between his fingers to his shoulder and the
-measurement from the elbow to his fingers. In fact, "The Vitruvian Man" was
-designed with these proportions.
+Da Vinci claimed a relationship between ideal human proportions and the golden
+ratio. He observed that the ratio between height and the distance from the ground
+to the navel approached phi for particularly harmonious figures. Similarly,
+the ratio of the distance between the fingers and the shoulder and the
+distance from the elbow to the fingers seemed also to approach this number.
+"The Vitruvian Man" was designed with these ideal proportions.
 
 As if that weren't enough, this sequence has multiple applications in
-mathematics, computer science, and even game theory. A mathematical curiosity is
-to add ten consecutive numbers chosen at random from the famous series; You will
-notice that the result of the sum will always be a multiple of 11. As we can
-see, that the Fibonacci series is full of mathematical anecdotes, which can
-fascinate anyone who delights in this type of event.
+mathematics, computer science, and game theory. As one example, take this mathematical
+curiosity: add any ten consecutive numbers from this famous series, and the result
+will always be a multiple of 11. Clearly, the Fibonacci series is at the center of
+countless fascinating mathematical anecdotes.
 
-## About The Author
+## Original Author
 
-Graduated in Mechanical Engineering, and a master's degree in teaching
-component, I gave classes in several institutes of mathematics and physics, but
-I also dedicated several years of my life as a television producer, I did the
-scripts for mikes, the camera direction, editing of video and even the location.
-Later I was dedicated to SEO writing for a couple of years. I like poetry, chess
-and dominoes.
+I Graduated in Mechanical Engineering, with a Master's degree in the teaching
+component. I gave classes in several institutes of mathematics and physics, but
+I also dedicated several years of my life to being a television producer. I did
+scripts for the mics, camera direction, editing of video, and even the location.
+I then wrote for search engine optimization for a couple of years. I like poetry,
+chess and dominoes.
