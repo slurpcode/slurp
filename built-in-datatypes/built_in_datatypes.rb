@@ -45,7 +45,7 @@ class Parser
     end
 
     def specify_path_option(parser)
-      parser.on("-p", "--path path", "Path to schema") {|p| self.path = p}
+      parser.on("-p", "--path path", "Path to schema") { |p| self.path = p }
     end
 
     def delay_execution_option(parser)
@@ -62,7 +62,7 @@ class Parser
         "--time [TIME]",
         Time,
         "Begin execution at given time"
-      ) {|time| self.time = time}
+      ) { |time| self.time = time }
     end
   end
 

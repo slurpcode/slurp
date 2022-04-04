@@ -50,7 +50,7 @@ class Parser
         "-p",
         "--path path",
         "Path to check for well formedness"
-      ) {|p| self.path = p}
+      ) { |p| self.path = p }
     end
 
     def delay_execution_option(parser)
@@ -67,7 +67,7 @@ class Parser
         "--time [TIME]",
         Time,
         "Begin execution at given time"
-      ) {|time| self.time = time}
+      ) { |time| self.time = time }
     end
   end
 
@@ -105,7 +105,7 @@ end
 @error = 0
 def check(path)
   Dir.glob("#{path}/**/*.{dita,ditamap,xml,xsd,xsl}").each do |filename|
-    doc = File.open(filename) {|xml| Nokogiri.XML(xml)}
+    doc = File.open(filename) { |xml| Nokogiri.XML(xml) }
     unless doc.errors.empty?
       (@error = 1
        puts filename, doc.errors)

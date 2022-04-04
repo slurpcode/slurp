@@ -50,7 +50,7 @@ class Parser
         "--path path",
         'Directory or path relative to this
                                      directory to check for excess whitespace.'
-      ) {|p| self.path = p}
+      ) { |p| self.path = p }
     end
 
     def delay_execution_option(parser)
@@ -67,7 +67,7 @@ class Parser
         "--time [TIME]",
         Time,
         "Begin execution at given time"
-      ) {|time| self.time = time}
+      ) { |time| self.time = time }
     end
   end
 
