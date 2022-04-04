@@ -279,6 +279,7 @@ Welcome to slurp's documentation!
    garry_kasparov_a_chess_player.md
    inclusion_of_chess_in_olympics.md
    mikhail_tal.md
+   richard-rapport-wins-the-second-leg-of-grand-prix.md
    should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
 
