@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 # Need to finish `time`
 # Wow, looks like there are still jobs for COBOL
 
@@ -50,17 +52,16 @@ end
 
 # Custom OptionParser class
 class Parser
-  VERSION = "1.0.0".freeze
+  VERSION = "1.0.0"
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
     attr_accessor :keyword, :location, :range, :worktype, :delay, :time
 
-    def initialize
-    end
+    def initialize; end
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint["seek.rb [options]", :red, :white]}"
+      parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
       parser.separator ""
       parser.separator "Specific options:"
 

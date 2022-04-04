@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
+
 # to finish `time`
 
 require "nokogiri"
@@ -9,17 +11,16 @@ require "paint"
 
 # Custom OptionParser class
 class Parser
-  VERSION = "1.0.0".freeze
+  VERSION = "1.0.0"
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
     attr_accessor :path, :delay, :time
 
-    def initialize
-    end
+    def initialize; end
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint["built_in_datatypes.rb", :red, :white]}"
+      parser.banner = "Usage: #{Paint['built_in_datatypes.rb', :red, :white]}"
       parser.separator ""
       parser.separator "Specific options:"
 

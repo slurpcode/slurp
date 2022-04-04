@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Secure Hash Algorithm choices: md2 md4 md5 sha1 sha256 sha384 sha512
 # to finish `time`
 
@@ -8,17 +10,16 @@ require "paint"
 
 # Custom OptionParser class
 class Parser
-  VERSION = "1.0.0".freeze
+  VERSION = "1.0.0"
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
     attr_accessor :file, :algorithm, :delay, :time
 
-    def initialize
-    end
+    def initialize; end
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint["hashcheck.rb [options]", :red, :white]}"
+      parser.banner = "Usage: #{Paint['hashcheck.rb [options]', :red, :white]}"
       parser.separator ""
       parser.separator "Specific options:"
 
