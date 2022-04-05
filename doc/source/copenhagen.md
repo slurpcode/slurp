@@ -8,7 +8,7 @@ castles from fairy tales, relaxing parks, excellent viewpoints with
 fantastic views and an emblematic amusement park, which ultimately make
 it one of the best cities to visit in Europe.
 
-![CopenHagen](_static/images/copenhagen/copenhagen.jpg)
+![Copen Hagen](_static/images/copenhagen/copenhagen.jpg)
 
 In this article we will give you a selection of what we believe are the
 essential places that you should know if you visit Copenhagen.
@@ -84,7 +84,7 @@ If you are a lover of castles, you can visit three beautiful buildings
 that are near the capital, they are the castles of Kronborg, Fredensborg
 and Frederiksborg, all worth visiting.
 
-![Rosenborg Castle](_static/images/copenhegen/rosenborg-castle.jpg)
+![Rosenborg Castle](_static/images/copenhagen/rosenborg-castle.jpg)
 
 ## Church of San Salvador
 
@@ -131,7 +131,7 @@ in the city, with its Renaissance style and built in red brick. The
 element that stands out the most is its spire, which is approximately 55
 m high and is made up of dragon tails that are joined in a spiral.
 
-![Slotsholmen](_static/images/copenhegen/slotsholmen.jpg)
+![Slotsholmen](_static/images/copenhagen/slotsholmen.jpg)
 
 The Royal Danish Library is the largest that exists in the Nordic
 countries, it is made up of several buildings, among which the one known
