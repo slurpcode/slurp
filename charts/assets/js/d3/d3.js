@@ -1,8 +1,8 @@
 // https://d3js.org Version 4.12.2. Copyright 2017 Mike Bostock.
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
-	typeof define === 'function' && define.amd ? define(['exports'], factory) :
-	(factory((global.d3 = global.d3 || {})));
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+    typeof define === 'function' && define.amd ? define(['exports'], factory) :
+    (factory((global.d3 = global.d3 || {})));
 }(this, (function (exports) { 'use strict';
 
 var version = "4.12.2";

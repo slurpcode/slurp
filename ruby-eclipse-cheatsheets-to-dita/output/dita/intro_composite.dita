@@ -81,56 +81,56 @@
     <task id="idp140696534159168">
       <title>Generating links to your existing data</title>
       <shortdesc>Debrief NG stores it's data in a local folder called a Project. While
-			these are frequently created afresh to store new analysis data, it's also possible
-			to denote your existing data directories as sub-folders (via links). This tutorial leads
-			you through generating links to your existing data folders. If you've installed
-			Debrief in the past, chances are you still have a Debrief installation folder (in
-			C:\Program Files\Debrief 2003). If you do still have this folder, you can usefully link
-			it in within this tutorial to provide some sample data. If you don't have an
-			existing Debrief installation, then add the folder called <b>sample_data</b> located in
-			the top-level folder of your Debrief NG installation (typically in c:\DebriefNG under MS
-			Windows if you have Debrief installed locally, or in the Debrief\DebriefNG folder
-			if you are on a site using a Programs folder from a shared
-			network drive).</shortdesc>
+            these are frequently created afresh to store new analysis data, it's also possible
+            to denote your existing data directories as sub-folders (via links). This tutorial leads
+            you through generating links to your existing data folders. If you've installed
+            Debrief in the past, chances are you still have a Debrief installation folder (in
+            C:\Program Files\Debrief 2003). If you do still have this folder, you can usefully link
+            it in within this tutorial to provide some sample data. If you don't have an
+            existing Debrief installation, then add the folder called <b>sample_data</b> located in
+            the top-level folder of your Debrief NG installation (typically in c:\DebriefNG under MS
+            Windows if you have Debrief installed locally, or in the Debrief\DebriefNG folder
+            if you are on a site using a Programs folder from a shared
+            network drive).</shortdesc>
       <taskbody>
         <steps>
           <step id="idp140696534340448">
             <cmd>Check Navigator is open</cmd>
             <info>In the top left hand corner of Debrief you should find the Navigator window. If
-			it isn't there, select <b>Navigator</b> from Debrief's Window/Show View
-			menu.</info>
+            it isn't there, select <b>Navigator</b> from Debrief's Window/Show View
+            menu.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534342144">
             <cmd>Check you have a workspace</cmd>
             <info>Before you can link in existing data, you need to define a project for your
-			work. This is a parent folder within which your links are stored. If your Navigator
-			window is empty, you must follow the <b>Generating a project</b> cheat-sheet accessed
-			from the Help/Cheat Sheets menu.</info>
+            work. This is a parent folder within which your links are stored. If your Navigator
+            window is empty, you must follow the <b>Generating a project</b> cheat-sheet accessed
+            from the Help/Cheat Sheets menu.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534343824">
             <cmd>Add a new Folder</cmd>
             <info>Right-click on your current project in the Navigator view, then select
-				<b>Folder</b> from the <b>New</b> sub-menu. The New Folder wizard will open. Instead
-			of creating a fresh child folder to store our data, we're going to link to an
-			existing folder. So, whilst still in the New Folder Wizard, click the
-			'Advanced' button to display the Advanced options. Next, click on the
-			'Link to alternate location (Linked folder)', and click on
-			'Browse...' to navigate to an existing data folder on your machine or the
-			network, clicking on <b>Finish</b> to, erm, Finish. <ph/><b>If you don't have your own
-			data</b>, please use the <b>sample_data</b> folder that's installed in your Debrief
-			installation folder (for a deployed Debrief) or<ph/>
-			org.mwc.cmap.combined.feature/root_installs (if you are running a development version of
-			Debrief).</info>
+                <b>Folder</b> from the <b>New</b> sub-menu. The New Folder wizard will open. Instead
+            of creating a fresh child folder to store our data, we're going to link to an
+            existing folder. So, whilst still in the New Folder Wizard, click the
+            'Advanced' button to display the Advanced options. Next, click on the
+            'Link to alternate location (Linked folder)', and click on
+            'Browse...' to navigate to an existing data folder on your machine or the
+            network, clicking on <b>Finish</b> to, erm, Finish. <ph/><b>If you don't have your own
+            data</b>, please use the <b>sample_data</b> folder that's installed in your Debrief
+            installation folder (for a deployed Debrief) or<ph/>
+            org.mwc.cmap.combined.feature/root_installs (if you are running a development version of
+            Debrief).</info>
             <stepxmp/>
           </step>
           <step id="idp140696534348352">
             <cmd>Done</cmd>
             <info>Well done, there you are. Just repeat this process to add any other data
-			directories you want to load data from. You've probably just created a link to the
-			sample data, but you may also wish to create a link to a shared working
-			folder.</info>
+            directories you want to load data from. You've probably just created a link to the
+            sample data, but you may also wish to create a link to a shared working
+            folder.</info>
             <stepxmp/>
           </step>
         </steps>
@@ -177,13 +177,13 @@ These range from Vectored datasets such as VPF through to gridded datasets such 
     <task id="idp140696534169760">
       <title>Creating a new plot in Debrief</title>
       <shortdesc>This tutorial will lead you through creating a new, blank plot in Debrief.
-		</shortdesc>
+        </shortdesc>
       <taskbody>
         <steps>
           <step id="idp140696534376592">
             <cmd>Check you have a Project</cmd>
             <info>Before you can create a Plot, you must have a Project into which the Plot is created. If you haven't created a project, go to the "Generating a project" cheatsheet, then return here.
-		</info>
+        </info>
             <stepxmp/>
           </step>
           <step id="idp140696534377840">
@@ -197,7 +197,7 @@ These range from Vectored datasets such as VPF through to gridded datasets such 
             <cmd>Create new plot</cmd>
             <info>In the Navigator view, right-click on the parent folder for your new plot and select <b>New</b>/<b>Debrief Plot</b> and the Wizard will open.  Once the wizard opens, the first step is to confirm where you would like the plot to be stored (it's <b>Container</b>). If you're not happy with the specified location click on <b>Browse</b> button and select the top-level folder of your data directories.  Also provide a filename.
 Using the wizard, follow the series of tabs to indicate what information you'd like shown in the background of the plot, clicking Finish to complete.  Some of the steps will not advance until all of the necessary fields have been filled.
-		</info>
+        </info>
             <stepxmp/>
           </step>
           <step id="idp140696534382688">
@@ -216,7 +216,7 @@ Using the wizard, follow the series of tabs to indicate what information you'd l
     <task id="idp140696534174080">
       <title>Adding data to a plot</title>
       <shortdesc>Debrief's New Plot Wizard is quite effective at providing you with a ready-formatted backdrop to your analysis, but it doesn't load your data for you.  Here we're going to load some existing tracks to assist your getting started.
-		</shortdesc>
+        </shortdesc>
       <taskbody>
         <steps>
           <step id="idp140696534394736">
@@ -260,128 +260,128 @@ Using the wizard, follow the series of tabs to indicate what information you'd l
     <task id="idp140696534177520">
       <title>Editing your data</title>
       <shortdesc>So, you've found your data, loaded it into Debrief, and now you want to make
-			some changes to it. This cheat-sheet will give you some pointers.</shortdesc>
+            some changes to it. This cheat-sheet will give you some pointers.</shortdesc>
       <taskbody>
         <steps>
           <step id="idp140696534420576">
             <cmd>Check you have some data</cmd>
             <info>In the top left hand corner of Debrief you should find the Navigator window. If
-			it isn't there, select "Navigator" from Debrief's Window/Show View menu. Also check you
-			have our sample data-files - it they're not there, find how to load them from the
-			"Loading sample data" cheat-sheet.</info>
+            it isn't there, select "Navigator" from Debrief's Window/Show View menu. Also check you
+            have our sample data-files - it they're not there, find how to load them from the
+            "Loading sample data" cheat-sheet.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534422192">
             <cmd>Open the sample plot-file</cmd>
             <info>If it's not already open, double-click on 'sample.xml' in the
-			Navigator window, and the sample plot will open.</info>
+            Navigator window, and the sample plot will open.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534423536">
             <cmd>Fit to window</cmd>
             <info>You can also experiment with zooming in and out.  Click the zoom out
-			button once to zoom out, or put plot into <b>Zoom In</b> mode by clicking on the Zoom In
-			button. Now, when you drag an area, the map will zoom in on that viewport.<ph/>
-			Lastly, to make sure all of the data is visible, click on the "Fit-to-Window"
-			toolbar button. Read more about the toolbar buttons by clicking on the help-link to the
-			right of this text.  </info>
+            button once to zoom out, or put plot into <b>Zoom In</b> mode by clicking on the Zoom In
+            button. Now, when you drag an area, the map will zoom in on that viewport.<ph/>
+            Lastly, to make sure all of the data is visible, click on the "Fit-to-Window"
+            toolbar button. Read more about the toolbar buttons by clicking on the help-link to the
+            right of this text.  </info>
             <stepxmp/>
           </step>
           <step id="idp140696534426240">
             <cmd>View the data in tree form</cmd>
             <info> In addition to viewing your data on the 2D plot, the <b>Outline View</b>
-			displays it in tree form. Switch to the <b>Outline View</b> view to see the data.
-			If the Outline View isn't open already, you can open it via the <b>Window/Show View</b> menu.
-			You'll see the two tracks there, together with other layers that contain <b>Chart
-				Features</b> (such as the <b>Grid</b> and <b>Scale</b>), and the <b>Misc</b> layer
-			that contains graphical annotations. </info>
+            displays it in tree form. Switch to the <b>Outline View</b> view to see the data.
+            If the Outline View isn't open already, you can open it via the <b>Window/Show View</b> menu.
+            You'll see the two tracks there, together with other layers that contain <b>Chart
+                Features</b> (such as the <b>Grid</b> and <b>Scale</b>), and the <b>Misc</b> layer
+            that contains graphical annotations. </info>
             <stepxmp/>
           </step>
           <step id="idp140696534430608">
             <cmd>Make sure the properties window is open</cmd>
             <info>The properties window is normally at the bottom left of Debrief. If it's there
-			but not at the top of the 'stack', click on its title to reveal it. If you can't find
-			it, select "Properties" from the 'Window/Show View" drop-down list.</info>
+            but not at the top of the 'stack', click on its title to reveal it. If you can't find
+            it, select "Properties" from the 'Window/Show View" drop-down list.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534432176">
             <cmd>Select an item</cmd>
             <info>Now double-click on one of the corners of the green rectangle near the centre
-			of the track plot. You'll now see its editable attributes appear on the properties
-			window. Cool. You'll see that the attributes are grouped for ease of use, and some
-			must be expanded (those for location &amp; time).</info>
+            of the track plot. You'll now see its editable attributes appear on the properties
+            window. Cool. You'll see that the attributes are grouped for ease of use, and some
+            must be expanded (those for location &amp; time).</info>
             <stepxmp/>
           </step>
           <step id="idp140696534433824">
             <cmd>Make a change</cmd>
             <info>Now have a go at changing the rectangle's label color. Click once on the green
-			rectangle next to 'LabelColor'. A button containing three dots will appear. Click on
-			this to open the color editor. Click on the red rectangle and then the 'OK' button. The
-			dialog will close, the label color property will be updated, and the plot will redraw.
-			Well done.</info>
+            rectangle next to 'LabelColor'. A button containing three dots will appear. Click on
+            this to open the color editor. Click on the red rectangle and then the 'OK' button. The
+            dialog will close, the label color property will be updated, and the plot will redraw.
+            Well done.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534435200">
             <cmd>Undo the change</cmd>
             <info>Oops, it appears we shouldn't have changed the label color, it
-			doesn't meet NATO MilStd 12332 Sub-para 14g (2002 version). To undo a change, first
-			click on the tab at the top of the <b>sample.xml</b> plot (to tell Debrief which plot
-			we're undoing). Now click on the Edit menu, and select Undo (it's the first
-			item). The color of the label will now change back. Look on the Edit menu again, and
-			you'll see there's now a "Redo" command available - just in case
-			you're undecided about your adherence to sub-para 14g. Note, it's not just
-			edits that are undo-able, lots of operations can be undone, just have a look on the Edit
-			menu whenever you feel the need to step-back. If you think something isn't on there
-			but it should be, just ask... <b>But it did
-				not undo!</b>. The Undo button applies to whichever is the active Debrief view. So,
-			to undo a change to the plot, first need to select the plot (or the tab containing hte
-			plot name), then press undo.</info>
+            doesn't meet NATO MilStd 12332 Sub-para 14g (2002 version). To undo a change, first
+            click on the tab at the top of the <b>sample.xml</b> plot (to tell Debrief which plot
+            we're undoing). Now click on the Edit menu, and select Undo (it's the first
+            item). The color of the label will now change back. Look on the Edit menu again, and
+            you'll see there's now a "Redo" command available - just in case
+            you're undecided about your adherence to sub-para 14g. Note, it's not just
+            edits that are undo-able, lots of operations can be undone, just have a look on the Edit
+            menu whenever you feel the need to step-back. If you think something isn't on there
+            but it should be, just ask... <b>But it did
+                not undo!</b>. The Undo button applies to whichever is the active Debrief view. So,
+            to undo a change to the plot, first need to select the plot (or the tab containing hte
+            plot name), then press undo.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534438128">
             <cmd>Edit a position</cmd>
             <info>To select a position within a track, just double-click on it - its editable
-			attributes will appear in the properties window. You can now change the symbol or label
-			(<b>LabelShowing</b> or <b>SymbolShowing</b>,
-			visibility, or the color (<b>Color</b>) that position will be plotted in. Note: you may have to scroll up &amp; down the
-			<b>Properties Window</b> to see all of the properties.</info>
+            attributes will appear in the properties window. You can now change the symbol or label
+            (<b>LabelShowing</b> or <b>SymbolShowing</b>,
+            visibility, or the color (<b>Color</b>) that position will be plotted in. Note: you may have to scroll up &amp; down the
+            <b>Properties Window</b> to see all of the properties.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534441152">
             <cmd>Edit a whole track</cmd>
             <info>Aaah, but how do you edit a track? Easy, just use the Outline View to select
-			it rather than clicking on the plot. Open the Outline View (or select Outline View
-			from the Window/Show View drop-down menu). In the Outline View click once on the name
-			of a track, and the whole track's properties will be editable in the Properties View.
-			The Outline View is also useful for selecting non-geographic entities (such as a grid,
-			scale, or background data-set) to be edited.</info>
+            it rather than clicking on the plot. Open the Outline View (or select Outline View
+            from the Window/Show View drop-down menu). In the Outline View click once on the name
+            of a track, and the whole track's properties will be editable in the Properties View.
+            The Outline View is also useful for selecting non-geographic entities (such as a grid,
+            scale, or background data-set) to be edited.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534442656">
             <cmd>Re-arrange the views</cmd>
             <info>Now, are you finding it a bit of pain switching between the Outline View and
-			Properties views? Using your mouse, just click and drag the Properties panel upwards -
-			so it's on top of the view vertically above it. You can now see the Outline View
-			and Properties windows at once.</info>
+            Properties views? Using your mouse, just click and drag the Properties panel upwards -
+            so it's on top of the view vertically above it. You can now see the Outline View
+            and Properties windows at once.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534444048">
             <cmd>Edit directly from the plot itself</cmd>
             <info>For some attributes, you don't even need to use the Properties View. Just
-			right-click on an item on your plot. The popup menu shows a series of options and
-			commands. A drop-down menu is shown next to the current item's name. From this drop-down
-			menu you'll be able to edit all of the item's true/false or 'select one from many'
-			attributes. Note, if you click on a vehicle position, a drop-down is shown for the
-			parent track as well as the position itself. Also note, that the right-click menu is
-			shown if you click on an item from the Outline View.</info>
+            right-click on an item on your plot. The popup menu shows a series of options and
+            commands. A drop-down menu is shown next to the current item's name. From this drop-down
+            menu you'll be able to edit all of the item's true/false or 'select one from many'
+            attributes. Note, if you click on a vehicle position, a drop-down is shown for the
+            parent track as well as the position itself. Also note, that the right-click menu is
+            shown if you click on an item from the Outline View.</info>
             <stepxmp/>
           </step>
           <step id="idp140696534445664">
             <cmd>Don't forget to save</cmd>
             <info>Now that you've invested all that effort in your plot, don't forget to save it.
-			Just click on the floppy-disk icon on the main toolbar. If the data you're looking is
-			actually an REP file, you will be invited to save the file in Debrief's XML plot-file
-			format - since REPs can't store formatting data.</info>
+            Just click on the floppy-disk icon on the main toolbar. If the data you're looking is
+            actually an REP file, you will be invited to save the file in Debrief's XML plot-file
+            format - since REPs can't store formatting data.</info>
             <stepxmp/>
           </step>
         </steps>

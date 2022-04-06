@@ -26,35 +26,35 @@ gdjs.ImageManager = gdjs.PixiImageManager; //Register the class to let the engin
  * @param {string} resourceName The name of the resource to get.
  */
 gdjs.PixiImageManager.prototype.getPIXITexture = function(resourceName) {
-	if ( this._loadedTextures.containsKey(resourceName) ) {
-		return this._loadedTextures.get(resourceName);
-	}
-	if ( resourceName === "" ) {
-		return this._invalidTexture;
-	}
+    if ( this._loadedTextures.containsKey(resourceName) ) {
+        return this._loadedTextures.get(resourceName);
+    }
+    if ( resourceName === "" ) {
+        return this._invalidTexture;
+    }
 
-	//Texture is not loaded, load it now from the resources list.
-	if ( this._resources ) {
-		var texture = null;
+    //Texture is not loaded, load it now from the resources list.
+    if ( this._resources ) {
+        var texture = null;
 
-		for(var i = 0, len = this._resources.length;i<len;++i) {
-			var res = this._resources[i];
+        for(var i = 0, len = this._resources.length;i<len;++i) {
+            var res = this._resources[i];
 
-			if (res.name === resourceName && res.kind === "image") {
-				texture = PIXI.Texture.fromImage(res.file);
-				break;
-			}
-		}
+            if (res.name === resourceName && res.kind === "image") {
+                texture = PIXI.Texture.fromImage(res.file);
+                break;
+            }
+        }
 
-		if ( texture !== null ) {
-			console.log("Loaded texture for resource \""+resourceName+"\".");
-			this._loadedTextures.put(resourceName, texture);
-			return texture;
-		}
-	}
+        if ( texture !== null ) {
+            console.log("Loaded texture for resource \""+resourceName+"\".");
+            this._loadedTextures.put(resourceName, texture);
+            return texture;
+        }
+    }
 
-	console.warn("Unable to find texture for resource \""+resourceName+"\".");
-	return this._invalidTexture;
+    console.warn("Unable to find texture for resource \""+resourceName+"\".");
+    return this._invalidTexture;
 };
 
 /**
@@ -63,35 +63,35 @@ gdjs.PixiImageManager.prototype.getPIXITexture = function(resourceName) {
  * @param {string} resourceName The name of the resource to get.
  */
 gdjs.PixiImageManager.prototype.getPIXIVideoTexture = function(resourceName) {
-	if ( this._loadedTextures.containsKey(resourceName) ) {
-		return this._loadedTextures.get(resourceName);
-	}
-	if ( resourceName === "" ) {
-		return this._invalidTexture;
-	}
+    if ( this._loadedTextures.containsKey(resourceName) ) {
+        return this._loadedTextures.get(resourceName);
+    }
+    if ( resourceName === "" ) {
+        return this._invalidTexture;
+    }
 
-	//Texture is not loaded, load it now from the resources list.
-	if ( this._resources ) {
-		var texture = null;
+    //Texture is not loaded, load it now from the resources list.
+    if ( this._resources ) {
+        var texture = null;
 
-		for(var i = 0, len = this._resources.length;i<len;++i) {
-			var res = this._resources[i];
+        for(var i = 0, len = this._resources.length;i<len;++i) {
+            var res = this._resources[i];
 
-			if (res.name === resourceName && res.kind === "video") {
-				texture = PIXI.Texture.fromVideo(res.file);
-				break;
-			}
-		}
+            if (res.name === resourceName && res.kind === "video") {
+                texture = PIXI.Texture.fromVideo(res.file);
+                break;
+            }
+        }
 
-		if ( texture !== null ) {
-			console.log("Loaded video texture for resource \""+resourceName+"\".");
-			this._loadedTextures.put(resourceName, texture);
-			return texture;
-		}
-	}
+        if ( texture !== null ) {
+            console.log("Loaded video texture for resource \""+resourceName+"\".");
+            this._loadedTextures.put(resourceName, texture);
+            return texture;
+        }
+    }
 
-	console.warn("Unable to find video texture for resource \""+resourceName+"\".");
-	return this._invalidTexture;
+    console.warn("Unable to find video texture for resource \""+resourceName+"\".");
+    return this._invalidTexture;
 };
 
 /**
@@ -99,7 +99,7 @@ gdjs.PixiImageManager.prototype.getPIXIVideoTexture = function(resourceName) {
  * suitable texture can be found.
  */
 gdjs.PixiImageManager.prototype.getInvalidPIXITexture = function() {
-	return this._invalidTexture;
+    return this._invalidTexture;
 };
 
 /**
@@ -111,20 +111,20 @@ gdjs.PixiImageManager.prototype.getInvalidPIXITexture = function() {
  * specified in the PixiImageManager constructor.
  */
 gdjs.PixiImageManager.prototype.loadTextures = function(onProgress, onComplete, resources) {
-	resources = resources || this._resources;
+    resources = resources || this._resources;
 
-	//Construct the list of files to be loaded.
-	//For one loaded file, it can have one or more resources
-	//that use it.
+    //Construct the list of files to be loaded.
+    //For one loaded file, it can have one or more resources
+    //that use it.
     var files = {};
-	for(var i = 0, len = resources.length;i<len;++i) {
-		var res = resources[i];
+    for(var i = 0, len = resources.length;i<len;++i) {
+        var res = resources[i];
 
         if ( res.file && res.kind === "image" ) {
-        	if (this._loadedTextures.containsKey(res.name)) {
-				console.log("Texture \"" + res.name + "\" is already loaded.");
-        		continue;
-        	}
+            if (this._loadedTextures.containsKey(res.name)) {
+                console.log("Texture \"" + res.name + "\" is already loaded.");
+                continue;
+            }
 
             files[res.file] = files[res.file] ? files[res.file].concat(res) : [res];
         }
@@ -132,36 +132,36 @@ gdjs.PixiImageManager.prototype.loadTextures = function(onProgress, onComplete, 
 
     var totalCount = Object.keys(files).length;
     if (totalCount === 0)
-    	return onComplete(totalCount); //Nothing to load.
+        return onComplete(totalCount); //Nothing to load.
 
     var loadingCount = 0;
     var loader = PIXI.loader;
-	var that = this;
+    var that = this;
     loader.once('complete', function(loader, loadedFiles) {
-    	//Store the loaded textures so that they are ready to use.
-    	for (var file in loadedFiles) {
-    		if (loadedFiles.hasOwnProperty(file)) {
-    			if (!files.hasOwnProperty(file)) continue;
+        //Store the loaded textures so that they are ready to use.
+        for (var file in loadedFiles) {
+            if (loadedFiles.hasOwnProperty(file)) {
+                if (!files.hasOwnProperty(file)) continue;
 
-    			files[file].forEach(function(res) {
-    				that._loadedTextures.put(res.name, loadedFiles[file].texture);
+                files[file].forEach(function(res) {
+                    that._loadedTextures.put(res.name, loadedFiles[file].texture);
                     if (!res.smoothed) {
                         loadedFiles[file].texture.baseTexture.scaleMode =
                             PIXI.SCALE_MODES.NEAREST;
                     }
-    			});
-    		}
-    	}
+                });
+            }
+        }
 
-    	onComplete(totalCount);
+        onComplete(totalCount);
     });
     loader.on('progress', function() {
-    	loadingCount++;
-    	onProgress(loadingCount, totalCount);
+        loadingCount++;
+        onProgress(loadingCount, totalCount);
     });
 
-	for (var file in files) {
-		if (files.hasOwnProperty(file)) {
+    for (var file in files) {
+        if (files.hasOwnProperty(file)) {
             loader.add(file, file);
         }
     }

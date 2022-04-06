@@ -25,21 +25,21 @@ gdjs.TimeManager.prototype.reset = function() {
 }
 
 gdjs.TimeManager.prototype.update = function(elapsedTime, minimumFPS) {
-	if (this._firstUpdateDone) this._firstFrame = false;
-	this._firstUpdateDone = true;
+    if (this._firstUpdateDone) this._firstFrame = false;
+    this._firstUpdateDone = true;
 
-	//Compute the elapsed time since last frame
-	this._elapsedTime = Math.min(elapsedTime, 1000/minimumFPS);
-	this._elapsedTime *= this._timeScale;
+    //Compute the elapsed time since last frame
+    this._elapsedTime = Math.min(elapsedTime, 1000/minimumFPS);
+    this._elapsedTime *= this._timeScale;
 
-	//Update timers and others members
-	for(var name in this._timers.items) {
-		if (this._timers.items.hasOwnProperty(name)) {
-			this._timers.items[name].updateTime(this._elapsedTime);
-		}
-	}
+    //Update timers and others members
+    for(var name in this._timers.items) {
+        if (this._timers.items.hasOwnProperty(name)) {
+            this._timers.items[name].updateTime(this._elapsedTime);
+        }
+    }
 
-	this._timeFromStart += this._elapsedTime;
+    this._timeFromStart += this._elapsedTime;
 };
 
 
@@ -49,7 +49,7 @@ gdjs.TimeManager.prototype.update = function(elapsedTime, minimumFPS) {
  * @param {number} timeScale The new time scale (must be positive).
  */
 gdjs.TimeManager.prototype.setTimeScale = function(timeScale) {
-	if ( timeScale >= 0 ) this._timeScale = timeScale;
+    if ( timeScale >= 0 ) this._timeScale = timeScale;
 };
 
 /**
@@ -57,7 +57,7 @@ gdjs.TimeManager.prototype.setTimeScale = function(timeScale) {
  * @return {number} The time scale (positive, 1 is normal speed).
  */
 gdjs.TimeManager.prototype.getTimeScale = function() {
-	return this._timeScale;
+    return this._timeScale;
 };
 
 /**
@@ -65,7 +65,7 @@ gdjs.TimeManager.prototype.getTimeScale = function() {
  * the beginning of the scene most of the time), in milliseconds.
  */
 gdjs.TimeManager.prototype.getTimeFromStart = function() {
-	return this._timeFromStart;
+    return this._timeFromStart;
 };
 
 /**
@@ -73,7 +73,7 @@ gdjs.TimeManager.prototype.getTimeFromStart = function() {
  * is rendering its first frame).
  */
 gdjs.TimeManager.prototype.isFirstFrame = function() {
-	return this._firstFrame;
+    return this._firstFrame;
 };
 
 /**
@@ -81,21 +81,21 @@ gdjs.TimeManager.prototype.isFirstFrame = function() {
  * (i.e: the last frame), in milliseconds.
  */
 gdjs.TimeManager.prototype.getElapsedTime = function() {
-	return this._elapsedTime;
+    return this._elapsedTime;
 };
 
 gdjs.TimeManager.prototype.addTimer = function(name) {
-	this._timers.put(name, new gdjs.Timer(name));
+    this._timers.put(name, new gdjs.Timer(name));
 };
 
 gdjs.TimeManager.prototype.hasTimer = function(name) {
-	return this._timers.containsKey(name);
+    return this._timers.containsKey(name);
 };
 
 gdjs.TimeManager.prototype.getTimer = function(name) {
-	return this._timers.get(name);
+    return this._timers.get(name);
 };
 
 gdjs.TimeManager.prototype.removeTimer = function(name) {
-	if (this._timers.containsKey(name)) this._timers.remove(name);
+    if (this._timers.containsKey(name)) this._timers.remove(name);
 };
