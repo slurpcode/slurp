@@ -68,8 +68,8 @@ repos:
     rev: v0.31.1
     hooks:
       - id: markdownlint
-  #       name: Run markdownlint
-  #       entry: markdownlint -c .github/linters/.markdown-lint.yml .
+        name: Run markdownlint
+        entry: markdownlint -c .github/linters/.markdown-lint.yml .
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.26.3
     hooks:
