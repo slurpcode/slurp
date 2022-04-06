@@ -1,6 +1,6 @@
 # 📐 Block Design
 
-**Random block design**
+## Random block design
 
 Experimental designs are one of the most useful tools for the study of
 applied science. The use of experimental designs is closely related to

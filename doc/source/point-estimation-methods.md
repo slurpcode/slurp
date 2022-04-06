@@ -239,7 +239,7 @@ The idea of this type of problem is not precisely to test a numerical value for 
 
 Another way of dealing with hypothesis testing is through the equality of variance or mathematical expectations between possible different populations.
 
-**Hypothesis testing regarding proportions**
+## Hypothesis testing regarding proportions
 
 It is important to find the ideal method when carrying out a hypothesis test, for the case we are studying, where we want to test the population proportion. We are going to keep the assumption about the rule of rejection determined a priori, which is if the estimator of the sample proportion after the advertising campaign is equal to or greater than 0.07.
 
