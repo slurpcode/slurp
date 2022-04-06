@@ -1,4 +1,4 @@
-﻿# ♟️ Richard Rapport wins the second leg of Grand Prix: Almost qualified for Candidates
+# ♟️ Richard Rapport wins the second leg of Grand Prix: Almost qualified for Candidates
 
 In the finals of the second leg of the Grand Prix, chess fans witnessed a match between Hungarian GM Richard Rapport and Russian GM Dmitry Andreikin. Andreikin beat Anish Giri in the semi-finals in a very exciting tie- breaks game where Giri was having an overwhelming position but in a very crucial moment Anish blundered and Andreikin did not miss the opportunity and made his way to the finals. While Richard Rapport defeated Maxime-Vachier Lagrave. MVL had some chances but could not channelize his advantage into win. With this loss, the chances of MVL almost came to an end, but with good tiebreak score and win in the last Grand Prix series is only way.<br><br>
 
