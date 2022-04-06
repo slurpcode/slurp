@@ -51,8 +51,10 @@ Welcome to slurp's documentation!
    black-sholes-model.md
    common-errors.md
    continuous-probability-distribution.md
+   correlation.md
    curiosities.md
    determination-coefficient.md
+   discriminant_analysis.md
    fermat.md
    fibonacci.md
    free-distribution-testing.md
@@ -62,6 +64,7 @@ Welcome to slurp's documentation!
    kendalls-correlation-coefficient.md
    long-term-behavior-of-markov.md
    markov-chains.md
+   multivariate_statistics.md
    negative_binomial_distribution.md
    nonparametric_tests.md
    numeral-symbols.md
@@ -152,6 +155,7 @@ Welcome to slurp's documentation!
    ibiza.md
    istanbul.md
    las-vegas.md
+   malaga.md
    melbourne.md
    moscow.md
    newcastle.md
@@ -279,6 +283,7 @@ Welcome to slurp's documentation!
    elo_rating.md
    fide-grand-prix-2022.md
    garry_kasparov_a_chess_player.md
+   hikaru.md
    inclusion_of_chess_in_olympics.md
    mikhail_tal.md
    richard-rapport-wins-the-second-leg-of-grand-prix.md
