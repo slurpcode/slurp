@@ -100,7 +100,7 @@ In the next column "Lost" is where we can establish what values we should consid
 
 ![Table](_static/images/discriminant_analysis/table_7.jpg)
 
- It is there where I must put the number "3" and the program will consider all the values, except that one.
+It is there where I must put the number "3" and the program will consider all the values, except that one.
 In the next column you can specify the number of characters that will be displayed with the specified width, however, the width of the column only affects the presentation of the values, it does not change the defined width of the variable.
 
 In "Alignment" as its name indicates, it helps us to align the data within the cell either on the left, right or
@@ -130,7 +130,7 @@ There we can visualize the variables that we chose for our analysis, in the foll
 
 ![Table](_static/images/discriminant_analysis/table_12.jpg)
 
- Now, if we go to the results viewer we will realize that the expected results have not been included, that is, our second frequency table does not appear, nor the bar graph, etc. and it is because we have given the order to the Spss to give us the result, we have simply given it instructions that appear in our syntax. So to get the result, we must select the order in our syntax box with the mouse and then click on the green arrow, which is at the top.
+Now, if we go to the results viewer we will realize that the expected results have not been included, that is, our second frequency table does not appear, nor the bar graph, etc. and it is because we have given the order to the Spss to give us the result, we have simply given it instructions that appear in our syntax. So to get the result, we must select the order in our syntax box with the mouse and then click on the green arrow, which is at the top.
 
 ![Table](_static/images/discriminant_analysis/table_13.jpg)
 
@@ -176,7 +176,7 @@ There we can see that the 16 cases (100%) were processed and no case was exclude
 
 ![Table](_static/images/discriminant_analysis/table_18.jpg)
 
- In the following box that represents the group statistics, we can see the mean and the standard deviation for both the groups of failed clients and for the compliant clients. The cut-off point of the discriminant for the two groups is also observed: the cut-off point for the equity has a value of 7, which implies that if the equity is less than 7 the client is classified as failed and if it is greater than this value , the client will be classified as compliant.
+In the following box that represents the group statistics, we can see the mean and the standard deviation for both the groups of failed clients and for the compliant clients. The cut-off point of the discriminant for the two groups is also observed: the cut-off point for the equity has a value of 7, which implies that if the equity is less than 7 the client is classified as failed and if it is greater than this value , the client will be classified as compliant.
 
 ![Table](_static/images/discriminant_analysis/table_19.jpg)
 
@@ -188,7 +188,7 @@ The following table to take into account is that of the eigenvalues found in the
 
 If we square that term and multiply it by 100, we will obtain the percentage that this function is capable of achieving when explaining the variance, so:
 
-(0,795)<sup>2</sup>*100=63,2%
+(0,795)<sup>2</sup>\*100=63,2%
 
 The experts affirm that a percentage greater than 45% is a positive indicator of the variance, so since we obtained 63.2%, we can affirm that the function is valid for what we want to do.
 
@@ -222,4 +222,4 @@ The recommendation that we can make to the financial institution analyst is to c
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.

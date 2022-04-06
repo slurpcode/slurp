@@ -165,13 +165,13 @@ In this coefficient we can observe two types of variants:
 
 What conditions are required for its application:
 
--    Can only be used starting from square boards
+- Can only be used starting from square boards
 
--    The variables that allow for their use are of the interval, ordinal or ratio type.
+- The variables that allow for their use are of the interval, ordinal or ratio type.
 
--    Your results are always between the values 1 and -1.
+- Your results are always between the values 1 and -1.
 
--    As we said before, this coefficient is used in those variables that do not have a normal population distribution, therefore when we want to determine the degree of correlation that may exist between two quantitative variables that do not follow normal behavior, this alternative is one of the more viable.
+- As we said before, this coefficient is used in those variables that do not have a normal population distribution, therefore when we want to determine the degree of correlation that may exist between two quantitative variables that do not follow normal behavior, this alternative is one of the more viable.
 
 Procedure to apply this correlation coefficient:
 
@@ -239,4 +239,4 @@ Now, the correlation is inverse because it is negative and this implies that as 
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
