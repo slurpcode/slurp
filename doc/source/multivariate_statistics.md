@@ -63,7 +63,7 @@ Let's explain a little the techniques used for multivariate analysis
 
 1. Dependency Methods:
 
-1.1.- The regression method allows us to investigate up to when the behavior of a variable can be predicted from 
+1.1.- The regression method allows us to investigate up to when the behavior of a variable can be predicted from
 another variable, for example, what economic benefits in a film can be obtained depending on production expenses and marketing expenses.
 
 1.2.- Canonical correlation analysis tries to analyze the possible relationships that exist between two groups of variables.
@@ -102,7 +102,7 @@ In a gym, the weight and height measurements of some clients chosen at random ar
 
 ![Table](_static/images/multivariate_statistics/table_1.jpg)
 
-To do multivariate linear regression using Excel, we need to install the Data Analysis Add-in. For this, it will be necessary to open a new Excel sheet and pour our data into it, then we go to the upper menu in "file" and in the drop-down menu we will choose "options", a box opens and in the menu on the left we click on "add-ons", where again the add-on options on the right side of the box are opened, there we must select "tools for VBA analysis" 
+To do multivariate linear regression using Excel, we need to install the Data Analysis Add-in. For this, it will be necessary to open a new Excel sheet and pour our data into it, then we go to the upper menu in "file" and in the drop-down menu we will choose "options", a box opens and in the menu on the left we click on "add-ons", where again the add-on options on the right side of the box are opened, there we must select "tools for VBA analysis"
 and then go to the "go" button and press it.
 
 Another small box opens where we must enable the boxes corresponding to: "tools for analysis" and "tools for VBA analysis" and then click on the "accept" button. Once this procedure is done, we already have the main tool to do our multivariate linear regression.
@@ -195,12 +195,12 @@ When opening Statgraphics we find the following environment:
 ![Table](_static/images/multivariate_statistics/table_7.png)
 
 Where we can extract the data from Excel to avoid copying it again. The way to do it is to go to File → Open → Open data source → External data file → Browse → We look for the place where we have saved our data from exercise 2 in Excel and open it, immediately the empty cells will be filled with the data that we obtained in the sample and we can visualize them as follows:
- 
+
 As you can see, the names of the columns are brought with them from Excel, but if we are going to enter the data one by one, we must position ourselves at the beginning of the column and double-click, where the following box will appear:
- 
+
 In this window where it says "Name" we can identify our variable, in "Comment" we can place the units of the variable and at the bottom, where it says "Type" we must choose the corresponding box, that is, if the variable is numeric, character (for non-numeric variables), date, etc.
 
-A character type variable is, for example, gender or sex, which as we know is not a numeric variable, since it 
+A character type variable is, for example, gender or sex, which as we know is not a numeric variable, since it
 would correspond to female, male or others.
 
 Once we have entered all our data, it is advisable to save our file, for this we go to File → Save as → Save data as and a box opens where we can place the identifier name. It is important to take into account that by default, the program saves the file with an extension ".sgd", which comes from Statgraphics save data, but we can save it with other extensions, for example, as a text or Excel file.

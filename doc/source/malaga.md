@@ -12,7 +12,7 @@ We are going to mention the essential places you must visit to get to know the b
 
 ## The Alcazaba of Malaga
 
-The Alcazaba is the most popular tourist attraction in Malaga, this palace was built by the Arabs in the 11th century, with a fortress to protect the home of the Muslim rulers from the attacks carried out by the Catholics. Inside you can see beautiful patios, gardens and sumptuous fountains. 
+The Alcazaba is the most popular tourist attraction in Malaga, this palace was built by the Arabs in the 11th century, with a fortress to protect the home of the Muslim rulers from the attacks carried out by the Catholics. Inside you can see beautiful patios, gardens and sumptuous fountains.
 
 ![Malaga](_static/images/malaga/malaga_2.jpg)
 
