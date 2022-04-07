@@ -259,7 +259,7 @@ So far are the recommendations and analysis provided by the StatAdvisor of the S
 
 Let's go back to looking at the multivariate linear regression:
 
-Y = 36.9709 + 0.00502361 *X1 - 0.601445* X2 + 0.193694 *X3 + 0.0710083* X4
+`Y = 36.9709 + 0.00502361 * X1 - 0.601445 * X2 + 0.193694 * X3 + 0.0710083 * X4`
 
 By interpreting a little the coefficients that accompany each of our independent variables, we can also observe that the smallest of the coefficients is effectively the one that accompanies X1 and therefore, the least significant when it comes to influencing our dependent variable Y. It is therefore, the program recommends that we eliminate this variable from our model.
 
