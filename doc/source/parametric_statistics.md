@@ -1,4 +1,4 @@
-# 🔢 **Parametric statistics**
+# 🔢 Parametric statistics
 
 Parametric statistics is part of statistical inference and uses
 resolution criteria that are based on known distributions.
