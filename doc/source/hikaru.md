@@ -48,7 +48,7 @@ The winner of first leg and streamer Hikaru said in interview “Definitely I di
 
 ## Reference
 
-https://worldchess.com
+<https://worldchess.com>
 
 ## About the Author
 

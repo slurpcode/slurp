@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'mdl'
-gem 'rubocop', require: false
+source "https://rubygems.org"
+
+gem "mdl"
+gem "rubocop", require: false

@@ -184,7 +184,7 @@ In the same way that we reasoned the previous items, it is expected to think tha
 
 Statgraphics a statistical program:
 
-This is a program created to facilitate statistical analysis and that we are going to use from now on, to save time when using statistical methods and models. This program can analyze and interpret our data in a practically instantaneous way and you can find it at http://www.statgraphics.com, where you can get a free trial version for 30 days and if you can cancel a small fee, you will get the license .
+This is a program created to facilitate statistical analysis and that we are going to use from now on, to save time when using statistical methods and models. This program can analyze and interpret our data in a practically instantaneous way and you can find it at <http://www.statgraphics.com>, where you can get a free trial version for 30 days and if you can cancel a small fee, you will get the license .
 
 Since I got the free trial, they don't offer it to me in the multilingual version, so I have it in Spanish and will try to translate your comments into English.
 

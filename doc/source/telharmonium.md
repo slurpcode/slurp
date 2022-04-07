@@ -6,7 +6,7 @@ it was heard on the receiving end by means of "horn" speakers.
 
 ![img_1](_static/images/telharmonium/img_1.jpg)
 
-[The Keyboard of the Telharmonium]
+## [The Keyboard of the Telharmonium]
 
 Like the later Hammond organ, the Telharmonium used tonewheels
 to generate musical sounds as electrical signals by additive
@@ -37,7 +37,7 @@ Telharmonium would render them obsolete.
 
 ![img_2](_static/images/telharmonium/img_2.jpg)
 
-[Thaddeus Cahill’s patent documents for the first Telharmonium of 1897]
+## [Thaddeus Cahill’s patent documents for the first Telharmonium of 1897]
 
 Telharmonium tones were described as "clear and pure" — referring to the
 electronic sine wave tones it was capable of producing. However, it was not

@@ -45,7 +45,7 @@ there is no predefined selection process and that is why it is more
 difficult for individuals to have the same probabilities of be part of
 the show.
 
-Examples of sampling methods
+## Examples of sampling methods
 
 We are going to know the different types of sampling, both probabilistic
 and non-probabilistic, that can be applied in a research study.
@@ -134,7 +134,11 @@ which income group to target and, on the other hand, which of these
 groups does not suit them when it comes to obtaining their desired
 results.
 
+<<<<<<< HEAD:doc/source/sampling-methods.md
 Different utilities of probability sampling
+=======
+## Different utilities of probability sampling
+>>>>>>> 68f20c30ab8944b34e4b3dc6f306e08ef20a8c03:doc/source/sampling_methods.md
 
 1\) Sample bias is reduced: Through probability sampling methods, the
 bias derived from the population sample is nonexistent or negligible.
@@ -149,7 +153,11 @@ not derive from a single demographic group.
 researchers, as it helps them plan and create an accurate sample and in
 this way, be able to obtain well-defined data.
 
+<<<<<<< HEAD:doc/source/sampling-methods.md
 Different types of non-probability sampling
+=======
+## Different types of non-probability sampling
+>>>>>>> 68f20c30ab8944b34e4b3dc6f306e08ef20a8c03:doc/source/sampling_methods.md
 
 The non-probabilistic method is based on a collection of information
 that in turn is based on the selection of samples by an investigator and
@@ -379,7 +387,11 @@ researcher can choose a sample of 50 individuals.
 A sample chosen following the steps above should represent the
 population of interest.
 
+<<<<<<< HEAD:doc/source/sampling-methods.md
 Uses and utilities of sampling or non-probability
+=======
+## Uses and utilities of sampling or non-probability
+>>>>>>> 68f20c30ab8944b34e4b3dc6f306e08ef20a8c03:doc/source/sampling_methods.md
 
 1.- Create a hypothesis: Researchers usually use non-probabilistic
 sampling methods, in order to create a hypothesis at times when they do
@@ -417,7 +429,11 @@ achieve the objective of the investigation.
 4.- Once the previous steps are carried out, the best method for the
 investigation can be selected.
 
+<<<<<<< HEAD:doc/source/sampling-methods.md
 Sampling errors to avoid
+=======
+## Sampling errors to avoid
+>>>>>>> 68f20c30ab8944b34e4b3dc6f306e08ef20a8c03:doc/source/sampling_methods.md
 
 Surveys to research customers and obtain knowledge about the market must
 be designed with great precision in order to collect data and
@@ -434,7 +450,11 @@ the survey, inaccurate results can be reached and the decisions that are
 to be made around these results may affect in a way negative the success
 and growth of any business.
 
+<<<<<<< HEAD:doc/source/sampling-methods.md
 The main risks of making a sampling error
+=======
+## The main risks of making a sampling error
+>>>>>>> 68f20c30ab8944b34e4b3dc6f306e08ef20a8c03:doc/source/sampling_methods.md
 
 When taking a research sample, the following errors may be incurred:
 
@@ -515,7 +535,11 @@ lead to a wrong analysis. While it is true that a bad question can stand
 out a bit, this circumstance is not as obvious as when a bad sample is
 obtained.
 
+<<<<<<< HEAD:doc/source/sampling-methods.md
 Recommendations to obtain a good sample within the investigation
+=======
+## Recommendations to obtain a good sample within the investigation
+>>>>>>> 68f20c30ab8944b34e4b3dc6f306e08ef20a8c03:doc/source/sampling_methods.md
 
 1.- It is important to define the sample from the beginning, that is, to
 specify the people with whom they want to speak and why.
@@ -530,7 +554,11 @@ compared cross-wise.
 4.- The required quality of the sample must be determined, since many
 times it is not questioned whether the surveys are professional or not.
 
+<<<<<<< HEAD:doc/source/sampling-methods.md
 Errors mostly made with respect to the accuracy of the answers
+=======
+## Errors mostly made with respect to the accuracy of the answers
+>>>>>>> 68f20c30ab8944b34e4b3dc6f306e08ef20a8c03:doc/source/sampling_methods.md
 
 1.- Measurement errors: This error is quite common within research and
 occurs, for example, when the intention of the question is modified in

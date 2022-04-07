@@ -18,11 +18,10 @@ Layout/SpaceAroundOperators:
   Enabled: false
 
 Layout/SpaceBeforeBlockBraces:
-  EnforcedStyle: no_space
+  Enabled: true
 
 Layout/SpaceInsideBlockBraces:
-  EnforcedStyle: no_space
-  SpaceBeforeBlockParameters: false
+  Enabled: true
 
 Layout/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
@@ -51,7 +50,7 @@ Metrics/PerceivedComplexity:
 
 ### STYLING
 Style/FrozenStringLiteralComment:
-  EnforcedStyle: never
+  Enabled: true
 
 Style/GuardClause:
   Enabled: false
@@ -64,3 +63,8 @@ Style/MutableConstant:
 
 Style/Semicolon:
   Enabled: false
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+  ConsistentQuotesInMultiline: false
