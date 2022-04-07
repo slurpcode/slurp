@@ -21,7 +21,7 @@ jobs:
             pip3 --version
             sudo pip3 install --upgrade virtualenv --progress-bar off
             python3 -m venv venv || virtualenv venv && . venv/bin/activate
-            sudo pip3 install -r requirements.txt
+            sudo pip3 install flake8 pylint yamllint
       - save_cache:
           key: dep-{{ checksum ".circleci/config.yml" }}-{{ checksum "requirements.txt" }}
           paths:
