@@ -14,9 +14,9 @@ When several characteristics of interest are measured for the same individual, t
 
 The main objectives of using multivariate techniques are:
 
-1) Simplification: The set of techniques that allow us to visualize and interpret large amounts of data, whether of individuals or variables, is what we call multivariate methods and we can understand them at a glance, thanks to the fact that they help us to reduce or simplify these data.
+1. Simplification: The set of techniques that allow us to visualize and interpret large amounts of data, whether of individuals or variables, is what we call multivariate methods and we can understand them at a glance, thanks to the fact that they help us to reduce or simplify these data.
 
-2) The relationship between variables: find the possible relationships that exist between individuals among themselves, the characteristics and between both.
+2. The relationship between variables: find the possible relationships that exist between individuals among themselves, the characteristics and between both.
 
 2.1.- Relationship between characteristics: It is possible to relate these variables when they have common characteristics, for example: we are going to suppose that mathematics, physics and chemistry tests are carried out on a certain group of high school students. If each student that makes up the sample obtains high marks, measures and low marks in the three tests, then we can conclude that there is a relationship between the tests of these three subjects. The characteristic that they could have in common is the measure of intelligence of the individual in general, for the beginning of a certain university career.
 
@@ -26,10 +26,10 @@ Although it is true that we start from the assumption that the variables are rel
 
 Classification of multivariate methods:
 
-1) Those motivated or directed by the variables: These methods are focused on the relationships between the variables, such as factor analysis, correlation matrices, principal component analysis, and regression analysis.
+1. Those motivated or directed by the variables: These methods are focused on the relationships between the variables, such as factor analysis, correlation matrices, principal component analysis, and regression analysis.
 
-2) Those motivated or directed to individuals: These methods focus on the relationships that exist between different individuals, for example: multivariate analysis of variance, discriminant analysis and cluster analysis.
-Multivariate exploratory analysis
+2. Those motivated or directed to individuals: These methods focus on the relationships that exist between different individuals, for example: multivariate analysis of variance, discriminant analysis and cluster analysis.
+   Multivariate exploratory analysis
 
 Descriptive and multivariate statistics describe the behavior of a group or set of data, where the most important are:
 
@@ -88,7 +88,7 @@ another variable, for example, what economic benefits in a film can be obtained 
 
 We are going to delve a little into each of the methods, how they are applied and we will include some solved exercises that help us better understand the method.
 
-1) Multiple regression analysis: Regression is used in research to model the relationships that exist between those variables that are capable of directly influencing a phenomenon in our reality. For example, an economist might be interested in verifying the relationship that exists between the financial indices of a certain company and a possible scenario of economic instability or, on the contrary, of financial equilibrium.
+1. Multiple regression analysis: Regression is used in research to model the relationships that exist between those variables that are capable of directly influencing a phenomenon in our reality. For example, an economist might be interested in verifying the relationship that exists between the financial indices of a certain company and a possible scenario of economic instability or, on the contrary, of financial equilibrium.
 
 In a much broader sense, regression is intended to model a set of data. In other words, the regression formula is used to approximate the relationship that exists between the variables, regression is used not only as a descriptive tool, but also as an inferential instrument.
 
@@ -270,4 +270,4 @@ We can also realize that the next significant variable is the price of pork, sin
 
 ## About The Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
