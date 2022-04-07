@@ -189,7 +189,7 @@ jobs:
   go-test:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: cimg/go:1.13.3 #
+      - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
@@ -215,7 +215,7 @@ jobs:
   csv-lint:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: cimg/go:1.13.3 #
+      - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
