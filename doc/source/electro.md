@@ -30,7 +30,8 @@ subgenres, including electrocore and skweee."
 
 You can find more details about its formation and development on Ishkur's Guide to Electronic Music, and you can listen to acid
 house music right away.
-<https://music.ishkur.com/?query=Electro>#
+
+<https://music.ishkur.com/?query=Electro>
 
 ## Sources
 

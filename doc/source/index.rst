@@ -44,40 +44,40 @@ Welcome to slurp's documentation!
    :caption: Mathematics
    :maxdepth: 2
 
-   anderson_darling_test.md
+   anderson-darling-test.md
    analysis-of-variance.md
    bayes.md
-   block_design.md
+   block-design.md
    black-sholes-model.md
    common-errors.md
    continuous-probability-distribution.md
    correlation.md
    curiosities.md
    determination-coefficient.md
-   discriminant_analysis.md
+   discriminant-analysis.md
    fermat.md
    fibonacci.md
    free-distribution-testing.md
    frequentist.md
    gauss-jordan.md
-   graphic_schema_theory.md
+   graphic-schema-theory.md
    kendalls-correlation-coefficient.md
    long-term-behavior-of-markov.md
    markov-chains.md
-   multivariate_statistics.md
-   negative_binomial_distribution.md
-   nonparametric_tests.md
+   multivariate-statistics.md
+   negative-binomial-distribution.md
+   nonparametric-tests.md
    numeral-symbols.md
-   parametric_statistics.md
+   parametric-statistics.md
    point-estimation-methods.md
    poisson-distribution.md
    probabilities.md
-   sampling_methods.md
+   sampling-methods.md
    standard-deviation.md
    statistical-estimation.md
-   tests_to_see_if_the_data_meet_a_normal_distribution.md
-   the_monte_carlo_method.md
-   types_of_probability_distributions.md
+   tests-to-see-if-the-data-meet-a-normal-distribution.md
+   the-monte-carlo-method.md
+   types-of-probability-distributions.md
 
 .. toctree::
    :caption: Persia
@@ -103,7 +103,7 @@ Welcome to slurp's documentation!
    hardcore.md
    house.md
    idm.md
-   jungle_drum_bass.md
+   jungle-drum-bass.md
    nu-jazz.md
    nu-skool-breaks.md
    progressive.md
@@ -117,29 +117,29 @@ Welcome to slurp's documentation!
    :caption: Early Instruments
    :maxdepth: 2
 
-   electronic_musical_instrument.md
+   electronic-musical-instrument.md
    denis-dor.md
-   electromechanical_piano.md
+   electromechanical-piano.md
    musical-telegraph.md
    telharmonium.md
    singing-arc.md
    wireless-organ.md
-   optophonic_piano.md
-   synthetic_tone.md
+   optophonic-piano.md
+   synthetic-tone.md
    electrophon.md
-   hugoniot_organ.md
+   hugoniot-organ.md
    theremin.md
    staccatone.md
    spharophon.md
-   the_luminaphone.md
-   radio_harmonium.md
+   the-luminaphone.md
+   radio-harmonium.md
    pianorad.md
-   keyboard_electric_harmonium.md
-   clavecin_electrique.md
+   keyboard-electric-harmonium.md
+   clavecin-electrique.md
    helmholtz-sound-synthesiser.md
    choralcelo.md
-   audion_piano.md
-   sound_producing_device.md
+   audion-piano.md
+   sound-producing-device.md
 
 .. toctree::
    :caption: Cities
@@ -276,16 +276,16 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    bobby-fischer.md
-   boris_spassky.md
+   boris-spassky.md
    chess-and-mathematics.md
-   chess_addiction.md
-   effect_of_modern_chess_engines_on_professional_chess_players.md
-   elo_rating.md
+   chess-addiction.md
+   effect-of-modern-chess-engines-on-professional-chess-players.md
+   elo-rating.md
    fide-grand-prix-2022.md
-   garry_kasparov_a_chess_player.md
+   garry-kasparov-a-chess-player.md
    hikaru.md
-   inclusion_of_chess_in_olympics.md
-   mikhail_tal.md
+   inclusion-of-chess-in-olympics.md
+   mikhail-tal.md
    richard-rapport-wins-the-second-leg-of-grand-prix.md
    should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
@@ -295,10 +295,10 @@ Welcome to slurp's documentation!
    :caption: Movies
    :maxdepth: 2
 
-   harriet_the_movie.md
-   life_is_beautiful.md
-   the_fight_club.md
-   the_seventh_seal.md
+   harriet-the-movie.md
+   life-is-beautiful.md
+   the-fight-club.md
+   the-seventh-seal.md
 
 .. toctree::
    :caption: Television
@@ -306,7 +306,7 @@ Welcome to slurp's documentation!
 
    downton-abbey.md
    law-and-order.md
-   the_squid_game.md
+   the-squid-game.md
 
 
 Indices and tables
