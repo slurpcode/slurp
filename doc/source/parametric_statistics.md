@@ -306,8 +306,7 @@ Where (S) is the standard deviation of the sample, n is the sample size
 and t is a value that is searched in the Student t table with two
 values:
 ![\\frac{\\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\frac{\alpha}{2}")
-and the degrees of freedom that are calculated with (n - 1) = (20 - 1) =
-19. If we establish a 95% confidence, this implies that
+and the degrees of freedom that are calculated with (n - 1) = (20 - 1) = 19. If we establish a 95% confidence, this implies that
 ![\\alpha](https://latex.codecogs.com/png.latex?%5Calpha "\alpha") =
 0.05 and therefore
 ![\\frac{\\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\frac{\alpha}{2}")
@@ -593,7 +592,9 @@ have:
 
 On the other hand, if we group:
 (![{x\_{1}}\^{3} \\ast](https://latex.codecogs.com/png.latex?%7Bx_%7B1%7D%7D%5E%7B3%7D%20%5Cast "{x_{1}}^{3} \ast")
+
 ![{x\_{2}}\^{3} \\ast \\ldots{x\_{n}}\^{3}](https://latex.codecogs.com/png.latex?%7Bx_%7B2%7D%7D%5E%7B3%7D%20%5Cast%20%5Cldots%7Bx_%7Bn%7D%7D%5E%7B3%7D "{x_{2}}^{3} \ast \ldots{x_{n}}^{3}")=
+
 ![\\prod\_{i = 1}\^{n}x\_{i}\^{3}](https://latex.codecogs.com/png.latex?%5Cprod_%7Bi%20%3D%201%7D%5E%7Bn%7Dx_%7Bi%7D%5E%7B3%7D "\prod_{i = 1}^{n}x_{i}^{3}")
 
 We need to group:
