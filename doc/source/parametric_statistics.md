@@ -305,9 +305,7 @@ constructing an interval for the average:
 Where (S) is the standard deviation of the sample, n is the sample size
 and t is a value that is searched in the Student t table with two
 values:
-![\\frac{\\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\frac{\alpha}{2}")
-and the degrees of freedom that are calculated with (n - 1) = (20 - 1) = 19. If we establish a 95% confidence, this implies that
-![\\alpha](https://latex.codecogs.com/png.latex?%5Calpha "\alpha") =
+![\\frac{\\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\frac{\alpha}{2}") and the degrees of freedom that are calculated with (n - 1) = (20 - 1) = 19. If we establish a 95% confidence, this implies that ![\\alpha](https://latex.codecogs.com/png.latex?%5Calpha "\alpha") =
 0.05 and therefore
 ![\\frac{\\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\frac{\alpha}{2}")
 = 0.025, already having both data we go to the table:
