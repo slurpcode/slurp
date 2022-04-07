@@ -593,11 +593,7 @@ have:
 ![\\left( \\frac{1}{2\\theta\^{3}} \\right)\^{n}](https://latex.codecogs.com/png.latex?%5Cleft%28%20%5Cfrac%7B1%7D%7B2%5Ctheta%5E%7B3%7D%7D%20%5Cright%29%5E%7Bn%7D "\left( \frac{1}{2\theta^{3}} \right)^{n}")
 
 On the other hand, if we group:
-<<<<<<< HEAD:doc/source/parametric-statistics.md
-![{x\_{1}}\^{3} \\ast](https://latex.codecogs.com/png.latex?%7Bx_%7B1%7D%7D%5E%7B3%7D%20%5Cast "{x_{1}}^{3} \ast")
-=======
 (![{x\_{1}}\^{3} \\ast](https://latex.codecogs.com/png.latex?%7Bx_%7B1%7D%7D%5E%7B3%7D%20%5Cast "{x_{1}}^{3} \ast")
->>>>>>> 68f20c30ab8944b34e4b3dc6f306e08ef20a8c03:doc/source/parametric_statistics.md
 
 ![{x\_{2}}\^{3} \\ast \\ldots{x\_{n}}\^{3}](https://latex.codecogs.com/png.latex?%7Bx_%7B2%7D%7D%5E%7B3%7D%20%5Cast%20%5Cldots%7Bx_%7Bn%7D%7D%5E%7B3%7D "{x_{2}}^{3} \ast \ldots{x_{n}}^{3}")=
 
