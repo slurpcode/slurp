@@ -18,11 +18,9 @@ class Parser
   class ScriptOptions
     attr_accessor :path, :delay, :time
 
-    def initialize; end
-
     def define_options(parser)
       parser.banner =
-        "Usage: #{Paint['ruby-cheatsheets-to-dita.rb [options]', :red, :white]}"
+        "Usage: #{Paint["ruby-cheatsheets-to-dita.rb [options]", :red, :white]}"
       parser.separator ""
       parser.separator "Specific options:"
 
@@ -243,9 +241,9 @@ def create_dita(path)
     template = Nokogiri.XSLT(stylesheet)
     ditamap +=
       "
-  <topicref href=\"dita/#{File.basename(filename, '.*')}.dita\" type=\"task\"/>"
+  <topicref href=\"dita/#{File.basename(filename, ".*")}.dita\" type=\"task\"/>"
     transformed_document = template.transform(document)
-    File.write("output/dita/#{File.basename(filename, '.*')}.dita", transformed_document)
+    File.write("output/dita/#{File.basename(filename, ".*")}.dita", transformed_document)
   end
 
   ditamap += '
