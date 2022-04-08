@@ -14,13 +14,13 @@ repos:
     hooks:
       - id: check-ast
       - id: check-builtin-literals
-      # - id: check-case-conflict
+      - id: check-case-conflict
       - id: check-docstring-first
-      # - id: check-executables-have-shebangs
+      #- id: check-executables-have-shebangs
       - id: check-json
-      # - id: check-merge-conflict
+      - id: check-merge-conflict
       - id: check-toml
-      # - id: check-xml
+      - id: check-xml
       - id: check-yaml
       - id: debug-statements
       - id: detect-private-key
@@ -28,7 +28,7 @@ repos:
         exclude: ^charts/assets/.*$|^charts/lang/README\.de\.md$|^charts/log\.txt$|^charts/README\.md$|^docs/assets/js/.*$|^docs/assets/games/.*$|rubycritic/.*$
       - id: fix-byte-order-marker
       - id: mixed-line-ending
-      # - id: pretty-format-json
+      #- id: pretty-format-json
       - id: requirements-txt-fixer
       - id: trailing-whitespace
         exclude: ^rubycritic/.*$
