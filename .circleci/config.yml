@@ -192,7 +192,7 @@ jobs:
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory:  ~/repo
+    working_directory: ~/repo
     steps:
       - checkout
       - restore_cache: # restores saved cache if no changes are detected since last run
