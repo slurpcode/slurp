@@ -68,3 +68,6 @@ Style/StringLiterals:
   Enabled: true
   EnforcedStyle: double_quotes
   ConsistentQuotesInMultiline: false
+
+Style/RedundantInitialize:
+  Enabled: true

@@ -17,8 +17,6 @@ class Parser
   class ScriptOptions
     attr_accessor :delay, :path, :time
 
-    def initialize; end
-
     def define_options(parser)
       parser.banner =
         "Usage: #{Paint['well-formed.rb [options]', :red, :white]}"

@@ -16,8 +16,6 @@ class Parser
   class ScriptOptions
     attr_accessor :file, :algorithm, :delay, :time
 
-    def initialize; end
-
     def define_options(parser)
       parser.banner = "Usage: #{Paint['hashcheck.rb [options]', :red, :white]}"
       parser.separator ""
