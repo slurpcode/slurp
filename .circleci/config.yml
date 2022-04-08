@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:3.0.3-buster-node-browsers
+      - image: cimg/ruby:3.1.1-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -40,7 +40,7 @@ jobs:
             flake8 --ignore=E501 --exclude=venv
       - run:
           name: 🏗️ Update npm
-          command: 'sudo npm install -g npm@latest'
+          command: "sudo npm install -g npm@latest"
       - restore_cache: # special step to restore the dependency cache
           keys:
             - dependency-cache-{{ checksum "package-lock.json" }}
@@ -107,7 +107,7 @@ jobs:
 
   well-formed:
     docker:
-      - image: circleci/ruby:3.0.3-buster-node-browsers
+      - image: cimg/ruby:3.1.1-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -124,7 +124,7 @@ jobs:
 
   built-in-datatypes:
     docker:
-      - image: circleci/ruby:3.0.3-buster-node-browsers
+      - image: cimg/ruby:3.1.1-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -141,7 +141,7 @@ jobs:
 
   spelling:
     docker:
-      - image: circleci/ruby:3.0.3-buster-node-browsers
+      - image: cimg/ruby:3.1.1-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -157,7 +157,7 @@ jobs:
 
   surge:
     docker:
-      - image: circleci/python:3.10.1-buster-node-browsers
+      - image: cimg/python:3.10.4-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -188,7 +188,7 @@ jobs:
   go-test:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: circleci/golang:1.13.3 #
+      - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
@@ -214,7 +214,7 @@ jobs:
   csv-lint:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: circleci/golang:1.13.3 #
+      - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/slurpcode/slurp
     steps:
@@ -235,7 +235,7 @@ jobs:
 
   shell:
     docker:
-      - image: circleci/python:3.10.1-buster-node-browsers
+      - image: cimg/python:3.10.4-node
     working_directory: ~/repo
     steps:
       - checkout

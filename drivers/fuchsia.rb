@@ -6,7 +6,7 @@ capabilities = Selenium::WebDriver::Remote::Capabilities.firefox(accept_insecure
 driver = Selenium::WebDriver.for :firefox, desired_capabilities: capabilities
 
 begin
-  driver.get "https://fuchsia.surf/"
+  driver.get "https://slurpcode.github.io/slurp/"
   driver.find_element(tag_name: "body").send_keys "matrix", :return
   sleep(30)
   driver.find_element(tag_name: "body").send_keys "jedi", :return
