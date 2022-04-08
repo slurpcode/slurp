@@ -66,6 +66,7 @@ jobs:
           command: |
             gem install bundler
             bundle update --bundler
+            bundle clean
             bundle install --jobs=4 --retry=3
       # - save_cache:
       #    paths:
@@ -191,7 +192,7 @@ jobs:
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory: ~/repo
+    working_directory: /go/src/github.com/slurpcode/slurp
     steps:
       - checkout
       - restore_cache: # restores saved cache if no changes are detected since last run
@@ -206,7 +207,7 @@ jobs:
       - run:
           name: 🧪 Run Go test
           command: |
-            sudo go test -race -covermode atomic -coverprofile=profile.cov ./...
+            go test -race -covermode atomic -coverprofile=profile.cov ./...
       - save_cache: # Store cache in the /go/pkg directory
           key: v1-pkg-cache
           paths:
@@ -217,14 +218,14 @@ jobs:
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory: ~/repo
+    working_directory: /go/src/github.com/slurpcode/slurp
     steps:
       - checkout
       - restore_cache: # restores saved cache if no changes are detected since last run
           # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
           keys:
             - v1-pkg-cache
-      - run: sudo go get -u github.com/Clever/csvlint/cmd/csvlint
+      - run: go get -u github.com/Clever/csvlint/cmd/csvlint
       - run:
           name: 🧹 Run CSV lint
           command: |
