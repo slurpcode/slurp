@@ -87,8 +87,9 @@ jobs:
           name: 📷 Run Percy snapshots
           command: |
             cd docs
-            bundle exec jekyll build
-            npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
+            sudo gem update jekyll
+            sudo bundle exec jekyll build
+            sudo npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
       - restore_cache:
           keys:
             - v1-dependencies-tomlcheck
