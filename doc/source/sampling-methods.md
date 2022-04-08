@@ -7,7 +7,7 @@ characteristics of these sampling methods, to be able to decide which is
 the best when carrying out a research project and in the most successful
 way.
 
-**What is sampling?**
+## What is sampling?
 
 It is the technique to select individual members or a subset of the
 population, in order to make statistical inferences in only a part of
@@ -134,7 +134,7 @@ which income group to target and, on the other hand, which of these
 groups does not suit them when it comes to obtaining their desired
 results.
 
-Different utilities of probability sampling
+## Different utilities of probability sampling
 
 1\) Sample bias is reduced: Through probability sampling methods, the
 bias derived from the population sample is nonexistent or negligible.
@@ -232,7 +232,7 @@ individual when forming part of the sample. In the sampling process, the
 knowledge of the researcher is essential, since the members that make up
 the sample are not chosen at random.
 
-When is deliberate, judgmental or critical sampling conducive?
+## When is deliberate, judgmental or critical sampling conducive?
 
 This sampling model is much more efficient, in those circumstances in
 which there are only a limited number of people who possess certain
@@ -296,7 +296,7 @@ However, the investigator can make contact with those people who know
 people with this disease or perhaps some volunteers related to the
 cause, in order to find the victims and be able to gather information.
 
-To perform a snowball sampling you must perform two steps:
+## To perform a snowball sampling you must perform two steps:
 
 1.- The first is to identify the potential subjects that the population
 has and, in general, only one or a couple of individuals can be found
@@ -316,7 +316,7 @@ to participate.
 
 ![Snowball Sampling](_static/images/sampling-methods/image7.jpg)
 
-When can snowball sampling technique be useful?
+## When can snowball sampling technique be useful?
 
 Some individuals may not want to be found, suppose a researcher were
 doing a study regarding shoplifting, drug use, cheating on exams or any
@@ -357,7 +357,7 @@ obtained.
 
 ![Quota Sampling](_static/images/sampling-methods/image9.jpg)
 
-Steps to carry out quota sampling:
+## Steps to carry out quota sampling:
 
 1.- The population must be divided into subgroups where the
 characteristics of each subgroup must be part of this subgroup only.

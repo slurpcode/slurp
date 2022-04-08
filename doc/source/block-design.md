@@ -1,6 +1,6 @@
 # 📐 Block Design
 
-Random block design
+## Random block design
 
 Experimental designs are one of the most useful tools for the study of
 applied science. The use of experimental designs is closely related to
@@ -493,10 +493,8 @@ MSEE =
 ![\\frac{309717}{(4 - 1)(5 - 1)}](https://latex.codecogs.com/png.latex?%5Cfrac%7B309717%7D%7B%284%20-%201%29%285%20-%201%29%7D "\frac{309717}{(4 - 1)(5 - 1)}")
 = 25809,7
 
-F =
-
-![\\frac{MSTreat}{MSEE}](https://latex.codecogs.com/png.latex?%5Cfrac%7BMSTreat%7D%7BMSEE%7D "\frac{MSTreat}{MSEE}") =
-![\\frac{1072861,08}{25809,7}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1072861%2C08%7D%7B25809%2C7%7D "\frac{1072861,08}{25809,7}")
+F = `![\\frac{MSTreat}{MSEE}](https://latex.codecogs.com/png.latex?%5Cfrac%7BMSTreat%7D%7BMSEE%7D "\frac{MSTreat}{MSEE}")` =
+`![\\frac{1072861,08}{25809,7}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1072861%2C08%7D%7B25809%2C7%7D "\frac{1072861,08}{25809,7}")`
 = 41,57
 
 ![Summarized Table](_static/images/block-design/image14.png)
