@@ -66,7 +66,6 @@ jobs:
           command: |
             gem install bundler
             bundle update --bundler
-            bundle clean --force
             bundle install --jobs=4 --retry=3
       # - save_cache:
       #    paths:
@@ -88,6 +87,7 @@ jobs:
           name: 📷 Run Percy snapshots
           command: |
             cd docs
+            gem update jekyll
             bundle exec jekyll build
             npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
       - restore_cache:
@@ -192,7 +192,7 @@ jobs:
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory: /go/src/github.com/slurpcode/slurp
+    working_directory:  ~/repo
     steps:
       - checkout
       - restore_cache: # restores saved cache if no changes are detected since last run
@@ -218,7 +218,7 @@ jobs:
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory: /go/src/github.com/slurpcode/slurp
+    working_directory: ~/repo
     steps:
       - checkout
       - restore_cache: # restores saved cache if no changes are detected since last run
