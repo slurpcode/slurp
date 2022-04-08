@@ -17,8 +17,6 @@ class Parser
   class ScriptOptions
     attr_accessor :path, :delay, :time
 
-    def initialize; end
-
     def define_options(parser)
       parser.banner = "Usage: #{Paint['built_in_datatypes.rb', :red, :white]}"
       parser.separator ""

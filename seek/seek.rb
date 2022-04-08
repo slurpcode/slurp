@@ -58,8 +58,6 @@ class Parser
   class ScriptOptions
     attr_accessor :keyword, :location, :range, :worktype, :delay, :time
 
-    def initialize; end
-
     def define_options(parser)
       parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
       parser.separator ""
