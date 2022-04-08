@@ -87,7 +87,7 @@ jobs:
           name: 📷 Run Percy snapshots
           command: |
             cd docs
-            bundle exec jekyll build   
+            bundle exec jekyll build
       - restore_cache:
           keys:
             - v1-dependencies-tomlcheck
