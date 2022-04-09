@@ -69,8 +69,5 @@ Style/StringLiterals:
   EnforcedStyle: double_quotes
   ConsistentQuotesInMultiline: false
 
-Style/RedundantInitialize:
-  Enabled: true
-
 Style/StringLiteralsInInterpolation:
   Enabled: true
