@@ -154,7 +154,7 @@ along with dependent packages.
 To get Python examples on IBM i, visit the following link:
 <http://ibm.biz/pythonexamplesonibmi>
 
-## About The Author
+## About the Author
 
 Clay Lanzino is a passionate former surfer, father of three children, husband
 and a 33-year-old IT professional who loves programming. In his spare time, he

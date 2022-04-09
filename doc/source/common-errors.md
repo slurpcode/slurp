@@ -394,7 +394,7 @@ mistakes that divert the researcher from achieving their goal.
    precision of the result. When dealing with very large or very small numbers,
    it is best to work with scientific notation and not with decimals.
 
-## About The Author
+## About the Author
 
 Graduated in Mechanical Engineering, and a master's degree in teaching
 component, I gave classes in several institutes of mathematics and physics, but

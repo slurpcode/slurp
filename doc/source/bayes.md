@@ -124,7 +124,7 @@ complications. But if after seeing each and every one of these exercises you
 have any concerns, please do not hesitate to ask, which I will gladly try to
 answer as soon as possible.
 
-## About The Author
+## About the Author
 
 Graduated in Mechanical Engineering, and a master's degree in teaching
 component, I gave classes in several institutes of mathematics and physics, but

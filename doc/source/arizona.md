@@ -86,7 +86,7 @@ RESOURCES - Check these websites for more information on Arizona:
 
 ![arizona](_static/images/arizona/arizona.png)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

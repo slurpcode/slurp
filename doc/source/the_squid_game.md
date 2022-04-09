@@ -36,6 +36,6 @@ Sang-Woo pushes Player 017 to the next panel for taking too long and the glass s
 
 Sang-woo kills the player 067 so that only he and the protagonist remain for the last game, which is called the "Squid Game". After a fierce fight in the rain Gi-hun defeats Sang-woo but refuses to kill him, he also tries to invoke the third clause so that they can both get out alive, but at that moment Sang-woo stabs himself in the neck taking off life, but as he dies he asks Gi-hun to help his mother with the prize money.
 
-## About The Author
+## About the Author
 
 Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
