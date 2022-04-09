@@ -71,3 +71,6 @@ Style/StringLiterals:
 
 Style/RedundantInitialize:
   Enabled: true
+
+Style/StringLiteralsInInterpolation:
+  Enabled: true
