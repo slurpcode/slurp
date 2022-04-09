@@ -18,7 +18,7 @@ class Parser
     attr_accessor :path, :delay, :time
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint['ruby-strip.rb [options]', :red, :white]}"
+      parser.banner = "Usage: #{Paint["ruby-strip.rb [options]", :red, :white]}"
       parser.separator ""
       parser.separator "Specific options:"
 
