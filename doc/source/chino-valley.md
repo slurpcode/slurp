@@ -83,7 +83,7 @@ Here’s some references:
 
 ![Chino Valley Logo](_static/images/Chino_Valley_Logo0.png)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

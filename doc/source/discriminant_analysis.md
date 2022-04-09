@@ -220,6 +220,6 @@ For applicant 2 = [-9.396 + 1.813 x (9.7) + 0.364 x (2.2)] = 8.9909
 
 The recommendation that we can make to the financial institution analyst is to choose the new applicant, whose values that are evaluated in the functions are the highest and in this case, it is the first applicant who counts those values, which are: 10.78 and 11.39 (values higher than 4.51 and 8.99 corresponding to the second applicant).
 
-## About The Author
+## About the Author
 
  Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.

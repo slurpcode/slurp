@@ -788,7 +788,7 @@ There are better ways (standard ways) to handle discrete, defined lists. That’
 what relational databases are all about. Enum may seem convenient, but it’s
 really a cheap shortcut that will come back to bite you in the end.
 
-## About The Author
+## About the Author
 
 Preston is a world-class database designer and programmer. In addition to being
 the lead developer for Fundraise Genius, Preston is the Data Chief at the

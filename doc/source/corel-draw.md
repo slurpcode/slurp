@@ -50,7 +50,7 @@ blogs, videos, tutorials and chat communities. These are some links:
 
 [CorelDRAW 2018 - Full Tutorial for Beginners](https://www.youtube.com/watch?v=TpbFHCEvnpY)
 
-## About The Author
+## About the Author
 
 Jorge Araica is a
 [Graphic Designer](https://www.upwork.com/o/profiles/users/~01abf139414e3d1c0d/)

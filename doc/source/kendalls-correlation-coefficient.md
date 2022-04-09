@@ -590,6 +590,6 @@ Since in this case Tx = Ty, the two roots of the denominator are equal, so I can
 
 This coefficient indicates that there is no correlation between the level of education of a worker with respect to his degree of collaboration in the factory, as we already know, this value is interpreted in the same way as the Pearson correlation coefficient, therefore, at As it gets closer to zero (0), the correlation between both variables is lower and this result indicates that the correlation is practically null.
 
-## About The Author
+## About the Author
 
 Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.

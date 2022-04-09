@@ -216,7 +216,7 @@ in detail and we will be able to realize that in effect, the formula is not
 fulfilled and therefore, Fermat effectively continues to be right in the
 statement of his theorem.
 
-## About The Author
+## About the Author
 
 Graduated in Mechanical Engineering, and a master's degree in teaching
 component, I gave classes in several institutes of mathematics and physics, but

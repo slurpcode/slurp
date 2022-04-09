@@ -270,6 +270,6 @@ As we can see, the probability of committing type I error is much lower than tha
 
 We can then come to the conclusion that depending on the strategy adopted a priori when carrying out the contrast, it will directly affect the probability levels of committing both errors. We can also conclude that by varying the rejection threshold, the probability of committing one of the types of error can be reduced, but always at the cost of increasing the other type of error.
 
-## About The Author
+## About the Author
 
  Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes

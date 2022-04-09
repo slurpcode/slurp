@@ -245,7 +245,7 @@ We can only feel admiration for this kind of minds which, by sending their
 intelligence and wisdom through the centuries, can help us solve our problems
 today.
 
-## About The Author
+## About the Author
 
 Jorge Araica is a
 [Graphic Designer](https://www.upwork.com/o/profiles/users/~01abf139414e3d1c0d/)

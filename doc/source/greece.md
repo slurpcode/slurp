@@ -21,6 +21,6 @@ There are five-star hotels that have an infinity pool or may include a private p
 
 While it is true that mainland Greece does not adjoin land borders to the east and west, it is bordered to the north and northeast by Albania, Bulgaria, North Macedonia and Turkey. There are three seas that bathe Greece and they are: the Ionian Sea, the Aegean Sea and the Sea of Crete. There are the Greek Islands and the Ionian Islands, their western shores are towards Italy, while in the Dodecanese Islands they are less than 20 km from Turkey.
 
-## About The Author
+## About the Author
 
 Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes

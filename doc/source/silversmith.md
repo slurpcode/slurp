@@ -70,7 +70,7 @@ well.
 - <https://en.wikipedia.org/wiki/Lost-wax_casting>
 - <https://www.jewelry-tutorials.com/lost-wax-casting-jewelry-process-steps.html>
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

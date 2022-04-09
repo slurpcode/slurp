@@ -128,7 +128,7 @@ can book hotel rooms, resorts, homestays from any of the hotel booking sites.
 Several Airbnb options for homestays can also be found for more homely feeling
 and interaction with the locals.
 
-## About The Author
+## About the Author
 
 [Akshay Kapoor](https://www.linkedin.com/in/the-ak), a Software Engineer and
 freelancer on a never-ending learning journey; a tech savvy who loves to travel
