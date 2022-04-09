@@ -29,10 +29,10 @@ The Every Noise at Once platform provides an opportunity for people to get to kn
 
 <ins>Sources:</ins>
 
-\-   MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)<br />
-\-   Wikipedia<br />
-\-   Ishkur's Guide to Electronic Music<br />
-\-   Every Noise at Once<br />
+\- MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)<br />
+\- Wikipedia<br />
+\- Ishkur's Guide to Electronic Music<br />
+\- Every Noise at Once<br />
 
 ## About the Author
 

@@ -37,13 +37,13 @@ To get an idea of how much wheat is that amount, since of course it is not easy 
 
 Which are approximately 922,337,203,685 metric tons (Tm) and according to the FAO for the year 2017 the world wheat production was:
 
-||(Tm)|
-| ----------- | ----------- |
-|Asia|335.444.298|
-|America|106.754.182|
-|Europe|270.142.633|
-|Oceania|32.223.937|
-|Total|771.718.579|
+|         | (Tm)        |
+| ------- | ----------- |
+| Asia    | 335.444.298 |
+| America | 106.754.182 |
+| Europe  | 270.142.633 |
+| Oceania | 32.223.937  |
+| Total   | 771.718.579 |
 
 If we take the total value as the annual average wheat harvest worldwide, we can say that:
 
@@ -222,17 +222,17 @@ The international organization that governs chess is FIDE, whose name comes from
 
 The ELO ranking is based on mathematics and is closely related to the logistics function, in this way the first player has an ELO P_A score, while the second opponent has an ELO P_B score, we can then conclude that the first player has a higher probability and is represented mathematically through the following formula:
 
-`E_1=  1/(1+ 10^((P_1-P_2)/400) )`
+`E_1= 1/(1+ 10^((P_1-P_2)/400) )`
 
 Regarding the second player
 
-`E_2=  1/(1+ 10^((P_2-P_1)/400) )`
+`E_2= 1/(1+ 10^((P_2-P_1)/400) )`
 
 Suppose that the first player has 2000 points in the ELO, while the second player has 1600 points, we can calculate the formula and establish that the first player has a probability of:
 
-`E_1=  1/(1+ 10^((1600-2000)/400) )`
+`E_1= 1/(1+ 10^((1600-2000)/400) )`
 
-`E_1=  1/(1+ 10^(-1) )= 0,9090`
+`E_1= 1/(1+ 10^(-1) )= 0,9090`
 
 According to this ranking, the first player has a probability of approximately 90.91% that is in his favor and we can see that the system used by FIDE is based on mathematics when classifying the chess players that make up the various national federations around the world.
 
@@ -315,4 +315,4 @@ What is most surprising about this game is that with a moderate amount of chips,
 
 ## About the Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes

@@ -14,7 +14,7 @@ Suppose a random sample of order k: x1, x2,…, xn, the sample moment is:
 
 Given a random sample x1, x2, x3,…, xn from a distribution whose point probability function or perhaps its density function depends on m number of parameters θ1, θ2,…, θm and the moment estimators are obtained by equating the moments populations with their corresponding sample moments, that is, for this it will be necessary to solve the following system of equations:
 
-`E(x^k)=  (∑_(i=1)^n▒x_i^k )/n`
+`E(x^k)= (∑_(i=1)^n▒x_i^k )/n`
 
 On the left side of the equation we have the population moments and they are equal to the right side of the equation, where we will have the sample moments.
 
@@ -28,7 +28,7 @@ But given the case that we have two parameters, we must solve the system of equa
 `E(x) = 1/n ∑_(i=1)^n▒x_i`
 
 2nd population moment:
-`E(x^2)=  1/n ∑_(i=1)^n▒〖x_i〗^2`
+`E(x^2)= 1/n ∑_(i=1)^n▒〖x_i〗^2`
 
 Therefore, as many moments are equal as parameters it finds to estimate. It is important to take into account that the sample moments only depend on the random sample, while the population moments will most likely appear in the parameters that we want to estimate, that is, it is from there that we will obtain the equations to clear the parameters that we require estimate.
 
@@ -46,14 +46,14 @@ Let's go with an example to find the mathematical expectation of an event: suppo
 
 Since x is the square of the result, the values that the random variable will take are: 1, 4, 9, 16, 25 and 36. On the other hand, what is the probability that any of the heads will fall? Each head has a 1/6 chance.
 
-|x|1|4|9|16|25|36|
-|:---:|
-|P(x)|1\6|1\6|1\6|1\6|1\6|1\6|
-|:---:|
+|   x   | 1   | 4   | 9   | 16  | 25  | 36  |
+| :---: | --- | --- | --- | --- | --- | --- |
+| P(x)  | 1\6 | 1\6 | 1\6 | 1\6 | 1\6 | 1\6 |
+| :---: |
 
 According to the mathematical expectation formula, we must carry out the summation of the multiplication of the values that x takes multiplied by its probability, that is:
 
-`E(x) = ∑▒〖x.P(x)〗 = 1. 1/6 + 4.  1/6 + 9. 1/6 + 16. 1/6 + 25.  1/6 + 36.  1/6`
+`E(x) = ∑▒〖x.P(x)〗 = 1. 1/6 + 4. 1/6 + 9. 1/6 + 16. 1/6 + 25. 1/6 + 36. 1/6`
 
 `E(x) = 91/6 ≈ 15.17`
 
@@ -63,21 +63,21 @@ Example 2 to find the mathematical expectation:
 
 Suppose we have a discrete random variable whose probability distribution is given by:
 
-`P(x) = {█(kx       x=1,2,3,4 y 5@ k(10-x)   x=6,7,8,9)┤`
+`P(x) = {█(kx x=1,2,3,4 y 5@ k(10-x) x=6,7,8,9)┤`
 
 Find the value of the constant k
 
 To find the probability of the values of between 1 and 5, we simply need to multiply them by k. But for the values of x that are between 6 and 9 (both inclusive) we must apply the formula k (10 – x) so:
 
-|x|1|2|3|4|5|6|7|8|9|
-|:---:|
-|P(x)|1k|2k|3k|4k|5k|k(10-6)|k(10-7)|k(10-8)|k(10-9)|
-|:---:|
+|   x   | 1   | 2   | 3   | 4   | 5   | 6       | 7       | 8       | 9       |
+| :---: | --- | --- | --- | --- | --- | ------- | ------- | ------- | ------- |
+| P(x)  | 1k  | 2k  | 3k  | 4k  | 5k  | k(10-6) | k(10-7) | k(10-8) | k(10-9) |
+| :---: |
 
-|x|1|2|3|4|5|6|7|8|9|
-|:---:|
-|P(x)|1k|2k|3k|4k|5k|4k|3k|2k|1k|
-|:---:|
+|   x   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
+| :---: | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| P(x)  | 1k  | 2k  | 3k  | 4k  | 5k  | 4k  | 3k  | 2k  | 1k  |
+| :---: |
 
 In order to find the constant k we must take into account that the sum of the probabilities is always equal to unity:
 
@@ -105,7 +105,7 @@ Let x be a random variable with a probability density function that is given by:
 
 Where this function depends on a parameter θ, which in principle is unknown and with the density function I am going to calculate its expected value, but in this case, we will have to integrate in order to find it since it is a continuous function.
 
-`E(x) = ∫_0^1▒〖x.〗  θx^(θ-1)  dx = θ/(θ+1)`
+`E(x) = ∫_0^1▒〖x.〗 θx^(θ-1) dx = θ/(θ+1)`
 
 It is only integrated in the interval from 0 to 1, since otherwise, it takes the value of zero (0).
 
@@ -115,7 +115,7 @@ Once we have the expected value, I will choose a random sample from my populatio
 
 It is important to take into account that a circumflex is placed on θ ̂ because it is already being considered as an estimator, now it only remains to clear θ ̂
 
-`θ ̂=  X ̅/(1- X ̅ )`
+`θ ̂= X ̅/(1- X ̅ )`
 
 We now go with a second example of the method of moments with two parameters: suppose that we have a random variable whose distribution is normal N (μ, σ) where μ is the mean and has a standard direction σ. As we already know, the expected value for the first moment is the mean and therefore:
 
@@ -127,21 +127,21 @@ While the second population moment will be equal to the variance plus the mean, 
 
 Equating the first moment with the sample average and the second moment with the second sample moment we have:
 
-`μ= X ̅    (1)`
+`μ= X ̅ (1)`
 
-`μ^2+ σ^2=  1/n  ∑_(i=1)^n▒X_i^2   (2)`
+`μ^2+ σ^2= 1/n ∑_(i=1)^n▒X_i^2 (2)`
 
 As we can see, we have two equations with two unknowns, since we have two parameters in this exercise. Being our unknowns the parameters μ and σ. If we substitute equation (1) in (2) we have:
 
-`X ̅^2+ σ^2=  1/n  ∑_(i=1)^n▒X_i^2`
+`X ̅^2+ σ^2= 1/n ∑_(i=1)^n▒X_i^2`
 
-`σ^2=  1/n  ∑_(i=1)^n▒X_i^2 - X ̅^2`
+`σ^2= 1/n ∑_(i=1)^n▒X_i^2 - X ̅^2`
 
 Once we solve for σ we can place the circumflex, because it will be one of the estimators of this situation and also, carrying out the inverse process of the variance we can factor the right side of the equation and therefore we are left as:
 
-`σ ̂^2 = 1/n ∑_(i=1)^n▒〖(X_(i  )- X ̅)〗^2`
+`σ ̂^2 = 1/n ∑_(i=1)^n▒〖(X_(i )- X ̅)〗^2`
 
-It is important to emphasize that it is not just any factorization, since many will think that if we make the notable product of the last equation, we would need a term to arrive at the previous formula, but that missing term would be `-2X_(i  ) X ̅,` which By the summation that is ahead we would have `2X ̅ (∑_(i=1)^n▒X_i )/n = 2(X ) ̅X ̅ = 2X ̅^2` that by subtracting `X ̅^(2 )` I have only one `X ̅^2`  and that is why the factorization remains like this.
+It is important to emphasize that it is not just any factorization, since many will think that if we make the notable product of the last equation, we would need a term to arrive at the previous formula, but that missing term would be `-2X_(i ) X ̅,` which By the summation that is ahead we would have `2X ̅ (∑_(i=1)^n▒X_i )/n = 2(X ) ̅X ̅ = 2X ̅^2` that by subtracting `X ̅^(2 )` I have only one `X ̅^2` and that is why the factorization remains like this.
 
 On the other hand, we can realize that the right side of the equation is nothing more than the variance of the non-grouped data, so substituting we have:
 
@@ -243,27 +243,27 @@ Another way of dealing with hypothesis testing is through the equality of varian
 
 It is important to find the ideal method when carrying out a hypothesis test, for the case we are studying, where we want to test the population proportion. We are going to keep the assumption about the rule of rejection determined a priori, which is if the estimator of the sample proportion after the advertising campaign is equal to or greater than 0.07.
 
-We can commit a type I error when rejecting the null hypothesis being true, since the decision rule is to reject Ho when the proportion of the sample is equal to or greater than 0.07 and is denoted as p =  X/n since the level of contrast significance is:
+We can commit a type I error when rejecting the null hypothesis being true, since the decision rule is to reject Ho when the proportion of the sample is equal to or greater than 0.07 and is denoted as p = X/n since the level of contrast significance is:
 
-`α=P(p≥0.07/ p =0.05)= P(  X/n  ≥0.07 / p = 0.05)`
+`α=P(p≥0.07/ p =0.05)= P( X/n ≥0.07 / p = 0.05)`
 
 X being the number of clients who use the perfume among the people interviewed and n is the number of the sample, which in this case is 200. To find the probability, we use the information that, as is a Bernoulli probability distribution, the sum of the values of X would be a function of B(n,p) and therefore:
 
 `α=P(p≥0.07/ p =0.05)= P(X ≥ (0.07)(200) = 14 / p = 0.05)`
 
-`α=1- ∑_(i=0)^13▒P(X=i/p=0.05)  = 1 - ∑_(i=0)^13▒(200¦i)  〖(0.05)〗^i 〖(0.95)〗^(200-i)`
+`α=1- ∑_(i=0)^13▒P(X=i/p=0.05) = 1 - ∑_(i=0)^13▒(200¦i) 〖(0.05)〗^i 〖(0.95)〗^(200-i)`
 
 As we can see, calculating each of the addends is a somewhat complex process, so it is preferable to use the Poisson approximation in the binomial distribution or the normal approximation can also be used, when the probability p is small, however, the product np is quite large, so we have np = (200) (0.05) = 10. With this value λ = 10 and the number equal to 13 (which is the maximum value to take), we will go to the tables of the Poisson distribution and from there we obtain:
 
 The probability that the variable takes these numerical values is: 0.8645, so that α = 1 - 0.8645 = 0.1355, this being the contrast significance. In the same way, we could calculate the probability of committing a type II error, but for this it is necessary to assume that the population proportion has undergone a change and now has a new value of p '. Let's suppose that now p '= 0.6 and even though it is unknown, we must remember that the null hypothesis is not rejected if X <14, so:
 
-`β = P( X < 14 / p´ = 0.06) = ∑_(i=0)^13▒(200¦i)  〖(0.06)〗^i 〖(0.94)〗^(200-i) = 0.682`
+`β = P( X < 14 / p´ = 0.06) = ∑_(i=0)^13▒(200¦i) 〖(0.06)〗^i 〖(0.94)〗^(200-i) = 0.682`
 
 When we look for the value in the Poisson distribution tables for λ = np = (200) (0.06) = 12. But what if we want to calculate assuming that p´ = 0.07, we realize that λ = np = (200)(0.07) = 14 and when calculating β = 0.464. Therefore if we keep increasing the value of p '= 0.8 the value of λ = 16 and β = 0.275. This implies that if the true proportion of current perfume consumers exceeds 5%, the probability that we have of committing a type II error will be less as the difference between the proportion before the advertising campaign and the proportion that is get after the campaign.
 
 Depending on the strategy used to carry out the contrast, the values of α and β will vary. If the cosmetics company wanted to exceed 7% of consumers after the campaign, it would be being very demanding when rejecting the null hypothesis. While it is true that this implies a low probability of committing a type I error, the probability of committing a type II error would be quite high and this would imply that we would be demanding a lot of evidence against the null hypothesis to reject it, that is, , would increase the probability of not rejecting the null hypothesis even if it is false.
 
-`α=P( X ≥ 16/p= 0.05)= 1-∑_(i=0)^15▒(200¦i)   (0.05)^i (0.95)^(200-i)  = 1-0.951`
+`α=P( X ≥ 16/p= 0.05)= 1-∑_(i=0)^15▒(200¦i) (0.05)^i (0.95)^(200-i) = 1-0.951`
 `α=0.049`
 
 As we can see, the probability of committing type I error is much lower than that obtained with the 7% threshold, remember that it was α = 0.136.
@@ -272,4 +272,4 @@ We can then come to the conclusion that depending on the strategy adopted a prio
 
 ## About the Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes

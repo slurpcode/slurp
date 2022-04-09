@@ -45,13 +45,13 @@ You would want to install Pylint into your default Python environment, since you
 would want to check all of your Python code with it. Assuming that you have
 [Python](https://www.python.org/) installed, from the command line, type:
 
-``` python
+```python
 pip install pylint
 ```
 
 To run Pylint, type:
 
-``` python
+```python
 pylint myprogram.py
 ```
 
@@ -62,26 +62,26 @@ Where `myprogram.py` is the Python file you want it to check.
 By default, Pylint has all error checks and messages enabled. You can configure
 it to look for and report on five classes of errors:
 
-* (C) convention, for programming standard violation
-* (R) refactor, for bad code smell
-* (W) warning, for python specific problems
-* (E) error, for likely bugs in the code
-* (F) fatal, for errors occurred that prevent pylint from doing further
-Processing.
+- (C) convention, for programming standard violation
+- (R) refactor, for bad code smell
+- (W) warning, for python specific problems
+- (E) error, for likely bugs in the code
+- (F) fatal, for errors occurred that prevent pylint from doing further
+  Processing.
 
 ## Further Resources
 
-* [Pylint home page](https://www.pylint.org/)
-* [Pylint User Manual](http://pylint.pycqa.org/en/latest/)
-* [PEP8, the Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
-* [Readable Messages](https://github.com/janjur/readable-pylint-messages/blob/master/README.md)
-* [Linting Python In Visual Studio Code](https://code.visualstudio.com/docs/python/linting)
-* [PyCharm plug-in for Pylint](https://plugins.jetbrains.com/plugin/11084-pylint)
-* [Pylint technical reference](https://pylint.readthedocs.io/en/latest/technical_reference/features.html)
-* [Python support in Emacs](https://www.emacswiki.org/emacs/PythonProgrammingInEmacs)
-* [Pylint plug-in for Vim](https://www.vim.org/scripts/script.php?script_id=891)
-* [Pylint support for Eclipse](http://pydev.org/)
-* [A Beginner's Guide in Python - Pylint Tutorial](https://docs.pylint.org/en/1.6.0/tutorial.html)
+- [Pylint home page](https://www.pylint.org/)
+- [Pylint User Manual](http://pylint.pycqa.org/en/latest/)
+- [PEP8, the Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
+- [Readable Messages](https://github.com/janjur/readable-pylint-messages/blob/master/README.md)
+- [Linting Python In Visual Studio Code](https://code.visualstudio.com/docs/python/linting)
+- [PyCharm plug-in for Pylint](https://plugins.jetbrains.com/plugin/11084-pylint)
+- [Pylint technical reference](https://pylint.readthedocs.io/en/latest/technical_reference/features.html)
+- [Python support in Emacs](https://www.emacswiki.org/emacs/PythonProgrammingInEmacs)
+- [Pylint plug-in for Vim](https://www.vim.org/scripts/script.php?script_id=891)
+- [Pylint support for Eclipse](http://pydev.org/)
+- [A Beginner's Guide in Python - Pylint Tutorial](https://docs.pylint.org/en/1.6.0/tutorial.html)
 
 ## About the Author
 
