@@ -1,7 +1,7 @@
 # slurp
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-44-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Fslurpcode.github.io%2Fslurp)](https://slurpcode.github.io/slurp)
@@ -272,6 +272,7 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center"><a href="https://github.com/baileybussiere"><img src="https://avatars.githubusercontent.com/u/41208911?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bailey Bussiere</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=baileybussiere" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/HussnainQuresshi"><img src="https://avatars.githubusercontent.com/u/36919616?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hussnain</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=HussnainQuresshi" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/ihasidul"><img src="https://avatars.githubusercontent.com/u/32800356?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hasidul Islam</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ihasidul" title="Documentation">📖</a></td>
   </tr>
 </table>
 
