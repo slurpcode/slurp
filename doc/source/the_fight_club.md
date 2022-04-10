@@ -27,6 +27,6 @@ This shocking film also has renowned actors, the narrator is played by Edward No
 
 Fight Club received mixed reactions from critics and became one of the most controversial films of that year. Critics praised the direction, acting, messages and theme, however the explicit violence was highly debated as was the moral ambiguity. But without a doubt, it is one of the films that you have to see!
 
-## About The Author
+## About the Author
 
 Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes

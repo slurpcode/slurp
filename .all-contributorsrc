@@ -434,6 +434,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ihasidul",
+      "name": "Hasidul Islam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32800356?v=4",
+      "profile": "https://github.com/ihasidul",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 6,

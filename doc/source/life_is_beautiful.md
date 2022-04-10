@@ -30,6 +30,6 @@ Guido's love managed to triumph in the face of horror, but not before offering e
 
 Life is Beautiful was a commercial success with excellent reviews internationally. The film was awarded countless prizes from all over the world, including the "Grand Jury Prize" awarded by the Cannes Festival. He also won nine "Davis di Donatello" awards in Italy, as well as 50 international awards. The film obtained 7 Oscar nominations including Best Picture and this makes it the 6th film to receive this nomination, being non-English speaking and the 2nd Italian film competing for this award (the first was Il Postino in 1995), but finally he would only get three statuettes for Best Actor, Best Soundtrack and Best Foreign Film of the year 1998.
 
-## About The Author
+## About the Author
 
 Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes

@@ -50,7 +50,7 @@ severe hearing loss). Who would have thought?
 
 ![Working Out](_static/images/working-out/working-out-logo.jpg)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

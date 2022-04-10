@@ -99,7 +99,7 @@ screenshots and then check out Affinity.
 - [Serif legacy products support](https://community.serif.com/)
 - [Reviews and comparisons on Capterra, of Affinity products to other design software](https://www.capterra.com/p/110533/WebPlus-X4/)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

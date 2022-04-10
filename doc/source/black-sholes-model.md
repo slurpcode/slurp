@@ -305,6 +305,6 @@ It is then when we choose the whole table, we go to the upper part of our Excel 
 
 If we look at the table, we can realize that profits are obtained from € 33, because from that cell onwards, the intrinsic value is different from zero (0), but in the graph we can visualize this same behavior, because from of that same value (€ 33) is that the function that represents the intrinsic value begins to rise, giving us a positive response when buying the underlying asset, for the previous values, the intrinsic value found in the graph, we can observe that it is null.
 
-## About The Author
+## About the Author
 
 Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.

@@ -76,7 +76,7 @@ really like my Jeep. Here’s a couple of pretty places I’ve been.
 
 ![Driving off road logo](_static/images/driving/driving-off-road.jpg)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

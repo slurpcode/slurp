@@ -93,7 +93,7 @@ if he never saw eagles fly Rocky Mountain High”
 
 ![Colorado Logo](_static/images/colorado/colorado.png)
 
-## About the author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also
