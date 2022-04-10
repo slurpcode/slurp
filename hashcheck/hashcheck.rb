@@ -17,7 +17,7 @@ class Parser
     attr_accessor :file, :algorithm, :delay, :time
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint["hashcheck.rb [options]", :red, :white]}"
+      parser.banner = "Usage: #{Paint['hashcheck.rb [options]', :red, :white]}"
       parser.separator ""
       parser.separator "Specific options:"
 
