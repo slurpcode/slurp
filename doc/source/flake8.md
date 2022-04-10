@@ -104,7 +104,7 @@ flake8 --help
 - [Python support in Emacs](https://www.emacswiki.org/emacs/PythonProgrammingInEmacs)
 - [Flake8 support in Vim](https://github.com/nvie/vim-flake8)
 
-## About The Author
+## About the Author
 
 Jim Homme is a former professional musician, father of three, husband, and a
 32-year veteran in Information Technology. He loves to read and play chess. He

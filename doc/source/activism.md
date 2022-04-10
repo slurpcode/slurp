@@ -64,7 +64,7 @@ mind and LOOK FOR.
 
 ![Activism](_static/images/activism/activism.png)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

@@ -71,7 +71,7 @@ addicting….. Enjoy!
 - <https://en.wikipedia.org/wiki/Downton_Abbey>
 - <https://www.imdb.com/title/tt1606375/>
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

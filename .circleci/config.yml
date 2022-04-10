@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cimg/ruby:3.1.1-node
+      - image: cimg/ruby:2.7.5-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -108,7 +108,7 @@ jobs:
 
   well-formed:
     docker:
-      - image: cimg/ruby:3.1.1-node
+      - image: cimg/ruby:2.7.5-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -125,7 +125,7 @@ jobs:
 
   built-in-datatypes:
     docker:
-      - image: cimg/ruby:3.1.1-node
+      - image: cimg/ruby:2.7.5-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -142,7 +142,7 @@ jobs:
 
   spelling:
     docker:
-      - image: cimg/ruby:3.1.1-node
+      - image: cimg/ruby:2.7.5-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -217,7 +217,7 @@ jobs:
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory: /go/src/github.com/slurpcode/slurp
+    working_directory: ~/repo
     steps:
       - checkout
       - restore_cache: # restores saved cache if no changes are detected since last run

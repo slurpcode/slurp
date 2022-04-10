@@ -230,7 +230,7 @@ even inappropriately used the statistical meaning of the null hypothesis, that
 is, the PSEHN value and that without naming other multiple advantages that
 Bayesian statistics can offer you.
 
-## About The Author
+## About the Author
 
 Graduated in Mechanical Engineering, and a master's degree in teaching
 component, I gave classes in several institutes of mathematics and physics, but

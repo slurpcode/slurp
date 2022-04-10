@@ -83,7 +83,7 @@ Processing.
 * [Pylint support for Eclipse](http://pydev.org/)
 * [A Beginner's Guide in Python - Pylint Tutorial](https://docs.pylint.org/en/1.6.0/tutorial.html)
 
-## About The Author
+## About the Author
 
 Jim Homme is a former professional musician, father of three, husband, and a
 32-year veteran in Information Technology. He loves to read and play chess. He

@@ -213,7 +213,7 @@ source code to be able to interact or use the database you will need to create
 database-level user accounts. This is different than user accounts found in the
 database itself in the "users" table.
 
-## About The Author
+## About the Author
 
 Preston is a world-class database designer and programmer. In addition to being
 the lead developer for Fundraise Genius, Preston is the Data Chief at the

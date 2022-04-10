@@ -59,7 +59,7 @@ because of its geographical location, people often think that Jordan is not a
 stable and safe country, but once you set foot in Amman, you will notice a very
 different idea of what you would think of this middle eastern country.
 
-## About The Author
+## About the Author
 
 Mujahid Al-Majali, a 29-year-old former air force soldier and an economic
 development and business specialist, also does translation and copywriting.

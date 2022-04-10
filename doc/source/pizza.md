@@ -49,7 +49,7 @@ in your mouth, IN MY OPINION. You can find the PBC here:
 
 ![Pizza is everything](_static/images/pizza/pizza-logo.png)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

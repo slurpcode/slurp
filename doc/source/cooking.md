@@ -67,7 +67,7 @@ subject because the combinations are endless. Have fun! “Just do it”
 
 ![Cooking Healthy Meals](_static/images/cooking-healthy-meals/cooking-healthy-meals.png)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also
