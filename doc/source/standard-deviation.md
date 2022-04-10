@@ -144,7 +144,7 @@ Double that amount will be:
 As we observed 7.8> 6 so that for this reason the teacher will repeat the test.
 ```
 
-## About The Author
+## About the Author
 
 Graduated in Mechanical Engineering, and a master's degree in teaching
 component, I gave classes in several institutes of mathematics and physics, but

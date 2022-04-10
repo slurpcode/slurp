@@ -317,7 +317,7 @@ use this formula, even with other sampling models.
 
 In statistics this fraction: σ/(√n) It is what is known as the standard error.
 
-## About The Author
+## About the Author
 
 Graduated in Mechanical Engineering, and a master's degree in teaching
 component, I gave classes in several institutes of mathematics and physics, but

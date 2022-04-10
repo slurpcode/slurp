@@ -136,7 +136,7 @@ knowledge about Sphinx to take that final step of documenting it. Your teammates
 will thank you. The development world will thank you. You will thank yourself if
 you ever need to maintain your own code.
 
-## About The Author
+## About the Author
 
 Jim Homme is a former professional musician, father of three, husband, and a
 32-year veteran in Information Technology. He loves to read and play chess. He

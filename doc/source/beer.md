@@ -54,7 +54,7 @@ ENJOY! Seriously, but not too much!
 
 ![Beer Logo](_static/images/beer/beer-logo.png)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also

@@ -271,7 +271,7 @@ Next time you buy a wristwatch, don´t bee fooled by the idea that watch spheres
 with Roman numerals are more elegant. There is nothing more elegant than the
 clean efficiency of positional systems, and the use of zero.
 
-## About The Author
+## About the Author
 
 Jorge Araica is a
 [Graphic Designer](https://www.upwork.com/o/profiles/users/~01abf139414e3d1c0d/)

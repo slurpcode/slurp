@@ -26,6 +26,6 @@ Takhti comes in at number one. Nicknamed the World Champion, Takhti was a three-
 
 The native of Tehran passed away at the all too young age of 37, but his legacy and the impact he had on Iranian wrestling will last forever.
 
-## About The Author
+## About the Author
 
 Mujahid Al-Majali, a 29-year-old former air force soldier and an economic development and business specialist, also does translation and copywriting. Loves long drives, chill music and old school movies. A nicotine addict and a huge fan of Jack Daniel’s whiskey. Owned multiple businesses in Amman and southern of Jordan PRE-COVID and now focusing on translation and copywriting part of my experience through Upwork.

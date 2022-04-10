@@ -313,6 +313,6 @@ The latest advances in science have attempted to solve the endings of chess game
 
 What is most surprising about this game is that with a moderate amount of chips, not even the most powerful NASA computers are capable of generating the perfect game today. Although it is true that chess is not infinite, it definitely lacks very little to become so and we hope it continues to be this way, so that they do not end the magic of this great sport of Kings.
 
-## About The Author
+## About the Author
 
  Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
