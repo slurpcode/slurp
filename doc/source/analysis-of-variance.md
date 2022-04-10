@@ -488,6 +488,6 @@ If we review the same previous process by the Treatment factor (Factor B) we obt
 
 However, when we carry out the same previous process for the interaction between factors A and B, we note that → 0.0319 < 5.318, so that here the null hypothesis cannot be rejected and then we can conclude that the interaction that exists between the time and treatment does not influence magnesium absorption.
 
-## About The Author
+## About the Author
 
 Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.

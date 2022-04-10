@@ -86,7 +86,7 @@ Ta!
 - <https://www.globalfirepower.com/>
 - <https://en.wikipedia.org/wiki/Australia>
 
-## About The Author
+## About the Author
 
 Mujahid Al-Majali, a 29-year-old former air force soldier and an economic
 development and business specialist, also does translation and copywriting.

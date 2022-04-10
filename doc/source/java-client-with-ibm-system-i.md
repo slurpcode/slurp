@@ -110,7 +110,7 @@ System i -AS/400:
 
 Hoping it will be of some help to the community.
 
-## About The Author
+## About the Author
 
 Clay Lanzino is a passionate former surfer, father of three children, husband
 and a 33-year-old IT professional who loves programming. In his spare time, he

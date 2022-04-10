@@ -23,6 +23,6 @@ Shiraz and is recorded as an Iranian national monument.
 
 ![Shapouri House](_static/images/iran-shiraz-shapouri-house/5.jpg)
 
-## About The Author
+## About the Author
 
 ...

@@ -88,7 +88,7 @@ Check out some of the following references for more details:
 
 ![Ball Aerospace](_static/images/ball-aerospace/ball-aerospace-logo.png)
 
-## About The Author
+## About the Author
 
 Harley Armentrout is a happy husband and father, former silversmith, aerospace
 electronics prototype assembler, test, calibration & repair technician, also
