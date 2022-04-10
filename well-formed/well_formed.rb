@@ -19,7 +19,7 @@ class Parser
 
     def define_options(parser)
       parser.banner =
-        "Usage: #{Paint["well-formed.rb [options]", :red, :white]}"
+        "Usage: #{Paint['well-formed.rb [options]', :red, :white]}"
       parser.separator ""
       parser.separator "Specific options:"
 
