@@ -64,7 +64,7 @@ jobs:
       - run:
           name: 🏗️ Install Ruby Dependencies 💎
           command: |
-            gem install bundler
+            gem install bundler --full-index
             bundle update --bundler
             bundle install --jobs=4 --retry=3
       # - save_cache:
