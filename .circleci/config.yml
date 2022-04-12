@@ -87,6 +87,7 @@ jobs:
           name: 📷 Run Percy snapshots
           command: |
             cd docs
+            gem update jekyll
             bundle exec jekyll build
             npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
       - restore_cache:
