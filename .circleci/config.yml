@@ -6,7 +6,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cimg/ruby:3.1.1-node
+      - image: cimg/ruby:2.7.6-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -87,7 +87,7 @@ jobs:
           name: 📷 Run Percy snapshots
           command: |
             cd docs
-            sudo apt install libgconf-2-4 libatk1.0-0 libatk-bridge2.0-0 libgdk-pixbuf2.0-0 libgtk-3-0 libgbm-dev libnss3-dev libxss-dev
+            sudo apt install -y libnss3
             bundle exec jekyll build
             npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
       - restore_cache:
@@ -109,7 +109,7 @@ jobs:
 
   well-formed:
     docker:
-      - image: cimg/ruby:3.1.1-node
+      - image: cimg/ruby:2.7.6-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -126,7 +126,7 @@ jobs:
 
   built-in-datatypes:
     docker:
-      - image: cimg/ruby:3.1.1-node
+      - image: cimg/ruby:2.7.6-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -143,7 +143,7 @@ jobs:
 
   spelling:
     docker:
-      - image: cimg/ruby:3.1.1-node
+      - image: cimg/ruby:2.7.6-node
     working_directory: ~/repo
     steps:
       - checkout
