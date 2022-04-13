@@ -87,6 +87,7 @@ jobs:
           name: 📷 Run Percy snapshots
           command: |
             cd docs
+            ruby -v
             bundle exec jekyll build
             npx percy snapshot _site/ --ignore-files "assets/python/**,parallel-universe/index.html"
       - restore_cache:
@@ -268,7 +269,7 @@ jobs:
 
   php:
     docker:
-      - image: cimg/php:8.1.5
+      - image: cimg/php:8.1.4
     working_directory: ~/repo
     steps:
       - checkout
