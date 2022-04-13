@@ -116,6 +116,7 @@ jobs:
       - run:
           name: 🏗️ Install Ruby Dependencies 💎
           command: |
+            npm i
             gem install bundler
             bundle update --bundler
             bundle install --jobs=4 --retry=3
