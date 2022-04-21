@@ -14,7 +14,7 @@ class GithubSpider(scrapy.Spider):
     """Lets crawl."""
 
     name = "githubspider"
-    start_urls = ["https://github.com/{}".format(user)]
+    start_urls = [f"https://github.com/{user}"]
 
     def parse(self, response):
         """
