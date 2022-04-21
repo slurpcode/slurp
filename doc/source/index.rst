@@ -146,6 +146,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    amman.md
+   andorra.md
    brisbane.md
    budapest.md
    copenhagen.md
