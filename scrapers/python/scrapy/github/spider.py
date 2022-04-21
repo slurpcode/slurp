@@ -3,7 +3,8 @@
 GitHub spider which scrapes five stats.
 Command for running this script:
     scrapy runspider spider.py
-After running the script it will ask for your github username.Insert your github username.
+After running the script it will ask for your github username.
+Insert your github username.
 """
 import scrapy
 
@@ -42,11 +43,7 @@ class GithubSpider(scrapy.Spider):
         output["contribution_in_the_last_year"] = (
             contribution_in_the_last_year.get().strip().split("\n")[0]
         )
-        print(
-            "------------------------------------YOUR STATS------------------------------------"
-        )
+        print("--------------------------YOUR STATS--------------------------")
         print(output)
-        print(
-            "----------------------------------------------------------------------------------"
-        )
+        print("-------------------------------------------------------------")
         yield output
