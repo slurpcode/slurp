@@ -59,7 +59,7 @@ class Parser
     attr_accessor :keyword, :location, :range, :worktype, :delay, :time
 
     def define_options(parser)
-      parser.banner = "Usage: #{Paint["seek.rb [options]", :red, :white]}"
+      parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
       parser.separator ""
       parser.separator "Specific options:"
 
