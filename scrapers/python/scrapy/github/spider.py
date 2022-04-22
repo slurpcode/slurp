@@ -42,12 +42,10 @@ class GithubSpider(scrapy.Spider):
         following = response.xpath("//a[contains(@href,'tab=following')]/span")
         output["following"] = following.css("::text").get().strip()
         contribution_in_the_last_year = response.xpath(
-            "//h2[@class='f4 text-normal mb-2']/text()"
-        )
+            "//h2[@class='f4 text-normal mb-2']/text()")
         print(contribution_in_the_last_year.get().strip().split("\n")[0])
         output["contribution_in_the_last_year"] = (
-            contribution_in_the_last_year.get().strip().split("\n")[0]
-        )
+            contribution_in_the_last_year.get().strip().split("\n")[0])
         print("--------------------------YOUR STATS--------------------------")
         print(output)
         print("-------------------------------------------------------------")
