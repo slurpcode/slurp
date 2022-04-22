@@ -2,20 +2,23 @@
 """
 GitHub spider which scrapes five stats.
 Command for running this script:
-    scrapy runspider spider.py
+    scrapy runspider spider.py -a username=<username>
+Example:
+    scrapy runspider spider.py -a username=ihasidul
 After running the script it will ask for your github username.
 Insert your github username.
 """
 import scrapy
-
-user = input("Enter your github username: ")
 
 
 class GithubSpider(scrapy.Spider):
     """Lets crawl."""
 
     name = "githubspider"
-    start_urls = [f"https://github.com/{user}"]
+
+    def __init__(self, username="", **kwargs):
+        self.start_urls = [f"https://github.com/{username}"]
+        super().__init__(**kwargs)  # python3
 
     def parse(self, response):  # pylint: disable=W0221
         """
