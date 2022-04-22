@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# pylint: disable=W0221
 """
 GitHub spider which scrapes five stats.
 Command for running this script:
