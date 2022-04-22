@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# pylint: disable=W0221
 """
 GitHub spider which scrapes five stats.
 Command for running this script:
@@ -18,7 +17,7 @@ class GithubSpider(scrapy.Spider):
     name = "githubspider"
     start_urls = [f"https://github.com/{user}"]
 
-    def parse(self, response):
+    def parse(self, response):  # pylint: disable=W0221
         """
         Grab the 5 stats.
         Stats it grabs are:
