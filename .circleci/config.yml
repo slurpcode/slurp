@@ -292,7 +292,7 @@ jobs:
           name: Run the spider
           command: |
             cd scrapers/python/scrapy/github
-            scrapy runspider spider.py
+            scrapy runspider spider.py -a username=ihasidul
 
 
 
