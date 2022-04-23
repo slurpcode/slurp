@@ -67,6 +67,7 @@ exclude:
   - .gitignore
   - assets/python/
   - server
+  - pages/parallel.html
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
