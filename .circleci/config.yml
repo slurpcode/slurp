@@ -278,6 +278,23 @@ jobs:
             cd scrapers/php
             php ./github-max-per-day.php fabpot
 
+  spider:
+    docker:
+      - image: cimg/python:3.10.4-node
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+      - python/install-packages:
+          args: Scrapy
+      - run:
+          name: Run the spider
+          command: |
+            cd scrapers/python/scrapy/github
+            scrapy runspider spider.py -a username=ihasidul
+
+
 workflows:
   version: 2
   build-deploy:
@@ -307,3 +324,6 @@ workflows:
           filters:
             branches:
               only: master
+      - spider:
+          requires:
+            - build
