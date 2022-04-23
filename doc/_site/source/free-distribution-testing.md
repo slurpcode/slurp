@@ -68,7 +68,7 @@ Hypothesis tests for a population median
 
 |            |      Left Tail Test      | Right tail test | Two Tail Test |
 | :--------: | :----------------------: | :-------------: | ------------- |
-| Hypothesis | `Ho: Median ≥ 〖Med〗_0`
+| Hypothesis | `Ho: Median ≥ 〖Med〗_0` |
 
 `Ha: Median < 〖Med〗_0`
 | `Ho: Median ≤ 〖Med〗_0`
@@ -82,7 +82,7 @@ Hypothesis tests for a population median
 
 Nomenclature:
 `P = statistic of the binomial distribution test`
-`〖Med〗_0  = hypothetical value of the population median`
+`〖Med〗_0 = hypothetical value of the population median`
 `x = lower frequency, either with a (+) or (-) sign`
 `n = sample size`
 `p = probability of success`
@@ -92,17 +92,17 @@ Let's go with the first example:
 
 We have a sample of the weights in kilograms of 9 children with 5 years of age
 
-|Weight (Kg)|
-|:----:|
-|22,80|
-|20,71|
-|23,71|
-|24,00|
-|21,72|
-|22,50|
-|23,20|
-|22,90|
-|22,74|
+| Weight (Kg) |
+| :---------: |
+|    22,80    |
+|    20,71    |
+|    23,71    |
+|    24,00    |
+|    21,72    |
+|    22,50    |
+|    23,20    |
+|    22,90    |
+|    22,74    |
 
 Prove that the median is equal to 22.50 kg
 
@@ -114,27 +114,27 @@ As the statement of the exercise urges us to test if the median "is equal to" an
 
 `Ha ≠ 22.5`
 
-The simplest way is to test the null hypothesis is to compare it with the given value and that it is based on the sample of size n. Then each value of the sample that is greater than 〖Med〗 _0 is replaced by the sign (+), while each value of the sample less than 〖Med〗_0 is replaced by the sign (-). In other words, each of the sample values are compared with 22.5 and if they are greater we will denote them with a sign (+), while if they are less we will place a sign (-) and those values equal to 22, 5 should be completely ignored.
+The simplest way is to test the null hypothesis is to compare it with the given value and that it is based on the sample of size n. Then each value of the sample that is greater than 〖Med〗 \_0 is replaced by the sign (+), while each value of the sample less than 〖Med〗\_0 is replaced by the sign (-). In other words, each of the sample values are compared with 22.5 and if they are greater we will denote them with a sign (+), while if they are less we will place a sign (-) and those values equal to 22, 5 should be completely ignored.
 
-|Weight (Kg)| Sign|
-|:----:|:----:|
-|22,80|+|
-|20,71|-|
-|23,71|+|
-|24,00|+|
-|21,72|-|
-|22,50|0|
-|23,20|+|
-|22,90|+|
-|22,74|+|
+| Weight (Kg) | Sign |
+| :---------: | :--: |
+|    22,80    |  +   |
+|    20,71    |  -   |
+|    23,71    |  +   |
+|    24,00    |  +   |
+|    21,72    |  -   |
+|    22,50    |  0   |
+|    23,20    |  +   |
+|    22,90    |  +   |
+|    22,74    |  +   |
 
 Now we go on to count how many positive signs there are, how many negative signs, and how many were ignored with the symbol (0).
 
-|+| 6|
-|:----:|:----:|
-|-|2|
-|0|1|
-|Total|9|
+|   +   |  6  |
+| :---: | :-: |
+|   -   |  2  |
+|   0   |  1  |
+| Total |  9  |
 
 We can see that the sum of the signs gives us a result of nine pieces of data in total, which was the initial number of our sample. However, the method tells us to completely ignore those data equal to 22.5; so that we are not only going to ignore the data to which we assign the (0), but we are also going to ignore the number of data, therefore n = 8 and not 9 as we originally had.
 Now we are going to assign the value of x, which, as we saw previously, is the one with the least amount among the 2 signs, so x = 2 since this is the least value between the numbers 6 and 2.
@@ -160,12 +160,12 @@ In the hypothesis test with paired samples, the formulation of the null hypothes
 
 ## Left Tail Test Right Tail Test Two-tail test
 
-| | Left Tail Test| Right Tail Test| Two Tail Test|
-|:---:|:---:|:---:|:---:|
-|Hypothesis| `Ho: p(+) ≥ p(-)`
-`Ha: p(+) < p(-)`| `Ho: p(+) ≤ p(-)`
-`Ha: p(+) > p(-)`| `Ho: p(+) = p(-)`
-`Ha: p(+) ≠ p(-)`|
+|                   |  Left Tail Test   | Right Tail Test | Two Tail Test |
+| :---------------: | :---------------: | :-------------: | :-----------: |
+|    Hypothesis     | `Ho: p(+) ≥ p(-)` |
+| `Ha: p(+) < p(-)` | `Ho: p(+) ≤ p(-)` |
+| `Ha: p(+) > p(-)` | `Ho: p(+) = p(-)` |
+| `Ha: p(+) ≠ p(-)` |
 
 Let us remember that the paired samples are those extracted from a population, where that same sample is going to be compared at two different moments and in the period that exists between those two times, an intervention or factor will be applied to modify the response of the sample. To later check if there really is a significant difference after that intervention, between one moment and another.
 
@@ -175,20 +175,20 @@ Now let's go with an example of paired samples
 
 In a sample of 12 patients who use a private hospital, satisfaction levels were obtained on a scale from 0 to 10. Then the same scale was measured, but after the hospital made administrative and operational changes in order to improve the service, Two tables were obtained, one before and one after.
 
-|Before| After|
-|:----:|:----:|
-|7|8|
-|6|7|
-|6|6|
-|6|5|
-|8|9|
-|7|10|
-|7|8|
-|9|10|
-|8|9|
-|7|7|
-|5|6|
-|9|8|
+| Before | After |
+| :----: | :---: |
+|   7    |   8   |
+|   6    |   7   |
+|   6    |   6   |
+|   6    |   5   |
+|   8    |   9   |
+|   7    |  10   |
+|   7    |   8   |
+|   9    |  10   |
+|   8    |   9   |
+|   7    |   7   |
+|   5    |   6   |
+|   9    |   8   |
 
 ![Room ](_static/images/free-distribution-testing/room.jpg)
 
@@ -199,20 +199,20 @@ The idea is to try to verify that after the improvements, the patients increased
 
 Now we are going to compare the satisfaction levels after the improvements with those of before, if they are greater than we will place a sign (+), if on the contrary they are less we will assign a sign (-) and again we will discard those data that are equal.
 
-|Before| After| Sign|
-|:----:|:----:| :----:|
-|7|8|+|
-|6|7|+|
-|6|6|0|
-|6|5|-|
-|8|9|+|
-|7|10|+|
-|7|8|+|
-|9|10|+|
-|8|9|+|
-|7|7|0|
-|5|6|+|
-|9|8|-|
+| Before | After | Sign |
+| :----: | :---: | :--: |
+|   7    |   8   |  +   |
+|   6    |   7   |  +   |
+|   6    |   6   |  0   |
+|   6    |   5   |  -   |
+|   8    |   9   |  +   |
+|   7    |  10   |  +   |
+|   7    |   8   |  +   |
+|   9    |  10   |  +   |
+|   8    |   9   |  +   |
+|   7    |   7   |  0   |
+|   5    |   6   |  +   |
+|   9    |   8   |  -   |
 
 |+| 8|
 |-|2|
@@ -274,42 +274,42 @@ Now let's go with an example of a Wilcoxon signed-rank test for 1 small sample
 
 A manufacturer of electric irons requires testing the accuracy of a thermostat in its set position, whose temperature is 500 ° F. To do this, a test engineer is instructed to obtain the actual temperatures at that set position on 15 different plates using thermocouples. Measurements resulted in the following temperatures:
 
-|°F|
-|:----:|
-|494.6|
-|510.8|
-|487.5|
-|493.2|
-|502.6|
-|485.0|
-|495.9|
-|501.6|
-|494.6|
-|492.0|
-|504.3|
-|499.2|
-|493.5|
-|505.8|
+|  °F   |
+| :---: |
+| 494.6 |
+| 510.8 |
+| 487.5 |
+| 493.2 |
+| 502.6 |
+| 485.0 |
+| 495.9 |
+| 501.6 |
+| 494.6 |
+| 492.0 |
+| 504.3 |
+| 499.2 |
+| 493.5 |
+| 505.8 |
 
 The idea is to test if the median varies from 500 ° F with 95% confidence (α = 0.05)
 
-|Xi|Xi - Me|Sign|Rank|
-|:----:|:----:|:----:|:----:|
-|494.6|-5.4|-|7.5|
-|510.8|10.8|+|13|
-|487.5|-12.5|-|14|
-|493.2|-6.8|-|11|
-|502.6|2.6|+|4|
-|485.0|-15|-|15|
-|495.9|-4.1|-|5|
-|498.2|-1.8|-|3|
-|501.6|1.6|+|2|
-|494.6|-5.4|-|7.5|
-|492.0|-8|-|-12|
-|504.3|4.3|+|6|
-|499.2|-0.8|-|1|
-|493.5|-6.5|-|10|
-|505.8|5.8|+|9|
+|  Xi   | Xi - Me | Sign | Rank |
+| :---: | :-----: | :--: | :--: |
+| 494.6 |  -5.4   |  -   | 7.5  |
+| 510.8 |  10.8   |  +   |  13  |
+| 487.5 |  -12.5  |  -   |  14  |
+| 493.2 |  -6.8   |  -   |  11  |
+| 502.6 |   2.6   |  +   |  4   |
+| 485.0 |   -15   |  -   |  15  |
+| 495.9 |  -4.1   |  -   |  5   |
+| 498.2 |  -1.8   |  -   |  3   |
+| 501.6 |   1.6   |  +   |  2   |
+| 494.6 |  -5.4   |  -   | 7.5  |
+| 492.0 |   -8    |  -   | -12  |
+| 504.3 |   4.3   |  +   |  6   |
+| 499.2 |  -0.8   |  -   |  1   |
+| 493.5 |  -6.5   |  -   |  10  |
+| 505.8 |   5.8   |  +   |  9   |
 
 The statement of the hypotheses is:
 
@@ -350,20 +350,20 @@ The following data shows us the rates of defective work performed by employees, 
 
 ![worker](_static/images/free-distribution-testing/worker.jpg)
 
-|Before (1)|After(2)|
-|:----:|:----:|
-|8|6|
-|7|5|
-|6|8|
-|9|6|
-|7|9|
-|10|8|
-|8|10|
-|6|7|
-|5|5|
-|8|6|
-|10|9|
-|8|8|
+| Before (1) | After(2) |
+| :--------: | :------: |
+|     8      |    6     |
+|     7      |    5     |
+|     6      |    8     |
+|     9      |    6     |
+|     7      |    9     |
+|     10     |    8     |
+|     8      |    10    |
+|     6      |    7     |
+|     5      |    5     |
+|     8      |    6     |
+|     10     |    9     |
+|     8      |    8     |
 
 The hypotheses are as:
 
@@ -372,20 +372,20 @@ The hypotheses are as:
 
 The first thing we need to do is subtract the values between the defective units before the salary increase and the number of defective items after the incentive. To then order the absolute value of the range from lowest to highest, assigning values from 1 onwards.
 
-|Before (X1)|After (X2)|X1 – X2|Sign|Rank|
-|:---:|:---:|:---:|:---:|:---:|
-|8|6|2|+|6|
-|7|5|2|+|6|
-|6|8|-2|-|6|
-|9|6|3|+|10|
-|7|9|2|+|6|
-|10|8|2|+|6|
-|8|10|-2|-|6|
-|6|7|-1|-|1.5|
-|5|5|0||-|
-|8|6|-2|-|6|
-|10|9|1|+|1.5|
-|8|8|0||-|
+| Before (X1) | After (X2) | X1 – X2 | Sign | Rank |
+| :---------: | :--------: | :-----: | :--: | :--: |
+|      8      |     6      |    2    |  +   |  6   |
+|      7      |     5      |    2    |  +   |  6   |
+|      6      |     8      |   -2    |  -   |  6   |
+|      9      |     6      |    3    |  +   |  10  |
+|      7      |     9      |    2    |  +   |  6   |
+|     10      |     8      |    2    |  +   |  6   |
+|      8      |     10     |   -2    |  -   |  6   |
+|      6      |     7      |   -1    |  -   | 1.5  |
+|      5      |     5      |    0    |      |  -   |
+|      8      |     6      |   -2    |  -   |  6   |
+|     10      |     9      |    1    |  +   | 1.5  |
+|      8      |     8      |    0    |      |  -   |
 
 As we can see, the absolute value of 1 is repeated twice and that of 2 is repeated seven times. So the absolute minimum value (1) occupies places 1 and 2, so the average between the two is 1.5. In the same way, the absolute value of 2 occupies places 3, 4, 5, 6, 7, 8 and 9, so its average is: (3 + 4 + 5 + 6 + 7 + 8 + 9) / 7 = 6. It is important to emphasize that the zeros (0) are not taken into account neither for the range nor for the number of observations, so in this case n = 10 instead of 12 as we had initially.
 
@@ -402,7 +402,7 @@ We can then say that the null hypothesis is rejected, when the alternative hypot
 
 To find `T (α, n)` we go to the Table of critical values of the Wilcoxon T test for a single tail, with a significance of 0.01 and a value of n = 10
 
-![chart6](_static/images/free-distribution-testing/chart 6.jpg)
+![chart6](\_static/images/free-distribution-testing/chart 6.jpg)
 
 By tables we obtain that T (α, n) = 5, if we compare this value with that obtained from the Tcal we have:
 

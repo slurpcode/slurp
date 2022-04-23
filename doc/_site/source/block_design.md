@@ -453,12 +453,12 @@ As we can observe:
 
 Y.j = It is the sum of the treatments in each block
 
-![{Y.j}\^{2}](https://latex.codecogs.com/png.latex?%7BY.j%7D%5E%7B2%7D "{Y.j}^{2}")
+![{Y.j}^{2}](https://latex.codecogs.com/png.latex?%7BY.j%7D%5E%7B2%7D "{Y.j}^{2}")
 = Are the values of Y.j squared
 
 Yi. = It is the sum of all the blocks for each treatment
 
-![{Yi.}\^{2}](https://latex.codecogs.com/png.latex?%7BYi.%7D%5E%7B2%7D "{Yi.}^{2}")
+![{Yi.}^{2}](https://latex.codecogs.com/png.latex?%7BYi.%7D%5E%7B2%7D "{Yi.}^{2}")
 = They are the values of Yi. squared
 
 Y.. = It is the sum of all the treatments in each block with all the
@@ -473,28 +473,28 @@ calculated, we can get to obtain F, which is a value that I can compare
 and will allow us to make a decision.
 
 SSB =
-![\\sum\_{}\^{}\\frac{(14554)\^{2} + (13420)\^{2} + (13876)\^{2} + (13252)\^{2}}{5} - \\frac{(55102)\^{2}}{5 \\ast 4}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7D%5Cfrac%7B%2814554%29%5E%7B2%7D%20%2B%20%2813420%29%5E%7B2%7D%20%2B%20%2813876%29%5E%7B2%7D%20%2B%20%2813252%29%5E%7B2%7D%7D%7B5%7D%20-%20%5Cfrac%7B%2855102%29%5E%7B2%7D%7D%7B5%20%5Cast%204%7D "\sum_{}^{}\frac{(14554)^{2} + (13420)^{2} + (13876)^{2} + (13252)^{2}}{5} - \frac{(55102)^{2}}{5 \ast 4}")
+![\sum_{}^{}\frac{(14554)^{2} + (13420)^{2} + (13876)^{2} + (13252)^{2}}{5} - \frac{(55102)^{2}}{5 \ast 4}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7D%5Cfrac%7B%2814554%29%5E%7B2%7D%20%2B%20%2813420%29%5E%7B2%7D%20%2B%20%2813876%29%5E%7B2%7D%20%2B%20%2813252%29%5E%7B2%7D%7D%7B5%7D%20-%20%5Cfrac%7B%2855102%29%5E%7B2%7D%7D%7B5%20%5Cast%204%7D "\\sum_{}^{}\frac{(14554)^{2} + (13420)^{2} + (13876)^{2} + (13252)^{2}}{5} - \frac{(55102)^{2}}{5 \ast 4}")
 = 203319
 
 SSTreat =
-![\\sum\_{}\^{}\\frac{(7891)\^{2} + (9994)\^{2} + (11892)\^{2} + (12374)\^{2} + (12951)\^{2}}{4} - \\frac{(55102)\^{2}}{5 \\ast 4}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7D%5Cfrac%7B%287891%29%5E%7B2%7D%20%2B%20%289994%29%5E%7B2%7D%20%2B%20%2811892%29%5E%7B2%7D%20%2B%20%2812374%29%5E%7B2%7D%20%2B%20%2812951%29%5E%7B2%7D%7D%7B4%7D%20-%20%5Cfrac%7B%2855102%29%5E%7B2%7D%7D%7B5%20%5Cast%204%7D "\sum_{}^{}\frac{(7891)^{2} + (9994)^{2} + (11892)^{2} + (12374)^{2} + (12951)^{2}}{4} - \frac{(55102)^{2}}{5 \ast 4}")
+![\sum_{}^{}\frac{(7891)^{2} + (9994)^{2} + (11892)^{2} + (12374)^{2} + (12951)^{2}}{4} - \frac{(55102)^{2}}{5 \ast 4}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7D%5Cfrac%7B%287891%29%5E%7B2%7D%20%2B%20%289994%29%5E%7B2%7D%20%2B%20%2811892%29%5E%7B2%7D%20%2B%20%2812374%29%5E%7B2%7D%20%2B%20%2812951%29%5E%7B2%7D%7D%7B4%7D%20-%20%5Cfrac%7B%2855102%29%5E%7B2%7D%7D%7B5%20%5Cast%204%7D "\\sum_{}^{}\frac{(7891)^{2} + (9994)^{2} + (11892)^{2} + (12374)^{2} + (12951)^{2}}{4} - \frac{(55102)^{2}}{5 \ast 4}")
 = 4291444
 
-SSTotal=![\\sum\_{}\^{}{\\lfloor(2010)\^{2} + (1832)\^{2} + (2170)\^{2} + (1879)\^{2} + \\ldots{Yij}\^{2}\\rfloor - \\frac{(55102)\^{2}}{5 \\ast 4}}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7D%7B%5Clfloor%282010%29%5E%7B2%7D%20%2B%20%281832%29%5E%7B2%7D%20%2B%20%282170%29%5E%7B2%7D%20%2B%20%281879%29%5E%7B2%7D%20%2B%20%5Cldots%7BYij%7D%5E%7B2%7D%5Crfloor%20-%20%5Cfrac%7B%2855102%29%5E%7B2%7D%7D%7B5%20%5Cast%204%7D%7D "\sum_{}^{}{\lfloor(2010)^{2} + (1832)^{2} + (2170)^{2} + (1879)^{2} + \ldots{Yij}^{2}\rfloor - \frac{(55102)^{2}}{5 \ast 4}}")=
+SSTotal=![\sum_{}^{}{\lfloor(2010)^{2} + (1832)^{2} + (2170)^{2} + (1879)^{2} + \ldots{Yij}^{2}\rfloor - \frac{(55102)^{2}}{5 \ast 4}}](https://latex.codecogs.com/png.latex?%5Csum_%7B%7D%5E%7B%7D%7B%5Clfloor%282010%29%5E%7B2%7D%20%2B%20%281832%29%5E%7B2%7D%20%2B%20%282170%29%5E%7B2%7D%20%2B%20%281879%29%5E%7B2%7D%20%2B%20%5Cldots%7BYij%7D%5E%7B2%7D%5Crfloor%20-%20%5Cfrac%7B%2855102%29%5E%7B2%7D%7D%7B5%20%5Cast%204%7D%7D "\\sum_{}^{}{\lfloor(2010)^{2} + (1832)^{2} + (2170)^{2} + (1879)^{2} + \ldots{Yij}^{2}\rfloor - \frac{(55102)^{2}}{5 \ast 4}}")=
 4804480
 
 SSEE= SSTotal-(SSTreat + SSB) = 4804480 -- 4291444 -- 203319 = 309717
 
 MSTreat =
-![\\frac{4291444}{4}](https://latex.codecogs.com/png.latex?%5Cfrac%7B4291444%7D%7B4%7D "\frac{4291444}{4}")
+![\frac{4291444}{4}](https://latex.codecogs.com/png.latex?%5Cfrac%7B4291444%7D%7B4%7D "\\frac{4291444}{4}")
 = 1072861,08
 
 MSEE =
-![\\frac{309717}{(4 - 1)(5 - 1)}](https://latex.codecogs.com/png.latex?%5Cfrac%7B309717%7D%7B%284%20-%201%29%285%20-%201%29%7D "\frac{309717}{(4 - 1)(5 - 1)}")
+![\frac{309717}{(4 - 1)(5 - 1)}](https://latex.codecogs.com/png.latex?%5Cfrac%7B309717%7D%7B%284%20-%201%29%285%20-%201%29%7D "\\frac{309717}{(4 - 1)(5 - 1)}")
 = 25809,7
 
-F = ![\\frac{MSTreat}{MSEE}](https://latex.codecogs.com/png.latex?%5Cfrac%7BMSTreat%7D%7BMSEE%7D "\frac{MSTreat}{MSEE}") =
-![\\frac{1072861,08}{25809,7}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1072861%2C08%7D%7B25809%2C7%7D "\frac{1072861,08}{25809,7}")
+F = ![\frac{MSTreat}{MSEE}](https://latex.codecogs.com/png.latex?%5Cfrac%7BMSTreat%7D%7BMSEE%7D "\\frac{MSTreat}{MSEE}") =
+![\frac{1072861,08}{25809,7}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1072861%2C08%7D%7B25809%2C7%7D "\\frac{1072861,08}{25809,7}")
 = 41,57
 
 ![Summarized Table](_static/images/block_design/image14.png)
