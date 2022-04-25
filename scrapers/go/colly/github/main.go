@@ -75,12 +75,10 @@ func scrape(username string, delay int) []string {
 		pos := strings.Index(e.Text, " contribution")
 		record = append(record, strings.TrimSpace(strings.Replace(e.Text[0:pos], ",", "", -1)))
 	})
-	/* GitHub seems to have removed the "count" of repos from profiles - can this be fixed with a crawl ??
-	   c.OnXML("//a[contains(@href,'tab=repositories')]/span", func(e *colly.XMLElement) {
-	       record = append(record, strings.TrimSpace(e.Text))
-	   })
-	*/
-	c.OnXML("//a[contains(@href,'tab=stars')]/span", func(e *colly.XMLElement) {
+	c.OnXML("//a[contains(@href,'tab=repositories')]/span/@title", func(e *colly.XMLElement) {
+		record = append(record, strings.TrimSpace(e.Text))
+	})
+	c.OnXML("//a[contains(@href,'tab=stars')]/span/@title", func(e *colly.XMLElement) {
 		record = append(record, strings.TrimSpace(e.Text))
 	})
 	c.OnXML("//a[contains(@href,'tab=followers')]/span", func(e *colly.XMLElement) {
