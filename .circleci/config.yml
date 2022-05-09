@@ -191,7 +191,7 @@ jobs:
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
       - image: cimg/go:1.17.8 #
     # directory where steps are run. Path must conform to the Go Workspace requirements
-    working_directory: /go/src/github.com/slurpcode/slurp
+    working_directory: ~/repo
     steps:
       - checkout
       - restore_cache: # restores saved cache if no changes are detected since last run
