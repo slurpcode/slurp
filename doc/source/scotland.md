@@ -1,4 +1,4 @@
-# Scotland
+# 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
 
 Scotland is part of the 4 countries that make up the United Kingdom.
 Together with Wales and England it forms part of the great island of
