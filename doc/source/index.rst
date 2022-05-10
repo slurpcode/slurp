@@ -172,6 +172,7 @@ Welcome to slurp's documentation!
 
    greece.md
    jordan.md
+   scotland.md
    turkey.md
 
 .. toctree::
