@@ -1,4 +1,4 @@
-## 🇲🇽 Mexico City
+# 🇲🇽 Mexico City
 
 It is the capital of Mexico and one of the largest cities in the world
 with more than 20 million inhabitants, it is located above sea level at
@@ -156,3 +156,7 @@ walking on the boats with an excellent atmosphere.
 
 Mexico City offers you a wide range of history, culture, warm people and
 endless interesting places to visit.
+
+## About the Author
+
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
