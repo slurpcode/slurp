@@ -148,6 +148,7 @@ Welcome to slurp's documentation!
    amman.md
    andorra.md
    brisbane.md
+   bucharest.md
    budapest.md
    copenhagen.md
    dharamshala.md
