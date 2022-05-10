@@ -26,7 +26,6 @@ totally flat and in the form of a mosaic and the candles in front of the
 religious images also exist, but outside the cathedral, it is worth
 living this completely different religious experience.
 
-
 ![Bucharest Patriarchal Cathedral](_static/images/bucharest/image1.jpg)
 
 ## Uniri Square
@@ -72,7 +71,6 @@ Bank, then it was a hotel and finally it became a place of leisure for
 tourists. tourists, so that today it is an area of ​​galleries since the
 mid-nineteenth century, where you can find a spectacular place full of
 cafes and restaurants, which you can visit both day and night.
-
 
 ![Macca–Vilacrosse Passage](_static/images/bucharest/image3.jpg)
 
