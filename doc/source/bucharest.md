@@ -114,7 +114,7 @@ meters of the one in Paris and with fewer statues that represent the
 battles won. The new and the old Romania are represented by two coats of
 arms and the arch was inaugurated in 1936.
 
-![Arch of Triumph](_static/images/bucharest/image4.jpeg)
+![Arch of Triumph](_static/images/bucharest/image4.jpg)
 
 ## Where to eat and go out at night in Bucharest
 
