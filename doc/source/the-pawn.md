@@ -62,4 +62,5 @@ parent, the LGBT boy, the sad mind, the Ukrainian Refugee, and the girl
 who doesn\'t belong. You are the subject of this work.<br><br>
 
 ## About the Author
+
 Samuel Obande
