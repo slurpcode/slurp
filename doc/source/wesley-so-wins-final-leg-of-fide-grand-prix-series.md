@@ -75,7 +75,7 @@ and the match.
 
 ## About the Author
 
-Ashwaneel Atil is a student pursuing Bachelor of Engineering and a young
+Jashwaneel Patil is a student pursuing Bachelor of Engineering and a young
 mind who likes to explore and research in different areas. His vision
 lies in making Earth to make a better place to live with taking small
 steps towards sustainability and making best use of technology available
