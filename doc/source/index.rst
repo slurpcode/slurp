@@ -159,6 +159,7 @@ Welcome to slurp's documentation!
    las-vegas.md
    malaga.md
    melbourne.md
+   mexico-city.md
    moscow.md
    newcastle.md
    paris.md
