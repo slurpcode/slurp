@@ -296,7 +296,6 @@ Welcome to slurp's documentation!
    tata-steel-chess-wijk-aan-zee-2022.md
    the-pawn.md
 
-
 .. toctree::
    :caption: Movies
    :maxdepth: 2
