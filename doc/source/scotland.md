@@ -76,7 +76,7 @@ will teach you every part of the process of making this malt beverage,
 you can also taste various types of whiskey. Glenfiddich is one of the
 most renowned distilleries and can be a curious experience.
 
-## Dunnottar Castle**
+## Dunnottar Castle\*\*
 
 Dunnottar Castle is one of the most famous castles for its location, you
 will find it on top of the sea on a rocky cliff and it is a perfect
