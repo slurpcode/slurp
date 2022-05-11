@@ -39,7 +39,8 @@ Pragganananda R.
 
 ![India for FIDE chess Olympiad 2022](_static/images/india-wins-bid-hosting-chess-olympiad/image1.jpg)
 
-> India for FIDE chess Olympiad 2022<br>
+India for FIDE chess Olympiad 2022<br><br>
+
 
 The chess tradition of Chennai goes even further back, as the first
 Indian chess player to ever achieve the international master title,
@@ -63,7 +64,7 @@ the world, will be a big help, as we have already dealt with large
 numbers. But Olympiad is a big game. I am sure we will make it the
 best.\"
 
-# About the Author
+## About the Author
 
 Jashwaneel Patil is a student pursuing Bachelor of Engineering in
 Electrical and a young mind who likes to explore and research in
