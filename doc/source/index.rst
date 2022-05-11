@@ -290,6 +290,7 @@ Welcome to slurp's documentation!
    garry_kasparov_a_chess_player.md
    hikaru.md
    inclusion_of_chess_in_olympics.md
+   india-wins-bid-hosting-chess-olympiad.md
    mikhail_tal.md
    richard-rapport-wins-the-second-leg-of-grand-prix.md
    should-chess-be-added-in-academics.md
