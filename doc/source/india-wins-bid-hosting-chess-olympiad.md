@@ -41,7 +41,6 @@ Pragganananda R.
 
 India for FIDE chess Olympiad 2022<br><br>
 
-
 The chess tradition of Chennai goes even further back, as the first
 Indian chess player to ever achieve the international master title,
 Manuel Aaron, also was from city of Chennai. It will be the first time
