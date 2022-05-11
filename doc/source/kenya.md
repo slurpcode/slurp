@@ -59,7 +59,6 @@ different species of birds, gazelles, baduinos, giraffes and zebras.
 
 ![Lake Nakuru](_static/images/kenya/image2.jpg)
 
-
 ## Maasai Mara
 
 A safari for two or three days in the Masai Mara National Reserve is one
