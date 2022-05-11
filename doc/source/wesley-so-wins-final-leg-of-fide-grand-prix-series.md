@@ -27,7 +27,7 @@ white, which was a shocker to Wesley So as he didn\'t expect this to see
 on the board today. However, Wesley played confidently with Black and
 got a decisive positional advantage by move 15. Hikaru showed his
 excellent defensive skills and tenaciousness, and after a couple of
-mistakes by the wesley, he managed to create a very dangerous attack on
+mistakes by Wesley, he managed to create a very dangerous attack on
 the kingside. It was Wesley\'s turn to find the only moves to defend his
 position and stay in the game. After several evaluation swings and
 Evaluation bar dancing in this complicated game, the opponents split a
