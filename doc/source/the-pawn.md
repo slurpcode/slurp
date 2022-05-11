@@ -1,3 +1,4 @@
+
 # THE PAWN
 
 ![the-pawn](_static/images/the-pawn/image1.jpg)
@@ -59,7 +60,6 @@ controlled, this process is unavoidable. You\'ve done it!!!<br><br>
 This post is dedicated to the homeless African-American, the single
 parent, the LGBT boy, the sad mind, the Ukrainian Refugee, and the girl
 who doesn\'t belong. You are the subject of this work.<br><br>
-
 
 ## About the Author
 Samuel Obande
