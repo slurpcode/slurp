@@ -1,4 +1,3 @@
-
 # THE PAWN
 
 ![the-pawn](_static/images/the-pawn/image1.jpg)
