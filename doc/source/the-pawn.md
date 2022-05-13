@@ -24,7 +24,7 @@ required to defend the pawn until it chooses to do so. You are built to
 defend someone or something by default, yet nothing defends you, or does
 it? Continue to go forward.<br><br>
 
-The majority of the time, the pawns is utilized as bait. How many times
+The majority of the time, the pawns are utilized as bait. How many times
 have you been exploited to buy something for someone and not been
 appreciated for it? You\'re not on your own.<br><br>
 
