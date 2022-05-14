@@ -7,7 +7,7 @@ It will be the first time ever that India will host Chess Olympiad. Bharat Singh
 Dr. Sanjay Kapoor, the president of the All India Chess Federation and the president of the organizing committee, called Chennai \"the Mecca of chess in India\" and said it was a \"matter of pride\" for Chennai and Tamil Nadu and overall India to have the Olympiad. Located in the south eastern Indian state of Tamil Nadu, Chennai has the legendary 15th world champion, Vishy Anand, among its seven million inhabitants, as well as the talented GM
 Pragganananda R.
 
->![India for FIDE chess Olympiad 2022](_static/images/india-wins-bid-hosting-chess-olympiad/image1.jpg)
+> ![India for FIDE chess Olympiad 2022](_static/images/india-wins-bid-hosting-chess-olympiad/image1.jpg)
 
 > India for FIDE chess Olympiad 2022
 
