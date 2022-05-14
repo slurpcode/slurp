@@ -1,4 +1,4 @@
-# ♟️ Wesley So wins final leg of FIDE grand prix series, Hikaru and Richard qualifies for Candidates
+# ♟️ Wesley So wins final leg of FIDE grand prix series, Hikaru and Richard qualify for Candidates
 
 The final match of the FIDE Grand Prix 2022 series organised by World Chess was finished on April 4th. In the final match tiebreaker GM Wesley
 So of USA defeated his countrymen GM Hikaru Nakamura by a score of one
