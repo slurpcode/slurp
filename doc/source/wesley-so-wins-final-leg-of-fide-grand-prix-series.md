@@ -45,33 +45,33 @@ and the match.
 
 > FIDE Grand Prix Series 2022 final standings:
 
-|   Player                   |  Berlin|Belgrade|Belgrade|   Total   |
-|----------------------------|--------|--------|--------|-----------|
-|   Hikaru Nakamura          |   13   |        |   10   |   23      |
-|   Richard Rapport          |   7    |   13   |        |   20      |
-|   Wesley So                |   4    |        |   13   |   17      |
-|   Levon Aronian            |   10   |        |   2    |   12      |
-|   Dmitry Andreikin         |        |   10   |        |   10      |
-|   Amin Tabatabaei          |        |   3    |   7    |   10      |
-|   Shakhriyar Mamedyarov    |        |   3    |   7    |   10      |
-|   Leinier Dominguez        |   7    |        |   2    |   9       |
-|   Sam Shankland            |        |   4    |   4    |   8       |
-|   Maxime Vachier-Lagrave   |        |   7    |   1    |   8       |
-|   Anish Giri               |        |   7    |   0    |   7       |
-|   Vidit Gujrathi           |   3    |        |   4    |   7       |
-|   Nikita Vitiugov          |        |   3    |   3    |   6       |
-|   Alexandr Predke          |        |   3    |   1    |   4       |
-|   Grigoriy Oparin          |   0    |        |   4    |   4       |
-|   Andrey Esipenko          |   4    |        |   0    |   4       |
-|   Vincent Keymer           |   0    |        |   4    |   4       |
-|   Radosław Wojtaszek       |   4    |        |        |   4       |
-|   Vladimir Fedoseev        |   2    |   1    |        |   3       |
-|   Yu Yangyi                |        |   0    |   3    |   3       |
-|   Daniil Dubov             |   3    |        |   0    |   3       |
-|   Alexander Grischuk       |   2    |   0    |        |   2       |
-|   Pentala Harikrishna      |   2    |   0    |        |   2       |
-|   Etienne Bacrot           |   0    |   2    |        |   2       |
-|   Alexei Shirov            |   0    |   1    |        |   1       |
+| Player                 | Berlin | Belgrade | Belgrade | Total |
+| ---------------------- | ------ | -------- | -------- | ----- |
+| Hikaru Nakamura        | 13     |          | 10       | 23    |
+| Richard Rapport        | 7      | 13       |          | 20    |
+| Wesley So              | 4      |          | 13       | 17    |
+| Levon Aronian          | 10     |          | 2        | 12    |
+| Dmitry Andreikin       |        | 10       |          | 10    |
+| Amin Tabatabaei        |        | 3        | 7        | 10    |
+| Shakhriyar Mamedyarov  |        | 3        | 7        | 10    |
+| Leinier Dominguez      | 7      |          | 2        | 9     |
+| Sam Shankland          |        | 4        | 4        | 8     |
+| Maxime Vachier-Lagrave |        | 7        | 1        | 8     |
+| Anish Giri             |        | 7        | 0        | 7     |
+| Vidit Gujrathi         | 3      |          | 4        | 7     |
+| Nikita Vitiugov        |        | 3        | 3        | 6     |
+| Alexandr Predke        |        | 3        | 1        | 4     |
+| Grigoriy Oparin        | 0      |          | 4        | 4     |
+| Andrey Esipenko        | 4      |          | 0        | 4     |
+| Vincent Keymer         | 0      |          | 4        | 4     |
+| Radosław Wojtaszek     | 4      |          |          | 4     |
+| Vladimir Fedoseev      | 2      | 1        |          | 3     |
+| Yu Yangyi              |        | 0        | 3        | 3     |
+| Daniil Dubov           | 3      |          | 0        | 3     |
+| Alexander Grischuk     | 2      | 0        |          | 2     |
+| Pentala Harikrishna    | 2      | 0        |          | 2     |
+| Etienne Bacrot         | 0      | 2        |          | 2     |
+| Alexei Shirov          | 0      | 1        |          | 1     |
 
 ## About the Author
 
