@@ -13,7 +13,6 @@ India for FIDE chess Olympiad 2022
 <br>The chess tradition of Chennai goes even further back, as the first Indian chess player to ever achieve the international master title, Manuel Aaron, also was from city of Chennai. It will be the first time ever that an Olympiad is held in India and the biggest chess event India has ever hosted, after the 2013 world championship between GM Vishwanathan Anand and GM Magnus Carlsen Match.
 
 <br>The last Olympiad, the 43rd edition, was held in Batumi, Georgia in 2018. The 2020 Olympiad was originally awarded to Minsk, but the city withdrew its candidacy following the political issues in Belarus. Online Olympiads were held in 2020 and 2021 during the Covid pandemic, while the new OTB Olympiad was postponed and was set to happen in Moscow, Russia. The war in Ukraine forced FIDE to take action and move the event another time. The India have set the major task of pulling off a historic task: preparing an Olympiad in just four months. Bharat Singh: \"The experience with Delhi Chess Open, the largest event of its kind in the world, will be a big help, as we have already dealt with large numbers. But Olympiad is a big game. I am sure we will make it the
-best.\"
 
 ## About the Author
 
