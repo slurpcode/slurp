@@ -11,7 +11,6 @@ visit it.
 
 ![Mexico City](_static/images/mexico-city/image1.jpg)
 
-
 We will guide you through this article through the most important sites
 that you cannot miss if you visit this great city.
 
@@ -47,7 +46,6 @@ to walk among sculptures, trees and fountains, it is considered the
 oldest public garden in America and it is worth taking a walk to see it.
 
 ![Palace of Fine Arts](_static/images/mexico-city/image2.jpg)
-
 
 ## Main temple
 

@@ -295,7 +295,8 @@ Welcome to slurp's documentation!
    richard-rapport-wins-the-second-leg-of-grand-prix.md
    should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
-
+   the-pawn.md
+   wesley-so-wins-final-leg-of-fide-grand-prix-series.md
 
 .. toctree::
    :caption: Movies
