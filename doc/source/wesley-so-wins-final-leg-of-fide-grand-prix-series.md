@@ -23,7 +23,7 @@ first leg as I got players who hadn\'t played as much; they weren\'t
 sharp.\"
 <br><br>
 In the first tiebreaker game, Hikaru played the Bishop opening with
-white, which was a shocker to Wesley So as he didn\'t expect this to see
+white, which was a shocker to Wesley So as he didn\'t expect to see this
 on the board today. However, Wesley played confidently with Black and
 got a decisive positional advantage by move 15. Hikaru showed his
 excellent defensive skills and tenaciousness, and after a couple of
