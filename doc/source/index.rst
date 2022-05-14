@@ -148,6 +148,7 @@ Welcome to slurp's documentation!
    amman.md
    andorra.md
    brisbane.md
+   bucharest.md
    budapest.md
    copenhagen.md
    dharamshala.md
@@ -158,6 +159,7 @@ Welcome to slurp's documentation!
    las-vegas.md
    malaga.md
    melbourne.md
+   mexico-city.md
    moscow.md
    newcastle.md
    paris.md
@@ -171,6 +173,8 @@ Welcome to slurp's documentation!
 
    greece.md
    jordan.md
+   kenya.md
+   scotland.md
    turkey.md
 
 .. toctree::
@@ -290,7 +294,7 @@ Welcome to slurp's documentation!
    richard-rapport-wins-the-second-leg-of-grand-prix.md
    should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
-
+   the-pawn.md
 
 .. toctree::
    :caption: Movies
