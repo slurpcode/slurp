@@ -291,7 +291,7 @@ Welcome to slurp's documentation!
    hikaru.md
    inclusion_of_chess_in_olympics.md
    india-wins-bid-hosting-chess-olympiad.md
-       git push --set-upstream origin jan-krzysztof-duda-wins-oslo-esports-cup-ahead-of-magnus-and-other-top-grandmasters.md
+   jan-krzysztof-duda-wins-oslo-esports-cup-ahead-of-magnus-and-other-top-grandmasters.md
    mikhail_tal.md
    richard-rapport-wins-the-second-leg-of-grand-prix.md
    should-chess-be-added-in-academics.md
