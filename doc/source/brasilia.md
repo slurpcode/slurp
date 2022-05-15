@@ -19,9 +19,9 @@ On the first floor you will find a reception area and you will be able to admire
 
 ![Brasilia](_static/images/brasilia/brasilia-3.jpg)
 
-## Paranoa Lake
+## Paranoia Lake
 
-The Paranoa Lake is an immense 80 km artificial lake that was created parallel to the construction of the city and the dammed waters of the Paranoa River were used. On the shore of the lake you can find several restaurants that offer you both local food and international fusion dishes. But it also has artificial beaches such as Piscinão do Lago Norte and Prainha, in addition to being able to bathe in an artificial beach, there are also plenty of activity offers in which you can sign up.
+The Paranoia Lake is an immense 80 km artificial lake that was created parallel to the construction of the city and the dammed waters of the Paranoia River were used. On the shore of the lake you can find several restaurants that offer you both local food and international fusion dishes. But it also has artificial beaches such as Piscinão do Lago Norte and Prainha, in addition to being able to bathe in an artificial beach, there are also plenty of activity offers in which you can sign up.
 
 ## Juscelino Kubitschek Bridge
 
