@@ -16,7 +16,7 @@ Image Credits; Chess24
 
 <br>Three matches in the final round of the Oslo Esports Cup were decided
 after minimum numbers of games that is three rapid games. While it was
-not unexpected that Jan-Krzysztof Duda defeated an Canadian streamer and
+not unexpected that Jan-Krzysztof Duda defeated a Canadian streamer and
 Grandmaster Eric Hansen by a 2½-½ score, the quick losses suffered by
 coleaders Magnus Carlsen and Praggnanandhaa were rather shocking.
 
