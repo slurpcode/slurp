@@ -1,4 +1,4 @@
-# 🐍Python is a useful and versatile programming language
+# 🐍 Python is a useful and versatile programming language
 
 Although it is true that depending on the source there are between 700 and 9000
 programming languages, currently the most used are only 50 of them, among which
