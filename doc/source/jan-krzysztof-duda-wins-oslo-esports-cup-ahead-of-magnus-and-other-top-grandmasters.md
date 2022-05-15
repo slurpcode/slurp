@@ -3,7 +3,7 @@
 Polish no. 1 Jan-Krzysztof Duda is the winner of the Oslo Esports Cup
 after his last round victory over Eric Hansen which was proved
 sufficient to claim the title when Magnus Carlsen and R. Praggnanandhaa
-crashed to defeat in there last round. Both leaders before the last
+crashed to defeat in their last round. Both leaders before the last
 round, lost two games, with Magnus falling to Shakhriyar Mamedyarov
 while Anish Giri defeating young Indian star Praggnanandhaa. Liem Le
 could still have won the title ahead of Duda, but fell just short of the
