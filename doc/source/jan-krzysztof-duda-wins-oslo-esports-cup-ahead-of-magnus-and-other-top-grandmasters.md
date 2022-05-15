@@ -51,7 +51,6 @@ crown.
 | 8.Eric Hansen           | 3  |
 
 
-
 ## About the Author
 
 Jashwaneel Patil is a student pursuing Bachelor of Engineering and a young
