@@ -14,6 +14,7 @@ Welcome to slurp's documentation!
    codewars.md
    git.md
    gnu.md
+   stamps.md
 
 .. toctree::
    :caption: Essential Reading
