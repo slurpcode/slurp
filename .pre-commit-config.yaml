@@ -21,6 +21,7 @@ repos:
       - id: check-merge-conflict
       - id: check-toml
       - id: check-xml
+        exclude: ^docs/assets/xsl/rss\.xsl$|^docs/feed\.xslt\.xml$|^docs/opensearch\.xml$|^docs/rss\.xml$|^logorama/feed\.xml$
       - id: check-yaml
       - id: debug-statements
       - id: detect-private-key
