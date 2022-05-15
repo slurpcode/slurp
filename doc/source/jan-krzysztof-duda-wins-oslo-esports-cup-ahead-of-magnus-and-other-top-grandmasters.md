@@ -1,4 +1,4 @@
-# Jan-Krzysztof Duda wins OSLO ESPORTS CUP ahead of Magnus and other top Grandmasters
+# ♟️ Jan-Krzysztof Duda wins OSLO ESPORTS CUP ahead of Magnus and other top Grandmasters
 
 Polish no. 1 Jan-Krzysztof Duda is the winner of the Oslo Esports Cup
 after his last round victory over Eric Hansen which was proved
@@ -39,8 +39,8 @@ crown.
 
 <br>
 
-|    Final Standings      |     |
-|-------------------------|---|
+|    Final Standings      |    |
+|-------------------------|----|
 | 1.Jan-Krzysztof Duda    | 14 |
 | 2.Liem Le               | 13 |
 | 3.Magnus Carlsen        | 12 |
@@ -48,7 +48,7 @@ crown.
 | 5.Shakhriyar Mamedyarov | 11 |
 | 6.Jorden Van Foreest    | 10 |
 | 7.Anish Giri            | 9  |
-| 8.Eric Hansen           | 3   |
+| 8.Eric Hansen           | 3  |
 
 
 
