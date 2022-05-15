@@ -5,7 +5,7 @@ after his last round victory over Eric Hansen which was proved
 sufficient to claim the title when Magnus Carlsen and R. Praggnanandhaa
 crashed to defeat in their last round. Both leaders before the last
 round, lost two games, with Magnus falling to Shakhriyar Mamedyarov
-while Anish Giri defeating young Indian star Praggnanandhaa. Liem Le
+while Anish Giri defeated young Indian star Praggnanandhaa. Liem Le
 could still have won the title ahead of Duda, but fell just short of the
 3 points he needed when Jorden van Foreest defeated Liem Le in
 tiebreaker of there last round.
