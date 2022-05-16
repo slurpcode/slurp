@@ -1,4 +1,4 @@
-# Roland Garros
+# 🎾 Roland Garros
 
 The French Open is known as Roland Garros whose name comes from the
 homonymous French aviator and is one of the tournaments that make up the
@@ -19,7 +19,7 @@ to the feat of four French tennis players who won the Davis Cup in the
 1927 edition, also called \"The Four Musketeers\", their commemorative
 statues that recall the event can be seen inside the complex.
 
-<br>![](_static/images/roland-garros/image1.jpeg)
+<br>![roland-garros](_static/images/roland-garros/image1.jpeg)
 
 <br>Without a doubt, it is one of the oldest and most important tennis
 tournaments in the world, one of its main characteristics being that the
@@ -115,7 +115,7 @@ in each of the editions, unlike Masson, who in some of the editions did
 not have any rival, since it was the the only one that had registered in
 the championship.
 
-<br>![](_static/images/roland-garros/image3.jpg)
+<br>![roland-garros](_static/images/roland-garros/image3.jpg)
 
 <br>The championship continued exclusively for club members and it was not
 until 1925 that the rules of participation were regulated and opened to
@@ -344,7 +344,7 @@ clay courts reduce the advantage of those players whose style is based
 on the well-known serve-volley tactic, thus allowing baseline players to
 dominate on this type of surface.
 
-<br>![](_static/images/roland-garros/image8.jpg)
+<br>![roland-garros](_static/images/roland-garros/image8.jpg)
 
 <br>A great example of the aforementioned considerations is the great former
 American tennis player Pete Sampras who was able to win 14 Grand Slam
