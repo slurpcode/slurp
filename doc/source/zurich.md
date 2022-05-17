@@ -27,6 +27,7 @@ This huge lake is more than 40 km long where you can take relaxing walks or ride
 ## Grossmunster Church
 
 The Grossmünster church was built between the years 1100 and 1220 by the Limmat river. Known as the great cathedral and it is of enormous historical importance, since it was there that the Protestant Reformation began in Switzerland in 1519 by Zwingli. Outside the Church you can see two impressive twin bell towers that were added between 1487 and 1492. Inside you can see fabulous stained glass windows, the choir window, a cloister with magnificent capitals, the bronze doors and its romantic crypt. Before leaving the church, the recommendation is to climb the 187 steps to reach the top of one of its towers and thus enjoy the beautiful views of the river and the city.
+
 Other interesting churches that you should see in the city are Peterskirche, which has a tower with a beautiful clock, and Fraumünster, where you can see its 5 impressive stained
 glass windows.
 
