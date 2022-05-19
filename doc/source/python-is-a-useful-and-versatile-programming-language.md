@@ -29,61 +29,69 @@ why every day more companies request Python experts and this language has
 resurfaced in the workplace. Let's name some of its main applications:
 
 ## Big data and data analysis:
-Python has a large number of data processing
-    libraries and that is why it can both analyze and manage a large volume of
-    data in real time, so it can transform a large amount of data into useful
-    information, being especially advantageous in these two areas.
 
-## Data mining: 
+Python has a large number of data processing
+libraries and that is why it can both analyze and manage a large volume of
+data in real time, so it can transform a large amount of data into useful
+information, being especially advantageous in these two areas.
+
+## Data mining:
+
 Analyzing large databases to predict future trends is what
-    data mining does, where Python can be very beneficial when it comes to
-    organization, data cleaning and the use of machine learning algorithms,
-    greatly simplifying this type of analysis.
+data mining does, where Python can be very beneficial when it comes to
+organization, data cleaning and the use of machine learning algorithms,
+greatly simplifying this type of analysis.
 
 ## Data science:
+
 Previously scientists used Matlab when working with a
-    large number of data, but after the creation of numerical engines such as
-    "NumPy" or "Pandas", they make Python the programming language par
-    excellence for this type of tasks.
+large number of data, but after the creation of numerical engines such as
+"NumPy" or "Pandas", they make Python the programming language par
+excellence for this type of tasks.
 
 ## Artificial intelligence:
+
 Much of the advancement of artificial
-    intelligence is due precisely to this programming language, since Python has
-    the ability to carry out complex ideas in very few lines, together with the
-    large number of existing frameworks.
+intelligence is due precisely to this programming language, since Python has
+the ability to carry out complex ideas in very few lines, together with the
+large number of existing frameworks.
 
 ## Blockchain:
+
 The Blockchain database known worldwide for being the one
-    that supports cryptocurrencies works quite well with Python, since this
-    language is characterized by its versatility, speed and security, being very
-    useful when forming block chains, in addition to allows developers to
-    generate a simple blockchain in just a few lines of code, thus making a very
-    complex process simple.
+that supports cryptocurrencies works quite well with Python, since this
+language is characterized by its versatility, speed and security, being very
+useful when forming block chains, in addition to allows developers to
+generate a simple blockchain in just a few lines of code, thus making a very
+complex process simple.
 
 ## Machine learning:
+
 Machine learning, as well as robotics and artificial
-    intelligence, are capable of learning by themselves as they process data.
-    This is how they acquire increasingly important information when making the
-    right decisions and Python is very effective in this area, so that it has
-    become essential in data processing.
+intelligence, are capable of learning by themselves as they process data.
+This is how they acquire increasingly important information when making the
+right decisions and Python is very effective in this area, so that it has
+become essential in data processing.
 
 ## Web development:
+
 This programming language allows you to develop very
-    complex websites but with fewer lines of code, as well as being optimized
-    and lighter. For example, Django is part of the Python frameworks and has
-    now become one of the most popular, as it can be very useful when creating
-    secure and dynamic websites. On the other hand, Python is widely used to
-    obtain information from all kinds of websites, just like Instagram,
-    Pinterest or Netflix do.
+complex websites but with fewer lines of code, as well as being optimized
+and lighter. For example, Django is part of the Python frameworks and has
+now become one of the most popular, as it can be very useful when creating
+secure and dynamic websites. On the other hand, Python is widely used to
+obtain information from all kinds of websites, just like Instagram,
+Pinterest or Netflix do.
 
 ## 3D graphics and games:
+
 Another of the strengths of this programming
-    language is its enormous capacity when it comes to handling 3D graphics,
-    since they have a large number of existing tools and frameworks, with
-    Blender, PyGame or Arcade being some of the More popular. For example,
-    Battlefield 2, which is one of the best-known war action games, both the
-    animations, the graphics engine and its different functionalities, were made
-    using Python.
+language is its enormous capacity when it comes to handling 3D graphics,
+since they have a large number of existing tools and frameworks, with
+Blender, PyGame or Arcade being some of the More popular. For example,
+Battlefield 2, which is one of the best-known war action games, both the
+animations, the graphics engine and its different functionalities, were made
+using Python.
 
 ## Python includes an interactive mode
 
