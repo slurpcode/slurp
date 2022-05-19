@@ -260,8 +260,8 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    eclipse-cheatsheets-to-dita-with-python.md
-   python-is-a-useful-and-versatile-programming-language.md
    python-on-ibm-system-i.md
+   python-is-a-useful-and-versatile-programming-language.md
    pylint.md
    sphinx.md
    flake8.md
