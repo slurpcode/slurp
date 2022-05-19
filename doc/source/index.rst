@@ -301,6 +301,12 @@ Welcome to slurp's documentation!
    wesley-so-wins-final-leg-of-fide-grand-prix-series.md
 
 .. toctree::
+   :caption: Tennis
+   :maxdepth: 2
+
+   roland-garros.md
+
+.. toctree::
    :caption: Movies
    :maxdepth: 2
 
