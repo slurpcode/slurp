@@ -18,6 +18,5 @@ jobs:
           # VALIDATE_EDITORCONFIG: true
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
-          VALIDATE_XML: true
           VALIDATE_YAML: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
