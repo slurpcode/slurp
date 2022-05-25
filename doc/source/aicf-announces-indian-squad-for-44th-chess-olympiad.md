@@ -18,7 +18,7 @@ Narayanan in the open section.
 
 <br>Last one year was an impressive for Arjun Erigaisi winning and competing
 in top events and he will be the player to watch out as he makes debut.
-also it will be debut event for S L Narayanan.
+Also it will be debut event for S L Narayanan.
 
 <br>![Team India A; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image1.jpg)
 
