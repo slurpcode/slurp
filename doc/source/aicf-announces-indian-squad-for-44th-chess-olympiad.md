@@ -8,7 +8,7 @@ in Chennai, India. Olympiad will be held from 28th July to 10th August.
 <br>India being the host are eligible to field two teams each in the Open
 category as well as women's section for the first time ever. Being able
 to play with two teams each in both fields has certainly increased the
-chances of winning Medals for India. The event is biggest chess event
+chances of winning Medals for India. The event is the biggest chess event
 and likely to witness participation of whooping 150 countries and more.
 
 <br>India A team consist of GM Vidit Gujrathi, who led India in the 2020 online
