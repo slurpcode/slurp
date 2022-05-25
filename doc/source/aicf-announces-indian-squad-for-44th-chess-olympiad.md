@@ -11,7 +11,7 @@ to play with two teams each in both fields has certainly increased the
 chances of winning Medals for India. The event is biggest chess event
 and likely to witness participation of whooping 150 countries and more.
 
-<br>India A team consist of GM Vidit Gujrathi, who led India in 2020 online
+<br>India A team consist of GM Vidit Gujrathi, who led India in the 2020 online
 chess Olympiad to win Gold alongside GM Pentala Harikrishna the top
 Indian, GM Krishnan Sasikiran, young star Arjun Erigaisi and S L
 Narayanan in the open section.
