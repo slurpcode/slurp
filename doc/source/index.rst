@@ -14,6 +14,7 @@ Welcome to slurp's documentation!
    codewars.md
    git.md
    gnu.md
+   stamps.md
 
 .. toctree::
    :caption: Essential Reading
@@ -147,15 +148,19 @@ Welcome to slurp's documentation!
 
    amman.md
    andorra.md
+   belfast.md
+   brasilia.md
    brisbane.md
    bucharest.md
    budapest.md
    copenhagen.md
    dharamshala.md
    dubai.md
+   hawaii.md
    hongkong.md
    ibiza.md
    istanbul.md
+   kyoto.md
    las-vegas.md
    malaga.md
    melbourne.md
@@ -166,6 +171,7 @@ Welcome to slurp's documentation!
    pattaya.md
    prescott.md
    tokyo.md
+   zurich.md
 
 .. toctree::
    :caption: Countries
@@ -259,6 +265,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    eclipse-cheatsheets-to-dita-with-python.md
+   python-is-a-useful-and-versatile-programming-language.md
    python-on-ibm-system-i.md
    pylint.md
    sphinx.md
@@ -298,6 +305,12 @@ Welcome to slurp's documentation!
    tata-steel-chess-wijk-aan-zee-2022.md
    the-pawn.md
    wesley-so-wins-final-leg-of-fide-grand-prix-series.md
+
+.. toctree::
+   :caption: Tennis
+   :maxdepth: 2
+
+   roland-garros.md
 
 .. toctree::
    :caption: Movies
