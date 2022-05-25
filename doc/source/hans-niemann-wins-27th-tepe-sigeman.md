@@ -34,9 +34,7 @@ This win was the real separator between winner and runner up.
 <thead>
 <tr class="header">
 <th>Sr.no.</th>
-<th><blockquote>
-<p>Name</p>
-</blockquote></th>
+<th><Name</th>
 <th>Rating</th>
 <th>1</th>
 <th>2</th>
@@ -52,9 +50,7 @@ This win was the real separator between winner and runner up.
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td><blockquote>
-<p>Niemann, Hans</p>
-</blockquote></td>
+<td>Niemann, Hans</td>
 <td>2656</td>
 <td>-</td>
 <td>½</td>
@@ -64,55 +60,42 @@ This win was the real separator between winner and runner up.
 <td>½</td>
 <td>1</td>
 <td>1</td>
-<td><blockquote>
-<p>5.0/7</p>
-</blockquote></td>
+<td>
+5.0/7
+</td>
 </tr>
 <tr class="even">
 <td>2</td>
-<td><blockquote>
-<p>Adams, Michael</p>
-</blockquote></td>
+<td>Adams, Michael</td>
 <td>2698</td>
 <td>½</td>
 <td>-</td>
 <td>½</td>
-<td><blockquote>
-<p>½ ½</p>
-</blockquote></td>
+<td>½</td>
+<td>½</td>
 <td>½</td>
 <td>1</td>
 <td>½</td>
-<td><blockquote>
-<p>4.0/7</p>
-</blockquote></td>
-<td></td>
+<td>4.0/7</td>
 </tr>
 <tr class="odd">
 <td>3</td>
-<td><blockquote>
-<p>Grandelius, Nils</p>
-</blockquote></td>
+<td>
+Grandelius, Nils</td>
 <td>2635</td>
 <td>½</td>
 <td>½</td>
 <td>-</td>
-<td><blockquote>
-<p>½ ½</p>
-</blockquote></td>
+<td>½</td>
+<td>½</td>
 <td>½</td>
 <td>1</td>
 <td>½</td>
-<td><blockquote>
-<p>4.0/7</p>
-</blockquote></td>
-<td></td>
+<td>4.0/7</td>
 </tr>
 <tr class="even">
 <td>4</td>
-<td><blockquote>
-<p>Erigaisi, Arjun</p>
-</blockquote></td>
+<td>Erigaisi, Arjun</td>
 <td>2675</td>
 <td>0</td>
 <td>½</td>
@@ -122,15 +105,11 @@ This win was the real separator between winner and runner up.
 <td>½</td>
 <td>1</td>
 <td>1</td>
-<td><blockquote>
-<p>4.0/7</p>
-</blockquote></td>
+<td>4.0/7</td>
 </tr>
 <tr class="odd">
 <td>5</td>
-<td><blockquote>
-<p>Navara, David</p>
-</blockquote></td>
+<td>Navara, David</td>
 <td>2682</td>
 <td>½</td>
 <td>½</td>
@@ -140,35 +119,25 @@ This win was the real separator between winner and runner up.
 <td>½</td>
 <td>0</td>
 <td>1</td>
-<td><blockquote>
-<p>3.5/7</p>
-</blockquote></td>
+<td>3.5/7</td>
 </tr>
 <tr class="even">
 <td>6</td>
-<td><blockquote>
-<p>Van Foreest, Jorden</p>
-</blockquote></td>
+<td>Van Foreest, Jorden</td>
 <td>2715</td>
 <td>½</td>
 <td>½</td>
 <td>½</td>
-<td><blockquote>
-<p>½ ½</p>
-</blockquote></td>
+<td>½</td>
+<td>½</td>
 <td>-</td>
 <td>0</td>
 <td>½</td>
-<td><blockquote>
-<p>3.0/7</p>
-</blockquote></td>
-<td></td>
+<td>3.0/7</td>
 </tr>
 <tr class="odd">
 <td>7</td>
-<td><blockquote>
-<p>Salem, Saleh</p>
-</blockquote></td>
+<td>Salem, Saleh</td>
 <td>2690</td>
 <td>0</td>
 <td>0</td>
@@ -178,15 +147,11 @@ This win was the real separator between winner and runner up.
 <td>1</td>
 <td>-</td>
 <td>½</td>
-<td><blockquote>
-<p>2.5/7</p>
-</blockquote></td>
+<td>2.5/7</td>
 </tr>
 <tr class="even">
 <td>8</td>
-<td><blockquote>
-<p>Shirov, Alexei</p>
-</blockquote></td>
+<td>Shirov, Alexei</td>
 <td>2695</td>
 <td>0</td>
 <td>½</td>
@@ -196,9 +161,7 @@ This win was the real separator between winner and runner up.
 <td>½</td>
 <td>½</td>
 <td>-</td>
-<td><blockquote>
-<p>2.0/7</p>
-</blockquote></td>
+<td>2.0/7</td>
 </tr>
 </tbody>
 </table>
