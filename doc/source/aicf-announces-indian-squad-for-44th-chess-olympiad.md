@@ -27,7 +27,7 @@ Team India A; credits: AICF India
 <br>India B team consist of young Indian guns performing consistently who
 are the topic of discussion in chess world, Nihal Sarin, R
 Praggnanandhaa, D Gukesh and Raunak Sadhwani. All are under 20 and will
-be making their debut in this event. Along them will also have
+be making their debut in this event. Along with them we also have
 experienced player Adhiban Baskaran who has also won the bronze in team
 in 2014 chess Olympiad.
 
