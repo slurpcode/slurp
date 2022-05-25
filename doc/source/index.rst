@@ -148,15 +148,19 @@ Welcome to slurp's documentation!
 
    amman.md
    andorra.md
+   belfast.md
+   brasilia.md
    brisbane.md
    bucharest.md
    budapest.md
    copenhagen.md
    dharamshala.md
    dubai.md
+   hawaii.md
    hongkong.md
    ibiza.md
    istanbul.md
+   kyoto.md
    las-vegas.md
    malaga.md
    melbourne.md
@@ -167,6 +171,7 @@ Welcome to slurp's documentation!
    pattaya.md
    prescott.md
    tokyo.md
+   zurich.md
 
 .. toctree::
    :caption: Countries
