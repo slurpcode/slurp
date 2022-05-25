@@ -1,6 +1,6 @@
 # 🏯 AICF announces Indian Squad for 44th Chess Olympiad
 
-All India Chess Federation (AICF) on Monday announced the India's 20
+All India Chess Federation (AICF) on Monday announced India's 20
 member squad which is biggest ever Olympiad squad, for the 44th Chess
 Olympiad as India prepares to host the prestigious tournament of Chess
 in Chennai, India. Olympiad will be held from 28th July to 10th August.
