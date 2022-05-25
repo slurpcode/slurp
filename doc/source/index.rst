@@ -265,6 +265,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    eclipse-cheatsheets-to-dita-with-python.md
+   python-is-a-useful-and-versatile-programming-language.md
    python-on-ibm-system-i.md
    pylint.md
    sphinx.md
@@ -303,6 +304,12 @@ Welcome to slurp's documentation!
    tata-steel-chess-wijk-aan-zee-2022.md
    the-pawn.md
    wesley-so-wins-final-leg-of-fide-grand-prix-series.md
+
+.. toctree::
+   :caption: Tennis
+   :maxdepth: 2
+
+   roland-garros.md
 
 .. toctree::
    :caption: Movies
