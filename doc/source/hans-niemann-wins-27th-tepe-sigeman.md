@@ -1,4 +1,4 @@
-# ♟️ Hans Niemann wins 27th Tepe Sigeman & Co Tournament, Arjun Erigaisi second 
+# ♟️ Hans Niemann wins 27th Tepe Sigeman & Co Tournament, Arjun Erigaisi second
 
 Recently, the [tournament](http://www.tepesigemanchess.com/) organised
 in Sweden in Malmo featured a round-robin among eight players of
