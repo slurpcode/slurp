@@ -5,7 +5,7 @@ member squad which is biggest ever Olympiad squad, for the 44th Chess
 Olympiad as India prepares to host the prestigious tournament of Chess
 in Chennai, India. Olympiad will be held from 28th July to 10th August.
 
-<br>India being the host are eligible to field two teams each in Open
+<br>India being the host are eligible to field two teams each in the Open
 category as well as women's section for the first time ever. Being able
 to play with two teams each in both field has certainly increased the
 chances of winning Medals for India. The event is biggest chess event
