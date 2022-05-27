@@ -148,6 +148,7 @@ Welcome to slurp's documentation!
 
    amman.md
    andorra.md
+   bangkok.md
    belfast.md
    brasilia.md
    brisbane.md
@@ -156,21 +157,26 @@ Welcome to slurp's documentation!
    copenhagen.md
    dharamshala.md
    dubai.md
+   frankfurt.md
    hawaii.md
+   hong-kong.md
    hongkong.md
    ibiza.md
    istanbul.md
    kyoto.md
    las-vegas.md
+   lime.md
    malaga.md
    melbourne.md
    mexico-city.md
    moscow.md
    newcastle.md
+   nice.md
    paris.md
    pattaya.md
    prescott.md
    tokyo.md
+   washington.md
    zurich.md
 
 .. toctree::
@@ -311,6 +317,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    roland-garros.md
+   the-wimbledon-championships.md
 
 .. toctree::
    :caption: Movies
