@@ -58,7 +58,7 @@ The park was inaugurated in 1870 and its most outstanding areas include the rose
 
 On the banks of the Main River is the area known as the Museums' Bank, being one of the most important cultural regions in all of Europe and where most of the city's museums are concentrated. The most important are the Städel Museum, with one of the most relevant collections in the world and works ranging from the 15th century to the present day. The Liebieghaus Museum with a wonderful collection of Greek, Egyptian and Roman sculptures. The last recommendation is the Giersch Museum with its excellent temporary exhibitions.
 
-## Jewish cementary
+## Jewish cemetery
 
 In the Jewish cemetery you will see a wall that contains more than 11,000 plaques with the inscribed names of the Jewish citizens of Frankfurt who died in the concentration camps, victims of the Holocaust.
 Frankfurt is a modern city with great skyscrapers, interesting historical sites and beautiful tourist attractions to see.
