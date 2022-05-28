@@ -37,7 +37,7 @@ Team India B; credits: AICF India
 
 <br> AICF Secretary Bharat Singh Chauhan said "Opportunity to field two teams
 at the Chess Olympiad opens the door for many young Indian talents to
-showcase their game at the biggest stage which otherwise would have been
+showcase their game at the biggest stage which otherwise would only have been
 possible after a wait of probably another couple of years. It's a huge
 opportunity for them so early in their careers. Teams look strong and
 have a good mix of experience as well as young talents and I'm confident
