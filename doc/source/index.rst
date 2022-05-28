@@ -287,6 +287,7 @@ Welcome to slurp's documentation!
    :caption: Chess
    :maxdepth: 2
 
+   aicf-announces-indian-squad-for-44th-chess-olympiad.md
    bobby-fischer.md
    boris_spassky.md
    chess-and-mathematics.md
@@ -295,6 +296,7 @@ Welcome to slurp's documentation!
    elo_rating.md
    fide-grand-prix-2022.md
    garry_kasparov_a_chess_player.md
+   hans-niemann-wins-27th-tepe-sigeman.md
    hikaru.md
    inclusion_of_chess_in_olympics.md
    india-wins-bid-hosting-chess-olympiad.md
