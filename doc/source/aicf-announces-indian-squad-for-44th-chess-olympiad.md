@@ -59,7 +59,6 @@ Team India A women's section; credits: AICF India
 champions Soumya Swaminathan, Mary Ann Gomes and Padmini Rout along with
 Vantika Agrawal and 16-year-old Divya Deshmukh.
 
-
 <br>![Team India B women's section; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image4.jpg)
 
 Team India B women's section; credits: AICF India
