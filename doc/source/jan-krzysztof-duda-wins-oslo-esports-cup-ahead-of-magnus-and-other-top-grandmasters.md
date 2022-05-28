@@ -39,16 +39,16 @@ crown.
 
 <br>
 
-|    Final Standings      |    |
-|-------------------------|----|
-| 1.Jan-Krzysztof Duda    | 14 |
-| 2.Liem Le               | 13 |
-| 3.Magnus Carlsen        | 12 |
-| Praggnanandhaa          | 12 |
-| 5.Shakhriyar Mamedyarov | 11 |
-| 6.Jorden Van Foreest    | 10 |
-| 7.Anish Giri            | 9  |
-| 8.Eric Hansen           | 3  |
+| Final Standings         |     |
+| ----------------------- | --- |
+| 1.Jan-Krzysztof Duda    | 14  |
+| 2.Liem Le               | 13  |
+| 3.Magnus Carlsen        | 12  |
+| Praggnanandhaa          | 12  |
+| 5.Shakhriyar Mamedyarov | 11  |
+| 6.Jorden Van Foreest    | 10  |
+| 7.Anish Giri            | 9   |
+| 8.Eric Hansen           | 3   |
 
 ## About the Author
 
