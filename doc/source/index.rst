@@ -287,6 +287,7 @@ Welcome to slurp's documentation!
    :caption: Chess
    :maxdepth: 2
 
+   aicf-announces-indian-squad-for-44th-chess-olympiad.md
    bobby-fischer.md
    boris_spassky.md
    chess-and-mathematics.md
