@@ -21,6 +21,7 @@ repos:
       - id: check-merge-conflict
       - id: check-toml
       - id: check-xml
+        exclude: ^docs/assets/xsl/rss\.xsl$|^docs/feed\.xslt\.xml$|^docs/opensearch\.xml$|^docs/rss\.xml$|^logorama/feed\.xml$
       - id: check-yaml
       - id: debug-statements
       - id: detect-private-key
@@ -57,9 +58,9 @@ repos:
     rev: v1.1.13
     hooks:
       - id: forbid-tabs
-        exclude: ^go\.mod$|^go\.sum$|.*\.go$
+        exclude: ^doc/Makefile$|go\.mod$|go\.sum$|.*\.go$
       - id: remove-tabs
-        exclude: ^go\.mod$|^go\.sum$|.*\.go$
+        exclude: ^doc/Makefile$|go\.mod$|go\.sum$|.*\.go$
   - repo: https://github.com/pre-commit/pygrep-hooks
     rev: v1.9.0
     hooks:
