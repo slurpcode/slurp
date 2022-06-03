@@ -1,4 +1,4 @@
-# Venice
+# 🏙️ Venice
 
 Venice is a city located in northeastern Italy and its historic center was declared a World Heritage Site by UNESCO. This city is located on a set of islands to the north of the Adriatic Sea, due to its geographical peculiarity, its rich artistic heritage and its ancient history, have made this city one of the most popular tourist destinations in the world.
 The city was built on an archipelago consisting of 118 small islands linked by 455 bridges, but also includes six districts that are on the mainland and where most of the population lives. Inside the city there is no car traffic and its inhabitants move both on foot and through the canals by boats known as vaporettos. Starting from the Grand Canal, a large network of canals emerges where you can see a multitude of small and large boats, but the best known are the so-called gondolas.
