@@ -146,11 +146,13 @@ Welcome to slurp's documentation!
    :caption: Cities
    :maxdepth: 2
 
+   amsterdam.md
    amman.md
    andorra.md
    belfast.md
    brasilia.md
    brisbane.md
+   buenos-aires.md
    bucharest.md
    budapest.md
    copenhagen.md
@@ -162,6 +164,7 @@ Welcome to slurp's documentation!
    istanbul.md
    kyoto.md
    las-vegas.md
+   venice.md
    malaga.md
    melbourne.md
    mexico-city.md
@@ -177,14 +180,11 @@ Welcome to slurp's documentation!
    :caption: Countries
    :maxdepth: 2
 
-   amsterdam.md
-   buenos-aires.md
    greece.md
    jordan.md
    kenya.md
    scotland.md
    turkey.md
-   venice.md
 
 .. toctree::
    :caption: Notable Locations
