@@ -152,9 +152,9 @@ Welcome to slurp's documentation!
    belfast.md
    brasilia.md
    brisbane.md
-   buenos-aires.md
    bucharest.md
    budapest.md
+   buenos-aires.md
    copenhagen.md
    dharamshala.md
    dubai.md
