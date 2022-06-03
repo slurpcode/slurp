@@ -146,8 +146,8 @@ Welcome to slurp's documentation!
    :caption: Cities
    :maxdepth: 2
 
-   amsterdam.md
    amman.md
+   amsterdam.md
    andorra.md
    belfast.md
    brasilia.md
