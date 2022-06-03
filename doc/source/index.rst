@@ -177,13 +177,13 @@ Welcome to slurp's documentation!
    :caption: Countries
    :maxdepth: 2
 
+   amsterdam.md
+   buenos-aires.md
    greece.md
    jordan.md
    kenya.md
    scotland.md
    turkey.md
-   amsterdam.md
-   buenos-aires.md
    venice.md
 
 .. toctree::
