@@ -44,3 +44,7 @@ It is recommended to visit the University City created in 1822 where you can enj
 
 Finally, be sure to see the works of Frida Kahlo or Diego Rivera, as well as many of the modern Latin American painters, at the Museum of Latin American Art (MALVA).
 Buenos Aires is definitely a beautiful dream city, which if you have the opportunity to go will leave you with wonderful memories.
+
+## About the Author
+
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
