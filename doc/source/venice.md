@@ -27,3 +27,7 @@ If your visit coincides with the carnival dates, you should know that it is one 
 If what you really want is to savor the best dishes in Venice, you should know that the most traditional and delicious food will not be found in the typical tourist places such as Saint Mark's Square. While it is true that there are many places to eat in the city, you must find those places that are really worth it. You must search the alleys of the city where you can discover excellent trattorias with small wooden tables and their typical checkered tablecloths, where the Italian clientele abounds is where you must try the best pizza and the best spaghetti in Venice.
 
 Do not forget to look for the secret corners of the city, between canals, alleys with colorful roofs and dreamy passages.
+
+## About the Author
+
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
