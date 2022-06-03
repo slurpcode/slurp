@@ -182,6 +182,9 @@ Welcome to slurp's documentation!
    kenya.md
    scotland.md
    turkey.md
+   amsterdam.md
+   buenos-aires.md
+   venice.md
 
 .. toctree::
    :caption: Notable Locations
