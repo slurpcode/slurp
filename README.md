@@ -1,8 +1,10 @@
 # slurp
 
+<!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- prettier-ignore-end -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Fslurpcode.github.io%2Fslurp)](https://slurpcode.github.io/slurp)
 [![Logorama](https://img.shields.io/website?label=heroku&url=https%3A%2F%2Flogorama.herokuapp.com%2F)](https://logorama.herokuapp.com/)
