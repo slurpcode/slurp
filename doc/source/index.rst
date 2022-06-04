@@ -164,7 +164,6 @@ Welcome to slurp's documentation!
    istanbul.md
    kyoto.md
    las-vegas.md
-   venice.md
    malaga.md
    melbourne.md
    mexico-city.md
@@ -174,6 +173,7 @@ Welcome to slurp's documentation!
    pattaya.md
    prescott.md
    tokyo.md
+   venice.md
    zurich.md
 
 .. toctree::
