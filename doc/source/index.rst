@@ -147,6 +147,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    amman.md
+   amsterdam.md
    andorra.md
    bangkok.md
    belfast.md
@@ -154,6 +155,7 @@ Welcome to slurp's documentation!
    brisbane.md
    bucharest.md
    budapest.md
+   buenos-aires.md
    copenhagen.md
    dharamshala.md
    dubai.md
@@ -176,6 +178,7 @@ Welcome to slurp's documentation!
    pattaya.md
    prescott.md
    tokyo.md
+   venice.md
    washington.md
    zurich.md
 
