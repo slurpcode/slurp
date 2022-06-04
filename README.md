@@ -18,7 +18,7 @@
 
 [![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/master/LICENSE)
 [![This project is using Percy.io for visual regression testing](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e1f59ed4900747198ab1df798e85267c)](https://app.codacy.com/app/slurpcode/slurp?utm_source=github.com&utm_medium=referral&utm_content=slurpcode/slurp&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4199d4805b2a473284988680cffe85db)](https://www.codacy.com/gh/slurpcode/slurp/dashboard)
 [![codebeat](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-slurpcode-slurp-master)
 [![CodeFactor](https://www.codefactor.io/repository/github/slurpcode/slurp/badge)](https://www.codefactor.io/repository/github/slurpcode/slurp)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/slurpcode/slurp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/slurpcode/slurp/alerts/)
@@ -48,9 +48,10 @@
 <!--
 [![Build Status][WorkflowBadge]][WorkflowUrl]
 -->
-[![Patreon][PatreonBadge]][PatreonUrl]
-[![Discord][DiscordBadge]][DiscordUrl]
-[![Twitter][TwitterUrl]][TwitterBadge]
+
+[![Patreon][patreonbadge]][patreonurl]
+[![Discord][discordbadge]][discordurl]
+[![Twitter][twitterurl]][twitterbadge]
 
 </div>
 
@@ -287,10 +288,10 @@ This project follows the
 [all-contributors](https://github.com/all-contributors/all-contributors)
 specification. Contributions of any kind welcome!
 
-[DiscordBadge]: https://img.shields.io/discord/834373930692116531?label=Discord&logo=discord&logoColor=white
-[PatreonBadge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Donelanguage%26type%3Dpledges
-[SponsorBadge]: https://camo.githubusercontent.com/da8bc40db5ed31e4b12660245535b5db67aa03ce/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d53706f6e736f72266d6573736167653d254532253944254134266c6f676f3d476974487562
-[TwitterBadge]: https://twitter.com/onelangteam
-[DiscordUrl]: https://discord.gg/sFCE2HcMCa
-[PatreonUrl]: https://patreon.com/onelanguage
-[TwitterUrl]: https://img.shields.io/twitter/follow/onelangteam.svg?style=flatl&label=Follow&logo=twitter&logoColor=white&color=1da1f2
+[discordbadge]: https://img.shields.io/discord/834373930692116531?label=Discord&logo=discord&logoColor=white
+[patreonbadge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Donelanguage%26type%3Dpledges
+[sponsorbadge]: https://camo.githubusercontent.com/da8bc40db5ed31e4b12660245535b5db67aa03ce/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d53706f6e736f72266d6573736167653d254532253944254134266c6f676f3d476974487562
+[twitterbadge]: https://twitter.com/onelangteam
+[discordurl]: https://discord.gg/sFCE2HcMCa
+[patreonurl]: https://patreon.com/onelanguage
+[twitterurl]: https://img.shields.io/twitter/follow/onelangteam.svg?style=flatl&label=Follow&logo=twitter&logoColor=white&color=1da1f2
