@@ -1,8 +1,10 @@
 # slurp
 
+<!-- prettier-ignore-start -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+<!-- prettier-ignore-end -->
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Fslurpcode.github.io%2Fslurp)](https://slurpcode.github.io/slurp)
 [![Logorama](https://img.shields.io/website?label=heroku&url=https%3A%2F%2Flogorama.herokuapp.com%2F)](https://logorama.herokuapp.com/)
@@ -10,7 +12,7 @@
 [![Preston Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fpreston.slurp.workers.dev%2F)](https://preston.slurp.workers.dev)
 [![Magic Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fmagic.slurp.workers.dev%2F)](https://magic.slurp.workers.dev/)
 
-[![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
+[![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/main.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Travis CI](https://travis-ci.org/slurpcode/slurp.svg?branch=master)](https://travis-ci.org/github/slurpcode/slurp)
 [![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://readthedocs.org/projects/slurp/builds/)
 
