@@ -14,6 +14,7 @@ Welcome to slurp's documentation!
    codewars.md
    git.md
    gnu.md
+   stamps.md
 
 .. toctree::
    :caption: Essential Reading
@@ -146,24 +147,34 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    amman.md
+   amsterdam.md
    andorra.md
+   belfast.md
+   brasilia.md
    brisbane.md
+   bucharest.md
    budapest.md
+   buenos-aires.md
    copenhagen.md
    dharamshala.md
    dubai.md
+   hawaii.md
    hongkong.md
    ibiza.md
    istanbul.md
+   kyoto.md
    las-vegas.md
    malaga.md
    melbourne.md
+   mexico-city.md
    moscow.md
    newcastle.md
    paris.md
    pattaya.md
    prescott.md
    tokyo.md
+   venice.md
+   zurich.md
 
 .. toctree::
    :caption: Countries
@@ -171,6 +182,8 @@ Welcome to slurp's documentation!
 
    greece.md
    jordan.md
+   kenya.md
+   scotland.md
    turkey.md
 
 .. toctree::
@@ -255,6 +268,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    eclipse-cheatsheets-to-dita-with-python.md
+   python-is-a-useful-and-versatile-programming-language.md
    python-on-ibm-system-i.md
    pylint.md
    sphinx.md
@@ -276,6 +290,7 @@ Welcome to slurp's documentation!
    :caption: Chess
    :maxdepth: 2
 
+   aicf-announces-indian-squad-for-44th-chess-olympiad.md
    bobby-fischer.md
    boris_spassky.md
    chess-and-mathematics.md
@@ -284,13 +299,23 @@ Welcome to slurp's documentation!
    elo_rating.md
    fide-grand-prix-2022.md
    garry_kasparov_a_chess_player.md
+   hans-niemann-wins-27th-tepe-sigeman.md
    hikaru.md
    inclusion_of_chess_in_olympics.md
+   india-wins-bid-hosting-chess-olympiad.md
+   jan-krzysztof-duda-wins-oslo-esports-cup-ahead-of-magnus-and-other-top-grandmasters.md
    mikhail_tal.md
    richard-rapport-wins-the-second-leg-of-grand-prix.md
    should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
+   the-pawn.md
+   wesley-so-wins-final-leg-of-fide-grand-prix-series.md
 
+.. toctree::
+   :caption: Tennis
+   :maxdepth: 2
+
+   roland-garros.md
 
 .. toctree::
    :caption: Movies

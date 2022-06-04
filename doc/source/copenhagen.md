@@ -1,4 +1,4 @@
-# Copenhagen
+# 🇩🇰 Copenhagen
 
 Copenhagen, the capital of Denmark and its most populous city, has one
 of the highest standards of living in the world, with the bicycle being
