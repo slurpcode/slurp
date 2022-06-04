@@ -1,4 +1,4 @@
-# 🌆  Nice
+# 🌆 Nice
 
 Nice belongs to the Provence region, specifically to the Alpes-Maritimes department of the Côte d'Azur in France. It is located next to the Mediterranean Sea a few kilometers from Monaco and Italy, being one of the most frequented tourist destinations both by the French and by travelers from all over the world. Nice seduces for its privileged location, beaches with crystal clear turquoise waters, for its climate, its art galleries, museums and its beautiful historic center.
 
