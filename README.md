@@ -12,7 +12,7 @@
 [![Preston Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fpreston.slurp.workers.dev%2F)](https://preston.slurp.workers.dev)
 [![Magic Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fmagic.slurp.workers.dev%2F)](https://magic.slurp.workers.dev/)
 
-[![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/master.svg)](https://circleci.com/gh/slurpcode/slurp)
+[![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/main.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Travis CI](https://travis-ci.org/slurpcode/slurp.svg?branch=master)](https://travis-ci.org/github/slurpcode/slurp)
 [![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://readthedocs.org/projects/slurp/builds/)
 
