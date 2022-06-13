@@ -1,36 +1,114 @@
-# 🐉 Hong Kong
+# 🏯 Hong Kong
 
-Hong Kong is located on the southern coast of The Peoples Republic of China. The former British colony consists of three main areas; The New Territories, The Kowloon Peninsula, and Hong Kong Island.
+Hong Kong is one of the cities in China that is not indifferent to anyone, its vertiginous skyscrapers, all those neon lights, its street food, its amusement parks, traditional houses, urban tribes, among many other things, make of this city an incredible place to know and visit. We will give you a list of the places that we consider to be the most important to see in Hong Kong.
 
-Hong Kong is one of the most densely populated places on the planet. It's dramatic cityscape cling to the hillsides and the edges of its spectacular harbor.
+![Hong Kong](_static/images/hong-kong/hong-kong-1.jpg)
 
-Hong Kong is the embodiment of yin and yang, the Chinese concept of balance. It is filled with neighborhoods that resonate with Chinese and colonial tradition, while its soaring skylines look boldly towards the future.
+## Avenue of stars
 
-For visitors, Hong Kong offers some of the world's most intense shopping, sightseeing and dining experiences, yet moments of stillness await at every turn. Faith is an integral part of local life. Everywhere you go you'll smell the scent of incense wafting from shrines.
+The Avenue of Stars is like being on the Walk of Fame in Hollywood, but of course, this street pays homage to the great Chinese artists, you can see the footprints of Jackie Chan or take a photo next to the statue by Bruce Lee.
 
-Hong Kong has over 600 places of worship, from small neighborhood temples, to hilltop complexes like the Ten Thousand Buddhas Monastery. In Hong Kong, shopping is almost a religion too! From malls like Pacific Place to the bustling markets of Temple Street and Ladies Street, tax-free Hong Kong is heaven bargain hunters.
+## Symphony of light
 
-The promenade is home to some of the territory’s premier arts institutions, like the Museum of Art and the Hong Kong Cultural Centre. From the promenade, hop aboard an historic Star Ferry for the short crossing to Hong Kong Island.
+Symphony of the light is a light and sound show that takes place every night at 8 pm and lasts approximately 10 minutes, in which the entire city participates, you will be pleasantly impressed by this display of music and lights.
 
-Explore the malls and futuristic architecture of Hong Kong's main business district, Central.Then take tram to the island's highest mountain, Victoria Peak.
+## Nathan Road
 
-At the Peak Tower, meet some of the giants of history, politics, and popular culture at Madam Tussauds.
-Then head up to the observation deck for the best views in Hong Kong. Looking down upon the skyscrapers and apartment towers, you might wonder how so many people can live in such a tightly packed area.
+Nathan Road is the main commercial artery of Kowloon and it is an area that never sleeps, the recommendation is to walk along this street and observe everything that you find around it.
 
-Yet Hong Kong offers plenty of green spaces too. Take a stroll around Lugard Road to experience the Peak's dense woodlands. While closer to earth, Hong Kong's urban centers feature pockets of peace everywhere.
+## Lai Kwai Fong
 
-There are the wide-open spaces of Victoria Garden, the hillside tranquility of Hong Kong Garden, and the birdsong of the Po Lin Street Bird Garden.
+The Lai Kwai Fong area is perfect for a cocktail or beer before or after dinner.
 
-Kowloon's Walled City Park is a gateway into the world of classic Qing Dynasty design, and features statues of the twelve animals of the Chinese zodiac. Outside the urban areas, visitors are often surprised to learn that over forty percent of the Hong Kong's territory has been designated as national parkThanks to Hong Kong's excellent public transport system, quiet beaches, lightly populated islands and wild places are never more than short ride away.
+## Eat dim sum
 
-Heading to Lamma Island and spend the day swimming, exploring villages, and hiking its many trails. Lantau is the largest of Hong Kong's 250 Islands.
+It is impossible to go to Hong Kong and not eat one of its specialties, "dim sum", you can try them all over the city, however, some of the best places to eat them are at One Dim Sum Chinese.
 
-Take the 25-minute car ride to the mountain-top village of Ngong Ping. Here you'll find the Po Lin Monastery, and one of Hong Kong's biggest attractions, the Tian Tan Buddha. After paying your respects at the Big Buddha seek a little enlightenment along the Wisdom Path a trail dedicated to the centuries-old Buddhist scripture, the Heart Sutra. Down on Lantau's western coast, lose yourself in the narrow lane ways of Tai O.
+## Kowloon Park
 
-This village has been home to fishing families for generations. The ramshackle stilt houses are a favorite with photographers, and its dried seafood is highly prized by cooks from all over Hong Kong. In Hong Kong, no matter how far you roam, you're never more than an hour from your hotel room, which is pretty cool I would say.
+It is likely that at some point during your visit to this city you prefer something to relax and the best place to unwind than Kowloon Park, where you can walk through this great lung of Hong Kong and watch the old people practice tai chi or perhaps have a bath to cool off in its public pool. As a curiosity we tell you that until 1987 the old neighborhood of Kowloon was in this area, at that time it was one of the most dangerous places on the planet, where not even the police dared to enter, but today it is the opposite and far from worrying about passing through this area, you will be filled with a lot of tranquility.
 
-Gotta visit this awesome city soon!
+## Hong Kong Beaches
+
+If you want to go to the beach, of course there are several to visit since you are on an island, the most recommended are Stanley Beach or South Bay, however, we do not believe that it is one of the essential activities to do in Hong Kong.
+
+## Eat at Tim Ho Wan
+
+This city has a very interesting food scene and trying some of its dishes like the pork and prawn dumplings or maybe its bbq pork stuffed buns at a restaurant called Tim Ho Wan is one of the best things you can do in this city town. To give you an idea, this is one of the cheapest restaurants in the world and it has a Michelin star, a generous dinner for two costs less than €20, and its food is truly spectacular.
+
+## Hong Kong temples
+
+If you are a lover of Chinese temples, you cannot miss the Wong Tai Sin Temple, which is definitely one of the most important in Hong Kong.
+
+![Hong Kong](_static/images/hong-kong/hong-kong-2.jpg)
+
+Photo taken by Daniel Lee
+
+The other recommendation is to visit the Man Mo Temple, as it is one of the oldest in the city.
+
+## Climb Victoria Peak
+
+You can see the sunset from the top of Victoria Peak in front of thousands of high skyscrapers, to get there you just have to take the funicular that will take you to the top of this mountain.
+
+## Choi Hung Estate
+
+A few years ago this building was quite unknown, but thanks to someone who believed that this colorful building would look great in his gallery and on instagram, today it is one of the most photographed and visited places in the city.
+
+## Monster Building
+
+The same situation that we described in the previous item happened to the Yik Cheong Building (Monster Building), it is a building absolutely full of small apartments that became famous when it appeared in the movie Ghost in the Shell, it is worth taking a picture in this building that is so popular today.
+
+## Ladies Market
+
+Ladies Market is currently the most frequented market in Hong Kong and there you can find exactly everything you can imagine, from fish soups to designer bags, do not forget to haggle.
+
+## Temple Street Market
+
+Temple Street is the other highly recommended market, although it is true that it is usually very crowded, it is also full of character.
+
+## Victoria Bay Cruise
+
+A cruise through Victoria Bay is one of the best activities you can do towards sunset, it is the moment when the lights of the city are reflected in the water with its thousands of colors.
+
+## Longest escalator in the world
+
+The longest escalator on the planet is located in Hong Kong, it measures approximately 800 meters, it is located between the Mid Levels and Central. Although it is true that it is not a single staircase, since it is rather a stretch of different stairs, it is still worth traveling this route that lasts about 20 minutes.
+
+## Double-decker trams
+
+One of the most original ways to visit Hong Kong is on one of its 2-story trams. The recommendation is to go upstairs, specifically in the first row to get the best views.
+
+![Hong Kong](_static/images/hong-kong/hong-kong-3.jpg)
+
+## Nan Lian Garden
+
+The Nan Lian Garden is one of the most beautiful and peaceful places in the city, where there is also a group of Buddhist temples in the Chi Lin Monastery, which will abstract you from the traffic and hustle and bustle of the city.
+
+## The Soho neighborhood
+
+Although this neighborhood is full of stairs and slopes, visiting it is really charming. It is full of restaurants and bars, within a cosmopolitan and very interesting atmosphere.
+
+## Mong Kok neighborhood
+
+The Mong Kok neighborhood is another recommendation to visit, being the most commercial part of Hong Kong, you will be surrounded by shopping malls, neon lights and many people.
+
+![Hong Kong](_static/images/hong-kong/hong-kong-4.jpg)
+
+## Big Tian Tian Buddha
+
+The Tian Tian Big Buddha is located on Lantau Island and you can reach it via the Ngong Ping 360 cable car where you will get a lot of sublime views. In addition to the option of taking a normal cable car, you can also opt for one with a glass floor.
+
+## Disneyland Hong Kong
+
+If you're on the island you can't miss Disneyland Hong Kong
+
+![Hong Kong](_static/images/hong-kong/hong-kong-5.jpg)
+
+## Macau Island Tour
+
+You can take an excursion to visit the island of Macao or as many call it "the casino island". It is a very strange and curious place since it is a mixture between Portugal, China and Las Vegas, this strange place seems to us to be a very interesting place to visit.
+Hong Kong is an island with many tourist activities to do and impressive sites that are worth visiting.
 
 ## About the Author
 
-Mujahid Al-Majali, a 29-year-old former air force soldier and an economic development and business specialist, also does translation and copywriting. Loves long drives, chill music and old school movies. A nicotine addict and a huge fan of Jack Daniel’s whiskey. Owned multiple businesses in Amman and southern of Jordan PRE-COVID and now focusing on translation and copywriting part of my experience through UpWork.
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes.
