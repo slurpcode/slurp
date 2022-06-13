@@ -3,7 +3,7 @@ module github.com/slurpcode/slurp/pdfstar
 go 1.17
 
 require (
-	github.com/gin-gonic/gin v1.8.0
+	github.com/gin-gonic/gin v1.8.1
 	github.com/jung-kurt/gofpdf v1.16.2
 )
 
