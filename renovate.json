@@ -1,9 +1,9 @@
 {
-  "extends": [
-    "config:base"
-  ],
   "assignees": [
     "jbampton"
+  ],
+  "extends": [
+    "config:base"
   ],
   "labels": [
     "renovate"
