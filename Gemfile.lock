@@ -138,7 +138,7 @@ GEM
     html-pipeline (2.14.1)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    http-cookie (1.0.4)
+    http-cookie (1.0.5)
       domain_name (~> 0.5)
     http_parser.rb (0.8.0)
     i18n (0.9.5)
@@ -269,7 +269,7 @@ GEM
       mixlib-cli (~> 2.1, >= 2.1.1)
       mixlib-config (>= 2.2.1, < 4)
       mixlib-shellout
-    mechanize (2.8.4)
+    mechanize (2.8.5)
       addressable (~> 2.8)
       domain_name (~> 0.5, >= 0.5.20190701)
       http-cookie (~> 1.0, >= 1.0.3)
@@ -400,8 +400,7 @@ GEM
       tzinfo (>= 1.0.0)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.8.1)
-    unf_ext (0.0.8.1-x64-mingw32)
+    unf_ext (0.0.8.2)
     unicode-display_width (2.1.0)
     virtus (1.0.5)
       axiom-types (~> 0.1)
