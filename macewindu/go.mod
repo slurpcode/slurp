@@ -3,7 +3,7 @@ module github.com/slurpcode/slurp/macewindu
 go 1.17
 
 require (
-	github.com/gin-gonic/gin v1.8.0
+	github.com/gin-gonic/gin v1.8.1
 	github.com/gocolly/colly v1.2.0
 	github.com/heroku/x v0.0.50
 )
