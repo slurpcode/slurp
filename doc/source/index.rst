@@ -322,6 +322,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    roland-garros.md
+   the-us-open.md
    the-wimbledon-championships.md
 
 .. toctree::
