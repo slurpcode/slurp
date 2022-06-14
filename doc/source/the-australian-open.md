@@ -264,6 +264,7 @@ Hopman, Nancye Wynne Bolton, Thelma Coyne Long, Jana Novotná and Larisa
 Savchenko Neiland in mixed doubles.
 
 ## Below we will show a table with the record of titles won in the men\'s modality
+
   Record                             |  Player                           |  Era           |  Titles  |  Years
 -------------------------------------|-----------------------------------|----------------|----------|-------------------------------------------
   Most singles titles                |  Serbia&nbsp;/ Novak Djokovic     |  Open Era      |  9       |  2008, 2011–2013, 2015–2016, 2019–2021
@@ -284,15 +285,12 @@ Savchenko Neiland in mixed doubles.
   Most Championships                 |  Serbia&nbsp;/ Novak Djokovic     |  Open Era      |  9       |  2008–2021 (9 men's singles)
   (singles, doubles, mixed doubles)  |  Australia&nbsp;/ Adrian Quist    |  Pre-Open Era  |  13      |  1936–1950 (3 singles, 10 men's doubles)
 
-
-
-
-
-![Current photo of Roy Emerson taken by Tennis Buzz from flickr](./_static/images/the-australian-open/image8.jpg)
+<br>![Current photo of Roy Emerson taken by Tennis Buzz from flickr](./_static/images/the-australian-open/image8.jpg)
 
 Current photo of Roy Emerson taken by Tennis Buzz from flickr
 
 ## In the female modality, the players who have the records are the following:
+
 |   Record      |   Player      |   Era      |   Titles      |   Years      |
 |---    |---    |---    |---    |---    |
 |   Most singles titles      |   Australia / Margaret Court      |   All-time      |   11      |   1960–1966, 1969–1971, 1973      |
