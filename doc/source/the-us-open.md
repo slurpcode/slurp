@@ -1,4 +1,4 @@
-# 🎾 The US Open tournament
+# 🎾 The US Open
 
 The US Open Tennis Championships since 1987 is chronologically the last
 and fourth Grand Slam tournament. The year starts with the Australian
