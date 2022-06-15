@@ -1,4 +1,4 @@
-# No Two Situations or Events are Exactly the Same in Life and in Business so is Your 64 Black and White Squares on Your Chess Board
+# ♟️ No Two Situations or Events are Exactly the Same in Life and in Business so is Your 64 Black and White Squares on Your Chess Board
 
 Nothing stays the same; everyone and everything changes with time, no
 wonder "what goes around comes around", as the book of Proverbs advices.
