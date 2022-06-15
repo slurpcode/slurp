@@ -7,7 +7,6 @@ last of the big four.
 
 <br>![The US Open tournament](./_static/images/the-us-open/image1.jpg)
 
-
 <br>The US Open begins on the last Monday of August and lasts for two weeks,
 with the middle weekend coinciding with Labor Day, which is a public
 holiday in the United States. This tournament is one of the oldest in
@@ -305,8 +304,7 @@ DecoTurf hard court, being a multi-layer padded surface that was
 classified as medium fast by the International Tennis Federation. It is
 important to note that the courts are resurfaced every August just
 before the start of the tournament. However, the USTA decided that
-Laykold would be the new supplier of court surfaces, beginning in March
-2020. Every single US Open tennis court since 2005 is painted blue
+Laykold would be the new supplier of court surfaces, beginning in March 2020. Every single US Open tennis court since 2005 is painted blue
 within the lines, so that it is easier for players, spectators and
 viewers to see the ball, to the point that it is already a registered
 trademark as \"US Open Blue\", while the area outside the lines It is
@@ -376,7 +374,7 @@ Grand Slam title.
 
 Photo of Manuel Orantes taken by Tennis Buzz and extracted from flickr
 
-## Novak Djokovic beat Roger Federer in the 2011 Semifinals**
+## Novak Djokovic beat Roger Federer in the 2011 Semifinals\*\*
 
 Novak Djokovic in beating Roger Federer 6-7, 4-6, 6-3, 6-2, 7-5,
 produced one of the greatest shots in history in the 2011 US Open
