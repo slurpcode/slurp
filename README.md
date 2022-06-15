@@ -160,7 +160,7 @@
 - [Restyled](https://restyled.io/) - Nudge your team towards consistent coding style with every Pull Request
 - [All Contributors](https://allcontributors.org/) - This is a specification for recognizing contributors to an open source project in a way that rewards each and every contribution, not just code
 - [Disqus](https://disqus.com/) - A global comment system that improves discussion on websites and connects conversations across the web
-- [CODEOWNERS](https://github.blog/2017-07-06-introducing-code-owners/) - CODEOWNERS file is used to define individuals or teams that are responsible for code in a repository
+- [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) - CODEOWNERS file is used to define individuals or teams that are responsible for code in a repository
 - [EditorConfig](https://editorconfig.org/) - EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs
 - [TOML](https://en.wikipedia.org/wiki/TOML) - TOML is a file format for configuration files. It is intended to be easy to read and write due to obvious semantics which aim to be "minimal", and is designed to map unambiguously to a dictionary
 - [FileUtils](https://apidock.com/ruby/v2_6_3/FileUtils) - Namespace for several file utility methods for copying, moving, removing, etc
