@@ -164,7 +164,7 @@ Melbourne Park), the surface of the pitch being hard and not grass. At
 that time Mats Wilander not only won the tournament on this surface, but
 he was the only player who could win on both grass and hard courts.
 
-<br>![Mats Wilander](./_static/images/the-australian-open/image5.jpeg)
+<br>![Mats Wilander](./_static/images/the-australian-open/image5.jpg)
 
 Mats Wilander
 
