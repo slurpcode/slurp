@@ -1,7 +1,10 @@
 {
-    "ignorePatterns": [
-        {
-            "pattern": "^http://ignored-domain.com"
-        }
-    ]
+  "httpHeaders": [
+    {
+      "urls": ["https://docs.github.com/"],
+      "headers": {
+        "Accept-Encoding": "zstd, br, gzip, deflate"
+      }
+    }
+  ]
 }
