@@ -61,7 +61,7 @@
 - [charts](https://slurp.onrender.com/) - Static site built with Ruby on [Render](https://render.com/)
 - [danger](https://danger.onrender.com/) - Danger on [Render](https://render.com/)
 - [doc](https://slurp.readthedocs.io/) - Welcome to slurp’s documentation! Python, Sphinx and Markdown mainly
-- [docs](https://fuchsia.surf/) - Fuchsia Programming Jekyll website with Easter Eggs hosted on GitHub Pages with Tunes !!!
+- [docs](https://slurpcode.github.io/slurp/) - Fuchsia Programming Jekyll website with Easter Eggs hosted on GitHub Pages with Tunes !!!
 - [eclipse-cheatsheets-to-dita-to-pdf](https://slurp.readthedocs.io/en/latest/eclipse-cheatsheets-to-dita-to-pdf.html) - Eclipse cheat sheets to DITA to PDF
 - [hashcheck](https://slurp.readthedocs.io/en/latest/hashcheck.html) - Ruby script to check file checksums with the Windows CertUtil Command
 - [logorama](https://logorama.herokuapp.com/) - Logos done Rama. Hosted on Heroku Cloud Platform
@@ -124,7 +124,7 @@
 - [Nokogiri](https://nokogiri.org/) - Nokogiri is an HTML, XML, SAX, and Reader parser with ability to search documents via XPath or CSS3 selectors
 - [overcommit](https://github.com/brigade/overcommit) - A tool to manage and configure Git hooks
 - [Rubocop](https://github.com/rubocop-hq/rubocop) - RuboCop is a Ruby static code analyzer (a.k.a. linter) and code formatter
-- [Pylint](https://www.pylint.org/) - Pylint is a source-code, bug and quality checker for the Python programming language
+- [Pylint](https://pylint.pycqa.org/en/latest/) - Pylint is a source-code, bug and quality checker for the Python programming language
 - [Flake8](http://flake8.pycqa.org/en/latest/) - A tool for style guide enforcement
 - [Revive](https://revive.run/) - A fast, configurable, extensible, flexible, and beautiful linter for Go
 - [Shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck is a GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
@@ -160,7 +160,7 @@
 - [Restyled](https://restyled.io/) - Nudge your team towards consistent coding style with every Pull Request
 - [All Contributors](https://allcontributors.org/) - This is a specification for recognizing contributors to an open source project in a way that rewards each and every contribution, not just code
 - [Disqus](https://disqus.com/) - A global comment system that improves discussion on websites and connects conversations across the web
-- [CODEOWNERS](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) - CODEOWNERS file is used to define individuals or teams that are responsible for code in a repository
+- [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) - CODEOWNERS file is used to define individuals or teams that are responsible for code in a repository
 - [EditorConfig](https://editorconfig.org/) - EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs
 - [TOML](https://en.wikipedia.org/wiki/TOML) - TOML is a file format for configuration files. It is intended to be easy to read and write due to obvious semantics which aim to be "minimal", and is designed to map unambiguously to a dictionary
 - [FileUtils](https://apidock.com/ruby/v2_6_3/FileUtils) - Namespace for several file utility methods for copying, moving, removing, etc
