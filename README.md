@@ -124,7 +124,7 @@
 - [Nokogiri](https://nokogiri.org/) - Nokogiri is an HTML, XML, SAX, and Reader parser with ability to search documents via XPath or CSS3 selectors
 - [overcommit](https://github.com/brigade/overcommit) - A tool to manage and configure Git hooks
 - [Rubocop](https://github.com/rubocop-hq/rubocop) - RuboCop is a Ruby static code analyzer (a.k.a. linter) and code formatter
-- [Pylint](https://www.pylint.org/) - Pylint is a source-code, bug and quality checker for the Python programming language
+- [Pylint](https://pylint.pycqa.org/en/latest/) - Pylint is a source-code, bug and quality checker for the Python programming language
 - [Flake8](http://flake8.pycqa.org/en/latest/) - A tool for style guide enforcement
 - [Revive](https://revive.run/) - A fast, configurable, extensible, flexible, and beautiful linter for Go
 - [Shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck is a GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
