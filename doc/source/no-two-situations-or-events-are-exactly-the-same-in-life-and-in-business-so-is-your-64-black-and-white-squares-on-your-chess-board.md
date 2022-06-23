@@ -50,39 +50,39 @@ beliefs and perceptions about life, people and business.
 
 Picture 1.1: Strategic Business Planning
 
-<br>Every economy's lifeblood is business right?
-When two or more individuals interact formally or informally, business occurs consciously or subconsciously, which is why business
-(money) makes the world go round.
+<br>Every economy's lifeblood is business right?
+When two or more individuals zinteract formally or informally, business occurs consciously or subconsciously, which is why business
+(money) makes the world go round.
 
-<br>Every successful business requires the grouping of two or more people with the goal of achieving a desired result between or among the parties involved. However, no two of these meetings are alike; they may appear similar, they may appear familiar, but they are not
-100% identical; why shouldn't you look out for the puzzle?
+<br>Every successful business requires the grouping of  two or more people with the goal of achieving a desired result between or among the parties involved. However, no two of these meetings are alike; they may appear similar, they may appear familiar, but they are not
+100% identical; why shouldn't you look out for the puzzle?
 
 <br>![Picture 1.2: Showing the Fusion of a Rank and a File (g5)](./_static/images/no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board/image3.jpg)
 
 Picture 1.2: Showing the Fusion of a Rank and a File (g5)
 
-<br>The chess pieces are placed on a 64-square chess board with eight rows and eight columns.
+<br>The chess pieces are placed on a 64-square chess board with eight rows and eight columns.
 
-<br>It has a square shape and uses bright and dark square colors in checkered patterns.
+<br>It has a square shape and uses bright and dark square colors in checkered patterns.
 
-<br>Each player\'s right-hand corner square is brightly lit on the board.
+<br>Each player\'s right-hand corner square is brightly lit on the board.
 
-<br>A chessboard\'s columns are known as file while the rows as rank.
+<br>A chessboard\'s columns are known as file while the rows as rank.
 
-<br>In either algebraic or numeric chess notation, each square on the board is assigned a name.
+<br>In either algebraic or numeric chess notation, each square on the board is assigned a name.
 
-<br>From left to right, files are marked letter
-A-H, and ranks are numbered 1 through 8 in from top to bottom.
+<br>From left to right, files are marked letter
+A-H, and ranks are numbered 1 through 8 in from top to bottom.
 
-<br>Despite similarities in appearances, size, color and looks, yet
+<br>Despite similarities in appearances, size, color and looks, yet
 different in computation, structure and formation.
-Each square is a fusion of a rank and a file, that is, a number and a letter, which differentiates
-each square from the other.
+Each square is a fusion of a rank and a file, that is, a number and a letter, which differentiates
+each square from the other.
 
-<br>Like the chessboard with the same size, same color, same appearance yet
+<br>Like the chessboard with the same size, same color, same appearance yet
 totally different structure, form and composition, so is your similar
-phenomenon, events and occurrences yet different underlying capability
-and capacity , wisdom, and ability in your life and business.
+phenomenon, events and occurrences yet different underlying capability
+and capacity , wisdom, and ability in your life and business.
 
 <br>Even if you look, talk, and appear the same as everyone, you will never
 think, respond, or process life and business in the same manner. At the
