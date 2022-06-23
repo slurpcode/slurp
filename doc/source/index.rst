@@ -311,6 +311,7 @@ Welcome to slurp's documentation!
    india-wins-bid-hosting-chess-olympiad.md
    jan-krzysztof-duda-wins-oslo-esports-cup-ahead-of-magnus-and-other-top-grandmasters.md
    mikhail_tal.md
+   no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board.md
    richard-rapport-wins-the-second-leg-of-grand-prix.md
    should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
@@ -323,6 +324,7 @@ Welcome to slurp's documentation!
 
    roland-garros.md
    the-australian-open.md
+   the-us-open.md
    the-wimbledon-championships.md
 
 .. toctree::
