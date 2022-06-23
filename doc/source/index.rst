@@ -322,10 +322,10 @@ Welcome to slurp's documentation!
    :caption: Tennis
    :maxdepth: 2
 
-   roland-garros.md
    the-australian-open.md
-   the-us-open.md
+   roland-garros.md
    the-wimbledon-championships.md
+   the-us-open.md
 
 .. toctree::
    :caption: Movies
