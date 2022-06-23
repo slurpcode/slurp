@@ -54,7 +54,7 @@ Picture 1.1: Strategic Business Planning
 When two or more individuals zinteract formally or informally, business occurs consciously or subconsciously, which is why business
 (money) makes the world go round.
 
-<br>Every successful business requires the grouping of  two or more people with the goal of achieving a desired result between or among the parties involved. However, no two of these meetings are alike; they may appear similar, they may appear familiar, but they are not
+<br>Every successful business requires the grouping of two or more people with the goal of achieving a desired result between or among the parties involved. However, no two of these meetings are alike; they may appear similar, they may appear familiar, but they are not
 100% identical; why shouldn't you look out for the puzzle?
 
 <br>![Picture 1.2: Showing the Fusion of a Rank and a File (g5)](./_static/images/no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board/image3.jpg)
