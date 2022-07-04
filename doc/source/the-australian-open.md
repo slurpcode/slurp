@@ -265,25 +265,25 @@ Savchenko Neiland in mixed doubles.
 
 ## Below we will show a table with the record of titles won in the men\'s modality
 
-  Record                             |  Player                           |  Era           |  Titles  |  Years
--------------------------------------|-----------------------------------|----------------|----------|-------------------------------------------
-  Most singles titles                |  Serbia&nbsp;/ Novak Djokovic     |  Open Era      |  9       |  2008, 2011–2013, 2015–2016, 2019–2021
-  &nbsp;                             |  Australia&nbsp;/ Roy Emerson     |  Pre-Open Era  |  6       |  1961, 1963–1967
-  Most consecutive singles titles    |  Serbia&nbsp;/ Novak Djokovic     |  Open Era      |  3       |  2011–2013, 2019–2021
-  &nbsp;                             |  Australia&nbsp;/ Roy Emerson     |  Pre-Open Era  |  5       |  1963–1967
-  Most doubles titles                |  United States&nbsp;/ Bob Bryan   |  Open Era      |  6       |  2006–2007, 2009–2011, 2013
-  &nbsp;                             |  United States&nbsp;/ Mike Bryan  |  &nbsp;        |  &nbsp;  |  &nbsp;
-  &nbsp;                             |  Australia&nbsp;Adrian / Quist    |  Pre-Open Era  |  10      |  1936–1940, 1946–1950
-  Most consecutive doubles titles    |  United States&nbsp;/ Bob Bryan   |  Open Era      |  3       |  2009–2011
-  &nbsp;                             |  United States/ &nbsp;Mike Bryan  |  &nbsp;        |  &nbsp;  |  &nbsp;
-  &nbsp;                             |  Australia&nbsp;/ Adrian Quist    |  Pre-Open Era  |  10      |  1936–1940, 1946–1950[45]
-  Most mixed doubles titles          |  United States /&nbsp;Jim Pugh    |  Open Era      |  3       |  1988–1990
-  &nbsp;                             |  India / Leander Paes             |  &nbsp;        |  &nbsp;  |  2003, 2010, 2015
-  &nbsp;                             |  Canada /&nbsp;Daniel Nestor      |  &nbsp;        |  &nbsp;  |  2007, 2011, 2014
-  &nbsp;                             |  Australia /&nbsp;Harry Hopman    |  Pre-Open Era  |  4       |  1930, 1936–1937, 1939
-  &nbsp;                             |  Australia /&nbsp;Colin Long      |  &nbsp;        |  &nbsp;  |  1940, 1946–1948
-  Most Championships                 |  Serbia&nbsp;/ Novak Djokovic     |  Open Era      |  9       |  2008–2021 (9 men's singles)
-  (singles, doubles, mixed doubles)  |  Australia&nbsp;/ Adrian Quist    |  Pre-Open Era  |  13      |  1936–1950 (3 singles, 10 men's doubles)
+| Record                            | Player                          | Era          | Titles | Years                                   |
+| --------------------------------- | ------------------------------- | ------------ | ------ | --------------------------------------- |
+| Most singles titles               | Serbia&nbsp;/ Novak Djokovic    | Open Era     | 9      | 2008, 2011–2013, 2015–2016, 2019–2021   |
+| &nbsp;                            | Australia&nbsp;/ Roy Emerson    | Pre-Open Era | 6      | 1961, 1963–1967                         |
+| Most consecutive singles titles   | Serbia&nbsp;/ Novak Djokovic    | Open Era     | 3      | 2011–2013, 2019–2021                    |
+| &nbsp;                            | Australia&nbsp;/ Roy Emerson    | Pre-Open Era | 5      | 1963–1967                               |
+| Most doubles titles               | United States&nbsp;/ Bob Bryan  | Open Era     | 6      | 2006–2007, 2009–2011, 2013              |
+| &nbsp;                            | United States&nbsp;/ Mike Bryan | &nbsp;       | &nbsp; | &nbsp;                                  |
+| &nbsp;                            | Australia&nbsp;Adrian / Quist   | Pre-Open Era | 10     | 1936–1940, 1946–1950                    |
+| Most consecutive doubles titles   | United States&nbsp;/ Bob Bryan  | Open Era     | 3      | 2009–2011                               |
+| &nbsp;                            | United States/ &nbsp;Mike Bryan | &nbsp;       | &nbsp; | &nbsp;                                  |
+| &nbsp;                            | Australia&nbsp;/ Adrian Quist   | Pre-Open Era | 10     | 1936–1940, 1946–1950[45]                |
+| Most mixed doubles titles         | United States /&nbsp;Jim Pugh   | Open Era     | 3      | 1988–1990                               |
+| &nbsp;                            | India / Leander Paes            | &nbsp;       | &nbsp; | 2003, 2010, 2015                        |
+| &nbsp;                            | Canada /&nbsp;Daniel Nestor     | &nbsp;       | &nbsp; | 2007, 2011, 2014                        |
+| &nbsp;                            | Australia /&nbsp;Harry Hopman   | Pre-Open Era | 4      | 1930, 1936–1937, 1939                   |
+| &nbsp;                            | Australia /&nbsp;Colin Long     | &nbsp;       | &nbsp; | 1940, 1946–1948                         |
+| Most Championships                | Serbia&nbsp;/ Novak Djokovic    | Open Era     | 9      | 2008–2021 (9 men's singles)             |
+| (singles, doubles, mixed doubles) | Australia&nbsp;/ Adrian Quist   | Pre-Open Era | 13     | 1936–1950 (3 singles, 10 men's doubles) |
 
 <br>![Current photo of Roy Emerson taken by Tennis Buzz from flickr](./_static/images/the-australian-open/image8.jpg)
 
@@ -291,30 +291,30 @@ Current photo of Roy Emerson taken by Tennis Buzz from flickr
 
 ## In the female modality, the players who have the records are the following:
 
-|   Record      |   Player      |   Era      |   Titles      |   Years      |
-|---    |---    |---    |---    |---    |
-|   Most singles titles      |   Australia / Margaret Court      |   All-time      |   11      |   1960–1966, 1969–1971, 1973      |
-|          |   United States / Serena Williams      |   Open Era      |   7      |   2003, 2005, 2007, 2009, 2010, 2015, 2017      |
-|          |   Australia / Margaret Court      |   Pre-Open Era      |   7      |   1960–1966      |
-|   Most consecutive singles titles      |   Australia / Margaret Court      |   Open Era      |   3      |   1969–1971      |
-|          |   Australia / Evonne Goolagong Cawley      |          |          |   1974–1976      |
-|          |   Germany / Steffi Graf      |          |          |   1988–1990      |
-|          |   Federal Republic of Yugoslavia / Monica Seles      |          |          |   1991–1993      |
-|          |   Switzerland / Martina Hingis      |          |          |   1997–1999      |
-|          |   Australia / Margaret Court      |   Pre-Open Era      |   7      |   1960–1966      |
-|   Most doubles titles      |   Australia / Thelma Coyne Long      |   Pre-Open Era      |   12      |   1936–1940, 1947–1949, 1951–1952, 1956, 1958      |
-|          |   United States / Martina Navratilova      |   Open Era      |   8      |   1980, 1982–1985, 1987–1989      |
-|   Most consecutive doubles titles      |   United States / Martina Navratilova      |   Open Era      |   7      |   1982–1985, 1987–1989      |
-|          |   United States / Pam Shriver      |          |          |          |
-|          |   Australia / Thelma Coyne Long      |   Pre-Open Era      |   5      |   1936–1940      |
-|          |   Australia / Nancye Wynne Bolton      |          |          |          |
-|   Most mixed doubles titles      |   Czech Republic / Barbora Krejčíková      |   Open Era      |   3      |   2019–2021      |
-|          |   Australia / Daphne Akhurst Cozens      |   Pre-Open Era      |   4      |   1924–1925, 1928–1929      |
-|          |   Australia / Nell Hall Hopman      |          |          |   1930, 1936–1937, 1939      |
-|          |   Australia / Nancye Wynne Bolton      |          |          |   1940, 1946–1948      |
-|          |   Australia / Thelma Coyne Long      |          |          |   1951–1952, 1954–1955      |
-|   Most Championships      |   United States / Martina Navratilova      |   Open Era      |   12      |   1980–2003 (3 singles, 8 women's doubles, 1 mixed doubles)      |
-|   (singles, doubles, mixed doubles)      |   Australia / Nancye Wynne Bolton      |   Pre-Open Era      |   20      |   1936–1952 (6 singles, 10 women's doubles, 4 mixed doubles)      |
+| Record                            | Player                                        | Era          | Titles | Years                                                      |
+| --------------------------------- | --------------------------------------------- | ------------ | ------ | ---------------------------------------------------------- |
+| Most singles titles               | Australia / Margaret Court                    | All-time     | 11     | 1960–1966, 1969–1971, 1973                                 |
+|                                   | United States / Serena Williams               | Open Era     | 7      | 2003, 2005, 2007, 2009, 2010, 2015, 2017                   |
+|                                   | Australia / Margaret Court                    | Pre-Open Era | 7      | 1960–1966                                                  |
+| Most consecutive singles titles   | Australia / Margaret Court                    | Open Era     | 3      | 1969–1971                                                  |
+|                                   | Australia / Evonne Goolagong Cawley           |              |        | 1974–1976                                                  |
+|                                   | Germany / Steffi Graf                         |              |        | 1988–1990                                                  |
+|                                   | Federal Republic of Yugoslavia / Monica Seles |              |        | 1991–1993                                                  |
+|                                   | Switzerland / Martina Hingis                  |              |        | 1997–1999                                                  |
+|                                   | Australia / Margaret Court                    | Pre-Open Era | 7      | 1960–1966                                                  |
+| Most doubles titles               | Australia / Thelma Coyne Long                 | Pre-Open Era | 12     | 1936–1940, 1947–1949, 1951–1952, 1956, 1958                |
+|                                   | United States / Martina Navratilova           | Open Era     | 8      | 1980, 1982–1985, 1987–1989                                 |
+| Most consecutive doubles titles   | United States / Martina Navratilova           | Open Era     | 7      | 1982–1985, 1987–1989                                       |
+|                                   | United States / Pam Shriver                   |              |        |                                                            |
+|                                   | Australia / Thelma Coyne Long                 | Pre-Open Era | 5      | 1936–1940                                                  |
+|                                   | Australia / Nancye Wynne Bolton               |              |        |                                                            |
+| Most mixed doubles titles         | Czech Republic / Barbora Krejčíková           | Open Era     | 3      | 2019–2021                                                  |
+|                                   | Australia / Daphne Akhurst Cozens             | Pre-Open Era | 4      | 1924–1925, 1928–1929                                       |
+|                                   | Australia / Nell Hall Hopman                  |              |        | 1930, 1936–1937, 1939                                      |
+|                                   | Australia / Nancye Wynne Bolton               |              |        | 1940, 1946–1948                                            |
+|                                   | Australia / Thelma Coyne Long                 |              |        | 1951–1952, 1954–1955                                       |
+| Most Championships                | United States / Martina Navratilova           | Open Era     | 12     | 1980–2003 (3 singles, 8 women's doubles, 1 mixed doubles)  |
+| (singles, doubles, mixed doubles) | Australia / Nancye Wynne Bolton               | Pre-Open Era | 20     | 1936–1952 (6 singles, 10 women's doubles, 4 mixed doubles) |
 
 <br>![Photo Serena Williams taken by AshMarshall extracted from flickr](./_static/images/the-australian-open/image9.jpg)
 
@@ -322,15 +322,15 @@ Photo Serena Williams taken by AshMarshall extracted from flickr
 
 ## Other important records
 
-|   Record      |   Player      |   Category      |   Years      |
-|---    |---    |---    |---    |
-|   Unseeded champions      |   Australia / Mark Edmondson      |   Men      |   1976      |
-|          |   Australia / Chris O'Neil      |   Women      |   1978      |
-|          |   United States / Serena Williams      |   Women      |   2007      |
-|   Youngest singles champion      |   Australia / Ken Rosewall      |   Men      |   18 years and 2 months (1953)      |
-|          |   Switzerland / Martina Hingis      |   Women      |   16 years and 4 months (1997)      |
-|   Oldest singles champion      |   Australia / Ken Rosewall      |   Men      |   37 years and 2 months (1972)      |
-|          |   Australia / Thelma Coyne Long      |   Women      |   35 years and 8 months (1954)      |
+| Record                    | Player                          | Category | Years                        |
+| ------------------------- | ------------------------------- | -------- | ---------------------------- |
+| Unseeded champions        | Australia / Mark Edmondson      | Men      | 1976                         |
+|                           | Australia / Chris O'Neil        | Women    | 1978                         |
+|                           | United States / Serena Williams | Women    | 2007                         |
+| Youngest singles champion | Australia / Ken Rosewall        | Men      | 18 years and 2 months (1953) |
+|                           | Switzerland / Martina Hingis    | Women    | 16 years and 4 months (1997) |
+| Oldest singles champion   | Australia / Ken Rosewall        | Men      | 37 years and 2 months (1972) |
+|                           | Australia / Thelma Coyne Long   | Women    | 35 years and 8 months (1954) |
 
 ## The Players who achieved both the junior and senior titles:
 
@@ -618,16 +618,16 @@ Photo from the Meridiano sports newspaper extracted from flickr
 
 ## Most recent finals
 
-|   2022 Event      |   Champion      |   Runner-up      |   Score      |
-|---    |---    |---    |---    |
-|   Men's singles      |   Spain / Rafael Nadal      |   Russia / Daniil Medvedev      |   2–6, 6–7(5–7), 6–4, 6–4, 7–5      |
-|   Women's singles      |   Australia / Ashleigh Barty      |   United States / Danielle Collins      |   6–3, 7–6(7–2)      |
-|   Men's doubles      |   Australia / Thanasi Kokkinakis      |   Australia / Matthew Ebden      |   7–5, 6–4      |
-|          |   Australia / Nick Kyrgios      |   Australia / Max Purcell      |          |
-|   Women's doubles      |   Czech Republic  / Barbora Krejčíková      |   Kazakhstan / Anna Danilina      |   6–7(3–7), 6–4, 6–4      |
-|          |   Czech Republic / Kateřina Siniaková      |   Brazil / Beatriz Haddad Maia      |          |
-|   Mixed doubles      |   France / Kristina Mladenovic      |   Australia / Jaimee Fourlis      |   6–3, 6–4      |
-|          |   Croatia /  Ivan Dodig      |   Australia / Jason Kubler      |          |
+| 2022 Event      | Champion                            | Runner-up                        | Score                        |
+| --------------- | ----------------------------------- | -------------------------------- | ---------------------------- |
+| Men's singles   | Spain / Rafael Nadal                | Russia / Daniil Medvedev         | 2–6, 6–7(5–7), 6–4, 6–4, 7–5 |
+| Women's singles | Australia / Ashleigh Barty          | United States / Danielle Collins | 6–3, 7–6(7–2)                |
+| Men's doubles   | Australia / Thanasi Kokkinakis      | Australia / Matthew Ebden        | 7–5, 6–4                     |
+|                 | Australia / Nick Kyrgios            | Australia / Max Purcell          |                              |
+| Women's doubles | Czech Republic / Barbora Krejčíková | Kazakhstan / Anna Danilina       | 6–7(3–7), 6–4, 6–4           |
+|                 | Czech Republic / Kateřina Siniaková | Brazil / Beatriz Haddad Maia     |                              |
+| Mixed doubles   | France / Kristina Mladenovic        | Australia / Jaimee Fourlis       | 6–3, 6–4                     |
+|                 | Croatia / Ivan Dodig                | Australia / Jason Kubler         |                              |
 
 ## About the Author
 
