@@ -156,6 +156,7 @@ Welcome to slurp's documentation!
    bucharest.md
    budapest.md
    buenos-aires.md
+   cartagena-de-indias.md
    copenhagen.md
    dharamshala.md
    dubai.md
