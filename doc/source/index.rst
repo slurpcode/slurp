@@ -168,6 +168,7 @@ Welcome to slurp's documentation!
    kyoto.md
    las-vegas.md
    lime.md
+   madrid.md
    malaga.md
    melbourne.md
    mexico-city.md
