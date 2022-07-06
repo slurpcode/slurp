@@ -150,6 +150,7 @@ Welcome to slurp's documentation!
    amsterdam.md
    andorra.md
    bangkok.md
+   beijing.md
    belfast.md
    brasilia.md
    brisbane.md
@@ -168,6 +169,7 @@ Welcome to slurp's documentation!
    kyoto.md
    las-vegas.md
    lime.md
+   london.md
    madrid.md
    malaga.md
    melbourne.md
