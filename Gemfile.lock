@@ -313,7 +313,7 @@ GEM
     octokit (4.22.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
-    paint (2.2.1)
+    paint (2.3.0)
     parallel (1.22.1)
     parser (3.1.2.0)
       ast (~> 2.4.1)
