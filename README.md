@@ -18,7 +18,7 @@
 
 [![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/master/LICENSE)
 [![This project is using Percy.io for visual regression testing](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e1f59ed4900747198ab1df798e85267c)](https://app.codacy.com/app/slurpcode/slurp?utm_source=github.com&utm_medium=referral&utm_content=slurpcode/slurp&utm_campaign=Badge_Grade_Dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4199d4805b2a473284988680cffe85db)](https://www.codacy.com/gh/slurpcode/slurp/dashboard)
 [![codebeat](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-slurpcode-slurp-master)
 [![CodeFactor](https://www.codefactor.io/repository/github/slurpcode/slurp/badge)](https://www.codefactor.io/repository/github/slurpcode/slurp)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/slurpcode/slurp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/slurpcode/slurp/alerts/)
@@ -48,9 +48,10 @@
 <!--
 [![Build Status][WorkflowBadge]][WorkflowUrl]
 -->
-[![Patreon][PatreonBadge]][PatreonUrl]
-[![Discord][DiscordBadge]][DiscordUrl]
-[![Twitter][TwitterUrl]][TwitterBadge]
+
+[![Patreon][patreonbadge]][patreonurl]
+[![Discord][discordbadge]][discordurl]
+[![Twitter][twitterurl]][twitterbadge]
 
 </div>
 
@@ -60,7 +61,7 @@
 - [charts](https://slurp.onrender.com/) - Static site built with Ruby on [Render](https://render.com/)
 - [danger](https://danger.onrender.com/) - Danger on [Render](https://render.com/)
 - [doc](https://slurp.readthedocs.io/) - Welcome to slurp’s documentation! Python, Sphinx and Markdown mainly
-- [docs](https://fuchsia.surf/) - Fuchsia Programming Jekyll website with Easter Eggs hosted on GitHub Pages with Tunes !!!
+- [docs](https://slurpcode.github.io/slurp/) - Fuchsia Programming Jekyll website with Easter Eggs hosted on GitHub Pages with Tunes !!!
 - [eclipse-cheatsheets-to-dita-to-pdf](https://slurp.readthedocs.io/en/latest/eclipse-cheatsheets-to-dita-to-pdf.html) - Eclipse cheat sheets to DITA to PDF
 - [hashcheck](https://slurp.readthedocs.io/en/latest/hashcheck.html) - Ruby script to check file checksums with the Windows CertUtil Command
 - [logorama](https://logorama.herokuapp.com/) - Logos done Rama. Hosted on Heroku Cloud Platform
@@ -123,7 +124,7 @@
 - [Nokogiri](https://nokogiri.org/) - Nokogiri is an HTML, XML, SAX, and Reader parser with ability to search documents via XPath or CSS3 selectors
 - [overcommit](https://github.com/brigade/overcommit) - A tool to manage and configure Git hooks
 - [Rubocop](https://github.com/rubocop-hq/rubocop) - RuboCop is a Ruby static code analyzer (a.k.a. linter) and code formatter
-- [Pylint](https://www.pylint.org/) - Pylint is a source-code, bug and quality checker for the Python programming language
+- [Pylint](https://pylint.pycqa.org/en/latest/) - Pylint is a source-code, bug and quality checker for the Python programming language
 - [Flake8](http://flake8.pycqa.org/en/latest/) - A tool for style guide enforcement
 - [Revive](https://revive.run/) - A fast, configurable, extensible, flexible, and beautiful linter for Go
 - [Shellcheck](https://github.com/koalaman/shellcheck) - ShellCheck is a GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts
@@ -159,7 +160,7 @@
 - [Restyled](https://restyled.io/) - Nudge your team towards consistent coding style with every Pull Request
 - [All Contributors](https://allcontributors.org/) - This is a specification for recognizing contributors to an open source project in a way that rewards each and every contribution, not just code
 - [Disqus](https://disqus.com/) - A global comment system that improves discussion on websites and connects conversations across the web
-- [CODEOWNERS](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners) - CODEOWNERS file is used to define individuals or teams that are responsible for code in a repository
+- [CODEOWNERS](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) - CODEOWNERS file is used to define individuals or teams that are responsible for code in a repository
 - [EditorConfig](https://editorconfig.org/) - EditorConfig helps maintain consistent coding styles for multiple developers working on the same project across various editors and IDEs
 - [TOML](https://en.wikipedia.org/wiki/TOML) - TOML is a file format for configuration files. It is intended to be easy to read and write due to obvious semantics which aim to be "minimal", and is designed to map unambiguously to a dictionary
 - [FileUtils](https://apidock.com/ruby/v2_6_3/FileUtils) - Namespace for several file utility methods for copying, moving, removing, etc
@@ -287,10 +288,10 @@ This project follows the
 [all-contributors](https://github.com/all-contributors/all-contributors)
 specification. Contributions of any kind welcome!
 
-[DiscordBadge]: https://img.shields.io/discord/834373930692116531?label=Discord&logo=discord&logoColor=white
-[PatreonBadge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Donelanguage%26type%3Dpledges
-[SponsorBadge]: https://camo.githubusercontent.com/da8bc40db5ed31e4b12660245535b5db67aa03ce/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d53706f6e736f72266d6573736167653d254532253944254134266c6f676f3d476974487562
-[TwitterBadge]: https://twitter.com/onelangteam
-[DiscordUrl]: https://discord.gg/sFCE2HcMCa
-[PatreonUrl]: https://patreon.com/onelanguage
-[TwitterUrl]: https://img.shields.io/twitter/follow/onelangteam.svg?style=flatl&label=Follow&logo=twitter&logoColor=white&color=1da1f2
+[discordbadge]: https://img.shields.io/discord/834373930692116531?label=Discord&logo=discord&logoColor=white
+[patreonbadge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Donelanguage%26type%3Dpledges
+[sponsorbadge]: https://camo.githubusercontent.com/da8bc40db5ed31e4b12660245535b5db67aa03ce/68747470733a2f2f696d672e736869656c64732e696f2f7374617469632f76313f6c6162656c3d53706f6e736f72266d6573736167653d254532253944254134266c6f676f3d476974487562
+[twitterbadge]: https://twitter.com/onelangteam
+[discordurl]: https://discord.gg/sFCE2HcMCa
+[patreonurl]: https://patreon.com/onelanguage
+[twitterurl]: https://img.shields.io/twitter/follow/onelangteam.svg?style=flatl&label=Follow&logo=twitter&logoColor=white&color=1da1f2

@@ -149,31 +149,41 @@ Welcome to slurp's documentation!
    amman.md
    amsterdam.md
    andorra.md
+   bangkok.md
+   beijing.md
    belfast.md
    brasilia.md
    brisbane.md
    bucharest.md
    budapest.md
    buenos-aires.md
+   cartagena-de-indias.md
    copenhagen.md
    dharamshala.md
    dubai.md
+   frankfurt.md
    hawaii.md
+   hong-kong.md
    hongkong.md
    ibiza.md
    istanbul.md
    kyoto.md
    las-vegas.md
+   lime.md
+   london.md
+   madrid.md
    malaga.md
    melbourne.md
    mexico-city.md
    moscow.md
    newcastle.md
+   nice.md
    paris.md
    pattaya.md
    prescott.md
    tokyo.md
    venice.md
+   washington.md
    zurich.md
 
 .. toctree::
@@ -305,6 +315,7 @@ Welcome to slurp's documentation!
    india-wins-bid-hosting-chess-olympiad.md
    jan-krzysztof-duda-wins-oslo-esports-cup-ahead-of-magnus-and-other-top-grandmasters.md
    mikhail_tal.md
+   no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board.md
    richard-rapport-wins-the-second-leg-of-grand-prix.md
    should-chess-be-added-in-academics.md
    tata-steel-chess-wijk-aan-zee-2022.md
@@ -315,7 +326,10 @@ Welcome to slurp's documentation!
    :caption: Tennis
    :maxdepth: 2
 
+   the-australian-open.md
    roland-garros.md
+   the-wimbledon-championships.md
+   the-us-open.md
 
 .. toctree::
    :caption: Movies
