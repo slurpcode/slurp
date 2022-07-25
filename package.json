@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "markdownlint": "^0.26.0",
+    "markdownlint": "^0.26.1",
     "surge": "0.24.0-rc.13"
   },
   "devDependencies": {},
