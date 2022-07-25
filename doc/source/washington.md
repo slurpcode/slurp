@@ -1,4 +1,4 @@
-# Washington
+# 🏢 Washington
 
 Washington is the capital of the United States and unlike other capitals in the world, it is not exactly the largest city in the country, nor is it even one of the most touristic. This does not imply that there are few things to see in Washington DC, but the contrast is very strong when comparing this city with its neighbor New York, since it is much quieter and full of history.
 
