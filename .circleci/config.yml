@@ -37,7 +37,7 @@ jobs:
       - run:
           name: 🧹 Run Flake8
           command: |
-            flake8 --ignore=E501 --exclude=venv
+            flake8 --config=".github/linters/.flake8"
       - run:
           name: 🏗️ Update npm
           command: "sudo npm install -g npm@latest"
