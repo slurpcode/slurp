@@ -80,10 +80,10 @@ repos:
         name: Check YAML files with yamllint
         entry: yamllint --strict -c .github/linters/.yaml-lint.yml .
         types: [yaml]
-  # - repo: https://github.com/PyCQA/bandit
-  #  rev: 1.7.0
-  #  hooks:
-  #    - id: bandit
+  - repo: https://github.com/PyCQA/bandit
+    rev: 1.7.4
+    hooks:
+      - id: bandit
   - repo: https://gitlab.com/pycqa/flake8
     rev: 3.9.2
     hooks:
