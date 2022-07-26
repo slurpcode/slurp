@@ -4,7 +4,7 @@ on: [pull_request]
 
 jobs:
   build:
-    name: GitHub Super Linter
+    name: GitHub Super-Linter
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
@@ -22,6 +22,7 @@ jobs:
           # VALIDATE_EDITORCONFIG: true
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
+          VALIDATE_PYTHON_FLAKE8: true
           VALIDATE_YAML: true
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main

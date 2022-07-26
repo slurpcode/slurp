@@ -1,11 +1,11 @@
 module github.com/slurpcode/slurp
 
-go 1.17
+go 1.18
 
 require (
 	github.com/gocolly/colly/v2 v2.1.0
 	github.com/spf13/pflag v1.0.5
-	github.com/urfave/cli/v2 v2.10.3
+	github.com/urfave/cli/v2 v2.11.1
 )
 
 require (

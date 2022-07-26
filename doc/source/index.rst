@@ -171,6 +171,7 @@ Welcome to slurp's documentation!
    las-vegas.md
    lime.md
    london.md
+   madrid.md
    malaga.md
    melbourne.md
    mexico-city.md
