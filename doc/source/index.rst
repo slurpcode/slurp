@@ -170,6 +170,7 @@ Welcome to slurp's documentation!
    kyoto.md
    las-vegas.md
    lime.md
+   lisbon.md
    london.md
    madrid.md
    malaga.md
