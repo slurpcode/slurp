@@ -39,7 +39,7 @@ preserved in Europe, in the surroundings there is also the beautiful
 Church of St. Alban and the Gefion fountain, which you should not miss
 to lose.
 
-![The little Mermaid](_static/images/copenhagen//the-little-mermaid.jpeg)
+![The little Mermaid](_static/images/copenhagen/the-little-mermaid.jpeg)
 
 ## Christiania
 
