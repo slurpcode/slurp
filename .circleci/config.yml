@@ -121,7 +121,7 @@ jobs:
       - run:
           name: 🧹 Run well formed
           command: |
-            bundle exec well-formed/well_formed.rb -p . || exit 1
+            bundle exec well-formed/well_formed.rb -p assets/cheatsheets-xml-test-data || exit 1
 
   built-in-datatypes:
     docker:
