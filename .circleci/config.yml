@@ -198,7 +198,7 @@ jobs:
           # Read about caching dependencies: https://circleci.com/docs/2.0/caching/
           keys:
             - v1-pkg-cache
-      - run: go install github.com/mgechev/revive
+      - run: go install github.com/mgechev/revive@latest
       - run:
           name: 🧹 Run Golang revive lint
           command: |
