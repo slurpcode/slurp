@@ -402,7 +402,7 @@ We can then say that the null hypothesis is rejected, when the alternative hypot
 
 To find `T (α, n)` we go to the Table of critical values of the Wilcoxon T test for a single tail, with a significance of 0.01 and a value of n = 10
 
-![chart6](_static/images/free-distribution-testing/chart 6.jpg)
+![chart6](_static/images/free-distribution-testing/chart6.jpg)
 
 By tables we obtain that T (α, n) = 5, if we compare this value with that obtained from the Tcal we have:
 
