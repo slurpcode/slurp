@@ -170,6 +170,7 @@ Welcome to slurp's documentation!
    kyoto.md
    las-vegas.md
    lime.md
+   lisbon.md
    london.md
    madrid.md
    malaga.md
@@ -195,6 +196,7 @@ Welcome to slurp's documentation!
    kenya.md
    scotland.md
    turkey.md
+   tanzania.md
 
 .. toctree::
    :caption: Notable Locations
