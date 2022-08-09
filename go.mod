@@ -1,6 +1,6 @@
 module github.com/slurpcode/slurp
 
-go 1.18
+go 1.19
 
 require (
 	github.com/gocolly/colly/v2 v2.1.0
