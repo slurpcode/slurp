@@ -195,8 +195,8 @@ Welcome to slurp's documentation!
    jordan.md
    kenya.md
    scotland.md
-   turkey.md
    tanzania.md
+   turkey.md
 
 .. toctree::
    :caption: Notable Locations
