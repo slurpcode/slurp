@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "markdownlint": "^0.26.2",
-    "surge": "0.24.0-rc.13"
+    "surge": "0.24.0-rc.15"
   },
   "devDependencies": {},
   "scripts": {
