@@ -1,6 +1,6 @@
 # 💎 Ruby
 
-![Ruby is...](_static/images/ruby-is.png)
+![Ruby is...](_static/images/ruby/ruby-is.png)
 
 ## Ruby a programmer's best friend
 

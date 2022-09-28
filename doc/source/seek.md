@@ -1,6 +1,6 @@
 # 🚀 Seek
 
-![scrape](_static/images/scrape-jobs.png)
+![scrape](_static/images/seek/scrape-jobs.png)
 
 ## When you need those jobs hypersonic -> seek 🚀
 

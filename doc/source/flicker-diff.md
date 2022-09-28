@@ -31,4 +31,4 @@ cd test_files\pdf
 wdiff <(pdftotext old/filename.pdf -) <(pdftotext new/filename.pdf -) | colordiff | grep -C 3 '\[-' > colordiff-output.txt
 ```
 
-![dwdiff custom colordiff](_static/images/custom-colordiff.png)
+![dwdiff custom colordiff](_static/images/flicker-diff/custom-colordiff.png)

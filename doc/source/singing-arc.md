@@ -14,7 +14,7 @@ When Duddell exhibited his invention to the London institution of Electrical Eng
 
 “All three arcs were found to be supplied with current from the street mains, and it was clear that this main current had been varied in such a way by Mr. Duddell’s keyboard as to reproduce in the two other laboratories the tunes which he supposed he was playing only to his audience in the lecture room…This obviously meant that by playing on one properly arranged keyboard tunes could be reproduced in a number of different arcs and at a distance from the musician.“
 
-![Complete Apparatus for Experiments with the speaking Arc Lamp after Weinfold](_static/images/singing-arc.png)
+![Complete Apparatus for Experiments with the speaking Arc Lamp after Weinfold](_static/images/singing-arc/singing-arc.png)
 
 The carbon arc lamp’s audio capabilities were also used by Thaddeus Cahill to amplify the sound produced by his Telharmonium during his public demonstrations of the instrument some ten years later – a direct ancestor of today’s plasma-loudspeaker. In the 1930s Wolja Saraga experimented with spark-gap sound with his Saraga Generator.
 

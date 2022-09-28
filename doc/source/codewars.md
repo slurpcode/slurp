@@ -2,7 +2,7 @@
 
 ## Achieve mastery through challenge
 
-![Bruce Lee](_static/images/bruce-lee.png)
+![Bruce Lee](_static/images/codewars/bruce-lee.png)
 
 ## Go
 
