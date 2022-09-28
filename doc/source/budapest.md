@@ -4,10 +4,9 @@ Budapest is the capital of Hungary and is made up of the union of two
 cities, Buda and Pest, which are separated by the Danube River. Also
 known as the pearl of the Danube, this city is surrounded by historical
 monuments and imposing buildings such as the Parliament and the Chain
-Bridge, as well as well-kept parks, historic cafes and fantastic spas. <br> <br>
+Bridge, as well as well-kept parks, historic cafes and fantastic spas.
 
 ![budapest](_static/images/budapest/budapest.jpg)
-<br> <br>
 
 We will give you a guide to the most important sites that the city
 offers you, so that if you visit it, do not miss these experiences.
@@ -18,10 +17,10 @@ The Parliament is one of the emblematic sites of the city that impresses
 with its neo-Gothic façade, its interior is decorated with marble and
 gold, its most outstanding sites being the main staircase, the Old Upper
 Chamber and where the crown of Saint Stephen is kept ( his most precious
-treasure) which is in the Dome Room.<br><br>
+treasure) which is in the Dome Room.
 
 ![Budapest Parliament](_static/images/budapest/budapest-parliament.jpg)
-<br><br>
+
 Leaving the parliament you can go to see the monument Shoes on the
 Danube, which was built in memory of the Jews killed during the Second
 World War.
@@ -32,9 +31,9 @@ The Chain Bridge is one of the most beautiful in the world, presided
 over by two lions and unites the Buda and Pest districts. You can get
 the best views of the bridge from the bank of the Pest where there is a
 place with benches to sit, if you go at night you can see the Buda
-castle and the illuminated bridge, it is quite an experience.<br><br>
+castle and the illuminated bridge, it is quite an experience.
 
-![Chain bridge](_static/images/budapest/chain-bridge.jpg)<br><br>
+![Chain bridge](_static/images/budapest/chain-bridge.jpg)
 
 ## Vaci Utca
 
@@ -43,7 +42,7 @@ the city, it begins in the beautiful Vorosmarty square where you will
 always see a good atmosphere and several places to have a drink. You can
 also buy a cupcake at the famous Gerbeaud Patisserie and browse the
 shops until you reach the Central Market, which is the largest covered
-market in Hungary and has plenty of stalls selling fresh local produce.<br><br>
+market in Hungary and has plenty of stalls selling fresh local produce.
 
 At sunset you can go to see the sunset on the Liberty Bridge, where you
 will have one of the best views of the Danube.
@@ -54,16 +53,16 @@ Crossing the Liberty Bridge you will arrive at the Gellert Hotel and its
 spa is considered one of the most beautiful in the world. It is
 impressive to see its spectacular swimming pool surrounded by statues
 and marble columns in the classic style. In addition to the pool you can
-enjoy its thermal baths, saunas and massages.<br><br>
+enjoy its thermal baths, saunas and massages.
 
-![Gellert Spa](_static/images/budapest/gellert-spa.jpg)<br><br>
+![Gellert Spa](_static/images/budapest/gellert-spa.jpg)
 
 ## Historic cafes
 
 The Café Central was a meeting place for writers, poets and
 intellectuals and its decoration recalls those golden times at the
 beginning of the 20th century, where you can order a coffee or a
-chocolate accompanied by a delicious cake.<br><br>
+chocolate accompanied by a delicious cake.
 
 Inside the Boscolo Budapest hotel is another of the most beautiful
 historic cafes called New York Café, although it is true that the cafe
@@ -84,7 +83,7 @@ the Jews killed in World War II.
 
 The ruins bars are sites abandoned during the Nazi occupation and these
 ruins were rented or bought by young people, transforming them with
-recycled materials and obtaining a completely original decoration.<br><br>
+recycled materials and obtaining a completely original decoration.
 
 The Ruin Bar Koleves is one of the best places to taste typical
 Hungarian dishes such as knuckle, duck or the famous goulash. The other
@@ -147,7 +146,7 @@ in the 14th century and inside is the Budapest History Museum, the
 Hungarian National Gallery and the Széchenyi Library. In the event that
 you go up by funicular, the recommendation is to go down on foot to
 enjoy fantastic views of the Chain Bridge, the picturesque alleys and
-the shops that surround it.<br><br>
+the shops that surround it.
 
 Budapest an interesting city to know and visit!
 
