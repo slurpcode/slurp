@@ -323,6 +323,4 @@ workflows:
           filters:
             branches:
               only: master
-      - spider:
-          requires:
-            - build
+      - spider
