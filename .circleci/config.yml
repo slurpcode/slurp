@@ -294,7 +294,6 @@ jobs:
             cd scrapers/python/scrapy/github
             scrapy runspider spider.py -a username=ihasidul
 
-
 workflows:
   version: 2
   build-deploy:
