@@ -176,12 +176,14 @@ Welcome to slurp's documentation!
    malaga.md
    melbourne.md
    mexico-city.md
+   montevideo.md
    moscow.md
    newcastle.md
    nice.md
    paris.md
    pattaya.md
    prescott.md
+   santiago-de-chile.md
    saragossa.md
    tokyo.md
    venice.md
