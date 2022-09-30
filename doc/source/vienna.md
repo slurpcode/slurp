@@ -53,8 +53,7 @@ addition to countless old books there are beautiful frescoes in its
 dome, several marble statues and a couple of fantastic globes, one
 terrestrial and one celestial.
 
-![Austrian National Library](_static/images/vienna/image3.jpg){width="3.4241283902012247in"
-height="2.2737587489063866in"}
+![Austrian National Library](_static/images/vienna/image3.jpg)
 
 ## Spanish Riding School
 
