@@ -184,6 +184,7 @@ Welcome to slurp's documentation!
    prescott.md
    tokyo.md
    venice.md
+   vienna.md
    washington.md
    zurich.md
 
