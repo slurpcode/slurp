@@ -37,7 +37,7 @@ still preserves some shots from the coup plotters on its facades. You
 can visit the "Patio de los Cañones", the patio of the Naranjos and the
 Canelo.
 
-![The Coin Palace](_static/images//santiago-de-chile/image2.jpeg)
+![The Coin Palace](_static/images/santiago-de-chile/image2.jpeg)
 
 ## The San Cristobal hill
 
