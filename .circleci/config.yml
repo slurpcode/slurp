@@ -286,17 +286,11 @@ workflows:
       - built-in-datatypes
       - csv-lint
       - go-test
+      - php
+      - shell
       - shellcheck
       - spelling
       - well-formed
-      - php
-      - shell:
-          requires:
-            - build
-            - built-in-datatypes
-            - csv-lint
-            - go-test
-            - shellcheck
       - surge:
           requires:
             - build
@@ -306,4 +300,4 @@ workflows:
             - shellcheck
           filters:
             branches:
-              only: master
+              only: main
