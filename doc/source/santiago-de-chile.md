@@ -63,7 +63,7 @@ hand, this hill was where the conqueror Pedro de Valdivia founded the
 city in 1541 and there is a stone with an extract of the letter written
 by Valdivia to Carlos V of Spain.
 
-![Santa Lucia Hill](_static/images//santiago-de-chile/image3.jpeg)
+![Santa Lucia Hill](_static/images/santiago-de-chile/image3.jpeg)
 
 Castillo Hidalgo photo taken by Carolina Sanchez
 
