@@ -41,8 +41,7 @@ concentrated in its many rooms, including the Imperial Chapel, the
 Church, the Treasure Chamber and the Sisi Museum, where you will learn a
 little about the history of this controversial character.
 
-![Hofburg Palace](_static/images/vienna/image2.jpg){width="3.9178543307086615in"
-height="1.9944017935258094in"}
+![Hofburg Palace](_static/images/vienna/image2.jpg)
 
 ## Austrian National Library
 
