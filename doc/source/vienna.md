@@ -135,8 +135,7 @@ and in the Lower Belvedere you can marvel at the Hall of Mirrors, the
 Hall of Grotesques, the Gallery de Mármol and La Orangery (a beautiful
 greenhouse).
 
-![Belvedere Palace](_static/images/vienna/image4.jpg){width="3.9504943132108488in"
-height="2.2182042869641294in"}
+![Belvedere Palace](_static/images/vienna/image4.jpg)
 
 ## Prater
 
