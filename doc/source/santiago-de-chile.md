@@ -6,7 +6,7 @@ are preserved from the Spanish colonial era, you can see the city from
 the viewpoints, enjoy the most bohemian neighborhoods and relax in any
 of its parks.
 
-![Santiago de Chile](_static/images//santiago-de-chile/image1.jpeg)
+![Santiago de Chile](_static/images/santiago-de-chile/image1.jpeg)
 
 This article will take you by the hand to recommend the essential places
 you should visit if you want to get to know this wonderful city.
