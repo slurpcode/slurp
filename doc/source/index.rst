@@ -182,6 +182,7 @@ Welcome to slurp's documentation!
    paris.md
    pattaya.md
    prescott.md
+   saragossa.md
    tokyo.md
    venice.md
    washington.md
