@@ -186,6 +186,7 @@ Welcome to slurp's documentation!
    santiago-de-chile.md
    tokyo.md
    venice.md
+   vienna.md
    washington.md
    zurich.md
 
