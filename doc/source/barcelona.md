@@ -33,7 +33,7 @@ FC Barcelona certainly has its unique characteristics, as demonstrated by its su
 
 The city of Barcelona sits on the Mediterranean coast, surrounded by mountains that form the province of Catalonia. 
 
-![Barcelona climate](_static/images/barcelona/climate.jpg)
+![Mediterranean coast](_static/images/barcelona/climate.jpg)
 
 The Mediterranean’s climate, with warm sunny days and cool nights in winter, explains the abundant greenery throughout most of the year. The climate is cooler at night from December to March, but even then, it rarely snows.
 Because of the city’s moderate temperature, residents spend a lot of time outside, from dining al fresco at outdoor restaurants and pubs to hiking or biking in the neighboring mountains. 
@@ -51,7 +51,7 @@ Along with the music festivals, each city’s seventy-two wards has a Festa Majo
 
 The city of Barcelona is renowned worldwide for its magnificent coastline. The city has a long, wild beach known as La Barceloneta. The Barceloneta is a highly famous beach in Barcelona, and it becomes quite crowded on weekends because of its easily accessible position. People come here to sunbathe and drink at one of the beachside bars and cafés or have a feast at one of the seafood restaurants in the neighboring tiny alleys. 
 
-![Barcelona beaches](_static/images/barcelona/beaches.jpg) 
+![Barcelona Beaches](_static/images/barcelona/beaches.jpg) 
 
 ## About the Author 
 
