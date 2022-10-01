@@ -32,7 +32,6 @@ This tower is 468 meters high and offers you an excellent view over the historic
 
 ![The Oriental Pearl Tower](_static/images/shanghai/the-oriental-pearl-tower.jpg)
 
-
 ## Shopping on Nanjing Road
 
 Nanjing Road in the main commercial street in Shanghai where you can find from street vendors to luxurious boutiques, there you can find typical Chinese souvenirs and large shopping centers such as Yibai and Jiubai. It is also home to many cinemas, restaurants and is also the center of street performances in the city.
