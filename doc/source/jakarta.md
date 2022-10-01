@@ -53,6 +53,7 @@ Jakarta not only has a Chinatown like any big city worth its salt, but it has se
 ## Gastronomy in Indonesia
 
 For lovers of gastronomy, Jakarta offers you a whole range of traditional dishes, among which are: fried noodles (mie goreng), fried rice (nasi goreng), pichitos that are known as satay and chicken soup (soto ayam). In order to find this type of traditional food, you must go to a warung, which is a typical local food restaurant. Prices range between one and two euros, the portions being quite abundant and depending on the island you are on, both the dishes and the ingredients will vary. For example, on those islands where the majority of the population is Muslim, as in this case, it is very difficult to find dishes that include pork. But if you head to Bali or Flores (where most of the people are Catholic), you will be able to find a delicious pork dish more often.
+
 Jakarta is an excellent option to get to know a different culture and offers you a wide range of interesting places to visit.
 
 ## About the Author
