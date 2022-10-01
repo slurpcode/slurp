@@ -1,4 +1,4 @@
-# Rio de Janeiro
+# 🇧🇷 Rio de Janeiro
 
 Rio de Janeiro is one of the most colorful cities in Brazil, famous for its tremendous carnivals and is a destination as diverse as it is fascinating. It is the second city with the largest population and the most touristic in the country, known throughout the world for its cultural and sports icons, its landscapes and its passion for life.
 
