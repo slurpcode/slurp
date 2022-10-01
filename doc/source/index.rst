@@ -154,6 +154,7 @@ Welcome to slurp's documentation!
    belfast.md
    brasilia.md
    brisbane.md
+   brussels.md
    bucharest.md
    budapest.md
    buenos-aires.md
