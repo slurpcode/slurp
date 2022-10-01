@@ -30,7 +30,7 @@ Longhua Temple is one of the oldest religious sites in China and stands next to 
 
 This tower is 468 meters high and offers you an excellent view over the historic Bund Promenade, its name is due to 11 spheres of various sizes, the tallest of them being the Spatial Module where the outer shell and the floor are of glass. The tower offers you 15 observation areas, including a revolving restaurant with an excellent panoramic view.
 
-![The Oriental Pearl Tower](_static/images/shanghai/the-Oriental-Pearl-Tower.jpg)
+![The Oriental Pearl Tower](_static/images/shanghai/the-oriental-pearl-tower.jpg)
 
 
 ## Shopping on Nanjing Road
@@ -53,7 +53,7 @@ Xujiahui Cathedral is the largest Catholic site in Shanghai with a pair of 50-me
 
 This museum is the largest of its kind in all of China, where you can find many interactive multimedia exhibits, state-of-the-art science, permanent exhibits, exhibits of animals native to the region, robotics, space travel exhibits, the Shanghai Aquarium with a 120-meter transparent tunnel capable of providing a close-up view of the region's marine fauna and the Shanghai Zoo, with a large collection of species including South China tigers and giant pandas.
 
-![Shanghai Science and Technology Museum](_static/images/shanghai/shanghai-Science-and-Technology-Museum.jpg)
+![Shanghai Science and Technology Museum](_static/images/shanghai/shanghai-science-and-technology-museum.jpg)
 
 ## The Chinese Art Museum
 
@@ -63,6 +63,6 @@ It is the largest gallery in Asia and houses the most important works of modern 
 
 The Maglev is a train line that operates at high speed by means of magnetic levitation, it is the fastest transport service in the world and reaches a speed of up to 431 km/h, traveling the 30-kilometer stretch that goes from the Pudong International Airport to Longyand Road Station in about 7 minutes.
 
-![The Maglev](_static/images/shanghai/the-Maglev.jpg)
+![The Maglev](_static/images/shanghai/the-maglev.jpg)
 
 Shanghai, a modern city full of interesting places to visit!
