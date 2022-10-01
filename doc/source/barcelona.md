@@ -36,7 +36,7 @@ The city of Barcelona sits on the Mediterranean coast, surrounded by mountains t
 ![Mediterranean coast](_static/images/barcelona/climate.jpg)
 
 The Mediterranean’s climate, with warm sunny days and cool nights in winter, explains the abundant greenery throughout most of the year. The climate is cooler at night from December to March, but even then, it rarely snows.
-Because of the city’s moderate temperature, residents spend a lot of time outside, from dining al fresco at outdoor restaurants and pubs to hiking or biking in the neighboring mountains. 
+Because of the city’s moderate temperature, residents spend a lot of time outside, from dining al fresco at outdoor restaurants and pubs to hiking or biking in the neighboring mountains.
 
 ## Festivals and Street Parties
 
