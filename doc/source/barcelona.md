@@ -40,7 +40,7 @@ Because of the city’s moderate temperature, residents spend a lot of time outs
 
 ## Festivals and Street Parties
 
-Apart from sports and architecture, the city of Barcelona is renowned for being one of the most energetic and active cities globally. The city has a range of festivals and carnival-style street festivities throughout the year, derived from traditions. 
+Apart from sports and architecture, the city of Barcelona is renowned for being one of the most energetic and active cities globally. The city has a range of festivals and carnival-style street festivities throughout the year, derived from traditions.
 The city hosts several significant music events throughout the summer, including Primavera Sound, Sonar Festival, Cruella, and Rock Fest Barcelona. Festival lineups feature the biggest stars in the music business and draw up to 200,000 people to the city.
 
 ![Barcelona festivals](_static/images/barcelona/festival.jpg) 
