@@ -5,6 +5,7 @@ Jakarta is the capital of Indonesia and its most populous city, it is located on
 ![Jakarta](_static/images/jakarta/jakarta.png)
 
 Jakarta attracts a large number of foreign tourists as the economic and political capital of Indonesia, as well as being the fourth most populous city in the world. It is a very cosmopolitan city with a diversity of cultures, since a large part of the city's immigrants come from different parts of the island of Java and this leads to a mixture of dialects between the Sundanese and Javanese languages, in addition to their own types of food and typical customs. 86% of the inhabitants are Muslims almost all of the Sunni side and practice a particular form of Islam called Abangan.
+
 In Jakarta there is no way to get bored and we are going to show you the most emblematic places in the city that you cannot miss.
 
 ## Kota Kua
