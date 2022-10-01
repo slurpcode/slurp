@@ -198,6 +198,7 @@ Welcome to slurp's documentation!
    jordan.md
    kenya.md
    scotland.md
+   stockholm.md
    tanzania.md
    turkey.md
 
