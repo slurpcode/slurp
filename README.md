@@ -1,11 +1,5 @@
 # slurp
 
-<!-- prettier-ignore-start -->
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-45-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-<!-- prettier-ignore-end -->
-
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Fslurpcode.github.io%2Fslurp)](https://slurpcode.github.io/slurp)
 [![Logorama](https://img.shields.io/website?label=heroku&url=https%3A%2F%2Flogorama.herokuapp.com%2F)](https://logorama.herokuapp.com/)
 [![Slurp - Read the Docs](https://img.shields.io/website?label=read%20the%20docs&url=https%3A%2F%2Fslurp.readthedocs.io%2F)](https://slurp.readthedocs.io/)
@@ -206,87 +200,6 @@
 The original **`Fuchsia`** Programming on Heroku
 
 [https://fuchsia.herokuapp.com/](https://fuchsia.herokuapp.com/)
-
-## Contributors ✨
-
-Thanks goes to these wonderful people
-([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://thebeast.me/about/"><img src="https://avatars3.githubusercontent.com/u/418747?v=4?s=100" width="100px;" alt=""/><br /><sub><b>John Bampton</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/issues?q=author%3Ajbampton" title="Bug reports">🐛</a> <a href="#business-jbampton" title="Business development">💼</a> <a href="https://github.com/slurpcode/slurp/commits?author=jbampton" title="Code">💻</a> <a href="#content-jbampton" title="Content">🖋</a> <a href="https://github.com/slurpcode/slurp/commits?author=jbampton" title="Documentation">📖</a> <a href="#ideas-jbampton" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-jbampton" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-jbampton" title="Maintenance">🚧</a> <a href="#projectManagement-jbampton" title="Project Management">📆</a> <a href="#question-jbampton" title="Answering Questions">💬</a> <a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3Ajbampton" title="Reviewed Pull Requests">👀</a> <a href="#security-jbampton" title="Security">🛡️</a> <a href="#tool-jbampton" title="Tools">🔧</a> <a href="https://github.com/slurpcode/slurp/commits?author=jbampton" title="Tests">⚠️</a> <a href="#a11y-jbampton" title="Accessibility">️️️️♿️</a></td>
-    <td align="center"><a href="http://spectralapps.com.br"><img src="https://avatars1.githubusercontent.com/u/56676505?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrew </b></sub></a><br /><a href="https://github.com/slurpcode/slurp/issues?q=author%3Aspectralapps" title="Bug reports">🐛</a> <a href="https://github.com/slurpcode/slurp/commits?author=spectralapps" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.database-genius.com"><img src="https://avatars3.githubusercontent.com/u/15176414?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Preston Hunter</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=prestonhunter" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/commits?author=prestonhunter" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/sugiarto-udah-15023111"><img src="https://avatars0.githubusercontent.com/u/70807?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sugiarto</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ugifractal" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3Augifractal" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://ademhodzic.com/"><img src="https://avatars2.githubusercontent.com/u/33186580?v=4?s=100" width="100px;" alt=""/><br /><sub><b>AdemHodzic</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=AdemHodzic" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.grafixwiz.com"><img src="https://avatars2.githubusercontent.com/u/33774837?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Harley Armentrout</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=grfxwzdesigner" title="Documentation">📖</a> <a href="#design-grfxwzdesigner" title="Design">🎨</a> <a href="#ideas-grfxwzdesigner" title="Ideas, Planning, & Feedback">🤔</a> <a href="#projectManagement-grfxwzdesigner" title="Project Management">📆</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/summerhill5"><img src="https://avatars2.githubusercontent.com/u/42298149?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jorge Araica</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=summerhill5" title="Documentation">📖</a> <a href="#design-summerhill5" title="Design">🎨</a> <a href="#ideas-summerhill5" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/Karinisk"><img src="https://avatars1.githubusercontent.com/u/43111214?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karinisk</b></sub></a><br /><a href="#design-Karinisk" title="Design">🎨</a></td>
-    <td align="center"><a href="http://ndm.id.au/"><img src="https://avatars3.githubusercontent.com/u/1697199?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nicholas Meredith</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=udha" title="Documentation">📖</a> <a href="#ideas-udha" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="http://www.anish.info.np/"><img src="https://avatars3.githubusercontent.com/u/16479244?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anish Bhusal</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=anisbhsl" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/commits?author=anisbhsl" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/nbsamurai"><img src="https://avatars0.githubusercontent.com/u/5706683?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Subramani Simhachalam</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=nbsamurai" title="Documentation">📖</a> <a href="https://github.com/slurpcode/slurp/commits?author=nbsamurai" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.jimhomme.com"><img src="https://avatars2.githubusercontent.com/u/6507685?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jim Homme</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=jhomme" title="Documentation">📖</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/shravanshetty1"><img src="https://avatars2.githubusercontent.com/u/58299697?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Shravan Shetty</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=shravanshetty1" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/LeonKolyang"><img src="https://avatars1.githubusercontent.com/u/50681264?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Leon Menkreo-Kuntzsch</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=LeonKolyang" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/TJSteel"><img src="https://avatars3.githubusercontent.com/u/35134286?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jay Steel</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=TJSteel" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3ATJSteel" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://github.com/ClayLanzino"><img src="https://avatars1.githubusercontent.com/u/71577509?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Clay Lanzino</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ClayLanzino" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/natasha2016github"><img src="https://avatars0.githubusercontent.com/u/16957076?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Natasha</b></sub></a><br /><a href="#translation-natasha2016github" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://allcontributors.org"><img src="https://avatars1.githubusercontent.com/u/46410174?v=4?s=100" width="100px;" alt=""/><br /><sub><b>All Contributors</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=all-contributors" title="Documentation">📖</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://dependabot.com"><img src="https://avatars2.githubusercontent.com/u/36207117?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dependabot</b></sub></a><br /><a href="#maintenance-dependabot-bot" title="Maintenance">🚧</a> <a href="#security-dependabot-bot" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://restyled.io"><img src="https://avatars0.githubusercontent.com/u/65077583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Restyled Commits</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=restyled-commits" title="Code">💻</a></td>
-    <td align="center"><a href="https://snyk.io"><img src="https://avatars2.githubusercontent.com/u/19733683?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Snyk bot</b></sub></a><br /><a href="#maintenance-snyk-bot" title="Maintenance">🚧</a> <a href="#security-snyk-bot" title="Security">🛡️</a></td>
-    <td align="center"><a href="https://imgbot.net"><img src="https://avatars1.githubusercontent.com/u/31427850?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Imgbot</b></sub></a><br /><a href="#design-ImgBotApp" title="Design">🎨</a></td>
-    <td align="center"><a href="https://maxbase.org/"><img src="https://avatars.githubusercontent.com/u/2658040?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Max Base</b></sub></a><br /><a href="#ideas-BaseMax" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3ABaseMax" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/slurpcode/slurp/commits?author=BaseMax" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://renovatebot.com"><img src="https://avatars.githubusercontent.com/u/38656520?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Renovate Bot</b></sub></a><br /><a href="#security-renovatebot" title="Security">🛡️</a> <a href="#maintenance-renovatebot" title="Maintenance">🚧</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://houndci.com"><img src="https://avatars.githubusercontent.com/u/17184073?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hound</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/pulls?q=is%3Apr+reviewed-by%3Ahoundci" title="Reviewed Pull Requests">👀</a></td>
-    <td align="center"><a href="https://github.com/Idaaraica"><img src="https://avatars.githubusercontent.com/u/27341901?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Idaís Araica</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=Idaaraica" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://www.upwork.com/freelancers/~013dd1f9db3380689d"><img src="https://avatars.githubusercontent.com/u/81928799?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mujahid Al-Majali</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=Majalian" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://aleksandarjakovljevic.com/"><img src="https://avatars.githubusercontent.com/u/2115393?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aleksandar Jakovljevic</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ajakov" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/basalumutgazi"><img src="https://avatars.githubusercontent.com/u/81925269?v=4?s=100" width="100px;" alt=""/><br /><sub><b>basalumutgazi</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=basalumutgazi" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/soummyaah"><img src="https://avatars.githubusercontent.com/u/6349692?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Soumya Sharma</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=soummyaah" title="Documentation">📖</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/pulkitgovrani"><img src="https://avatars.githubusercontent.com/u/56475062?v=4?s=100" width="100px;" alt=""/><br /><sub><b>pulkitgovrani</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=pulkitgovrani" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/HadeerAIA"><img src="https://avatars.githubusercontent.com/u/66886721?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hadeer_Elfiky</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=HadeerAIA" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://www.widosub.com/"><img src="https://avatars.githubusercontent.com/u/86823010?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Guido F. Matis</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=wihub" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/NurbekHalikulov"><img src="https://avatars.githubusercontent.com/u/52626998?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nurbek Halikulov</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=NurbekHalikulov" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/Manasi2001"><img src="https://avatars.githubusercontent.com/u/68627617?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Manasi Chhibber</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=Manasi2001" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/devnikesh"><img src="https://avatars.githubusercontent.com/u/63302392?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nikesh Shrestha</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=devnikesh" title="Documentation">📖</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://tinyurl.com/ayushr"><img src="https://avatars.githubusercontent.com/u/43984189?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ayush  Rana</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ayushrana182" title="Documentation">📖</a> <a href="https://github.com/slurpcode/slurp/commits?author=ayushrana182" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/smriad"><img src="https://avatars.githubusercontent.com/u/21966124?v=4?s=100" width="100px;" alt=""/><br /><sub><b>S. M. Riad</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=smriad" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/commits?author=smriad" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/sbhatm1213"><img src="https://avatars.githubusercontent.com/u/20096270?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sbhatm1213</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=sbhatm1213" title="Code">💻</a> <a href="https://github.com/slurpcode/slurp/commits?author=sbhatm1213" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://discord.gg/sFCE2HcMCa"><img src="https://avatars.githubusercontent.com/u/20361754?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Beast</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=johnbampton" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/eminarium"><img src="https://avatars.githubusercontent.com/u/8333184?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Merdan Durdiyev</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=eminarium" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://bandism.net/"><img src="https://avatars.githubusercontent.com/u/22633385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ikko Ashimine</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=eltociear" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/baileybussiere"><img src="https://avatars.githubusercontent.com/u/41208911?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Bailey Bussiere</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=baileybussiere" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/HussnainQuresshi"><img src="https://avatars.githubusercontent.com/u/36919616?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hussnain</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=HussnainQuresshi" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/ihasidul"><img src="https://avatars.githubusercontent.com/u/32800356?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Hasidul Islam</b></sub></a><br /><a href="https://github.com/slurpcode/slurp/commits?author=ihasidul" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the
-[all-contributors](https://github.com/all-contributors/all-contributors)
-specification. Contributions of any kind welcome!
 
 [discordbadge]: https://img.shields.io/discord/834373930692116531?label=Discord&logo=discord&logoColor=white
 [patreonbadge]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Donelanguage%26type%3Dpledges
