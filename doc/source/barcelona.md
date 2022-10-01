@@ -47,7 +47,7 @@ The city hosts several significant music events throughout the summer, including
 
 Along with the music festivals, each city’s seventy-two wards has a Festa Major. These neighborhood fiestas feature street parties, parades, competitions for human towers, fire races, and fireworks displays.
 
-## Mediterranean Beaches 
+## Mediterranean Beaches
 
 The city of Barcelona is renowned worldwide for its magnificent coastline. The city has a long, wild beach known as La Barceloneta. The Barceloneta is a highly famous beach in Barcelona, and it becomes quite crowded on weekends because of its easily accessible position. People come here to sunbathe and drink at one of the beachside bars and cafés or have a feast at one of the seafood restaurants in the neighboring tiny alleys. 
 
