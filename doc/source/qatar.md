@@ -18,7 +18,6 @@ In Doha there is also the Museum of Islamic Art, which is the main institution w
 
 ![Doha museum](_static/images/qatar/doha-museum.png)
 
-
 ## National Museum of Qatar
 
 The National Museum of Qatar is another of the wonderful cultural spaces and its building, which was designed by the French architect Jean Nouvel, is really another work of art. The museum was inaugurated in 2019 and the tour of its rooms is an enriching experience, since it has various artists and themes where you can see the traditions of the locals. In addition to being able to observe a pleasant account of the accelerated change and modernization of this great country.
