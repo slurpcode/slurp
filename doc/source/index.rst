@@ -186,6 +186,7 @@ Welcome to slurp's documentation!
    prescott.md
    santiago-de-chile.md
    saragossa.md
+   shanghai.md
    stockholm.md
    tokyo.md
    venice.md
