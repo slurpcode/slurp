@@ -4,7 +4,7 @@ The world gives us the opportunity to discover fantastic destinations where some
 Qatar is a sovereign Arab state that is located in western Asia and has a single border with Saudi Arabia, since the rest of the territory is bathed by the waters of the Persian Gulf. This country has the third largest natural gas reserve in the world and that is why Qatar has the highest per capita income in the world, and is also the nineteenth most peaceful country on the planet.
 Currently this country is internationally recognized as a tourist destination that not only has endless luxurious spaces, an architecture that intertwines cultural roots with the latest trends and without a doubt there is much to see in Qatar, if you visit we are going to name the most important sites and that you should not miss.
 
-![qatar](_static/images/qatar/qatar.png)
+![Qatar](_static/images/qatar/qatar.png)
 
 ## Katara Cultural Village
 
