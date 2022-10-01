@@ -31,7 +31,7 @@ FC Barcelona certainly has its unique characteristics, as demonstrated by its su
 
 ## Location and Climate
 
-The city of Barcelona sits on the Mediterranean coast, surrounded by mountains that form the province of Catalonia. 
+The city of Barcelona sits on the Mediterranean coast, surrounded by mountains that form the province of Catalonia.
 
 ![Mediterranean coast](_static/images/barcelona/climate.jpg)
 
