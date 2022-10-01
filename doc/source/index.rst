@@ -184,6 +184,7 @@ Welcome to slurp's documentation!
    pattaya.md
    prescott.md
    santiago-de-chile.md
+   stockholm.md
    tokyo.md
    venice.md
    vienna.md
