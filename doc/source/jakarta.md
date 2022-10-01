@@ -19,6 +19,7 @@ This cafeteria was built at the beginning of the 19th century and is one of the 
 ## The Great Istiqlal Mosque
 
 Indonesia is known for being the country with the largest number of Muslims in the world, so it is likely that on your trip, more than one night you will be woken up by the sound of a nearby mosque with its call to prayer. One of the most important temples in the world for Muslims is the Great Istiqlal Mosque and of course, it is the most important mosque in the country, being visited by approximately 120,000 people each year and where it is filled with faithful to pray when the day ends. Ramadan.
+
 If you do not practice religion, you can access the second floor in order to see the faithful, without interfering with the prayer.
 
 ![The Great Istiqlal Mosque](_static/images/jakarta/the-great-istiqlal-mosque.png)
