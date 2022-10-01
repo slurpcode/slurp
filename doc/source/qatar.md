@@ -46,7 +46,8 @@ Doha Golf Club is another of the places you should visit in Qatar. If you are a 
 
 Aqua Park Qatar is a place where you can have fun with the whole family, especially if you have children. This park has multiple water attractions, giant slides, pools of all kinds and endless activities that will not leave you wanting to leave this fabulous park. It is by far one of the most fun-filled adventures you can enjoy in this great country.
 
+Qatar, a little piece of heaven in the world!!!
+
 ## About the Author
 
 Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. She likes poetry, chess and dominoes.
-Qatar, a little piece of heaven in the world!!!
