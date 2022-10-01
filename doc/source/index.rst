@@ -187,6 +187,7 @@ Welcome to slurp's documentation!
    qatar.md
    santiago-de-chile.md
    saragossa.md
+   shanghai.md
    stockholm.md
    tokyo.md
    venice.md
