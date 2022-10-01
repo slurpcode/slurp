@@ -184,6 +184,7 @@ Welcome to slurp's documentation!
    paris.md
    pattaya.md
    prescott.md
+   qatar.md
    santiago-de-chile.md
    saragossa.md
    stockholm.md
