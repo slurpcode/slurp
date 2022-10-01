@@ -51,7 +51,7 @@ Along with the music festivals, each city’s seventy-two wards has a Festa Majo
 
 The city of Barcelona is renowned worldwide for its magnificent coastline. The city has a long, wild beach known as La Barceloneta. The Barceloneta is a highly famous beach in Barcelona, and it becomes quite crowded on weekends because of its easily accessible position. People come here to sunbathe and drink at one of the beachside bars and cafés or have a feast at one of the seafood restaurants in the neighboring tiny alleys.
 
-![Barcelona beaches](_static/images/barcelona/beaches.jpg) 
+![Barcelona beaches](_static/images/barcelona/beaches.jpg)
 
 ## About the Author 
 
