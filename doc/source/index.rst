@@ -169,6 +169,7 @@ Welcome to slurp's documentation!
    hongkong.md
    ibiza.md
    istanbul.md
+   jakarta.md
    kyoto.md
    las-vegas.md
    lime.md
@@ -185,8 +186,10 @@ Welcome to slurp's documentation!
    paris.md
    pattaya.md
    prescott.md
+   rio-de-janeiro.md
    santiago-de-chile.md
    saragossa.md
+   shanghai.md
    stockholm.md
    tokyo.md
    venice.md
@@ -201,6 +204,7 @@ Welcome to slurp's documentation!
    greece.md
    jordan.md
    kenya.md
+   qatar.md
    scotland.md
    tanzania.md
    turkey.md

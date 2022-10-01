@@ -1,6 +1,7 @@
 # 🇸🇪 Stockholm
 
 Stockholm is the capital of Sweden and is made up of 14 islands, it is one of the most beautiful and surprising cities in Europe. Located in an archipelago with more than 24,000 islands bathed by the North Seas, this Baltic capital is known as the Venice of the North for its large number of canals.
+
 Stockholm is a cosmopolitan city that falls in love at first sight, with a historic center full of charming corners, it has fantastic museums and perfectly maintained parks.
 
 ![Stockholm](_static/images/stockholm/stockholm.png)
@@ -74,6 +75,7 @@ Södermalm is located on an island of the same name and is a bohemian neighborho
 ## Sergel Square
 
 This original square has the Kulturhuset, which is a cultural center full of galleries, bars and interesting activities at all hours, as well as a fountain and a spectacular glass obelisk.
+
 Stockholm is an especially beautiful city full of interesting things to do and places to see.
 
 ## About the Author

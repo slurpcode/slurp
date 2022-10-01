@@ -1,4 +1,4 @@
-name: Lint Code Base
+name: Lint
 
 on: [pull_request]
 
@@ -14,16 +14,16 @@ jobs:
           fetch-depth: 0
       - uses: github/super-linter@v4.9.6
         env:
+          DEFAULT_BRANCH: main
           ERROR_ON_MISSING_EXEC_BIT: true
+          VALIDATE_ALL_CODEBASE: false
           VALIDATE_BASH: true
           VALIDATE_BASH_EXEC: true
-          VALIDATE_GO: true
-          VALIDATE_RUBY: true
           # VALIDATE_EDITORCONFIG: true
+          VALIDATE_GO: true
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
           VALIDATE_PYTHON_FLAKE8: true
+          VALIDATE_RUBY: true
           VALIDATE_YAML: true
-          VALIDATE_ALL_CODEBASE: false
-          DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
