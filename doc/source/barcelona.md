@@ -25,7 +25,7 @@ The ancient walls were built in the 12th and 13th centuries to defend the popula
 
 FC Barcelona is a Spanish football club. The club enjoys massive support throughout the world, having won many trophies. FC Barcelona has had many top players, including Pep Guardiola and Lionel Messi.
 
-![Barcelona](_static/images/barcelona/messi.jpg)
+![Messi](_static/images/barcelona/messi.jpg)
 
 FC Barcelona certainly has its unique characteristics, as demonstrated by its successful team and the individuals who have played for it. In fact, FC Barcelona is one of the most valuable sports franchises in Europe. Additionally, the Camp Nou stadium and museum rank among Barcelona’s top 10 tourist attractions.
 
