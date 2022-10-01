@@ -168,6 +168,7 @@ Welcome to slurp's documentation!
    hongkong.md
    ibiza.md
    istanbul.md
+   jakarta.md
    kyoto.md
    las-vegas.md
    lime.md
