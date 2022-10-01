@@ -4,9 +4,13 @@ Rio de Janeiro is one of the most colorful cities in Brazil, famous for its trem
 
 If you want to enjoy Rio de Janeiro to the fullest, we are going to guide you through this article so that you do not miss the most emblematic places of this wonderful city. From the beaches to the most authentic neighborhoods and from the forests to the hills.
 
+![Rio de Janeiro](_static/images/rio-de-janeiro/rio-de-janeiro.png)
+
 ## Ipanema and Leblon Beach
 
 Although it is true that Ipanema is a place better known for its beach, its neighborhood is one of the most exclusive in the city and is full of great joints and fashion stores. You can enjoy its spectacular beach or if you prefer to surf, the recommendation is that you go to Leblon beach. However, one of the best panoramic views of Rio de Janeiro is at the Leblon viewpoint, where you can appreciate the entire coastline and drink some cocktails at dusk.
+
+![Ipanema and Leblon Beach](_static/images/rio-de-janeiro/ipanema-leblon-beach.png)
 
 ## Rodrigo de Freitas Lagoon
 
@@ -24,6 +28,8 @@ Park Lake is a delight for nature lovers, as well as being a site adored by its 
 
 The most emblematic place in Rio de Janeiro is located at a height of 709 meters above sea level, where Christ the Redeemer is located at the top of Mount Corcovado. It is a 30 m high Christ with its arms open to receive the thousands of tourists who go up to see it every day next to the viewpoint that is at its foot, where you can have a 360 ° view of Rio de Janeiro. You can go up by taxi, but there is also a funicular that leaves every 30 minutes from Cosme Velho.
 
+![Christ the Redeemer](_static/images/rio-de-janeiro/christ-the-redeemer.png)
+
 ## Bread of Sugar
 
 The "Bread of Sugar" is a 338 m high rock that is located in the Guanabara Bay, surrounded by nature and can be seen from anywhere in the city. The best way to go up is using the cable car that you can take every 20 minutes. You will travel 1400 meters between the hills of Babilonia and Urca, to find yourself with one of the most impressive views of Rio de Janeiro and the Bay.
@@ -35,6 +41,8 @@ Barrio Santa Teresa is a colonial area where you can get on the electric train o
 ## Maracana
 
 The Maracana is one of the most iconic football stadiums in the history of this sport and one of the most important places to visit in this city. It is advisable to see a game between the teams from São Paulo and Rio, in addition to the fact that around it there is a walk of fame offered to the greatest soccer players in history.
+
+![Maracana](_static/images/rio-de-janeiro/maracana.png)
 
 ## Museum of Modern Art (MAM)
 
