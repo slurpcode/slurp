@@ -22,7 +22,7 @@ Park Lake is a delight for nature lovers, as well as being a site adored by its 
 
 ## Corcovado and Christ the Redeemer
 
-The most emblematic place in Rio de Janeiro is located at a height of 709 meters above sea level, where Christ the Redeemer is located at the top of Mount Corcovado. It is a 30 m high Christ with its arms open to receive the thousands of tourists who go up to see it every day next to the viewpoint that is at its foot, where you can have a 360 ° view of Rio de Janeiro. . You can go up by taxi, but there is also a funicular that leaves every 30 minutes from Cosme Velho.
+The most emblematic place in Rio de Janeiro is located at a height of 709 meters above sea level, where Christ the Redeemer is located at the top of Mount Corcovado. It is a 30 m high Christ with its arms open to receive the thousands of tourists who go up to see it every day next to the viewpoint that is at its foot, where you can have a 360 ° view of Rio de Janeiro. You can go up by taxi, but there is also a funicular that leaves every 30 minutes from Cosme Velho.
 
 ## Bread of Sugar
 
