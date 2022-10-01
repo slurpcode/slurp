@@ -51,7 +51,7 @@ Salón Dorado, the Torre del Trovador, the mosque, the patio of Santa
 Isabel, the Church of San Martín, The Throne Room and the Mudéjar
 Palace.
 
-![Aljaferia Palace](_static/images/saragossa/image3.jpeg)
+![Aljaferia Palace](_static/images/saragossa/image3.jpg)
 
 ## Cathedral of the Savior
 
