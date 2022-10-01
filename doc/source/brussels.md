@@ -66,6 +66,7 @@ This park offers you a miniature Europe, with more than 350 models that represen
 ## The Sacred Heart Basilica
 
 This basilica was built in 1905 to commemorate the 75th anniversary of independence from Belgium, it is the fifth largest church on the planet with 89 m high and 167 m long. In the Art Deco style, it has a large green dome and two circular towers, its stained glass windows made by renowned Belgian masters stand out and if you go up to the terrace, you can enjoy one of the best views of the city.
+
 Brussels is an impressive, cosmopolitan capital loaded with impressive places to visit.
 
 ## About the Author
