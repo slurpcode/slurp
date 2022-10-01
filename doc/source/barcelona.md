@@ -19,7 +19,6 @@ The historic district contains many monuments, including Gothic churches and win
 
 ![Barcelona](_static/images/barcelona/arct.jpg)
 
-
 The ancient walls were built in the 12th and 13th centuries to defend the populace from attacks by foreign armies. Other famous buildings include the most extensive library in Europe, Casey Mila, Barcelona’s Cathedral, and Park Güell – one of Gaudí’s masterpieces, called an architectonic masterpiece.
 
 # FC Barcelona (Barça)
