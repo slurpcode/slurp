@@ -11,13 +11,13 @@ Currently this country is internationally recognized as a tourist destination th
 The Katara Cultural Village is a village located in Doha, which is the capital of the country and its most populous city. This is a cultural village where you can find a large number of interesting artistic spaces within the city and you will be impressed with its architecture, where you can observe the entire heritage of the Arab peoples. One of the most relevant spaces in Katara is its mosque, since it is characterized by its multiple uses. This mosque is used as an opera house, an open amphitheater, a multi-purpose cinema, a conference hall and a souk. As you can see, this mosque is a celebration of the local religion and culture. Starting with its architecture, its splendid finishes and its religious importance, it is definitely one of the places you must visit in this brand new capital.
 
 
-![katara cultural village](_static/images/qatar/Katara_Cultural_Village.png)
+![katara cultural village](_static/images/qatar/katara-cultural-village.png)
 
 ## Doha Museum of Islamic Art
 
 In Doha there is also the Museum of Islamic Art, which is the main institution when it comes to promoting and protecting Islamic art in the region. The room not only has amazing architecture, but also houses jewels and secrets that are much more impressive than the building itself. The structure of the museum was designed by the North American architect Leoh Ming Pei and the museum was inaugurated in 2008. Although it is true that the collection is not exactly very extensive, it does contain works of art of a very high quality and therefore, it is one of the leading museums of Islamic art in the world.
 
-![Doha museum](_static/images/qatar/Doha_Museum.png)
+![Doha museum](_static/images/qatar/doha-museum.png)
 
 
 ## National Museum of Qatar
