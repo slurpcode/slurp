@@ -4,7 +4,7 @@ Barcelona is a city on the coast of northeastern Spain. It is the capital and la
 
 ![Barcelona](_static/images/barcelona/barcelona-city.jpg)
 
-# History of name barcelona
+# History of name Barcelona
 
 The name Barcelona comes from the ancient Iberian Baŕkeno, attested in an ancient coin inscription found on the right side of the coin in Iberian script as Barkeno in Levantine Iberian script, in ancient Greek sources as Βαρκινών, Barkinṓn; and in Latin as Barcino, Barcilonum and Barcenona.
 
