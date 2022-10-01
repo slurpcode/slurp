@@ -184,7 +184,6 @@ Welcome to slurp's documentation!
    paris.md
    pattaya.md
    prescott.md
-   qatar.md
    santiago-de-chile.md
    saragossa.md
    shanghai.md
@@ -202,6 +201,7 @@ Welcome to slurp's documentation!
    greece.md
    jordan.md
    kenya.md
+   qatar.md
    scotland.md
    tanzania.md
    turkey.md
