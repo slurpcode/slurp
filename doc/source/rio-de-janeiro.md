@@ -26,7 +26,7 @@ The most emblematic place in Rio de Janeiro is located at a height of 709 meters
 
 ## Bread of Sugar
 
-The " Bread of Sugar" is a 338 m high rock that is located in the Guanabara Bay, surrounded by nature and can be seen from anywhere in the city. The best way to go up is using the cable car that you can take every 20 minutes. You will travel 1400 meters between the hills of Babilonia and Urca, to find yourself with one of the most impressive views of Rio de Janeiro and the Bay.
+The "Bread of Sugar" is a 338 m high rock that is located in the Guanabara Bay, surrounded by nature and can be seen from anywhere in the city. The best way to go up is using the cable car that you can take every 20 minutes. You will travel 1400 meters between the hills of Babilonia and Urca, to find yourself with one of the most impressive views of Rio de Janeiro and the Bay.
 
 ## Santa Teresa neighborhood
 
