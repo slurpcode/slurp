@@ -29,7 +29,7 @@ FC Barcelona is a Spanish football club. The club enjoys massive support through
 
 FC Barcelona certainly has its unique characteristics, as demonstrated by its successful team and the individuals who have played for it. In fact, FC Barcelona is one of the most valuable sports franchises in Europe. Additionally, the Camp Nou stadium and museum rank among Barcelona’s top 10 tourist attractions.
 
-# Location and Climate
+## Location and Climate
 
 The city of Barcelona sits on the Mediterranean coast, surrounded by mountains that form the province of Catalonia. 
 
