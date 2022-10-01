@@ -20,7 +20,7 @@ This cafeteria was built at the beginning of the 19th century and is one of the 
 Indonesia is known for being the country with the largest number of Muslims in the world, so it is likely that on your trip, more than one night you will be woken up by the sound of a nearby mosque with its call to prayer. One of the most important temples in the world for Muslims is the Great Istiqlal Mosque and of course, it is the most important mosque in the country, being visited by approximately 120,000 people each year and where it is filled with faithful to pray when the day ends. Ramadan.
 If you do not practice religion, you can access the second floor in order to see the faithful, without interfering with the prayer.
 
-![The Great Istiqlal Mosque](_static/images/jakarta/the_great_istiqlal_mosque.png)
+![The Great Istiqlal Mosque](_static/images/jakarta/the-great-istiqlal-mosque.png)
 
 ## Jakarta Cathedral
 
@@ -30,7 +30,7 @@ Leaving the Istiqlal Grand Mosque you can find yourself right in front of the Ja
 
 The Indonesian National Monument also called Monas was created to celebrate the independence of the country. It is located in the center of a huge square and is a pillar that is 132 meters high, in this tower you can climb to its viewpoint to contemplate the best views of the city and in front of the Monas, is the National Museum of Indonesia that It is the most important in the capital.
 
-![The Indonesian National Monument](_static/images/jakarta/the_indonesian_national_monument.png)
+![The Indonesian National Monument](_static/images/jakarta/the-indonesian-national-monument.png)
 
 ## The Sky Bar
 
