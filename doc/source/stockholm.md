@@ -3,7 +3,7 @@
 Stockholm is the capital of Sweden and is made up of 14 islands, it is one of the most beautiful and surprising cities in Europe. Located in an archipelago with more than 24,000 islands bathed by the North Seas, this Baltic capital is known as the Venice of the North for its large number of canals.
 Stockholm is a cosmopolitan city that falls in love at first sight, with a historic center full of charming corners, it has fantastic museums and perfectly maintained parks.
 
-![stockholm](_static/images/stockholm/stockholm.png)
+![Stockholm](_static/images/stockholm/stockholm.png)
 
 We are going to guide you through this clean and tidy city, through its most iconic places for you to visit and not miss the most important things in Stockholm.
 
@@ -11,7 +11,7 @@ We are going to guide you through this clean and tidy city, through its most ico
 
 Gamla Stan is the historic center of the city, with medieval buildings with colorful facades and squares such as Köpmantorget, Järntorget and Stortorget that make this part of the city a charming place. This neighborhood also has other tourist sites such as the Cathedral of Saint Nicholas, the Royal Palace, the Parliament and the Nobel Museum where you can discover the history of Alfred Nobel.
 
-![gamla_stan](_static/images/stockholm/gamla_stan.png)
+![Gamla Stan](_static/images/stockholm/gamla_stan.png)
 
 In this part of the city you will also find restaurants where you can eat typical dishes of the city, you can go to Stockholms Gastabud and Nystekt Stromming to eat the traditional meatballs, fresh salmon or herring.
 
@@ -43,7 +43,7 @@ The Kungstradgarden Park offers you a beautiful walk among plants, fountains, tr
 
 The Stockholm metro is one of the most impressive in the world, since in 90 of its 100 stations you can see them decorated with works of art by renowned artists. It is the largest art gallery in the world and although all the stations have something interesting, we are going to recommend the ones with the most important works: Radhuset, Solna Centrum, Kungsttadgarden, Tekniska Höskolan, Thorildsplan, Stadium and Slussen.
 
-![subway](_static/images/stockholm/subway.png)
+![Subway](_static/images/stockholm/subway.png)
 
 ## Vasa Museum
 
@@ -57,7 +57,7 @@ This open-air museum located on the island of Djurgarden was opened in 1891 and 
 
 Drottningholm Palace was declared a UNESCO World Heritage Site. The palace built at the end of the 16th century is located on Lovön Island and is the best representation of the Swedish imperial era. Many tourists equate its beauty with the Palace of Versailles and during your visit you can enjoy the Royal Theater, the exquisite decoration of the rooms, the design of the Chinese Pavilion and its beautiful gardens.
 
-![drottningholm_palace](_static/images/stockholm/drottningholm_palace.png)
+![Drottningholm Palace](_static/images/stockholm/drottningholm_palace.png)
 
 ## ABBA Museum
 
