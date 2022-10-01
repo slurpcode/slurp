@@ -2,9 +2,9 @@
 
 Rio de Janeiro is one of the most colorful cities in Brazil, famous for its tremendous carnivals and is a destination as diverse as it is fascinating. It is the second city with the largest population and the most touristic in the country, known throughout the world for its cultural and sports icons, its landscapes and its passion for life.
 
-If you want to enjoy Rio de Janeiro to the fullest, we are going to guide you through this article so that you do not miss the most emblematic places of this wonderful city. From the beaches to the most authentic neighborhoods and from the forests to the hills.
-
 ![Rio de Janeiro](_static/images/rio-de-janeiro/rio-de-janeiro.png)
+
+If you want to enjoy Rio de Janeiro to the fullest, we are going to guide you through this article so that you do not miss the most emblematic places of this wonderful city. From the beaches to the most authentic neighborhoods and from the forests to the hills.
 
 ## Ipanema and Leblon Beach
 
