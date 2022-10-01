@@ -201,6 +201,7 @@ Welcome to slurp's documentation!
    greece.md
    jordan.md
    kenya.md
+   qatar.md
    scotland.md
    tanzania.md
    turkey.md
