@@ -14,7 +14,7 @@ jobs:
           wget -O - -q https://git.io/misspell | sh -s -- -b .
       - name: Misspell
         run: |
-          git ls-files --empty-directory | grep -v charts/assets/js | grep -v charts/config/de.yml | grep -v charts/lang/README.de.md | grep -v charts/site.yml | grep -v doc/source/codewars.md | grep -v docs/assets/games | grep -v docs/assets/js | grep -v rubycritic | xargs ./misspell -error
+          git ls-files --empty-directory | grep -v charts/assets/js | grep -v charts/config/de.yml | grep -v charts/lang/README.de.md | grep -v charts/site.yml | grep -v doc/source/codewars.md | grep -v docs/assets/games | grep -v docs/assets/js | grep -v rubycritic | xargs ./misspell -error -i "Monserrat"
   pre-commit:
     name: Run pre-commit  # https://pre-commit.com/
     runs-on: ubuntu-latest
