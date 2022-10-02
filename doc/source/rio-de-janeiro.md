@@ -66,7 +66,7 @@ This museum houses the most complete collection of Brazilian art in the country,
 
 ## Sao Bento Monastery
 
-This monastery is a reflection of the Brazilian baroque and represents the work of various local artists for 70 years, you will be able to see vaults, paintings and columns to consecrate the Virgin of Monserrat.
+This monastery is a reflection of the Brazilian baroque and represents the work of various local artists for 70 years, you will be able to see vaults, paintings and columns to consecrate the Virgin of Montserrat.
 
 ## Favelas
 

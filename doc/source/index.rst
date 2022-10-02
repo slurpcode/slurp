@@ -156,6 +156,7 @@ Welcome to slurp's documentation!
    brasilia.md
    brisbane.md
    brussels.md
+   bucaramanga.md
    bucharest.md
    budapest.md
    buenos-aires.md
