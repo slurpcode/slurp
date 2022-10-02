@@ -69,7 +69,7 @@ The most famous product has the same name as the island and is an orange liqueur
 
 In Willemstad there are many forts but there are three that are the most important, the first is Fort Amsterdam, which is the most important on the list and was declared a World Heritage Site by UNESCO, it currently houses several government offices, the Governor's office and the Council of Ministers. Second on the list is Rit Fort which dates back to 1828 and is located in Otrobanda, today it is a commercial center that has bars, restaurants, shops and an ice cream parlor. The last recommended fort is Fort Nassau, located five minutes from the capital, it was built to protect St. Anna Bay in 1797.
 
-![forts](_static/images/curacao/forts.png)
+![Forts](_static/images/curacao/forts.png)
 
 ## Ostrich farm
 
