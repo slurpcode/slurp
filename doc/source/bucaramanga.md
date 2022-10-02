@@ -16,7 +16,7 @@ This city is famous for its green spaces, among which is the extensive Eloy Vale
 
 ## The Hill of the Holy
 
- The Hill of the Holy  is located in an urban area called Floridablanca that borders Bucaramanga and has a huge statue of Jesus that is approximately 40 meters tall. You can climb to the top by cable car and then ascend to the viewpoint that remains at the head of the statue. From that point the landscape is really special and you will realize that the statue is equally impressive.
+The Hill of the Holy is located in an urban area called Floridablanca that borders Bucaramanga and has a huge statue of Jesus that is approximately 40 meters tall. You can climb to the top by cable car and then ascend to the viewpoint that remains at the head of the statue. From that point the landscape is really special and you will realize that the statue is equally impressive.
 
 ![The Hill of the Holy](_static/images/bucaramanga/the-hill-of-the-holy.jpg)
 
