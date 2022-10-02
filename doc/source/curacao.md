@@ -30,7 +30,7 @@ If you want to try the gastronomy of the most traditional dishes, the recommenda
 
 Handelskade is a part of the wharf at St. Anna Bay in the Punda area of ​​Willemstad, this street is one of the most photographed in Curaçao for its pastel colored Dutch colonial buildings. Where you will also find fantastic cafes and bars, the other recommended place to visit in the area is the Queen Emma Bridge.
 
-![handelskade](_static/images/curacao/handelskade.png)
+![Handelskade](_static/images/curacao/handelskade.png)
 
 ## Israel-Immanuel Synagogue
 
