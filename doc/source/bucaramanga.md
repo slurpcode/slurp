@@ -62,7 +62,7 @@ San Juan de Girón, is located just 9 kilometers from the center of Bucaramanga 
 
 The Chicamocha Bucaramanga National Park also known as Panachi, is located along the Chicamocha Canyon, which is about 50 km from Bucaramanga. It is a tourist attraction thanks to its spectacular scenery and the large number of outdoor activities offered in this park, such as caving, camping, kayaking, fishing, paragliding, mountaineering, rafting, etc.
 
-It is a paradise both for lovers of extreme sports and for those who just want to enjoy nature and walk along paths with beautiful landscapes. The park has a cable car that crosses the Chicamocha Canyon, but it also offers cultural activities in the Customs Square, the Guane Museum and the Exhibition Hall. You can also have fun in its go-kart circuit, the skating rink, see goats, ostriches and a viewpoint at the highest point of the canyon with a spectacular panoramic view
+It is a paradise both for lovers of extreme sports and for those who just want to enjoy nature and walk along paths with beautiful landscapes. The park has a cable car that crosses the Chicamocha Canyon, but it also offers cultural activities in the Customs Square, the Guane Museum and the Exhibition Hall. You can also have fun in its go-kart circuit, the skating rink, see goats, ostriches and a viewpoint at the highest point of the canyon with a spectacular panoramic view.
 
 ![Chicamocha Bucaramanga National Park ](_static/images/bucaramanga/chicamocha-bucaramanga-national-park.jpg)
 
