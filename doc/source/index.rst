@@ -226,7 +226,6 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    curacao.md
-   
 .. toctree::
    :caption: Databases
    :maxdepth: 2
