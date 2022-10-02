@@ -61,7 +61,8 @@ Shete Boka National Park has more than six miles of coastline to the north of th
 ## Christoffelpark National Park
 
 Christoffelpark National Park is perfect for admiring Curaçao's native fauna and flora, where you can see 450 different species of plants including wild orchids. As for the fauna, you will be able to observe white-tailed deer that are in danger of extinction and owls, among the rarest animals. From the top of Christoffel Mountain you can enjoy the beautiful panoramic views of both the park and its surroundings.
-Drink Curaçao Produced in Curaçao
+
+## Drink Curaçao Produced in Curaçao
 
 The most famous product has the same name as the island and is an orange liqueur produced by the Genuine Curacao Liqueur Factory established in 1896. You can visit this distillery and take a tour of its facilities where you will be taught about the production process and learn a little about the history of this liquor, the most famous being the blue one, but there are also other flavors available such as rum, coffee, raisins, red, green and chocolate.
 
