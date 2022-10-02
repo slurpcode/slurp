@@ -1,4 +1,4 @@
-﻿ # 🇨🇴 Bucaramanga
+# 🇨🇴 Bucaramanga
 
 Bucaramanga is a city in Colombia and the capital of the department of Santander, it has a pleasant climate, warm people, many parks and gardens. We will give you a guide to the best things you can do in Bucaramanga, so you don't miss the most emblematic sites and have a maximum experience in this beautiful city.
 
