@@ -6,7 +6,7 @@ Curaçao is part of the Lesser Antilles and is an island in the Dutch Caribbean,
 
 It is located on the northwest coast of Curaçao and has two beaches, the smallest being Klein Knip and the largest Grote Knip, both of which you can dive, sunbathe or practice other water sports. In the environment there are rocky cliffs where you can jump from heights or simply watch others plummet into the sea.
 
-![kenapa beach](_static/images/curacao/kenapa-beach.png)
+![Kenapa beach](_static/images/curacao/kenapa-beach.png)
 
 ## Marine Aquarium
 
