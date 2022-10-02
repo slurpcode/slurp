@@ -222,6 +222,12 @@ Welcome to slurp's documentation!
    colorado.md
 
 .. toctree::
+   :caption: Islands
+   :maxdepth: 2
+
+   curacao.md
+   
+.. toctree::
    :caption: Databases
    :maxdepth: 2
 
