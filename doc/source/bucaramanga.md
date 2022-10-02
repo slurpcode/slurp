@@ -64,7 +64,7 @@ The Chicamocha Bucaramanga National Park also known as Panachi, is located along
 
 It is a paradise both for lovers of extreme sports and for those who just want to enjoy nature and walk along paths with beautiful landscapes. The park has a cable car that crosses the Chicamocha Canyon, but it also offers cultural activities in the Customs Square, the Guane Museum and the Exhibition Hall. You can also have fun in its go-kart circuit, the skating rink, see goats, ostriches and a viewpoint at the highest point of the canyon with a spectacular panoramic view.
 
-![Chicamocha Bucaramanga National Park ](_static/images/bucaramanga/chicamocha-bucaramanga-national-park.jpg)
+![Chicamocha Bucaramanga National Park](_static/images/bucaramanga/chicamocha-bucaramanga-national-park.jpg)
 
 Bucaramanga is a city with a great tourist offer that you cannot miss!
 
