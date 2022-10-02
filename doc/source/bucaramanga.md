@@ -48,7 +48,7 @@ The Museum of Modern Art in Bucaramanga has a large collection of prestigious Co
 
 ## House Luis Peru de la Croix
 
-House Luis Peru de la Croix  also known for a time as the "Casa Mutis", was completed in 1778 by order of Manuel Mutis Bossio and is located on the corner of Parque Custodio García Rovira. It is one of the few buildings preserved in the city from the colonial era and is witness to a large number of events in the history of Bucaramanga.
+House Luis Peru de la Croix also known for a time as the "Casa Mutis", was completed in 1778 by order of Manuel Mutis Bossio and is located on the corner of Parque Custodio García Rovira. It is one of the few buildings preserved in the city from the colonial era and is witness to a large number of events in the history of Bucaramanga.
 
 ## Paragliding
 
