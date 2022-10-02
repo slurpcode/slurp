@@ -48,7 +48,7 @@ Klein Curacao is also called Little Curacao, an uninhabited island located 15 mi
 
 Curaçao is famous for its crystal clear white sand beaches, the best and most beautiful beaches are Mambo Beach, Blauwbaai, Cas Abao Beach and Playa Lagun.
 
-![beaches](_static/images/curacao/beaches.png)
+![Beaches](_static/images/curacao/beaches.png)
 
 ## Snorkeling and diving
 
