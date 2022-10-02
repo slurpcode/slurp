@@ -79,6 +79,7 @@ The ostrich farm is located 15 minutes outside of the capital, you can take a sa
 ## Hato Caves
 
 The Hato Caves were formed millions of years ago, can be visited and feature impressive waterfalls, pools and limestone formations. There are even statues inside the cave, with Madonna's status being the most important.
+
 Curaçao is a picturesque island with paradisiacal beaches and an impressive marine fauna to discover.
 
 ## About the Author
