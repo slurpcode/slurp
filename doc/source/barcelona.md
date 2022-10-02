@@ -17,7 +17,7 @@ Some older sources suggest that the city may have been named after the Carthagin
 The city of Barcelona is one of the best-preserved medieval cities in Europe. As a result, visitors will see several aspects of the city’s historical nature that have helped it maintain its structures and essential aspects. The street plan is still recognizably medieval, despite several alterations over time and modernization during the 20th century.
 The historic district contains many monuments, including Gothic churches and winding narrow streets with tiled roofs surrounded by walls at regular intervals.
 
-![Barcelona architecture](_static/images/barcelona/arct.jpg)
+![Barcelona architecture](_static/images/barcelona/architecture.jpg)
 
 The ancient walls were built in the 12th and 13th centuries to defend the populace from attacks by foreign armies. Other famous buildings include the most extensive library in Europe, Casey Mila, Barcelona’s Cathedral, and Park Güell – one of Gaudí’s masterpieces, called an architectonic masterpiece.
 
