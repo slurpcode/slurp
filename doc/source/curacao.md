@@ -12,7 +12,7 @@ It is located on the northwest coast of Curaçao and has two beaches, the smalle
 
 The Sea Aquarium is a wonderful attraction for the whole family that is located on the Willemstad waterfront and has pools of water fed directly from the sea, where you can see a wide variety of marine fauna and feed or touch some species such as manta rays, sea ​​urchins, starfish, sea cucumbers, among others. The aquarium also has interesting shows with dolphins, sea lions and sharks.
 
-![Marine Aquarium](_static/images/curacao/marine-aquarium.png)
+![Marine aquarium](_static/images/curacao/marine-aquarium.png)
 
 ## Alma Blu
 
