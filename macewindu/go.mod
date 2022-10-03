@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/gin-gonic/gin v1.8.1
 	github.com/gocolly/colly v1.2.0
-	github.com/heroku/x v0.0.52
+	github.com/heroku/x v0.0.53
 )
 
 require (
