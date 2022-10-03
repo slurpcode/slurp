@@ -65,3 +65,12 @@ Bali has more than 10,000 temples, and it is very important to choose which ones
 Bali has hundreds of kilometers of coastline with beaches with turquoise waters and fine sand, the most famous being Kuta beach for its lively nightlife and its great waves, Jimbaran beach with much calmer waters. Sanur Beach, Seminyak and Nusa Dua are other beautiful beaches, as well as having luxurious hotels and resorts around them, with a more distinguished atmosphere.
 
 **Bali a paradisiacal island full of warm people and charming places!**
+
+## About the Author
+
+Graduated in Mechanical Engineering, and a master's degree in teaching
+component, I gave classes in several institutes of mathematics and physics, but
+I also dedicated several years of my life as a television producer, I did the
+scripts for mikes, the camera direction, editing of video and even the location.
+Later I was dedicated to SEO writing for a couple of years. I like poetry, chess
+and dominoes.
