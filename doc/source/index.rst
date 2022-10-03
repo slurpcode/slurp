@@ -150,6 +150,7 @@ Welcome to slurp's documentation!
    amsterdam.md
    andorra.md
    bangkok.md
+   bali.md
    beijing.md
    belfast.md
    brasilia.md
