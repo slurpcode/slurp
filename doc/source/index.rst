@@ -163,6 +163,7 @@ Welcome to slurp's documentation!
    copenhagen.md
    dharamshala.md
    dubai.md
+   florence.md
    frankfurt.md
    hawaii.md
    hong-kong.md
