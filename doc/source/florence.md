@@ -68,3 +68,12 @@ The Gallery of the Academy houses the original work of David by Michelangelo and
 In the Medici Chapel are the tombs of the most powerful family in Florence for many years. A large part of the members rest in the Chapel of the Princes built with marble and semi-precious stone. On the other hand, the New Sacristy was designed by Miguel Angel but he was unable to complete it, even so it is worth seeing different sculptures made by this great master.
 
 **Florence is a beautiful city and full of masterpieces!**
+
+## About the Author
+
+Graduated in Mechanical Engineering, and a master's degree in teaching
+component, I gave classes in several institutes of mathematics and physics, but
+I also dedicated several years of my life as a television producer, I did the
+scripts for mikes, the camera direction, editing of video and even the location.
+Later I was dedicated to SEO writing for a couple of years. I like poetry, chess
+and dominoes.
