@@ -188,6 +188,7 @@ Welcome to slurp's documentation!
    pattaya.md
    prescott.md
    rio-de-janeiro.md
+   san-francisco.md
    santiago-de-chile.md
    saragossa.md
    shanghai.md
