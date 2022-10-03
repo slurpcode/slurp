@@ -69,3 +69,12 @@ In ancient times it was a town made up of beautiful colonial houses and today it
 It is advisable to take one of the excursions that last one day to one of the wonderful sites that are near the city, such as the Guavita Lagoon, the Salt Cathedral, which is a religious site that is located inside a salt mine. or Villa de Leyva.
 
 **Bogotá is a city where you can get unforgettable experiences!**
+
+## About the Author
+
+Graduated in Mechanical Engineering, and a master's degree in teaching
+component, I gave classes in several institutes of mathematics and physics, but
+I also dedicated several years of my life as a television producer, I did the
+scripts for mikes, the camera direction, editing of video and even the location.
+Later I was dedicated to SEO writing for a couple of years. I like poetry, chess
+and dominoes.
