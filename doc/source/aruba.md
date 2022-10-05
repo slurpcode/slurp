@@ -1,4 +1,4 @@
-# Aruba
+# 🇦🇼 Aruba
 
 Each one of the Caribbean islands has specific characteristics and in the case of Aruba we can mention its picturesque capital, its arid geography, the famous dividivi which is a tree with a twisted trunk that remains intact under the persistence of the wind and has become the symbol of Aruba. It is an autonomous country and is part of the Netherlands
 This island is sunny 300 days a year and with a temperature of approximately 28 °C, so going to the beach is a plan that is guaranteed and if that were not enough, it is outside the hurricane belt.
