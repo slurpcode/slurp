@@ -225,10 +225,10 @@ Welcome to slurp's documentation!
 .. toctree::
    :caption: Islands
    :maxdepth: 2
-   
+
    aruba.md
    curacao.md
-   
+
 .. toctree::
    :caption: Databases
    :maxdepth: 2
