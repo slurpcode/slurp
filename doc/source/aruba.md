@@ -49,6 +49,6 @@ On the other hand, the island is also home to several festivals that bring a lar
 
 This island is undoubtedly one of the most romantic places to share as a couple and that is why many people decide to spend their honeymoon or have their wedding in Aruba. For those who want to get married, they will be able to find the best wedding planners in the entire Caribbean on the island, celebrate the ceremony in picturesque churches, on the beach or in original natural landscapes. If the bride and groom want to formalize their civil wedding, it is not complicated to carry it out if they have the minimum requirements. Also for those people who need to receive the blessing of a certain cult, the possibilities are opened in various churches and chapels on the island.
 
-![Aruba](_static/images/aruba/married.png)
+![Married](_static/images/aruba/married.png)
 
 Aruba is a magical place with paradisiacal beaches and a large number of tourist attractions to offer.
