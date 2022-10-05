@@ -9,7 +9,7 @@ In this article you will find a list of the best activities you can do on this b
 
 Among the multiple beaches that you will find on the island is Eagle Beach, which is the widest in Aruba, where large hotels and water sports abound, in the same way you can find them in Druif Beach and Palm Beach. But if you prefer to visit quieter beaches you can go to the south of the island, specifically to Rodger's, a beach very popular with locals and fishermen, or to the north where Cura di Tortuga or Boca Catalina are located, where you will find two natural pools formed of rock volcanic and capable of protecting these beaches from the great waves of the sea.
 
-![Aruba](_static/images/aruba/beach.png)
+![Beach](_static/images/aruba/beach.png)
 
 ## Diving or snorkeling
 
