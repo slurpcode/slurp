@@ -155,6 +155,7 @@ Welcome to slurp's documentation!
    brasilia.md
    brisbane.md
    brussels.md
+   bucaramanga.md
    bucharest.md
    budapest.md
    buenos-aires.md
@@ -221,6 +222,11 @@ Welcome to slurp's documentation!
    arizona.md
    colorado.md
 
+.. toctree::
+   :caption: Islands
+   :maxdepth: 2
+
+   curacao.md
 .. toctree::
    :caption: Databases
    :maxdepth: 2
