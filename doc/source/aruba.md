@@ -28,6 +28,7 @@ For motorcycle lovers, there is the possibility of exploring the island on a Har
 ## Ostrich Farm
 
 Visiting the Ostrich Farm can be a very interesting experience, since you will be able to learn about the behavior of these curious animals and you will have the opportunity to feed them, you can also see the Butterfly House that is located inside a tropical garden.
+
 Another interesting stop on the outskirts of the city is the Aloe Museum, located in the Hato Plantation. You can also live an intense adventure in the Arikok National Park located in the center of the island. There you can appreciate the dividivi trees, tropical flowers, exotic cacti, iguanas, lizards, birds, etc. In this park you will be able to observe a unique cultural heritage, since in the enclosure you will find caves with original rock art of the natives of the island, unusual geographic formations of limestone, quartz and lava. It even has walks through dry rivers that will take you to hidden bays like Boca Prins, Moro and Dos Playas.
 
 ## Stroll through Oranjestad
