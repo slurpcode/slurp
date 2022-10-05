@@ -2,17 +2,20 @@ name: Lint
 
 on: [pull_request]
 
+permissions:  # added using https://github.com/step-security/secure-workflows
+  contents: read
+
 jobs:
   misspell:
-    name: 🥛 Check Spelling
+    name: Check Spelling
     runs-on: ubuntu-latest
     steps:
-      - name: 🍒 Check Out
+      - name: Check Out
         uses: actions/checkout@v3
-      - name: 🍅 Install
+      - name: Install
         run: |
           wget -O - -q https://git.io/misspell | sh -s -- -b .
-      - name: 🌶️ Misspell
+      - name: Misspell
         run: |
           git ls-files --empty-directory | grep -v charts/assets/js | grep -v charts/config/de.yml | grep -v charts/lang/README.de.md | grep -v charts/site.yml | grep -v doc/source/codewars.md | grep -v docs/assets/games | grep -v docs/assets/js | grep -v rubycritic | xargs ./misspell -error
   pre-commit:

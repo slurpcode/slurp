@@ -154,6 +154,8 @@ Welcome to slurp's documentation!
    belfast.md
    brasilia.md
    brisbane.md
+   brussels.md
+   bucaramanga.md
    bucharest.md
    budapest.md
    buenos-aires.md
@@ -167,6 +169,7 @@ Welcome to slurp's documentation!
    hongkong.md
    ibiza.md
    istanbul.md
+   jakarta.md
    kyoto.md
    las-vegas.md
    lime.md
@@ -183,7 +186,11 @@ Welcome to slurp's documentation!
    paris.md
    pattaya.md
    prescott.md
+   rio-de-janeiro.md
    santiago-de-chile.md
+   saragossa.md
+   shanghai.md
+   stockholm.md
    tokyo.md
    venice.md
    vienna.md
@@ -197,6 +204,7 @@ Welcome to slurp's documentation!
    greece.md
    jordan.md
    kenya.md
+   qatar.md
    scotland.md
    tanzania.md
    turkey.md
@@ -214,6 +222,11 @@ Welcome to slurp's documentation!
    arizona.md
    colorado.md
 
+.. toctree::
+   :caption: Islands
+   :maxdepth: 2
+
+   curacao.md
 .. toctree::
    :caption: Databases
    :maxdepth: 2
