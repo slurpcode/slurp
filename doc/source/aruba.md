@@ -15,7 +15,7 @@ Among the multiple beaches that you will find on the island is Eagle Beach, whic
 
 If instead of resting on white sand and bathing in turquoise waters you prefer to investigate the marine fauna, the perfect beaches for swimming, snorkeling or diving are Baby Beach and Arashi Beach. However, the recommendation for the most experienced is MangelHalto, which is protected by reefs where you can see yellow tail snapper, blue spike snapper, parrot fish and at deeper dive points, you can see barracudas, moray eels, octopus and other types of marine fauna.
 
-![Aruba](_static/images/aruba/diving.png)
+![Diving](_static/images/aruba/diving.png)
 
 ## To surf
 
