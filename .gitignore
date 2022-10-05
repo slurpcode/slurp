@@ -26,3 +26,4 @@ workers.dev/preston/node_modules/
 workers.dev/preston/worker/
 .vscode/settings.json
 .vscode/c_cpp_properties.json
+.DS_Store
