@@ -35,7 +35,7 @@ Another interesting stop on the outskirts of the city is the Aloe Museum, locate
 
 The capital of Aruba has a perfect mix between the old and the modern, buildings such as the town hall whose façade is an intense green, the oldest building on the island, the Zoutman Fort built in 1798, a bustling port where You will find a large number of shops, local crafts, art and excellent Caribbean cuisine. The most recommended way to get around Oranjestad is by taking the tram that leaves from the cruise terminal and goes through the main street, making stops at six points of tourist interest.
 
-![Aruba](_static/images/aruba/oranjestad.png)
+![Oranjestad](_static/images/aruba/oranjestad.png)
 
 In the unique culture of Aruba, European, African and various Latin American influences converge, being able to integrate up to 90 nationalities and you will notice this in the gastronomic influence, which is worth tasting. Some of the more traditional local dishes include the keshiyena glazed gouda, mixed with chicken and vegetables with a cheese topping as the finishing touch; the chicken, fish or meat stew that is served with mashed corn or rice and the pastechi, which is a sweet bread stuffed with meat.
 
