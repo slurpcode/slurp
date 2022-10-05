@@ -228,6 +228,7 @@ Welcome to slurp's documentation!
    
    aruba.md
    curacao.md
+   
 .. toctree::
    :caption: Databases
    :maxdepth: 2
