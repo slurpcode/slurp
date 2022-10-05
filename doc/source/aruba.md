@@ -42,6 +42,7 @@ In the unique culture of Aruba, European, African and various Latin American inf
 ## Visiting Aruba during Carnival
 
 In Aruba, one of the most important and largest festivals in the Caribbean is celebrated on this date. If you visit the island during carnival, you will see troupes that dance to the rhythm of soca and calypso, torchlight parades, costumes with bright costumes and the end of the This party is celebrated with the burning of a figure that represents King Momo, this is done just before Ash Wednesday.
+
 On the other hand, the island is also home to several festivals that bring a large number of people, such as the Aruba Music Festival, the Electric Festival, the Soul Beach Music Festival and the Caribbean Sea Jazz Festival.
 
 ## Getting married in Aruba
