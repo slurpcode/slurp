@@ -148,7 +148,6 @@ Welcome to slurp's documentation!
 
    amman.md
    amsterdam.md
-   aruba.md
    andorra.md
    bangkok.md
    beijing.md
@@ -226,7 +225,8 @@ Welcome to slurp's documentation!
 .. toctree::
    :caption: Islands
    :maxdepth: 2
-
+   
+   aruba.md
    curacao.md
 .. toctree::
    :caption: Databases
