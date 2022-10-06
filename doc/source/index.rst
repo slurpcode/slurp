@@ -150,6 +150,7 @@ Welcome to slurp's documentation!
    amsterdam.md
    andorra.md
    bangkok.md
+   barcelona.md
    beijing.md
    belfast.md
    brasilia.md
@@ -230,7 +231,7 @@ Welcome to slurp's documentation!
    aruba.md
    curacao.md
 
-.. toctree::
+ .. toctree::
    :caption: Databases
    :maxdepth: 2
 
