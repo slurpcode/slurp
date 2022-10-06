@@ -1,4 +1,4 @@
-﻿# 🇪🇸 Santiago de Compostela 	
+# 🇪🇸 Santiago de Compostela
 
 Santiago de Compostela is a city that is located in the northwest of Spain and is one of the main places of pilgrimage of Christianity. This city falls in love at first sight with the beautiful streets of the old town, declared a World Heritage Site, for its monumental Cathedral and its prestigious university that is more than 500 years old.
  
