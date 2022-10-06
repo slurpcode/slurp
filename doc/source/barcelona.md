@@ -48,7 +48,7 @@ The Picasso Museum is also in the surroundings with the most important collectio
 
 This park designed by Gaudí was also declared a World Heritage Site and is one of the most beautiful in the world. It is surprising to see its fountains, buildings and sculptures inspired by the undulating forms of nature, full of beautiful mosaics and with an incredible view of the entire city.
 
-![Park](_static/images/barcelona/park.png)
+![Park Güell](_static/images/barcelona/park.png)
 
 ## Viewpoints of Barcelona
 
