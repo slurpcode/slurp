@@ -60,7 +60,7 @@ Bordering the Sarela River, you can take a pleasant walk, starting with the Igle
 
 Another worthwhile route is the Sar river path with its beautiful natural landscapes and you will be able to see a Romanesque temple such as the Colexiata de Santa María do Sar, built in the 12th century where you will be impressed by its interior and the inclination of its columns. Near this area there is an architectural complex designed by the architect Peter Eisenman, which is the City of Culture of Galicia, you will be pleasantly surprised by its design and its forms, in addition to its unique buildings offering an extensive cultural offer, which you cannot Stop watching.
 
-![City of Culture of Galicia ](_static/images/santiago-de-compostela/city-of-culture-galicia.jpg)
+![City of Culture of Galicia](_static/images/santiago-de-compostela/city-of-culture-galicia.jpg)
 
 Santiago de Compostela is a city steeped in history, which still preserves its medieval structures.
 
