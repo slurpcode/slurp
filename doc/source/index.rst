@@ -190,6 +190,7 @@ Welcome to slurp's documentation!
    prescott.md
    rio-de-janeiro.md
    santiago-de-chile.md
+   santiago-de-compostela.md
    saragossa.md
    shanghai.md
    stockholm.md
