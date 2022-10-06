@@ -19,7 +19,6 @@ The jewel of this temple is the Pórtico de la Gloria, which has numerous religi
 The Square Obradoiro, in addition to the cathedral, has several interesting places to see such as the Pazo de Raxoi, which is the current seat of the town hall, the old episcopal palace, the Pazo de Xelmirez, and the old college of the city, the Colexio de Saint Xerome. However, the building preferred by most is the hospital of the Catholic Monarchs, which was built in 1501 to give shelter to pilgrims on the Camino de Santiago, today it is a hotel known as the Parador de Santiago and its interior is a true wonder.
 
 ![Obradoiro Square](_static/images/santiago-de-compostela/obradoiro-square.jpg)
- 
 ## Historic helmet
 
 Around the Plaza de Obradoiro is the Historic Quarter that was declared a World Heritage Site, full of cobbled streets, squares, stately homes, palaces, fountains and churches that take you back to medieval times. Among the most outstanding sites are the Plaza de las Platerías, de la Quintana, de Cervantes, the stately homes of Deán, da Balconada, de la Parra and its most emblematic streets such as Rúa Raíña, Rúa do Franco, Rúa Nova and the Rúa do Vilar, all surrounded by old buildings and that are really worth visiting.
