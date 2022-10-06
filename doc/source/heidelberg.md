@@ -45,3 +45,7 @@ This castle was built in red sandstone and its ruins are the result of two light
 
 It is one of the oldest universities in Europe founded in 1386 where you can admire the Plaza de la Universidad and the building of the old University dating from the 18th century where the Rectory and the University Museum are located. The University Church dates from the 12th century and the library was built in 1421. Behind the old University building is the old student prison where students were incarcerated for minor behavior such as drunkenness, fighting or theft. The students had to spend several days or weeks in jail but continued to attend classes.
 Heidelberg is a vibrant student city steeped in historical legends, beautiful old buildings and wonderful sites.
+
+## About the Author
+
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. She likes poetry, chess and dominoes.
