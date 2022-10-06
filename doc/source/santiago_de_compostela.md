@@ -13,6 +13,7 @@ We have made a list of the essential places that you must visit if you go to San
 The Cathedral was built between 1075 and 1211 with baroque and gothic elements mixed with the romantic style, in order to house the tomb of the Apostle Santiago. Its façade is impressive and you can enter its interior through the Puerta de Platerías to visit its 16 chapels. In the back of the High Altar of the Cathedral is the image of the apostle Santiago, where many believers stop to embrace it.
 
 ![The Cathedral of Santiago of Compostela](_static/images/santiago-de-compostela/cathedral-of-santiago-of-compostela.jpg)
+
 The jewel of this temple is the Pórtico de la Gloria, which has numerous religious figures and you can also be surprised by the huge 50-kilo censer, set in motion to swing it during religious celebrations.
  
 ## Obradoiro Square
