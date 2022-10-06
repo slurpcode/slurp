@@ -14,11 +14,13 @@ The Cathedral was built between 1075 and 1211 with baroque and gothic elements m
 ![The Cathedral of Santiago of Compostela](_static/images/santiago-de-compostela/cathedral-of-santiago-of-compostela.jpg)
 
 The jewel of this temple is the Pórtico de la Gloria, which has numerous religious figures and you can also be surprised by the huge 50-kilo censer, set in motion to swing it during religious celebrations.
+
 ## Obradoiro Square
 
 The Square Obradoiro, in addition to the cathedral, has several interesting places to see such as the Pazo de Raxoi, which is the current seat of the town hall, the old episcopal palace, the Pazo de Xelmirez, and the old college of the city, the Colexio de Saint Xerome. However, the building preferred by most is the hospital of the Catholic Monarchs, which was built in 1501 to give shelter to pilgrims on the Camino de Santiago, today it is a hotel known as the Parador de Santiago and its interior is a true wonder.
 
 ![Obradoiro Square](_static/images/santiago-de-compostela/obradoiro-square.jpg)
+
 ## Historic helmet
 
 Around the Plaza de Obradoiro is the Historic Quarter that was declared a World Heritage Site, full of cobbled streets, squares, stately homes, palaces, fountains and churches that take you back to medieval times. Among the most outstanding sites are the Plaza de las Platerías, de la Quintana, de Cervantes, the stately homes of Deán, da Balconada, de la Parra and its most emblematic streets such as Rúa Raíña, Rúa do Franco, Rúa Nova and the Rúa do Vilar, all surrounded by old buildings and that are really worth visiting.
@@ -38,6 +40,7 @@ The Food Market is the second most visited site after the Cathedral. There you c
 The Museo do pobo Galego offers you a walk through Galician culture through its history, it is located in the Santo Domingo de Bonaval convent. You will be able to hallucinate with its triple helicoidal staircase and the Church, where the remains of famous Galicians such as the poet Rosalía de Castro are found.
 
 ![Triple Helicoidal Staircase](_static/images/santiago-de-compostela/triple-helicoidal-staircase.jpg)
+
 ## Climb Mount Pedroso
 
 The recommendation is to climb Monte Pedroso either on foot or by car towards sunset, the views of the city, the natural surroundings and the cathedral are magnificent. The other very popular viewpoint is Monte do Gozo, which is located on a 380-meter hill 5 km from the city.
