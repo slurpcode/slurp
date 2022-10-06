@@ -7,7 +7,7 @@ In Santiago de Compostela you can taste excellent cuisine where seafood and fish
 
 We have made a list of the essential places that you must visit if you go to Santiago de Compostela, so that you do not miss the most important things.
 
-## The Cathedral of Santiago of Compostela 
+## The Cathedral of Santiago of Compostela
 
 The Cathedral was built between 1075 and 1211 with baroque and gothic elements mixed with the romantic style, in order to house the tomb of the Apostle Santiago. Its façade is impressive and you can enter its interior through the Puerta de Platerías to visit its 16 chapels. In the back of the High Altar of the Cathedral is the image of the apostle Santiago, where many believers stop to embrace it.
 
