@@ -14,7 +14,6 @@ The Cathedral was built between 1075 and 1211 with baroque and gothic elements m
 ![The Cathedral of Santiago of Compostela](_static/images/santiago-de-compostela/cathedral-of-santiago-of-compostela.jpg)
 
 The jewel of this temple is the Pórtico de la Gloria, which has numerous religious figures and you can also be surprised by the huge 50-kilo censer, set in motion to swing it during religious celebrations.
- 
 ## Obradoiro Square
 
 The Square Obradoiro, in addition to the cathedral, has several interesting places to see such as the Pazo de Raxoi, which is the current seat of the town hall, the old episcopal palace, the Pazo de Xelmirez, and the old college of the city, the Colexio de Saint Xerome. However, the building preferred by most is the hospital of the Catholic Monarchs, which was built in 1501 to give shelter to pilgrims on the Camino de Santiago, today it is a hotel known as the Parador de Santiago and its interior is a true wonder.
