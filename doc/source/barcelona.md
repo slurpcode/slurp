@@ -8,7 +8,7 @@ We are going to take you by the hand through the most important places in Barcel
 
 The temple of La Sagrada Familia is the masterpiece of the architect Gaudí, who was the greatest exponent of modernism in Barcelona, ​​although it is true that he could not finish the temple because he died, he left all the plans so that they could finish the work future architects.
 
-![Sagrada](_static/images/barcelona/sagrada.png)
+![The temple of La Sagrada Familia](_static/images/barcelona/sagrada.png)
 
 Both the interior and exterior of La Sagrada Familia are a work of art, nothing compares to any other church in the world, all its elements come together in complete harmony and its exterior highlights the towers that can reach up to 172 m in height. height (once the monument is finished) and three facades consecrated to the birth, passion and glory of Jesus Christ. Gaudí began its construction in 1883 and we all hope that the work will be completed, which is scheduled for the year 2026. When it is finished, it will become the tallest church in the world.
 
