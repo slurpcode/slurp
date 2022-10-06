@@ -166,6 +166,7 @@ Welcome to slurp's documentation!
    frankfurt.md
    hawaii.md
    hong-kong.md
+   heidelberg.md
    hongkong.md
    ibiza.md
    istanbul.md
@@ -229,7 +230,7 @@ Welcome to slurp's documentation!
    aruba.md
    curacao.md
 
-.. toctree::
+ .. toctree::
    :caption: Databases
    :maxdepth: 2
 
