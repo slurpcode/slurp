@@ -1,7 +1,6 @@
 # 🇪🇸 Santiago de Compostela
 
 Santiago de Compostela is a city that is located in the northwest of Spain and is one of the main places of pilgrimage of Christianity. This city falls in love at first sight with the beautiful streets of the old town, declared a World Heritage Site, for its monumental Cathedral and its prestigious university that is more than 500 years old.
- 
 ![Santiago de Compostela cityscape](_static/images/santiago-de-compostela/cityscape.jpg)
 
 In Santiago de Compostela you can taste excellent cuisine where seafood and fish predominate, such as Galician octopus, scallops, Galician empanada, barnacles or the famous Santiago cake.
