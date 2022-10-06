@@ -165,6 +165,7 @@ Welcome to slurp's documentation!
    dubai.md
    frankfurt.md
    hawaii.md
+   heidelberg.md
    hong-kong.md
    hongkong.md
    ibiza.md
