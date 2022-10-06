@@ -38,7 +38,6 @@ The Food Market is the second most visited site after the Cathedral. There you c
 The Museo do pobo Galego offers you a walk through Galician culture through its history, it is located in the Santo Domingo de Bonaval convent. You will be able to hallucinate with its triple helicoidal staircase and the Church, where the remains of famous Galicians such as the poet Rosalía de Castro are found.
 
 ![Triple Helicoidal Staircase](_static/images/santiago-de-compostela/triple-helicoidal-staircase.jpg)
- 
 ## Climb Mount Pedroso
 
 The recommendation is to climb Monte Pedroso either on foot or by car towards sunset, the views of the city, the natural surroundings and the cathedral are magnificent. The other very popular viewpoint is Monte do Gozo, which is located on a 380-meter hill 5 km from the city.
