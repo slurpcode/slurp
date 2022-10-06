@@ -9,6 +9,7 @@ We have made a list of the essential places you should visit if you go to Warsaw
 ## Old City
 
 One of the best activities you can do in Warsaw is to walk the streets of the Old Town, which is the oldest neighborhood and was completely in ruins during the Nazi occupation, but it was rebuilt so similar to the original that it was declared a World Heritage Site by the Unesco in 1980.
+
 In the heart of the city is located in the beautiful Old Town square where tourists and locals converge, in the surroundings you can see its cobbled streets with houses of medieval architecture and their colorful facades. You can have a drink in the restaurants with terraces that surround the square and see the street artists or painters that are usually in this area.
 
 ![Old City](_static/images/warsaw/old-city.png)
