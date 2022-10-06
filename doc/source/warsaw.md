@@ -29,6 +29,7 @@ The Palace of Culture and Science was built during the Russian occupation by ord
 ## New City
 
 The New City has numerous points of interest, founded at the end of the 14th century, it developed around the New City square and is separated from the Old City by a fortress that surrounded the city in medieval times. In the square is the church of San Casimir characterized by its white facade and there is a statue of Marie Curie, born in this city and the first woman to receive two Nobel Prizes (physics and chemistry). If you are interested in knowing more about his life and work, you can visit his old home located on Freta Street, currently it is one of the most beautiful House-Museums to see in the city.
+
 The recommendation is to observe the most beautiful buildings that are on the banks of the Vistula River and then visit the most important churches such as San Jacek, the Holy Spirit and the Visitation of the Virgin Mary.
 
 ## Warsaw Royal Route
