@@ -22,7 +22,7 @@ A Gothic marvel from the 14th century is the Cathedral of Santa Creu i Santa Eul
 
 House Batlló is one of the best works of Antonio Gaudí and is considered a World Heritage Site, with a spectacular façade that impresses at first sight and thanks to its undulating shapes, it has an interior full of magic. The roof terrace full of amazing chimneys and the courtyard of lights have turned this house into a landmark of architecture.
 
-![HouseBattlo](_static/images/barcelona/housebattlo.png)
+![House Battlo](_static/images/barcelona/housebattlo.png)
 
 Once you leave House Batlló we recommend you visit the neighboring buildings that are House Amatler, House Mulleras, House Josefina Bonet, and House Lleó Morera. They are all great works by modernist architects and together they form the so-called Manzana de la discord.
 
