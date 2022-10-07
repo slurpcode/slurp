@@ -52,7 +52,7 @@ Very close to the Poas is the most impressive waterfall in the country, but it i
 
 ## San Jose, the capital of Costa Rica
 
-In San José you can learn a little about the history of the country, mingle with the local people and immerse yourself in their culture. It is advisable to take a walk through the center, visit the National Theater, see the majestic Metropolitan Cathedral, the Central Market, a colorful Church called Nuestra Señora de la Merced, stroll through one of its many museums and also in a good place to have a drink. , eat or go dancing.
+In San José you can learn a little about the history of the country, mingle with the local people and immerse yourself in their culture. It is advisable to take a walk through the center, visit the National Theater, see the majestic Metropolitan Cathedral, the Central Market, a colorful Church called Nuestra Señora de la Merced, stroll through one of its many museums and also in a good place to have a drink, eat or go dancing.
 
 ## Irazu volcano
 
