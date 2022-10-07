@@ -230,6 +230,7 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    aruba.md
+   costa_rica.md
    curacao.md
 
 .. toctree::
