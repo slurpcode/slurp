@@ -204,6 +204,7 @@ Welcome to slurp's documentation!
    :caption: Countries
    :maxdepth: 2
 
+   costa-rica.md
    greece.md
    jordan.md
    kenya.md
@@ -230,7 +231,6 @@ Welcome to slurp's documentation!
    :maxdepth: 2
 
    aruba.md
-   costa_rica.md
    curacao.md
 
 .. toctree::
