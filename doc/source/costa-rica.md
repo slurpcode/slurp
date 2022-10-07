@@ -12,7 +12,7 @@ It is one of the most impressive places in the country and where you can find wh
 
 This is a protected place because it houses an enormous marine biodiversity, with an amazing beach and the best thing is that you can take a whale watching tour.
 
-![Marino Ballena National Park](_static/images/costa_rica/national_park.png)
+![Marino Ballena National Park](_static/images/costa_rica/national-park.png)
 
 ## Corcovado
 
