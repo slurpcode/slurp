@@ -12,7 +12,7 @@ It is one of the most impressive places in the country and where you can find wh
 
 This is a protected place because it houses an enormous marine biodiversity, with an amazing beach and the best thing is that you can take a whale watching tour.
 
-![Marino Ballena National Park](_static/images/costa_rica/national-park.png)
+![Marino Ballena National Park](_static/images/costa-rica/national-park.png)
 
 ## Corcovado
 
@@ -26,13 +26,13 @@ Puerto Viejo is one of the towns with the greatest personality in the country an
 
 This town surrounded by canals is famous for the spawning of turtles between the months of July and October. However, if you travel at another time, the visit is equally interesting since, in addition to seeing how the locals live, you can take a tour where you are taken by boat through all the channels of the national park and it indeed has many experiences to offer.
 
-![Tortuguero](_static/images/costa_rica/tortuguero.png)
+![Tortuguero](_static/images/costa-rica/tortuguero.png)
 
 ## Guanacaste
 
 Liberia is the central city of this province of Costa Rica and among its attractions is culture, the Rincón de la Vieja volcano and, above all, its amazing beaches (whose offer is endless). Being the best known Flamingo, Tamarindo, Coco, Concha and many others.
 
-![Guanacaste](_static/images/costa_rica/guanacaste.png)
+![Guanacaste](_static/images/costa-rica/guanacaste.png)
 
 ## Malpais and Santa Teresa
 
@@ -66,7 +66,7 @@ You can finally see this volcano since it was closed for a long time due to its 
 
 This is one of the most popular volcanoes in the country, but you need a clear day to fully see it. This is because its almost 1,700 meters is usually covered by clouds. In the event that it is cloudy, do not worry too much, because this volcano is within a national park that bears the same name and also has Lake Arenal, which is the protagonist of certain tours and is completely navigable.
 
-![Arenal Volcano](_static/images/costa_rica/volcano.png)
+![Arenal Volcano](_static/images/costa-rica/volcano.png)
 
 ## Hot springs of La Fortuna
 
