@@ -204,6 +204,7 @@ Welcome to slurp's documentation!
    :caption: Countries
    :maxdepth: 2
 
+   costa-rica.md
    greece.md
    jordan.md
    kenya.md
