@@ -197,6 +197,7 @@ Welcome to slurp's documentation!
    tokyo.md
    venice.md
    vienna.md
+   warsaw.md
    washington.md
    zurich.md
 
