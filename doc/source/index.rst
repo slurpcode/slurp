@@ -150,6 +150,7 @@ Welcome to slurp's documentation!
    amsterdam.md
    andorra.md
    bangkok.md
+   barcelona.md
    beijing.md
    belfast.md
    brasilia.md
@@ -165,6 +166,7 @@ Welcome to slurp's documentation!
    dubai.md
    frankfurt.md
    hawaii.md
+   heidelberg.md
    hong-kong.md
    hongkong.md
    ibiza.md
@@ -188,6 +190,7 @@ Welcome to slurp's documentation!
    prescott.md
    rio-de-janeiro.md
    santiago-de-chile.md
+   santiago-de-compostela.md
    saragossa.md
    shanghai.md
    stockholm.md
@@ -201,6 +204,7 @@ Welcome to slurp's documentation!
    :caption: Countries
    :maxdepth: 2
 
+   costa-rica.md
    greece.md
    jordan.md
    kenya.md
@@ -226,7 +230,9 @@ Welcome to slurp's documentation!
    :caption: Islands
    :maxdepth: 2
 
+   aruba.md
    curacao.md
+
 .. toctree::
    :caption: Databases
    :maxdepth: 2
