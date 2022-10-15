@@ -5,7 +5,7 @@ go 1.19
 require (
 	github.com/gocolly/colly/v2 v2.1.0
 	github.com/spf13/pflag v1.0.5
-	github.com/urfave/cli/v2 v2.17.1
+	github.com/urfave/cli/v2 v2.19.2
 )
 
 require (
