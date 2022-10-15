@@ -2,7 +2,7 @@
 
 Johannesburg is the largest and most populous city in the country with just under 8 million inhabitants, being one of the regions with the highest purchasing power in Africa. Its development began at the end of the 19th century with the discovery of gold in the area and many people came looking for work in the mines. This city is very important for the politics, history and culture of the country, since Nelson Mandela fought part of his struggle and lived in Johannesburg for many years.
 
-![Johannesburg](_static/images/johannesburg/johannesburg-1.jpg)
+![Johannesburg](_static/images/johannesburg/johannesburg.jpg)
 
 We will leave you a list with those essential places to visit in Johannesburg
 
@@ -25,13 +25,13 @@ There is also a shop with a fairly good selection of books and a restaurant if y
 
 Soccer City Stadium also known as FNB Stadium was opened in 1989 and is the most famous in Africa. The national soccer and rugby teams and the Soweto team play there. It was remodeled to celebrate the 2010 World Cup and we all remember the final match between Spain and the Netherlands with Iniesta's goal, which was simply heart-stopping. This stadium was where Nelson Mandela gave his first rally, once he was released in 1990, and also where his funeral was held in December 2013.
 
-![Johannesburg](_static/images/johannesburg/johannesburg-2.jpg)
+![Soccer City Stadium](_static/images/johannesburg/soccer-city-stadium.jpg)
 
 ## Visit Soweto
 
 Soweto is an acronym for the “South Western Townships” which was separate from Johannesburg from the 1970s to 1994, as blacks could not live in the city during Apartheid. The township of Soweto was the place that housed both Nelson Mandela and his friend Desmond Tutu (Nobel Prize). You can even visit the homes where they both lived, they are very close to each other and the inhabitants of Soweto are proud, for having the street that has the most Nobel prizes in the world.
 
-![Johannesburg](_static/images/johannesburg/johannesburg-3.jpg)
+![Soweto](_static/images/johannesburg/soweto.jpg)
 
 In this area there is also the Regina Mundi Catholic Church, which was always the meeting place during Apartheid for the people of the neighborhood. It was there where there were several clashes between police and protesters, you can still see the bullet marks that are on the walls of the temple. You can also see incredible stained glass windows that tell the history of the country, Regina Mundi remains today the heart of cultural and social life in Soweto, the Church has a capacity for just over 5000 people.
 
@@ -45,7 +45,7 @@ This farm on the outskirts of the city was converted into the Liliesleaf Farm Mu
 
 Sandton is located on the outskirts of Johannesburg and is where the best hotels are located, a very popular area for tourists. There is also Nelson Mandela Square where you will find a large statue of the South African leader over 6 meters, as well as the Sandton City shopping center which is one of the largest shopping places in the southern hemisphere. There you will find endless shops, luxury restaurants and five-star hotels.
 
-![Johannesburg](_static/images/johannesburg/johannesburg-4.jpg)
+![Sandton](_static/images/johannesburg/sandton.jpg)
 
 Johannesburg is a city full of history and where all human rights were violated, it is important to visit it to learn about the events that must not be repeated.
 
