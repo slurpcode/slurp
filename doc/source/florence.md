@@ -62,7 +62,7 @@ The Pitti Palace is a large building that houses important collections of painti
 
 ## Michelangelo Square
 
-In this square, in addition to having the best views of Florence, you will find copies of Michelangelo's David and four of his statues that are in the Medici Chapel. The square was built to honor the great artist Miguel Angel
+In this square, in addition to having the best views of Florence, you will find copies of Michelangelo's David and four of his statues that are in the Medici Chapel. The square was built to honor the great artist Miguel Angel.
 
 ## Church of Santa Maria Novella
 
