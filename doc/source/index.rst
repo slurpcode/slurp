@@ -172,6 +172,7 @@ Welcome to slurp's documentation!
    ibiza.md
    istanbul.md
    jakarta.md
+   johannesburg.md
    kyoto.md
    las-vegas.md
    lime.md
