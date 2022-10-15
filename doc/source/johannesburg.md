@@ -19,7 +19,9 @@ The Carlton Center is the tallest building in all of Africa, it was inaugurated 
 ## Apartheid Museum
 
 The Apartheid Museum has a very interesting theme and is one of the best organized and most complete museums that exist. From the beginning you will be able to realize how special this museum is, when you enter they give you a random ticket that can say "white" or "black", depending on the one you get you will enter through a different door, each one with different corridors that meet again, the objective is to represent the difference that existed between human beings depending on their skin color during Apartheid.
+
 Once inside you will be able to see information panels, objects of the time, reproductions of places, testimonies and a lot of audiovisual material, which can move you when you observe so much barbarism, in addition to thinking that these circumstances officially ended in 1994, that is, atrocities that lasted too long until just a few years ago.
+
 There is also a shop with a fairly good selection of books and a restaurant if you want to eat something during your visit.
 
 ## Soccer City Stadium
