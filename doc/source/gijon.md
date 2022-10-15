@@ -28,7 +28,7 @@ Although it is true that visiting each of these places is essential, one of the 
 
 At the foot of Cimadevilla is the port that still preserves the seafaring essence of yesteryear. When walking through this port you will see a large number of small boats that make up a sea of masts, in addition to the sculpture of the Tree of Cider that was made with the bottles of this famous drink, to later reach the famous red letters of Gijón where tourists usually take a photo with the port in the background and finally arrive at Poniente Beach. In the area you can also book a boat tour, rent a kayak, a paddle surf board or a jet ski, also practice flyboarding or wakeboarding.
 
-![the Port](_static/images/gijon/the-port.jpg)
+![The Port](_static/images/gijon/the-port.jpg)
 
 ## Hill Park
 
