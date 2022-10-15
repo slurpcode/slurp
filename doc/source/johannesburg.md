@@ -48,3 +48,7 @@ Sandton is located on the outskirts of Johannesburg and is where the best hotels
 ![Johannesburg](_static/images/johannesburg/johannesburg-4.jpg)
 
 Johannesburg is a city full of history and where all human rights were violated, it is important to visit it to learn about the events that must not be repeated.
+
+## About the Author
+
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. She likes poetry, chess and dominoes.
