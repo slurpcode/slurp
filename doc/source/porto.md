@@ -71,6 +71,7 @@ The old medieval wall that surrounds Porto is also known as the Fernandina Wall,
 ## Crystal Palace Gardens
 
 This Romanesque-style park has many interesting sites such as the Emílio David Garden, the Castaños and Tilos avenues, several thematic gardens such as Medicinal Plants, Aromatics, Feelings, Roses, among others.
+
 The city of Porto is much more than the wine it produces, it has endless interesting things to discover.
 
 ## About the Author
