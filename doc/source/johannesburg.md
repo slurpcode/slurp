@@ -9,6 +9,7 @@ We will leave you a list with those essential places to visit in Johannesburg
 ## Constitution Hill
 
 For those who do not know, Gandhi lived in South Africa and was also imprisoned in the same prison where Nelson Mandela was imprisoned years later, it is currently the Constitutional Court of South Africa and can be visited. There you can first see Old Ford, which is where the prison buildings, its rooms, the patio, the bathrooms and several exhibition rooms are located, in one of them the history of both icons that were there in the 20th century is shown. . Later you will be able to see the Court, where you will realize that curiously it was built with the bricks of the old prison, its structure was incredibly well thought out, to the point that so that the politicians cannot be higher than the town, the room is located in the basement.
+
 The Court was inaugurated in 2004 and it is incredible to think what happened within those same walls compared to what it is today, a symbol of the struggle waged in South Africa against its cruel and recent past.
 
 ## Go up to the Carlton Center
