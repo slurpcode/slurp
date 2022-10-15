@@ -149,6 +149,7 @@ Welcome to slurp's documentation!
    amman.md
    amsterdam.md
    andorra.md
+   auckland.md
    bangkok.md
    barcelona.md
    beijing.md
