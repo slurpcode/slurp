@@ -54,8 +54,7 @@ The Plaza Mayor is presided over by the City Council and is located in the heart
 
 Poniente Beach goes from the marina to the old shipyards, it is an artificial beach and was built in the mid-90s, it is currently one of the most popular beaches in Gijón. After bathing in its cold waters, you can go to the Asturias Railway Museum located in the old North Station. This museum is considered one of the most important of its kind in Europe.
 
-Another of the museums worth seeing is that of Pueblo Asturiano, where you can see bread baskets and ovens from the 18th and 19th centuries, as well as traditional constructions, including the houses of the Campesina, the González de la Vega, the de los Valdés and a mansion that houses a collection of bagpipes that was built
-in 1757.
+Another of the museums worth seeing is that of Pueblo Asturiano, where you can see bread baskets and ovens from the 18th and 19th centuries, as well as traditional constructions, including the houses of the Campesina, the González de la Vega, the de los Valdés and a mansion that houses a collection of bagpipes that was built in 1757.
 
 ## Begoña walk
 
