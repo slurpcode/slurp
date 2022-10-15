@@ -187,6 +187,7 @@ Welcome to slurp's documentation!
    nice.md
    paris.md
    pattaya.md
+   porto.md
    prescott.md
    rio-de-janeiro.md
    santiago-de-chile.md
