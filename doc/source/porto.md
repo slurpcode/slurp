@@ -21,6 +21,7 @@ The Clérigos Church was built between 1735 and 1748 on the Cerro de los ahorcad
 ## Ribeira
 
 The walk known as Cais de Ribeira is one of the busiest and most famous places in the city, where you can see buildings with colorful facades and terraces full of people who gather, either to have a glass of good Port wine. or eat excellent cod with views of Vila Nova de Gaia and the Duero.
+
 During the walk you will see several rabelos, which are the traditional Portuguese boats, which are in charge of carrying the wine barrels from the vineyards to the cellars that are in Vila Nova de Gaia. You can also book a Douro river cruise that goes under the 6 main bridges of the city and once you get off the boat, you will be very close to the Casa do Infante, built in 1325 and the birthplace of the discoverer Enrique el Navigator.
 
 ## The Porto Cathedral
