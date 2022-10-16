@@ -174,7 +174,7 @@ Welcome to slurp's documentation!
    jakarta.md
    kyoto.md
    las-vegas.md
-   lime.md
+   lima.md
    lisbon.md
    london.md
    madrid.md
