@@ -7,7 +7,7 @@ Through this article we will take you by the hand through the most iconic sites 
 
 The Luhur Uluwatu temple is located in the south of the island on a 75-meter-high cliff, it was built to ward off evil spirits in the 10th century, it stands out for the large number of tourists who go to the temple to see the wonderful sunset in the Indian Ocean. This site is close to beaches that are worth visiting such as Balangan, Bingin or Padang Padang. One recommendation is that you have to be careful with the monkeys and keep your glasses or small objects well, because they are capable of taking them and running away. Several places provide food for the monkey to drop the objects, in case of theft it is advisable to go to these specific places.
 
-![Luhur Uluwatu Temple](_static/images/bali/1.jpg)
+![Luhur Uluwatu Temple](_static/images/bali/temple.jpg)
 
 ## Ubud
 
@@ -17,9 +17,10 @@ Ubud is a city that is located in the central part of the island, so it is the p
 
 Bali's main crop is rice, so rice terraces are scattered all over the island. Although it is true that there are very beautiful rice fields around Ubud, we also recommend you visit the Tegallalang and Jatiluwih rice fields, which we consider to be the most beautiful, with an intense green, full of water and surrounded by a great environment.
 
-![Rice terraces](_static/images/bali/2.jpg)
+![Rice terraces](_static/images/bali/rice-terraces.jpg)
 
 ## Pura Tanah Lot
+
 Tanah Lot is one of the best temples in Bali, built in the middle of the sea on a rocky islet where you can see the sunset or sunrise with the temple, the ocean in the background and the waves breaking on the rocks, that's all a show. You can see this Hindu temple dedicated to the god of the sea up close at low tide by accessing it from the beach, since you cannot visit its interior, but it is a unique experience to complement sunrise or sunset.
 
 ## Volcanoes
@@ -40,7 +41,7 @@ Bali has excellent waterfalls perfect for taking a bath such as Git Git, which i
 
 The Ulun Danu Temple is dedicated to the goddess of water and is one of the most beautiful in Bali. It is located on the shore of Lake Bratan at about 1200 meters high, the image of it is reflected in the lake that has been formed on a crater and with mountains around lush vegetation.
 
-![Ulun Danu Temple](_static/images/bali/3.jpg)
+![Ulun Danu Temple](_static/images/bali/ulun-danu-temple.jpg)
 
 ## Other Bali Temples
 
@@ -48,7 +49,7 @@ Bali has more than 10,000 temples, and it is very important to choose which ones
 
 **Gunung Kawi:** This temple stands out for being located near a river surrounded by rice fields and is very different from other temples in Bali, since the sanctuaries are carved into the same rock.
 
-![Gunung Kawi](_static/images/bali/4.jpg)
+![Gunung Kawi](_static/images/bali/gunung-kawi.jpg)
 
 **Tirta Empul:** It is located next to a spring in which the Balinese consider sacred water, where they bathe for its healing properties.
 
