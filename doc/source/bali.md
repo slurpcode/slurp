@@ -1,6 +1,7 @@
 ## 🇮🇩 Bali
 
 Bali is an island in Indonesia known as the Island of the Gods for its large number of temples, wild nature, beautiful rice fields, volcanoes, waterfalls, lakes, endless beaches and the incredible kindness of its people, in addition to the delicious cuisine, which you offers an unforgettable experience.
+
 Through this article we will take you by the hand through the most iconic sites of this paradisiacal island.
 
 ## Luhur Uluwatu Temple
