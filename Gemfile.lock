@@ -14,7 +14,8 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
-    chef-utils (16.11.7)
+    chef-utils (18.0.161)
+      concurrent-ruby
     childprocess (4.1.0)
     chroma (0.2.0)
     coercible (1.0.0)
@@ -245,7 +246,7 @@ GEM
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    mdl (0.11.0)
+    mdl (0.12.0)
       kramdown (~> 2.3)
       kramdown-parser-gfm (~> 1.1)
       mixlib-cli (~> 2.1, >= 2.1.1)
@@ -273,11 +274,11 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.16.3)
     mixlib-cli (2.1.8)
-    mixlib-config (3.0.9)
+    mixlib-config (3.0.27)
       tomlrb
-    mixlib-shellout (3.2.5)
+    mixlib-shellout (3.2.7)
       chef-utils
-    mixlib-shellout (3.2.5-universal-mingw32)
+    mixlib-shellout (3.2.7-universal-mingw32)
       chef-utils
       ffi-win32-extensions (~> 1.0.3)
       win32-process (~> 0.9)
@@ -287,8 +288,6 @@ GEM
       connection_pool (~> 2.2)
     nokogiri (1.13.8)
       mini_portile2 (~> 2.8.0)
-      racc (~> 1.4)
-    nokogiri (1.13.8-x64-mingw32)
       racc (~> 1.4)
     octokit (4.25.1)
       faraday (>= 1, < 3)
@@ -371,7 +370,7 @@ GEM
       unf (~> 0.1.4)
     terminal-table (1.6.0)
     thread_safe (0.3.6)
-    tomlrb (2.0.1)
+    tomlrb (2.0.3)
     ttfunk (1.7.0)
     tty-which (0.4.2)
     typhoeus (1.4.0)
@@ -383,7 +382,6 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8.2)
-    unf_ext (0.0.8.2-x64-mingw32)
     unicode-display_width (2.2.0)
     virtus (1.0.5)
       axiom-types (~> 0.1)
@@ -393,9 +391,9 @@ GEM
     webrick (1.7.0)
     webrobots (0.1.2)
     websocket (1.2.9)
-    win32-process (0.9.0)
+    win32-process (0.10.0)
       ffi (>= 1.0.0)
-    wmi-lite (1.0.5)
+    wmi-lite (1.0.7)
     zeitwerk (2.6.0)
 
 PLATFORMS
