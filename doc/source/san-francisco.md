@@ -2,7 +2,7 @@
 
 San Francisco is a city in the United States capable of falling in love at first sight with its Victorian-style houses and its geographical location around the bay. This city is far from the chaotic and noisy big American cities, San Francisco also has delicious cuisine and a mild climate.
 
-![San Francisco](_static/images/san-francisco/1.jpg)
+![San Francisco](_static/images/san-francisco/san-francisco.jpg)
 
 We are going to guide you through this article through the main tourist attractions of the city
 
@@ -10,7 +10,7 @@ We are going to guide you through this article through the main tourist attracti
 
 The Golden Gate Bridge is the quintessential symbol of San Francisco and was built in 1937, it measures almost 3 km wide and 227 m high, it is on the list of the most beautiful bridges in the world and to enjoy it is advisable to access one of the viewpoints that are around the bridge, one of the favorites is Battery Spencer or any of the others that are on the side of Conzelman Road, where you can get fantastic views of the Golden Gate, the city and the bay background.
 
-![The Golden Gate](_static/images/san-francisco/2.jpg)
+![The Golden Gate](_static/images/san-francisco/golden-gate.jpg)
 
 ## The Presidio Park
 
@@ -24,7 +24,7 @@ Fisherman's Wharf is the fishermen's quarter and the old port that has been rest
 
 This island was a military fort before becoming one of the most famous prisons in the world known as The Rock. This prison operated from 1934 to 1963 and is currently one of the best visits and experiences to do in San Francisco. To get to the island you must board one of the boats that are taken at Pier 33 and when you arrive at Alcatraz you will be able to see the cells and the different rooms of the prison, such as the one where Al Capone was.
 
-![Alcatraz Island](_static/images/san-francisco/3.jpg)
+![Alcatraz Island](_static/images/san-francisco/alcatraz.jpg)
 
 ## Castro neighborhood
 
@@ -38,7 +38,7 @@ Haight-Ashbury is the place where the hippie movement was born in the 60s where 
 
 The Painted Ladies are Victorian-style houses that are painted in different pastel colors located on Steiner Street between 710 and 722. While it is true that the city had more than 50,000 houses before the 1906 earthquake in this same style, they still exist many very well preserved and scattered throughout the city, although these are the best known.
 
-![Painted Ladies](_static/images/san-francisco/4.jpg)
+![Painted Ladies](_static/images/san-francisco/painted-ladies.jpg)
 
 ## Twin Peaks
 
@@ -63,9 +63,4 @@ San Francisco is one of the most beautiful cities in the United States and if yo
 
 ## About the Author
 
-Graduated in Mechanical Engineering, and a master's degree in teaching
-component, I gave classes in several institutes of mathematics and physics, but
-I also dedicated several years of my life as a television producer, I did the
-scripts for mikes, the camera direction, editing of video and even the location.
-Later I was dedicated to SEO writing for a couple of years. I like poetry, chess
-and dominoes.
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. She likes poetry, chess and dominoes.
