@@ -165,6 +165,7 @@ Welcome to slurp's documentation!
    copenhagen.md
    dharamshala.md
    dubai.md
+   florence.md
    frankfurt.md
    gijon.md
    hawaii.md
