@@ -149,6 +149,7 @@ Welcome to slurp's documentation!
    amman.md
    amsterdam.md
    andorra.md
+   auckland.md
    bangkok.md
    barcelona.md
    beijing.md
@@ -165,6 +166,7 @@ Welcome to slurp's documentation!
    dharamshala.md
    dubai.md
    frankfurt.md
+   gijon.md
    hawaii.md
    heidelberg.md
    hong-kong.md
@@ -188,6 +190,7 @@ Welcome to slurp's documentation!
    nice.md
    paris.md
    pattaya.md
+   porto.md
    prescott.md
    rio-de-janeiro.md
    santiago-de-chile.md
