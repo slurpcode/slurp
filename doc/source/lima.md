@@ -2,7 +2,7 @@
 
 Lima is the capital of Peru and is located in a privileged position towards the shores of the Pacific Ocean. In this city, colonial architecture is mixed with the most modern buildings and Peruvian cuisine is among the best in the world. We will give you a guide with the most iconic sites that the Peruvian capital has.
 
-![Lima City](_static/images/lima/lime-city.jpg)
+![Lima City](_static/images/lima/lima-city.jpg)
 
 ## Main Square
 
