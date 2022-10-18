@@ -8,7 +8,7 @@ Lima is the capital of Peru and is located in a privileged position towards the 
 
 The Square Weapons is located in the heart of the historic center and it was there that Francisco Pizarro founded the city in 1535, it is surrounded by important buildings such as the Cathedral, the Archbishop's Palace, the Government Palace and the Sagrario Church. This spacious square is a meeting point for locals and tourists who gather around a beautiful fountain. In the surroundings you can find endless restaurants where you can try a delicious ceviche (fresh fish marinated in lemon juice), perhaps a seafood soup called Parihuela or other dishes based on fish and shellfish, which are the main base of Peruvian cuisine.
 
-![Main Sqaure](_static/images/lima/main-square.jpg)
+![Main Square](_static/images/lima/main-square.jpg)
 
 ## Love Park
 
