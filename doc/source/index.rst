@@ -154,6 +154,7 @@ Welcome to slurp's documentation!
    barcelona.md
    beijing.md
    belfast.md
+   bogota.md
    brasilia.md
    brisbane.md
    brussels.md
