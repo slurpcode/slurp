@@ -195,6 +195,7 @@ Welcome to slurp's documentation!
    porto.md
    prescott.md
    rio-de-janeiro.md
+   san-francisco.md
    santiago-de-chile.md
    santiago-de-compostela.md
    saragossa.md
