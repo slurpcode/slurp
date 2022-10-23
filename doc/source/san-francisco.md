@@ -4,7 +4,7 @@ San Francisco is a city in the United States capable of falling in love at first
 
 ![San Francisco](_static/images/san-francisco/san-francisco.jpg)
 
-We are going to guide you through this article through the main tourist attractions of the city
+We are going to guide you through this article through the main tourist attractions of the city.
 
 ## The Golden Gate
 
