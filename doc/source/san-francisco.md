@@ -30,7 +30,7 @@ This island was a military fort before becoming one of the most famous prisons i
 
 The Castro neighbourhood is known for being one of the places where the current rights of the LGBTI community and the acceptance of sexual diversity were fought the most. Among the most outstanding sites is the former home of Harvey Milk, who was one of the great representatives of this community, the theater, the Victorian houses in the colorful streets located around number 18 and some of the best restaurants such as the Bar & Seafood Market or the Anchor Oyster and a famous bakery like the Hot Cookie.
 
-## Haight-Ashbury 
+## Haight-Ashbury
 
 Haight-Ashbury is the place where the hippie movement was born in the 60s where you can see Jimmy Hendrix's house, the Victorian houses that are on Waller Street, second-hand hippie-style stores such as Buffalo Exchange, a store for buy vinyl and places to listen to live music.
 
