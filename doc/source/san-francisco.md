@@ -59,6 +59,7 @@ The Little Italy neighborhood is a quaint neighborhood where you can sample deli
 ## Japantown
 
 Japantown is the largest and oldest Japanese neighborhood in the United States where you can see several tourist attractions such as the Japan Center, the Peace Square, a five-story pagoda and a shopping center with Japanese restaurants and shops.
+
 San Francisco is one of the most beautiful cities in the United States and if you have the chance, just don't miss it!!!
 
 ## About the Author
