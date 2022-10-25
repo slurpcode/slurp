@@ -154,6 +154,7 @@ Welcome to slurp's documentation!
    barcelona.md
    beijing.md
    belfast.md
+   bogota.md
    brasilia.md
    brisbane.md
    brussels.md
@@ -194,6 +195,7 @@ Welcome to slurp's documentation!
    porto.md
    prescott.md
    rio-de-janeiro.md
+   san-francisco.md
    santiago-de-chile.md
    santiago-de-compostela.md
    saragossa.md
