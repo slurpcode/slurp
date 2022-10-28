@@ -203,6 +203,9 @@ The original **`Fuchsia`** Programming on Heroku
 
 ## Contributors
 
+A special thanks goes to [Jorge Araica](https://github.com/summerhill5) for all the
+amazing graphics work he did for `Fuchsia` and `Slurp Code`.
+
 <a href="https://github.com/slurpcode/slurp/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=slurpcode/slurp" />
 </a>
