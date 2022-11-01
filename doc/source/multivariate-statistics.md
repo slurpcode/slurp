@@ -100,7 +100,7 @@ Let's go with the first example of multivariate regression:
 
 In a gym, the weight and height measurements of some clients chosen at random are taken, to generate a function that allows us to predict, the same measurements in other clients just by knowing their age, the data obtained is as shown below:
 
-![Table](_static/images/multivariate_statistics/table_1.jpg)
+![Table](_static/images/multivariate-statistics/table_1.jpg)
 
 To do multivariate linear regression using Excel, we need to install the Data Analysis Add-in. For this, it will be necessary to open a new Excel sheet and pour our data into it, then we go to the upper menu in "file" and in the drop-down menu we will choose "options", a box opens and in the menu on the left we click on "add-ons", where again the add-on options on the right side of the box are opened, there we must select "tools for VBA analysis"
 and then go to the "go" button and press it.
