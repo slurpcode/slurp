@@ -6,7 +6,7 @@ In the Audion piano each “octave,” or set of eight notes on the keyboard, ha
 of the piano as “resembling a violin, cello, woodwind, muted brass,” or even as an entirely new sound never before possible with ordinary instruments. Sometimes, he admitted,
 the sound was grating and unpleasant, leading the inventor to nickname his instrument the “squawk-a-phone.”
 
-![Audion Piano](_static/images/audion_piano/audion_piano1.png)
+![Audion Piano](_static/images/audion-piano/audion_piano1.png)
 
 [“Audion Bulbs as Producers of Pure Musical Tones” from ‘The Electrical Experimenter’ December 1915]
 
@@ -15,7 +15,7 @@ The immediate application of De Forest’s triode valve was in the emerging radi
 In 1915 De Forest used the discovery of the heterodyning effect in an experimental instrument that he christened the ‘Audion Piano’ .
 This instrument – based on previous experiments as early as 1907 – was the first vacuum tube instrument and established the blueprint for most future electronic instruments until the emergence of transistor technology some fifty year later.
 
-![Audion Piano](_static/images/audion_piano/audion_piano2.jpg)
+![Audion Piano](_static/images/audion-piano/audion_piano2.jpg)
 
 [De Forest]
 

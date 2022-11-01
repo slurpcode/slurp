@@ -8,7 +8,7 @@ Of course, jungle didn't come out of nowhere: it roots in dub (rhythm world, sub
 
 Sampling from the drums of former jazz (sometimes swing, or bossa nova) music, then accelerated to 160-180 bpm, a simplistic, almost trivial, but powerful reggae bass beat: this is pretty much the jungle base, from this point on, the most prolific and inventive musical style of the late 1990s branches off into a number of sub-genres. For example, a ragga muffin with up vocals, dub bass lines, reggae sound patterns, a fun-sounding jump up, or a reggae jungle (e.g. Mickey Finn, Aphrodite). Or drum & bass (e.g. Guy Called Gerald, Goldie, Photek, Doc Scott, Alex Reece), who no longer sampled rhythm guitars, but programed the sound very finely, developing the sound to the finals: at first hearing inhuman and hyper-fast breakbeats are dissolved by the jazz and soul elements, ambient pads, vocals flowing on them.
 
-![Goldie](_static/images/jungle_drum_bass/goldie.jpg)
+![Goldie](_static/images/jungle-drum-bass/goldie.jpg)
 
 Drum and bass is dominated by a relatively small group of record labels. Major international music labels had shown very little interest in the drum and bass scene until BMG Rights Management acquired RAM in February 2016. Since then, the genre has seen a significant growth in exposure. The origin and home of drum and bass music is in the UK, with other prominent fanbases located in Australia, Canada, New Zealand, United States, and South Africa. There's also a modest following in countries like Austria, Russia, Estonia, Czech Republic, Belgium, the Netherlands, and more.
 

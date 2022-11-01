@@ -15,7 +15,7 @@ or ceiling by directing a bright light through a series of revolving painted gla
 
 " The keyboard controlled the combination of the various filters and disks. The variations in opacity of the painted disk and filters were picked up by a photo-electric cell controlling the pitch of a single oscillator. The instrument produced a continuous varying tone which--accompanied by the rotating kaleidascopic projections--was used by Vladimir Rossiné at exhibitions and public events."
 
-![rossine](_static/images/optophonic_piano/rossine.jpg) ![painted](_static/images/optophonic_piano/painted.jpg)
+![rossine](_static/images/optophonic-piano/rossine.jpg) ![painted](_static/images/optophonic-piano/painted.jpg)
 &emsp;[Rossiné's Optophonic Piano]&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;[Painted glass disk of The Optophonic Piano]
 
 “Imagine that every key of an organ’s keyboard immobilises in a specific position, or moves a determined element, more or less rapidly, in a group of transparent filters which a beam of white light pierces, and this will give you an idea of the instrument Baranoff-Rossiné invented."

@@ -5,18 +5,18 @@ Leon Theremin (born Lev Sergeyevich Termen; 27 August [O.S. 15 August] 1896 – 
 Lev Sergeyevich Termen most famous for creating
 the ‘Theremin’ also invented many other electronic instruments based on the heterodyning vacuum tube technology of the day – including the Keyboard Theremin, Theremin Cello, Terpsitone, Rhythmicon and the ‘Electric Harmonium’ or ‘Theremin Harmonium’.
 
-![Theremin Harmonium](_static/images/keyboard_electric_harmonium/keyboard_electric_harmonium1.png)
+![Theremin Harmonium](_static/images/keyboard-electric-harmonium/keyboard_electric_harmonium1.png)
 
 [Theremin Harmonium]
 
 Termen’s Harmonium was an early vacuum tube based polyphonic instrument designed to accompany vocal performances.
 The instrument had a three octave keyboard with a variable tuning that allowed 1,200 micro-tonal divisions per octave. The timbre and volume of the sound could be varied using twelve dials fixed to the front of the instrument.
 
-![Theremin Harmonium](_static/images/keyboard_electric_harmonium/keyboard_electric_harmonium2.jpg)
+![Theremin Harmonium](_static/images/keyboard-electric-harmonium/keyboard_electric_harmonium2.jpg)
 
 [Early version of the Theremin Harmonium]
 
-![Theremin Harmonium](_static/images/keyboard_electric_harmonium/keyboard_electric_harmonium3.jpg)
+![Theremin Harmonium](_static/images/keyboard-electric-harmonium/keyboard_electric_harmonium3.jpg)
 
 [Theremin’s later version of the Harmonium]
 

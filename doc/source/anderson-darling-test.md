@@ -9,7 +9,7 @@ The statistic used for this test is given by the area that exists between the fi
 A<sup>2</sup>= -N-S
 
 Where N is the number of cases and S is the standard deviation, but it can also be expressed as follows:
-![formula](_static/images/anderson_darling_test/formula_1.PNG)
+![formula](_static/images/anderson-darling-test/formula_1.PNG)
 
 Being:
 
@@ -31,10 +31,10 @@ The test statistic is responsible for measuring the fit of the data to a specifi
 
 Let's go with an example: Suppose that in a certain University there are courses for masters, postgraduate and undergraduate classes in different careers, in each classroom there is a number of students and we want to know if the number of students per class follows a normal distribution.
 
-![photo](_static/images/anderson_darling_test/class.jpg)
+![photo](_static/images/anderson-darling-test/class.jpg)
 
 The results of the number of students for each classroom are shown below:
-![formula](_static/images/anderson_darling_test/table_1.PNG)
+![formula](_static/images/anderson-darling-test/table_1.PNG)
 
 If we calculate the mean and the standard deviation, we obtain the following values:
 
@@ -49,11 +49,11 @@ We will fill the first column with the first part of the formula which is: (2i-1
 In the second column we will place the data from our observations with the number of students per classroom, but in order from least to greatest and we will call it Y<sub>i</sub>.
 While the third column (Y<sub>n+1-i</sub>)  will be made up of the same data as the second column, but ordered from highest to lowest, that is, in reverse order.
 
-![formula](_static/images/anderson_darling_test/table_2.PNG)
+![formula](_static/images/anderson-darling-test/table_2.PNG)
 
 A fourth column Zi must be calculated through the formula:
 
-![formula](_static/images/anderson_darling_test/formula_2.PNG)
+![formula](_static/images/anderson-darling-test/formula_2.PNG)
 
 For example, for the first values we have:
 
@@ -65,7 +65,7 @@ In this way we will be calculating each value of Z for the rest of the rows, it 
 
 On the other hand, the fifth column F(Y<sub>n+1-i</sub>) is configured by the same values of the fourth column, but in the opposite direction and the sixth column is formed simply by the subtraction of the fifth column to unity, that is,1- F(Y<sub>n+1-i</sub>). All these calculations are made in order to facilitate the values that we need to substitute in the final formula, which we remember is:
 
-![formula](_static/images/anderson_darling_test/formula_3.PNG)
+![formula](_static/images/anderson-darling-test/formula_3.PNG)
 
 We can realize that the only thing missing for the calculation of this formula is to extract the natural logarithm of both F (Y<sub>i</sub>) and 1- F(Y<sub>n+1-i</sub>) and it is precisely with these calculations that we will fill in the octave and ninth column. For example for the eighth column:
 
@@ -85,10 +85,10 @@ Ln  ⁡[1-F(Y<sub>n+1-i</sub> )]  = ln (0,0764) = -2,57177
 
 We only have to divide the first column (2i-1) by the number of data (n) and then multiply the result, by the sum of the values obtained in the eighth lnF (Y<sub>i</sub>) + ninth column ln⁡(1-F(Y<sub>n+1-i</sub>))], for example, we will do this calculation for the first two rows:
 
-![formula](_static/images/anderson_darling_test/formula_4.PNG)
+![formula](_static/images/anderson-darling-test/formula_4.PNG)
 
 And so on, once we have completed the 20 rows corresponding to the last column, we must add all their values to obtain the final sum, which as we can see we obtain a value of:
-![formula](_static/images/anderson_darling_test/formula_5.PNG)
+![formula](_static/images/anderson-darling-test/formula_5.PNG)
 
 The next step is to apply Anderson Darling's first formula:
 
@@ -96,7 +96,7 @@ A<sup>2</sup>= - N – S = -20 –(-20,526)= 0,526
 
 This value is the one that we are going to compare with the Anderson Darling critical value, which, as we can see for a normal distribution:
 
-![photo](_static/images/anderson_darling_test/table_3.jpg)
+![photo](_static/images/anderson-darling-test/table_3.jpg)
 
 Equivalent to: A<sup>2</sup>crítico = 0,751
 
@@ -138,11 +138,11 @@ The second step is to calculate the standard deviation, for this it will be nece
 
 To facilitate calculations, it is recommended to use the following formula for each of the data 〖(Xi- μ)〗<sup>4</sup> and place the result in a table:
 
-![formula](_static/images/anderson_darling_test/table_4.PNG)
+![formula](_static/images/anderson-darling-test/table_4.PNG)
 
 The formula for calculating kurtosis on ungrouped data is:
 
-![formula](_static/images/anderson_darling_test/formula_6.PNG)
+![formula](_static/images/anderson-darling-test/formula_6.PNG)
 
 We can realize that in this case the kurtosis is greater than 3, so that we would be in the presence of a leptokurtic distribution and, as we already know, it has a greater aim than the normal distribution has.
 
@@ -162,7 +162,7 @@ In general, both skewness and kurtosis are often used to test whether or not a s
 
 This is another of the goodness of fit tests and is used to check if any sample has the kurtosis and symmetry of a normal distribution. Its name comes from its creators Carlos Jarque and Anil Bera. This statistical test is defined by the formula:
 
-![formula](_static/images/anderson_darling_test/formula_7.PNG)
+![formula](_static/images/anderson-darling-test/formula_7.PNG)
 
 Where n is the number of observations, K is the kurtosis of the sample and A is the sample skewness.
 
@@ -172,13 +172,13 @@ The asymmetry coefficient is the third moment with respect to the mean and is re
 
 The skewness can be calculated through the following formula:
 
-![formula](_static/images/anderson_darling_test/formula_8.PNG)
+![formula](_static/images/anderson-darling-test/formula_8.PNG)
 
 Where u is the residual and n the number of observations
 
 To find the kurtosis we will use the following equation:
 
-![formula](_static/images/anderson_darling_test/formula_9.PNG)
+![formula](_static/images/anderson-darling-test/formula_9.PNG)
 
 With the asymmetry and kurtosis values calculated, we are going to substitute them in the Jarque Bera formula and the value obtained is the one that we are going to contrast with the critical value obtained in the Chi square tables. This table is entered with the significance value, which is generally used 0.05 and always for this type of method a degree of freedom equal to two (2) will be used.
 
@@ -186,23 +186,23 @@ Let's go with an example of the Jarque Bera test:
 
 Suppose we have the information on advertising and sales of a certain company.
 
-![photo](_static/images/anderson_darling_test/sales.jpg)
+![photo](_static/images/anderson-darling-test/sales.jpg)
 
  We want to know if the residuals of the model follow a normal distribution, for this we have the following data:
 
- ![formula](_static/images/anderson_darling_test/table_5.PNG)
+ ![formula](_static/images/anderson-darling-test/table_5.PNG)
 
 To facilitate the calculations of the formulas, we include in the table the residuals squared to form the third column, cubed to form the fourth column and raised to four to form the fifth column. Once we have the table full, we can perform the sums of each of the columns, it is important to take into account that the sum of the remainder is zero and we can then calculate the coefficient of asymmetry and the kurtosis through the formulas:
 
-![formula](_static/images/anderson_darling_test/formula_10.PNG)
+![formula](_static/images/anderson-darling-test/formula_10.PNG)
 
 Now we go on to substitute both values in Jarque Bera's formula:
 
-![formula](_static/images/anderson_darling_test/formula_11.PNG)
+![formula](_static/images/anderson-darling-test/formula_11.PNG)
 
 We have already calculated the Jarque Bera value to contrast with the critical value obtained in the Chi square table. As always, we are going to use a significance value equal to 0.05 and we already know that for this type of method a degree of freedom equal to 2 is always used. We go to the table: in order to perform statistical contrasts.
 
-![photo](_static/images/anderson_darling_test/distribution.jpg)
+![photo](_static/images/anderson-darling-test/distribution.jpg)
 
 As we can see, the critical value obtained in the Chi square table is equal to: 5.99. We must then use the decision rule, where it is established that if the criterion obtained in Jarque Bera's formula is less than the critical value obtained in the Chi square table, then the null hypothesis is not rejected, where it is established that the errors of the model have a normal distribution.
 
@@ -220,11 +220,11 @@ The first thing we will do is use the Chi square statistic to check the possible
 
 We are going to establish the necessary steps to apply this test in an illustrative example: Suppose that a certain researcher wants to evaluate the association that may exist between the use of the seat belt used in private vehicles and the degree or socioeconomic level of the driver of the vehicle.
 
-![photo](_static/images/anderson_darling_test/car.jpg)
+![photo](_static/images/anderson-darling-test/car.jpg)
 
 To do this, the researcher takes a sample of some drivers and classifies them in the following association table
 
- ![formula](_static/images/anderson_darling_test/table_6.PNG)
+ ![formula](_static/images/anderson-darling-test/table_6.PNG)
 
 We will use a level of significance α = 0.05
 
@@ -246,13 +246,13 @@ These calculations indicate the frequencies given the case that the null hypothe
 
 We can now make the table of expected values:
 
- ![formula](_static/images/anderson_darling_test/table_7.PNG)
+ ![formula](_static/images/anderson-darling-test/table_7.PNG)
 
 3- The third step is to calculate the test statistic
 
 As we know, the statistic will be Chi square, whose formula is:
 
-![formula](_static/images/anderson_darling_test/formula_12.PNG)
+![formula](_static/images/anderson-darling-test/formula_12.PNG)
 
 Being oi the value of each observed frequency
 
@@ -260,7 +260,7 @@ ei represents the value of the expected frequency
 
 Let us then calculate the value of the test statistic:
 
-![formula](_static/images/anderson_darling_test/formula_13.PNG)
+![formula](_static/images/anderson-darling-test/formula_13.PNG)
 
 Once we find the value of the test statistic, we must compare it with the Chi square table in which we must enter with the degrees of freedom and the level of significance. In this case the degrees of freedom are calculated as follows:
 
@@ -269,7 +269,7 @@ DF = (no Rows - 1) x (no Columns - 1) = (3 -1) x (2 - 1) = 2 x 1 = 2
 It is important to emphasize that the rows and columns of totals should not be taken into account
 With a significance level of α = 0.05 and with a degree of freedom = 2 we enter the table:
 
-![photo](_static/images/anderson_darling_test/distribution_2.jpg)
+![photo](_static/images/anderson-darling-test/distribution_2.jpg)
 
 We can see that the critical value obtained is: 0.59915
 
@@ -277,16 +277,16 @@ In the same way that we have been doing in previous exercises, we must compare t
 
 As we can see in the following graph, the value of the test statistic is to the left of the probability associated with the significance α = 0.05, which obtained in tables has a value of 5.9915. So the rejection zone will be on the right side of the curve and the value of 5.23 is within the acceptance zone of the null hypothesis. This directly implies that we must accept the null hypothesis, that how we established previously determines that the use of the seat belt will not depend on the socioeconomic condition of the driver.
 
-![photo](_static/images/anderson_darling_test/graph_1.jpg)
+![photo](_static/images/anderson-darling-test/graph_1.jpg)
 
 On the other hand, the Chi-square statistic can also be used to evaluate the goodness of fit of a theoretical distribution when representing the real distribution formed by the data of a certain sample, that is, if the data of the observations are adjusted to a certain expected or theoretical distribution.
 Suppose that we classify the individuals of a population according to their blood group and according to the studies carried out in that population, the distribution in percentages is expected to be:
 
- ![formula](_static/images/anderson_darling_test/table_8.PNG)
+ ![formula](_static/images/anderson-darling-test/table_8.PNG)
 
 For a sample of 150 blood donors, the following distribution was obtained:
 
- ![formula](_static/images/anderson_darling_test/table_9.PNG)
+ ![formula](_static/images/anderson-darling-test/table_9.PNG)
 
 The hypotheses regarding the problem are as follows:
 
@@ -296,21 +296,21 @@ Ha = The sample data does not fit the expected or theoretical distribution
 
 This time the level of significance is set at α = 0.01
 
-![photo](_static/images/anderson_darling_test/blood.jpg)
+![photo](_static/images/anderson-darling-test/blood.jpg)
 
 We must calculate with the percentages applied to the sample, our expected frequencies
 
- ![formula](_static/images/anderson_darling_test/table_10.PNG)
+ ![formula](_static/images/anderson-darling-test/table_10.PNG)
 
 The degrees of freedom are obtained by subtracting the unit from the number of rows: 4 - 1 = 3
 
 We repeat the procedure and enter the Chi square table with 3 degrees of freedom and α = 0.01:
 
-![photo](_static/images/anderson_darling_test/distribution_3.jpg)
+![photo](_static/images/anderson-darling-test/distribution_3.jpg)
 
 According to the table, the critical value obtained is: 11.3449. We can see that the value of the test statistic is to the left of the value obtained in the table.
 
-![photo](_static/images/anderson_darling_test/graph.jpg)
+![photo](_static/images/anderson-darling-test/graph.jpg)
 
 So the null hypothesis will be accepted and this implies that the data fit the theoretical distribution and that the observed differences are not statistically significant.
 

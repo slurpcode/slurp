@@ -2,7 +2,7 @@
 
 This film is director Ingmar Bergman's masterpiece, with a highly significant philosophical value since it portrays human dilemmas regarding the meaning of life. One of the dilemmas to which the Swedish director dedicated himself was "The Silence of God" since he seems to observe the world without intervening and as a spectator.
 
-![seventh_seal](_static/images/the_seventh_seal/seventh_seal.jpg)
+![seventh_seal](_static/images/the-seventh-seal/seventh_seal.jpg)
 
 The film is about a boy accompanied by his father after contemplating the pictorial works that he observed in the churches near Stockholm. Gothic images such as the work of Albertus Pictor where death appears playing chess, but it also recalls paintings on the dance of death.
 

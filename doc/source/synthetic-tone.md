@@ -2,7 +2,7 @@
 
 The ‘Synthetic Tone’ was an electro-mechanical instrument similar but much smaller to the Choralcelo designed by the Brookline, Massachusetts electrical engineer Sewall Cabot (Cabot, Quincy Sewall b: 4 SEP 1901 in New York d: MAR 1957 in New York). The instrument created complex tones by resonating metal bars with a tone- wheel generated electromagnetic charge.
 
-![synthetic_tone](_static/images/synthetic_tone/synthetic.png)
+![synthetic_tone](_static/images/synthetic-tone/synthetic.png)
 
 [Patent documents of Cabot’s Synthetic Tone] Instrument
 
