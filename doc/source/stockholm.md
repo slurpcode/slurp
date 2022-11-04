@@ -12,7 +12,7 @@ We are going to guide you through this clean and tidy city, through its most ico
 
 Gamla Stan is the historic center of the city, with medieval buildings with colorful facades and squares such as Köpmantorget, Järntorget and Stortorget that make this part of the city a charming place. This neighborhood also has other tourist sites such as the Cathedral of Saint Nicholas, the Royal Palace, the Parliament and the Nobel Museum where you can discover the history of Alfred Nobel.
 
-![Gamla Stan](_static/images/stockholm/gamla_stan.png)
+![Gamla Stan](_static/images/stockholm/gamla-stan.png)
 
 In this part of the city you will also find restaurants where you can eat typical dishes of the city, you can go to Stockholms Gastabud and Nystekt Stromming to eat the traditional meatballs, fresh salmon or herring.
 
@@ -58,7 +58,7 @@ This open-air museum located on the island of Djurgarden was opened in 1891 and 
 
 Drottningholm Palace was declared a UNESCO World Heritage Site. The palace built at the end of the 16th century is located on Lovön Island and is the best representation of the Swedish imperial era. Many tourists equate its beauty with the Palace of Versailles and during your visit you can enjoy the Royal Theater, the exquisite decoration of the rooms, the design of the Chinese Pavilion and its beautiful gardens.
 
-![Drottningholm Palace](_static/images/stockholm/drottningholm_palace.png)
+![Drottningholm Palace](_static/images/stockholm/drottningholm-palace.png)
 
 ## ABBA Museum
 

@@ -4,7 +4,7 @@ An electronic musical instrument or electrophone is a musical instrument that pr
 
 An electronic instrument might include a user interface for controlling its sound, often by adjusting the pitch, frequency, or duration of each note. A common user interface is the musical keyboard, which functions similarly to the keyboard on an acoustic piano, except that with an electronic keyboard, the keyboard itself does not make any sound. An electronic keyboard sends a signal to a synth module, computer or other electronic or digital sound generator, which then creates a sound. However, it is increasingly common to separate user interface and sound- generating functions into a music controller (input device) and a music synthesizer, respectively, with the two devices communicating through a musical performance description language such as MIDI or Open Sound Control.
 
-![Electronic Musical Instrument](_static/images/electronic-musical-instrument/electronic_musical_instrument.png)
+![Electronic Musical Instrument](_static/images/electronic-musical-instrument/electronic-musical-instrument.png)
 
 [Robert Moog, inventor of the Moog synthesizer (Wikipedia)]
 

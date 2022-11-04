@@ -3,7 +3,7 @@
 "Probably Roland itself didn't even think what an epoch-making change would be
 triggered by the launch of the TB-303 analog bassliner in 1982."
 
-![tb-303](_static/images/acid-house/Acid_House.jpg)
+![tb-303](_static/images/acid-house/Acid-House.jpg)
 
 "The instrument was intended for guitarists practicing alone, as an automatic
 bass accompaniment for use with the TR606 drum machine, to achieve the" live

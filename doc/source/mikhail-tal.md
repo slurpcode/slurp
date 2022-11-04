@@ -1,6 +1,6 @@
 # 🏆 The Greatest Attacking Player in Chess History
 
-![chess](_static/images/mikhail_tal/mikhail_tal_1.jpg)
+![chess](_static/images/mikhail-tal/mikhail-tal-1.jpg)
 
 He was known by many names; the magician from Riga, the pirate of Latvia, Fortunes favorite, the hypnotist and so on.
 
@@ -24,7 +24,7 @@ Tal's victory was attributed to his dominance over the lower half of the field w
 
 Tal was absolutely unique. His playing style was of course unrepeatable. He was a man in whose presence others sensed their mediocrity.
 
-![chess](_static/images/mikhail_tal/mikhail_tal_2.png)
+![chess](_static/images/mikhail-tal/mikhail-tal-2.png)
 
 Tal was playing against grandmaster Vasiukov. They reached a very complicated position and Tal was considering a knight sacrifice (I know what you're thinking... What else would Tal be considering :) But, to his horror, he couldn't find any good continuations.
 

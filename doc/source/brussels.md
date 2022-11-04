@@ -10,7 +10,7 @@ If you plan to travel to Brussels, we are going to indicate in this article the 
 
 The historic center of Brussels is located around the Grand Place, which was declared a UNESCO World Heritage Site. This square is surrounded by fantastic sites such as the Casa del Rey, where the City Museum is located and was the residence of the kings, the Le Pigeon house where the famous writer Victor Hugo lived, a set of neoclassical sites such as Maison des Ducs de Brabant, the guild headquarters of Le Cornet, Le Renard and Le Roy d'Espagne where it is currently the most famous bar in the square, a perfect place to drink a good Belgian beer while enjoying the view of the square from your terrace. Although the most impressive building is the Hotel de Ville, which dates back to the 15th century, it is currently the Town Hall and stands out for its tower that is more than 96 m high.
 
-![Grand Place](_static/images/brussels/grand_place.png)
+![Grand Place](_static/images/brussels/grand-place.png)
 
 ## Saint-Hubert Galleries
 
@@ -24,7 +24,7 @@ The Manneken Pis is a small statue of a urinating boy made of bronze and is one 
 
 This park occupies more than 30 hectares of the European quarter and is presided over by the Cinquantenaire Palace, which highlights its triumphal arch culminating in a bronze chariot. It is also worth visiting the automobile museum and going up to the viewpoint that is located in the Museum of Military History.
 
-![Brussels Cinquantenaire Park](_static/images/brussels/brussels_cinquantenaire_park.png)
+![Brussels Cinquantenaire Park](_static/images/brussels/brussels_cinquantenaire-park.png)
 
 ## Atomium
 
@@ -57,7 +57,7 @@ Great comic book authors such as Peyo (The Smurfs) and Hergé (Tintin) were born
 
 The main institutions of the European Union are concentrated in the European Quarter, including the European Parliament, the official headquarters of the European Commission, which is the Belayrmont building, the Justus where the Council of the European Union is located, and a piece of the Berlin wall, you can finish with a nice walk through Leopold Park.
 
-![The European Quarter](_static/images/brussels/the_european_quarter.png)
+![The European Quarter](_static/images/brussels/the-european-quarter.png)
 
 ## Mini Europe
 

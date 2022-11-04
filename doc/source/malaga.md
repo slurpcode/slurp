@@ -2,7 +2,7 @@
 
 Malaga is a city in Spain and is the capital of a province with the same name, it is bathed by the shores of the Mediterranean Sea and is surrounded by mountains that protect it from the cold. The sea acts as a thermal regulator and characterizes this city for its mild temperatures that range between 22.8 °C and 13 °C throughout the year.
 
-![Malaga](_static/images/malaga/malaga_1.jpg)
+![Malaga](_static/images/malaga/malaga-1.jpg)
 
 Malaga has a great environmental wealth at the mouth of the Guadalhorce River, which has become a place of passage to house hundreds of migratory species with great ecological value. On the other hand, the Malaga Natural Park is the habitat of more than 160 vertebrate animals and 230 plant species.
 
@@ -14,11 +14,11 @@ We are going to mention the essential places you must visit to get to know the b
 
 The Alcazaba is the most popular tourist attraction in Malaga, this palace was built by the Arabs in the 11th century, with a fortress to protect the home of the Muslim rulers from the attacks carried out by the Catholics. Inside you can see beautiful patios, gardens and sumptuous fountains.
 
-![Malaga](_static/images/malaga/malaga_2.jpg)
+![Malaga](_static/images/malaga/malaga-2.jpg)
 
 The sites that stand out the most are the Plaza de Armas, the Puerta de los Arcos, the Torre del Homenaje and the Cuartos de Granada where the kings lived, who are the jewel of the palace and you will fall in love with their meticulous Nasrid-style decoration that you can see in its royal rooms and patios.
 
-![Malaga](_static/images/malaga/malaga_3.jpg)
+![Malaga](_static/images/malaga/malaga-3.jpg)
 
 The palace was built on a hill that offers you a beautiful view over the port and the sea. There is also a small archaeological museum where Moorish pottery and ceramics are exhibited.
 
@@ -64,7 +64,7 @@ In this park you can enjoy Baroque and Renaissance style gardens, tropical trees
 
 The Atarazanas Market was a naval workshop of Nasrid origin and stands out for its large horseshoe arch and its iron structure, as well as stalls where they sell high-quality products and numerous places where you can enjoy traditional food. If you go for breakfast you can go to Casa Aranda to try their delicious churros with chocolate or if you prefer a stronger dish, you can eat at La Bella Julieta.
 
-![Malaga](_static/images/malaga/malaga_4.jpg)
+![Malaga](_static/images/malaga/malaga-4.jpg)
 
 Atarazanas Market photo taken by David Pinter
 

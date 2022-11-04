@@ -62,7 +62,7 @@ According to the information provided by the association of motorway drivers, th
 
 In order to calculate the probability of seven drivers wearing a seatbelt, use the following formula:
 
-![formula](_static/images/types-of-probability-distributions/formula_1.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-1.PNG)
 
 Now we must calculate the probability of a maximum of seven drivers using the seat belt and this will be the distribution function for the sum of probabilities of xi = 7. But it is important to take into account that the distribution function has an expression that It can make the numerical calculations difficult for each of these terms from 1 to 7, so it is best to use another expression that facilitates the calculations and then we prefer to use:
 
@@ -70,7 +70,7 @@ P (x ≤7) = 1 - [P (x = 8) + P (x = 9) + P (x = 10)]
 
 Where each of these terms is what we calculate with the formula we used in the previous item so that:
 
-![formula](_static/images/types-of-probability-distributions/formula_2.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-2.PNG)
 
 Of course, we can always go the long way and calculate:
 
@@ -84,11 +84,11 @@ In the Bernoulli distribution we can define the random variable as follows:
 
 The random variable X takes the value of 1 if we obtain a success, but if the trial ends in failure, the value of the random variable X will be equal to zero (0)
 
-![formula](_static/images/types-of-probability-distributions/table_1.PNG)
+![formula](_static/images/types-of-probability-distributions/table-1.PNG)
 
 As we already know, the probability of success is denoted by p and the probability of failure by q, but we also know that q = 1 - p, so we can establish the probability function as follows:
 
-![formula](_static/images/types-of-probability-distributions/formula_3.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-3.PNG)
 
 Summarizing, we can calculate it as follows:
 
@@ -108,19 +108,19 @@ We will consider a success when rolling the grade is obtained a 3 and a failure 
 - X = 1 If we roll the dice and we get a 3
 We are now going to assign the probabilities of obtaining a 3:
 
-![formula](_static/images/types-of-probability-distributions/formula_4.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-4.PNG)
 
 The probabilities of failure will be:
 
-![formula](_static/images/types-of-probability-distributions/formula_5.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-5.PNG)
 
 The probability function is expressed by:
 
-![formula](_static/images/types-of-probability-distributions/formula_6.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-6.PNG)
 
 We can also express it as:
 
-![formula](_static/images/types-of-probability-distributions/formula_7.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-7.PNG)
 
 As we can see, we are in the presence of a Bernoulli probability function and we have a probability of success where p = 1/6, that is, the random variable X has a Bernoulli distribution, whose probability of success is 1 / 6:
 
@@ -146,35 +146,35 @@ If we are in the presence of X ~ Uniform (x1, x2, ..., xn) then we can say that 
 
 The measure of the variable in this case will be equal to:
 
-![formula](_static/images/types-of-probability-distributions/formula_8.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-8.PNG)
 
 On the other hand, the variance of the random variable in this case would be equal to:
 
-![formula](_static/images/types-of-probability-distributions/formula_9.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-9.PNG)
 
 If we make a graph of the uniform distribution we can visualize:
 
-![photo](_static/images/types-of-probability-distributions/graph_1.jpg)
+![photo](_static/images/types-of-probability-distributions/graph-1.jpg)
 
-![formula](_static/images/types-of-probability-distributions/formula_10.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-10.PNG)
 
 Being the mean:
 
-![formula](_static/images/types-of-probability-distributions/formula_11.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-11.PNG)
 
 And the variance:
 
-![formula](_static/images/types-of-probability-distributions/formula_12.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-12.PNG)
 
 The parameter in this type of discrete uniform probability distribution will be given by the inverse of the number of values that the random variable can take. On the other hand, the mean of this type of uniform discrete random variable will always coincide with some of the values observed in the investigation and finally, the variance of this uniform discrete random variable will not depend on the number of values that can get to take the variable.
 
 The probability density function between two points c and d is given by:
 
-![formula](_static/images/types-of-probability-distributions/formula_13.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-13.PNG)
 
 The distribution function in the uniform case between c and d is:
 
-![formula](_static/images/types-of-probability-distributions/formula_14.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-14.PNG)
 
 Let's go with an example: Suppose that a certain pollutant is distributed in a range of 0 to 10 parts per million in a uniform way and this pollutant is considered to be toxic, when it has a concentration of eight or more parts per million. With this information we ask ourselves several questions:
 
@@ -190,27 +190,27 @@ Being X a discrete random variable whose distribution is uniform then:
 
 X ~ Uniform (0, 20) it is true that:
 
-![formula](_static/images/types-of-probability-distributions/formula_15.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-15.PNG)
 
 Answer to question 1:
 
-![formula](_static/images/types-of-probability-distributions/formula_16.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-16.PNG)
 
 Answer to question 2:
 
 The mean concentration is given by:
 
-![formula](_static/images/types-of-probability-distributions/formula_17.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-17.PNG)
 
 The variance is:
 
-![formula](_static/images/types-of-probability-distributions/formula_18.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-18.PNG)
 
 Answer to question 3:
 
 The probability that the concentration is exactly equal to 10 is:
 
-![formula](_static/images/types-of-probability-distributions/formula_19.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-19.PNG)
 
 Hypergeometric distribution
 
@@ -236,15 +236,15 @@ Quantity function: In a hypergeometric distribution the quantity function will m
 
 Let's establish this mathematically:
 
-There is a total of ![formula](_static/images/types-of-probability-distributions/s_1.PNG) Different ways to get x amount of results of type A and also (nx) results of type A ̅, When we start from a population that is made up of Np amount of elements of type A together with Nq quantity of elements of type A ̅.
+There is a total of ![formula](_static/images/types-of-probability-distributions/s-1.PNG) Different ways to get x amount of results of type A and also (nx) results of type A ̅, When we start from a population that is made up of Np amount of elements of type A together with Nq quantity of elements of type A ̅.
 
-On the other hand, when we carry out n quantity of extractions or tests there are a total of ![formula](_static/images/types-of-probability-distributions/s_2.PNG)  groups of n elements of possible samples and if we apply Laplace's rule we will have:
+On the other hand, when we carry out n quantity of extractions or tests there are a total of ![formula](_static/images/types-of-probability-distributions/s-2.PNG)  groups of n elements of possible samples and if we apply Laplace's rule we will have:
 
-![formula](_static/images/types-of-probability-distributions/formula_20.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-20.PNG)
 
 Explaining this in a mathematical way we can say that:
 
-![formula](_static/images/types-of-probability-distributions/formula_21.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-21.PNG)
 
 This is true for the values of "x" that are included within the set of integers 0, 1, 2, ..., n and this will be the quantity function for a hypergeometric distribution whose parameters are N, n and p.
 
@@ -254,9 +254,9 @@ When we consider a hypergeometric variable whose parameters are N, n and p, we c
 
 As we know from previous articles, the mean of the sum of our random variables, which can be both independent and dependent, is nothing more than the sum of the means and that is why the mean in any hypergeometric distribution as well as in the binomial distribution, it will be: μ = np. On the contrary, when the variables are not independent we cannot say that the variance of the variable will be the sum of the variances. In this case, the variance of a hypergeometric distribution whose parameters are N, n and p will be given by:
 
-![formula](_static/images/types-of-probability-distributions/formula_22.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-22.PNG)
 
-We can see that this way ends up being the variance of a binomial distribution (n, p) but that it is affected by a correction coefficient that is: ![formula](_static/images/types-of-probability-distributions/s_3.PNG) This coefficient is called exhaustiveness, also known as the correction factor for finite populations and comes from the effect produced by the non-replacement of the sample elements that were extracted.
+We can see that this way ends up being the variance of a binomial distribution (n, p) but that it is affected by a correction coefficient that is: ![formula](_static/images/types-of-probability-distributions/s-3.PNG) This coefficient is called exhaustiveness, also known as the correction factor for finite populations and comes from the effect produced by the non-replacement of the sample elements that were extracted.
 
 This coefficient becomes smaller as the sample size is larger and it can be seen that it tends to 1 while the population size N is large enough. This implies how irrelevant replenishment can be in those experiments where successive extractions are made but on a fairly large population, that is, in a very large population regardless of the size of n, thanks to the correction factor that is capable of to convert a hypergeometric distribution to a binomial distribution.
 
@@ -266,7 +266,7 @@ When we calculate the limit of a hypergeometric distribution in the case that N 
 
 In the same way as the mode is obtained in a binomial distribution, we can obtain the mode for a hypergeometric distribution. So the values or the integer value that is verified for the following expression Xo will give us the expected calculation:
 
-![formula](_static/images/types-of-probability-distributions/formula_23.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-23.PNG)
 
 Let's do the first hypergeometric distribution exercise: A certain dealer has had 10 refrigerators returned because they make a high-pitched, oscillating noise while the refrigerator is running. We know in advance that of these 10 refrigerators 4 have faulty compressors, while the rest have milder problems. Suppose that of these 10 refrigerators 5 of them are examined at random and the random variable X is determined to be = "The number of refrigerators among the 5 examined that has a defective compressor." It is required to know:
 
@@ -288,7 +288,7 @@ Answer to question 2:
 
 For convenience we can express the variable X as: "not all the refrigerators have minor failures", this implies that if this occurs, it is because at least some of the refrigerators have a defective compressor which, as we know, is a serious failure and by expressing this mathematically we obtain that: X ≥ 1
 
-![formula](_static/images/types-of-probability-distributions/formula_24.PNG)
+![formula](_static/images/types-of-probability-distributions/formula-24.PNG)
 
 Answer to question 3
 
@@ -310,7 +310,7 @@ We want to know:
 
 To better understand this problem, we are going to make a scheme that determines the composition of the group with respect to studies and gender:
 
-![formula](_static/images/types-of-probability-distributions/eq_1.PNG)
+![formula](_static/images/types-of-probability-distributions/eq-1.PNG)
 
 The first students to arrive are three girls and of course Mary is at her house, so we know that there are 4 women, the 3 who arrive and Mary. On the other hand, the only way is for them to study letters, because the condition is that they study the same thing and there are not four women in the group who study science. This implies that Mary studies letters.
 
@@ -326,13 +326,13 @@ X∼H (N = 7, M = 4, n = 3)
 
 To answer question 1 we must calculate the probability that X = 3
 
-![formula](_static/images/types-of-probability-distributions/eq_2.PNG)
+![formula](_static/images/types-of-probability-distributions/eq-2.PNG)
 
 Answer to question 2:
 
 In this answer we are not interested in the gender of each one of them, but rather what they study and for this, we are going to specify it in the following composition:
 
-![formula](_static/images/types-of-probability-distributions/eq_3.PNG)
+![formula](_static/images/types-of-probability-distributions/eq-3.PNG)
 
 We can also define the number of letters students of three friends chosen randomly from the total of 14 students. The hypergeometric distribution values will be: N = 14, M = 6 and n = 3
 

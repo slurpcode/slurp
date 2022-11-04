@@ -10,7 +10,7 @@ While returning from a business trip he casually meets Tyler Durden on the plane
 
 When the two meet, they start a conversation about the current lifestyle, consumerism and capitalism. It is when Tyler challenges the protagonist to hit him with his maximum force and the somewhat confused narrator accepts the challenge. After the fight, both characters feel euphoric and that is when Tyler invites the protagonist to live in his house. This fact becomes more and more frequent and more men begin to arrive who are included in the fight and that is how the fight club is born.
 
-![The Fight Club](_static/images/the-fight-club/the_fight_club.png)
+![The Fight Club](_static/images/the-fight-club/the-fight-club.png)
 
 Marla calls the narrator on the phone appearing again on the scene and this occurs after she has consumed an overdose of pills and in her suicide attempt, she cries out for her help. The narrator ignores the matter and leaves the phone off the hook, but the next morning and to his surprise, he finds that the girl spent the night at his house. How could this be possible? To later discover that Tyler took the phone, he talked to Marla and not only brought her to her house but also had sex with her.
 
