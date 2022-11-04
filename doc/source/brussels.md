@@ -24,7 +24,7 @@ The Manneken Pis is a small statue of a urinating boy made of bronze and is one 
 
 This park occupies more than 30 hectares of the European quarter and is presided over by the Cinquantenaire Palace, which highlights its triumphal arch culminating in a bronze chariot. It is also worth visiting the automobile museum and going up to the viewpoint that is located in the Museum of Military History.
 
-![Brussels Cinquantenaire Park](_static/images/brussels/brussels_cinquantenaire-park.png)
+![Brussels Cinquantenaire Park](_static/images/brussels/brussels-cinquantenaire-park.png)
 
 ## Atomium
 

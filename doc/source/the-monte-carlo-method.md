@@ -114,7 +114,7 @@ Now, if we multiply this factor by the total area of the sample, we will have an
 
 If we choose columns D and F to graph them in Excel, we only have to choose the entire column D, but since they are not adjacent columns, to choose column F we must hold down the control button on our keyboard. Later, we are going to "Insert", we look for the "Dispersion" diagram and we open the menu of possibilities, to choose the first one that appears in the display, from there we obtain the following image:
 
-![Graph](_static/images/the-monte-carlo-method/graph_4.jpg)
+![Graph](_static/images/the-monte-carlo-method/graph-4.jpg)
 
 As the line of the function is a bit thick, we right click on it and a menu is displayed, we choose the last option which is "format data series", a box opens and click on "options marker ", then we choose the type of marker as" integrated "and where" size "appears we position ourselves on the down arrow until we reach number 3, then we close and the line is somewhat thinner and more presentable.
 
