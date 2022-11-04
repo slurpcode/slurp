@@ -172,6 +172,6 @@ If the researcher wants to measure cholesterol with respect to age, but leaving 
 Only this time, we do not do the calculations manually, but we use Excel for it, in any case I attach the exercise carried out on this platform, in case you prefer to investigate a little the commands used to do the calculations.
 The results obtained were the following:
 
-![table](_static/images/determination-coefficient/table_6.png)
+![table](_static/images/determination-coefficient/table-6.png)
 
 The final result of the partial correlation between X1 that represents age and cholesterol levels (Y) eliminating the effect exerted by the variable “fat” (X2), gives us a result of ry1.2 = 0.66, this indicates that once the second variable has been eliminated, the other two have a slightly higher correlation than that obtained in the previous exercise, therefore, it is slightly higher than a medium correlation.

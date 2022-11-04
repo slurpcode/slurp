@@ -70,7 +70,7 @@ characteristics that we want to analyze for each of those countries.
 
 Now, as soon as we open or begin to execute our SPSS statistical program, a window appears where we must indicate if we are going to import our database from a file where we have previously entered it or if we are going to enter the data of our sample, one by one and directly within the SPSS.
 
-![Table](_static/images/discriminant-analysis/table_1.jpg)
+![Table](_static/images/discriminant-analysis/table-1.jpg)
 
 To show an example, we are going to import the data from a previous exercise, which will help us to show some points of interest to use our statistical program, so we will leave checked the box that the program has by default that urges us to "Open an origin of existing data ", after" Accept "a new window will be opened where we will have the possibility to search in which part of our computer the file that contains our database is located, we choose the address with its respective extension and click on "Open", where again another box will appear with the title of "Opening data source" and we are simply going to "Accept" the configuration that the program offers us by default, that is when the database will be imported and we can see it in the following environment:
 
