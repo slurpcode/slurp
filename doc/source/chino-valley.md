@@ -81,7 +81,7 @@ Here’s some references:
 - <https://www.nwf.org/Educational-Resources/Wildlife-Guide/Mammals/Pronghorn>
 - <https://en.wikipedia.org/wiki/Chino_Valley,_Arizona>
 
-![Chino Valley Logo](_static/images/chino-valley/Chino_Valley_Logo0.png)
+![Chino Valley Logo](_static/images/chino-valley/Chino-Valley-Logo0.png)
 
 ## About the Author
 
