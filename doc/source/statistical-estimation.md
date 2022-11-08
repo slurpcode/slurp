@@ -85,14 +85,14 @@ of 1 million inhabitants and we are going to work with a sample of 300
 inhabitants, of which 132 of them profess that they will vote for the WW party,
 this implies that:
 
-```math
+```{math}
 132/300 x 100 = 44%
 ```
 
 We can say that a specific estimate indicates that 44% of the population will
 vote for the WW party and as there are 1 million inhabitants:
 
-```math
+```{math}
 1.000.000 x 44/100 = 440.000
 ```
 
@@ -267,7 +267,7 @@ Once we get to this point, the only thing left is to construct the interval and
 in this case, it will be necessary to subtract and add to the estimator, our
 precision value:
 
-```math
+```{math}
 ø : {m-ep , m+ep}
 ```
 
@@ -306,7 +306,7 @@ more or less obvious, since the more individuals make up our sample, the more
 precision we will have when drawing conclusions. Taking into account all the
 elements, the formula that defines our precision error is:
 
-```math
+```{math}
 ep=Zseg σ/(√n)
 ```
 
