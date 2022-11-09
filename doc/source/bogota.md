@@ -2,7 +2,7 @@
 
 This city located at more than 2600 meters of altitude is the largest in Colombia and its capital. Its people are very cheerful and have a mix between tradition and modernity. There are many interesting activities to do in Bogotá, among which are enjoying its street art, getting carried away by good music and rhythm or strolling through the La Candelaria neighbourhood.
 
-![City Of Bogota](_static/images/bogota/bogota-city.jpg)
+![City Of Bogota](_static/images/bogota/bogota-city.jpeg)
 
 One of the advantages of traveling to Colombia is how affordable it is for a tourist, both accommodation and food, it is not difficult to find good hotels for options that range between 10 and 20 dollars per person.
 
@@ -18,7 +18,7 @@ To get to Monserrate you can walk up for about an hour or take the cable car, th
 
 The Candelaria is the most famous neighborhood in Bogotá and is located in the historic center, where you can see the colonial houses with their colorful facades that are found in its narrow and cobbled streets. You can also find shops full of crafts and souvenirs in its shopping streets, among which Calle Real stands out, which is its most emblematic street, 10, 11 and the Calle del Divorcio.
 
-![The Candelaria](_static/images/bogota/candalaria.jpg)
+![The Candelaria](_static/images/bogota/candalaria.jpeg)
 
 In this neighborhood you can try the local gastronomy such as the delicious tamale, the ajiaco or the patacones in two of the best restaurants such as Gato Gris or La Puerta Falsa and try the wafers with arequipe in one of the street stalls.
 
@@ -30,7 +30,7 @@ This museum is considered among the 25 best in the world with more than 34,000 p
 
 This is the most beautiful alley in La Candelaria where the best street art murals are concentrated, especially that of the face of an indigenous woman. In the old houses on this street you can find many bars where you can try the traditional arepas or buy a souvenir in any of its stores. At the end of this street is the Plaza del Chorro de Quevedo, where you can see various graffiti and in the evenings it is filled with an excellent atmosphere.
 
-![Funnel Alley](_static/images/bogota/funnel-alley.jpg)
+![Funnel Alley](_static/images/bogota/funnel-alley.jpeg)
 
 ## Bolivar Square
 
@@ -38,7 +38,7 @@ This square is located in the heart of the old town, being the meeting point bet
 
 The Cathedral was built between 1807 and 1823 in a neoclassical style. It is worth seeing the statue of Simón Bolívar who was a character who made Colombia and several Latin American countries independent.
 
-![Bolivar Square](_static/images/bogota/bolivar-square.jpg)
+![Bolivar Square](_static/images/bogota/bolivar-square.jpeg)
 
 ## Botero Museum
 

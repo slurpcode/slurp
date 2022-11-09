@@ -6,7 +6,7 @@ known as the pearl of the Danube, this city is surrounded by historical
 monuments and imposing buildings such as the Parliament and the Chain
 Bridge, as well as well-kept parks, historic cafes and fantastic spas.
 
-![budapest](_static/images/budapest/budapest.jpg)
+![budapest](_static/images/budapest/budapest.jpeg)
 
 We will give you a guide to the most important sites that the city
 offers you, so that if you visit it, do not miss these experiences.
@@ -19,7 +19,7 @@ gold, its most outstanding sites being the main staircase, the Old Upper
 Chamber and where the crown of Saint Stephen is kept ( his most precious
 treasure) which is in the Dome Room.
 
-![Budapest Parliament](_static/images/budapest/budapest-parliament.jpg)
+![Budapest Parliament](_static/images/budapest/budapest-parliament.jpeg)
 
 Leaving the parliament you can go to see the monument Shoes on the
 Danube, which was built in memory of the Jews killed during the Second
@@ -33,7 +33,7 @@ the best views of the bridge from the bank of the Pest where there is a
 place with benches to sit, if you go at night you can see the Buda
 castle and the illuminated bridge, it is quite an experience.
 
-![Chain bridge](_static/images/budapest/chain-bridge.jpg)
+![Chain bridge](_static/images/budapest/chain-bridge.jpeg)
 
 ## Vaci Utca
 
@@ -55,7 +55,7 @@ impressive to see its spectacular swimming pool surrounded by statues
 and marble columns in the classic style. In addition to the pool you can
 enjoy its thermal baths, saunas and massages.
 
-![Gellert Spa](_static/images/budapest/gellert-spa.jpg)
+![Gellert Spa](_static/images/budapest/gellert-spa.jpeg)
 
 ## Historic cafes
 

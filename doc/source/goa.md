@@ -24,7 +24,7 @@ psychedelic drugs like peanut butter and chocolate (and it's right there in the
 name). While a number of legendary Goa DJs will say they started the scene, the
 one who gave it that electronic edge was probably Goa Gil."
 
-![goa](_static/images/goa/goa.jpg)
+![goa](_static/images/goa/goa.jpeg)
 
 "What's more about historicity is that the most outstanding, really pioneering
 representative of the style was the Juno Reactor. Today, however, Goa is also

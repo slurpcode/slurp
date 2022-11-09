@@ -3,13 +3,13 @@
 Brasilia has been the capital of Brazil since 1960 and has become an important urban landmark, for which it was declared by UNESCO in 1987 as Cultural Heritage of Humanity. The renowned architect Oscar Niemeyer was one of the main artists who collaborated in the design of this city and that is why many buildings bear his stamp.
 It is a minimalist, modern and elegant city, perfectly planned from the beginning and with much to offer. We will give you a guide to the most important places you should visit if you go to the capital of Brazil.
 
-![Brasilia](_static/images/brasilia/brasilia-1.jpg)
+![Brasilia](_static/images/brasilia/brasilia-1.jpeg)
 
 ## Brasilia Cathedral
 
 The impressive Nossa Senhora Aparecida Metropolitan Cathedral is one of the designs of Oscar Niemeyer, who managed to complete this true work of art in 1970. This large hyperboloid structure is built of concrete and its glass roof seems to rise into the open sky. This cathedral is considered one of the architectural wonders of the world and every year receives thousands of travelers from all over the world. Both outside and inside, this cathedral will leave you speechless.
 
-![Brasilia](_static/images/brasilia/brasilia-2.jpg)
+![Brasilia](_static/images/brasilia/brasilia-2.jpeg)
 
 ## Planalto Palace
 
@@ -17,7 +17,7 @@ The Planalto Palace is where the executive power of the Brazilian federal govern
 
 On the first floor you will find a reception area and you will be able to admire some of its exhibitions related to the federal government. The second floor is where the signing of decrees and legislative norms is presided over; on the third floor is the Presidential Cabinet and the rest of the offices of his senior team, while on the fourth floor are the offices that belong to the high government. This place is completely open to the public on Sundays from 9 am to 2 pm.
 
-![Brasilia](_static/images/brasilia/brasilia-3.jpg)
+![Brasilia](_static/images/brasilia/brasilia-3.jpeg)
 
 ## Paranoia Lake
 
@@ -31,7 +31,7 @@ This bridge crosses Lake Paranoá and has a length of approximately 720 meters. 
 
 The Honestino Guimarães National Museum is another magnificent work within this capital, its perfect hemispherical shape, its minimalist expression and a prominent ramp, give this architectural marvel a surreal character, where the architect Oscar Niemeyer once again shows his style in this design. This museum and the Leonel de Moura Brizola National Library are the representation of the largest cultural complex in the country and inside the museum, you can find a large number of excellent art exhibitions where you can admire wonderful works.
 
-![Brasilia](_static/images/brasilia/brasilia-4.jpg)
+![Brasilia](_static/images/brasilia/brasilia-4.jpeg)
 
 ## Pantheon Tancredo Neves
 

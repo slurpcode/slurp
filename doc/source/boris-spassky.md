@@ -1,6 +1,6 @@
 # 👑 Boris Spassky
 
-![Boris](_static/images/boris_spassky/boris.jpg)
+![Boris](_static/images/boris_spassky/boris.jpeg)
 
 Born on January 30, 1937 in Leningrad (ST Petersburg). He was a child prodigy of chess who had a universal style as he could combine the aggressive style of Mikhail Tal or the prophylaxis game of Petrosian. He learned to play chess at age 5 (his sister was USSR female champion). During the Second World War he and his family had to leave the city. Boris spent several years of his childhood in an orphanage, surrounded by hunger and misery.
 
@@ -16,7 +16,7 @@ Match of the Century
 
 In 1972, he put his title on the line against American star Bobby Fischer, who had just crushed his rivals, in the final stage of the candidates' tournament. This match is perhaps the one that had the greatest importance worldwide due to the historical context, in which there was a great difference between the two countries on a political, economic and social level.
 
-![player](_static/images/boris_spassky/player.jpg)
+![player](_static/images/boris_spassky/player.jpeg)
 
 In this climate, this confrontation took place, where Spassky started up 2-0 (the second due to the absence of Fischer), but in the third game Bobby showed his game in all its splendor in which Boris could do nothing and ended up defeated 12 ½ a 8 ½, in this way the North American ended 24 years of Soviet rule in the world championship. Notably, Fischer had never beaten Spassky up to this point.
 

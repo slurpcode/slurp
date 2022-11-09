@@ -10,13 +10,13 @@ We are going to guide you through the essential places that you must visit if yo
 
 This one and a half kilometer beach is located between the mouth of the Piles River and the Church of San Pedro, it has all the services to spend a comfortable and fun day. The beach has rough waves, making it perfect if you want to get started in the world of surfing. In addition, parallel to the beach you can walk along the shore of the Paseo del Muro de San Lorenzo, a path of more than 2 km where you can reach other beaches such as Peñarrubia or Rinconín, including a beautiful staircase called the Escalerona that It allows you access to the beach and on its slender pillar you can see a barometer, a thermometer and a tide gauge.
 
-![San Lorenzo Beach](_static/images/gijon/san-lorenzo-beach.jpg)
+![San Lorenzo Beach](_static/images/gijon/san-lorenzo-beach.jpeg)
 
 ## The Labor of Gijon
 
 The Labor of Gijon is the largest building in all of Spain with an area of 270,000 m² and was built between 1946 and 1956 to be the headquarters of the Labor University of Gijon. It is currently the City of Culture and houses several faculties, art and research centers and higher schools. Among its main buildings stands out the church whose elliptical plan is the largest in the world, a tower 130 meters high and the Theater with dimensions equivalent to those of the Parthenon. On the other hand, near the complex is the Atlantic Botanical Garden with its 25 hectares that houses plant species from different parts of the world.
 
-![The Labor of Gijon](_static/images/gijon/the-labor-of-gijon.jpg)
+![The Labor of Gijon](_static/images/gijon/the-labor-of-gijon.jpeg)
 
 ## Cimadevilla neighborhood of Gijon
 
@@ -28,7 +28,7 @@ Although it is true that visiting each of these places is essential, one of the 
 
 At the foot of Cimadevilla is the port that still preserves the seafaring essence of yesteryear. When walking through this port you will see a large number of small boats that make up a sea of masts, in addition to the sculpture of the Tree of Cider that was made with the bottles of this famous drink, to later reach the famous red letters of Gijón where tourists usually take a photo with the port in the background and finally arrive at Poniente Beach. In the area you can also book a boat tour, rent a kayak, a paddle surf board or a jet ski, also practice flyboarding or wakeboarding.
 
-![The Port](_static/images/gijon/the-port.jpg)
+![The Port](_static/images/gijon/the-port.jpeg)
 
 ## Hill Park
 
@@ -44,7 +44,7 @@ The Clock Tower is located behind the palace and was built in 1572, where in add
 
 On the hill of Santa Catalina, the Church of San Pedro Apostol stands out, which was built between 1945 and 1955 and destroyed during the Civil War, you can also see one of the few remains of the Roman period in the Roman Baths of Campo Valdés, which were built in the first century and the walls, which are still very well preserved.
 
-![The Church of San Pedro Apostol in Gijon](_static/images/gijon/the-church-of-san-pedro-apostol.jpg)
+![The Church of San Pedro Apostol in Gijon](_static/images/gijon/the-church-of-san-pedro-apostol.jpeg)
 
 ## Gijon Main Square
 

@@ -48,7 +48,7 @@ severe hearing loss). Who would have thought?
 
 ## Logo
 
-![Working Out](_static/images/working-out/working-out-logo.jpg)
+![Working Out](_static/images/working-out/working-out-logo.jpeg)
 
 ## About the Author
 

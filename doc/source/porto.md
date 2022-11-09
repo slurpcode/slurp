@@ -2,7 +2,7 @@
 
 Porto is one of the most surprising and charming cities in Portugal, known for its famous wine and for the bridges that pass over the Douro River. It offers you a large number of tourist activities such as strolling through the Ribeira towards sunset, visiting the Bolhao Market, climbing to the top of the Clérigos Tower, watching the sunset over the Luis I bridge, tasting a Bacalhau a Brás or a francesinha or drink a glass of wine in any of the Vila Nova de Gaia wineries, are just some of the many activities you can do in Porto.
 
-![Porto](_static/images/porto/porto.jpg)
+![Porto](_static/images/porto/porto.jpeg)
 
 We will provide you with a guide to the most emblematic places that you should know if you visit this beautiful city.
 
@@ -10,13 +10,13 @@ We will provide you with a guide to the most emblematic places that you should k
 
 This bookstore is located in a neo-Gothic building built in 1906 and is considered one of the most beautiful in the country. It stands out for its impressive wooden staircase and the natural light that passes through the stained glass window located on the ceiling, inside you can enjoy a large number of modernist and neo-Gothic details.
 
-![Lello and Irmão Bookstore](_static/images/porto/lello-and-irmao-bookstore.jpg)
+![Lello and Irmão Bookstore](_static/images/porto/lello-and-irmao-bookstore.jpeg)
 
 ## Clerigos Church and Tower
 
 The Clérigos Church was built between 1735 and 1748 on the Cerro de los ahorcados where the executions were carried out, it has a 76 m high tower and when you climb its 240 steps you can see its 49 bells. Although it is true that it requires a good physical effort, it is worth going up for the privileged views that you will get of the city.
 
-![Clerigos Church and Tower](_static/images/porto/clerigos-church-and-tower.jpg)
+![Clerigos Church and Tower](_static/images/porto/clerigos-church-and-tower.jpeg)
 
 ## Ribeira
 
@@ -28,7 +28,7 @@ During the walk you will see several rabelos, which are the traditional Portugue
 
 The Porto Cathedral located in the Batalha neighborhood, is the most important religious temple in the city. This church built in the 12th century has a sober exterior, but inside you will be surprised by its beautiful cloister decorated with 14th century tiles in the Gothic style, where religious scenes are shown and you can access the Casa do Cabildo, where you can find objects religious that are considered as the treasure of the cathedral.
 
-![The Porto Cathedral](_static/images/porto/the-porto-cathedral.jpg)
+![The Porto Cathedral](_static/images/porto/the-porto-cathedral.jpeg)
 
 In the Plaza de la Catedral you can see a column that was used in the past to execute criminals, as well as a fabulous terrace where you can get magnificent views of the city. Another of the important churches is San Lorenzo dos Grilos, located near the cathedral. It was built between the 16th and 18th centuries and stands out for housing the Museum of Sacred Art and Archeology.
 

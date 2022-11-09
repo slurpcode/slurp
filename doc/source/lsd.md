@@ -5,7 +5,7 @@ a very strange way.” Hello and welcome to a point of view of someone tripped o
 LSD, for you to read and feel, I recommend blasting Shpongle Music while reading
 the below 😊
 
-![image](_static/images/lsd/image1.jpg)
+![image](_static/images/lsd/image1.jpeg)
 
 It was our friend's birthday... and then the six of us decided to use LSD at his
 birthday party. We swallowed the LSD in the evening...and about two hours later
@@ -78,7 +78,7 @@ We stored it in the refrigerator.
 
 It was my second time doing LSD...
 
-![pill](_static/images/lsd/image2.jpg)
+![pill](_static/images/lsd/image2.jpeg)
 
 So I figured that it would be the same as the first time. I had a full stomach.
 I read a lot online. That's always good. We also have the do's and don'ts. I

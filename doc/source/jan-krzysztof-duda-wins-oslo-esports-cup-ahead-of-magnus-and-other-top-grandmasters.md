@@ -10,7 +10,7 @@ could still have won the title ahead of Duda, but fell just short of the
 3 points he needed when Jorden van Foreest defeated Liem Le in the
 tiebreaker of their last round.
 
-<br>![Image Credits; Chess24](_static/images/jan-krzysztof-duda-wins-oslo-esports-cup-ahead-of-magnus-and-other-top-grandmasters/image1.jpg)
+<br>![Image Credits; Chess24](_static/images/jan-krzysztof-duda-wins-oslo-esports-cup-ahead-of-magnus-and-other-top-grandmasters/image1.jpeg)
 
 Image Credits; Chess24
 

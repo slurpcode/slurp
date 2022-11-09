@@ -2,7 +2,7 @@
 
 Frankfurt is one of the most important cities in Germany, being the headquarters of the European Central Bank and the financial center of the country. This city was practically completely destroyed during World War II, however, it has recovered in such a way that it has become another tourist destination to consider. Around Römerberg square revolves its beautiful historic center where you can visit one of its important museums or visit the skyscrapers on the skyline, perhaps relax in any of its well-kept parks or drink a good mug of beer, accompanied by a delicious Frankfurten Würstchen sausage.
 
-![Frankfurt](_static/images/frankfurt/frankfurt-1.jpg)
+![Frankfurt](_static/images/frankfurt/frankfurt-1.jpeg)
 
 We have made a list of the most important places to visit in Frankfurt, so that if you come to the city, make the most of your time.
 
@@ -10,7 +10,7 @@ We have made a list of the most important places to visit in Frankfurt, so that 
 
 The Römerberg Square is the heart of the historic center, in addition to the main square of the city, it is surrounded by traditional houses built between the 15th and 16th centuries, with their colored facades and their half-timbering. Several of the most important historic buildings in Frankfurt are concentrated in the square, such as the Iglesia Sant Pablo, the Ayuntamiento, the Fuente de la Justicia built in 1543 and the Antigua Iglesia de San Nicolás. The City Hall is based in the Romer building built in the fifteenth century and was the coronation site of the most important emperors and kings of Germany.
 
-![Frankfurt](_static/images/frankfurt/frankfurt-2.jpg)
+![Frankfurt](_static/images/frankfurt/frankfurt-2.jpeg)
 
 Another of the important sites found in this square is the church of Sant Pablo where the first parliament met in 1848, which was democratically elected, a symbol of the city and democracy.
 
@@ -18,7 +18,7 @@ Another of the important sites found in this square is the church of Sant Pablo 
 
 Johan Wolfgang von Goethe was born and lived in Frankfurt, one of the great writers of literature and author of famous works such as Faust or The Sorrows of Young Werther. Although it is true that his house was destroyed during World War II, it was restored and a large number of original objects, paintings, family portraits, etc. were recovered. You will be able to visit this three-story house full of memories of the famous author, where you will see his different rooms and the common instances such as the dining room, the kitchen and the library.
 
-![Frankfurt](_static/images/frankfurt/frankfurt-3.jpg)
+![Frankfurt](_static/images/frankfurt/frankfurt-3.jpeg)
 
 ## Sachsenhausen district
 
@@ -26,13 +26,13 @@ An Iron Bridge stands between the historic center and the new quarter (Sachsenha
 
 Once you are in the Sachsenhausen neighborhood you can go through its oldest area to see its wooden houses, its cobbled streets, numerous fountains and a large number of taverns where you can try the apfelwein, it is a kind of cider and the most traditional drink in the city. The most popular streets where these taverns are located are Paradiesgasse, Rittergasse, Brückenstrasse, Klappergasse and Schweizer Strasse, there you can also taste German cuisine, the oldest being Zum gemalten Haus and Wagner.
 
-![Frankfurt](_static/images/frankfurt/frankfurt-4.jpg)
+![Frankfurt](_static/images/frankfurt/frankfurt-4.jpeg)
 
 ## Main Tower
 
 Frankfurt is dotted with large skyscrapers, among which is the Main Tower, which is 200 meters high and its construction was completed in 1999. It is made up of two buildings, one cubic and the other circular, interconnected with each other and in its 56 floors you can find television studios and several bank headquarters, it also has a fantastic terrace where you can watch a beautiful sunset or dine in its revolving restaurant. Main Tower is located within the business area of the city, where the tallest skyscrapers are concentrated, among which the Europaturm (337 meters), the Westendtower (208 meters) and the Commerzbank Tower (259 meters), among others.
 
-![Frankfurt](_static/images/frankfurt/frankfurt-5.jpg)
+![Frankfurt](_static/images/frankfurt/frankfurt-5.jpeg)
 
 ## Collegiate Church of Saint Bartholomew
 

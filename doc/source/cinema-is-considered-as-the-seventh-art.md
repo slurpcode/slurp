@@ -4,13 +4,13 @@ Art is not a simple subject to define and there is no consensus when it comes to
 
 Let's go with some history, the art began when the people in the caves carved their hieroglyphs representing hunting and daily life. Centuries later between the Hellenistic period of 323 B.C. C. until 31 a. C. which was after classical Greece, after the death of Alexander the Great and before the suicide of the mythical Cleopatra VII. Architecture was considered the greatest art and that the rest of the arts came from there.
 
-![Hieroglyphs representing hunting and daily life ](_static/images/cinema-is-considered-as-the-seventh-art/art.jpg)
+![Hieroglyphs representing hunting and daily life ](_static/images/cinema-is-considered-as-the-seventh-art/art.jpeg)
 
 Art was divided in Roman times according to which part of the personality or the organism was used to perform them, which could be either the mind or the body, and their ability to obtain the final product, which could be a object, a dance, knowledge, among others. On the other hand, Cicero came to catalog the arts according to their importance and classified them into "major arts" to refer to politics and tactics of military strategy, while rhetoric, science and art were counted among the "middle" arts. the police, finally, the "minor arts" which referred to music, sculpture, athletics, acting and painting.
 
 But there was a classification that reached the modern era and was somehow the most accepted, it was made by a famous Greek doctor and philosopher named Galen in Roman times. He divided the arts into two classifications: "the liberal arts" and "the vulgar arts". The former were subdivided into trivium and quadrivium, the trivium being the arts made up of rhetoric, dialectics, and grammar, while the quadrivium was made up of geometry, music, arithmetic, and astronomy. On the other hand, the vulgar arts (also called mechanical) included sculpture, architecture and painting. With some differences between authors, this classification lasted throughout the Middle Ages until the Renaissance.
 
-![Pantheon, Rome ](_static/images/cinema-is-considered-as-the-seventh-art/greece.jpg)
+![Pantheon, Rome ](_static/images/cinema-is-considered-as-the-seventh-art/greece.jpeg)
 
 ## The Beautiful Art
 
@@ -23,13 +23,13 @@ The art classification that is used today comes from an Italian artist named Ric
 - Sculpture
 - Paint
 
-![Abstract Art ](_static/images/cinema-is-considered-as-the-seventh-art/art2.jpg)
+![Abstract Art ](_static/images/cinema-is-considered-as-the-seventh-art/art2.jpeg)
 
 - Music
 - Poetry / literature
 - Dance
 
-![A group of dancing girls ](_static/images/cinema-is-considered-as-the-seventh-art/dancers.jpg)
+![A group of dancing girls ](_static/images/cinema-is-considered-as-the-seventh-art/dancers.jpeg)
 
 - Cinema
 

@@ -15,7 +15,7 @@ an error which was caused by shooting from an Israeli soldier, and the Jordanian
 forces were led by Field Marshal Habis Al-Majali. The Israeli army was led by
 Ariel Sharon, who later became Prime Minister (2001-2006).
 
-![soldiers](_static/images/latrun/image1.jpg)
+![soldiers](_static/images/latrun/image1.jpeg)
 
 Ariel Sharon was wounded in the battle, and he was captured by the Jordanian
 Arab army. Capt. Habis Al-Majali - the Marshal later - captured him on that day,
@@ -27,7 +27,7 @@ the number of Israeli dead in Latrun exceeded 2,000, and after severe criticism,
 he lowered his estimate to 1,000. The leader of the volunteer fighters was from
 the Bedouin Sheikh Nahar bin Sab` al-Nuaimi (the brother of Dhiba).
 
-![battlefield](_static/images/latrun/image2.jpg)
+![battlefield](_static/images/latrun/image2.jpeg)
 
 After the death of former Israeli Prime Minister Ariel Sharon at the age of 85,
 after he fell into a deep coma from torment in the world eight years ago, after
@@ -59,7 +59,7 @@ Khawabi with loyalty, purity, masculinity, and tolerance, like Pasha Majali..
 and the death of criminals, tyrants, like the terrorist Sharon stained his
 biography. With heinous crimes!
 
-![battlefield](_static/images/latrun/image3.jpg)
+![battlefield](_static/images/latrun/image3.jpeg)
 
 ## About the Author
 

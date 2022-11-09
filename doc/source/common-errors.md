@@ -44,7 +44,7 @@ mistakes that divert the researcher from achieving their goal.
      have measures such as: Very bad = 1, Bad = 2, Normal = 3, Good = 4 and Very
      good = 5.
 
-   ![image2](_static/images/errors/image2.jpg)
+   ![image2](_static/images/errors/image2.jpeg)
 
    Now, once you have identified the typologies of the variables, you will avoid
    many planning errors when making your statistical analyzes.
@@ -89,13 +89,13 @@ mistakes that divert the researcher from achieving their goal.
    of these seven colors they prefer and we obtain the following frequency
    table:
 
-   ![image3](_static/images/errors/image3.jpg)
+   ![image3](_static/images/errors/image3.jpeg)
 
    With this frequency table, we will build our histogram, where we place the
    variable (in this case the taste for colors) on the "x" axis and the response
    frequencies on the "y" axis.
 
-   ![image4](_static/images/errors/image4.jpg)
+   ![image4](_static/images/errors/image4.jpeg)
 
    It should be noted that if the data in a histogram are grouped around a
    central value and the values on the sides of the mean are approximately
@@ -112,7 +112,7 @@ mistakes that divert the researcher from achieving their goal.
    one corresponding to the student who ingests the most water daily in that
    classroom.
 
-   ![image5](_static/images/errors/image5.jpg)
+   ![image5](_static/images/errors/image5.jpeg)
 
    In order to make our box plot, we will divide the data set into quartiles to
    generate our graph and the quartiles are those values that divide our amount
@@ -138,7 +138,7 @@ mistakes that divert the researcher from achieving their goal.
    / 2 = 2150. Now, as we see in the Table the Min = 1300 and the Max = 2500, we
    can now build our box plot.
 
-   ![image6](_static/images/errors/image6.jpg)
+   ![image6](_static/images/errors/image6.jpeg)
 
    - Which numerical variables are related to each other? To answer this
      question it will be necessary to use a Scatter Plot.
@@ -149,11 +149,11 @@ mistakes that divert the researcher from achieving their goal.
    vice versa, if those students who tend to do poorly in mathematics also do
    poorly in physics. Let's see a table with his grades in both subjects:
 
-   ![image7](_static/images/errors/image7.jpg)
+   ![image7](_static/images/errors/image7.jpeg)
 
    Let's now make a scatter plot:
 
-   ![image8](_static/images/errors/image8.jpg)
+   ![image8](_static/images/errors/image8.jpeg)
 
    - Are the groups that I have in my database very different with respect to
      the different qualitative variables? For this it will be necessary to use a
@@ -293,7 +293,7 @@ mistakes that divert the researcher from achieving their goal.
      with at least two decimal places and also, when reporting your cutoff
      value, use the most common, which we already know is 0.05.
 
-   ![image10](_static/images/errors/image10.jpg)
+   ![image10](_static/images/errors/image10.jpeg)
 
 5. The fifth most notable mistake is failing to justify the restrictions that
    statistical tests have. Before applying any type of statistical test, you

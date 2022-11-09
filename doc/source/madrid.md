@@ -25,7 +25,7 @@ This square is surrounded by important buildings such as the Arco de
 Cuchilleros, the Casa de la Panadería and in the Bar la Campana you can
 eat its traditional squid sandwich.
 
-<br>![Main Square](_static/images/madrid/image1.jpg)
+<br>![Main Square](_static/images/madrid/image1.jpeg)
 
 ## 3 - The San Miguel Market
 
@@ -34,7 +34,7 @@ important markets in Madrid, it is characterized by its wonderful iron
 architecture and has more than 30 places where you can enjoy typical
 Spanish dishes.
 
-<br>![The San Miguel Market](_static/images/madrid/image2.jpg)
+<br>![The San Miguel Market](_static/images/madrid/image2.jpeg)
 
 ## 4 - The Town Square
 
@@ -59,7 +59,7 @@ photos of the palace and once inside you can see the royal rooms , its
 luxurious halls, the Royal Pharmacy and the impressive Royal Armory that
 has one of the most important collections in the world.
 
-<br>![The Royal Palace](_static/images/madrid/image3.jpg)
+<br>![The Royal Palace](_static/images/madrid/image3.jpeg)
 
 ## 7 - The Temple of Debod
 

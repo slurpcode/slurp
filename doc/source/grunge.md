@@ -12,7 +12,7 @@ these kids have the ability to say anything they want to say, express anything
 they want to express, any anger, any pain, any anguish, any torment, and they
 feel a kinship, a oneness, that this young man has been through, tragedy?
 
-![singing-men](_static/images/grunge/image1.jpg)
+![singing-men](_static/images/grunge/image1.jpeg)
 
 What you actually see happening in Seattle is this kind of explosion of sub
 culture. I think it's a very important thing and a very healthy thing to have

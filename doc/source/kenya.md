@@ -30,7 +30,7 @@ It is important to emphasize that before traveling around the city, you
 should check with your place of accommodation which are the safe areas
 to visit and what precautions you should take.
 
-![Nairobi](_static/images/kenya/image1.jpg)
+![Nairobi](_static/images/kenya/image1.jpeg)
 
 ## Lake Naivasha
 
@@ -57,7 +57,7 @@ the latter being in danger of extinction. On the road between Lake
 Naivasha and Lake Nakuru you can see hippos, impalas, warthogs,
 different species of birds, gazelles, baduinos, giraffes and zebras.
 
-![Lake Nakuru](_static/images/kenya/image2.jpg)
+![Lake Nakuru](_static/images/kenya/image2.jpeg)
 
 ## Maasai Mara
 
@@ -70,7 +70,7 @@ zebras and crocodiles that you can find at the Mara River crossing.
 Later you can go to a Masai village to observe the traditional life of
 this tribe and see their lively dances.
 
-![Lake Nakuru](_static/images/kenya/image3.jpg)
+![Lake Nakuru](_static/images/kenya/image3.jpeg)
 
 ## Aberdares National Park
 
@@ -101,7 +101,7 @@ Amboseli offers you landscapes of great desert plains, lakes where
 flamingos live, acacia forests, as well as the Oldoinyo Orok peak and
 traditional Masai villages.
 
-![Amboseli National Park](_static/images/kenya/image4.jpg)
+![Amboseli National Park](_static/images/kenya/image4.jpeg)
 
 ## Tsavo National Park
 
@@ -146,7 +146,7 @@ where you can practice water sports, taste delicious fish dishes and
 watch incredible sunsets. The most paradisiacal beaches are Watamu,
 Diani, Silversands, Kilifi and Tiwi.
 
-![Visit Lamu](_static/images/kenya/image5.jpg)
+![Visit Lamu](_static/images/kenya/image5.jpeg)
 
 It offers you beautiful natural landscapes, wild fauna and spectacular
 beaches.

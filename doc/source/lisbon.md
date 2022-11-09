@@ -4,7 +4,7 @@ Lisbon in the capital of Portugal and one of the most beautiful cities
 in Europe, being a mixture between a traditional city but at the same
 time cosmopolitan, which gives this metropolis a special attraction.
 
-![Lisbon](_static/images/lisbon/image1.jpg)
+![Lisbon](_static/images/lisbon/image1.jpeg)
 
 This city has one of the oldest histories on the European continent
 since it was founded 3000 years ago and after Athens, it is the oldest
@@ -39,7 +39,7 @@ see the church of Santa Lucía built in the 18th century and reach the
 Puerta del Sol viewpoint, where you can see the perspective of the
 eastern part of the city.
 
-![Castle of San Jorge](_static/images/lisbon/image2.jpg)
+![Castle of San Jorge](_static/images/lisbon/image2.jpeg)
 
 Going down you will see the neighborhood of Alfama, one of the most
 authentic in Lisbon, where you will find small houses with colored
@@ -50,7 +50,7 @@ the year 1147 and is the oldest church in the city, in a romantic style,
 next to which a Gothic-style convent was later built, where
 archaeological excavations are currently being carried out.
 
-![Alfama](_static/images/lisbon/image3.jpg)
+![Alfama](_static/images/lisbon/image3.jpeg)
 
 One of the most typical events is to get on one of the old trams, one of
 its most popular lines among tourists being tram 28, which runs from the
@@ -74,7 +74,7 @@ The nerve center of the city is the Rossio Square that extends to the
 Restauradores Square, in its center is the monument to Don Pedro IV who
 was the first emperor of independent Brazil.
 
-![Rossio Square](_static/images/lisbon/image4.jpg)
+![Rossio Square](_static/images/lisbon/image4.jpeg)
 
 If you like Portuguese tiles, you should visit the Tile Museum located
 in the old convent of the Madre de Dios, where in addition to seeing the
@@ -88,7 +88,7 @@ neighborhood where you can see some of the most emblematic monuments of
 the city, such as the Torre de Belem, the Jerónimos Monastery or the
 Monument to the Discoveries.
 
-![Belem](_static/images/lisbon/image5.jpg)
+![Belem](_static/images/lisbon/image5.jpeg)
 
 The Jerónimos monastery is the best example that exists in Portugal of
 the Manueline style in architecture, founded at the beginning of the

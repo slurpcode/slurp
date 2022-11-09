@@ -2,13 +2,13 @@
 
 Bucaramanga is a city in Colombia and the capital of the department of Santander, it has a pleasant climate, warm people, many parks and gardens. We will give you a guide to the best things you can do in Bucaramanga, so you don't miss the most emblematic sites and have a maximum experience in this beautiful city.
 
-![Bucaramanga Skyline](_static/images/bucaramanga/bucaramanga.jpg)
+![Bucaramanga Skyline](_static/images/bucaramanga/bucaramanga.jpeg)
 
 ## Visit the cathedral
 
 The Sagrada Familia Cathedral is the most important and well-known religious temple in Bucaramanga, it has views of Santander Park, which in turn is immersed in the historic center of the city. On the outside it stands out with its bright white facade, while its interior is beautifully ornate, when illuminated at night it becomes a striking landmark.
 
-![Sagrada Familia Cathedral](_static/images/bucaramanga/sagrada-familia-cathedral.jpg)
+![Sagrada Familia Cathedral](_static/images/bucaramanga/sagrada-familia-cathedral.jpeg)
 
 ## Stroll through the botanical garden
 
@@ -18,7 +18,7 @@ This city is famous for its green spaces, among which is the extensive Eloy Vale
 
 The Hill of the Holy is located in an urban area called Floridablanca that borders Bucaramanga and has a huge statue of Jesus that is approximately 40 meters tall. You can climb to the top by cable car and then ascend to the viewpoint that remains at the head of the statue. From that point the landscape is really special and you will realize that the statue is equally impressive.
 
-![The Hill of the Holy](_static/images/bucaramanga/the-hill-of-the-holy.jpg)
+![The Hill of the Holy](_static/images/bucaramanga/the-hill-of-the-holy.jpeg)
 
 ## The Total Book House
 
@@ -64,7 +64,7 @@ The Chicamocha Bucaramanga National Park also known as Panachi, is located along
 
 It is a paradise both for lovers of extreme sports and for those who just want to enjoy nature and walk along paths with beautiful landscapes. The park has a cable car that crosses the Chicamocha Canyon, but it also offers cultural activities in the Customs Square, the Guane Museum and the Exhibition Hall. You can also have fun in its go-kart circuit, the skating rink, see goats, ostriches and a viewpoint at the highest point of the canyon with a spectacular panoramic view.
 
-![Chicamocha Bucaramanga National Park](_static/images/bucaramanga/chicamocha-bucaramanga-national-park.jpg)
+![Chicamocha Bucaramanga National Park](_static/images/bucaramanga/chicamocha-bucaramanga-national-park.jpeg)
 
 Bucaramanga is a city with a great tourist offer that you cannot miss!
 

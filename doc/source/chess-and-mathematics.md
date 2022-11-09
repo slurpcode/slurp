@@ -57,7 +57,7 @@ The reasoning used to play chess is very similar to the reasoning used in mathem
 
 In a game of chess, multiple resolutions are applied within a complex puzzle and there are a large number of possible ways to solve the problems that arise during the game. It is necessary to calculate an endless number of possible variants for each movement and it is also composed of a cluster of successful movements to decipher the solution of the game and be victorious.
 
-![Thinking In Chess](_static/images/chess-and-mathematics/chess1.jpg)
+![Thinking In Chess](_static/images/chess-and-mathematics/chess1.jpeg)
 
 The proofs, the theorems, the axioms and the mathematical models are ultimately very similar to the fundamental principles of chess, both in the opening, the rules of the game and the theory of endings, to name some of its most important aspects.
 
@@ -69,7 +69,7 @@ Since time immemorial, mathematicians have posed various problems around the gam
 
 In the following image we can see one of the solutions to this problem, where the horse starts from square number 1 and moves through each of the subsequent numbers, that is, 2, 3, 4 and so on.
 
-![Solution to Horse Problem my mathematician Leonard Euler](_static/images/chess-and-mathematics/chess2.jpg)
+![Solution to Horse Problem my mathematician Leonard Euler](_static/images/chess-and-mathematics/chess2.jpeg)
 
 The mathematician Leonard Euler solved the horse problem and was also approached by many other great mathematicians. This problem, known since ancient times, focuses on a branch of mathematics that is commonly known as "graph theory" and specifically this problem, it would be a variant of what they call the "Hamiltonian cycle problem", the latter is focused on find a certain Hamiltonian path but circumscribed within a certain graph. The answer to the number of possible runs of the horse is 33,439,123,484,294.
 
@@ -97,13 +97,13 @@ As we all know, this game is developed on a board consisting of eight rows by ei
 
 Each of these features mentioned above, provide chess with certain geometric properties that can be seen reflected on the board. When we talk about the Cartesian plane, we can say that the shortest distance between two points is of course a straight line. However in chess, we can notice that the movement of some pieces does not agree with this rule. Let's set an example with the king's movement on the board.
 
-![King's Movement In Chess Board](_static/images/chess-and-mathematics/chess3.jpg)
+![King's Movement In Chess Board](_static/images/chess-and-mathematics/chess3.jpeg)
 
 As we can see in the image, the king can be moved from square E1 to square E8 in seven movements if it follows a straight line. But we can also observe that the king, in the same way, would take seven movements diagonally, so in this case the shortest distance is not the straight line, since it is the same for both movements.
 
 Another relevant aspect regarding the geometry of the chessboard is the importance of its center, which we can see in the following image:
 
-![Center Of a Chess Board](_static/images/chess-and-mathematics/chess4.jpg)
+![Center Of a Chess Board](_static/images/chess-and-mathematics/chess4.jpeg)
 
 Those four boxes that are within the green square indicate exactly the center of the board and their importance lies in trying to dominate these four boxes, in order to obtain a positional and strategic advantage, in order to substantially dominate the game throughout the match.
 
@@ -119,13 +119,13 @@ It is best to make a square that includes the pawn whose side is equal to the nu
 
 In the next game Black plays and we can see that the king cannot capture the pawn that is in position e5 because he is defended by the white pawn that is in position f4. But what if the king captures the f4 pawn? At that point he would cease to be inside the square and the other pawn would crown.
 
-![A Chain Of Pawns Against The Rule Of The Square](_static/images/chess-and-mathematics/chess5.jpg)
+![A Chain Of Pawns Against The Rule Of The Square](_static/images/chess-and-mathematics/chess5.jpeg)
 
 Isolated pawns and the rule of the square
 
 In the next game presented below, Black plays
 
-![Black plays](_static/images/chess-and-mathematics/chess6.jpg)
+![Black plays](_static/images/chess-and-mathematics/chess6.jpeg)
 
 The king tries to get closer to capture one of the pawns with the Rf4 move, then the white pawn moves to position h4, this move forces the king to retreat, since If he captured the pawn on f3, the king would be outside the square rule and the pawn on the h-file would crown.
 
@@ -138,19 +138,19 @@ Then the following movements are performed:
 3. h5 and Rf6
 4. Ra2 and Rg7
 
-![Black plays](_static/images/chess-and-mathematics/chess7.jpg)
+![Black plays](_static/images/chess-and-mathematics/chess7.jpeg)
 
 5. f5 and Rf6
 6. h6 and Rf7
 7. Ra1 and Rg8
 
-![Black plays](_static/images/chess-and-mathematics/chess8.jpg)
+![Black plays](_static/images/chess-and-mathematics/chess8.jpeg)
 
 8. f6; Rf7
 9. h7; Rf6
 10. h8 and the pawn crowns a queen
 
-![Black plays](_static/images/chess-and-mathematics/chess9.jpg)
+![Black plays](_static/images/chess-and-mathematics/chess9.jpeg)
 
 It is important to note that the more columns there are between the two isolated pawns, of course it will be much easier to leave the king out of the square.
 
@@ -158,29 +158,29 @@ It is important to note that the more columns there are between the two isolated
 
 In the next game, the king has only one way to capture the pawn that he is going to crown, but first we must make sure that there is no obstacle that could prevent the king from approaching. So if we look at the next board, the only way the king can approach is through the diagonal, but there is a pawn of the same color that is blocking it and the time it takes to move the pawn and clear the way, lets the king out of the square and therefore the opposing pawn kings.
 
-![Black plays](_static/images/chess-and-mathematics/chess10.jpg)
+![Black plays](_static/images/chess-and-mathematics/chess10.jpeg)
 
 In the next chess game if the black king manages to capture the pawn instead of capturing the knight, the game would be drawn. The problem is that the only way to approach the pawn is through the diagonal and that square is threatened by the knight, so that if the king approaches the pawn from the f5 position, the king is then out of the square and not achieves its objective of preventing the opponent's pawn from crowning.
 
-![Black plays](_static/images/chess-and-mathematics/chess11.jpg)
+![Black plays](_static/images/chess-and-mathematics/chess11.jpeg)
 
 The following image presents a problem that can be solved thanks to the rule of the square, in the next chess game everything indicates that White loses since the black king is inside the square, which can lead him to capture the pawn white before it crowns.
 
-![Black plays](_static/images/chess-and-mathematics/chess12.jpg)
+![Black plays](_static/images/chess-and-mathematics/chess12.jpeg)
 
 However, thanks to the geometry of the chessboard, the white king can approach from the diagonal and change the fate of the game, since if the black king has the purpose of capturing the white pawn, the movements would be as follows following:
 
 1. Rg7; h4
 2. Rf6; Rb6
 
-![Black plays](_static/images/chess-and-mathematics/chess13.jpg)
+![Black plays](_static/images/chess-and-mathematics/chess13.jpeg)
 
 If the black king is to prevent the white king from defending his pawn, he must try to capture it.
 
 3. Re5 and the black king captures the white pawn with Rxc6
 4. With this strategy of the opponent who represents the white pieces, he moves his king to Rf4 and in this way he is already inside the square, with which he will capture the black pawn and achieve a draw in a match, which at the beginning had all of miss.
 
-![Black plays](_static/images/chess-and-mathematics/chess14.jpg)
+![Black plays](_static/images/chess-and-mathematics/chess14.jpeg)
 
 ## Avoid Checkmate Against A King And Knight
 
@@ -194,13 +194,13 @@ The easiest way is using graph theory, let's think that each graph represents a 
 
 To solve the problem of having the maximum number of Kings possible, both on this board and on others of different dimensions, the idea is to find the largest number of independent vertices found in the graph. When we talk about a set of independent vertices, it is that none of them is directly connected to another vertex, that is, for this specific case it is that no king is threatened by another king.
 
-![Problem Of The Kings](_static/images/chess-and-mathematics/math1.jpg)
+![Problem Of The Kings](_static/images/chess-and-mathematics/math1.jpeg)
 
 The reality is that finding the independent vertices within a graph through an algorithm that solves it can take too long to find the answer. However, for this case associated with chess it can be solved directly.
 
 If those vertices that do not have a direct connection with the next vertex are colored with another color, it can be seen with the naked eye that no more than four kings can be placed, even starting from different squares the same conclusion can be reached.
 
-![Problem Of The Kings](_static/images/chess-and-mathematics/math2.jpg)
+![Problem Of The Kings](_static/images/chess-and-mathematics/math2.jpeg)
 
 The mathematical formula to solve this problem on a board of n x n dimensions, given the case that n is an even number, is:
 
@@ -262,25 +262,25 @@ Computer programs solve the number of iterations that would take too long to be 
 
 Suppose we place the first queen, we must generate an algorithm that avoids placing the next queen in any square that is in the path of any of these directions or arrows.
 
-![Queen Positions](_static/images/chess-and-mathematics/chess15.jpg)
+![Queen Positions](_static/images/chess-and-mathematics/chess15.jpeg)
 
 When placing the second queen, we will mark with points those boxes that are restricted by both queens, since they represent the rows, columns and diagonals that must be avoided so that another queen can be threatened, by one of the two previously located.
 
-![Queen Positions](_static/images/chess-and-mathematics/chess16.jpg)
+![Queen Positions](_static/images/chess-and-mathematics/chess16.jpeg)
 
 But placing the third queen should avoid some of the points that eliminate the boxes that correspond to the horizontal, diagonal and vertical lines that are in the environment of both queens.
 
-![Queen Positions](_static/images/chess-and-mathematics/chess17.jpg)
+![Queen Positions](_static/images/chess-and-mathematics/chess17.jpeg)
 
 In this way we will be locating queens and our possibilities will diminish according to the sum of restrictions imposed by each one of them.
 
-![Queen Positions](_static/images/chess-and-mathematics/chess18l.jpg) ![Queen Positions](_static/images/chess-and-mathematics/chess18r.jpg)
+![Queen Positions](_static/images/chess-and-mathematics/chess18l.jpeg) ![Queen Positions](_static/images/chess-and-mathematics/chess18r.jpeg)
 
-![Queen Positions](_static/images/chess-and-mathematics/chess19l.jpg) ![Queen Positions](_static/images/chess-and-mathematics/chess19r.jpg)
+![Queen Positions](_static/images/chess-and-mathematics/chess19l.jpeg) ![Queen Positions](_static/images/chess-and-mathematics/chess19r.jpeg)
 
 The last queen has only one chance to locate it and it is in the only empty square left on the board.
 
-![Queen Positions](_static/images/chess-and-mathematics/chess20.jpg)
+![Queen Positions](_static/images/chess-and-mathematics/chess20.jpeg)
 
 That is why computer programs must intervene, to establish a trial and error method, until we can iterate all the possibilities and find some of the solutions or being a little more ambitious, with each and every one of the possible solutions.
 
@@ -307,7 +307,7 @@ One of the great dilemmas regarding chess is whether a game can become infinite,
 
 These two rules lead to chess games having a maximum limit of moves and therefore, the game becomes finite.
 
-![Queen Positions](_static/images/chess-and-mathematics/chess21.jpg)
+![Queen Positions](_static/images/chess-and-mathematics/chess21.jpeg)
 
 The latest advances in science have attempted to solve the endings of chess games up to a limit of seven pieces, including the two kings. This is a major step towards the resolution of generating a perfect game. As we already know that chess is a finite game, given the case that the 64 regulatory squares are not expanded and the 32 pieces are not changed or reclassified, it is possible some distant day we will get to see this type of feat. What we are sure of is that reaching that conclusion will take the experts a great deal of time.
 

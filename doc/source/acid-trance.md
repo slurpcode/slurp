@@ -11,7 +11,7 @@ end-of-world atmosphere was also particularly characteristic because it
 neglected luxury of all genders, and as a result, the audience visiting it was
 extremely mixed (business people and non-members alike appeared).
 
-![concert](_static/images/acid-trance/Acid_Trance.jpg)
+![concert](_static/images/acid-trance/Acid_Trance.jpeg)
 
 "Full democracy, everyone is equal, no one cares where you came from, who you
 are."

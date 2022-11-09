@@ -79,7 +79,7 @@ P (A) = 9/10
 P (A) = 0.9
 ```
 
-![second](_static/images/probabilities/image2.jpg)
+![second](_static/images/probabilities/image2.jpeg)
 
 Answer:
 
@@ -162,7 +162,7 @@ follows:
 
 S = {CC, CT, TC, TT}
 
-![third](_static/images/probabilities/image3.jpg)
+![third](_static/images/probabilities/image3.jpeg)
 
 Being "S" the sample space made up of all the possible results of our experiment
 and can be decomposed into events or events. Both the event and the event are
@@ -190,21 +190,21 @@ is part of the rectangle but is not part of the circle, that is, the Venn
 diagram represents all the points that make up the sample space, but are not
 included in A.
 
-![fourth](_static/images/probabilities/image4.jpg)
+![fourth](_static/images/probabilities/image4.jpeg)
 
 Now, when we join two events such as C and D, we can define the union of the two
 events, as the set that includes all the points that are in both events and is
 represented mathematically with the symbol U, therefore it would be C∪D and
 looks like this:
 
-![fifth](_static/images/probabilities/image5.jpg)
+![fifth](_static/images/probabilities/image5.jpeg)
 
 Now, the intersection that exists between two events F and G is represented by
 those points in the sample that are common to both events and are represented in
 the following figure by the green area and are mathematically represented as
 follows F∩G, by both the area that is shaded in green will be:
 
-![sixth](_static/images/probabilities/image6.jpg)
+![sixth](_static/images/probabilities/image6.jpeg)
 
 The complement of A, are those points that belong to S but are not in A and is
 represented by the symbol Ā.
@@ -315,7 +315,7 @@ obtain 2 of the 6 points that make up our sample space, therefore: P (I ∩ A) =
 Answer: The probability that we have when we throw a dice into the air and that
 a number that is odd will fall and is also less than 4 is 33.33%.
 
-![eighth](_static/images/probabilities/image8.jpg)
+![eighth](_static/images/probabilities/image8.jpeg)
 
 ## Bayes theorem
 
@@ -446,7 +446,7 @@ Although the answer is self-explanatory, 4,845 different groups of 4 workers out
 of the 20 who work in the company can be formed to carry out the Saturday
 shifts.
 
-![tenth](_static/images/probabilities/image10.jpg)
+![tenth](_static/images/probabilities/image10.jpeg)
 
 Permutations: In the case that we are interested in the order of our "r"
 non-repeated objects, which in turn have been selected within the "n" objects
@@ -478,7 +478,7 @@ ideas, 4 will be the ratio of least interest among its four choices. The
 question is, in how many possible ways will the respondent be able to answer the
 questionnaire?
 
-![eleventh](_static/images/probabilities/image11.jpg)
+![eleventh](_static/images/probabilities/image11.jpeg)
 
 Answer:
 

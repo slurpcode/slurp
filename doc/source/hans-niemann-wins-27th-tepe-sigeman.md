@@ -5,7 +5,7 @@ in Sweden in Malmo featured a round-robin among eight players of
 different ages and backgrounds. Once again, this mixed field led to lots
 of interesting games.
 
-<br>![Image credit: Lars OA Hedlund/TePe Sigeman & Co Tournament 2022](_static/images/hans-niemann-wins-27th-tepe-sigeman/image1.jpg)
+<br>![Image credit: Lars OA Hedlund/TePe Sigeman & Co Tournament 2022](_static/images/hans-niemann-wins-27th-tepe-sigeman/image1.jpeg)
 
 Image credit: Lars OA Hedlund/TePe Sigeman & Co Tournament 2022
 
@@ -22,7 +22,7 @@ standings. The maximum number of decisive games were played by UAE no.1
 Salem Saleh-six.
 
 <br>![Niemann vs. Erigaisi. Image credits: Lars
-OA Hedlund/Tepe Sigeman & Co Tournament.](_static/images/hans-niemann-wins-27th-tepe-sigeman/image2.jpg) Niemann vs. Erigaisi. Image credits: Lars
+OA Hedlund/Tepe Sigeman & Co Tournament.](_static/images/hans-niemann-wins-27th-tepe-sigeman/image2.jpeg) Niemann vs. Erigaisi. Image credits: Lars
 OA Hedlund/Tepe Sigeman & Co Tournament.
 
 <br>Niemann started with two draws and ended with two draws, and won three

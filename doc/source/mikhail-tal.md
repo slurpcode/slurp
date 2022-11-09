@@ -1,6 +1,6 @@
 # 🏆 The Greatest Attacking Player in Chess History
 
-![chess](_static/images/mikhail_tal/mikhail_tal_1.jpg)
+![chess](_static/images/mikhail_tal/mikhail_tal_1.jpeg)
 
 He was known by many names; the magician from Riga, the pirate of Latvia, Fortunes favorite, the hypnotist and so on.
 

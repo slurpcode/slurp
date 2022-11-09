@@ -2,7 +2,7 @@
 
 Florence is the city of the Renaissance in Italy, it is full of great jewels in sculpture, architecture and painting, made by great masters such as Michelangelo and Leonardo da Vinci, among many others. It is a large open-air museum, but in addition to visiting palaces, squares and churches, it also has a delicious gastronomy with elaborate dishes such as paninis, pappardelle al sugo di lepre or charcuterie and cheese boards, which we are sure you will love!
 
-![City of Florence](_static/images/florence/florence.jpg)
+![City of Florence](_static/images/florence/florence.jpeg)
 
 We will give you a list of the best places to visit in Florence, so you don't miss the most interesting things in the capital of Tuscany.
 
@@ -10,7 +10,7 @@ We will give you a list of the best places to visit in Florence, so you don't mi
 
 In the heart of the historic center is the Piazza del Duomo, where you can find the Cathedral of Santa Maria del Fiore. Outside you can enjoy its impressive white and green marble facade full of details, as well as Brunelleschi's famous dome built in 1420, which is considered a masterpiece in the history of architecture.
 
-![Florence Cathedral](_static/images/florence/cathedral.jpg)
+![Florence Cathedral](_static/images/florence/cathedral.jpeg)
 
 Inside is the tomb of Filippo Brunelleschi, you will be surprised by the scenes painted on the dome of the final judgment and you can see them more closely if you climb the 463 steps that take you to the top of the dome, where you can also enjoy a excellent panoramic view of the city.
 
@@ -18,7 +18,7 @@ Inside is the tomb of Filippo Brunelleschi, you will be surprised by the scenes 
 
 Giotto's Campanile was built by Giotto and Talenti between the years 1334 and 1359. The exterior of the tower stands out for its Gothic style of green, white and pink marble. But it also has wonderful bas-reliefs and niches that house preserved statues. It's also worth climbing to the top for a fantastic panoramic view of Brunelleschi's dome and the old town.
 
-![Giotto's Campanile](_static/images/florence/campanile.jpg)
+![Giotto's Campanile](_static/images/florence/campanile.jpeg)
 
 ## Baptistery of San Giovanni
 
@@ -36,7 +36,7 @@ Della Signoria Square is a vast open-air museum, where in medieval times it was 
 
 The Palazzo Vecchio is also located in Piazza della Signoria and was the residence of the Medici family. On the outside it stands out for its 94 m tower and its robustness, giving it the appearance of a castle, however, the real gems are found inside in the Sala del Cinquecento, where you can see beautiful frescoes by Giorgio Vasari that decorate its ceilings and walls, in addition to the sculpture of Michelangelo the Genius of Victory.
 
-![Palazzo Vecchio](_static/images/florence/palazzo.jpg)
+![Palazzo Vecchio](_static/images/florence/palazzo.jpeg)
 
 ## Church of Santa Croce
 
@@ -46,7 +46,7 @@ The beautiful Piazza Santa Croce is surrounded by grand palaces and the Church o
 
 The Uffizi Gallery has one of the most important pictorial collections in the world. The palace that houses the gallery was the residence built by the Medici to move from the Palazzo Veccio, and is currently, together with the Vatican Museums, the busiest in Italy. This is because it contains works such as The Birth of Venus by Botticelli, Bacchus by Caravaggio, The Annunciation by Leonardo Da Vinci, The Holy Family by Michelangelo, the Virgin of the Goldfinch by Raphael and the Venus of Urbino by Titian, among others many others.
 
-![Uffizi Gallery](_static/images/florence/gallery.jpg)
+![Uffizi Gallery](_static/images/florence/gallery.jpeg)
 
 ## Ponte Vecchio
 

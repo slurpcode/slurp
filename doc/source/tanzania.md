@@ -2,7 +2,7 @@
 
 The United Republic of Tanzania is a country located on the east coast of the central part of Africa, whose capital is Dodoma. This country has incredible natural parks, dream beaches, majestic wild animals and charming people. Indeed, Tanzania has everything you could want on a trip to Africa, impressive landscapes, paradisiacal beaches bathed by crystal clear waters and impressive animals that you can see from a jeep. Safaris on the island of Zanzibar and in the Serengeti are famous, but we are also going to guide you through its most beautiful and interesting places, so that if you visit Tanzania you can discover its most precious treasures.
 
-![Tanzania](_static/images/tanzania/tanzania-1.jpg)
+![Tanzania](_static/images/tanzania/tanzania-1.jpeg)
 
 ## Serengeti National Park
 
@@ -10,7 +10,7 @@ If you are a wildlife lover you should visit the Serengeti sometime. This park w
 
 Any day in the Seregueti begins at dawn, which is the time when the cats are most awake. Walking the paths of the park to see wildlife in first person is an experience without limits and then you can enjoy a beautiful sunset of all colors. Later you can rest in one of the camps, to start the next day with another marathon safari day. It is advisable that you plan at least 3 days to get to know its 14,763 km² area, but you will also have the opportunity to contemplate one of the most beautiful landscapes in all of Africa from the heights of a balloon, which is an experience that you should not miss.
 
-![Tanzania](_static/images/tanzania/tanzania-2.jpg)
+![Tanzania](_static/images/tanzania/tanzania-2.jpeg)
 
 ## Zanzibar
 
@@ -23,7 +23,7 @@ But if you prefer a backpacker and youthful atmosphere, the recommendation is to
 
 Taste the gastronomy at The Rock, which is a restaurant known worldwide for its excellent dishes and is located on an islet a few meters from the shore. But if you prefer luxurious accommodations and more comfortable beaches, a resort in Kendwa is advisable.
 
-![Tanzania](_static/images/tanzania/tanzania-3.jpg)
+![Tanzania](_static/images/tanzania/tanzania-3.jpeg)
 
 In the Jonzani forest you can meet the red colobus monkey and it is the only place on the planet where you can see this primate
 
@@ -35,7 +35,7 @@ Ngorongoro is one of the largest volcanic calderas in the world. You can enter t
 
 If you take a flight from Kilimanjaro International Airport you should ask for a window seat to contemplate Kilimanjaro, which is definitely one of the symbols of Africa with its 5895 meters of altitude. But if you are in excellent physical condition and have a passion for the mountains, you can climb the snow-covered summit of Kilimanjaro. The tour can last between 5 and 7 days to climb the highest mountain in Africa.
 
-![Tanzania](_static/images/tanzania/tanzania-4.jpg)
+![Tanzania](_static/images/tanzania/tanzania-4.jpeg)
 
 ## Lake Tanganyika
 

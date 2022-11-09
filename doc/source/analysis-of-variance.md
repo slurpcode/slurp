@@ -21,7 +21,7 @@ This method can be of great help when we suspect that an independent variable is
 
 Now let's go with an illustrative example of the analysis of variance of a factor: Let us suppose that a certain factory produces an adhesive gel that is sold in small jars. The gel has an important property, which is its viscosity, since if it is too liquid its adherence is affected, while if it is too thick, it ends up being very difficult to apply.
 
-![Hair Gel](_static/images/analysis-of-variance/image1.jpg)
+![Hair Gel](_static/images/analysis-of-variance/image1.jpeg)
 
 Lately the factory has received complaints from some customers, who are dissatisfied as the gel is not as consistent as usual. The plant manager is concerned and decides to investigate the matter, so he begins by examining the viscosity of the five most recent batches of production. In this way, if he manages to find any difference between the viscosity of any of the batches, this would mean the real problem. He can even help you formulate hypotheses about the factors that could cause inconsistencies between batches.
 The way to measure the viscosity is using an instrument that has a rotor that is submerged inside the jar of adhesive gel. This is how the mean value of resistance to torsion can be measured and this procedure is carried out with five jars from each of the 5 batches and they are chosen at random. In turn, each batch has five levels, this implies that the test is repeated five times per batch and is what is called “one factor design”. The results obtained are expressed below:
@@ -164,7 +164,7 @@ Based on the results of the averages of each batch, we can see that batch three 
 
 We are now going to show a solved exercise with two factors: the environmental protection agency requires to determine the effect of two water treatment methods with respect to the absorption of magnesium.
 
-![Water Treatment Plant](_static/images/analysis-of-variance/image2.jpg)
+![Water Treatment Plant](_static/images/analysis-of-variance/image2.jpeg)
 
 For this, magnesium levels are measured in grams per cubic centimeter (gr / cc) and all different levels of time are incorporated into the experiment, which yields the following data:
 
@@ -376,7 +376,7 @@ To calculate the sum of squares of the interaction between both SSAB factors, we
 
 1. Calculate the sum of values of each treatment for each of the times, for example, for time 1 there are 3 tests of treatment 1, these three data are the ones to be added and the same for the 3 data that represent the measurements of treatment 2 for time 1. In the same way, the pertinent summations are made for time 2 with respect to treatments 1 and 2.
 
-![Mathematical Table](_static/images/analysis-of-variance/image2.jpg)
+![Mathematical Table](_static/images/analysis-of-variance/image2.jpeg)
 
 The sum of each row and column is also calculated
 

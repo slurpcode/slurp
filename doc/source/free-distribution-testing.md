@@ -56,13 +56,13 @@ The single-tailed test means that the rejection region is at one end of our samp
 
 When we believe that the population parameter is less than the assumption, the hypothesis considered will be the left-tail test, and on the contrary, if the population parameter is greater than the assumption, we will be in the framework of a right-tail test.
 
-![Left-tail test ](_static/images/free-distribution-testing/chart1.jpg) ![Right-tail test ](_static/images/free-distribution-testing/chart2.jpg)
+![Left-tail test ](_static/images/free-distribution-testing/chart1.jpeg) ![Right-tail test ](_static/images/free-distribution-testing/chart2.jpeg)
 
 ## Two-Tailed Test
 
 This test is used when the critical area or rejection region is at both ends of the distribution and the idea is to determine if the sample we are analyzing is within or outside of a certain range of values. On the other hand, instead of accepting the null hypothesis, the alternative hypothesis is accepted, when the value is within the two tails in the probability distribution. In this case α is divided into two equal parts and therefore the critical value will be α / 2. In general, the value of α = 0.05 is established so that the critical region will be found on both sides, but with a value of 0.05 / 2 = 0.025. Both sides are considered in order to verify if the estimated parameter is greater or less than the assumed parameter, so that in this case, the extreme values act as evidence against the null hypothesis.
 
-![Two-tail test ](_static/images/free-distribution-testing/chart3.jpg)
+![Two-tail test ](_static/images/free-distribution-testing/chart3.jpeg)
 
 Hypothesis tests for a population median
 
@@ -106,7 +106,7 @@ We have a sample of the weights in kilograms of 9 children with 5 years of age
 
 Prove that the median is equal to 22.50 kg
 
-![Median ](_static/images/free-distribution-testing/median.jpg)
+![Median ](_static/images/free-distribution-testing/median.jpeg)
 
 As the statement of the exercise urges us to test if the median "is equal to" and at no point do they ask us to know if it is greater or less than, then we can immediately deduce that the test is bilateral or two-tailed, then the first thing is state the null hypothesis and the alternative. As we already know thanks to the table that shows us the hypothesis tests for the median of a population:
 
@@ -190,7 +190,7 @@ In a sample of 12 patients who use a private hospital, satisfaction levels were 
 |   5    |   6   |
 |   9    |   8   |
 
-![Room ](_static/images/free-distribution-testing/room.jpg)
+![Room ](_static/images/free-distribution-testing/room.jpeg)
 
 The idea is to try to verify that after the improvements, the patients increased their satisfaction levels. If true, the weighting of satisfaction levels after the changes should be higher than before. This reasoning gives us a certain direction and sense, if the after must be greater than the before we can intuit that this is a right one-sided test and if we go to the hypothesis of the previous box we can conclude that:
 
@@ -335,7 +335,7 @@ The null hypothesis is rejected if Tcal < T (α, n), and n is the number of data
 
 We do not go to the table that provides the critical values of Wilcoxon for the two-tailed tests and we intersect the values of α = 0.05 and 15:
 
-![chart](_static/images/free-distribution-testing/chart5.jpg)
+![chart](_static/images/free-distribution-testing/chart5.jpeg)
 
 As we can see, the result of the table is equal to 25 and therefore:
 
@@ -348,7 +348,7 @@ Then the premise is not fulfilled if Tcal < T (α, n), which implies that the nu
 
 The following data shows us the rates of defective work performed by employees, before and after a salary incentive. It is about comparing the two data sets, in order to know if the salary increase decreased the number of defective units produced with a significance level of 0.01.
 
-![worker](_static/images/free-distribution-testing/worker.jpg)
+![worker](_static/images/free-distribution-testing/worker.jpeg)
 
 | Before (1) | After(2) |
 | :--------: | :------: |
@@ -402,7 +402,7 @@ We can then say that the null hypothesis is rejected, when the alternative hypot
 
 To find `T (α, n)` we go to the Table of critical values of the Wilcoxon T test for a single tail, with a significance of 0.01 and a value of n = 10
 
-![chart6](_static/images/free-distribution-testing/chart6.jpg)
+![chart6](_static/images/free-distribution-testing/chart6.jpeg)
 
 By tables we obtain that T (α, n) = 5, if we compare this value with that obtained from the Tcal we have:
 

@@ -2,7 +2,7 @@
 
 Bangkok is one of the cities in Thailand and one of the most intense in the world, pollution, traffic, humidity and chaos can shock you at first sight. But when you begin to visit its temples, markets, taste its food, you will be able to gradually understand its way of life and the charm of this city. It has a mixture of modernity and tradition where you can feel the magic of Asia, but with the comforts of a western city. We will give you a guide with the selection that we believe are the essential places that you must visit in Bangkok.
 
-![Bangkok](_static/images/bangkok/bangkok-1.jpg)
+![Bangkok](_static/images/bangkok/bangkok-1.jpeg)
 
 ## The Grand Palace in Bangkok
 
@@ -10,7 +10,7 @@ The Grand Palace is a large complex of buildings where the King of Thailand had 
 
 In this temple and throughout the enclosure in general you will be able to see statues and buildings embodied in Thai art.
 
-![Bangkok](_static/images/bangkok/bangkok-2.jpg)
+![Bangkok](_static/images/bangkok/bangkok-2.jpeg)
 
 ## Bangkok markets
 
@@ -24,7 +24,7 @@ Chatuchak has more than 8,000 stalls and is one of the largest markets in the wo
 
 Although it is true that this market is almost two hours by bus from Bangkok, this is the most touristic and famous market in the city, because it is traveled in a traditional boat, from where you can buy souvenirs, fruits, spices and handicrafts, either in the shops on the shore or in other street vendor boats.
 
-![Bangkok](_static/images/bangkok/bangkok-3.jpg)
+![Bangkok](_static/images/bangkok/bangkok-3.jpeg)
 
 ### – Maeklong Market
 
@@ -44,13 +44,13 @@ This small street in the center of Bangkok is very popular with backpackers beca
 
 The Chao Phraya River divides the city in two and also has a series of secondary channels that are known as klongs. You can rent a boat ride through the canals where you can see the floating houses on the shore and the way of life of its inhabitants. To travel along this river you have several options, since in addition to the small motor boats, you can use the public boat that stops at the different docks or also the ferry that crosses the river. You can even book a dinner cruise to see the illuminated temples and the city from a more romantic perspective.
 
-![Bangkok](_static/images/bangkok/bangkok-4.jpg)
+![Bangkok](_static/images/bangkok/bangkok-4.jpeg)
 
 ## Wat pho
 
 The What Pho is a temple that houses a large reclining Buddha that is 15 meters high and 46 meters long. The great statue is covered in gold leaf and the recommendation is to look at the decoration on the sole of its feet. In this complex there are also several statues of Buddha and buildings of great beauty. If you are interested, you can have a relaxing massage at the Thai Medicine Center and at a fairly affordabl
 
-![Bangkok](_static/images/bangkok/bangkok-5.jpg)
+![Bangkok](_static/images/bangkok/bangkok-5.jpeg)
 
 ## Viewpoints of Bangkok
 
