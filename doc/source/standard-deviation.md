@@ -21,7 +21,7 @@ When we refer to the standard deviation of some statistical population, random
 variable, probability distribution or data set, we can find it with the square
 root of its variance.
 
-```math
+```{math}
 σ = √ var
 ```
 
@@ -104,13 +104,13 @@ The first thing I have to do is order my data from smallest to largest:
 
 04, 05, 09, 10, 10, 11, 12, 14, 15, 17
 
-```math
+```{math}
 Answer 1)
 The range is the greatest distance that exists between the proposed data and can be calculated by subtracting the maximum value from the minimum value. As we can see, the maximum value is 17 and the minimum value is 04, therefore the range will be:
 Range = 17 - 04 = 13
 ```
 
-```math
+```{math}
 Answer 2)
 To calculate the mean deviation, it will first be necessary to know what the population median (m) is, so we must add all the data and divide its result by the number of data (n):
 04 + 05 + 09 + 10 + 10 + 11 + 12 + 14 + 15 + 17 = 107
@@ -122,7 +122,7 @@ MD = (6.7 + 5.7 + 1.7 + 2 * 0.7 + 0.3 + 1.3 + 3.3 + 4.3 + 6.3) / 10 = 3.1
 As we can see 3.1 <4, therefore the teacher should not repeat the test, at least for this reason.
 ```
 
-```math
+```{math}
 Answer 3)
 To calculate the variance we must use the following formula:
 Var = ∑ (Xi - m) ² / N, where i will vary from 1 to n
@@ -135,7 +135,7 @@ the greater the difference between the data and the mean, that is, the greater
 the variability. If the teacher assumes that a variance of 7 is favorable, we
 can deduce that a variance of 15.21 will be unfavorable.
 
-```math
+```{math}
 Answer 4)
 Standard deviation (as we mentioned earlier) is a measure of dispersion used in statistics and is calculated as:
 σ = √ 15.21 = 3.9
