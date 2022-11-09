@@ -74,8 +74,6 @@ The two parts of the transformation and rendering consist of:
 Plugins are placed in the DITA-OT plugins directory. You can see the plugin I
 built in this directory named "info.debrief".
 
-<!-- ![info.debrief plugin location](_static/images/dita/info.debrief-plugin-location.png) -->
-
 When ready a plugin must be integrated into DITA-OT using **Apache Ant**. I
 built this project using OS X, and I installed Ant through **Homebrew**.
 
@@ -93,8 +91,6 @@ the configuration values. The plugin id must match the folder name of the
 plugin. Every plugin has a "transtype" -> this plugins transtype is "debrief".
 You can see the plugin.xml file and where to set the plugin id and transtype in
 the next image:
-
-<!-- ![plugin.xml](_static/images/dita/transtype.png) -->
 
 PDF Plugins are comprised of some XML config files, some artwork and some custom
 XSL (XSLT/XSL-FO/XPath) code DITA-OT provides that base XSL code that you
