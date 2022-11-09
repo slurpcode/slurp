@@ -73,8 +73,8 @@ The two parts of the transformation and rendering consist of:
 
 Plugins are placed in the DITA-OT plugins directory. You can see the plugin I
 built in this directory named "info.debrief".
-
-![info.debrief plugin location](_static/images/dita/info.debrief-plugin-location.png)
+<!-- 
+![info.debrief plugin location](_static/images/dita/info.debrief-plugin-location.png) -->
 
 When ready a plugin must be integrated into DITA-OT using **Apache Ant**. I
 built this project using OS X, and I installed Ant through **Homebrew**.
