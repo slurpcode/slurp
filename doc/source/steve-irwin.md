@@ -2,7 +2,7 @@
 
 Steve Irwin's life was cut short when he was impaled through the chest by a stingray in 2006 near the Great Barrier Reef but his legacy remains immense, he was a popular television personality, a zookeeper science educator, and a conservationist.
 
-![steve-irwin](_static/images/steve-irwin/steve-irwin.jpg)
+![steve-irwin](_static/images/steve-irwin/steve-irwin.jpeg)
 
 He would have been 57 years old today, you might be most familiar with Irwin from his Crocodile Hunter television series which documented his very close and dangerous seeming encounters with animals including crocodiles which he co-hosted with his wife Terry from 1996 to 2004.
 

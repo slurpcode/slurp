@@ -13,7 +13,7 @@ We are going to analyze the formula of the coefficient of determination, the fir
  Another important aspect of the coefficient of determination is that its values range between 0 and 1, as this coefficient gets closer to 1 it indicates that it will fit more closely to the model of the variable that we are trying to explain. Conversely, as the coefficient of determination gets closer to zero (0), the model will be less fit and therefore less reliable.
  Let's suppose that we want to relate the number of goals that a certain soccer player makes to the number of games he plays. Of course, the more games he plays, the more goals he scores.
 
-![photo](_static/images/determination_coefficient/player.jpg)
+![photo](_static/images/determination_coefficient/player.jpeg)
 
 As this is a simple explanatory example, we are going to ignore the sample data and the calculations that led us to know the coefficient of determination, which in this case is R<sup>2</sup> = 0.835. With this result we can realize that the relationship is positive, so how we assumed at the beginning, the more games played, the more goals he will score for this season. On the other hand, since the coefficient is much closer to 1 than to 0, since it is equal to 0.835. This indicates that it is a model that adjusts very well to reality and also that it is capable of explaining it with an 83.5% adjustment to the real variable.
 It is important to emphasize that the determination coefficient has a problem, since it is not capable of penalizing the inclusion of non-significant variables. For example, if the model includes 4 explanatory variables that actually have a poor relationship with respect to the goals scored by the soccer player in a season, the R<sup>2</sup> will increase according to the number of variables. This is counterproductive, since we are including variables that bear very little relation to the model, but their very existence directly influences the coefficient of determination. That is why many mathematicians and statisticians oppose R<sup>2</sup> as a truly representative measure of the real fit. Hence the need to generate a coefficient that better adheres to reality, which is what we call the adjusted coefficient of determination.
@@ -26,7 +26,7 @@ Where R<sup>2</sup> is the coefficient of determination, N is the number of obse
 Since k is the number of explanatory variables, we know that at least this value must be 1, since we must explain at least one variable as a function of the other and therefore, the adjusted coefficient of determination and the normal coefficient of determination cannot have the same value. In fact, the adjusted R<sup>2</sup> will always be less than the normal R<sup>2</sup>.
 Let's go with an example, suppose that a researcher wants to calculate how much the heating cost can be and proposes that this cost will depend on the external temperature, the insulation of the walls and the age of the heater.
 
-![photo](_static/images/determination_coefficient/money.jpg)
+![photo](_static/images/determination_coefficient/money.jpeg)
 
 To check how much relationship all these variables have, the researcher makes the pertinent measurements and obtains samples from different rooms, obtaining the following data:
 
@@ -80,7 +80,7 @@ The problem we find is that many of the explanatory variables are correlated wit
 Suppose that we have two explanatory variables X1 and X2, with a dependent variable Y, where we also know its correlation, that is, the variable X1 contributes with a proportion of r<sub>y1</sub><sup>2</sup>= 0.49 in the variability of Y, note the nomenclature used. While the variable X2 contributes a proportion of r<sub>y2</sub><sup>2</sup> = 0.36.
 On the other hand, we also know that the proportion of the explained variation with respect to the variation of both variables is R<sub>y12</sub><sup>2</sup>= 0.64. As you can see, the contribution of both variables is not equal to the sum of both contributions, therefore we can reach the conclusion that the two explanatory variables are not independent of variability, this implies that they share a part of it. There is then a redundancy between both variables and we can represent what we want to illustrate through a Venn diagram.
 
-![formula](_static/images/determination_coefficient/circle.jpg)
+![formula](_static/images/determination_coefficient/circle.jpeg)
 
 In this diagram we can see the contribution of each of the variables X1 and X2 in the dependent variable Y. For example, the variable X1 contributes with a + b and the notation used in this case is:
 
@@ -123,7 +123,7 @@ In the correlation for multiple variables, the simple correlation can be used, w
 In a partial correlation, what is done is to establish the correlation between two variables and the rest of the other variables are taken as fixed, for the previous case of 3 variables we must correlate variables 1 and 2, taking variable 3 as constant and the nomenclature to use is ρ12.3. In the same way, if we want to correlate variables 2 and 3, taking variable 1 as constant, the nomenclature of the partial correlation to use is ρ23.1.
 When we keep a variable constant, we can either do it statistically or experimentally and in both cases we must obtain equivalent results. Suppose we want to know the correlation between arm and leg length measurements, while the total height variable remains constant. It is no secret to anyone that the lengths between the arm and the leg will have a greater correlation between them, with respect to the size in general. Simply put, a tall person will have long arms and legs, while a short person will have both short limbs.
 
-![photo](_static/images/determination_coefficient/girl.jpg)
+![photo](_static/images/determination_coefficient/girl.jpeg)
 
 Now suppose and carry out a study where we select people of the same size, of course we will find a residual correlation, between the lengths of the arms and legs of the individuals that make up the sample. This usually happens in vertebrates, since both extremities are determined biologically through similar mechanisms, which are responsible for their differentiation. But it can be said that there must be some correlation between both lengths, even when we do not take into account the size of the individual.
 This is how the significant correlation between two variables is transformed into a partial (non-significant) correlation when a third variable is constant. In other words, the most prudent thing to do is to measure the correlation between two variables, but in turn, that this correlation is not a reflection of the possible relationships that both variables have with another third variable.
@@ -160,7 +160,7 @@ Once the correlation that exists between the variable X2 with the variable X1 an
 Partial correlation exercise 2:
 A researcher proposes that cholesterol levels (Y) depend on two variables which are age X1 and fat X2.
 
-![photo](_static/images/determination_coefficient/chol.jpg)
+![photo](_static/images/determination_coefficient/chol.jpeg)
 
 After measurements, they provide us with the following data:
 

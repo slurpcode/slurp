@@ -6,13 +6,13 @@ The ring of canals is another of the interesting attractions of this city, since
 
 Dam Square is considered to be the heart of the city, where you can observe its architecture and enjoy its atmosphere. The Royal Palace dominates the attention of the square for its classical facade, it also has fine sculptures that were made to glorify the city.
 
-![Amsterdam](_static/images/amsterdam/amsterdam1.jpg)
+![Amsterdam](_static/images/amsterdam/amsterdam1.jpeg)
 
 The canal belt that characterizes Amsterdam allows you to take a boat ride on the canals to get to know the city during the day, but at night you will be able to see the houses and the illuminated bridges that will provide you with a romantic experience.
 
 In Amsterdam, prostitution is legalized and it has the Red Light District, where you will find hundreds of prostitutes plying their trade behind a cluster of windows with red lights. For obvious reasons, it is one of the most famous places in Amsterdam where you can enjoy a party atmosphere, beer and sex shops. The Red Light District is a kind of amusement park dedicated specifically to sex.
 
-![Amsterdam](_static/images/amsterdam/amsterdam2.jpg)
+![Amsterdam](_static/images/amsterdam/amsterdam2.jpeg)
 
 If you have plans to go out, the best thing is to head towards Leidsepelin Square where you will find endless nightclubs, bars, restaurants, cafes, theaters and cinemas. During the day it is filled with jugglers, street musicians, fire-eaters and other types of artists. However, many of the shows last until the early hours.
 
@@ -36,7 +36,7 @@ If you are interested in plants, you should go to the Botanical Garden, which is
 
 As we all know, Amsterdam is famous for its tulips and one of the best places to see them is the Keukenhof garden, which has more than 32 hectares full of flowers, whose main protagonist is the tulip. You can buy seeds, bulbs and flowers in their greenhouses and in their surroundings you will see beautiful fountains, lakes and windmills.
 
-![Amsterdam](_static/images/amsterdam/amsterdam3.jpg)
+![Amsterdam](_static/images/amsterdam/amsterdam3.jpeg)
 
 You cannot miss the cuisine of the city and a great way to taste the local flavors is in the Foodhallen, whose center houses several restaurants serving all kinds of food on the same roof, but you can also try Dutch bitterballen among other traditional dishes. . You can also eat dim sum, sushi and other international foods. It's a place frequented by locals, so it doesn't exactly look like a tourist spot, but there is sometimes live music and you can have craft beer in its four bars.
 

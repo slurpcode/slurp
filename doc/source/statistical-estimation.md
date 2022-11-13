@@ -53,7 +53,7 @@ random variation. This is because the shots are in an area that has some random
 spread, but all the shots are concentrated around a point that is offset from
 the center of the target.
 
-![image1](_static/images/estimation/image1.jpg)
+![image1](_static/images/estimation/image1.jpeg)
 
 In general, the estimators provide a random dispersion, but it is important to
 take into account that the set that contains all the samples that come from the
@@ -77,7 +77,7 @@ For example, we are interested in knowing how many people will vote for the WW
 party in the next elections or perhaps, how many cigarettes are consumed in this
 population for the month of May.
 
-![image2](_static/images/estimation/image2.jpg)
+![image2](_static/images/estimation/image2.jpeg)
 
 To answer these questions we will use a previous estimate that can come from a
 proportion or an arithmetic mean. Suppose that the voting population is made up
@@ -106,7 +106,7 @@ so the average will be 50 million cigarettes per month. Therefore, for the
 estimation of the totals, we do not go down an alternative path, we simply
 extend the previous estimate of a mean or a proportion.
 
-![image3](_static/images/estimation/image3.jpg)
+![image3](_static/images/estimation/image3.jpeg)
 
 It is important to emphasize that point estimates when established in the center
 of the objective are not exactly a good option. Although it is true that they
@@ -214,7 +214,7 @@ assume. For example, if I am depending on the probabilities that a parachute
 opens or not, the consequences can be fatal, so if my life depends on it, I will
 demand the maximum possible security.
 
-![image4](_static/images/estimation/image4.jpg)
+![image4](_static/images/estimation/image4.jpeg)
 
 However, if you sell expensive last generation motorcycles, you may accept the
 job when the security will be 10%, therefore you will sell one out of every 10
@@ -223,7 +223,7 @@ since the consequences when making a mistake are very different and that is when
 it will be necessary to place oneself in the specific circumstance when making
 decisions regarding a value for the safety.
 
-![image5](_static/images/estimation/image5.jpg)
+![image5](_static/images/estimation/image5.jpeg)
 
 However, this lacks a procedure that manages to limit a specific probabilistic
 value, they are only general principles. But Ronald Fisher made progress in this
@@ -231,7 +231,7 @@ regard, it occurred to him that a certain elderly lady was able to differentiate
 whether the milk or tea had been poured first into a cup of tea with milk, being
 able to decide just by tasting a small amount of mix.
 
-![image6](_static/images/estimation/image6.jpg)
+![image6](_static/images/estimation/image6.jpeg)
 
 Fisher decided to limit the amount of successes with which one could come to
 believe in the lady, of course, we must accept any error on her part. Let's

@@ -15,7 +15,7 @@ The immediate application of De Forest’s triode valve was in the emerging radi
 In 1915 De Forest used the discovery of the heterodyning effect in an experimental instrument that he christened the ‘Audion Piano’ .
 This instrument – based on previous experiments as early as 1907 – was the first vacuum tube instrument and established the blueprint for most future electronic instruments until the emergence of transistor technology some fifty year later.
 
-![Audion Piano](_static/images/audion_piano/audion_piano2.jpg)
+![Audion Piano](_static/images/audion_piano/audion_piano2.jpeg)
 
 [De Forest]
 

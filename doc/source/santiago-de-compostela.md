@@ -2,7 +2,7 @@
 
 Santiago de Compostela is a city that is located in the northwest of Spain and is one of the main places of pilgrimage of Christianity. This city falls in love at first sight with the beautiful streets of the old town, declared a World Heritage Site, for its monumental Cathedral and its prestigious university that is more than 500 years old.
 
-![Santiago de Compostela cityscape](_static/images/santiago-de-compostela/cityscape.jpg)
+![Santiago de Compostela cityscape](_static/images/santiago-de-compostela/cityscape.jpeg)
 
 In Santiago de Compostela you can taste excellent cuisine where seafood and fish predominate, such as Galician octopus, scallops, Galician empanada, barnacles or the famous Santiago cake.
 
@@ -12,7 +12,7 @@ We have made a list of the essential places that you must visit if you go to San
 
 The Cathedral was built between 1075 and 1211 with baroque and gothic elements mixed with the romantic style, in order to house the tomb of the Apostle Santiago. Its façade is impressive and you can enter its interior through the Puerta de Platerías to visit its 16 chapels. In the back of the High Altar of the Cathedral is the image of the apostle Santiago, where many believers stop to embrace it.
 
-![The Cathedral of Santiago of Compostela](_static/images/santiago-de-compostela/cathedral-of-santiago-of-compostela.jpg)
+![The Cathedral of Santiago of Compostela](_static/images/santiago-de-compostela/cathedral-of-santiago-of-compostela.jpeg)
 
 The jewel of this temple is the Pórtico de la Gloria, which has numerous religious figures and you can also be surprised by the huge 50-kilo censer, set in motion to swing it during religious celebrations.
 
@@ -20,7 +20,7 @@ The jewel of this temple is the Pórtico de la Gloria, which has numerous religi
 
 The Square Obradoiro, in addition to the cathedral, has several interesting places to see such as the Pazo de Raxoi, which is the current seat of the town hall, the old episcopal palace, the Pazo de Xelmirez, and the old college of the city, the Colexio de Saint Xerome. However, the building preferred by most is the hospital of the Catholic Monarchs, which was built in 1501 to give shelter to pilgrims on the Camino de Santiago, today it is a hotel known as the Parador de Santiago and its interior is a true wonder.
 
-![Obradoiro Square](_static/images/santiago-de-compostela/obradoiro-square.jpg)
+![Obradoiro Square](_static/images/santiago-de-compostela/obradoiro-square.jpeg)
 
 ## Historic helmet
 
@@ -40,7 +40,7 @@ The Food Market is the second most visited site after the Cathedral. There you c
 
 The Museo do pobo Galego offers you a walk through Galician culture through its history, it is located in the Santo Domingo de Bonaval convent. You will be able to hallucinate with its triple helicoidal staircase and the Church, where the remains of famous Galicians such as the poet Rosalía de Castro are found.
 
-![Triple Helicoidal Staircase](_static/images/santiago-de-compostela/triple-helicoidal-staircase.jpg)
+![Triple Helicoidal Staircase](_static/images/santiago-de-compostela/triple-helicoidal-staircase.jpeg)
 
 ## Climb Mount Pedroso
 
@@ -60,7 +60,7 @@ Bordering the Sarela River, you can take a pleasant walk, starting with the Igle
 
 Another worthwhile route is the Sar river path with its beautiful natural landscapes and you will be able to see a Romanesque temple such as the Colexiata de Santa María do Sar, built in the 12th century where you will be impressed by its interior and the inclination of its columns. Near this area there is an architectural complex designed by the architect Peter Eisenman, which is the City of Culture of Galicia, you will be pleasantly surprised by its design and its forms, in addition to its unique buildings offering an extensive cultural offer, which you cannot Stop watching.
 
-![City of Culture of Galicia](_static/images/santiago-de-compostela/city-of-culture-galicia.jpg)
+![City of Culture of Galicia](_static/images/santiago-de-compostela/city-of-culture-galicia.jpeg)
 
 Santiago de Compostela is a city steeped in history, which still preserves its medieval structures.
 

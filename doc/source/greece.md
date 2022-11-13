@@ -2,11 +2,11 @@
 
 This country is famous for the beauty of its beaches and its islands, being one of the destinations that is at the top of the ranking when planning vacations. A true earthly paradise with beaches with transparent and incredibly blue waters, you can enjoy spectacular sunsets, choose a traditional tavern and savor exquisite meals, but also stay chatting with the cheerful and charming locals until late at night or simply dance, for those people who have more energy and can enjoy a beach club in the morning.
 
-![greece](_static/images/greece/greece.jpg)
+![greece](_static/images/greece/greece.jpeg)
 
 A vacation in Greece can give you the impression of taking an epic trip, whether on an island, in the capital or in any little-known city that remains in the interior of the country, the myth is always part of this country through ancient temples that are perfectly preserved, with a prestigious museum that contains the first great artistic works of humanity. If your interest is to go with your partner to a romantic getaway you will have arrived at the perfect place, but also if you are a young person looking for unbridled fun or what you want is simply to rest and forget about stress, Greece continues to be the ideal destination.
 
-![greece](_static/images/greece/greece1.jpg)
+![greece](_static/images/greece/greece1.jpeg)
 
 Tourism in this country is highly developed, so there are apartments and hotels for all needs, you can also count on ferries and flights to reach your favorite places. In Greece you can enjoy the typical Mediterranean climate that is characterized by hot summers and mild winters, however, in the maritime areas that are at high temperatures are mitigated by the wind. The recommendation is to go to Greece during the summer, but if you can avoid the months of July and August you could save a significant amount of money, since they are the months of high season and of course the accommodation, in addition to the tickets, are more expensive and busy, so the best time is definitely the months of June or September. In some cases it is even possible to swim even in the month of October, but in this month the seasonal flights are no longer in service.
 

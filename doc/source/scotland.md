@@ -21,7 +21,7 @@ small island of Loch Duich. This castle was the setting for movies like
 Braveheart or The Immortals. The best photos you can take from the shore
 of the lake or from the back after the visit.
 
-![Eilean Donan Castle](_static/images/scotland/image1.jpg)
+![Eilean Donan Castle](_static/images/scotland/image1.jpeg)
 
 ## Neist Point on the Isle of Skye
 
@@ -39,7 +39,7 @@ although later it was proven that it was not true, the legend continued
 over the years. But really the best place on the lake is Urquhart
 Castle, which although it is in ruins, it is a beautiful place.
 
-![Urquhart Castle and Loch Ness](_static/images/scotland/image2.jpg)
+![Urquhart Castle and Loch Ness](_static/images/scotland/image2.jpeg)
 
 ## Glen Coe
 
@@ -52,7 +52,7 @@ island of Loch Laich, which is really worth seeing.
 Also, while you cross the glacial valley you will find waterfalls,
 rivers, mountains and the incredible landscapes that surround it.
 
-![Glen Coe](_static/images/scotland/image3.jpg)
+![Glen Coe](_static/images/scotland/image3.jpeg)
 
 ## Saint Andrews
 
@@ -129,7 +129,7 @@ of its many taverns, strolling along Circus Lane and the Royak Mile,
 visiting the Palace of Holyrood and climb Calton Hill to watch the
 sunset, where you will have an excellent view of Edinburgh.
 
-![Edinburgh](_static/images/scotland/image4.jpg)
+![Edinburgh](_static/images/scotland/image4.jpeg)
 
 Scotland is full of history, it is embodied in each of its impressive
 castles and its beautiful landscapes will leave you pleasantly surprised

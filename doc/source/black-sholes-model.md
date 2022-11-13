@@ -12,7 +12,7 @@ What is an underlying asset? In finance there are products that are not actually
 
 Suppose a farmer wants to buy corn and his neighbor has exactly what he needs, which is a corn plantation, so the farmer makes an agreement with his neighbor. He is going to pay you $ 1,100 for the corn crop, which is currently worth $ 1,000, and this entitles the farmer to purchase the crop within six months.
 
-![Crop](_static/images/black-sholes-model/image1.jpg)
+![Crop](_static/images/black-sholes-model/image1.jpeg)
 
 Corn, in this case, would be the underlying asset and the agreement reached by the farmer with his neighbor would be the derivative contract. A financial derivative is a product, the value of which is based on the price of another underlying asset.
 

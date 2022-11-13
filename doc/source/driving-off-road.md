@@ -74,7 +74,7 @@ really like my Jeep. Here’s a couple of pretty places I’ve been.
 
 ![Driving off road 2](_static/images/driving/driving-2.png)
 
-![Driving off road logo](_static/images/driving/driving-off-road.jpg)
+![Driving off road logo](_static/images/driving/driving-off-road.jpeg)
 
 ## About the Author
 

@@ -4,7 +4,7 @@ Buenos Aires is a city full of soccer, tango and exquisite meat. It is a city fu
 
 The Plaza de Mayo was an important scene of the events that left their mark on the history of Argentina, where every Thursday the "Mothers of the Plaza de Mayo" meet there, who were dispossessed and lost their children during the military dictatorship. The square is full of emblematic buildings such as the metropolitan cathedral, the historic town hall and the famous Casa Rosada, which is where the executive power of Argentina resides and you can visit several of its impressive halls or the beautiful Patio de las Palmeras.
 
-![Buenos Aires](_static/images/buenos-aires/buenos-aires1.jpg)
+![Buenos Aires](_static/images/buenos-aires/buenos-aires1.jpeg)
 
 Every Sunday you can see the antiques and browse endless things to buy, going to the San Telmo Flea Market. But you can also enjoy living statues, musical performances, a large number of cafes and restaurants. But if you prefer tango, in the La Boca neighborhood you will find a very popular alley that inspired the famous tango "Caminito", its colorful houses, its high cultural value and its tango venues make it the best place to live the experience. of the Argentine dance.
 
@@ -14,7 +14,7 @@ A perfect place for leisure and weekends is Parque 3 Febrero, which has an area 
 
 In the planetarium you will realize that the building is inspired by Saturn, which also has its rings and was built in 1962. There you will find interactive activities that use virtual reality, astronomy projections and travel simulators.
 
-![Buenos Aires](_static/images/buenos-aires/buenos-aires2.jpg)
+![Buenos Aires](_static/images/buenos-aires/buenos-aires2.jpeg)
 
 It is essential that you live the passion of Argentines for football, being one of the best options to go to a game in what is owned by the Boca Juniors Club, the Alberto J. Armando Stadium also known as "La bombonera", there you can see playing renowned soccer players with a long history.
 
@@ -28,7 +28,7 @@ If you want to visit the luxurious area of Buenos Aires, you should go to Recole
 
 If you are a lover of reading you should visit the El Ateneo bookstore where you can lose yourself among thousands of books, it is a magical place built in the old Grand Splendid theater and still preserves all the elements of the magnificent theater, both the original railings, the curtain, the frescoes of the dome and the current cafe was the setting.
 
-![Buenos Aires](_static/images/buenos-aires/buenos-aires3.jpg)
+![Buenos Aires](_static/images/buenos-aires/buenos-aires3.jpeg)
 
 If you want to disconnect a bit, we recommend you spend a day in Tigre, which is a town about 30 km from Buenos Aires. There you can do different activities such as sailing on the Paraná River, visiting the Museum of Arts, different types of rowing tours and buying handicrafts on the Puerto de Frutos promenade.
 

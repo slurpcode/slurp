@@ -2,7 +2,7 @@
 
 A middle eastern drink.
 
-![image1](_static/images/arak/image1.jpg)
+![image1](_static/images/arak/image1.jpeg)
 
 Arak, also known as lion's milk, is the most popular alcoholic drink in the
 middle east, which is an essential ingredient in various types of celebrations.
@@ -15,7 +15,7 @@ Drinking arak is a traditional ritual of the celebration, and one of the
 traditions of drinking it is to knock the bottoms of the cups together before
 drinking.
 
-![image2](_static/images/arak/image2.jpg)
+![image2](_static/images/arak/image2.jpeg)
 
 It is advised not to drink Arak on an empty stomach. Among the most famous
 dishes that go along with the arak drink, are oriental mezze dishes, such as
@@ -24,7 +24,7 @@ muhammara or raw meat.
 The first mezze dish served with arak is the sliced cantaloupe with feta cheese,
 and it is usually served with arak without the need to order.
 
-![image3](_static/images/arak/image3.jpg)
+![image3](_static/images/arak/image3.jpeg)
 
 There is usually a troupe of male musicians in Turkish bars, who play melodies
 on oriental musical instruments, such as the qanun, lute, or flute. This group
@@ -41,7 +41,7 @@ same reason the same cup cannot be used, and a new one must be used. So, in
 restaurants, when arak is ordered, several glasses are brought along with the
 bottle.
 
-![image4](_static/images/arak/image4.jpg)
+![image4](_static/images/arak/image4.jpeg)
 
 The most famous type of Arak in the world Rakia in Serbia, Turkey, Bulgaria,
 Albania and Greece. Cognac in France. Water of life or Almahah in Morocco.
@@ -54,7 +54,7 @@ be made from many seeds such as figs, peaches and potatoes. Among the varieties
 of arak is also the Iraqi arak, which is made from fermented date juice, and
 from raisins in Egypt.
 
-![image5](_static/images/arak/image5.jpg)
+![image5](_static/images/arak/image5.jpeg)
 
 In Iran, it is called 'erg seki', meaning 'dog Arak, and it is made without
 anise and has a high alcohol content.

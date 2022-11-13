@@ -100,7 +100,7 @@ Let's go with the first example of multivariate regression:
 
 In a gym, the weight and height measurements of some clients chosen at random are taken, to generate a function that allows us to predict, the same measurements in other clients just by knowing their age, the data obtained is as shown below:
 
-![Table](_static/images/multivariate_statistics/table_1.jpg)
+![Table](_static/images/multivariate_statistics/table_1.jpeg)
 
 To do multivariate linear regression using Excel, we need to install the Data Analysis Add-in. For this, it will be necessary to open a new Excel sheet and pour our data into it, then we go to the upper menu in "file" and in the drop-down menu we will choose "options", a box opens and in the menu on the left we click on "add-ons", where again the add-on options on the right side of the box are opened, there we must select "tools for VBA analysis"
 and then go to the "go" button and press it.
@@ -117,7 +117,7 @@ To obtain the regression analysis without deleting our data from the table, we m
 
 The summary of our multiple regression will appear, where the values of interest will be the intercept coefficients of the variable X1 and the variable X2:
 
-![Table](_static/images/multivariate_statistics/table_2.jpg)
+![Table](_static/images/multivariate_statistics/table_2.jpeg)
 
 The function that represents the multivariate regression of this problem will be given by:
 
@@ -146,7 +146,7 @@ X4 = Price of beef in cents per pound of weight
 
 The data we obtained were the following:
 
-![Table](_static/images/multivariate_statistics/table_3.jpg)
+![Table](_static/images/multivariate_statistics/table_3.jpeg)
 
 As we already have the data analysis component added to our Excel, we will only have to go to our top menu and choose "data", to repeat the previous steps again, that is:
 
@@ -156,11 +156,11 @@ Once the regression box appears, we must position ourselves in the input Y Range
 
 Subsequently we position ourselves in the input Range X and we choose with the mouse the rest of the data found in columns X1, X2, X3 and X4, we mark the round of Output Range and we position ourselves on the box, and then choose the initial cell where we want the summary of our multiple regression to be reflected.
 
-![Table](_static/images/multivariate_statistics/table_4.jpg)
+![Table](_static/images/multivariate_statistics/table_4.jpeg)
 
 In the summary obtained, the first data that we must take into account is the coefficient of R Square, which as we can see gives us a value of 0.9408.
 
-![Table](_static/images/multivariate_statistics/table_5.jpg)
+![Table](_static/images/multivariate_statistics/table_5.jpeg)
 
 This coefficient indicates that the model is capable of explaining the behavior of the variable that concerns us (in this case is the per capita consumption of chicken) at 94.08%.
 
@@ -170,7 +170,7 @@ Now, the analysis of variance helps us to accept or reject the null hypothesis, 
 
 We are now going to make our model that will depend on the intercept coefficient and the coefficients of the variables X1, X2, X3 and X4:
 
-![Table](_static/images/multivariate_statistics/table_6.jpg)
+![Table](_static/images/multivariate_statistics/table_6.jpeg)
 
 Y = Intercept + variable X1 (Income) + variable X2 (Chicken price) + variable X3 (Pig price) + variable X4 (Beef price)
 

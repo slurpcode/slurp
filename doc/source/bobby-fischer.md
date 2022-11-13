@@ -1,6 +1,6 @@
 # ♖ Bobby Fischer, yeah?
 
-![check-mate](_static/images/chess/check-mate.jpg)
+![check-mate](_static/images/chess/check-mate.jpeg)
 Check. Mate.
 
 Today we're going to talk about Bobby Fischer, King of the Chess People.
@@ -65,7 +65,7 @@ And then Fischer forfeits the match.
 
 And he's down two-nothing,
 
-![the-game](_static/images/chess/the-game.jpg)
+![the-game](_static/images/chess/the-game.jpeg)
 
 which is pretty messed up. And then finally for the third game Fischer said, look, let's go to a back room with no cameras, please.
 

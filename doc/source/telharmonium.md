@@ -4,7 +4,7 @@ The Telharmonium (also known as the Dynamophone) was an early electrical organ, 
 Cahill c. 1896 and patented in 1897. The electrical signal from the Telharmonium was transmitted over wires;
 it was heard on the receiving end by means of "horn" speakers.
 
-![img_1](_static/images/telharmonium/img_1.jpg)
+![img_1](_static/images/telharmonium/img_1.jpeg)
 
 ## [The Keyboard of the Telharmonium]
 
@@ -35,7 +35,7 @@ polyphony of a string section and the timbre and power of wind instruments with 
 Having corrected the ‘defects’ of these traditional instruments the superior
 Telharmonium would render them obsolete.
 
-![img_2](_static/images/telharmonium/img_2.jpg)
+![img_2](_static/images/telharmonium/img_2.jpeg)
 
 ## [Thaddeus Cahill’s patent documents for the first Telharmonium of 1897]
 

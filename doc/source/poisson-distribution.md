@@ -5,7 +5,7 @@
 Siméon Denis Poisson was the creator of this distribution, he was a French philosopher and mathematician who was in charge of modeling event frequencies but during a fixed interval of time, but he was also in charge of perfecting and correcting the law of large numbers.
 This type of distribution is used in the area of operational risk in order to model those situations in which a certain operational loss occurs. The Poisson distribution is also used in the waiting times that exist between financial transactions, for those data of high frequency in the market risk. It is even capable of modeling the amount of bankruptcies on credit risks.
 
-![bank-report](_static/images/poisson-distribution/bank-report.jpg)
+![bank-report](_static/images/poisson-distribution/bank-report.jpeg)
 
 The Poisson distribution is one of the most important ones used in discrete variables and its application in general refers to modeling situations in which it is required to determine the amount of a certain type that can be produced in a certain interval of space. or time, always under some assumptions of randomness and restrictive circumstances. It is important to emphasize that the interval can not only be time, the interval can also be area, distance, volume or another similar unit.
 
@@ -42,16 +42,16 @@ Let's go with some examples where the Poisson distribution can be used for a cer
 
 1. X = The number of people who come to a dentist's office in a time interval of one day.
 
-![doctor](_static/images/poisson-distribution/doctor.jpg)
+![doctor](_static/images/poisson-distribution/doctor.jpeg)
 
 2. X = Number of cars that show up at a gas station in a period of eight hours.
 3. X = The number of bacteria found in a liter of water.
 
-![bacteria](_static/images/poisson-distribution/bacteria.jpg)
+![bacteria](_static/images/poisson-distribution/bacteria.jpeg)
 
 Let's go with the first example of Poisson distribution: Jorge is a veterinarian and receives an average of four pets a day. If we know in advance that the number of pets Jorge receives in one day at his veterinary clinic follows a Poisson distribution. Is it required to know what probability Jorge has of receiving 3 pets in one day?
 
-![dog](_static/images/poisson-distribution/dog.jpg)
+![dog](_static/images/poisson-distribution/dog.jpeg)
 
 X = No. of pets Jorge receives at his veterinary clinic in one day
 X ~ Poisson (μ)
@@ -74,7 +74,7 @@ If we want to evaluate the probability that no customer enters the bank, then th
 If we want it in percentage 0.67x 100 = 67%
 But now we are going to calculate the probability that 2 clients enter the bank in one minute
 
-![bank2](_static/images/poisson-distribution/bank2.jpg)
+![bank2](_static/images/poisson-distribution/bank2.jpeg)
 
 `P(x = 2) = (0,4*〖0,4〗^2)/2! = 0,053`
 
@@ -139,7 +139,7 @@ In 2015 Kroll presented a report based on several surveys made to senior executi
 
 On the other hand, the Association of Certified Fraud Examiners in 2016 carried out another study on fraud where 2410 cases were investigated between January 2014 and October 2015 with respect to labor fraud. They found $ 6.3 trillion in losses and were able to conclude that in 23% of the cases, they had suffered more than $ 1 million in losses for the fraud victim company.
 
-![fraud](_static/images/poisson-distribution/fraud.jpg)
+![fraud](_static/images/poisson-distribution/fraud.jpeg)
 
 Hernández, Llanes & Rodríguez presented a research work in 2007 that was based on improper statements in the communication and production of scientific results, which occurred during the period from 2004 to 2006. This research work discusses important falsifications and fabrications of data, plagiarism and other less severe frauds than the previous ones such as duplicate publication, unjustified authorship and publication biases. Examples of scientific fraud that occurred between 1974 and 2006 are also discussed.
 
@@ -195,7 +195,7 @@ Here is an illustrative example that can clarify Benford's law: suppose that in 
 
 In the same way, once the street has reached 19 houses, each of the digits will have come out twice minus the digit number 1 that will have been used 12 times, this happens frequently and is never compensated.
 
-![house](_static/images/poisson-distribution/house.jpg)
+![house](_static/images/poisson-distribution/house.jpeg)
 
 With regard to fraud, if anyone tries to falsify their tax return in any way, they will most likely make up the data and most people use numbers that start with the digits 5, 6 and 7 are those that occupy the middle Very few of the scale use the digit 1. So statistically speaking, when Benford's law is not fulfilled, one begins to suspect fraud.
 
@@ -203,7 +203,7 @@ This law is used to evaluate results obtained either by analytical means, throug
 
 Benford's law has been very useful as an analytical tool for audits, the area of finance, geographical dimensions, constants of chemical and physical quantities, in the decay of radioactive particles, social quantities, populations, and to detect electoral fraud, among others.
 
-![fraud](_static/images/poisson-distribution/fraud.jpg)
+![fraud](_static/images/poisson-distribution/fraud.jpeg)
 
 However, there are data in which Benford's law is not satisfied, these data where the law cannot be applied are the following:
 
@@ -219,7 +219,7 @@ Main frauds detected with Benford's law:
 3. One of the most notorious cases was that of the energy giant Enron, this company was listed on the United States stock exchange and was also audited by one of the five most important auditors in the world at that time, which was the Arthur Andersen company. Enron's financial status was found to be out of compliance with Benford's law and in light of this, it was decided to dig a little deeper. In this way, it was found that this company paid just over 1 million dollars a week to its auditor to be its accomplice in the fraud. Thanks to Benford's law, neither Enron nor the auditing company exists anymore.
 4. Benford's law was used to analyze the Covid cases presented by each of the countries according to their report presented last year and the experts realized that the number of positive Covid cases exposed by the countries Russia and Iran did not comply with this law and therefore the figures given had been manipulated.
 
-![stats](_static/images/poisson-distribution/stats.jpg)
+![stats](_static/images/poisson-distribution/stats.jpeg)
 
 To verify some type of fraud either in elections or in finances, it is enough to take all the data of the population of each of the municipalities and extract the first digit.
 To know what the first digit of any number n is, what we must do is divide the number n by 10^(k-1), k being the number of digits that n has and then, find out in which of the intervals this result falls, that is, [1,2, 3,4,…, 9]. The data sets that follow Benford's law are those whose log_10⁡x is uniformly distributed.

@@ -2,7 +2,7 @@
 
 Auckland is the largest city in New Zealand and is also known as the city of candles. This port city stands out for its numerous attractions, for being the place where the Pacific Ocean and the Tasman Sea practically meet, for being multicultural, having a wide job offer, for its academic excellence and the temperature ranges between 20 ° C for the warmest months and 11 °C in its coldest time, so that its temperature is ideal throughout the year. For all these reasons, Auckland is one of the best cities to live in the world.
 
-![Auckland](_static/images/auckland/auckland.jpg)
+![Auckland](_static/images/auckland/auckland.jpeg)
 
 We are going to recommend the most important places in Auckland if you decide to visit.
 
@@ -14,7 +14,7 @@ Queen Street is the most important street in the city and one of its main arteri
 
 Sky Tower is the quintessential icon of the city, it is 328 m high and is considered the tallest building in the entire southern hemisphere, you can see this tower from anywhere in the city. Climbing to the top to go to its observation deck will allow you to feel that you have Auckland at your feet through its glass floor. Of course, from this point you will have impressive panoramic views and you can enjoy them while having a cocktail. But if you like strong emotions, you can also jump into the void practicing skyjump.
 
-![Sky Tower](_static/images/auckland/sky-tower.jpg)
+![Sky Tower](_static/images/auckland/sky-tower.jpeg)
 
 ## Giapo Ice Cream
 
@@ -38,7 +38,7 @@ Auckland is characterized by its large number of hills or mountains that were vo
 
 The Port of Auckland is located in the heart of the city center, although its origins date back to the 14th century, it really became important as the economic development of the region grew. Today it is capable of providing links to 160 ports in 73 countries.
 
-![Auckland Harbor](_static/images/auckland/auckland-harbor.jpg)
+![Auckland Harbor](_static/images/auckland/auckland-harbor.jpeg)
 
 Strolling through the port is one of the best activities you can do in the city, you can also have a drink or eat in a large number of food trucks, while you observe the beautiful maritime landscape.
 
@@ -54,7 +54,7 @@ In this museum you will have the opportunity to delve into the history of the co
 
 The Winter Garden Botanical Garden was built after the First World War, there you can see a wide variety of more than 1000 plants from all over the planet. Inside it has two buildings, the first is for temperate climate plants and the second houses tropical plants. There you can also see a wide variety of ducks and birds, as well as two artificial lakes, lagoons, streams and several small lakes.
 
-![Winter Garden Botanical Garden](_static/images/auckland/winter-garden-botanical-garden.jpg)
+![Winter Garden Botanical Garden](_static/images/auckland/winter-garden-botanical-garden.jpeg)
 
 ## Cornwall Park
 

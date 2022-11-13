@@ -20,7 +20,7 @@ Narayanan in the open section.
 in top events and he will be the player to watch out for as he makes debut.
 Also it will be debut event for S L Narayanan.
 
-<br>![Team India A; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image1.jpg)
+<br>![Team India A; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image1.jpeg)
 
 Team India A; credits: AICF India
 
@@ -31,7 +31,7 @@ be making their debut in this event. Along with them we also have
 experienced player Adhiban Baskaran who has also won the bronze in team
 in 2014 chess Olympiad.
 
-<br>![Team India B; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image2.jpg)
+<br>![Team India B; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image2.jpeg)
 
 Team India B; credits: AICF India
 
@@ -51,7 +51,7 @@ their world class play in many international tournaments. Tania Sachdev
 included in the first team along with Vaishali R and Bhakti Kulkarni,
 who will be making their debuts.
 
-<br>![Team India A women's section; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image3.jpg)
+<br>![Team India A women's section; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image3.jpeg)
 
 Team India A women's section; credits: AICF India
 
@@ -59,7 +59,7 @@ Team India A women's section; credits: AICF India
 champions Soumya Swaminathan, Mary Ann Gomes and Padmini Rout along with
 Vantika Agrawal and 16-year-old Divya Deshmukh.
 
-<br>![Team India B women's section; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image4.jpg)
+<br>![Team India B women's section; credits: AICF India](_static/images/aicf-announces-indian-squad-for-44th-chess-olympiad/image4.jpeg)
 
 Team India B women's section; credits: AICF India
 

@@ -63,7 +63,7 @@ Club, where guests can enjoy regular shows by dancers on their stages. Alcatraz
 is also a popular bar and, in keeping with its name and the atmosphere of the
 city, features prison cells and handcuffs that can really get pulses racing.
 
-![Pattaya](_static/images/pattaya/pattaya.jpg)
+![Pattaya](_static/images/pattaya/pattaya.jpeg)
 
 All along walking street, you’ll meet hundreds of people enticing you into their
 venues, whether it’s for harmless fun, transgender shows or bars, or with

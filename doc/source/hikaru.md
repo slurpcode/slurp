@@ -4,7 +4,7 @@ Hikaru Nakamura won the first leg of Grand Prix series organized at Berlin in a 
 
 Chess fans witnessed the dramatic fight between US grandmaster and streamer Hikaru Nakamura and top professional Levon Aronian. In a first tie break game Hikaru caught Levon off-guard and got out of opening with better position. Levon fought resiliently and got some chances to hold position but as Levon’s time was getting low mistake happened and Hikaru won by flagging Aronian anyways Levon was having lost position. In second game Aronian was white and played a slow Italian opening and got some edge out-off opening heading towards middle game. Levon was forced to go all in to force Armageddon, Even draw means losing in this situation. In this tough spot Levon over-pressed and gave advantage to Hikaru. Hikaru ultimately converted won position with great technique. And Hikaru won tiebreaks with sheer dominance on full time top professional chess player Levon Aronian.
 
-![Hikaru](_static/images/hikaru/hikaru.jpg)
+![Hikaru](_static/images/hikaru/hikaru.jpeg)
 
 Levon Aronian and Hikaru Nakamura. Photo: World Chess
 

@@ -6,7 +6,7 @@ singing since he was nine years old at parties and weddings and learned to play
 the lute to sing Jordanian heritage songs and songs in the Gulf, and he stuck to
 his artistic ambition to reach the level of Senior technician.
 
-![Omar-Al-Abdallat](_static/images/omar/image1.jpg)
+![Omar-Al-Abdallat](_static/images/omar/image1.jpeg)
 
 Omar Al-Abdullah released a song for the homeland, which is one of his first
 songs, which was the reason for his fame, which is (Hashemi Hashemi), during the
@@ -44,7 +44,7 @@ your school life to start a new stage of your life in seeking knowledge. You
 don't know my joy when I see you excel, successful, and determined to achieve
 your dreams. I love you so much and I always pray for you, the sweetest girls."
 
-![Omar-Al-Abdallat](_static/images/omar/image2.jpg)
+![Omar-Al-Abdallat](_static/images/omar/image2.jpeg)
 
 In 2019, Omar Al-Abdullah was a guest on one of the programs, and the presenter
 of the program tried to make him fall into the trap of questions to find out if

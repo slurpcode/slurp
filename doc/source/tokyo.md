@@ -2,7 +2,7 @@
 
 Tokyo is an impressive city that is able to combine all the luxuries with traditional elements. This makes it one of the most visited and attractive sites in both Japan and the Asian continent.
 
-![tokyo](_static/images/tokyo/tokyo.jpg)
+![tokyo](_static/images/tokyo/tokyo.jpeg)
 
 This city has ancient temples, palaces, gardens and an entire ancient culture that makes it special among other cities in the world.
 

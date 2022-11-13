@@ -13,7 +13,7 @@ daily detail ends up being extremely curious for its visitors. This city
 is surrounded by myths and legends, with a past characterized by
 luxurious palaces and emperors of divine descent.
 
-<br>![Beijing](_static/images/beijing/image1.jpg)
+<br>![Beijing](_static/images/beijing/image1.jpeg)
 
 <br>Communism is still very present in Beijing, which is why many of its
 citizens still remember with some nostalgia the time ruled by Chairman
@@ -36,7 +36,7 @@ Beijing by bus and the trip takes about an hour and a half, but it is a
 must-see as you are going to see the most significant engineering work
 in the world.
 
-<br>![Great Wall](_static/images/beijing/image2.jpg)
+<br>![Great Wall](_static/images/beijing/image2.jpeg)
 
 <br>Another of the most important attractions in Beijing is visiting the
 Forbidden City, where you can see endless rooms that have great
@@ -46,7 +46,7 @@ you can see the places where the imperial ceremonies were held, its
 beautiful gardens and the immense courtyards that are part of the
 Forbidden City.
 
-<br>![Forbidden City](_static/images/beijing/image3.jpg)
+<br>![Forbidden City](_static/images/beijing/image3.jpeg)
 
 <br>Touring the hutongs is an experience worth living, there you can see how
 the most traditional community of the city lives on a daily basis. You

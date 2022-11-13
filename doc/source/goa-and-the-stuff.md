@@ -17,7 +17,7 @@ any beach at all. Beaches in the North are always buzzing with people so places
 like Baga, Calangute, Candolim or Miramar are a big no-no. You never know who's
 coming after you.
 
-![Beach](_static/images/goa-and-the-stuff/image1.jpg "Beach")
+![Beach](_static/images/goa-and-the-stuff/image1.jpeg "Beach")
 
 Anjuna and Vagator are relatively relaxed so you could easily sit in Curlies'
 and see the waves come and go while you smoke that blunt. Morjim is yet another
@@ -67,7 +67,7 @@ The bike/car/scooter lenders: These are probably the primary guys you’d attend
 see after checking during a hotel or a shack because you simply can’t do without
 an Activa in Goa. It's absolutely safe to ask them for the whereabouts of stuff.
 
-![Stuff](_static/images/goa-and-the-stuff/image2.jpg "Stuff")
+![Stuff](_static/images/goa-and-the-stuff/image2.jpeg "Stuff")
 
 The shack owners: If you're staying or dining in an exceeding shack on a Goa
 beach, it's extremely easy to seek out the great stuff. Just enquire the person

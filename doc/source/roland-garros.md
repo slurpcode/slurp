@@ -38,7 +38,7 @@ Championship by Max Décugis (French) with 8 wins. In the women\'s
 singles category, the American Chris Evert was the one who was
 proclaimed champion 7 times.
 
-<br>![Photo of Rafael Nadal taken by Laurent and extracted from flickr](_static/images/roland-garros/image2.jpg)
+<br>![Photo of Rafael Nadal taken by Laurent and extracted from flickr](_static/images/roland-garros/image2.jpeg)
 
 Photo of Rafael Nadal taken by Laurent and extracted from flickr
 
@@ -115,7 +115,7 @@ in each of the editions, unlike Masson, who in some of the editions did
 not have any rival, since it was the the only one that had registered in
 the championship.
 
-<br>![roland-garros](_static/images/roland-garros/image3.jpg)
+<br>![roland-garros](_static/images/roland-garros/image3.jpeg)
 
 <br>The championship continued exclusively for club members and it was not
 until 1925 that the rules of participation were regulated and opened to
@@ -170,7 +170,7 @@ had to face its worst years, in view of the problems caused by World War
 II and, of course, it was interrupted in the same way that it happened
 in the previous war.
 
-<br>![Suzanne Lenglen](_static/images/roland-garros/image4.jpg)
+<br>![Suzanne Lenglen](_static/images/roland-garros/image4.jpeg)
 
 Suzanne Lenglen
 
@@ -180,7 +180,7 @@ this year, at that time a player was not seen who would dominate the
 tournament until the Frenchman Max Décugis managed win eight
 championships.
 
-<br>![Golding, Laurentz, Beamish, Decugis](_static/images/roland-garros/image5.jpg)
+<br>![Golding, Laurentz, Beamish, Decugis](_static/images/roland-garros/image5.jpeg)
 
 Golding, Laurentz, Beamish, Decugis
 
@@ -206,7 +206,7 @@ leaders in this competition, in fact, they are five times ahead of the
 Australian and American players, surpassing the Swedes and the French
 hosts by six.
 
-<br>![Photo of Manolo Santana taken by Banco Sabadell extracted from fickr](_static/images/roland-garros/image6.jpg)
+<br>![Photo of Manolo Santana taken by Banco Sabadell extracted from fickr](_static/images/roland-garros/image6.jpeg)
 
 Photo of Manolo Santana taken by Banco Sabadell extracted from fickr
 
@@ -250,7 +250,7 @@ Price, which was awarded to the revelation player of the year.
 <br>To honor the organizer of the Davis Cup, the main field of the venue was
 named Philippe-Chatrier Stadium in 1988.
 
-<br>![Court Philippe Chatrier photo taken by Mathieu Marquer from fickr](_static/images/roland-garros/image7.jpg)
+<br>![Court Philippe Chatrier photo taken by Mathieu Marquer from fickr](_static/images/roland-garros/image7.jpeg)
 
 Court Philippe Chatrier photo taken by Mathieu Marquer from fickr
 
@@ -344,7 +344,7 @@ clay courts reduce the advantage of those players whose style is based
 on the well-known serve-volley tactic, thus allowing baseline players to
 dominate on this type of surface.
 
-<br>![roland-garros](_static/images/roland-garros/image8.jpg)
+<br>![roland-garros](_static/images/roland-garros/image8.jpeg)
 
 <br>A great example of the aforementioned considerations is the great former
 American tennis player Pete Sampras who was able to win 14 Grand Slam
@@ -360,7 +360,7 @@ tournament has a greater difficulty. But there are also other players
 whose styles are more suitable for this surface, such as Chris Evert and
 Rafael Nadal, where both players had great success in this tournament.
 
-<br>![Photo of Chris Evert taken by Tomas Flint taken from fickr](_static/images/roland-garros/image9.jpg)
+<br>![Photo of Chris Evert taken by Tomas Flint taken from fickr](_static/images/roland-garros/image9.jpeg)
 
 Photo of Chris Evert taken by Tomas Flint taken from fickr
 
@@ -401,7 +401,7 @@ this feat in any other tournament in the world so the organization
 wanted to award him as the best clay court player in the entire history
 of tennis.
 
-<br>![Photo of Rafael Nadal taken by mariampais extracted from flickr](_static/images/roland-garros/image10.jpg)
+<br>![Photo of Rafael Nadal taken by mariampais extracted from flickr](_static/images/roland-garros/image10.jpeg)
 
 Photo of Rafael Nadal taken by mariampais extracted from flickr
 
@@ -437,7 +437,7 @@ broke the record with 5 consecutive titles in this championship and
 likewise holds the record for total titles in the men\'s category, where
 he was proclaimed champion 13 times in the French capital.
 
-<br>![Photo of Björn Borg taken by Anna @ D16 taken from flickr](_static/images/roland-garros/image11.jpg)
+<br>![Photo of Björn Borg taken by Anna @ D16 taken from flickr](_static/images/roland-garros/image11.jpeg)
 
 Photo of Björn Borg taken by Anna @ D16 taken from flickr
 
@@ -451,7 +451,7 @@ six months old. This Yugoslav teenager battled former Roland Garros
 champion Steffi Graf in 1990 and became the youngest athlete (male or
 female) to win the tournament in France.
 
-![Photo of Steffi Graf taken by Tennis Buzz from fickr](_static/images/roland-garros/image12.jpg)
+![Photo of Steffi Graf taken by Tennis Buzz from fickr](_static/images/roland-garros/image12.jpeg)
 
 Photo of Steffi Graf taken by Tennis Buzz from fickr
 
@@ -480,7 +480,7 @@ last in the ranking was Mats Wilander, who won as number 18 in the world
 in the 1982 tournament, it should be noted that at that time there were
 no 32 seeds.
 
-<br>![Gustavo Kuerten photo taken by FreeCS taken from flickr](_static/images/roland-garros/image13.jpg)
+<br>![Gustavo Kuerten photo taken by FreeCS taken from flickr](_static/images/roland-garros/image13.jpeg)
 
 Gustavo Kuerten photo taken by FreeCS taken from flickr
 
@@ -540,7 +540,7 @@ he was able to take the next two sets from him and in an epic fifth set,
 the American used the \"spoon serve\" thus winning the match, It was
 definitely a movie game.
 
-<br>![Photo of Michael Chang taken in 2014 by Tennis Buzz from fickr](_static/images/roland-garros/image14.jpg)
+<br>![Photo of Michael Chang taken in 2014 by Tennis Buzz from fickr](_static/images/roland-garros/image14.jpeg)
 
 Photo of Michael Chang taken in 2014 by Tennis Buzz from fickr
 
@@ -563,7 +563,7 @@ strength that led him to overcome two sets in which he was at a
 disadvantage and finished winning in a fifth set, not suitable for the
 faint of heart.
 
-<br>![Photo of Ivan Lendl taken by Tennis Buzz from fickr](_static/images/roland-garros/image15.jpg)
+<br>![Photo of Ivan Lendl taken by Tennis Buzz from fickr](_static/images/roland-garros/image15.jpeg)
 
 Photo of Ivan Lendl taken by Tennis Buzz from fickr
 
@@ -590,7 +590,7 @@ great match in this 1962 final. Both battled a duel where Laver after
 coming back from two sets and a 0-3 in the fourth set, he ended up
 winning this Grand Slam.
 
-<br>![Photo of Rod Laver taken by Brisbane City Council from fickr](_static/images/roland-garros/image16.jpg)
+<br>![Photo of Rod Laver taken by Brisbane City Council from fickr](_static/images/roland-garros/image16.jpeg)
 
 Photo of Rod Laver taken by Brisbane City Council from fickr
 

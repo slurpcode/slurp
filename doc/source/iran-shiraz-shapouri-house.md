@@ -13,15 +13,15 @@ Shiraz and is recorded as an Iranian national monument.
 
 ## Gallery
 
-![Shapouri House](_static/images/iran-shiraz-shapouri-house/1.jpg)
+![Shapouri House](_static/images/iran-shiraz-shapouri-house/1.jpeg)
 
-![Shapouri House](_static/images/iran-shiraz-shapouri-house/2.jpg)
+![Shapouri House](_static/images/iran-shiraz-shapouri-house/2.jpeg)
 
-![Shapouri House](_static/images/iran-shiraz-shapouri-house/3.jpg)
+![Shapouri House](_static/images/iran-shiraz-shapouri-house/3.jpeg)
 
-![Shapouri House](_static/images/iran-shiraz-shapouri-house/4.jpg)
+![Shapouri House](_static/images/iran-shiraz-shapouri-house/4.jpeg)
 
-![Shapouri House](_static/images/iran-shiraz-shapouri-house/5.jpg)
+![Shapouri House](_static/images/iran-shiraz-shapouri-house/5.jpeg)
 
 ## About the Author
 

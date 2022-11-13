@@ -79,7 +79,7 @@ htmlhelp_basename = "testdoc"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
-html_logo = "_static/images/asimov.jpg"
+html_logo = "_static/images/asimov.jpeg"
 
 locale_dirs = ["locale/"]  # path is example but recommended.
 gettext_compact = False  # optional.

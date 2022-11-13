@@ -1,6 +1,6 @@
 # 🍸 Absinthe
 
-![Absinthe](_static/images/absinthe/absinthe1.jpg)
+![Absinthe](_static/images/absinthe/absinthe1.jpeg)
 
 No other drink has such mythology attached to it quite like absinthe.
 

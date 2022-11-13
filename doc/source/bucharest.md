@@ -26,7 +26,7 @@ totally flat and in the form of a mosaic and the candles in front of the
 religious images also exist, but outside the cathedral, it is worth
 living this completely different religious experience.
 
-![Bucharest Patriarchal Cathedral](_static/images/bucharest/image1.jpg)
+![Bucharest Patriarchal Cathedral](_static/images/bucharest/image1.jpeg)
 
 ## Uniri Square
 
@@ -57,7 +57,7 @@ library, but inside the church you can see the beautiful cloister with
 its inner courtyard and its façade that stands out for its colors and
 neoclassical Byzantine frescoes.
 
-![Stravopoleos Monastery](_static/images/bucharest/image2.jpg)
+![Stravopoleos Monastery](_static/images/bucharest/image2.jpeg)
 
 The community of nuns have a routine worship where they renew old books,
 priestly clothes and icons and you can see the church choir singing
@@ -72,7 +72,7 @@ tourists. tourists, so that today it is an area of ​​galleries since the
 mid-nineteenth century, where you can find a spectacular place full of
 cafes and restaurants, which you can visit both day and night.
 
-![Macca–Vilacrosse Passage](_static/images/bucharest/image3.jpg)
+![Macca–Vilacrosse Passage](_static/images/bucharest/image3.jpeg)
 
 ## Revolution Square
 
@@ -114,7 +114,7 @@ meters of the one in Paris and with fewer statues that represent the
 battles won. The new and the old Romania are represented by two coats of
 arms and the arch was inaugurated in 1936.
 
-![Arch of Triumph](_static/images/bucharest/image4.jpg)
+![Arch of Triumph](_static/images/bucharest/image4.jpeg)
 
 ## Where to eat and go out at night in Bucharest
 

@@ -23,7 +23,7 @@ popularized by British musician Brian Eno\* in 1978 with his album Ambient 1:
 Music for Airports; Eno opined that ambient music "must be as ignorable as it is
 interesting."
 
-![Brian Eno (1974)](_static/images/ambient/Ambient.jpg)
+![Brian Eno (1974)](_static/images/ambient/Ambient.jpeg)
 
 The name Future Sound of London may be familiar from the fact that they made the
 ambient music really famous with the album "Lifeforms" (1994).

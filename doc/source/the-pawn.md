@@ -1,6 +1,6 @@
 # ♟️ THE PAWN
 
-![the-pawn](_static/images/the-pawn/image1.jpg)
+![the-pawn](_static/images/the-pawn/image1.jpeg)
 
 Has someone ever referred to you as a pawn? That\'s fine since we\'re
 all pawns, including the one who labeled you a pawn. This is something

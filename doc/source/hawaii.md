@@ -9,19 +9,19 @@ This article is intended to guide you through the most emblematic places in Hawa
 
 On the Big Island is Hawaii Volcanoes National Park where you can see the Klauea volcano, which is one of the most active in the world, as well as Mauna Loa, which is the largest volcano on the planet. This park has great meaning for the Hawaiian people because it is considered the home of the Goddess Pelé. The best way to access stunning images of a large crater is to go to the Kilauea Visitor Center where there is an observation deck and if you are lucky, you will be able to witness the molten earth boiling into the sea. You can also walk along the Crater Rim Road for stunning views, and the last tip is to explore the interior of the Thurston Lava Tube. We are sure that the experience in this park will remain etched in your memory forever.
 
-![Hawaii](_static/images/hawaii/hawaii-1.jpg)
+![Hawaii](_static/images/hawaii/hawaii-1.jpeg)
 
 ## Waimea Canyon
 
 Waimea Canyon is located on the island of Kauai and is called by many the Grand Canyon of the Pacific. This is one of the most amazing places you can see in Hawaii and due to its amazing size it can be compared to the Grand Canyon, even more beautiful for having a greater abundance of vegetation that mixes with the desert landscape. In general, the mornings are clearer of clouds and you will be able to have a greater visibility of the landscape. The best way to explore the Grand Canyon of the Pacific is by walking through the Koke'e State Park, where it is possible to camp if you want to enjoy the sunrise in this glorious place.
 
-![Hawaii](_static/images/hawaii/hawaii-2.jpg)
+![Hawaii](_static/images/hawaii/hawaii-2.jpeg)
 
 ## Honolulu
 
 Honolulu is the largest city in the entire archipelago, the state capital is a busy, bustling and exciting city to explore. It has many activities to do, the culminating site being Waikiki beach, which is actually several beaches that are interconnected. The most popular option is Duke Kahanamoku beach where both local surfers and tourists go and to enjoy one of the most impressive views of the city, the recommendation is to climb to the highest part of the Diamond Head crater.
 
-![Hawaii](_static/images/hawaii/hawaii-3.jpg)
+![Hawaii](_static/images/hawaii/hawaii-3.jpeg)
 
 Another of the essential sites is to visit Pearl Harbor, where the most prominent site is the USS Arizona Memorial, there you can get a historical view of the events of the Japanese attack and its subsequent consequences in World War II.
 
@@ -45,7 +45,7 @@ Na Pali Coast is located on the island of Kauai and along the coast you will see
 
 While it's true that most visitors to Oahu head to Honolulu, the north shore of the island also offers some really great beaches. But for surf lovers this area has the best waves in the world. You can watch the world class surfers on the Banzai Pipeline and maybe see international championships, it's quite a contrast to the more touristy spots on the island.
 
-![Hawaii](_static/images/hawaii/hawaii-4.jpg)
+![Hawaii](_static/images/hawaii/hawaii-4.jpeg)
 
 ## Lanikai Beach
 

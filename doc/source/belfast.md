@@ -2,7 +2,7 @@
 
 Belfast is the capital of Northern Ireland, after several years of riots and armed conflicts between unionists and supporters of independence, it has managed to be reborn to become a quiet place full of tourist attractions.
 
-![Belfast](_static/images/belfast/belfast-1.jpg)
+![Belfast](_static/images/belfast/belfast-1.jpeg)
 
 In the city center you can find a large number of traditional pubs and a wonderful town hall, it is the place in Belfast where the largest number of tourists are concentrated and in the western part of the city you can find, in addition to the port, the murals that represent the conflict and the impressive Titanic Belfast museum.
 We are going to guide you through this article through the most emblematic places in the city, so that if you visit it you will not miss the most important thing.
@@ -17,7 +17,7 @@ The most popular way to carry out this visit is by agreeing with a black taxi, s
 In Donegal Square is the Town Hall, a building built at the end of the 19th century in the Edwardian style where it stands out for its white stone construction and its green domes.
 The other interesting places to visit in the center with similar architecture to that of the city hall are the Spiers Mall and Conference Centre, the Gothic-style Albert Memorial Clock, The Entries alleys, the Big Fish sculpture and the neoclassical Custom House.
 
-![Belfast](_static/images/belfast/belfast-2.jpg)
+![Belfast](_static/images/belfast/belfast-2.jpeg)
 
 ## Harland and Wolff Shipyards
 
@@ -25,7 +25,7 @@ The shipyard "Harland & Wolff" was where the Titanic was built between 1909 and 
 
 In the modern neighborhood you can also find other interesting places such as the old offices of "Harland & Wolff", the yellow cranes and a steam ship from the first world war "HMS Caroline and the SS Nomadic" that was used to transport supplies. and passengers to the Titanic.
 
-![Belfast](_static/images/belfast/belfast-3.jpg)
+![Belfast](_static/images/belfast/belfast-3.jpeg)
 
 ## Historic pubs
 
@@ -37,7 +37,7 @@ Another of the most famous is the oldest tavern in Belfast, opened in 1630 and n
 
 This university is a Victorian-style jewel founded in 1845 and opened in 1849, it stands out for the incredible central building named Lanyon and its beautiful gardens. Inside you can see large rooms such as the library and a beautiful cloister.
 
-![Belfast](_static/images/belfast/belfast-4.jpg)
+![Belfast](_static/images/belfast/belfast-4.jpeg)
 
 Picture taken by William Murphy
 
@@ -61,7 +61,7 @@ St. George's Market is a Victorian-style covered market built in red brick in 18
 
 The Giants Causeway is located 60 miles from Belfast on the north coast, it was declared a World Heritage Site and is one of the most incredible places in Ireland. The landscape dates back 60 million years and seems from another planet, with the formation of impressive basalt columns from the rapid cooling of lava produced by a nearby crater. You can also see other impressive places that are in this area, such as the Carrick-a-Rede suspension bridge and Dunluce Castle.
 
-![Belfast](_static/images/belfast/belfast-5.jpg)
+![Belfast](_static/images/belfast/belfast-5.jpeg)
 
 Belfast is an impressive city full of history and with beautiful places that are really worth knowing.
 
