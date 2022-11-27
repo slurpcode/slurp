@@ -6,7 +6,7 @@ As for its formation, it is important to note that it is associated with the nam
 
 It is worth knowing about the peculiarities of the genre that it typically ranges from 135 to 145 bpm, shattered rhythms, the bass well known from dub in a slightly more modern way; can also be called distopic in terms of its atmosphere.
 
-![[Dubstep]](_static/images/sound/dubstep/dubstep.jpg)
+![[Dubstep]](_static/images/sound/dubstep/dubstep.jpeg)
 
 "Dubstep is basically halftime Grime and 2-Step, with maybe some light Dub flavoring (and when I say light I mean light mayonnaise light -- this is a genre that went from the London black underground to offensively white Canadian frat dickheads within a nanosecond)."
 

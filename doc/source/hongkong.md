@@ -2,7 +2,7 @@
 
 Hong Kong is one of the cities in China that is not indifferent to anyone, its vertiginous skyscrapers, all those neon lights, its street food, its amusement parks, traditional houses, urban tribes, among many other things, make of this city an incredible place to know and visit. We will give you a list of the places that we consider to be the most important to see in Hong Kong.
 
-![Hong Kong](_static/images/hong-kong/hong-kong-1.jpg)
+![Hong Kong](_static/images/hong-kong/hong-kong-1.jpeg)
 
 ## Avenue of stars
 
@@ -40,7 +40,7 @@ This city has a very interesting food scene and trying some of its dishes like t
 
 If you are a lover of Chinese temples, you cannot miss the Wong Tai Sin Temple, which is definitely one of the most important in Hong Kong.
 
-![Hong Kong](_static/images/hong-kong/hong-kong-2.jpg)
+![Hong Kong](_static/images/hong-kong/hong-kong-2.jpeg)
 
 Photo taken by Daniel Lee
 
@@ -78,7 +78,7 @@ The longest escalator on the planet is located in Hong Kong, it measures approxi
 
 One of the most original ways to visit Hong Kong is on one of its 2-story trams. The recommendation is to go upstairs, specifically in the first row to get the best views.
 
-![Hong Kong](_static/images/hong-kong/hong-kong-3.jpg)
+![Hong Kong](_static/images/hong-kong/hong-kong-3.jpeg)
 
 ## Nan Lian Garden
 
@@ -92,7 +92,7 @@ Although this neighborhood is full of stairs and slopes, visiting it is really c
 
 The Mong Kok neighborhood is another recommendation to visit, being the most commercial part of Hong Kong, you will be surrounded by shopping malls, neon lights and many people.
 
-![Hong Kong](_static/images/hong-kong/hong-kong-4.jpg)
+![Hong Kong](_static/images/hong-kong/hong-kong-4.jpeg)
 
 ## Big Tian Tian Buddha
 
@@ -102,7 +102,7 @@ The Tian Tian Big Buddha is located on Lantau Island and you can reach it via th
 
 If you're on the island you can't miss Disneyland Hong Kong
 
-![Hong Kong](_static/images/hong-kong/hong-kong-5.jpg)
+![Hong Kong](_static/images/hong-kong/hong-kong-5.jpeg)
 
 ## Macau Island Tour
 

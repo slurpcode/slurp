@@ -78,7 +78,7 @@ Order Criminal Intent, Law & Order Trial by Jury and Law & Order LA, "Exiled: A
 Law & Order Movie", "Law & Order: UK" Mayors Rudy Giuliani and Michael Bloomberg
 and many other real personalities appeared.
 
-![Law and Order](_static/images/law-and-order/law-and-order.jpg)
+![Law and Order](_static/images/law-and-order/law-and-order.jpeg)
 
 ## About the Author
 

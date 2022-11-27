@@ -1,14 +1,14 @@
-# 🌇 Lime
+# 🌇 Lima
 
 Lima is the capital of Peru and is located in a privileged position towards the shores of the Pacific Ocean. In this city, colonial architecture is mixed with the most modern buildings and Peruvian cuisine is among the best in the world. We will give you a guide with the most iconic sites that the Peruvian capital has.
 
-![Lime](_static/images/lime/lime-1.jpg)
+![Lima City](_static/images/lima/lima-city.jpeg)
 
 ## Main Square
 
 The Square Weapons is located in the heart of the historic center and it was there that Francisco Pizarro founded the city in 1535, it is surrounded by important buildings such as the Cathedral, the Archbishop's Palace, the Government Palace and the Sagrario Church. This spacious square is a meeting point for locals and tourists who gather around a beautiful fountain. In the surroundings you can find endless restaurants where you can try a delicious ceviche (fresh fish marinated in lemon juice), perhaps a seafood soup called Parihuela or other dishes based on fish and shellfish, which are the main base of Peruvian cuisine.
 
-![Lime](_static/images/lime/lime-2.jpg)
+![Main Square](_static/images/lima/main-square.jpeg)
 
 ## Love Park
 
@@ -20,7 +20,7 @@ Huaca Pullcana is an archaeological zone where a pre-Inca civilization existed b
 
 This archaeological complex has a pyramid shape and reaches a height of 25 meters, it is made up of a set of patios, squares and structures that belonged to this culture. The recommendation is to go up to the highest part of the pyramid on the seventh floor, from where you can see curious views of the ruins with modern buildings around them.
 
-![Lime](_static/images/lime/lime-3.jpg)
+![Huaca Pullcana](_static/images/lima/huaca-pullcana.jpeg)
 
 ## Barranco neighborhood
 
@@ -34,7 +34,7 @@ On one of the sides of the Plaza de Armas is the Basilica Cathedral of Lima and 
 
 Bordering the Miraflores boardwalk is a 5-kilometer promenade that sits on a cliff above the famous Costa Verde, with excellent views of the Pacific Ocean. In the northern section of the pier you can see a lighthouse and a marina, where you can get the best perspectives, and then continue along the walk stopping at its beautiful parks until you reach the most famous shopping center in the city called Larcomar. Some locals in the surrounding area offer you a paragliding flight to skirt the coast of Lima and also a bike tour that includes a guide in Spanish.
 
-![Lime](_static/images/lime/lime-4.jpg)
+![Miraflores](_static/images/lima/miraflores.jpeg)
 
 ## Saint Francis Monastery
 

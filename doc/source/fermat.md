@@ -6,7 +6,7 @@ in Beaumont de Lomagne (France).
 Eric Temple Bell, a Scottish-born mathematics historian, dubbed Fermat "Prince
 of the amateurs."
 
-![Pierre de Fermat](_static/images/fermat/fermat.jpg)
+![Pierre de Fermat](_static/images/fermat/fermat.jpeg)
 
 Fermat was educated at the University of Orleans and made great contributions in
 the field of mathematics. One of the most famous tells the story is that the

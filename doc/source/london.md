@@ -22,7 +22,7 @@ find inside the tower and next to Webminter\'s Palace (with its gothic
 style). Victorian) located on the banks of the Thames and are considered
 a World Heritage Site.
 
-<br>![Palace of Webminster](_static/images/london/image1.jpg)
+<br>![Palace of Webminster](_static/images/london/image1.jpeg)
 
 <br>The most famous bridge in London is the Tower Bridge built over the
 River Thames in 1894. It is a stone drawbridge and a steam engine is
@@ -31,7 +31,7 @@ top to find the glass walkway, where you can enjoy the spectacular views
 of the city, the recommendation is to approach the bridge both day and
 night and view it from both banks.
 
-<br>![Tower Bridge](_static/images/london/image2.jpg)
+<br>![Tower Bridge](_static/images/london/image2.jpeg)
 
 <br>Walking through the parks of London is one of the best activities you
 can do for free. The most famous and largest park in the city is Hyde
@@ -54,7 +54,7 @@ neon advertising signs, giant video screens, a famous fountain that
 contains the sculpture of Eros and you can enjoy performances live,
 street musicians and a lively atmosphere.
 
-<br>![Piccadilly Circus](_static/images/london/image3.jpg)
+<br>![Piccadilly Circus](_static/images/london/image3.jpeg)
 
 <br>One of the best places to visit in the city is the British Museum, which
 is one of the most important in the world. Inaugurated in 1759, it has
@@ -88,7 +88,7 @@ United Kingdom have occurred, it is important to observe the changing of
 the guard that takes place in front of the palace, since it is
 everything a show.
 
-<br>![Buckingham Palace](_static/images/london/image4.jpg)
+<br>![Buckingham Palace](_static/images/london/image4.jpeg)
 
 <br>It is impressive to be able to see the immense dome of Saint Paul\'s
 Cathedral and the second largest cathedral on the planet and inside you

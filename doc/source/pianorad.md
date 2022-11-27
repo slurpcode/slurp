@@ -2,7 +2,7 @@
 
 Hugo Gernsback (born Hugo Gernsbacher, August 16, 1884 – August 19, 1967) was a Luxembourgish–American inventor, writer, editor, and magazine publisher, best known for publications including the first science fiction magazine. His contributions to the genre as publisher—although not as a writer—were so significant that, along with the novelists H. G. Wells and Jules Verne, he is sometimes called "The Father of Science Fiction". In his honour, annual awards presented at the World Science Fiction Convention are named the "Hugos".
 
-![pianorad](_static/images/pianorad/pianorad.jpg)
+![pianorad](_static/images/pianorad/pianorad.jpeg)
 
 [Gernsback’s ‘Pianorad’ at the WRNY radio studio]
 
@@ -21,7 +21,7 @@ The musical notes produced by the vacuum tubes in this manner have practically n
 
 [An article by Clyde J. Fitch describing the construction of the Pianorad will appear in the December issue of Radio News. ]
 
-![pianorad](_static/images/pianorad/pianorad1.jpg)
+![pianorad](_static/images/pianorad/pianorad1.jpeg)
 
 [Pianorad’s 25 units designed to eliminate harmonics.]
 

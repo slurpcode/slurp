@@ -183,13 +183,13 @@ Hypothesis testing is carried out in several stages:
 
 Let's go to a practical example: Let's suppose that a certain cosmetics company carries out an advertising campaign, which of course represents a huge expense, part of the campaign is about the success of its perfumes in a certain city and you want to verify if the campaign has been effective, in order to implement it at the national level. It is evident that in order to obtain a reliable result, the sample from the city to be studied must be representative since there is no reason to think that the change in the proportion of clients before and after the campaign will be different in the rest of the country than in the pioneer city.
 
-![Woman Advertising Board](_static/images/point-estimation-methods/image1.jpg)
+![Woman Advertising Board](_static/images/point-estimation-methods/image1.jpeg)
 
 After the campaign, the marketing department of this cosmetics company conducts a survey in the city of interest and interviews 200 people. The percentage of people who habitually bought their perfume before the advertising campaign was 5%, the company for its part sets a goal of reaching 7% to assume that the campaign has been effective. However, the proportion of consumers after the campaign is not known and the only thing we have is the survey of those 200 people. For this, it will be necessary to calculate an estimate of the proportion of consumers after the campaign and the first thing to do is choose the estimator of the parameter that will be the object of the contrast.
 
 As we already know, the proportion of the sample is an unbiased estimator with respect to the population proportion and therefore, what seems more reasonable is to use the percentage of the sample. Suppose then that 15 people answer having purchased the perfume after the campaign and as we know, this represents 7.5% of the respondents, so that it can be concluded that the campaign has been a success. But proceeding in this way is to assign absolute reliability to the information obtained in the sample and this induces us to compare the estimate obtained in the sample, with the pre-established threshold of 7%. What happens is that the estimate is only a realization of the estimate, which in this case is the sample proportion and it is most likely that if we had taken a different sample, the result could be different, unless we interviewed each and every one of potential consumers in the city.
 
-![Rose Perfume](_static/images/point-estimation-methods/image2.jpg)
+![Rose Perfume](_static/images/point-estimation-methods/image2.jpeg)
 
 Treating sample variations appropriately is very important, since nothing prevents us from having an estimate like the one mentioned above, even if the population proportion is practically the same as before launching the advertising campaign. On the other hand, it would be too costly to extend the campaign nationwide if we are not sure that it is actually effective. We could even be incurring a Type I Error, if in the absence of a significant change in the number of consumers before and after the campaign, the null hypothesis is rejected, by assuming the change in proportion in the sample information.
 
@@ -231,11 +231,11 @@ We can also establish a somewhat stricter alternative hypothesis, which is that 
 
 The way to solve the hypothesis test will be different depending on the specification of the alternative hypothesis. For the case where it is established that the alternative hypothesis is to state that the population of male smokers is different from the population of smokers, a two-tailed contrast would be carried out. While in the second alternative hypothesis, where it is established that the population of smokers is greater than that of female students, a single-tailed test would be carried out.
 
-![Male Smoking](_static/images/point-estimation-methods/image3.jpg)
+![Male Smoking](_static/images/point-estimation-methods/image3.jpeg)
 
 The idea of this type of problem is not precisely to test a numerical value for both parameters, but only to demonstrate that both are equal to each other. However, as the contrast is carried out, the proportions of each population will also be estimated, if they are potentially different or estimate a single proportion, but using both samples, that in the case of not rejecting the null hypothesis.
 
-![Female Smoking](_static/images/point-estimation-methods/image4.jpg)
+![Female Smoking](_static/images/point-estimation-methods/image4.jpeg)
 
 Another way of dealing with hypothesis testing is through the equality of variance or mathematical expectations between possible different populations.
 

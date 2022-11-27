@@ -6,7 +6,7 @@ gastronomic dishes such as Zaragoza-style loin, migas, Aragón ternasco
 and borage with potatoes. The city has a more cosmopolitan part and a
 more traditional part, such as its famous Basilica del Pilar.
 
-![Saragossa](_static/images/saragossa/saragossa.jpg)
+![Saragossa](_static/images/saragossa/saragossa.jpeg)
 
 If you plan to get to know Zaragoza, in this article we are going to
 indicate the essential places to see, so that you do not miss the most
@@ -27,7 +27,7 @@ views of the city from the top of the Tower of the Pillar, you can also
 see the Ebro river, the domes of the basilica and you can go up by
 elevator.
 
-![Basilica of Our Lady of the Pillar](_static/images/saragossa/basilica-of-our-lady-of-the-pillar.jpg)
+![Basilica of Our Lady of the Pillar](_static/images/saragossa/basilica-of-our-lady-of-the-pillar.jpeg)
 
 ## Pillar Square
 
@@ -51,7 +51,7 @@ Salón Dorado, the Torre del Trovador, the mosque, the patio of Santa
 Isabel, the Church of San Martín, The Throne Room and the Mudéjar
 Palace.
 
-![Aljaferia Palace](_static/images/saragossa/aljaferia-palace.jpg)
+![Aljaferia Palace](_static/images/saragossa/aljaferia-palace.jpeg)
 
 ## Cathedral of the Savior
 
@@ -60,7 +60,7 @@ the aljama mosque and the old Roman forum in the 12th century. You will
 be impressed with this temple due to the excellent examples of
 Renaissance, Gothic, Mudejar, Baroque and Neoclassical art.
 
-![Cathedral of the Savior](_static/images/saragossa/cathedral-of-the-savior.jpg)
+![Cathedral of the Savior](_static/images/saragossa/cathedral-of-the-savior.jpeg)
 
 Outside you can see the impressive Mudejar dome of the Chapel of San
 Miguel Arcángel, the baroque tower from the 18th century and the

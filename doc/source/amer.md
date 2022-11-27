@@ -10,7 +10,7 @@ sign him for the 2004-2005 season and then played with the Egyptian Ismaili 2005
 before returning to Yarmouk in the 2005-2006 season and finally with Al-Wehdat
 in 2006.
 
-![amer](_static/images/amer/image1.jpg)
+![amer](_static/images/amer/image1.jpeg)
 
 Shafie has a proven track record through his remarkable presence in the events
 he went through with the national team. In addition to the 2004 Asian finals, he
@@ -33,7 +33,7 @@ saying: “Today I made the most difficult decision in my life, after long
 thinking and consulting my close ones, today I officially announce the end of my
 career that spanned for more than 25 years in football stadiums.
 
-![amer](_static/images/amer/image2.jpg)
+![amer](_static/images/amer/image2.jpeg)
 
 He added: "During my career, I gave my effort and time to serve the Jordanian
 football, and I found it difficult to remain at the same level and readiness.

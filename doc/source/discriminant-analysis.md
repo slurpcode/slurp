@@ -38,7 +38,7 @@ Example:
 
 Suppose we have two defined groups and three variables V1, V2 and V3 that are explanatory, with 10 individuals of whom we know, both their profile and their assignment.
 
-![Formula](_static/images/discriminant_analysis/formula_1.PNG)
+![Formula](_static/images/discriminant_analysis/formula_1.png)
 
 In the matrix we can see that the first individual takes values in the first, second and third variables of 15, 41 and 32, respectively and that he belongs to group 1. We can also observe that group 1 includes individuals 2, 4, 8 and 9, while group 2 includes individuals 3.5, 6, 7 and 10.
 
@@ -70,19 +70,19 @@ characteristics that we want to analyze for each of those countries.
 
 Now, as soon as we open or begin to execute our SPSS statistical program, a window appears where we must indicate if we are going to import our database from a file where we have previously entered it or if we are going to enter the data of our sample, one by one and directly within the SPSS.
 
-![Table](_static/images/discriminant_analysis/table_1.jpg)
+![Table](_static/images/discriminant_analysis/table_1.jpeg)
 
 To show an example, we are going to import the data from a previous exercise, which will help us to show some points of interest to use our statistical program, so we will leave checked the box that the program has by default that urges us to "Open an origin of existing data ", after" Accept "a new window will be opened where we will have the possibility to search in which part of our computer the file that contains our database is located, we choose the address with its respective extension and click on "Open", where again another box will appear with the title of "Opening data source" and we are simply going to "Accept" the configuration that the program offers us by default, that is when the database will be imported and we can see it in the following environment:
 
-![Table](_static/images/discriminant_analysis/table_2.jpg)
+![Table](_static/images/discriminant_analysis/table_2.jpeg)
 
 Now, we can see two tabs that are in the lower left part of our environment. If we open the "Variables View" tab, another window will open where the columns containing the characteristics of our unit of analysis will appear in a list of variables, each occupying a row in this new window. This is where we can change or modify the attributes of our variables as convenient.
 
-![Table](_static/images/discriminant_analysis/table_3.jpg)
+![Table](_static/images/discriminant_analysis/table_3.jpeg)
 
 In the first column we can see the name of our variable and it is usually placed in lowercase and without any spaces. In the second column we can establish the type of variable, if we position ourselves on any of the boxes we can see three points on the right side and when we choose them a new window appears where we can change the type of variable that Spss shows us by default, it is there where we can define if the decimals are separated by periods or commas, if the number is in scientific notation, is a date, a currency, etc.
 
-![Table](_static/images/discriminant_analysis/table_4.jpg)
+![Table](_static/images/discriminant_analysis/table_4.jpeg)
 
 The third column defines the width of our variable, for example, if we have a numeric variable and we define a width of 4, the maximum number that we could place would be 9999, since 10000 has a width of 5 digits.
 
@@ -90,15 +90,15 @@ In the fourth column we define the number of decimal places that our figure will
 
 The sixth column is intended for the values, it is in this column when we can assign the values to an ordinal or nominal variable, for example, if our variable is gender or sex, we can assign the number 1 to the male gender and 2 to the feminine.
 
-![Table](_static/images/discriminant_analysis/table_5.jpg)
+![Table](_static/images/discriminant_analysis/table_5.jpeg)
 
 In the case of having an ordinal variable, for example, confidence in the National Police, we can see that the values range from 1 "No confidence", to 4 "Total confidence", going through all the possibilities between these two extremes and defining them with a number that identifies that possibility.
 
-![Table](_static/images/discriminant_analysis/table_6.jpg)
+![Table](_static/images/discriminant_analysis/table_6.jpeg)
 
 In the next column "Lost" is where we can establish what values we should consider and what values we should not consider in the analysis, we are talking about missing values when the value is a blank box and the Spss will place a point (.) By default, but I can give instructions to the program that for a certain variable I don't want it to consider me the number "3", so I go to the row where the variable is located and the column "Lost" I go to the cell "None" and choose the three points on the right side and the following window opens:
 
-![Table](_static/images/discriminant_analysis/table_7.jpg)
+![Table](_static/images/discriminant_analysis/table_7.jpeg)
 
  It is there where I must put the number "3" and the program will consider all the values, except that one.
 In the next column you can specify the number of characters that will be displayed with the specified width, however, the width of the column only affects the presentation of the values, it does not change the defined width of the variable.
@@ -108,7 +108,7 @@ centered side.
 
 In "Measure" we must define the type of measurement:
 
-![Table](_static/images/discriminant_analysis/table_8.jpg)
+![Table](_static/images/discriminant_analysis/table_8.jpeg)
 
 When we choose "scale" it is for quantitative measures such as income, age, height, temperature, etc. while "ordinal" is for quantifiable but categorical measures, for example, social class or educational level and finally we have the "nominal" measure where the variable is not quantifiable, as in the cases of gender, place of origin or classification ethnic.
 
@@ -116,31 +116,31 @@ Now, if we want to analyze a particular variable, we choose our top menu "Analyz
 
 On the other hand, the program has a syntax area, it is a kind of notebook where the commands that we have asked our program are placed are placed, if we go to "File" → "New" → "Syntax" and the following completely empty environme
 
-![Table](_static/images/discriminant_analysis/table_9.jpg)
+![Table](_static/images/discriminant_analysis/table_9.jpeg)
 
 It is very useful if I want to keep a log of the commands that I am asking the program to carry out, for example if I give an instruction to Spss that gives me a table of frequencies of my first variable, I go to "Analyze" → " Descriptive Statistic ”→“ Frequencies ”→ I choose my variable → Click on the arrow → As you can see we have repeated the procedure to analyze, but now we are not going to“ Accept ”but to“ Paste ”, apparently the program does nothing, however If we go to our syntax we can realize that it is no longer empty, but we will find the command that we have just asked the program to do and it will look like this:
 
-![Table](_static/images/discriminant_analysis/table_10.jpg)
+![Table](_static/images/discriminant_analysis/table_10.jpeg)
 
 This will be very helpful if we carry out several steps to reach a specific result, we can save all the commands that we have carried out, to repeat the procedure at another time. We are now going to ask the program to carry out other actions: "Analyze" → "Descriptive Statistic" → "Frequencies" → I choose my variable → "Statistics" → I mark the boxes of "Median", "Mode", "Standard deviation" and " Variance ”→“ Continue ”→ It returns me to the previous window and I continue with“ Graphs ”→ I mark the box of“ Bar graph ”→“ Continue ”→“ Paste. ”We will notice that other commands appear in the syntax such as What:
 
-![Table](_static/images/discriminant_analysis/table_11.jpg)
+![Table](_static/images/discriminant_analysis/table_11.jpeg)
 
 There we can visualize the variables that we chose for our analysis, in the following line we can see the instructions for: standard deviation, variance, median and mode, a line below we will find the bar graph and finally, the analysis.
 
-![Table](_static/images/discriminant_analysis/table_12.jpg)
+![Table](_static/images/discriminant_analysis/table_12.jpeg)
 
  Now, if we go to the results viewer we will realize that the expected results have not been included, that is, our second frequency table does not appear, nor the bar graph, etc. and it is because we have given the order to the Spss to give us the result, we have simply given it instructions that appear in our syntax. So to get the result, we must select the order in our syntax box with the mouse and then click on the green arrow, which is at the top.
 
-![Table](_static/images/discriminant_analysis/table_13.jpg)
+![Table](_static/images/discriminant_analysis/table_13.jpeg)
 
 Our results viewer automatically appears with the table of median, mode, standard deviation and variance. Later our frequency table, but this time of the second variable, which was the one we chose.
 
-![Table](_static/images/discriminant_analysis/table_14.jpg)
+![Table](_static/images/discriminant_analysis/table_14.jpeg)
 
 Lastly, our bar chart:
 
-![Table](_static/images/discriminant_analysis/table_15.jpg)
+![Table](_static/images/discriminant_analysis/table_15.jpeg)
 
 If we want to choose a different variable and delete the previous one, we only have to position ourselves on the variable that we want to delete and click on the arrow, but this time the one that points to the left side and that is when we will choose the new variable by positioning ourselves on it, where Again we will choose the arrow to the right side, which is the one that tells us that we will include our other variable, to be able to analyze it.
 
@@ -154,7 +154,7 @@ The focus of this discriminant analysis is to carry out a pattern that allows cl
 
 The example that we are going to analyze is a financial institution that initially grants a loan to 16 clients and after three years of having granted the loan, 8 of those 16 clients were classified as failed and those clients, we are going to classify as the group 1. While the rest of the clients that we will call compliant, will make up group 2.
 
-![Table](_static/images/discriminant_analysis/table_16.jpg)
+![Table](_static/images/discriminant_analysis/table_16.jpeg)
 
 We have information regarding the net worth of each of those 16 clients and also their outstanding debts. We will then try to construct a discriminant function that is capable of substantially differentiating these two groups, starting from these two variables (equity and debts) and that also allows us to classify, with a minimum of error, the new clients in each of these groups.
 
@@ -169,22 +169,22 @@ Let's start with the discriminant analysis, the first thing we are going to do i
 
 Now we must position ourselves on the two independent variables, that is, equity and debt, and then enter it in the "independent" box with the arrow pointing to the right. Later we choose the button "Statistics" and a new window opens where we must mark the boxes of "Means" and "Fisher's" then "Continue" and finally "OK".
 
-![Table](_static/images/discriminant_analysis/table_17.jpg)
+![Table](_static/images/discriminant_analysis/table_17.jpeg)
 
 The results viewer will open in a new window and we will be able to see the "Processing summary for case analysis"
 There we can see that the 16 cases (100%) were processed and no case was excluded.
 
-![Table](_static/images/discriminant_analysis/table_18.jpg)
+![Table](_static/images/discriminant_analysis/table_18.jpeg)
 
  In the following box that represents the group statistics, we can see the mean and the standard deviation for both the groups of failed clients and for the compliant clients. The cut-off point of the discriminant for the two groups is also observed: the cut-off point for the equity has a value of 7, which implies that if the equity is less than 7 the client is classified as failed and if it is greater than this value , the client will be classified as compliant.
 
-![Table](_static/images/discriminant_analysis/table_19.jpg)
+![Table](_static/images/discriminant_analysis/table_19.jpeg)
 
 The same occurs with the cut-off point for outstanding debts, as we can see it has a value of 4, which indicates that if the client has outstanding debts greater than 4, it is classified as bankrupt and if their outstanding debts are less than 4, will be classified as a compliant customer.
 
 The following table to take into account is that of the eigenvalues found in the summary of the discriminant canonical functions:
 
-![Table](_static/images/discriminant_analysis/table_20.jpg)
+![Table](_static/images/discriminant_analysis/table_20.jpeg)
 
 If we square that term and multiply it by 100, we will obtain the percentage that this function is capable of achieving when explaining the variance, so:
 
@@ -194,15 +194,15 @@ The experts affirm that a percentage greater than 45% is a positive indicator of
 
 Now we will observe the Wilkes Lambda value to know if the function is statistically significant, we can realize that we obtain a value of 0.002 and that it is also a number much less than 0.5. As we have explained in previous articles, since it is much lower than this coefficient, we can conclude that it is indeed statistically significant.
 
-![Table](_static/images/discriminant_analysis/table_21.jpg)
+![Table](_static/images/discriminant_analysis/table_21.jpeg)
 
 The following table to take into account is that of the standardized coefficients of canonical discriminant functions, these values tell us which ones contribute the most to our function, it is important to note that these values range between -1 and 1, whichever value is closest to the unit, it is in short, the one that has the greatest weight in the function. Of both values, the one that corresponds to equity is the closest to 1, since it has a value of 0.922 and therefore, it is the one that contributes the most to the function.
 
-![Table](_static/images/discriminant_analysis/table_22.jpg)
+![Table](_static/images/discriminant_analysis/table_22.jpeg)
 
 We now turn to the last table of this summary that corresponds to the coefficients of the classification function. It is from these coefficients that we are going to generate the discriminant functions with which we are going to be able to classify the new individuals, therefore, this box is the most important of all.
 
-![Table](_static/images/discriminant_analysis/table_23.jpg)
+![Table](_static/images/discriminant_analysis/table_23.jpeg)
 
 We go first with the function that we must generate starting from the failed clients, our predictive function being the constant to which we will add the coefficient that corresponds to the patrimony, multiplied by the value of the patrimony of the new client, plus the debt coefficient multiplied by the value of your debts.
 

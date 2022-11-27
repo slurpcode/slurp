@@ -1,6 +1,6 @@
 # 👨‍🎤 David Bowie The Legend
 
-![David Bowie](_static/images/david-bowie/david-bowie.jpg)
+![David Bowie](_static/images/david-bowie/david-bowie.jpeg)
 
 Let’s take a look at the life and career of the legendary David Bowie!
 
@@ -24,7 +24,7 @@ The elaborate stage shows for the tour that followed as well as the worsening st
 
 1975 saw the release of young Americans an album that was less glam rock and more soul.
 
-![David Bowie](_static/images/david-bowie/david-bowie2.jpg)
+![David Bowie](_static/images/david-bowie/david-bowie2.jpeg)
 
 This album spawned his first US hit a track that was written with John Lennon “Fame” his next album station-to-station featured the song golden years and introduced another alter ego the thin white duke.
 
@@ -37,7 +37,7 @@ Bowie's career lept on new heights in 1983 with the success of the album let's d
 
 1999 saw the release of an album with more rock tracks entitled hours. this was followed by the critically and commercially acclaimed heathen in 2002 and another successful record in 2003 called reality.
 
-![David Bowie](_static/images/david-bowie/david-bowie3.jpg)
+![David Bowie](_static/images/david-bowie/david-bowie3.jpeg)
 
 Emergency heart surgery in 2004 forced bowie to slow down so in the latter half of the decade he recorded only a few songs and played a couple of gigs but, continued to act while he released albums some of his most notable film appearances include Twin Peaks fire walk with me mr. Rice's secret Zoolander and The Prestige
 

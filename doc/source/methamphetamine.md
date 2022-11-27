@@ -4,7 +4,7 @@ A drug that was also known for a while as redneck cocaine.
 
 Dr. Perry Halkitis: "Believed to be only used by hicks in rural areas. They use it, but so do gay men in urban centers.”
 
-![meth](_static/images/methamphetamine/meth_1.jpg)
+![meth](_static/images/methamphetamine/meth_1.jpeg)
 
 Over 11 million Americans have tried meth at least once. The same data says that 440,000 were last month's users. But this is all data from 2012. Its use is likely still on the rise, according to DEA meth seizure data. Crystal Meth is extremely addictive.
 
@@ -16,7 +16,7 @@ It causes medical problems including making your body temperature so high that y
 
 How do we treat methamphetamine?
 
-![meth](_static/images/methamphetamine/meth_2.jpg)
+![meth](_static/images/methamphetamine/meth_2.jpeg)
 
 Addiction as opposed to other drugs of abuse well as I've said methamphetamine is a very powerful stimulant drug so maybe we should talk in terms of how it affects the body and how it affects the mind of the person's psychology and treatment it's separated into those two areas physically a stimulant drug is it's not the same in withdrawal.
 
@@ -26,7 +26,7 @@ So this is the period that we call stabilization so upon entering treatment some
 
 Addict very strong cravings so for a start is probably appropriate and important for a methamphetamine addict to be an inpatient treatment in a residential setting because that is what their craving is going to be so strong that having a secure environment where they can't easily go away and get methamphetamine is very important.
 
-![meth](_static/images/methamphetamine/meth_3.jpg)
+![meth](_static/images/methamphetamine/meth_3.jpeg)
 
 Secondly, they're going to have lots of psychological issues like depression feeling extremely agitated high anxiety, and so on and they may even have the appearance of symptoms of other cyclic.
 

@@ -5,7 +5,7 @@ and fourth Grand Slam tournament. The year starts with the Australian
 Open, then comes the French Open, then Wimbledon and this would be the
 last of the big four.
 
-<br>![The US Open tournament](./_static/images/the-us-open/image1.jpg)
+<br>![The US Open tournament](./_static/images/the-us-open/image1.jpeg)
 
 <br>The US Open begins on the last Monday of August and lasts for two weeks,
 with the middle weekend coinciding with Labor Day, which is a public
@@ -30,7 +30,7 @@ received from the sale of tickets, television contracts and
 sponsorships, are used for the purpose of developing tennis in the
 United States.
 
-<br>![Photo of Patrick Galbraith taken by chezsmith taken from flickr](./_static/images/the-us-open/image2.jpg)
+<br>![Photo of Patrick Galbraith taken by chezsmith taken from flickr](./_static/images/the-us-open/image2.jpeg)
 
 Photo of Patrick Galbraith taken by chezsmith taken from flickr
 
@@ -55,7 +55,7 @@ Lawn Tennis Association (USNLTA) will be allowed to enter, with the
 first male singles winner being the player Richard Sears, obtaining the
 first of his seven consecutive individual titles.
 
-<br>![Newport Casino](./_static/images/the-us-open/image3.jpg)
+<br>![Newport Casino](./_static/images/the-us-open/image3.jpeg)
 
 Newport Casino
 
@@ -76,7 +76,7 @@ semifinal of the United States Tennis Championship was held in Newport
 in the year 1890 and the match was between Oliver Campbell and Bob
 Huntington.
 
-<br>![Philadelphia Cricket Club](./_static/images/the-us-open/image4.jpg)
+<br>![Philadelphia Cricket Club](./_static/images/the-us-open/image4.jpeg)
 
 Philadelphia Cricket Club
 
@@ -118,7 +118,7 @@ noted that the women\'s tournament was not moved until 1921. Between
 Cricket Club in Chestnut Hill in Massachusetts and in 1934 both men\'s
 and women\'s doubles events were held at the Longwood Cricket Club.
 
-<br>![Pancho Gonzales playing in the Longwood Cricket Club](./_static/images/the-us-open/image5.jpg)
+<br>![Pancho Gonzales playing in the Longwood Cricket Club](./_static/images/the-us-open/image5.jpeg)
 Pancho Gonzales playing in the Longwood Cricket Club
 
 <br>Between 1921 and 1923 the men\'s singles tournament was held at the
@@ -159,7 +159,7 @@ make the tournament a little more friendly with television, it was
 decided to experiment with adding spotlights and this allowed the
 matches to be played at night.
 
-<br>![Margaret Court](./_static/images/the-us-open/image6.jpg)
+<br>![Margaret Court](./_static/images/the-us-open/image6.jpeg)
 
 Margaret Court
 
@@ -179,7 +179,7 @@ Jean King, who was a four-time champion in the women\'s singles category
 of the United States Open, in addition to being a pioneer of women\'s
 tennis.
 
-<br>![Billie Jean King](./_static/images/the-us-open/image7.jpg)
+<br>![Billie Jean King](./_static/images/the-us-open/image7.jpeg)
 
 Billie Jean King
 
@@ -246,7 +246,7 @@ Australian Open in 1970, the Wimbledon championship in 1975 and is a
 character who was inducted into the Tennis Hall of Fame in 1985
 International.
 
-<br>![Arthur Ashe Stadium photo taken by slgckgc taken from flickr](./_static/images/the-us-open/image8.jpg)
+<br>![Arthur Ashe Stadium photo taken by slgckgc taken from flickr](./_static/images/the-us-open/image8.jpeg)
 
 Arthur Ashe Stadium photo taken by slgckgc taken from flickr
 
@@ -310,7 +310,7 @@ viewers to see the ball, to the point that it is already a registered
 trademark as \"US Open Blue\", while the area outside the lines It is
 still green, to increase visibility due to the difference in colors.
 
-<br>![Area](./_static/images/the-us-open/image9.jpg)
+<br>![Area](./_static/images/the-us-open/image9.jpeg)
 
 ## Challenges in the player line
 
@@ -370,7 +370,7 @@ Orantes showed no signs of emotional or physical fatigue, to the point
 that he outscored Connors 6-4, 6-3, 6-4 to claim his first and only
 Grand Slam title.
 
-<br>![Photo of Manuel Orantes taken by Tennis Buzz and extracted from flickr](./_static/images/the-us-open/image10.jpg)
+<br>![Photo of Manuel Orantes taken by Tennis Buzz and extracted from flickr](./_static/images/the-us-open/image10.jpeg)
 
 Photo of Manuel Orantes taken by Tennis Buzz and extracted from flickr
 
@@ -417,7 +417,7 @@ excellent big serves, with which she ultimately managed to win the
 match.
 
 <br>![Photo of Stefanie Graf and Martina Navratilova taken by Elton John AIDS
-Foundy from flickr](./_static/images/the-us-open/image11.jpg)
+Foundy from flickr](./_static/images/the-us-open/image11.jpeg)
 
 Photo of Stefanie Graf and Martina Navratilova taken by Elton John AIDS
 Foundy from flickr
@@ -485,7 +485,7 @@ missed Connors, which cost McEnroe a \$250 fine.
 committed two serious fouls giving McEnroe an insurmountable 4-1 lead
 and winning the match.
 
-<br>![Photo of John McEnroe taken by Rob Rudloff Foundy from flickr](./_static/images/the-us-open/image12.jpg)
+<br>![Photo of John McEnroe taken by Rob Rudloff Foundy from flickr](./_static/images/the-us-open/image12.jpeg)
 
 Photo of John McEnroe taken by Rob Rudloff Foundy from flickr
 
@@ -512,7 +512,7 @@ tiebreaker 6-3, however, Serena not only saved all three set points but
 she won the tiebreaker 9-7, winning the match.
 
 <br>![Photo of Serena and Venus Williams taken by Universal Tennis taken from
-flickr](./_static/images/the-us-open/image13.jpg)
+flickr](./_static/images/the-us-open/image13.jpeg)
 
 Photo of Serena and Venus Williams taken by Universal Tennis taken from
 flickr
@@ -579,7 +579,7 @@ double faulted, missing a volley to make the score 6-5, however Agassi
 on the third match point missed a forehand, which Sampras knew how to
 take advantage of very well to take the victory match victory.
 
-<br>![Photo of Pete Sampras and Andre Agassi taken by Tennis Buzz from flickr](./_static/images/the-us-open/image14.jpg)
+<br>![Photo of Pete Sampras and Andre Agassi taken by Tennis Buzz from flickr](./_static/images/the-us-open/image14.jpeg)
 
 Photo of Pete Sampras and Andre Agassi taken by Tennis Buzz from flickr
 

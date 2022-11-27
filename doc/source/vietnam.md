@@ -28,7 +28,7 @@ Pentagon, by the time the U.S. withdrew from the war in 1973, some 70 percent of
 all-American soldiers in Vietnam had taken drugs. Shockingly, the authorized use
 of drugs by soldiers in combat continues around the world to this day.
 
-![pills](_static/images/vietnam/image1.jpg)
+![pills](_static/images/vietnam/image1.jpeg)
 
 The research was conducted on the history of drug use pre-post and during the
 Vietnam War found that overall there was heavy use of drugs from the majority of
@@ -50,7 +50,7 @@ eventually did “said one soldier”, there was an incredibly high number of dr
 in Vietnam because there was a local demand for the drugs and also a new large
 international soldier demand.
 
-![smoking](_static/images/vietnam/image2.jpg)
+![smoking](_static/images/vietnam/image2.jpeg)
 
 The soldiers would pick up when they went into larger cities and towns and then
 bring it back with them to the remote outposts deep in the jungles of Vietnam.

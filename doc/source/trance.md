@@ -18,7 +18,7 @@ spices in all supermarkets.
 
 Kitschy, for example, the well-off Paul Paul Dyk.
 
-![Timo Maas (SoundCloud)](_static/images/trance.jpg)
+<!-- ![Timo Maas (SoundCloud)](_static/images/trance.jpeg) -->
 
 You can find more details about its formation and development on Ishkur's Guide to Electronic Music, and you can listen to trance
 music right away.

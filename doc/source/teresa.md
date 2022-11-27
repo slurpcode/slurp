@@ -56,7 +56,7 @@ participated in the hijacking of the passengers of Sabina Flight 571, a Belgian
 Boeing 707 flying from Vienna, the capital of Austria, to Lod Airport in Tel
 Aviv, she and Ali Taha Abu Siena. Zakaria al-Atrash, and Rima Issa.
 
-![militants](_static/images/teresa/image2.jpg)
+![militants](_static/images/teresa/image2.jpeg)
 
 Ali Hassan al-Salama was the main planner of this operation, and for those who
 do not know who al-Salama is, he is one of the leaders of the Palestine
@@ -82,7 +82,7 @@ plane. It is worth noting that Teresa treated the civilian hostages well, and
 declared that her problem was primarily with the establishment and the Israeli
 state.
 
-![teresa](_static/images/teresa/image3.jpg)
+![teresa](_static/images/teresa/image3.jpeg)
 
 ## About the Author
 

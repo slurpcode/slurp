@@ -6,7 +6,7 @@ every January within the sports complex located in Melbourne Park, which
 is located in the city of Melbourne.
 
 <br>![Photo of the Australian Open taken by Vamosrafapuntoes extracted from
-flickr](./_static/images/the-australian-open/image1.jpg)
+flickr](./_static/images/the-australian-open/image1.jpeg)
 
 Photo of the Australian Open taken by Vamosrafapuntoes extracted from
 flickr
@@ -39,7 +39,7 @@ been included.
 John Cain, both courts have retractable roofs, so that in case of rain
 or extreme heat the game can continue.
 
-<br>![Rod Laver Arena](./_static/images/the-australian-open/image2.jpg)
+<br>![Rod Laver Arena](./_static/images/the-australian-open/image2.jpeg)
 
 Rod Laver Arena
 
@@ -89,7 +89,7 @@ in tournaments was a recurring problem for many players at the time.
 Norman Brookes only went to Europe three times, reaching the Wimbledon
 Challenge Round once and then twice winning the Wimbledon Championships.
 
-<br>![Anthony Wilding](./_static/images/the-australian-open/image3.jpg)
+<br>![Anthony Wilding](./_static/images/the-australian-open/image3.jpeg)
 
 Anthony Wilding
 
@@ -145,7 +145,7 @@ Emerson and Pancho Gonzales, but prevented its players from entering the
 tournament in 1970, because it considered that the guarantees they were
 insufficient. The tournament was won that year by Arthur Ashe.
 
-<br>![Arthur Ashe](./_static/images/the-australian-open/image4.jpg)
+<br>![Arthur Ashe](./_static/images/the-australian-open/image4.jpeg)
 
 Arthur Ashe
 
@@ -164,7 +164,7 @@ Melbourne Park), the surface of the pitch being hard and not grass. At
 that time Mats Wilander not only won the tournament on this surface, but
 he was the only player who could win on both grass and hard courts.
 
-<br>![Mats Wilander](./_static/images/the-australian-open/image5.jpg)
+<br>![Mats Wilander](./_static/images/the-australian-open/image5.jpeg)
 
 Mats Wilander
 
@@ -189,7 +189,7 @@ infrastructure were also improved, including access points for the
 attending public. The complex extended out of Melbourne Park to nearby
 Birrarung Marr.
 
-<br>![Photo of Margaret Court Arena taken by Mark Heath extracted from flickr](./_static/images/the-australian-open/image6.jpg)
+<br>![Photo of Margaret Court Arena taken by Mark Heath extracted from flickr](./_static/images/the-australian-open/image6.jpeg)
 
 Photo of Margaret Court Arena taken by Mark Heath extracted from flickr
 
@@ -250,7 +250,7 @@ for the semifinals it was \$420,000, for the runner-up \$1,100,000 and
 for the champion \$2,200,000.
 
 <br>![
-Photo of trophies taken by AO Tennis Blitz extracted from flickr](./_static/images/the-australian-open/image7.jpg)
+Photo of trophies taken by AO Tennis Blitz extracted from flickr](./_static/images/the-australian-open/image7.jpeg)
 
 Photo of trophies taken by AO Tennis Blitz extracted from flickr
 
@@ -285,7 +285,7 @@ Savchenko Neiland in mixed doubles.
 | Most Championships                | Serbia&nbsp;/ Novak Djokovic    | Open Era     | 9      | 2008–2021 (9 men's singles)             |
 | (singles, doubles, mixed doubles) | Australia&nbsp;/ Adrian Quist   | Pre-Open Era | 13     | 1936–1950 (3 singles, 10 men's doubles) |
 
-<br>![Current photo of Roy Emerson taken by Tennis Buzz from flickr](./_static/images/the-australian-open/image8.jpg)
+<br>![Current photo of Roy Emerson taken by Tennis Buzz from flickr](./_static/images/the-australian-open/image8.jpeg)
 
 Current photo of Roy Emerson taken by Tennis Buzz from flickr
 
@@ -316,7 +316,7 @@ Current photo of Roy Emerson taken by Tennis Buzz from flickr
 | Most Championships                | United States / Martina Navratilova           | Open Era     | 12     | 1980–2003 (3 singles, 8 women's doubles, 1 mixed doubles)  |
 | (singles, doubles, mixed doubles) | Australia / Nancye Wynne Bolton               | Pre-Open Era | 20     | 1936–1952 (6 singles, 10 women's doubles, 4 mixed doubles) |
 
-<br>![Photo Serena Williams taken by AshMarshall extracted from flickr](./_static/images/the-australian-open/image9.jpg)
+<br>![Photo Serena Williams taken by AshMarshall extracted from flickr](./_static/images/the-australian-open/image9.jpeg)
 
 Photo Serena Williams taken by AshMarshall extracted from flickr
 
@@ -351,7 +351,7 @@ Rod Laver (1960 - 1962 - 1969), Jimmy Connors, Guillermo Vilas (1978 -
 <br>Female category: Monica Seles (1991 - 1992 - 1993 - 1996) and Martina
 Navratilova (1981 - 1983 - 1985)
 
-<br>![Photo Monica Seles taken by John Wisniewski extracted from flickr](./_static/images/the-australian-open/image10.jpg)
+<br>![Photo Monica Seles taken by John Wisniewski extracted from flickr](./_static/images/the-australian-open/image10.jpeg)
 
 Photo Monica Seles taken by John Wisniewski extracted from flickr
 
@@ -408,7 +408,7 @@ score of 11-9, to then dominate the fourth set where he won the first 5
 games and that\'s when Laver recovered and passed to be dominated in
 that fourth set, to win the deciding set 6-3.
 
-<br>![Rod Laver](./_static/images/the-australian-open/image11.jpg)
+<br>![Rod Laver](./_static/images/the-australian-open/image11.jpeg)
 
 Rod Laver
 
@@ -456,7 +456,7 @@ score at 7-5, 3-6, 7-6(3), 3-6, 6-2. But this devastated Federer, who
 according to the New York Times expressed in his speech \"God is killing
 me\" as he shed tears and received the runner-up trophy.
 
-<br>![Rafael Nadal](./_static/images/the-australian-open/image12.jpg)
+<br>![Rafael Nadal](./_static/images/the-australian-open/image12.jpeg)
 
 Rafael Nadal
 
@@ -490,7 +490,7 @@ surprise Navratilova and the point ended with both players at the net
 where Navratilova spiked for the break, then held serve until completing
 the victory.
 
-<br>![Photo of Martina Navratilova taken by Paolo Rosa taken from flickr](./_static/images/the-australian-open/image13.jpg)
+<br>![Photo of Martina Navratilova taken by Paolo Rosa taken from flickr](./_static/images/the-australian-open/image13.jpeg)
 
 Photo of Martina Navratilova taken by Paolo Rosa taken from flickr
 
@@ -539,7 +539,7 @@ and with a score of 7-6 (4), 7-6 (5), 0-6, 6-4, 14-12. Camporese lost,
 but with this game he will go down in history for posterity!
 
 <br>![Photo of Boris Becker at the Australian Open (2015) taken by tlaenPix
-taken from flickr](./_static/images/the-australian-open/image14.jpg)
+taken from flickr](./_static/images/the-australian-open/image14.jpeg)
 
 Photo of Boris Becker at the Australian Open (2015) taken by tlaenPix
 taken from flickr
@@ -559,7 +559,7 @@ in game 22 and when they reached 19-19 they took a short break.
 20-19, so he did not miss the opportunity, thus certifying the victory
 that would take him to the semifinal that year.
 
-![Photo of Andy Roddick taken by Court Two taken from flickr](./_static/images/the-australian-open/image15.jpg)
+![Photo of Andy Roddick taken by Court Two taken from flickr](./_static/images/the-australian-open/image15.jpeg)
 
 Photo of Andy Roddick taken by Court Two taken from flickr
 
@@ -612,7 +612,7 @@ match-winning point, an emotional Djokovic tore off his shirt with a
 triumph that would mark him forever, being also the longest match in the
 history of the Australian Open.
 
-<br>![Photo from the Meridiano sports newspaper extracted from flickr](./_static/images/the-australian-open/image16.jpg)
+<br>![Photo from the Meridiano sports newspaper extracted from flickr](./_static/images/the-australian-open/image16.jpeg)
 
 Photo from the Meridiano sports newspaper extracted from flickr
 

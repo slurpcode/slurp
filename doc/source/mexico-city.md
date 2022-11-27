@@ -9,7 +9,7 @@ charming neighborhoods, huge green areas and squares animated by
 mariachis, which make it a vibrant place and a paradise for tourists who
 visit it.
 
-![Mexico City](_static/images/mexico-city/image1.jpg)
+![Mexico City](_static/images/mexico-city/image1.jpeg)
 
 We will guide you through this article through the most important sites
 that you cannot miss if you visit this great city.
@@ -45,7 +45,7 @@ For its part, the Alameda Central park also offers you a perfect place
 to walk among sculptures, trees and fountains, it is considered the
 oldest public garden in America and it is worth taking a walk to see it.
 
-![Palace of Fine Arts](_static/images/mexico-city/image2.jpg)
+![Palace of Fine Arts](_static/images/mexico-city/image2.jpeg)
 
 ## Main temple
 
@@ -113,7 +113,7 @@ Pyramid of the Sun, and then go through La Calzada de los Muertos and
 finally, visit the Pyramid of the Moon, where you will have spectacular
 panoramic views of the entire archaeological complex.
 
-![Visit the pyramids of Teotihuacán](_static/images/mexico-city/image3.jpg)
+![Visit the pyramids of Teotihuacán](_static/images/mexico-city/image3.jpeg)
 
 ## San Angel neighborhood
 
@@ -150,7 +150,7 @@ stroll through the different canals with a traditional boat adorned with
 flowers and painted in colors, where you can see parties with mariachis
 walking on the boats with an excellent atmosphere.
 
-![Xochimilco](_static/images/mexico-city/image4.jpg)
+![Xochimilco](_static/images/mexico-city/image4.jpeg)
 
 Mexico City offers you a wide range of history, culture, warm people and
 endless interesting places to visit.
