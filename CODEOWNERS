@@ -1,18 +1,18 @@
 *                   @jbampton
 .*                  @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal
-*.html              @Andrew-Colman @ayushrana182 @BaseMax @jbampton @prio101 @smriad @ugifractal @VictorAraica
+*.html              @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal @VictorAraica
 *.go                @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
-*.js                @Andrew-Colman @ayushrana182 @BaseMax @jbampton @prio101 @ugifractal @VictorAraica
-*.json              @Andrew-Colman @ayushrana182 @BaseMax @jbampton @prio101 @ugifractal
-*.md                @ayushrana182 @BaseMax @jbampton @smriad @VictorAraica
+*.js                @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal @VictorAraica
+*.json              @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal
+*.md                @BaseMax @jbampton @smriad @VictorAraica
 *.mod               @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
 *.php               @Andrew-Colman @jbampton @BaseMax @smriad @ugifractal
 *.py                @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal @VictorAraica
 *.rb                @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal
 *.sh                @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
 *.sum               @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
-*.toml              @Andrew-Colman @ayushrana182 @BaseMax @jbampton @prio101 @smriad @ugifractal @VictorAraica
+*.toml              @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal @VictorAraica
 *.xsl               @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal
-*.yaml              @Andrew-Colman @ayushrana182 @BaseMax @jbampton @prio101 @smriad @ugifractal
-*.yml               @Andrew-Colman @ayushrana182 @BaseMax @jbampton @prio101 @smriad @ugifractal
-requirements.txt    @Andrew-Colman @ayushrana182 @BaseMax @jbampton @smriad @ugifractal @VictorAraica
+*.yaml              @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
+*.yml               @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
+requirements.txt    @Andrew-Colman @BaseMax @jbampton @smriad @ugifractal @VictorAraica
