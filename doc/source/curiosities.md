@@ -59,14 +59,14 @@ finger. However, until now we only have a dozen and if you look closely, that is
 why many of our products come in dozens, for example, the eggs that we buy in
 the market.
 
-![first](_static/images/curiosities/image1.jpg)
+![first](_static/images/curiosities/image1.jpeg)
 
 Now, if every time you count each of the phalanges of your right hand until you
 complete them all, you lift a finger of the left hand, you can have 12 phalanges
 five times, that is, 12 x 5 = 60, this is when we arrive to the number used so
 many times since that time, to the present day.
 
-![second](_static/images/curiosities/image2.jpg)
+![second](_static/images/curiosities/image2.jpeg)
 
 On the other hand, the number 60 also has many divisor numbers: 1, 2, 3, 4, 5,
 6, 10, 12, 15, 20, 30 and 60.
@@ -94,7 +94,7 @@ system.
   third century.
 - Lewis Carroll the author of "Alice in Wonderland" was a mathematician and this
   work is loaded with mathematical symbolic logic.
-  ![third](_static/images/curiosities/image3.jpg)
+  ![third](_static/images/curiosities/image3.jpeg)
 - In 1939, a certain graduate student was late for his statistics class at the
   University of Berkeley. In his rush, he saw two problems on the board and
   copied them, thinking they were homework, handed them over to his teacher a

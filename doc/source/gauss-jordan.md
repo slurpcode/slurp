@@ -5,7 +5,7 @@ and developed such a huge body of works in so many different fields, that any
 science student will find his name many times, within different subjects, up to
 a point of believing Gauss is just everywhere.
 
-![Carl Friedrich Gauss](_static/images/gauss/gauss.jpg)
+![Carl Friedrich Gauss](_static/images/gauss/gauss.jpeg)
 
 Among all the contributions of Gauss to mathematics, we find a method for
 solving Systems of Linear Equations that is widely used now that computers can
@@ -34,7 +34,7 @@ initial group of equations into one which would be easier to solve.
 The method is very ingenious and very straightforward too. Let´s show how he did
 it with one example; a 4 equation´s system with 4 unknowns (w, x, y, z):
 
-![Equation 1](_static/images/gauss/gauss01.jpg)
+![Equation 1](_static/images/gauss/gauss01.jpeg)
 
 The matrix has as many columns as equations (and unknowns) as the system, plus
 one column because of the constant terms, so in this case, the matrix has 5
@@ -80,20 +80,20 @@ to multiply the whole first equation, term by term, by a number which would turn
 a 3 into a -1. That number would be -1/3 so that the operation would go like
 this:
 
-![Equation 2](_static/images/gauss/gauss02.jpg)
+![Equation 2](_static/images/gauss/gauss02.jpeg)
 
 Where the desired -1 is the first coefficient. We can add now this equation to
 the second equation of the system in order to turn it´s first coefficient into a
 zero.
 
-![Equation 3](_static/images/gauss/gauss03.jpg)
+![Equation 3](_static/images/gauss/gauss03.jpeg)
 
 We can see that the first coefficient in the second equation is now zero, so it
 has now one less term.
 
 The system of equations and the matrix of coefficients would now look like this:
 
-![Equation 4](_static/images/gauss/gauss04.jpg)
+![Equation 4](_static/images/gauss/gauss04.jpeg)
 
 Now we are one step closer to get the solution for the system, since we have one
 equation with only three unknowns instead of four. Can we go on doing the same
@@ -106,7 +106,7 @@ first term so that the value of w can be calculated.
 
 So, after doing similar operations on the third and fourth equations, we get:
 
-![Equation 5](_static/images/gauss/gauss05.jpg)
+![Equation 5](_static/images/gauss/gauss05.jpeg)
 
 Now the system, if we ignore the first equation, has only three unknowns (x, y,
 z) and three equations (second, third and fourth equations).
@@ -122,12 +122,12 @@ The Gauss method keeps shrinking the size of the equation´s system into smaller
 systems which are easier to solve. This is how the system of equations looks
 once it´s reduced to just two equations:
 
-![Equation 6](_static/images/gauss/gauss06.jpg)
+![Equation 6](_static/images/gauss/gauss06.jpeg)
 
 This way we can keep reducing the size of the system until we get only one
 equation and one unknown, which is directly solved:
 
-![Equation 7](_static/images/gauss/gauss07.jpg)
+![Equation 7](_static/images/gauss/gauss07.jpeg)
 
 ## Getting results and turning the tide to move upwards
 
@@ -179,7 +179,7 @@ coefficients below (second column) so in this case, this second term is the
 pivot. When we repeat the procedure using the third equation, the third term is
 the pivot, and so on.
 
-![Equation 8](_static/images/gauss/gauss08.jpg)
+![Equation 8](_static/images/gauss/gauss08.jpeg)
 
 The matrix we have been showing on the right side of the system is a
 representation of how the coefficients can be stored on a computer to make all
@@ -208,7 +208,7 @@ with an interest in mathematics and geometry. He worked on the method developed
 by Gauss and improved it while he was trying to use it on some surveying data.
 Later, he published his technique in his book Textbook of Geodesy.
 
-![Wilhelm Jordan](_static/images/gauss/jordan.jpg)
+![Wilhelm Jordan](_static/images/gauss/jordan.jpeg)
 
 To understand the work of Jordan, we must remember that the Gauss method turns
 into zeroes all the low-left triangle of the matrix. Jordan had the idea of keep
@@ -220,14 +220,14 @@ bring directly one result. We can better understand all this by looking at the
 system after the upper-right triangle has been changed into zeroes and the
 pivots in the diagonal turned into ones.
 
-![Equation 9](_static/images/gauss/gauss09.jpg)
+![Equation 9](_static/images/gauss/gauss09.jpeg)
 
 In the equation´s system, we left the zeroed terms in order to make evident the
 correspondence of the equations with the matrix, but the usual way to write
 these equations would be simpler, not writing the null terms and not writing the
 number 1 when it is multiplying the unknowns, like this:
 
-![Equation 10](_static/images/gauss/gauss10.jpg)
+![Equation 10](_static/images/gauss/gauss10.jpeg)
 
 By watching at the simplified equations, it´s really obvious why Jordan wanted
 to add these steps to the method of Gauss. Each equation is just the result for

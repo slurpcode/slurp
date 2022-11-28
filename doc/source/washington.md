@@ -10,25 +10,25 @@ In this article we will guide you through the most important sites in Washington
 
 The White House is without a doubt the most mythical place to visit in Washington, it is filled with euphoric tourists as if they were about to meet the President, when the reality is that the building can only be seen from far away. They're putting up more and more security fences and increasing the number of armed secret service guys, it's not exactly a place where you feel comfortable, even the White House is a lot smaller than you see in the movies, maybe they show it from certain angles where they make it appear larger. In general, you will find a demonstration in front of the building, either against wars or racism.
 
-![Washington](_static/images/washington/washington-1.jpg)
+![Washington](_static/images/washington/washington-1.jpeg)
 
 ## George Washington Monument
 
 The Washington Monument is one of the best known in the world, this great obelisk is surrounded by 50 American flags representing each of its states, it was inaugurated in 1885 and had the honor (even with the construction of the Eiffel Tower) of to be the tallest building in the world.
 
-![Washington](_static/images/washington/washington-2.jpg)
+![Washington](_static/images/washington/washington-2.jpeg)
 
 ## Capitol
 
 The Capitol is a majestic white building in the neoclassical style with a large dome, which is definitely one of the most emblematic symbols of the United States. It is the place where the deputies of both chambers of Congress meet and it is there where most of the most important state events are organized. You can enjoy this architectural jewel and its beautiful reflection, in a small artificial lake adjacent to the Capitol.
 
-![Washington](_static/images/washington/washington-3.jpg)
+![Washington](_static/images/washington/washington-3.jpeg)
 
 ## Library of Congress
 
 From the Capitol there is a tunnel that connects with the Library of Congress, it is one of the most spectacular in the world and houses approximately 160,000 documents, including a copy of Gutenberg's Bible and the Declaration of Independence. However, you can only visit the lobby and see the main room from outside through a glass panel.
 
-![Washington](_static/images/washington/washington-4.jpg)
+![Washington](_static/images/washington/washington-4.jpeg)
 
 ## Most interesting museums in the city
 
@@ -48,7 +48,7 @@ The Tidal Basin is a beautiful, quite large lake that is located south of the Na
 
 After the Tidal Basin you will find the Reflecting Pool area, it is a pool where the image of the George Washington Monument is reflected.
 
-![Washington](_static/images/washington/washington-5.jpg)
+![Washington](_static/images/washington/washington-5.jpeg)
 
 ## Abraham Lincoln Memorial
 

@@ -12,11 +12,11 @@ the ‘Theremin’ also invented many other electronic instruments based on the 
 Termen’s Harmonium was an early vacuum tube based polyphonic instrument designed to accompany vocal performances.
 The instrument had a three octave keyboard with a variable tuning that allowed 1,200 micro-tonal divisions per octave. The timbre and volume of the sound could be varied using twelve dials fixed to the front of the instrument.
 
-![Theremin Harmonium](_static/images/keyboard_electric_harmonium/keyboard_electric_harmonium2.jpg)
+![Theremin Harmonium](_static/images/keyboard_electric_harmonium/keyboard_electric_harmonium2.jpeg)
 
 [Early version of the Theremin Harmonium]
 
-![Theremin Harmonium](_static/images/keyboard_electric_harmonium/keyboard_electric_harmonium3.jpg)
+![Theremin Harmonium](_static/images/keyboard_electric_harmonium/keyboard_electric_harmonium3.jpeg)
 
 [Theremin’s later version of the Harmonium]
 

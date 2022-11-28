@@ -27,15 +27,15 @@ When we have a number of observations greater than 15, that is, n > 15, it can b
 
 Therefore, the formulas used in these cases are:
 
-![formula](_static/images/nonparametric_tests/formula_1.PNG)
+![formula](_static/images/nonparametric_tests/formula_1.png)
 
 Now let's go with an illustrative example:
 
 A certain inventor claims to have devised a gasoline additive that increases fuel efficiency. A potential product funder runs two tests on 18 different cars that are driven under the same conditions, one test with the additive and one without the additive, and the results are shown below:
 
-![table](_static/images/nonparametric_tests/table_1.PNG)
+![table](_static/images/nonparametric_tests/table_1.png)
 
-![image](_static/images/nonparametric_tests/car.jpg)
+![image](_static/images/nonparametric_tests/car.jpeg)
 
 The alternative hypothesis is the one that proves what is to be demonstrated, that is, that with the additive the performance is increased and therefore, the median of the tests with the additive must be greater than the median of the tests without the additive.
 
@@ -47,7 +47,7 @@ Ho: Me1 ≤ Me2
 
 As we can see, the number of observations is greater than 15 and therefore, we can assume that it behaves as if it had a normal distribution and for this we will use the formulas described previously. But first, we must subtract both paired samples and place the value of the subtraction in the next column, and then establish the ranges according to the absolute values obtained from that difference. The smallest value regardless of whether it has a positive or negative sign, will be assigned rank 1, the next smallest value will be assigned rank 2, and so on.
 
-![table](_static/images/nonparametric_tests/table_2.PNG)
+![table](_static/images/nonparametric_tests/table_2.png)
 
 As we can see, the smallest absolute value of differences is 0.24, but it is repeated three times occupying positions 1, 2 and 3 in the range, so we take the average = 1 + 2 + 3/3 = 2 and that will be the range for those three values. The next value (0.47) will directly occupy the place of rank 4. Then the absolute value (0.18) is repeated again so we repeat the operation, as both occupy ranks 7 and 8, the average between these places will be 7.5 , and then place the absolute value that will occupy the range 9. Later we add the last column with the signs corresponding to each difference, and then add the positive values to obtain the value of T (+) and the negative values to obtain T (-)
 
@@ -62,11 +62,11 @@ T = 112.5
 
 Applying the normal distribution formulas since the number of observations is greater than 15 we have:
 
-![formula](_static/images/nonparametric_tests/formula_2.PNG)
+![formula](_static/images/nonparametric_tests/formula_2.png)
 
 If we look within the table for the value of α = 0.05 and we look at the values found both in the row and in the column, we can establish the value of Z for this level of significance.
 
-![table](_static/images/nonparametric_tests/table_3.jpg)
+![table](_static/images/nonparametric_tests/table_3.jpeg)
 
 As we can see, from the left side we obtain the value -1.6 and the value found in the upper columns are 0.04 and 0.05 that represent the columns of the values that are between 0.0505 and 0.0495 (interpolating these values we will obtain the α = 0.05) thus than average both values we will have = (0.04 + 0.05) / 2 = 0.045. If we add those hundredths to the value obtained in the row, we will have the critical value of Z = -1.645 for this level of significance. Now we must compare it with the value of Zcal. Given the case that the critical Zcal> Z obtained in the table, the null hypothesis will be rejected and this is ultimately what happens, since:
 
@@ -118,7 +118,7 @@ The nomenclature is repeated for the rest of the samples or groups, that is, R2 
 
 The test statistic H for non-repeating data is defined by:
 
-![formula](_static/images/nonparametric_tests/formula_3.PNG)
+![formula](_static/images/nonparametric_tests/formula_3.png)
 
 Once the test statistic is obtained, it is compared with the chi-square test (X<sup>2</sup>).
 But what is the chi-square test?
@@ -139,9 +139,9 @@ Let's do an example:
 
 The annual salaries in dollars of some university professors from different states whose qualifications and experience are similar are compared, where the following results were obtained:
 
-![table](_static/images/nonparametric_tests/table_4.PNG)
+![table](_static/images/nonparametric_tests/table_4.png)
 
-![image](_static/images/nonparametric_tests/chem.jpg)
+![image](_static/images/nonparametric_tests/chem.jpeg)
 
 The null hypothesis establishes that there is no substantial difference between the salaries of university professors in the three states. A significance level α = 0.05 should be used.
 
@@ -153,7 +153,7 @@ Ha: At least one of the means is different
 
 To carry out the exercise, we must order the salaries from lowest to highest including the data of the three states and it will be necessary to place a column with the state to which they belong. To then assign rank 1 to the lowest of the salaries, the salary that follows will be assigned rank 2 and so on.
 
-![table](_static/images/nonparametric_tests/table_5.PNG)
+![table](_static/images/nonparametric_tests/table_5.png)
 
 As in previous exercises, if certain values are repeated we will have to average the range with the positions they occupy. For example, in cells 2 and 3 the salary 20300 is repeated, so we must average: (2 + 3) / 2 = 2.5 and both cells will have that range. The next box will start from rank 4. The same happens in the boxes that occupy places 17 and 18 where the salary is also repeated, when averaging we have that each of these boxes will be with rank 17.5.
 
@@ -167,7 +167,7 @@ R3 = 11 + 14 + 15 + 16 + 17.5 + 17.5 = 91
 
 We are now going to calculate the statistic that we will call Hcal:
 
-![formula](_static/images/nonparametric_tests/formula_4.PNG)
+![formula](_static/images/nonparametric_tests/formula_4.png)
 
 Where:
 
@@ -179,13 +179,13 @@ k = 3
 
 Substituting the values in the formula we have:
 
-![formula](_static/images/nonparametric_tests/formula_5.PNG)
+![formula](_static/images/nonparametric_tests/formula_5.png)
 
 Hcal = 14.3625
 
 The null hypothesis is rejected if the Hcal is greater than the chi-square value located in the tables with α = 0.05 and the specified degree of freedom, that is, k-1 = 3 - 1 = 2
 
-![table](_static/images/nonparametric_tests/table_6.jpg)
+![table](_static/images/nonparametric_tests/table_6.jpeg)
 
 With these values we go to the chi-square table and intersecting both values we obtain that X<sup>2</sup>= 5.99
 
@@ -209,7 +209,7 @@ Steps required to perform the Friedman Xr Test
 
 4- The fourth step is to apply the Friedman equation that we will specify below:
 
-![formula](_static/images/nonparametric_tests/formula_6.PNG)
+![formula](_static/images/nonparametric_tests/formula_6.png)
 
 Where:
 
@@ -231,9 +231,9 @@ A researcher wants to find out if there are differences in relaxation levels for
 
 After applying each of the conditions to 8 people, the following results were obtained:
 
-![table](_static/images/nonparametric_tests/table_7.PNG)
+![table](_static/images/nonparametric_tests/table_7.png)
 
-![image](_static/images/nonparametric_tests/girl.jpg)
+![image](_static/images/nonparametric_tests/girl.jpeg)
 
 Ho: There are no differences between the 3 different conditions in the relaxation levels
 
@@ -241,13 +241,13 @@ Ha: There are differences in the 3 conditions as far as relaxation is concerned.
 
 Now we are going to establish the ranges for each of the people and for this we will add a column for each condition. For example, for person 1 the lowest value among the 3 conditions is 2, to that value we will assign rank 1 that will be placed in the column to the right, the next value in ascending order is 4, then we will assign rank 2 and finally the highest of the 3 values is 5, to which we will assign the rank 3. We will have to carry out this same procedure, for each of the people and then we will have to add the ranges of each column for each of the conditions.
 
-![table](_static/images/nonparametric_tests/table_8.PNG)
+![table](_static/images/nonparametric_tests/table_8.png)
 
-![image](_static/images/nonparametric_tests/mgirl.jpg)
+![image](_static/images/nonparametric_tests/mgirl.jpeg)
 
 In person 3 the values are repeated in their conditions 2 and 3, which should also occupy ranges 2 and 3, so we will make an average: (2 + 3) / 2 = 2.5 and this number will be the range for both values. Exactly the same case occurs for person 6 and again the ranges of conditions 2 and 3 will be 2.5 for each one. We calculate Fr:
 
-![formula](_static/images/nonparametric_tests/formula_7.PNG)
+![formula](_static/images/nonparametric_tests/formula_7.png)
 
 Being:
 
@@ -257,12 +257,12 @@ k = 3
 
 We substitute the values in the formula:
 
-![formula](_static/images/nonparametric_tests/formula_8.PNG)
+![formula](_static/images/nonparametric_tests/formula_8.png)
 
 We enter the chi square table with the value of the degrees of freedom:
 k - 1 = 3 - 1 = 2 and with a significance of α = 0.05, we obtain that the critical value is 5.991
 
-![table](_static/images/nonparametric_tests/table_9.jpg)
+![table](_static/images/nonparametric_tests/table_9.jpeg)
 
 If the calculated Friedman value is greater than the critical value obtained in tables, then the null hypothesis is rejected and we can realize that we are facing precisely this case since:
 
@@ -270,7 +270,7 @@ If the calculated Friedman value is greater than the critical value obtained in 
 
 By rejecting the null hypothesis, the alternative hypothesis is then accepted in which it is established that there are indeed differences in the relaxation levels, depending on each of the sound conditions.
 
-![image](_static/images/nonparametric_tests/relax.jpg)
+![image](_static/images/nonparametric_tests/relax.jpeg)
 
 ## About the Author
 

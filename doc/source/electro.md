@@ -15,7 +15,7 @@ talkboxing. This is the main distinction between electro and previously prominen
 was only part of the instrumentation. It also palpably deviates from its predecessor boogie for being less vocal-oriented and more
 focused on electronic beats produced by drum machines."
 
-![[TR-808 drum machine]](_static/images/sound/electro/drum-machine.jpg)
+![[TR-808 drum machine]](_static/images/sound/electro/drum-machine.jpeg)
 [TR-808 drum machine]
 
 "The roots are to be found in Germany's seventies, in Kraftwerk's studio in Düsseldorf. Then came the golden age between 1982 and

@@ -4,7 +4,7 @@ The Wimbledon Championship is the oldest and most prestigious tennis event in th
 
 At Wimbledon all the players wear white going back to their roots and it is the only one of the Grand Slam tournaments that is played on grass. Wimbledon was traditionally held in late June and early July for two weeks, beginning on the last Monday in June and ending with the men's and women's singles finals, which were scheduled for Saturday and Sunday of the second week. But in the year 2015 there were changes in the tennis calendar and the event was moved by a week, starting in early July. Although it is true that the tournament lasts two weeks, it can be extended in case of rain. Both men's and women's singles tournaments, men's and women's doubles tournaments, as well as doubles are played simultaneously. But the individual and double youth tournaments are also played, for women and men. There are even special invitational tournaments for retired players, which are men's doubles for players over 35 and 45 and women's doubles for players over 35. In 2021 the champions in the individual category were Ashleigh Barty and Novak Djokovic.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-1.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-1.jpeg)
 
 The first Wimbledon tournament was organized by the "All England Lawn Tennis and Croquet Club" and was held in 1877 where only the men's singles category was played, the women's singles entered in 1884 and it was not until 1913 that it was implemented the doubles category.
 
@@ -21,7 +21,7 @@ The greatest tennis matches have been held on this stage, among which the match 
 McEnroe saved five match points and managed to take the match to the fifth set while the fans vibrated at each point and despite the missed opportunity Borg was not intimidated and continued to control the North American's thrusts, his concentration reached such a point that he only lost three points with his serve for this set.
 Both defending their games until reaching 7-6 and it was then that Borg managed to break McEnroe's serve by means of a crossover passing, which was recorded for history. Borg dropped to his knees on the grass, clenched his fists and raised them in victory.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-2.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-2.jpeg)
 
 Borg photo taken by Stylecouncil1 taken from flickr
 
@@ -42,7 +42,7 @@ Rarely in life has a game been seen with so much nerve and so much emotion. Ivan
 
 The most moving moments were when the Croatian sat on the court with his eyes to the sky, screaming and shedding a few tears before winning the match. On his fourth championship ball, Ivanisevic fell to the grass and cried after winning his first Grand Slam title.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-3.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-3.jpeg)
 
 Photo of Ivanisevic taken by Carine 06 taken from flickr
 
@@ -62,7 +62,7 @@ When they returned to the field it was already getting dark and they discussed d
 
 The match ended at 9:15 p.m. and it was the last Wimbledon final to be affected by rain, since the 2009 Wimbledon championships, the Central Court already had a retractable roof.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-4.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-4.jpeg)
 
 Photo of Rafael Nadal taken by Massura taken from flickr
 
@@ -74,7 +74,7 @@ The final was between Roger Federer and Andy Roddick, the first duel between the
 
 The match was not what everyone expected with a devastating Federer, Roddick won the first set and the Swiss the next two in the tiebreak. The fourth set was won again by Roddick. The game lasted four hours and 16 minutes in which the American played the best tennis of his career, which was what allowed him to reach an epic fifth set, in which Federer required nothing less than 30 games to win the tournament. Federer had to suffer through these five sets against a punishing Roddick in an exciting match to proclaim himself Wimbledon champion for the sixth time. The Swiss managed to make history to become the first player capable of winning 15 Grand Slam titles, surpassing the mark that he had shared with Pete Sampras until then. The result was 5-7, 7-6 (6), 7-6 (5), 3-6 and 16-14, adding his 20th final of a "big" and beating the American Iván Lendl to beat another mark and snatching Rafael Nadal the number 1 in the world.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-5.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-5.jpeg)
 
 Photo of Roger Federer taken by Yaseen Khawar taken from flickr
 
@@ -86,7 +86,7 @@ Djokovic returned renewed in the third game and had to give the best of his serv
 
 In the fourth game of the fifth set Djokovic managed to have three breaks, the first two being with Federer's second serve and in the Swiss's next service it was when the Serb would give a blow to get the score in his favor 4- two. However, Federer's response was not long in coming, placing the score 6-6, at that time they had already passed the four hours of battle and Federer broke the Serb's serve, but inexplicably wasted two balls with his serve and the match was revived contest. The unexpected 12-12 came and the final went down in history for becoming the first Wimbledon match to feature this tiebreaker. It was then that Novak Djokovic once again crowned Wimbledon in one of the finals that has been considered one of the most legendary in tennis history, where both players displayed all their magic.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-6.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-6.jpeg)
 
 Novak Djokovic photo taken by Carine 06 taken from flickr
 
@@ -94,7 +94,7 @@ Novak Djokovic photo taken by Carine 06 taken from flickr
 
 The longest match in history was played in 2010 between the American John Isner and the Frenchman Nicolas Mahut in the first round of the championship, it was played on June 22, 23 and 24 for a total of 11 hours and five minutes, the scoreboard was in favor of the winner Isner by 6-4, 3-6, 6-7(7), 7-6(3) and 70-68, with 183 games played. The match took place on court 18 starting on June 22, 2010, but due to lack of light it had to be suspended until the following day. Once resumed on the 23rd it would become the longest match in tennis history where four groups of 28 ball boys and two groups of 14 line judges were moved to help the match. But due to bad weather, the game was postponed again at 9:13 p.m., resuming the next day and leaving the score at 70-68.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-7.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-7.jpeg)
 
 Photo of John Isner taken by Christofer Levy taken from flickr
 
@@ -156,13 +156,13 @@ In the individual games the men's champions receive a silver trophy, while the w
 
 • Martina Navratilova not only managed to win the championship for six consecutive years, but she also took the title 9 times.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-8.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-8.jpeg)
 
 Photo of Martina Navratilova taken by Richard Thorpe taken from flickr
 
 • Pete Sampras also won Wimbledon 7 times, but not consecutively, from 1993 to 1995 and then from 1997 to 2000.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-9.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-9.jpeg)
 
 Photo of Pete Sampras taken by Popeyee taken from flickr
 
@@ -192,7 +192,7 @@ Photo of Pete Sampras taken by Popeyee taken from flickr
 
 • England's Virginia Wade holds the record for having competed in 26 consecutive editions of Wimbledon.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-10.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-10.jpeg)
 
 Photo of Virginia Wade taken by John Scott taken from flickr
 
@@ -236,7 +236,7 @@ Photo of Virginia Wade taken by John Scott taken from flickr
 
 • The last time a competitor won all three titles in the same year was the player Billie Jean King who was able to win the ladies single, together with Casals she won the and together with Davidson she won the mixed double in 1973.
 
-![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-11.jpg)
+![The Wimbledon Championships](_static/images/the-wimbledon-championships/the-wimbledon-championships-11.jpeg)
 
 Photo of Billie Jean King taken by Lucas Balduino (CBT) taken from flickr
 

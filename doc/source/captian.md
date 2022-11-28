@@ -1,6 +1,6 @@
 # 🎖️ Captian Habis Al-Majali, the legend of the battles of Latrun and Bab Al-Wad
 
-![Habis-Al-Majali](_static/images/captian/image1.jpg)
+![Habis-Al-Majali](_static/images/captian/image1.jpeg)
 
 His Excellency Field Marshal Habis Al-Majali / (Habis imprisoned them in the
 valley... Habis and his soldiers and Tadi)
@@ -16,7 +16,7 @@ bullets from guns that are numbered and counted. To fill the castle with
 detainees and prisoners, which was built civilization after civilization to
 preserve the land, souls, and honor.
 
-![Habis-Al-Majali](_static/images/captian/image2.jpg)
+![Habis-Al-Majali](_static/images/captian/image2.jpeg)
 
 In the midst of all this, amid his harbingers, Bandar al-Karakiyya gave birth to
 Habis al-Majali and gave birth to him in prison while accompanying (Makhshas).
@@ -76,7 +76,7 @@ Field Marshal Habis al-Majali lived for nearly ninety years, which he spent as a
 combat soldier, a brave leader, and a high-ranking official until his death on
 4/24/2001.
 
-![Habis-with-king-Hussain](_static/images/captian/image4.jpg)
+![Habis-with-king-Hussain](_static/images/captian/image4.jpeg)
 
 ## About the Author
 

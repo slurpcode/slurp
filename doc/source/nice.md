@@ -2,7 +2,7 @@
 
 Nice belongs to the Provence region, specifically to the Alpes-Maritimes department of the Côte d'Azur in France. It is located next to the Mediterranean Sea a few kilometers from Monaco and Italy, being one of the most frequented tourist destinations both by the French and by travelers from all over the world. Nice seduces for its privileged location, beaches with crystal clear turquoise waters, for its climate, its art galleries, museums and its beautiful historic center.
 
-![Nice](_static/images/nice/nice-1.jpg)
+![Nice](_static/images/nice/nice-1.jpeg)
 
 Through this article we will guide you through the most important tourist sites in Nice.
 
@@ -10,19 +10,19 @@ Through this article we will guide you through the most important tourist sites 
 
 One of the best activities to do in this city is to lose yourself in the streets of the Old City, surrounded by historic buildings with their wooden shutters in yellow and ocher colors, its curved and narrow streets, terraces full of people, shops from all over the life, old churches and markets that will enchant you at first sight. In addition to finding a large number of charming corners, the recommendation is to go to Maison Auer, opened in 1820, to try its delicious chocolate, the ice creams from Fenocchio or Azzurro and the socca from Chez Pipo. In this area there are also two of the best restaurants in the city: Les Amoureux and Le Millésime.
 
-![Nice](_static/images/nice/nice-2.jpg)
+![Nice](_static/images/nice/nice-2.jpeg)
 
 ## Promenade des Anglais
 
 The Promenade des Anglais is an avenue adjacent to the beach of Bahía de los Ángeles with about 7 kilometers, the name comes from the first tourists (mostly British) who took long walks along this avenue. It is worth walking this long street to see the beautiful facades of the buildings in the Belle Epoque style, take a photo in the popular blue chairs, which are a symbol of the city and see the exclusive Negresco hotel. It is also a place for lovers of sports that are practiced outdoors and especially for roller skaters. You can even access any of its public beaches to take a swim in the beautiful turquoise blue waters that characterize the Costa Azul.
 
-![Nice](_static/images/nice/nice-3.jpg)
+![Nice](_static/images/nice/nice-3.jpeg)
 
 ## Saint Nicholas Cathedral
 
 The Cathedral of Saint Nicholas is similar to the Saint Basil's Cathedral that remains in Moscow, it was built in 1912 to honor Tsar Nicholas II of Russia by the immense community of Russians who stayed to live and fell in love with this city, It is also the largest Russian Orthodox cathedral outside of Russia and is really worth visiting.
 
-![Nice](_static/images/nice/nice-4.jpg)
+![Nice](_static/images/nice/nice-4.jpeg)
 
 Photo taken by Steve Cadman
 
@@ -60,7 +60,7 @@ The city has beautiful squares, among which is the Rossetti, the Palace of Justi
 
 The Plaza Massena is surrounded by old buildings, full of picturesque cafes, restaurant terraces and we consider it to be the most beautiful in the city. It also has one of the most important works of art in Nice, which is a sculpture with seven people kneeling on a pole representing the seven continents.
 
-![Nice](_static/images/nice/nice-5.jpg)
+![Nice](_static/images/nice/nice-5.jpeg)
 
 Images George Rex
 

@@ -23,7 +23,7 @@ streets, beautiful perfectly preserved buildings, old churches,
 balconies with flowers and charming squares. But in the same way we are
 going to recommend the most emblematic places of the city.
 
-<br>![Cartagena De indias](_static/images/cartagena-de-indias/image1.jpg)
+<br>![Cartagena De indias](_static/images/cartagena-de-indias/image1.jpeg)
 
 <br>The most important squares to visit are the great Plaza de la Aduana,
 the Plaza de Santo Domingo which has impressive sculptures by Botero,
@@ -34,7 +34,7 @@ Teresa.
 walled city with the Getsemaní neighborhood, it is an impressive
 construction with a large clock that is bright yellow.
 
-<br>![Clock Tower](_static/images/cartagena-de-indias/image2.jpg)
+<br>![Clock Tower](_static/images/cartagena-de-indias/image2.jpeg)
 
 <br>From almost anywhere in the historic center you can see the Cathedral of
 Cartagena de Indias, which is one of the oldest and most colorful in
@@ -43,7 +43,7 @@ a marble pulpit and a large wooden altar that it is only compared to the
 cathedral in Mexico.
 
 <br>![athedral of
-Cartagena de Indias](_static/images/cartagena-de-indias/image3.jpg)
+Cartagena de Indias](_static/images/cartagena-de-indias/image3.jpeg)
 
 <br>The Getsemaní neighborhood offers you one
 of the most authentic versions of Cartagena where its small brightly
@@ -107,7 +107,7 @@ and coral reefs. Although it is true that it is quite visited, people
 are spread out among its 28 islands and you will be able to find greater
 privacy.
 
-<br>![Islas Corales del Rosario](_static/images/cartagena-de-indias/image4.jpg)
+<br>![Islas Corales del Rosario](_static/images/cartagena-de-indias/image4.jpeg)
 
 <br>The other possibility is to go to the islands of San Bernardo, which,
 although they are even further away from Cartagena, is precisely what

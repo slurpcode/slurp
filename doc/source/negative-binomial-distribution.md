@@ -8,7 +8,7 @@ Let us remember that in a Bernoulli distribution, the main characteristic is tha
 
 When we refer to a geometric random variable, it is because a number of Bernoulli trials are needed to obtain the first success.
 
-![photo](_static/images/negative_binomial_distribution/success.jpg)
+![photo](_static/images/negative_binomial_distribution/success.jpeg)
 
 However, if what we want is to know the number of trials necessary to achieve n successes, the random variable is then a negative binomial.
 A random variable that has a negative binomial distribution whose parameters are r and p, it can be said that it is the number of Bernoulli experiments with parameter p and that they are also independent, which are repeated until the r-th success is obtained.
@@ -34,11 +34,11 @@ Being:
 X = the number of Bernoulli trials required to obtain the ith success
 
 7- The probability function X is given by:
-![formula](_static/images/negative_binomial_distribution/formula_1.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_1.png)
 
 Let's go with the first example of a negative binomial distribution: suppose we have an electronic component whose chance of passing the quality control is 0.9. If we assume that among the results there is independence with respect to quality control and in view that they are different electronic components.
 
-![photo](_static/images/negative_binomial_distribution/electronic_man.jpg)
+![photo](_static/images/negative_binomial_distribution/electronic_man.jpeg)
 
 Two questions are posed to us:
 
@@ -69,7 +69,7 @@ Since they propose to review 5 components, then we must find the probability for
 P (x = 5) =?
 
 Let's substitute the values into the negative binomial distribution formula:
-![formula](_static/images/negative_binomial_distribution/formula_2.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_2.png)
 
 Answer to question 2:
 
@@ -78,11 +78,11 @@ The question we must ask ourselves mathematically is:
 P (x < 5) =?
 
 To find the probability of all variables less than 5, we generally calculate each of the probabilities when x = 1, x = 2, x = 3, x = 4 and add them together. But it is important to take into account that for a binomial distribution x = r, r + 1, r + 2, ..., this implies that x starts from the value r = 3, so in this case P (x <5) only goes to consider the values x = 3 and x = 4, therefore:
-![formula](_static/images/negative_binomial_distribution/formula_3.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_3.png)
 
 Example 2 of negative binomial distribution: a clinical study is carried out in which the volunteers are analyzed, because they have a variant of a gene that is capable of increasing the risk for a certain disease. The probability is 0.1 for a person to be a carrier and there are two questions:
 
-![photo](_static/images/negative_binomial_distribution/analyzed_lady.jpg)
+![photo](_static/images/negative_binomial_distribution/analyzed_lady.jpeg)
 
 1- What is the probability that 4 or more people must be analyzed in order to find 2 of them with the variant of the gene?
 
@@ -110,7 +110,7 @@ It is important to take into account that the probability P (x = 0) and P (x = 1
 
 Let's separately calculate the probabilities for x = 3 and x = 2
 
-![formula](_static/images/negative_binomial_distribution/formula_4.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_4.png)
 
 Substituting in the initial formula we have:
 
@@ -120,11 +120,11 @@ Answer to question 2:
 
 What the second question asks us is to calculate the mathematical expectation or the mean value of the negative binomial distribution and for this we must use the following formula:
 
-![formula](_static/images/negative_binomial_distribution/formula_5.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_5.png)
 
 This indicates that 20 volunteers are expected to be analyzed to find 2 carriers of the gene.
 
-![photo](_static/images/negative_binomial_distribution/old_lady.jpg)
+![photo](_static/images/negative_binomial_distribution/old_lady.jpeg)
 
 ## Geometric distribution
 
@@ -146,7 +146,7 @@ X ~ G (p)
 How to get the amount function
 As we expressed before, the variable x is the amount of tests necessary to obtain the first success. So the random variable will take positive integer values from the number x = (1, 2,…).
 The quantity function is in charge of matching for each value of X the possibility of achieving the first success in the x-th test and for this it will be necessary to use the following formula:
-![formula](_static/images/negative_binomial_distribution/formula_6.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_6.png)
 
 Being:
 
@@ -156,7 +156,7 @@ p = the probability of success of each test
 
 We now go to the first example of Geometric Distribution: suppose we are in the presence of an expert marksman who has a 95% probability of hitting the target and we want to know what is the probability that he misses his 15th shot for the first time?
 
-![photo](_static/images/negative_binomial_distribution/gun.jpg)
+![photo](_static/images/negative_binomial_distribution/gun.jpeg)
 
 The first thing to observe is that this problem satisfies all the conditions of a geometric distribution: We do not realize that there are only two possibilities: they are to hit the target and obtain a success or failure. Later we observe that each shot is independent, so that if a shot hits or misses this will have nothing to do with another shot being successful or missing and we also realize that the probability of success is constant and the 95%.
 
@@ -169,12 +169,12 @@ X = 15 because it is in that attempt where we want to see the failure, but our s
 p = 0.05 since there is a 95% probability that it succeeds, but what we are looking for is that it fails and its probability would be 5%.
 
 Applying the formula we would have:
-![formula](_static/images/negative_binomial_distribution/formula_7.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_7.png)
 
 If we take it to percentages, we have a probability that he will miss for the first time on his fifteenth shot is 2.44%.
 Geometric distribution example 2: Suppose that in a certain manufacturing process the probability of obtaining a defective part is 2%, we want to know what is the probability that the first defective part is the eighth inspected part?
 
-![photo](_static/images/negative_binomial_distribution/circle.jpg)
+![photo](_static/images/negative_binomial_distribution/circle.jpeg)
 
 Again we are facing a dichotomous case since the part is defective or it is not defective. On the other hand, the fact that one part is defective does not imply that the next one is defective or not, so each case is independent and finally, that the probability that the part is defective is constant and is equal to 2%.
 
@@ -183,24 +183,24 @@ x = 8
 p = 0.02
 
 We apply the formula:
-![formula](_static/images/negative_binomial_distribution/formula_8.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_8.png)
 
 In this way, we conclude that the probability of the eighth piece being defective is 1.74%.
 Geometric distribution example 3: suppose that a telephone exchange of a certain company is always busy. If the probability of making a call at times of greatest congestion is 6%, you want to know what is the probability that 10 attempts will have to be made to communicate.
 
-![photo](_static/images/negative_binomial_distribution/call.jpg)
+![photo](_static/images/negative_binomial_distribution/call.jpeg)
 
 x = 10
 
 p = 0.06
 
-![formula](_static/images/negative_binomial_distribution/formula_9.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_9.png)
 
 Interpreting the answer, we can reach the conclusion that the probability that 10 attempts will have to be made to communicate with the telephone exchange at times of greatest congestion is 3.44%.
 
 Boltzmann distribution
 
-In both mathematics and statistical mechanics the Boltzmann distribution is a distribution of probability or frequency of particle distribution, which is measured during its various possible states and is expressed as follows: The state function is proportional to ![formula](_static/images/negative_binomial_distribution/formula_10.PNG)
+In both mathematics and statistical mechanics the Boltzmann distribution is a distribution of probability or frequency of particle distribution, which is measured during its various possible states and is expressed as follows: The state function is proportional to ![formula](_static/images/negative_binomial_distribution/formula_10.png)
 
 Being
 
@@ -211,7 +211,7 @@ k = Boltzmann constant
 T = thermodynamic temperature
 
 The Boltzmann distribution in statistical mechanics is a probability distribution where a system is balanced as a function of the energy found in that state and also the temperature of the system, it can be expressed as:
-![formula](_static/images/negative_binomial_distribution/formula_11.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_11.png)
 
 Being
 
@@ -231,33 +231,33 @@ A Boltzmann distribution that is calculated for two states has a proportion call
 
 This distribution is named after Ludwing Boltzmann who was able to formulate it in 1868 for the first time while conducting his studies of statistical mechanics in the thermal equilibrium of gases. Subsequently, it was investigated in 1902 by Josiah Willard Gibbs in a much broader way.
 Starting again from the distribution formula:
-![formula](_static/images/negative_binomial_distribution/formula_12.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_12.png)
 
 The denominator of this formula is also called Q which represents the canonical partition function and some authors call it Z.
 So the Boltzmann distribution can also be written as:
-![formula](_static/images/negative_binomial_distribution/formula_13.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_13.png)
 
 We can calculate the partition function if we know the energy that each of the levels of our system of interest have. If we want to know the partition
 function for atoms, we can find their values in a database called: NIST Atomic Spectra.
 
 This distribution offers us the quantitative relationship that exists between the probabilities of both states that are occupied and we can establish this relationship of probabilities between states i and j as:
-![formula](_static/images/negative_binomial_distribution/formula_14.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_14.png)
 
 Being pi and pj the probabilities of state in i and j respectively and in the same way εi is the energy of state i and εj of energy of state j.
 The Boltzmann distribution is frequently used to determine the distribution of particles such as molecules or atoms and the energy states to which they have access.
-![photo](_static/images/negative_binomial_distribution/energy.jpg)
+![photo](_static/images/negative_binomial_distribution/energy.jpeg)
 
 Suppose we have a system that is composed of endless particles, the probability that a particle has of being in state i is similar to the probability of choosing a particle at random in the system and checking at what level a state is. and we will realize that it is in state i. To find this probability we must divide the number of particles that are in state i by the total number of particles that the system has, this fraction is given by:
-![formula](_static/images/negative_binomial_distribution/formula_15.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_15.png)
 
 Being N the total amount of particles that make up the system and Ni the amount of particles that are in state i, but we can also express it in terms of energy and the equation would be as follows:
-![formula](_static/images/negative_binomial_distribution/formula_16.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_16.png)
 
 This formula is very important in spectroscopy, there you can observe a spectral line where the molecules or atoms move from one state to another and that is why certain particles that are in the first state undergo a transition, where this condition can be expressed through the fraction of particles for the first state. Since the transition is negligible, it is most likely not reflected in the temperature that was used to perform the calculation. Generally, when there is a larger fraction in the first state, this implies a greater number of transitions that will occur in the second state. A more robust spectral line will be the result, but there are other factors that can influence the strength of a spectral line, such as when the transition crosses the “forbidden line”.
 
 We speak of a forbidden line in physics and chemistry when the spectral line emitted by the particles subjected to energy transitions, break the selection rules established by quantum mechanics. This implies that the process does not follow the most efficient route and although the transition is nominally "forbidden", the fact that it occurs spontaneously is not exactly impossible, when the molecule or the atom are in an excited state.
 
-![photo](_static/images/negative_binomial_distribution/distribution.jpg)
+![photo](_static/images/negative_binomial_distribution/distribution.jpeg)
 
 Applied to statistical mechanics
 
@@ -287,7 +287,7 @@ When a system is isolated and is made up of a set of particles, each particle ca
 
 As the particles are distributed among the different levels, the particle n0 will have the energy of the E0 level, while all the particles that are at the E1 level will have the energy of that level.
 
-![photo](_static/images/negative_binomial_distribution/energy1.jpg)
+![photo](_static/images/negative_binomial_distribution/energy1.jpeg)
 
 The total number of particles is:
 
@@ -309,40 +309,40 @@ It is important to be able to differentiate between microstate and macrostate. I
 
 For the same macrostate there may be different conformations of microstates and we can know the possible amounts of microstates that can be formed, through the following formula:
 
-![formula](_static/images/negative_binomial_distribution/formula_17.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_17.png)
 
 Where N is the total amount of particles in the isolated system and n0, n1, n2, etc. the particles that intervene in the system.
 Suppose we have three particles at the zero (0) energy level and a single particle at level 6. The number of possible microstates for these four particles is:
 
-![photo](_static/images/negative_binomial_distribution/energy2.jpg)
+![photo](_static/images/negative_binomial_distribution/energy2.jpeg)
 
-![formula](_static/images/negative_binomial_distribution/formula_18.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_18.png)
 
 This means that at level zero there are three particles, no particles at levels 1, 2, 3, 4, 5, and one particle at level 6, for a total of four possible microstates. Since each of the particles that is in the zero state can be exchanged with the particle that is in level 6 and give way to a different microstate, in addition to the one initially proposed.
 
 Suppose we have two particles in the zero state, one particle in state 1 and a last particle in level 5
 
-![photo](_static/images/negative_binomial_distribution/energy3.jpg)
+![photo](_static/images/negative_binomial_distribution/energy3.jpeg)
 
-![formula](_static/images/negative_binomial_distribution/formula_19.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_19.png)
 
 In statistical mechanics the fundamental postulate tells us that for a system in equilibrium, there is the same probability that it can be in any of its allowed microstates and the distribution of particles for which P yields the highest value, will be the distribution more likely to have the particles within the system.
 
 We are going to consider a distribution of particles where in the fundamental level (0) there are 2002 particles, while in the first level there are 1002, 102 in the second level and 52 in the third level, if we calculate the amount of microstates for this macrostate in particular we have to:
 
-![formula](_static/images/negative_binomial_distribution/formula_20.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_20.png)
 
 But suppose that at the first level there are two interacting particles, where one of them gains one unit of energy and rises to the second level, while the other loses one unit of energy and goes to the fundamental level (0).
 
-![photo](_static/images/negative_binomial_distribution/energy4.jpg)
+![photo](_static/images/negative_binomial_distribution/energy4.jpeg)
 
 As we can see, the total energy of the system does not change, since the energy of the particles both before and after the interaction is exactly the same. What will change is the number of microstates that will correspond to the new macrostate and will be given by:
 
-![formula](_static/images/negative_binomial_distribution/formula_21.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_21.png)
 
 If we calculate the quotient between the two we will have:
 
-![formula](_static/images/negative_binomial_distribution/formula_22.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_22.png)
 
 As we can see, some small changes in the initial macrostate generate large variations in P and this implies that the system is far from being in equilibrium. A system is near equilibrium when small changes in the initial macrostate distribution do not substantially change the value of P.
 
@@ -358,7 +358,7 @@ n3 = 155
 
 The quotient of the variation of P would be:
 
-![formula](_static/images/negative_binomial_distribution/formula_23.PNG)
+![formula](_static/images/negative_binomial_distribution/formula_23.png)
 
 In this case, the number of microstates hardly changes and we can realize that in a system that is in thermal equilibrium, the collisions between the particles change towards a macrostate that has almost the same amount of microstates as the initial one.
 

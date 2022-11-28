@@ -1,6 +1,6 @@
 # 🇦🇺 Australian Actors
 
-![image1](_static/images/australian-actors/image1.jpg)
+![image1](_static/images/australian-actors/image1.jpeg)
 
 Australia's known for its beautiful beaches, outback, and of course, overly
 large and poisonous animals. however, that's not the only thing. Australia is
@@ -74,7 +74,7 @@ the decline of the Mayan civilization and was filmed in Yucatec Maya language
 with subtitles. The film, which featured an Indigenous cast of Mexican and
 Native American actors, was critically acclaimed and a box office success.
 
-![Mel Gibson and Danny Glover](_static/images/australian-actors/mel-gibson-and-danny-glover.jpg)
+![Mel Gibson and Danny Glover](_static/images/australian-actors/mel-gibson-and-danny-glover.jpeg)
 
 Nicole Kidman? With a long list of awards, honors and achievements in her kitty
 including the Australia's top civil honor the Companion of the Order of

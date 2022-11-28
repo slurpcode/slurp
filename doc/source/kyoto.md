@@ -12,13 +12,13 @@ Fushimi Inari-taisha is a shrine to honor the goddess of rice built in the 8th c
 
 The sanctuary can be reached on foot to enjoy the beautiful view offered by the toriis. However, it can also be reached by train from Kyoto Station.
 
-![kyoto](_static/images/kyoto/kyoto-1.jpg)
+![kyoto](_static/images/kyoto/kyoto-1.jpeg)
 
 ## Kinkaku-ji
 
 Kinkaku-ji or also called the Golden Pavilion, is a temple that stands out for its pavilion that is covered with pure gold leaves, built in 1397 and rebuilt in 1955, since it was burned down by a monk with poor mental faculties in 1950 In the temple you can see a Japanese garden, with a beautiful pond known by all as the Water Mirror and that is really worth seeing.
 
-![kyoto](_static/images/kyoto/kyoto-2.jpg)
+![kyoto](_static/images/kyoto/kyoto-2.jpeg)
 
 ## Gion District
 
@@ -26,7 +26,7 @@ Gion, is famous for being the neighborhood of the geishas and take a walk toward
 
 It is advisable to pay attention to Hanamikoji Street or Pontocho Street near the Gion neighborhood, as both are full of teahouses and restaurants where geishas go when they go to work between 5:00 p.m. and 7:00 p.m. or at the time They leave work between 8:00 p.m. and 10:00 p.m.
 
-![kyoto](_static/images/kyoto/kyoto-3.jpg)
+![kyoto](_static/images/kyoto/kyoto-3.jpeg)
 
 ## Kiyomizu-dera
 
@@ -36,7 +36,7 @@ Kiyomizu-dera is one of the most touristic temples in Japan, located on a hill o
 
 You will be able to walk through more than 50 varieties of bamboo that are perfectly aligned, while listening to their sway produced by the wind. In this bamboo forest you can find specimens that measure just over 20 m in height, it is a unique experience that we are sure you will remember from your trip to Japan. But the Arashiyama area, in addition to the bamboo forest, has other places that are worth visiting, such as several temples, among which is the Tenryu-Ji and the Togetsuky bridge.
 
-![kyoto](_static/images/kyoto/kyoto-4.jpg)
+![kyoto](_static/images/kyoto/kyoto-4.jpeg)
 
 ## Ginkaku-ji
 

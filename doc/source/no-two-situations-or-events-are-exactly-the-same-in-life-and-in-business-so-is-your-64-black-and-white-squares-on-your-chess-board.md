@@ -6,7 +6,7 @@ Circumstances, events, and happenings seem to repeat themselves, leaving
 us with a sense of \"de javu\" and, in most situations, \"a
 probability.\"
 
-<br>![Picture1.0: The Chess Board](./_static/images/no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board/image1.jpg)
+<br>![Picture1.0: The Chess Board](./_static/images/no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board/image1.jpeg)
 Picture1.0: The Chess Board
 
 <br>Probability theory is a branch of mathematics concerned with the study
@@ -46,7 +46,7 @@ more than well-kept hair, nails, and polished shoes; now, he is an
 entrepreneur and a business magnate who has learned to unlearn certain
 beliefs and perceptions about life, people and business.
 
-![Picture 1.1: Strategic Business Planning](./_static/images/no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board/image2.jpg)
+![Picture 1.1: Strategic Business Planning](./_static/images/no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board/image2.jpeg)
 
 Picture 1.1: Strategic Business Planning
 
@@ -57,7 +57,7 @@ When two or more individuals zinteract formally or informally, business occurs c
 <br>Every successful business requires the grouping of  two or more people with the goal of achieving a desired result between or among the parties involved. However, no two of these meetings are alike; they may appear similar, they may appear familiar, but they are not
 100% identical; why shouldn't you look out for the puzzle?
 
-<br>![Picture 1.2: Showing the Fusion of a Rank and a File (g5)](./_static/images/no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board/image3.jpg)
+<br>![Picture 1.2: Showing the Fusion of a Rank and a File (g5)](./_static/images/no-two-situations-or-events-are-exactly-the-same-in-life-and-in-business-so-is-your-64-black-and-white-squares-on-your-chess-board/image3.jpeg)
 
 Picture 1.2: Showing the Fusion of a Rank and a File (g5)
 

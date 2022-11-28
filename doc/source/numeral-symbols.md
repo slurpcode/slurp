@@ -60,7 +60,7 @@ cone of clay, number 10 by a little ball, 60 by a large cone, 600 was
 represented by a large cone with a hole on it, 3600 by a large ball and when the
 large ball had a hole it represented 36.000.
 
-![Sumerian Tokens](_static/images/numeral/numeral-1.jpg)
+![Sumerian Tokens](_static/images/numeral/numeral-1.jpeg)
 
 We can see that this system can represent a number like 683 without the need of
 683 tokens; they just needed 7 tokens. It was a great improvement over direct
@@ -140,7 +140,7 @@ this is when the other digits enter the ballroom. Remember we used 7 clay
 pebbles to write down the number 683? We can see that our decimal system only
 needs 3 digits to write it down: 6-8-3. Let´s see how it works.
 
-![Positional Values](_static/images/numeral/numeral-2.jpg)
+![Positional Values](_static/images/numeral/numeral-2.jpeg)
 
 This is how we use powers of ten to represent any number in our positional
 system; the exponents for each position grow from right to left (2, 1, 0), this
@@ -151,7 +151,7 @@ tens. The complete meaning for 683 would be 6 hundreds + 8 tens + 3 units.
 This way we can write down any number, no matter how big. If we need to
 represent the population of India (1.380.004.385 people), we do it like this:
 
-![Positional Values](_static/images/numeral/numeral-3.jpg)
+![Positional Values](_static/images/numeral/numeral-3.jpeg)
 
 Where again, the numbers in the first row, going backwards from 9 to 0, are the
 exponents, and in the second row we have the base number, ten, raised to the
@@ -216,7 +216,7 @@ base is 2, and we work with powers of 2, and only 2 digits: 0 and 1.
 
 Let´s see how it would work when applied to the number we used before, 683.
 
-![Positional Values](_static/images/numeral/numeral-4.jpg)
+![Positional Values](_static/images/numeral/numeral-4.jpeg)
 
 We can see that the binary (base 2) digits for this number are 1010101011, and
 this is how a computer ultimately stores numbers. Number 2 is the lowest one
@@ -251,7 +251,7 @@ for thirteen, E for fourteen and F for fifteen.
 Sixteen is represented as 10 in Hex system. Let´s see how the same number we
 used before can be represented in Hexadecimal system.
 
-![Positional Values](_static/images/numeral/numeral-5.jpg)
+![Positional Values](_static/images/numeral/numeral-5.jpeg)
 
 Then, we can represent 683 with only 3 digits: 2AB
 

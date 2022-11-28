@@ -27,14 +27,14 @@ thus be able to get more out of them.
 For example, if we have two dice, one white and one black, what are the
 probabilities of obtaining the result of the sum of the points of both dice?
 
-![dice2](_static/images/frequentist/dice2.jpg)
+![dice2](_static/images/frequentist/dice2.jpeg)
 
 As we can see we can obtain a minimum of 2 points, therefore we can never have 1
 point or less and we will have a maximum of 12 points, we will never have 13
 points. After counting each and every probability, we can obtain the following
 distribution table.
 
-![table](_static/images/frequentist/table.jpg)
+![table](_static/images/frequentist/table.jpeg)
 
 Later Thomas Bayes, a Presbyterian minister and English mathematician born in
 1702, creates a theorem that bears his name "Bayes Theorem" where he introduces
@@ -43,7 +43,7 @@ occurred in advance. For example, if, in general, every time we have the flu, we
 get a headache, we may come to think that if we have a headache, it is likely
 that we have the flu.
 
-![formula](_static/images/frequentist/formula.jpg)
+![formula](_static/images/frequentist/formula.jpeg)
 
 As we can see, it is to understand the probability of obtaining a result,
 according to the observation of the causes that generated it. This is called
@@ -198,7 +198,7 @@ From there comes the value of "p" defined by Fisher, which is responsible for
 determining the compatibility between the estimated value that can be observed
 in a study, with the null value.
 
-![fisher](_static/images/frequentist/fisher.jpg)
+![fisher](_static/images/frequentist/fisher.jpeg)
 
 In other words, "p" is the probability that a previously measured statistical
 value will be taken as possible, but taking into account a certain null
@@ -213,7 +213,7 @@ However, until the contributions of Pearson and Neyman, a limit value had not
 been established to know if the difference between the values was large enough
 to deny the hypothesis.
 
-![neyman](_static/images/frequentist/neyman.jpg)
+![neyman](_static/images/frequentist/neyman.jpeg)
 
 That is why both introduced the PSEHN value, where they established that a null
 hypothesis can be rejected if “p” is less than the error set at 5%, that is, if
@@ -221,7 +221,7 @@ p <0.05. This way of establishing a maximum value of "p" helps us to
 differentiate those sampling results that are a product of chance, from those
 that are statistically significant.
 
-![dist](_static/images/frequentist/distribution.jpg)
+![dist](_static/images/frequentist/distribution.jpeg)
 
 Although it is true that frequentist statistics has predominated throughout
 history, in more recent years Bayesian statistics have been taken up again,

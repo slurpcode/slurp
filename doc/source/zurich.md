@@ -2,7 +2,7 @@
 
 Zurich is the most populous city in Switzerland, filled with museums, shopping districts and a lively nightlife, for which it is considered by many to be the "Center of Switzerland". Located at the Confluence between Lake Zurich and the Limmat River, very close to the Alps. This city is the cultural and financial heart of the country, as well as being one of the most expensive cities with the highest quality of life in the world.
 
-![zurich](_static/images/zurich/zurich-1.jpg)
+![zurich](_static/images/zurich/zurich-1.jpeg)
 
 Zurich has a rich cultural heritage within its old town and a large number of tourist attractions such as art galleries, museums, viewpoints, churches, parks, which are really worth knowing.
 
@@ -12,7 +12,7 @@ In this article we will make a list of the most important sites that you should 
 
 Altstadt is the historic center of the city, it is made up of four neighborhoods and surrounded by some ruins that still remain of the old medieval wall. The most interesting area is around the Town Hall and near the Limmat River, it is there where the most charming squares and alleys are concentrated, you can see medieval houses and Renaissance buildings with their traditional style and colorful facades, as well as hundreds of restaurants and shops.
 
-![zurich](_static/images/zurich/zurich-2.jpg)
+![zurich](_static/images/zurich/zurich-2.jpeg)
 
 In this area you can find some of the interesting points of interest such as the Bahnhofstrasse shopping street, Peterskirche and Fraumünster, the Grossmünster churches, the Limmatquai guild houses, the Grimmenturm tower and the Cabaret Voltaire where the cultural movement of Dada began.
 
@@ -22,7 +22,7 @@ In the historic center there are also several of the best restaurants where you 
 
 This huge lake is more than 40 km long where you can take relaxing walks or ride a bike along the shore, if you go in summer you can bathe in one of its beaches. You can also take a boat trip where you can see towns, beaches, luxury villas and Rapperswil, also called the city of roses, thanks to its gardens that are home to more than 15,000 rose bushes.
 
-![zurich](_static/images/zurich/zurich-3.jpg)
+![zurich](_static/images/zurich/zurich-3.jpeg)
 
 ## Grossmunster Church
 
@@ -65,7 +65,7 @@ Between Bahnhofstrasse and the Limmat river is the Lindenhof district, being the
 
 The Botanical Garden belongs to the University and in this open-air space you can see more than 7,000 species of plants, as well as three dome-shaped greenhouses that house trees, flowers and plants from all over the world.
 
-![zurich](_static/images/zurich/zurich-4.jpg)
+![zurich](_static/images/zurich/zurich-4.jpeg)
 
 Zurich is a cosmopolitan city full of tourist attractions and full of charm, which are worth knowing.
 

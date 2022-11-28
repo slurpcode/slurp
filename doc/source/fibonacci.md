@@ -46,7 +46,7 @@ the previous two numbers together, we can continue the sequence:
 - 8 + 5 = 13
 - 13 + 8 = 21 and so on
 
-![Fibonacci sequence](_static/images/fibonacci/fibonacci1.jpg)
+![Fibonacci sequence](_static/images/fibonacci/fibonacci1.jpeg)
 
 ## The Fibonacci sequence in nature
 
@@ -102,7 +102,7 @@ sides of which are made up of the terms of the Fibonacci series. The spiral is
 formed by combining quarter-circle arcs with radii equal to the side lengths
 of these squares.
 
-![cephalopod mollusk](_static/images/fibonacci/fibonacci2.jpg)
+![cephalopod mollusk](_static/images/fibonacci/fibonacci2.jpeg)
 
 The shell of a nautilus (a type of cephalopod mollusk) has a similarity with
 the golden spiral, only that instead of be formed with
@@ -111,14 +111,14 @@ equilateral triangles. For a given fixed side length of the starting polygon,
 Fibonacci spirals formed from triangles spiral in more tightly than those formed
 from squares.
 
-![Shell](_static/images/fibonacci/fibonacci3.jpg)
-![Spiral Drawing](_static/images/fibonacci/fibonacci4.jpg)
+![Shell](_static/images/fibonacci/fibonacci3.jpeg)
+![Spiral Drawing](_static/images/fibonacci/fibonacci4.jpeg)
 
 Not satisfied with the similarities described above? We also see that
 equivalent spirals are present in certain galaxies and hurricanes.
 
-![Galaxia final](_static/images/fibonacci/fibonacci5.jpg)
-![Hurricane](_static/images/fibonacci/fibonacci6.jpg)
+![Galaxia final](_static/images/fibonacci/fibonacci5.jpeg)
+![Hurricane](_static/images/fibonacci/fibonacci6.jpeg)
 
 ## The Fibonacci series and the golden ratio in art
 
@@ -165,7 +165,7 @@ Leonardo da Vinci himself, through what he called the "sectio aurea", or
 "golden ratio", exhibited the ideal symmetry in his paintings "The Mona Lisa",
 "The Last Supper", and "The Vitruvian Man".
 
-![Leonardo Da Vinci](_static/images/fibonacci/fibonacci7.jpg)
+![Leonardo Da Vinci](_static/images/fibonacci/fibonacci7.jpeg)
 
 Da Vinci claimed a relationship between ideal human proportions and the golden
 ratio. He observed that the ratio between height and the distance from the ground

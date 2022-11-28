@@ -5,7 +5,7 @@ and quiet cities in South America, there are almost no traffic jams and
 you can walk calmly through the city, in addition to its bookstores and
 markets that give it a very special touch.
 
-![Montevideo](_static/images/montevideo/image1.jpg)
+![Montevideo](_static/images/montevideo/image1.jpeg)
 
 Montevideo is a city that is very well located geographically, since it
 is halfway to the main tourist attractions in Uruguay. If you decide to
@@ -32,7 +32,7 @@ separates Avenida 18 de Julio from the historic center of the city. In
 the center there is a statue of the liberator of Uruguay José Gervasio
 Artigas and below the monument is the mausoleum built in his honor.
 
-![Independence Square](_static/images/montevideo/image2.jpg)
+![Independence Square](_static/images/montevideo/image2.jpeg)
 
 ## Palace Saved
 
@@ -41,7 +41,7 @@ you can make in this capital. Although it is true that it was designed
 to be a hotel, this business could never materialize and currently they
 are spectacular apartments where you can stay.
 
-![Palace Saved](_static/images/montevideo/image3.jpg)
+![Palace Saved](_static/images/montevideo/image3.jpeg)
 
 ## Rambla of Montevideo
 

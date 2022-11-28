@@ -6,7 +6,7 @@ parties - at first - the lucky ones could hear practically everything: disco,
 soul, gospel, rock, reggae, European electro-pop, or even abstract krautrock
 (Manuel Götsching) compositions."
 
-![House music pioneers Alan King, Robert Williams and Derrick Carter](_static/images/house/house.jpg)
+![House music pioneers Alan King, Robert Williams and Derrick Carter](_static/images/house/house.jpeg)
 
 "House is a genre of electronic dance music characterized by a repetitive
 four-on-the-floor beat and a typical tempo of 120 to 130 beats per minute. It

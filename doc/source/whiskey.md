@@ -68,7 +68,7 @@ rye whisky, although rye is the grain.
 
 ## 🇺🇸 United States
 
-![image5](_static/images/whiskey/image5.jpg)
+![image5](_static/images/whiskey/image5.jpeg)
 
 Talk about pride and something distinctly American. Bourbon… wait, I meant rye
 whiskey… no we're talking Tennessee whiskey, benefiting from the Lincoln County
@@ -83,7 +83,7 @@ north as New York.
 
 ## 🇯🇵 Japan
 
-![image6](_static/images/whiskey/image6.jpg)
+![image6](_static/images/whiskey/image6.jpeg)
 
 Who can forget Bob Harris (Bill Murray) struggling through his photo shoot in
 2003's Lost in Translation: `“For relaxing times… make it Suntory time?”`

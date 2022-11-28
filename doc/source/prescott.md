@@ -64,7 +64,7 @@ and its varied attractions and statistics:
 
 ## Logo
 
-![Prescott, AZ](_static/images/prescott/prescott.jpg)
+![Prescott, AZ](_static/images/prescott/prescott.jpeg)
 
 ## About the Author
 

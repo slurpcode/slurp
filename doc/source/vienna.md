@@ -20,7 +20,7 @@ the Great Gallery, the Breakfast Room and the Circular Chinese Room. You
 can visit more than 40 rooms, stroll through its beautiful gardens and
 visit the impressive Museum of Imperial Carriages.
 
-![Schonbrunn Palace](_static/images/vienna/image1.jpg)
+![Schonbrunn Palace](_static/images/vienna/image1.jpeg)
 
 ## Naschmarkt Market
 
@@ -41,7 +41,7 @@ concentrated in its many rooms, including the Imperial Chapel, the
 Church, the Treasure Chamber and the Sisi Museum, where you will learn a
 little about the history of this controversial character.
 
-![Hofburg Palace](_static/images/vienna/image2.jpg)
+![Hofburg Palace](_static/images/vienna/image2.jpeg)
 
 ## Austrian National Library
 
@@ -53,7 +53,7 @@ addition to countless old books there are beautiful frescoes in its
 dome, several marble statues and a couple of fantastic globes, one
 terrestrial and one celestial.
 
-![Austrian National Library](_static/images/vienna/image3.jpg)
+![Austrian National Library](_static/images/vienna/image3.jpeg)
 
 ## Spanish Riding School
 
@@ -134,7 +134,7 @@ and in the Lower Belvedere you can marvel at the Hall of Mirrors, the
 Hall of Grotesques, the Gallery de Mármol and La Orangery (a beautiful
 greenhouse).
 
-![Belvedere Palace](_static/images/vienna/image4.jpg)
+![Belvedere Palace](_static/images/vienna/image4.jpeg)
 
 ## Prater
 

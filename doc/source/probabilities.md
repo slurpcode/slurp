@@ -43,7 +43,7 @@ and that it is black?
 
 Therefore the total number of marbles is n = 23 and that they are black m = 8
 
-```math
+```{math}
 P (B) = 8/23
 P (B) = 0.3478
 ```
@@ -60,7 +60,7 @@ the event n times, the relative frequency of A would be fr = m / n
 When n tends to infinity, since the experiment is repeated several times, the
 relative frequency will be equal to the probability, in this case A
 
-```math
+```{math}
 (lim)┬(n→∞)⁡fr (A)=P(A)
 ```
 
@@ -73,13 +73,13 @@ m = 9 n = 10
 
 Developing:
 
-```math
+```{math}
 (lim)┬(n→9)⁡fr (A)=P(A)
 P (A) = 9/10
 P (A) = 0.9
 ```
 
-![second](_static/images/probabilities/image2.jpg)
+![second](_static/images/probabilities/image2.jpeg)
 
 Answer:
 
@@ -162,7 +162,7 @@ follows:
 
 S = {CC, CT, TC, TT}
 
-![third](_static/images/probabilities/image3.jpg)
+![third](_static/images/probabilities/image3.jpeg)
 
 Being "S" the sample space made up of all the possible results of our experiment
 and can be decomposed into events or events. Both the event and the event are
@@ -190,21 +190,21 @@ is part of the rectangle but is not part of the circle, that is, the Venn
 diagram represents all the points that make up the sample space, but are not
 included in A.
 
-![fourth](_static/images/probabilities/image4.jpg)
+![fourth](_static/images/probabilities/image4.jpeg)
 
 Now, when we join two events such as C and D, we can define the union of the two
 events, as the set that includes all the points that are in both events and is
 represented mathematically with the symbol U, therefore it would be C∪D and
 looks like this:
 
-![fifth](_static/images/probabilities/image5.jpg)
+![fifth](_static/images/probabilities/image5.jpeg)
 
 Now, the intersection that exists between two events F and G is represented by
 those points in the sample that are common to both events and are represented in
 the following figure by the green area and are mathematically represented as
 follows F∩G, by both the area that is shaded in green will be:
 
-![sixth](_static/images/probabilities/image6.jpg)
+![sixth](_static/images/probabilities/image6.jpeg)
 
 The complement of A, are those points that belong to S but are not in A and is
 represented by the symbol Ā.
@@ -232,7 +232,7 @@ does not affect in any way the probability that is obtained from a second roll.
 
 Being the events A and B independent, we can express them as follows:
 
-```math
+```{math}
 P (A ∩ B) = P (A) P (B)
 P (B | A) = P (B)
 P (A | B) = P (A)
@@ -248,7 +248,7 @@ Now, since A and B are two specific events within a sample space and the
 condition that P(B) > 0 is obtained, this implies that the probability of A with
 respect to B is:
 
-```math
+```{math}
 P (A Ι B) = P (A ∩ B) / P (B)
 ```
 
@@ -281,7 +281,7 @@ other hand, we obtain two elements such as TC and TT from the limited sample
 space of T, therefore that account gives us 2/4, since they are two elements of
 the 4 that make up the sample space, therefore:
 
-```math
+```{math}
 P (C | T) = ((1/4))/((2/4) )=1/2
 ```
 
@@ -315,7 +315,7 @@ obtain 2 of the 6 points that make up our sample space, therefore: P (I ∩ A) =
 Answer: The probability that we have when we throw a dice into the air and that
 a number that is odd will fall and is also less than 4 is 33.33%.
 
-![eighth](_static/images/probabilities/image8.jpg)
+![eighth](_static/images/probabilities/image8.jpeg)
 
 ## Bayes theorem
 
@@ -334,7 +334,7 @@ On the other hand, we can suppose that H is any event that is in "S", where
 P(H) > 0, so that the conditional probability that H generates on other events
 such as: G1, G2, G3, …, Gn can be expressed through the Bayes formula:
 
-```math
+```{math}
 P(G1 Ι H)=P(G1)P(H Ι G1)/(P(G1)P(H Ι G1)+P(G2)P(H Ι G2)+...+P(Fn)P(H Ι Gn) )
 ```
 
@@ -369,7 +369,7 @@ the defective cases, that is, the sum of all the suppliers.
 Let's suppose that we want to know the probability that the defective pants were
 manufactured by Mr. Oliver:
 
-```math
+```{math}
 P (G1 Ι H) = (0.60)(0.04)/(((0.60) (0.04) + (0.30) (0.09) + (0.10) (0.07)))
 P (G1 Ι H) = 0.024/0.058
 P (G1 Ι H) = 0.4137
@@ -381,7 +381,7 @@ probability at the time of having manufactured the defective pants.
 Now, if we want to know the probability that the defective pants come from Mr.
 Jack, we must carry out the same procedure:
 
-```math
+```{math}
 P (G2 Ι H) = (0.30)(0.09)/(((0.60)(0.04)+ (0.30)(0.09)+ (0.10)(0.07)))
 P (G2 Ι H) = 0.027/0.058
 P (G2 Ι H) = 0.4655
@@ -391,7 +391,7 @@ As we can see, Mr. Jack has a 46.55% probability of having made the defective
 pants. Finally, we need to know the probability that Mr. John has of having
 manufactured the defective part.
 
-```math
+```{math}
 P (G3 Ι H) = (0.10)(0.07)/(((0.60)(0.04)+ (0.30)(0.09)+ (0.10)(0.07)) )
 P (G3 Ι H) = 0.027/0.058
 P (G3 Ι H) = 0.1206
@@ -421,7 +421,7 @@ been selected from the "n" objects taken from r to r. The commonly used
 nomenclature is nCr. The number of possible combinations that can be obtained
 from the “n” objects is given by:
 
-```math
+```{math}
 nCr = n!/r!(n-r)!
 ```
 
@@ -435,7 +435,7 @@ order of the workers who will make up the guard group is not important at all,
 since it is not necessary to establish how they intend to choose the members of
 each group, any possible combination does not alter the final result.
 
-```math
+```{math}
 20C4 =20!/4!(20-4)!
 20C4 =  20.19.18.17.16!/4.3.2.1.16!
 20C4 =116280/24
@@ -446,7 +446,7 @@ Although the answer is self-explanatory, 4,845 different groups of 4 workers out
 of the 20 who work in the company can be formed to carry out the Saturday
 shifts.
 
-![tenth](_static/images/probabilities/image10.jpg)
+![tenth](_static/images/probabilities/image10.jpeg)
 
 Permutations: In the case that we are interested in the order of our "r"
 non-repeated objects, which in turn have been selected within the "n" objects
@@ -457,14 +457,14 @@ Now, we can determine the number of possible permutations that exist of our “n
 objects, but taken from r to r and for this it will be necessary to apply the
 following formula:
 
-```math
+```{math}
 nPr = n (n-1) (n-2)… (n - r + 1)
 ```
 
 But when we have a large number of elements, it is best to express the same
 formula but in factorial terms, so we will state it as follows:
 
-```math
+```{math}
 nPr=n!/(n-r)!
 ```
 
@@ -478,11 +478,11 @@ ideas, 4 will be the ratio of least interest among its four choices. The
 question is, in how many possible ways will the respondent be able to answer the
 questionnaire?
 
-![eleventh](_static/images/probabilities/image11.jpg)
+![eleventh](_static/images/probabilities/image11.jpeg)
 
 Answer:
 
-```math
+```{math}
 6P4 = 6!/(6-4)!
 6P4 = 6.5.4.3.2.1!/2.1!
 6P4 = 6.5.4.3

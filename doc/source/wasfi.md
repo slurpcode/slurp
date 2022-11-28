@@ -32,7 +32,7 @@ reclamation of agricultural lands in many areas of the central Jordanian desert,
 especially in the Al-Dhalil area, where Al-Tal was the first to initiate the
 reclamation of lands in the mentioned area for agricultural purposes.
 
-![wasfi](_static/images/wasfi/image2.jpg)
+![wasfi](_static/images/wasfi/image2.jpeg)
 
 Wasfi al-Tal also had the honor of initiating the establishment of the Phosphate
 Company and the Potash Company to exploit the vast wealth of the Dead Sea and
@@ -61,7 +61,7 @@ receive citizens in the presidential house, offering help and assistance to
 those who seek it from among the sons of the country, without discrimination or
 favoritism to anyone.
 
-![wasfi](_static/images/wasfi/image4.jpg)
+![wasfi](_static/images/wasfi/image4.jpeg)
 
 On a summer day, a delegation from the people of Al-Hussein camp came to him at
 the presidential house, complaining about the lack of water in their homes. He
@@ -91,7 +91,7 @@ Jordanian pain to Egypt, Syria, and Lebanon, and returned them to Jordan, and
 appointed a number of them in Leadership positions, and I mention among them
 Nazir Rashid, Ali Abu Nawar, Ali Al-Hiyari, Abdullah Al-Rimawi, and many others.
 
-![wasfi](_static/images/wasfi/image4.jpg)
+![wasfi](_static/images/wasfi/image4.jpeg)
 
 Wasfi al-Tal was a liberal nationalist and participated in all seminars and
 conferences held in many countries of the world in support of the Palestinian
@@ -116,7 +116,7 @@ Wasfi Al-Tal was a pioneering Jordanian tale and today Wadha is an example of a
 good biography that does not fade with time... Features of Wasfi’s biography He
 exchanged the homeland and leadership in loyalty.
 
-![wasfi](_static/images/wasfi/image5.jpg)
+![wasfi](_static/images/wasfi/image5.jpeg)
 
 Wasfi al-Tal was a jewel in the forehead of the homeland and one of his brave
 soldiers who served him honorably with the late leader King Hussein bin Talal

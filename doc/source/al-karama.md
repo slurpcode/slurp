@@ -14,7 +14,7 @@ since the 1967 war, he seeks to translate his ambitions and implement his plans
 while he surrounds himself with an aura of arrogance to impose what he sees and
 wants of coercion and expansion.
 
-![Soldiers](_static/images/karama/image1.jpg)
+![Soldiers](_static/images/karama/image1.jpeg)
 
 The goals of "Israel" from its invasion of Jordan can be summarized as follows:
 
@@ -62,7 +62,7 @@ sections. The sloping, rocky area is a strategic area where individuals lie
 against the mechanisms and impede their movement in the event of any advance by
 the enemy forces, as happened in the battle of Karama.
 
-![Soldiers](_static/images/karama/image2.jpg)
+![Soldiers](_static/images/karama/image2.jpeg)
 
 ## Forces of Both Parties
 
@@ -163,7 +163,7 @@ Arab army was high as they awaited the day of revenge and revenge against their
 enemy. They waited anxiously for the zero hour to respond to injustice and
 tyranny.
 
-![Tank-and-soldiers](_static/images/karama/image3.jpg)
+![Tank-and-soldiers](_static/images/karama/image3.jpeg)
 
 The battle highlighted the good planning, preparation, and good implementation
 of the Arab army, as well as the importance of intelligence, as the enemy did

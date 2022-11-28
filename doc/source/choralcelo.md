@@ -22,7 +22,7 @@ used in the pianoforte, which are vibrated by means of small electro- magnets st
 The concert this evening faithfully demonstrated the merits of the Choralcelo, and it may be expected to contribute important things to music.Great skill is required in it’s handling.
 The player is embarrassed somewhat by the very largeness of the means at his disposal. He must learn to select. With careful study this new instrument is designed to do many and large things and the contention of it’s inventor seems to be fully justified”
 
-![Choralcelo](_static/images/choralcelo/choralcelo1.jpg)
+![Choralcelo](_static/images/choralcelo/choralcelo1.jpeg)
 
 [Remains of a Choralcelo at the National Music Museum, Vermilion Sands, South Dakota]
 
