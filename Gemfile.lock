@@ -53,7 +53,7 @@ GEM
     ffi (1.15.5-x64-mingw32)
     ffi-win32-extensions (1.0.4)
       ffi
-    fileutils (1.6.0)
+    fileutils (1.7.0)
     flay (2.13.0)
       erubi (~> 1.10)
       path_expander (~> 1.0)
