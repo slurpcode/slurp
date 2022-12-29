@@ -4,9 +4,9 @@
 #
 version: 2
 jobs:
-  build:
+  build-python:
     docker:
-      - image: cimg/ruby:3.1.3-browsers
+      - image: cimg/ruby:3.2.0-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -38,6 +38,13 @@ jobs:
           name: 🧹 Run Flake8
           command: |
             flake8 --config=".github/linters/.flake8"
+
+  build:
+    docker:
+      - image: cimg/ruby:3.1.3-browsers
+    working_directory: ~/repo
+    steps:
+      - checkout
       - run:
           name: 🏗️ Update npm
           command: "sudo npm install -g npm@latest"
@@ -102,7 +109,7 @@ jobs:
 
   well-formed:
     docker:
-      - image: cimg/ruby:3.1.3-node
+      - image: cimg/ruby:3.2.0-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -119,7 +126,7 @@ jobs:
 
   built-in-datatypes:
     docker:
-      - image: cimg/ruby:3.1.3-node
+      - image: cimg/ruby:3.2.0-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -136,7 +143,7 @@ jobs:
 
   spelling:
     docker:
-      - image: cimg/ruby:3.1.3-node
+      - image: cimg/ruby:3.2.0-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -277,6 +284,7 @@ workflows:
   build-deploy:
     jobs:
       - build
+      - build-python
       - built-in-datatypes
       - csv-lint
       - go-test
@@ -288,10 +296,14 @@ workflows:
       - surge:
           requires:
             - build
+            - build-python
             - built-in-datatypes
             - csv-lint
             - go-test
+            - php
+            - shell
             - shellcheck
+            - well-formed
           filters:
             branches:
               only: main
