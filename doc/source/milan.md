@@ -12,7 +12,7 @@ Milan was founded by the Celtic Insubres around the 4th century BC. The Romans c
 
 ## Geography
 
-Milan is located in the Lombardy region of Italy. It is located on the banks of the River Po, which flows through the city. The city is surrounded by the Alps, which are the highest mountains in Europe. The city is located on the banks of the River Po, which flows through the city.
+Milan is located in the Lombardy region of Italy. It is located on the banks of the River Po, which flows through the city. The city is surrounded by the Alps, which are the highest mountains in Europe.
 
 ## Population
 
