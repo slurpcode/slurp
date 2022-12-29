@@ -186,6 +186,7 @@ Welcome to slurp's documentation!
    malaga.md
    melbourne.md
    mexico-city.md
+   milan.md
    montevideo.md
    moscow.md
    newcastle.md
