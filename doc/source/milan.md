@@ -1,4 +1,4 @@
-# Milan, Italy
+# 🇮🇹 Milan
 
 <!-- TODO: Adding an image -->
 
