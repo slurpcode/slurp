@@ -1,8 +1,8 @@
-# 🇮🇹 Milan
+l# 🇮🇹 Milan
 
 <!-- TODO: Adding an image -->
 
-Milan is the capital of the Lombardy region of Italy. It is the second most populous city in Italy, after Rome, and the most populous metropolitan area in Italy. The city proper has a population of 1,372,810 while its metropolitan area has a population of 3,209,000. The wider Milan metropolitan area, known as Greater Milan, is the third most populous metropolitan area in the European Union, with a population of 5,270,000.
+Milan is the capital of the Lombardy region of Italy. It is the second most populous city in Italy, after Rome, and the most populous metropolitan area in Italy.
 
 Milan is one of the world's leading financial and fashion capitals, and is considered a global city. It is home to the headquarters of the largest national and international banks and companies, including the world's largest insurance company, Allianz, and the world's largest asset manager, BlackRock. Milan is home to the stock exchange and the headquarters of the Italian Stock Exchange, the Italian Stock Exchange Index, the Italian Stock Exchange Index and the Italian Stock Exchange Index. The city is also home to the headquarters of the Italian Stock Exchange Index, the Italian Stock Exchange Index and the Italian Stock Exchange Index.
 
