@@ -1,4 +1,4 @@
-l# 🇮🇹 Milan
+# 🇮🇹 Milan
 
 <!-- TODO: Adding an image -->
 
