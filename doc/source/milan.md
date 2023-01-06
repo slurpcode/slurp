@@ -12,18 +12,6 @@ Geographically, Milan is located in the foothills of the Italian Alps and is sur
 
 Overall, Milan is a city with a rich and diverse history, a thriving cultural scene, and a strong economy. It is a must-visit destination for anyone interested in Italian history, art, or fashion.
 
-Milan is a city with a rich and vibrant history. It has long been a center of trade and commerce, as well as a hub of art and culture.
-
-One of the most famous landmarks in Milan is the Duomo, a stunning gothic cathedral that took over 600 years to build. The cathedral is home to a museum that showcases artifacts from the city's long history, as well as a roof terrace with panoramic views of the city.
-
-Milan is also home to a number of world-renowned museums, including the Brera Art Gallery, which houses works by artists such as Leonardo da Vinci and Caravaggio, and the Science and Technology Museum, which features interactive exhibits on the history of science and technology.
-
-The city is known for its fashion industry, and it is home to a number of high-end fashion boutiques and designer showrooms. Milan is also a hub for international trade and business, and it is home to the Milan Stock Exchange, as well as numerous banks and financial institutions.
-
-In addition to its cultural and economic significance, Milan is also a city with a rich culinary tradition. It is known for its dishes such as risotto alla Milanese and cotoletta alla Milanese, as well as its world-renowned espresso.
-
-Overall, Milan is a city with something for everyone, from art and culture to fashion and business. It is a must-visit destination for anyone interested in Italian history, culture, or cuisine.
-
 ## Author
 
 Ali Mohammadiyeh (Max Base) is an open-source maintainer at GitHub, a software engineer, and a full-time open-source programmer who studies mathematics as a researcher at university, he looking for applications of mathematics in the computer. As one of the world's most active programmers contributes and publishes his experience available. He has more than 10 years of programming experience.
