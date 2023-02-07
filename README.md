@@ -15,7 +15,6 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4199d4805b2a473284988680cffe85db)](https://www.codacy.com/gh/slurpcode/slurp/dashboard)
 [![codebeat](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-slurpcode-slurp-master)
 [![CodeFactor](https://www.codefactor.io/repository/github/slurpcode/slurp/badge)](https://www.codefactor.io/repository/github/slurpcode/slurp)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/slurpcode/slurp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/slurpcode/slurp/alerts/)
 ![GitHub repo size](https://img.shields.io/github/repo-size/slurpcode/slurp.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/slurpcode/slurp.svg)
 ![GitHub search hit counter](https://img.shields.io/github/search/slurpcode/slurp/jekyll.svg)
