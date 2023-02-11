@@ -5,4 +5,4 @@ source "https://rubygems.org"
 gem "mdl"
 gem "rubocop", require: false
 
-ruby "3.1.3"
+ruby "3.2.1"
