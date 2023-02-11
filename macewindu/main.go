@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/gocolly/colly"
+	"github.com/gocolly/colly/v2"
 	_ "github.com/heroku/x/hmetrics/onload"
 	"math/rand"
 	"net/http"
