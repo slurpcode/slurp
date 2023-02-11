@@ -6,7 +6,7 @@ version: 2
 jobs:
   build-python:
     docker:
-      - image: cimg/ruby:3.1.3-browsers
+      - image: cimg/ruby:3.2.1-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -41,7 +41,7 @@ jobs:
 
   build:
     docker:
-      - image: cimg/ruby:3.1.3-browsers
+      - image: cimg/ruby:3.2.1-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -109,7 +109,7 @@ jobs:
 
   well-formed:
     docker:
-      - image: cimg/ruby:3.1.3-node
+      - image: cimg/ruby:3.2.1-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -126,7 +126,7 @@ jobs:
 
   built-in-datatypes:
     docker:
-      - image: cimg/ruby:3.1.3-node
+      - image: cimg/ruby:3.2.1-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -143,7 +143,7 @@ jobs:
 
   spelling:
     docker:
-      - image: cimg/ruby:3.1.3-node
+      - image: cimg/ruby:3.2.1-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -159,7 +159,7 @@ jobs:
 
   surge:
     docker:
-      - image: cimg/python:3.11.1-node
+      - image: cimg/python:3.11.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -237,7 +237,7 @@ jobs:
 
   shell:
     docker:
-      - image: cimg/python:3.11.1-node
+      - image: cimg/python:3.11.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -269,7 +269,7 @@ jobs:
 
   php:
     docker:
-      - image: cimg/php:8.2.0
+      - image: cimg/php:8.2.1
     working_directory: ~/repo
     steps:
       - checkout
