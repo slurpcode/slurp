@@ -49,7 +49,6 @@ GEM
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
     ffi (1.15.5)
-    ffi (1.15.5-x64-mingw32)
     ffi-win32-extensions (1.0.4)
       ffi
     fileutils (1.7.0)
@@ -284,7 +283,7 @@ GEM
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.1)
       connection_pool (~> 2.2)
-    nokogiri (1.14.1)
+    nokogiri (1.14.2)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     octokit (4.25.1)
