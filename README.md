@@ -134,7 +134,7 @@
 - [AccessLint](https://www.accesslint.com/) - A GitHub App that finds accessibility issues in your pull requests
 - [CodeFactor](https://www.codefactor.io/) - CodeFactor automatically and continuously tracks code quality with every GitHub or BitBucket commit and pull request
 - [DeepScan](https://deepscan.io/) - A cutting-edge static analysis tool for JavaScript
-- [Renovate](https://renovate.whitesourcesoftware.com/) - Save time and reduce risk by automating dependency updates in software projects
+- [Renovate](https://github.com/renovatebot) - Renovate, a bot for automated dependency updates
 - [DeepSource](https://deepsource.io/) - Discover and fix bug risks, anti-patterns, performance issues, and security flaws during code reviews. For Python and Go
 - [Requirements files](https://pip.pypa.io/en/stable/user_guide/#requirements-files) - These files containing a list of items to be installed using pip install
 - [WIP](https://github.com/marketplace/wip) - Allow authors of pull requests to set status to pending while still working on it
