@@ -2,8 +2,11 @@
 
 require "selenium-webdriver"
 
-capabilities = Selenium::WebDriver::Remote::Capabilities.firefox(accept_insecure_certs: true)
-driver = Selenium::WebDriver.for :firefox, desired_capabilities: capabilities
+# capabilities = Selenium::WebDriver::Remote::Capabilities.firefox(accept_insecure_certs: true)
+# driver = Selenium::WebDriver.for :firefox, desired_capabilities: capabilities
+
+options = Selenium::WebDriver::Options.firefox
+driver = Selenium::WebDriver.for :firefox, options: options
 
 begin
   driver.get "https://slurpcode.github.io/slurp/"
