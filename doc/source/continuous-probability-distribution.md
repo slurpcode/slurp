@@ -276,7 +276,7 @@ So we have an 18.08% probability that at least 80% of the latest models sold of 
 
 Beta distribution example 2: suppose that a stress is applied to a 1 m iron bar, which is fixed at each of its ends, where y = "The distance from the point where the bar breaks to the extreme left expressed in meters ”and we know in advance that“ y ”has a Beta distribution, the expected value and its variance being equivalent to:
 
-![Mathmatical Equation](_static/images/continuous-probability-distribution/image11.jpeg)
+![Mathematical Equation](_static/images/continuous-probability-distribution/image11.jpeg)
 
 `E (y) = 1/2`
 `Var (y) = 1/28`
