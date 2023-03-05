@@ -1,5 +1,11 @@
 # 🎬 Getting Started
 
+Stay here if you want a basic intro to the world of GitHub.
+If you just want to work on the `doc` folder or our documentation site
+<https://slurp.readthedocs.io/> then skip to [Documentation](#documentation)
+
+## Introduction
+
 This set of documentation is written in
 [Markdown](https://daringfireball.net/projects/markdown/syntax) which is a
 lightweight and easy-to-use syntax for styling all forms of writing.
@@ -22,7 +28,7 @@ Discussion about code base improvements happens in GitHub
 
 ## Basic Setup
 
-Project requires Golang, Node, Ruby, Python and more.
+The project requires Golang, Node, Ruby, Python and more.
 
 ```shell
 npm install -g npm@latest
@@ -38,8 +44,9 @@ pip3 install -r requirements.txt
 
 ## Documentation
 
-Python [Sphinx](https://www.sphinx-doc.org/) based `Slurp Read the Docs` site
-based in Markdown. We have a local requirements file just for `Read the Docs` hosting.
+Python [Sphinx](https://www.sphinx-doc.org/) based `slurp documentation`
+site written mainly in Markdown. We have a local requirements file just for
+the `Read the Docs` hosting in the `doc` folder
 
 ```shell
 cd doc || exit
@@ -48,11 +55,18 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-Files are stored in `doc/source`. From the `doc` folder run with:
+Files are stored in `doc/source`. From the `doc` folder you can build the
+HTML output files which are stored in `doc/build`. These local build files
+are ignored from Git.
 
 ```shell
+cd doc || exit
 make html
 ```
+
+On Read the Docs we also have
+[PDF](https://slurp.readthedocs.io/_/downloads/en/latest/pdf/) and
+[Epub](https://slurp.readthedocs.io/_/downloads/en/latest/epub/) versions
 
 ## Fuchsia Programming Site
 
@@ -67,7 +81,7 @@ bundle exec jekyll serve
 
 ## Logorama
 
-`Logorama` is a Jekyll based logo showcase site that requires Ruby:
+`Logorama` is a Jekyll based logo showcase site that requires Ruby
 
 ```shell
 cd logorama || exit
