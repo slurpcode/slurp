@@ -73,7 +73,7 @@ repos:
       - id: markdownlint
         name: Run markdownlint
         entry: markdownlint -c .github/linters/.markdown-lint.yml .
-        args: ['--ignore', 'node_modules']
+        args: [--ignore=doc/venv, --ignore=node_modules]
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.28.0
     hooks:

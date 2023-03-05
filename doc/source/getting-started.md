@@ -16,7 +16,7 @@ Discussion about code base improvements happens in GitHub
 
 - [Cloudflare Workers](https://workers.cloudflare.com/)
 - [GitHub Pages](https://pages.github.com/)
-- [Heroku](https://www.heroku.com/)
+- [Heroku](https://www.heroku.com/) - no longer free
 - [Read the Docs](https://readthedocs.org/)
 - [Render](https://render.com/)
 
@@ -39,30 +39,46 @@ pip3 install -r requirements.txt
 ## Documentation
 
 Python [Sphinx](https://www.sphinx-doc.org/) based `Slurp Read the Docs` site
-based in Markdown. Files are stored in `doc/source`. Run with:
+based in Markdown. We have a local requirements file just for `Read the Docs` hosting.
 
-```
+```shell
 cd doc || exit
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
+
+Files are stored in `doc/source`. From the `doc` folder run with:
+
+```shell
 make html
 ```
 
-`Fuchsia Programming` is a Jekyll based site that requires Ruby:
+## Fuchsia Programming Site
 
-```
+`Fuchsia Programming` is a Jekyll based site that requires Ruby which
+is stored in the `docs` folder. Don't get mixed up with `doc` from the
+[documentation](#documentation) site above.
+
+```shell
 cd docs || exit
 bundle exec jekyll serve
 ```
 
+## Logorama
+
 `Logorama` is a Jekyll based logo showcase site that requires Ruby:
 
-```
+```shell
 cd logorama || exit
 bundle exec jekyll serve
 ```
 
+## DITA Project
+
 `DITA To PDF` - Vanilla
 
-```
-cd eclipse-cheatsheets-to-dita-to-pdf/output
+```shell
+cd eclipse-cheatsheets-to-dita-to-pdf/output || exit
 dita --input=map.ditamap --format=pdf -o pdf
 ```
