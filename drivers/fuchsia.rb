@@ -13,6 +13,8 @@ begin
   sleep(30)
   driver.find_element(tag_name: "body").send_keys "midnight", :return
   sleep(15)
+  driver.find_element(tag_name: "body").send_keys "king", :return
+  sleep(15)
   # driver.find_element(tag_name: "body").send_keys "winter", :return
   # sleep(15)
 ensure
