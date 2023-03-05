@@ -3,6 +3,10 @@
 version = 1
 
 [[analyzers]]
+name = "go"
+enabled = true
+
+[[analyzers]]
 name = "javascript"
 enabled = true
 
