@@ -60,7 +60,7 @@
 - [hashcheck](https://slurp.readthedocs.io/en/latest/hashcheck.html) - Ruby script to check file checksums with the Windows CertUtil Command
 - [logorama](https://logorama.herokuapp.com/) - Logos done Rama. Hosted on Heroku Cloud Platform
 - [ruby-cheatsheets-to-dita](https://slurp.readthedocs.io/en/latest/ruby-cheat-sheets.html) - Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
-- scrapers - Web scrapers in progress. FQL, Golang, PHP, Perl, Python, Ruby and Shell. Colly, ferret, lxml, Nokogiri, Regex, Scrapy, XPath. awk, cd, curl, echo, exit, grep, mkdir, pcregrep, sed, sort, sleep, tail, uniq
+- scrapers - Web scrapers in progress. FQL, Golang, PHP, Perl, Python, Ruby and Shell. Colly, ferret, Nokogiri, Regex, Scrapy, XPath. awk, cd, curl, echo, exit, grep, mkdir, pcregrep, sed, sort, sleep, tail, uniq
 - [seek](https://slurp.readthedocs.io/en/latest/seek.html) - seek is a Ruby based command line script that builds 🔧 🔩 🔨 CSV results of job searches
 - tests/spelling - Output folder showing misspelled words
 - [well-formed](https://slurp.readthedocs.io/en/latest/well-formed.html) - Ruby script used to check the well formedness of XML files

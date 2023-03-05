@@ -3,6 +3,7 @@ node_modules
 *.iml
 *.ipr
 *.iws
+*.log
 scapers/fql/*.log
 ferret.log
 scapers/shell/logos

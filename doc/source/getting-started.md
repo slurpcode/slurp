@@ -31,11 +31,9 @@ npm install -g npm@latest
 From the root of the repository:
 
 ```shell
+python3 -m venv venv
+source venv/bin/activate
 pip3 install -r requirements.txt
-npm install
-gem install bundler
-bundle update --bundler
-bundle install
 ```
 
 ## Documentation
