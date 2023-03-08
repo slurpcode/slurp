@@ -17,8 +17,8 @@ now ranked first on the [TIOBE Index](http://www.tiobe.com/tiobe_index).
 
 This project takes DITA XML as input and transforms it to
 [PDF](https://acrobat.adobe.com/au/en/products/about-adobe-pdf.html) with the
-DITA Open Toolkit and a custom made plugin using Apache Ant. Using PDF allows us
-to print a nicely formated documents on paper. Using Eclipse generating the PDF
+DITA Open Toolkit and a custom-made plugin using Apache Ant. Using PDF allows us
+to print a nicely formatted documents on paper. Using Eclipse generating the PDF
 output can be done in one click by building the project and this creates a
 publishing pipeline making all the different PDF's one after the other.
 
