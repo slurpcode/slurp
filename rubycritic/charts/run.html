@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- StyleSheets -->
-    <link href="../assets/stylesheets/bootstrap.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
-    <link href="../assets/stylesheets/font-awesome.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
-    <link href="../assets/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/bootstrap.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/font-awesome.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
     <link href="../assets/stylesheets/application.css" media="screen, projection, print" rel="stylesheet" type="text/css">
   </head>
 
@@ -47,7 +47,7 @@
     <div class="file-time">
       <span class="committed-at">
         
-          Updated <time class='js-timeago' datetime='2020-11-10 23:33:08 +1000'>2020-11-10 23:33:08 +1000</time>
+          Updated <time class='js-timeago' datetime='2022-04-04 20:55:12 +0600'>2022-04-04 20:55:12 +0600</time>
         
       </span>
     </div>
@@ -68,15 +68,15 @@
           </div>
           <div class="code-statistics col-md-11">
             <div class="col-md-3">
-              <div><span class="metric">951</span><small> lines of codes</small></div>
+              <div><span class="metric">963</span><small> lines of codes</small></div>
               <div><span class="metric">34</span><small> methods</small></div>
             </div>
             <div class="col-md-3">
-              <div><span class="metric">11.4</span><small> complexity/method</small></div>
-              <div><span class="metric">6</span><small> churn</small></div>
+              <div><span class="metric">11.3</span><small> complexity/method</small></div>
+              <div><span class="metric">13</span><small> churn</small></div>
             </div>
             <div class="col-md-3">
-              <div><span class="metric">389.1</span><small> complexity</small></div>
+              <div><span class="metric">385.11</span><small> complexity</small></div>
               <div><span class="metric">321</span><small> duplications</small></div>
             </div>
           </div>
@@ -98,30 +98,31 @@
     </div>
 
     <code class="prettyprint linenums lang-ruby file-code js-file-code">#!/usr/bin/env ruby
+# frozen_string_literal: true
 
 # Reach your final destination
 
-require &#39;chroma&#39;
-require &#39;csv&#39;
-require &#39;fileutils&#39;
-require &#39;kramdown&#39;
-require &#39;prawn&#39;
+require &quot;chroma&quot;
+require &quot;csv&quot;
+require &quot;fileutils&quot;
+require &quot;kramdown&quot;
+require &quot;prawn&quot;
 # require &#39;prawn/table&#39;
-require &#39;yaml&#39;
+require &quot;yaml&quot;
 
 # chart types
-chart_types = {&#39;d3pie&#39; =&gt; &#39;d3pie&#39;,
-               &#39;chartjs&#39; =&gt; &#39;Chart.js&#39;,
-               &#39;google&#39; =&gt; &#39;Google Charts&#39;,
-               &#39;plotly&#39; =&gt; &#39;plotly.js&#39;,
-               &#39;all&#39; =&gt; &#39;All chart types&#39;}
+chart_types = {&quot;d3pie&quot; =&gt; &quot;d3pie&quot;,
+               &quot;chartjs&quot; =&gt; &quot;Chart.js&quot;,
+               &quot;google&quot; =&gt; &quot;Google Charts&quot;,
+               &quot;plotly&quot; =&gt; &quot;plotly.js&quot;,
+               &quot;all&quot; =&gt; &quot;All chart types&quot;}
 
-FileUtils.mkdir_p(&#39;site/assets/images/python&#39;)
-FileUtils.copy_entry(&#39;assets&#39;, &#39;site/assets&#39;)
+FileUtils.mkdir_p(&quot;site/assets/images/python&quot;)
+FileUtils.copy_entry(&quot;assets&quot;, &quot;site/assets&quot;)
 
 # this repository is built with these technologies
 built_with = {}
-CSV.foreach(&#39;config/built_with.csv&#39;) do |row|
+CSV.foreach(&quot;config/built_with.csv&quot;) do |row|
   built_with[:&quot;#{row[0]}&quot;] = row[1]
 end
 
@@ -134,9 +135,9 @@ plotlyjs_script = %w[assets/js/plotly.min.js]
 
 # runs Python from a shell command
 def python_charts
-  os = RbConfig::CONFIG[&#39;host_os&#39;].downcase
-  python = &#39;python3&#39;
-  python = &#39;python&#39; unless os.include?(&#39;linux&#39;) || os.include?(&#39;darwin&#39;)
+  os = RbConfig::CONFIG[&quot;host_os&quot;].downcase
+  python = &quot;python3&quot;
+  python = &quot;python&quot; unless os.include?(&quot;linux&quot;) || os.include?(&quot;darwin&quot;)
 
   # create Python charts for homepage
   `#{python} python/charts.py`
@@ -147,7 +148,7 @@ python_charts
 
 # make the site built with links into kramdown
 def kramdown_links(links)
-  s = &#39;&#39;
+  s = &quot;&quot;
   links.each_with_index do |(key, value), index|
     s += &quot;#{index + 1}. [#{key}](#{value}){:target=\\\&quot;_blank\\\&quot;}{:rel=\\\&quot;noopener\\\&quot;}\n\n&quot;
   end
@@ -158,7 +159,7 @@ end
 
 # function to open and read in file
 def read_file(filename)
-  file = File.open(filename, &#39;r&#39;)
+  file = File.open(filename, &quot;r&quot;)
   data = file.read
   file.close
   data
@@ -166,41 +167,41 @@ end
 
 # function
 def ii(index)
-  index.positive? ? index : &#39;&#39;
+  index.positive? ? index : &quot;&quot;
 end
 
 # Most popular word in the MIT Open source license
 def mit_word_count
-  read_file(&#39;../LICENSE&#39;).split.map{|x| x.gsub(/[^a-z0-9]/i, &#39;&#39;).downcase}
-                         .group_by{|x| x}.map{|k, v| [k, v.size]}.sort_by{|_, y| -y}
+  read_file(&quot;../LICENSE&quot;).split.map { |x| x.gsub(/[^a-z0-9]/i, &quot;&quot;).downcase }
+                         .group_by { |x| x }.map { |k, v| [k, v.size] }.sort_by { |_, y| -y }
 end
 
 # returns the filename without its extension
 def fir(arr)
-  arr.first.split(&#39;.&#39;).first
+  arr.first.split(&quot;.&quot;).first
 end
 
 # common function to write data to file
 def write_file(filename, data)
-  f = File.open(filename, &#39;w&#39;)
+  f = File.open(filename, &quot;w&quot;)
   f.write(data)
   f.close
 end
 
 def config(built_with)<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flog/" target="_blank"><b>HighComplexity</b></a>        </span>      </div>      <span>main#config has a flog score of 25</span>          </div>  </li></ol>
   # set up the config file
-  config = read_file(&#39;config.yml&#39;).chomp(&#39;&#39;).chop + kramdown_links(built_with)
+  config = read_file(&quot;config.yml&quot;).chomp(&quot;&quot;).chop + kramdown_links(built_with)
   # german
-  config_de = read_file(&#39;config/de.yml&#39;).chomp(&#39;&#39;).chop + kramdown_links(built_with)
+  config_de = read_file(&quot;config/de.yml&quot;).chomp(&quot;&quot;).chop + kramdown_links(built_with)
 
-  write_file(&#39;site.yml&#39;, &quot;#{config}\n\n#{config_de}&quot;)
+  write_file(&quot;site.yml&quot;, &quot;#{config}\n\n#{config_de}&quot;)
 
   # load website config file
-  site_config = YAML.safe_load(read_file(&#39;site.yml&#39;))
+  site_config = YAML.safe_load(read_file(&quot;site.yml&quot;))
 
   # create README from config file
-  write_file(&#39;README.md&#39;, site_config[&#39;about&#39;].gsub(&#39;{:target=&quot;_blank&quot;}{:rel=&quot;noopener&quot;}&#39;, &#39;&#39;))
-  write_file(&#39;lang/README.de.md&#39;, site_config[&#39;aboutde&#39;].gsub(&#39;{:target=&quot;_blank&quot;}{:rel=&quot;noopener&quot;}&#39;, &#39;&#39;))
+  write_file(&quot;README.md&quot;, site_config[&quot;about&quot;].gsub(&#39;{:target=&quot;_blank&quot;}{:rel=&quot;noopener&quot;}&#39;, &quot;&quot;))
+  write_file(&quot;lang/README.de.md&quot;, site_config[&quot;aboutde&quot;].gsub(&#39;{:target=&quot;_blank&quot;}{:rel=&quot;noopener&quot;}&#39;, &quot;&quot;))
 
   site_config
 end
@@ -209,31 +210,31 @@ end
 site_config = config(built_with)
 
 # current chart type
-ct = chart_types[site_config[&#39;chart_type&#39;]]
+ct = chart_types[site_config[&quot;chart_type&quot;]]
 
 # GitHub buttons shown in the footer
 def github_buttons(repository, username)
   [
-    [&quot;/#{repository}&quot;, &quot;Star #{username}/#{repository} on GitHub&quot;, &#39;Star&#39;, &#39;star&#39;],
-    [&quot;/#{repository}/subscription&quot;, &quot;Watch #{username}/#{repository} on GitHub&quot;, &#39;Watch&#39;, &#39;eye&#39;],
-    [&quot;/#{repository}/fork&quot;, &quot;Fork #{username}/#{repository} on GitHub&quot;, &#39;Fork&#39;, &#39;repo-forked&#39;]
+    [&quot;/#{repository}&quot;, &quot;Star #{username}/#{repository} on GitHub&quot;, &quot;Star&quot;, &quot;star&quot;],
+    [&quot;/#{repository}/subscription&quot;, &quot;Watch #{username}/#{repository} on GitHub&quot;, &quot;Watch&quot;, &quot;eye&quot;],
+    [&quot;/#{repository}/fork&quot;, &quot;Fork #{username}/#{repository} on GitHub&quot;, &quot;Fork&quot;, &quot;repo-forked&quot;]
   ]
 end
 
 # create the GitHub buttons
-buttons = github_buttons(site_config[&#39;repository&#39;], site_config[&#39;github_username&#39;])
+buttons = github_buttons(site_config[&quot;repository&quot;], site_config[&quot;github_username&quot;])
 
 # create cloc data
 # cloc = `cloc . --ignored=ignored.txt --skip-uniqueness --quiet`
-cloc = &#39;&#39;
+cloc = &quot;&quot;
 
 def log_data
   # create git log for histogram on homepage
   log = `git log --pretty=format:&quot;%ad&quot; --date=short`
-  write_file(&#39;log.txt&#39;, log)
+  write_file(&quot;log.txt&quot;, log)
 
-  logdata = read_file(&#39;log.txt&#39;)
-  logdata = logdata.lines.group_by(&amp;:strip).map{|k, v| [k, v.size]}
+  logdata = read_file(&quot;log.txt&quot;)
+  logdata = logdata.lines.group_by(&amp;:strip).map { |k, v| [k, v.size] }
   logdata.unshift(%w[Date Amount])
 end
 
@@ -245,10 +246,10 @@ end
 
 # data for the d3pie file type report on home page
 def file_extensions
-  Dir.glob(&#39;**/*&#39;).map do |x|
+  Dir.glob(&quot;**/*&quot;).map do |x|
     ext = File.extname(x)
-    if ext == &#39;&#39;
-      &#39;folders&#39;
+    if ext == &quot;&quot;
+      &quot;folders&quot;
     else
       ext[1..]
     end
@@ -259,7 +260,7 @@ end
 def colors(color, files, count)
   degrees = 360.0 / count
   files.map.with_index(1) do |f, i|
-    color[:&quot;#{f}&quot;] = &#39;red&#39;.paint.spin(degrees * i)
+    color[:&quot;#{f}&quot;] = &quot;red&quot;.paint.spin(degrees * i)
   end
 end
 
@@ -271,18 +272,18 @@ colors(exthash, uniqfile, uniqfilesize)
 
 # colors for most of the schema charts
 schema_colors = {}
-schema_files = Dir[&#39;data/schema/*.xsd&#39;].map{|x| File.basename(x)}
+schema_files = Dir[&quot;data/schema/*.xsd&quot;].map { |x| File.basename(x) }
 schema_count = schema_files.size
 colors(schema_colors, schema_files, schema_count)
 
 # extensions
-allfiles = file_extensions.group_by{|x| x}.map{|k, v| [k, v.size]}
+allfiles = file_extensions.group_by { |x| x }.map { |k, v| [k, v.size] }
 
 # function that generates the pie chart data
 def generate_data<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flog/" target="_blank"><b>HighComplexity</b></a>        </span>      </div>      <span>main#generate_data has a flog score of 37</span>          </div>  </li></ol>
   tokens = []
   # loop over schema files
-  Dir.glob(&#39;data/schema/*.xsd&#39;).map do |schema|
+  Dir.glob(&quot;data/schema/*.xsd&quot;).map do |schema|
     data = read_file(schema)
     data.scan(/&lt;xs:\w+|\w+=&quot;\w+&quot;|\w+=&quot;xs:\w+&quot;/).uniq do |x|
       tokens &lt;&lt; x unless tokens.include? x
@@ -295,8 +296,8 @@ def generate_data<ol class="nocode errors smells">  <li>    <div class="descript
   structure = []
   tokens.sort.map.with_index do |x, i|
     structure[i] = [x]
-    Dir.glob(&#39;data/schema/*.xsd&#39;).map do |schema|
-      filename = schema.split(&#39;/&#39;).last
+    Dir.glob(&quot;data/schema/*.xsd&quot;).map do |schema|
+      filename = schema.split(&quot;/&quot;).last
       amount = read_file(schema).scan(x).size
       structure[i] &lt;&lt; [filename, amount] unless amount.zero?
     end
@@ -323,7 +324,7 @@ end
 
 # add navigation hyperlinks
 def add_links(page_count, use_spacing=0)
-  page = &#39;&#39;
+  page = &quot;&quot;
   (0..page_count).map do |i|
     page += %(
           #{use_spacing.positive? ? &#39;&#39; : &#39;  &#39;}&lt;li&gt;&lt;a href=&quot;index#{ii(i)}.html&quot;&gt;Page #{i + 1}&lt;/a&gt;&lt;/li&gt;)
@@ -333,12 +334,12 @@ end
 
 # remove special characters as they clash with JavaScript&#39;s naming conventions
 def clean_chart(chart)
-  chart.tr(&#39;&lt;&quot;=: &#39;, &#39;&#39;)
+  chart.tr(&#39;&lt;&quot;=: &#39;, &quot;&quot;)
 end
 
 # add JavaScripts to each page
 def add_scripts(scripts, chart_scripts)
-  s = &#39;&#39;
+  s = &quot;&quot;
   scripts.map do |script|
     s += %(
     &lt;script src=&quot;assets/#{script}&quot;&gt;&lt;/script&gt;)
@@ -356,7 +357,9 @@ def draw_d3pie_chart(type, which, data, num, colors, title, width, height,<ol cl
                      segmentsize, pieouterradius, pieinnerradius, piedistance, linesenabled,
                      pulloutsegmentsize, titlefont, footerfont, footerfontsize, backgroundcolor,
                      footercolor)
-  high = 1; seen = []; element = &#39;&#39;
+  high = 1
+  seen = []
+  element = &quot;&quot;
   data.map do |x|
     if x[1] &gt; high
       high = x[1]
@@ -405,7 +408,7 @@ def draw_d3pie_chart(type, which, data, num, colors, title, width, height,<ol cl
             },
             &#39;content&#39;: [&quot;
   data.each do |x|
-    s += if x[0].include?(&#39;.&#39;) || type != 2
+    s += if x[0].include?(&quot;.&quot;) || type != 2
            &quot;{&#39;label&#39;:&#39;#{x[0].split(&#39;.&#39;).first}&#39;,&#39;value&#39;:#{x[1]},&#39;color&#39;:&#39;#{colors[:&quot;#{x[0]}&quot;]}&#39;},&quot;
          else
            &quot;{&#39;label&#39;:&#39;#{x[0]}&#39;,&#39;value&#39;:#{x[1]},&#39;color&#39;:&#39;black&#39;},&quot;
@@ -483,7 +486,8 @@ end
 def section_built_with(cloc, site_config)<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flog/" target="_blank"><b>HighComplexity</b></a>        </span>      </div>      <span>main#section_built_with has a flog score of 27</span>          </div>  </li></ol>
   s = %(
       &lt;div class=&quot;col-md-5&quot;&gt;
-        #{Kramdown::Document.new(site_config[&#39;about&#39;].gsub(&#39;[English](README.md) [Deutsche](lang/README.de.md)&#39;, &#39;&#39;)).to_html}
+        #{Kramdown::Document.new(site_config[&#39;about&#39;].gsub(&#39;[English](README.md) [Deutsche](lang/README.de.md)&#39;,
+                                                           &#39;&#39;)).to_html}
       &lt;/div&gt;
       &lt;div class=&quot;col-md-7&quot;&gt;
         &lt;h3&gt;#{site_config[&#39;homepage_subheading4&#39;]}&lt;/h3&gt;
@@ -500,7 +504,7 @@ def section_built_with(cloc, site_config)<ol class="nocode errors smells">  <li>
     &lt;div class=&quot;row&quot;&gt;
       &lt;div class=&quot;col-sm-12&quot; id=&quot;d3pie_chart_div_homepage_mit&quot;&gt;&lt;/div&gt;
     &lt;/div&gt;)
-  Dir[&#39;site/assets/images/python/*&#39;].map do |image|
+  Dir[&quot;site/assets/images/python/*&quot;].map do |image|
     s += %(
     &lt;div class=&quot;row&quot;&gt;
       &lt;img class=&quot;img-responsive&quot; src=&quot;#{image.split(&#39;site/&#39;).last}&quot; alt=&quot;#{image.split(&#39;/&#39;).last.split(&#39;.&#39;).first.capitalize.split(&#39;-&#39;).join &#39; &#39;}&quot;&gt;
@@ -511,12 +515,12 @@ end
 
 # function to make the list of GitHub buttons
 def add_github_buttons(arr)
-  s = &#39;&#39;
+  s = &quot;&quot;
   arr.map do |button|
     s += %(
           &lt;li&gt;
             &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/slurpcode#{button[0]}&quot;)
-    s += %( data-icon=&quot;octicon-#{button[3]}&quot; ) unless button[3] == &#39;&#39;
+    s += %( data-icon=&quot;octicon-#{button[3]}&quot; ) unless button[3] == &quot;&quot;
     s += %( data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;#{button[1]}&quot;&gt;#{button[2]}&lt;/a&gt;
           &lt;/li&gt;)
   end
@@ -526,18 +530,19 @@ end
 # common function to add the apple icons
 def add_apple_icons(icon_path)<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flog/" target="_blank"><b>HighComplexity</b></a>        </span>      </div>      <span>main#add_apple_icons has a flog score of 25</span>          </div>  </li></ol>
   icons = Dir.glob(&quot;#{icon_path}apple-icon-[0-9]*.png&quot;).map do |apple_icon|
-    icon_size = apple_icon.split(&#39;.&#39;).first.split(&#39;-&#39;).last
+    icon_size = apple_icon.split(&quot;.&quot;).first.split(&quot;-&quot;).last
     %(
     &lt;link rel=&quot;apple-touch-icon&quot; sizes=&quot;#{icon_size}&quot; href=&quot;#{apple_icon}&quot;&gt;)
   end
-  icons.sort_by{|x| x.split(&#39;.&#39;).first.split(&#39;-&#39;).last.split(&#39;x&#39;).first.to_i}.join
+  icons.sort_by { |x| x.split(&quot;.&quot;).first.split(&quot;-&quot;).last.split(&quot;x&quot;).first.to_i }.join
 end
 
 # common function to add the icons
 def add_icons
-  icon_path = &#39;assets/images/icons/&#39;
+  icon_path = &quot;assets/images/icons/&quot;
   s = add_apple_icons(icon_path)
-  b = &#39;&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;&#39;; j = %(&quot; href=&quot;#{icon_path})
+  b = &#39;&lt;link rel=&quot;icon&quot; type=&quot;image/png&quot; sizes=&quot;&#39;
+  j = %(&quot; href=&quot;#{icon_path})
   s + %(
     #{b}192x192#{j}android-icon-192x192.png&quot;&gt;
     #{b}32x32#{j}favicon-32x32.png&quot;&gt;
@@ -584,11 +589,11 @@ def draw_chartjs_chart(type, canvas_id, data, colors, title, titlefontsize, resp
       var myChart = new Chart(ctx, {
         type: &#39;#{type}&#39;,
         data: {
-            labels: #{data.map{|x| fir(x)}},
+            labels: #{data.map { |x| fir(x) }},
             datasets: [{
                 label: &#39;#{title}&#39;,
                 data: #{data.map(&amp;:last)},
-                backgroundColor: #{data.map{|x| colors[:&quot;#{x[0]}&quot;].to_s}}
+                backgroundColor: #{data.map { |x| colors[:&quot;#{x[0]}&quot;].to_s }}
             }]
         },
         options: {
@@ -608,7 +613,7 @@ def draw_plotly_chart(chart_div, data, title, height, width, type)
   %(
     var data = [{
       values: #{data.map(&amp;:last)},
-      labels: #{data.map{|x| fir(x)}},
+      labels: #{data.map { |x| fir(x) }},
       hole: #{type},
       type: &#39;pie&#39;
     }];
@@ -619,7 +624,7 @@ def draw_plotly_chart(chart_div, data, title, height, width, type)
         size: 12,
         color: &#39;black&#39;
       },
-      height: #{height + data.size * 15}, // Each legend entry is 15 high.
+      height: #{height + (data.size * 15)}, // Each legend entry is 15 high.
       width: #{width},
       showlegend: true,
           legend: {
@@ -633,7 +638,7 @@ end
 
 # strip p tags from Kramdown output for headings
 def gs(text)
-  text.gsub(%r{&lt;/?p&gt;}, &#39;&#39;).strip
+  text.gsub(%r{&lt;/?p&gt;}, &quot;&quot;).strip
 end
 
 # replaces &#39;d3pie&#39; with one of &#39;Google Charts&#39;, &#39;Chart.js&#39;, &#39;plotly.js&#39; or &#39;d3pie&#39; or &#39;All chart types&#39;
@@ -645,7 +650,7 @@ end
 # data variable
 structure = generate_data
 # home page plus other pages with 50 charts per page
-page_count = structure.size / 50 + 1
+page_count = (structure.size / 50) + 1
 
 # common HTML page header include
 def page_header(site_config, page_count)<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flog/" target="_blank"><b>HighComplexity</b></a>        </span>      </div>      <span>main#page_header has a flog score of 29</span>          </div>  </li></ol>
@@ -725,21 +730,21 @@ page_header(site_config, page_count)
 # add built with links to home page
 @page += section_built_with(cloc, site_config)
 # main page variable
-page = &#39;&#39;
+page = &quot;&quot;
 # create main page heading
-if site_config[&#39;chart_type&#39;] == &#39;all&#39;
+if site_config[&quot;chart_type&quot;] == &quot;all&quot;
   (0..page_count - 1).map do |i|
     type = case i % 8
            when 0..1
-             &#39;d3pie&#39;
+             &quot;d3pie&quot;
            when 2..3
-             &#39;plotly&#39;
+             &quot;plotly&quot;
            when 4..5
-             &#39;google&#39;
+             &quot;google&quot;
            else
-             &#39;chartjs&#39;
+             &quot;chartjs&quot;
            end
-    t = site_type(site_config[&#39;chart_pages_heading&#39;], chart_types[type])
+    t = site_type(site_config[&quot;chart_pages_heading&quot;], chart_types[type])
     instance_variable_set(&quot;@page#{i + 1}&quot;, instance_variable_get(&quot;@page#{i + 1}&quot;) + %(
       &lt;h1&gt;#{t}&lt;/h1&gt;))
   end
@@ -758,50 +763,50 @@ page_build(page, page_count, 1)
 # add chart divs to each page
 structure.map.with_index do |chart, i|
   data0 = clean_chart(chart[0])
-  i = i / 50 + 1
+  i = (i / 50) + 1
   instance_variable_set(&quot;@page#{i}&quot;,
                         &quot;#{gp(i)}\n      &quot; +
-    case site_config[&#39;chart_type&#39;]
-    when &#39;all&#39;
-      case (i - 1) % 8
-      when 0..1 # d3pie
-        %(
+                        case site_config[&quot;chart_type&quot;]
+                        when &quot;all&quot;
+                          case (i - 1) % 8
+                          when 0..1 # d3pie
+                            %(
       &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot; id=&quot;d3pie_chart_div_#{data0}&quot;&gt;&lt;/div&gt;)
-      when 2..3 # plotly
-        %(
+                          when 2..3 # plotly
+                            %(
       &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12 plotlypie&quot; id=&quot;plotly_chart_div_#{data0}&quot;&gt;&lt;/div&gt;)
-      when 4..5 # google
-        %(
+                          when 4..5 # google
+                            %(
       &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot; id=&quot;chart_div_#{data0}&quot;&gt;&lt;/div&gt;)
-      else # chartjs
-        %(
+                          else # chartjs
+                            %(
       &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot;&gt;
         &lt;canvas id=&quot;chartjs_canvas#{data0}&quot; width=&quot;400&quot; height=&quot;350&quot;&gt;&lt;/canvas&gt;
       &lt;/div&gt;)
-      end
-    when &#39;chartjs&#39;
-      %(
+                          end
+                        when &quot;chartjs&quot;
+                          %(
       &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12&quot;&gt;
         &lt;canvas id=&quot;chartjs_canvas#{data0}&quot; width=&quot;400&quot; height=&quot;350&quot;&gt;&lt;/canvas&gt;
       &lt;/div&gt;)
-    else
-      chart_type = site_config[&#39;chart_type&#39;] == &#39;plotly&#39; ? &#39; plotlypie&#39; : &#39;&#39;
-      chart_type_id =
-        case site_config[&#39;chart_type&#39;]
-        when &#39;google&#39;
-          &#39;chart_div_&#39;
-        when &#39;plotly&#39;
-          &#39;plotly_chart_div_&#39;
-        else
-          &#39;d3pie_chart_div_&#39;
-        end
-      %(
+                        else
+                          chart_type = site_config[&quot;chart_type&quot;] == &quot;plotly&quot; ? &quot; plotlypie&quot; : &quot;&quot;
+                          chart_type_id =
+                            case site_config[&quot;chart_type&quot;]
+                            when &quot;google&quot;
+                              &quot;chart_div_&quot;
+                            when &quot;plotly&quot;
+                              &quot;plotly_chart_div_&quot;
+                            else
+                              &quot;d3pie_chart_div_&quot;
+                            end
+                          %(
       &lt;div class=&quot;col-lg-4 col-md-6 col-sm-12#{chart_type}&quot; id=&quot;#{chart_type_id}#{data0}&quot;&gt;&lt;/div&gt;)
-    end)
+                        end)
 end
 
 # site built time for footer and sitemap.xml
-sitebuildtime = Time.now.strftime &#39;%FT%T%:z&#39;
+sitebuildtime = Time.now.strftime &quot;%FT%T%:z&quot;
 
 # creates HTML footer for all pages before the scripts are inserted
 def footer(buttons, page_count, sitebuildtime, site_config)
@@ -837,39 +842,40 @@ page = footer(buttons, page_count, sitebuildtime, site_config)
 # continue to build all the websites pages
 page_build(page, page_count)
 # restart common page
-page = &#39;&#39;
+page = &quot;&quot;
 
 # add all the websites external JavaScript files
 def add_website_scripts(type, site_scripts, d3_scripts, google_scripts, chartjs_script, plotly_script)
   case type
-  when &#39;d3pie&#39;
+  when &quot;d3pie&quot;
     add_scripts(site_scripts, d3_scripts)
-  when &#39;google&#39;
+  when &quot;google&quot;
     add_scripts(site_scripts, google_scripts)
-  when &#39;chartjs&#39;
+  when &quot;chartjs&quot;
     add_scripts(site_scripts, chartjs_script)
   else
     add_scripts(site_scripts, plotly_script)
   end
 end
 # add the scripts to each page
-if site_config[&#39;chart_type&#39;] == &#39;all&#39;
-  @page += add_website_scripts(&#39;d3pie&#39;, site_scripts, d3_scripts, [], [], [])
+if site_config[&quot;chart_type&quot;] == &quot;all&quot;
+  @page += add_website_scripts(&quot;d3pie&quot;, site_scripts, d3_scripts, [], [], [])
   (1..page_count).map do |i|
     instance_variable_set(&quot;@page#{i}&quot;, gp(i) +
       case (i - 1) % 8
       when 0..1 # d3pie
-        add_website_scripts(&#39;d3pie&#39;, site_scripts, d3_scripts, [], [], [])
+        add_website_scripts(&quot;d3pie&quot;, site_scripts, d3_scripts, [], [], [])
       when 2..3 # plotly
-        add_website_scripts(&#39;plotly&#39;, site_scripts, [], [], [], plotlyjs_script)
+        add_website_scripts(&quot;plotly&quot;, site_scripts, [], [], [], plotlyjs_script)
       when 4..5 # google
-        add_website_scripts(&#39;google&#39;, site_scripts, [], google_scripts, [], [])
+        add_website_scripts(&quot;google&quot;, site_scripts, [], google_scripts, [], [])
       else # chartjs
-        add_website_scripts(&#39;chartjs&#39;, site_scripts, [], [], chartjs_script, [])
+        add_website_scripts(&quot;chartjs&quot;, site_scripts, [], [], chartjs_script, [])
       end)
   end
 else
-  page = add_website_scripts(site_config[&#39;chart_type&#39;], site_scripts, d3_scripts, google_scripts, chartjs_script, plotlyjs_script)
+  page = add_website_scripts(site_config[&quot;chart_type&quot;], site_scripts, d3_scripts, google_scripts, chartjs_script,
+                             plotlyjs_script)
 end
 
 # continue to build all the pages
@@ -878,10 +884,10 @@ page += &#39;
 # continue to build the websites pages
 page_build(page, page_count)
 # restart common page
-page = &#39;&#39;
+page = &quot;&quot;
 # add Google charts JavaScript to the pages that need it
-case site_config[&#39;chart_type&#39;]
-when &#39;all&#39;
+case site_config[&quot;chart_type&quot;]
+when &quot;all&quot;
   (0..page_count).map do |i|
     next unless [5, 6].include? i % 8
 
@@ -889,7 +895,7 @@ when &#39;all&#39;
                           gp(i) + %(
         google.charts.load(&quot;current&quot;, {&quot;packages&quot;:[&quot;corechart&quot;]});\n))
   end
-when &#39;google&#39;
+when &quot;google&quot;
   page = %(
         google.charts.load(&quot;current&quot;, {&quot;packages&quot;:[&quot;corechart&quot;]});\n)
 end
@@ -897,80 +903,86 @@ end
 page_build(page, page_count)
 
 # add the charts JavaScript
-if site_config[&#39;chart_type&#39;] == &#39;all&#39;
+if site_config[&quot;chart_type&quot;] == &quot;all&quot;
   # home page
-  @page += draw_d3pie_chart(0, &#39;homepage_all&#39;, allfiles, 0, exthash, &#39;Branch count of files grouped by file extension&#39;, 600, 600, 15, 24, 16, 16, 1,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L803" class="js-smell-location">0</a>                  <a href="run.html#L842" class="js-smell-location">1</a>                  </div>  </li></ol>
-                            &#39;70%&#39;, &#39;35%&#39;, 50, false, 35, &#39;open sans&#39;, &#39;open sans&#39;, 18, &#39;white&#39;, &#39;ff0000&#39;)
-  @page += draw_d3pie_chart(2, &#39;homepage_mit&#39;, mit_word_count, 1, exthash, &#39;Most frequent words in the GPL3.0 License&#39;, 600, 600, 15, 24, 16, 16, 2,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L805" class="js-smell-location">0</a>                  <a href="run.html#L844" class="js-smell-location">1</a>                  </div>  </li></ol>
-                            &#39;70%&#39;, &#39;35%&#39;, 50, true, 35, &#39;open sans&#39;, &#39;open sans&#39;, 18, &#39;white&#39;, &#39;ff0000&#39;)
+  @page += draw_d3pie_chart(0, &quot;homepage_all&quot;, allfiles, 0, exthash, &quot;Branch count of files grouped by file extension&quot;, 600, 600, 15, 24, 16, 16, 1,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L809" class="js-smell-location">0</a>                  <a href="run.html#L851" class="js-smell-location">1</a>                  </div>  </li></ol>
+                            &quot;70%&quot;, &quot;35%&quot;, 50, false, 35, &quot;open sans&quot;, &quot;open sans&quot;, 18, &quot;white&quot;, &quot;ff0000&quot;)
+  @page += draw_d3pie_chart(2, &quot;homepage_mit&quot;, mit_word_count, 1, exthash, &quot;Most frequent words in the GPL3.0 License&quot;, 600, 600, 15, 24, 16, 16, 2,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L811" class="js-smell-location">0</a>                  <a href="run.html#L853" class="js-smell-location">1</a>                  </div>  </li></ol>
+                            &quot;70%&quot;, &quot;35%&quot;, 50, true, 35, &quot;open sans&quot;, &quot;open sans&quot;, 18, &quot;white&quot;, &quot;ff0000&quot;)
 
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
     data1 = chart[1..]
-    i = ind / 50 + 1
+    i = (ind / 50) + 1
 
     case (i - 1) % 8
     when 0..1 # d3pie
-      type = i &amp; 1 == 1 ? 0 : &#39;35%&#39;
-      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L816" class="js-smell-location">0</a>                  <a href="run.html#L855" class="js-smell-location">1</a>                  </div>  </li></ol>
+      type = i &amp; 1 == 1 ? 0 : &quot;35%&quot;
+      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L822" class="js-smell-location">0</a>                  <a href="run.html#L864" class="js-smell-location">1</a>                  </div>  </li></ol>
                             gp(i) +
                                 draw_d3pie_chart(1, data0, data1, ind, schema_colors, chart[0],
                                                  490, 425, 11, 13, 12,
-                                                 12, 3, &#39;75%&#39;, type, 20,
-                                                 true, 10, &#39;Arial Black&#39;,
-                                                 &#39;Arial Black&#39;, 12, &#39;fff&#39;, 999))
+                                                 12, 3, &quot;75%&quot;, type, 20,
+                                                 true, 10, &quot;Arial Black&quot;,
+                                                 &quot;Arial Black&quot;, 12, &quot;fff&quot;, 999))
     when 2..3 # plotly
       type = i &amp; 1 == 1 ? 0 : 0.4
-      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L825" class="js-smell-location">0</a>                  <a href="run.html#L874" class="js-smell-location">1</a>                  </div>  </li></ol>
+      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L831" class="js-smell-location">0</a>                  <a href="run.html#L886" class="js-smell-location">1</a>                  </div>  </li></ol>
                             gp(i) + draw_plotly_chart(data0, data1, chart_title(chart[0], ind), 400, 400, type))
     when 4..5 # google
-      data1 = data1.map{|x| [fir(x), x.last]}
-      v = &#39;Values&#39;
+      data1 = data1.map { |x| [fir(x), x.last] }
+      v = &quot;Values&quot;
       type = i &amp; 1 == 1 ? 0 : 0.4
-      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L831" class="js-smell-location">0</a>                  <a href="run.html#L865" class="js-smell-location">1</a>                  </div>  </li></ol>
-                            gp(i) + &quot;        google.charts.setOnLoadCallback(drawChart#{data0});\n&quot; + draw_google_chart(type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400))
+      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L837" class="js-smell-location">0</a>                  <a href="run.html#L874" class="js-smell-location">1</a>                  </div>  </li></ol>
+                            gp(i) + &quot;        google.charts.setOnLoadCallback(drawChart#{data0});\n&quot; + draw_google_chart(
+                              type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400
+                            ))
     else # chartjs
-      type = i &amp; 1 == 1 ? &#39;pie&#39; : &#39;doughnut&#39;
-      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L835" class="js-smell-location">0</a>                  <a href="run.html#L870" class="js-smell-location">1</a>                  </div>  </li></ol>
-                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind), 15, false))
+      type = i &amp; 1 == 1 ? &quot;pie&quot; : &quot;doughnut&quot;
+      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L843" class="js-smell-location">0</a>                  <a href="run.html#L881" class="js-smell-location">1</a>                  </div>  </li></ol>
+                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind),
+                                                       15, false))
     end
   end
 else
-  if site_config[&#39;chart_type&#39;] == &#39;d3pie&#39;
+  if site_config[&quot;chart_type&quot;] == &quot;d3pie&quot;
     # home page two charts
-    @page += draw_d3pie_chart(0, &#39;homepage_all&#39;, allfiles, 0, exthash, &#39;Branch count of files grouped by file extension&#39;, 600, 600, 15, 24, 16, 16, 1,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L803" class="js-smell-location">0</a>                  <a href="run.html#L842" class="js-smell-location">1</a>                  </div>  </li></ol>
-                              &#39;70%&#39;, &#39;35%&#39;, 50, false, 35, &#39;open sans&#39;, &#39;open sans&#39;, 18, &#39;white&#39;, &#39;ff0000&#39;)
-    @page += draw_d3pie_chart(2, &#39;homepage_mit&#39;, mit_word_count, 1, exthash, &#39;Most frequent words in the MIT License&#39;, 600, 600, 15, 24, 16, 16, 1,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L805" class="js-smell-location">0</a>                  <a href="run.html#L844" class="js-smell-location">1</a>                  </div>  </li></ol>
-                              &#39;70%&#39;, &#39;35%&#39;, 50, true, 35, &#39;open sans&#39;, &#39;open sans&#39;, 18, &#39;white&#39;, &#39;ff0000&#39;)
+    @page += draw_d3pie_chart(0, &quot;homepage_all&quot;, allfiles, 0, exthash, &quot;Branch count of files grouped by file extension&quot;, 600, 600, 15, 24, 16, 16, 1,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L809" class="js-smell-location">0</a>                  <a href="run.html#L851" class="js-smell-location">1</a>                  </div>  </li></ol>
+                              &quot;70%&quot;, &quot;35%&quot;, 50, false, 35, &quot;open sans&quot;, &quot;open sans&quot;, 18, &quot;white&quot;, &quot;ff0000&quot;)
+    @page += draw_d3pie_chart(2, &quot;homepage_mit&quot;, mit_word_count, 1, exthash, &quot;Most frequent words in the MIT License&quot;, 600, 600, 15, 24, 16, 16, 1,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L811" class="js-smell-location">0</a>                  <a href="run.html#L853" class="js-smell-location">1</a>                  </div>  </li></ol>
+                              &quot;70%&quot;, &quot;35%&quot;, 50, true, 35, &quot;open sans&quot;, &quot;open sans&quot;, 18, &quot;white&quot;, &quot;ff0000&quot;)
   end
   # add all the javascript for each pie chart to the main chart pages
   structure.map.with_index do |chart, ind|
     data0 = clean_chart(chart[0])
     data1 = chart[1..]
-    i = ind / 50 + 1
-    case site_config[&#39;chart_type&#39;]
-    when &#39;d3pie&#39;
-      type = i &amp; 1 == 1 ? 0 : &#39;35%&#39;
-      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L816" class="js-smell-location">0</a>                  <a href="run.html#L855" class="js-smell-location">1</a>                  </div>  </li></ol>
+    i = (ind / 50) + 1
+    case site_config[&quot;chart_type&quot;]
+    when &quot;d3pie&quot;
+      type = i &amp; 1 == 1 ? 0 : &quot;35%&quot;
+      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L822" class="js-smell-location">0</a>                  <a href="run.html#L864" class="js-smell-location">1</a>                  </div>  </li></ol>
                             gp(i) + draw_d3pie_chart(1, data0, data1, ind, schema_colors, chart[0],
                                                      490, 425, 11, 13, 12,
-                                                     12, 3, &#39;75%&#39;, type, 20,
-                                                     true, 10, &#39;Arial Black&#39;,
-                                                     &#39;Arial Black&#39;, 12, &#39;fff&#39;, 999))
-    when &#39;google&#39;
-      data1 = chart[1..].map{|x| [fir(x), x.last]}
-      v = &#39;Values&#39;
+                                                     12, 3, &quot;75%&quot;, type, 20,
+                                                     true, 10, &quot;Arial Black&quot;,
+                                                     &quot;Arial Black&quot;, 12, &quot;fff&quot;, 999))
+    when &quot;google&quot;
+      data1 = chart[1..].map { |x| [fir(x), x.last] }
+      v = &quot;Values&quot;
       type = i &amp; 1 == 1 ? 0 : 0.4
-      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L831" class="js-smell-location">0</a>                  <a href="run.html#L865" class="js-smell-location">1</a>                  </div>  </li></ol>
-                            gp(i) + &quot;        google.charts.setOnLoadCallback(drawChart#{data0});\n&quot; + draw_google_chart(type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400))
+      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L837" class="js-smell-location">0</a>                  <a href="run.html#L874" class="js-smell-location">1</a>                  </div>  </li></ol>
+                            gp(i) + &quot;        google.charts.setOnLoadCallback(drawChart#{data0});\n&quot; + draw_google_chart(
+                              type, data0, data1, chart[0], v, chart_title(chart[0], ind), data0, 400, 400
+                            ))
 
-    when &#39;chartjs&#39;
-      type = i &amp; 1 == 1 ? &#39;pie&#39; : &#39;doughnut&#39;
-      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L835" class="js-smell-location">0</a>                  <a href="run.html#L870" class="js-smell-location">1</a>                  </div>  </li></ol>
-                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind), 15, false))
+    when &quot;chartjs&quot;
+      type = i &amp; 1 == 1 ? &quot;pie&quot; : &quot;doughnut&quot;
+      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L843" class="js-smell-location">0</a>                  <a href="run.html#L881" class="js-smell-location">1</a>                  </div>  </li></ol>
+                            gp(i) + draw_chartjs_chart(type, data0, data1, schema_colors, chart_title(chart[0], ind),
+                                                       15, false))
     else
       type = i &amp; 1 == 1 ? 0 : 0.4
-      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L825" class="js-smell-location">0</a>                  <a href="run.html#L874" class="js-smell-location">1</a>                  </div>  </li></ol>
+      instance_variable_set(&quot;@page#{i}&quot;,<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Identical code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L831" class="js-smell-location">0</a>                  <a href="run.html#L886" class="js-smell-location">1</a>                  </div>  </li></ol>
                             gp(i) + draw_plotly_chart(data0, data1, chart_title(chart[0], ind), 400, 400, type))
     end
   end
@@ -1002,7 +1014,7 @@ page_build(page, page_count)
 # builds sitemap.xml, robots.txt and writes them and all the sites HTML pages to files
 def build_site(page_count, sitebuildtime, url, sitemap_url)
   # write all the HTML pages to files and build the site map
-  sitemap = %(&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L906" class="js-smell-location">0</a>                  <a href="../ruby-eclipse-cheatsheets-to-dita/ruby-cheatsheets-to-dita.html#L121" class="js-smell-location">1</a>                  </div>  </li></ol>
+  sitemap = %(&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 2 nodes</span>              <span>Locations:</span>                  <a href="run.html#L918" class="js-smell-location">0</a>                  <a href="../ruby-eclipse-cheatsheets-to-dita/ruby-cheatsheets-to-dita.html#L120" class="js-smell-location">1</a>                  </div>  </li></ol>
 &lt;urlset
   xmlns=&quot;#{sitemap_url}&quot;
   xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;
@@ -1014,7 +1026,7 @@ def build_site(page_count, sitebuildtime, url, sitemap_url)
     &lt;priority&gt;1.00&lt;/priority&gt;
   &lt;/url&gt;)
   (0..page_count).map do |i|
-    file = File.open(&quot;site/index#{ii(i)}.html&quot;, &#39;w&#39;)
+    file = File.open(&quot;site/index#{ii(i)}.html&quot;, &quot;w&quot;)
     file.write(instance_variable_get(&quot;@page#{ii(i)}&quot;))
     file.close
     sitemap += %(
@@ -1026,10 +1038,10 @@ def build_site(page_count, sitebuildtime, url, sitemap_url)
   end
   sitemap += &#39;
 &lt;/urlset&gt;&#39;
-  file = File.open(&#39;site/sitemap.xml&#39;, &#39;w&#39;)
+  file = File.open(&quot;site/sitemap.xml&quot;, &quot;w&quot;)
   file.write(sitemap)
   file.close
-  file = File.open(&#39;site/robots.txt&#39;, &#39;w&#39;)
+  file = File.open(&quot;site/robots.txt&quot;, &quot;w&quot;)
   file.write(&quot;Sitemap: #{url}sitemap.xml&quot;)
   file.close
 end
@@ -1038,7 +1050,7 @@ end
 # https://en.wikipedia.org/wiki/Final_Destination
 # http://www.imdb.com/list/ls000699250/
 #
-build_site(page_count, sitebuildtime, site_config[&#39;url&#39;], site_config[&#39;maps&#39;])
+build_site(page_count, sitebuildtime, site_config[&quot;url&quot;], site_config[&quot;maps&quot;])
 
 # f = File.open(&#39;index.html&#39;, &#39;r&#39;)
 # text = f.read
@@ -1057,14 +1069,14 @@ build_site(page_count, sitebuildtime, site_config[&#39;url&#39;], site_config[&#
     </div>
 
     <!-- JavaScripts -->
-    <script src='../assets/javascripts/jquery.min.js'></script>
-    <script src='../assets/javascripts/jquery.tablesorter.min.js'></script>
-    <script src='../assets/javascripts/jquery.scrollTo.min.js'></script>
-    <script src='../assets/javascripts/jquery.timeago.js'></script>
-    <script src='../assets/javascripts/highcharts.src-4.0.1.js'></script>
-    <script src='../assets/javascripts/prettify.js'></script>
-    <script src='../assets/javascripts/bootstrap.min.js'></script>
-    <script src='../assets/javascripts/application.js'></script>
-    <script src='../assets/javascripts/jquery.filtertable.min.js'></script>
+    <script src="../assets/vendor/javascripts/jquery.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.tablesorter.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.scrollTo.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.timeago.js"></script>
+    <script src="../assets/vendor/javascripts/highcharts.src-4.0.1.js"></script>
+    <script src="../assets/vendor/javascripts/prettify.js"></script>
+    <script src="../assets/vendor/javascripts/bootstrap.min.js"></script>
+    <script src="../assets/javascripts/application.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.filtertable.min.js"></script>
   </body>
 </html>
