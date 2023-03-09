@@ -160,8 +160,7 @@ sha1sum - <https://en.wikipedia.org/wiki/Sha1sum>
 IDE - Integrated Development Environment -
 <https://en.wikipedia.org/wiki/Integrated_development_environment>
 
-Git (software) - <https://en.wikipedia.org/wiki/Git_(software)
->
+Git (software) - <https://en.wikipedia.org/wiki/Git_(software)>
 man page - <https://en.wikipedia.org/wiki/Man_page>
 
 Terminal (OS X) - <https://en.wikipedia.org/wiki/Terminal_(OS_X)>
