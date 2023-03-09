@@ -13,10 +13,10 @@ based project in that all the code libraries use Java
 [XSL](https://www.w3.org/Style/XSL/) and [XML](https://www.w3.org/XML/) heavily.
 Development was originally done in
 [oXygen XML Editor](https://www.oxygenxml.com/) then ported to Eclipse. Java is
-now ranked first on the [TIOBE Index](http://www.tiobe.com/tiobe_index).
+now ranked first on the [TIOBE Index](https://www.tiobe.com/tiobe-index).
 
 This project takes DITA XML as input and transforms it to
-[PDF](https://acrobat.adobe.com/au/en/products/about-adobe-pdf.html) with the
+[PDF](https://en.wikipedia.org/wiki/PDF) with the
 DITA Open Toolkit and a custom-made plugin using Apache Ant. Using PDF allows us
 to print a nicely formatted documents on paper. Using Eclipse generating the PDF
 output can be done in one click by building the project and this creates a
@@ -106,7 +106,7 @@ XML - <https://en.wikipedia.org/wiki/XML>
 Adobe PDF - <https://en.wikipedia.org/wiki/Portable_Document_Format>
 
 The Organization for the Advancement of Structured Information Standards
-(OASIS) - <https://en.wikipedia.org/wiki/OASIS_(organization>)
+(OASIS) - <https://en.wikipedia.org/wiki/OASIS_(organization)>
 
 oXygen XML Editor - <http://www.oxygenxml.com>
 
@@ -114,7 +114,7 @@ DITA-OT installing plugins -
 <http://dita-ot.sourceforge.net/1.7/dev_ref/plugins-installing.html>
 
 Generate sample DITA-OT plugin -
-<https://dita-generator-hrd.appspot.com/pdf-plugin/>
+<https://dita-generator.elovirta.com/>
 
 Creating DITA-OT plugins -
 <http://dita-ot.sourceforge.net/1.5.4/dev_ref/plugins-overview.html>
@@ -122,13 +122,13 @@ Creating DITA-OT plugins -
 Customizing PDF output -
 <http://www.dita-ot.org/1.8/readme/dita2pdf-customization.html>
 
-XSLT FAQ. Docbook FAQ. Braille. - <http://www.dpawson.co.uk/>
+[comment]: <> (XSLT FAQ. Docbook FAQ. Braille. - <http://www.dpawson.co.uk/>)
 
 Homebrew — The missing package manager for OS X - <http://brew.sh/>
 
 Apache Ant Wikipedia - <https://en.wikipedia.org/wiki/Apache_Ant>
 
-Install Ant with Homebrew - <http://brewformulas.org/Ant>
+Install Ant with Homebrew - <https://formulae.brew.sh/formula/ant#default>
 
 Installing Apache Ant - <http://ant.apache.org/manual/install.html>
 
@@ -149,7 +149,7 @@ Mastering Markdown - <https://guides.github.com/features/mastering-markdown/>
 GitHub Desktop - <https://desktop.github.com/>
 
 Microsoft File Checksum Integrity Verifier -
-<https://www.microsoft.com/en-au/download/details.aspx?id=11533>
+<https://web.archive.org/web/20200728195620/https://www.microsoft.com/en-us/download/details.aspx?id=11533>
 
 TechSmith Camtasia - <https://www.techsmith.com/camtasia.html>
 
@@ -160,8 +160,7 @@ sha1sum - <https://en.wikipedia.org/wiki/Sha1sum>
 IDE - Integrated Development Environment -
 <https://en.wikipedia.org/wiki/Integrated_development_environment>
 
-Git (software) - <https://en.wikipedia.org/wiki/Git_(software>)
-
+Git (software) - <https://en.wikipedia.org/wiki/Git_(software)>
 man page - <https://en.wikipedia.org/wiki/Man_page>
 
-Terminal (OS X) - <https://en.wikipedia.org/wiki/Terminal_(OS_X>)
+Terminal (OS X) - <https://en.wikipedia.org/wiki/Terminal_(OS_X)>
