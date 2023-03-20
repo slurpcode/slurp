@@ -397,13 +397,13 @@ PLATFORMS
   x86_64-darwin-21
 
 DEPENDENCIES
-  activesupport (>= 4.1.11)
+  activesupport
   chroma
   csv
   fileutils
   github-pages
   jekyll-avatar
-  jekyll-feed (~> 0.15)
+  jekyll-feed
   jekyll-paginate
   jekyll-redirect-from
   jekyll-sitemap
