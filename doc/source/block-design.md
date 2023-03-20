@@ -160,52 +160,52 @@ between blocks.
 
 Advantages of the randomized complete block experimental design
 
-1\) It increases the precision of the test since it eliminates one of
+1. It increases the precision of the test since it eliminates one of
 the sources of variation of the error and that precision is measured by
 means of a coefficient of variation.
 
-2\) If the treatments are equal to the experimental units (or a multiple
+2. If the treatments are equal to the experimental units (or a multiple
 of them), this design allows great flexibility if there is no
 relationship between treatment and block.
 
-3\) In case of loss of information either by treatment or by block, in
+3. In case of loss of information either by treatment or by block, in
 the same way the statistical analysis is not difficult.
 
-4\) The \"principle of confusion\" can be applied by matching the
+4. The \"principle of confusion\" can be applied by matching the
 variables that have an influence on the response, but are ultimately not
 part of the interest of the researcher.
 
 Disadvantages of the random full block design
 
-1\) It is not advisable for a large number of treatments, the
+1. It is not advisable for a large number of treatments, the
 recommendation ranges between 6 and 24 treatments.
 
-2\) It is also not recommended if there is a great variation in the
+2. It is also not recommended if there is a great variation in the
 experimental material, that is, when there is more than one variable.
 
-3\) When the effect of the block is not very significant, the degrees of
+3. When the effect of the block is not very significant, the degrees of
 freedom with respect to the error are unnecessarily decreased and it
 leads to a decrease in precision.
 
-4\) In the event that there is an interaction between treatment and
+4. In the event that there is an interaction between treatment and
 block, the F test must be invalidated and this design cannot be applied.
 
 Regarding the disturbing factor, we can say that the design most likely
 has an effect on the response that does not interest us and this
 disturbing factor can be in several ways:
 
-1\) Unknown disturbing factor and also not controllable, this factor can
+1. Unknown disturbing factor and also not controllable, this factor can
 have different levels of variables while we carry out the experiment.
 The solution to this problem is randomization, since in this way the
 levels and possible effects of this factor are distributed in all the
 experimental units.
 
-2\) Disturbing factor that is known but not controllable, in this case a
+2. Disturbing factor that is known but not controllable, in this case a
 compensation can be made through the analysis of covariance, but only in
 the case that it can be observed in each run of the experiment, the
 value that this disturbing factor takes.
 
-3\) Known and controllable disturbing factor, in this case the solution
+3. Known and controllable disturbing factor, in this case the solution
 may be the formation of blocks and in this way, statistical comparisons
 in the treatments are eliminated.
 
