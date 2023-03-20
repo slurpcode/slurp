@@ -4,7 +4,7 @@ Trip hop (sometimes used synonymously with "downtempo") is a musical genre that 
 
 Deriving from later idioms of acid house, the term was first used by the British music media to describe the more experimental variant of breakbeat emerging from the Bristol sound scene in the early 1990s, which contained influences of soul, funk, and jazz. It was pioneered by acts like Massive Attack, Tricky, and Portishead. Trip hop achieved commercial success in the 1990s, and has been described as "Europe's alternative choice in the second half of the '90s".
 
-![Massive Attack (NPR)])(\_static/images/trip-hop.jpeg)
+![Massive Attack (NPR)](_static/images/trip-hop/massive-attack.png)
 
 Naturally, the British rags were quick in declaring this Fresh Sound Of British Urban Soul as the New Hotness, though the chap credited with first associating the name Trip Hop with the sound is Mixmag scribe Andy Pemberton. Remember that factoid for the Trivial Pursuit version of this Guide.
 

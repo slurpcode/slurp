@@ -22,14 +22,14 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-avatar"
-  gem "jekyll-feed", "~> 0.15"
+  gem "jekyll-feed"
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
   gem "jekyll-sitemap"
   gem "jemoji"
 end
 
-gem "activesupport", ">= 4.1.11"
+gem "activesupport"
 gem "chroma"
 gem "csv"
 gem "fileutils"
@@ -49,3 +49,5 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+ruby "3.2.1"
