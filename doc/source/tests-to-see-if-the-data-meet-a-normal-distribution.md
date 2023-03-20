@@ -179,26 +179,26 @@ The steps to follow in the Shapiro Wilks normality test are as follows:
 
 1.- A table made up of the following columns is built:
 
-a\) 1st column: All those values ​​that make up the variable studied are
+a. 1st column: All those values ​​that make up the variable studied are
 listed (i = 1, 2, 3,..., n)
 
-b\) 2nd column: The values ​​of the variable are ordered in ascending
+b. 2nd column: The values ​​of the variable are ordered in ascending
 order (Xi)
 
-c\) 3rd column: The values ​​of the variable are ordered in descending
+c. 3rd column: The values ​​of the variable are ordered in descending
 order $X_{(n - i + 1)}$
 
-d\) 4th column: the values ​​of the 3rd column are subtracted minus those
+d. 4th column: the values ​​of the 3rd column are subtracted minus those
 of the 2nd column
 
-e\) 5th column: The values ​​of ai that are tabulated are searched for a
+e. 5th column: The values ​​of ai that are tabulated are searched for a
 sample of size n = 8
 
-f\) 6th column: It is made up of the product
+f. 6th column: It is made up of the product
 $ai\ \left\lbrack X_{(n - i + 1)} - \ X_{i} \right\rbrack$, that is, the
 values ​​of the 5th column are multiplied by the 6th column
 
-g\) 7th column: ${(Xi - \overline{X})}^{2}$ is calculated
+g. 7th column: ${(Xi - \overline{X})}^{2}$ is calculated
 
 |                            |           |                     |                                                          |               |                                                                   |                               |
 | -------------------------- | --------- | ------------------- | -------------------------------------------------------- | ------------- | ----------------------------------------------------------------- | ----------------------------- |

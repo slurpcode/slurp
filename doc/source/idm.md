@@ -10,9 +10,9 @@ performers who stood out from the rave era with their artistic attitude, individ
 
 The term "intelligent dance music" has been widely criticised and dismissed by
 most artists associated with it, including Aphex Twin, Autechre, and μ-Ziq.
-
+<!--
 ![Aphex Twin (Pulzar)]()
-
+-->
 ## The IDM List
 
 In November 1991, the phrase "intelligent techno" appeared on Usenet in reference to Coil's The Show EP. Off the Internet, the same
