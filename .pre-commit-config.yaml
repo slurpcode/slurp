@@ -35,15 +35,16 @@ repos:
       - id: trailing-whitespace
         exclude: ^rubycritic/.*$
   - repo: https://github.com/psf/black
-    rev: 22.12.0
+    rev: 23.1.0
     hooks:
       - id: black
         name: Run black on Python files
   # - repo: https://github.com/asottile/dead
-  #  rev: v1.4.0
+  #  rev: v1.5.0
   #  hooks:
   #    - id: dead
-  #      name: Dead simple python dead code detection
+  #      name: Dead simple Python dead code detection
+  #      exclude: ^doc/source/conf\.py$|^scrapers/python/scrapy/github/spider\.py$
   - repo: https://github.com/asottile/reorder_python_imports
     rev: v3.9.0
     hooks:
@@ -56,34 +57,34 @@ repos:
       - id: rubocop
       - id: shellcheck
   - repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.3.1
+    rev: v1.4.2
     hooks:
       - id: forbid-tabs
         exclude: ^doc/Makefile$|go\.mod$|go\.sum$|^rubycritic/assets.*$|.*\.go$
       - id: remove-tabs
         exclude: ^doc/Makefile$|go\.mod$|go\.sum$|^rubycritic/assets.*$|.*\.go$
   - repo: https://github.com/pre-commit/pygrep-hooks
-    rev: v1.9.0
+    rev: v1.10.0
     hooks:
       - id: python-check-mock-methods
       - id: python-no-eval
       - id: python-no-log-warn
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.32.2
+    rev: v0.33.0
     hooks:
       - id: markdownlint
         name: Run markdownlint
         entry: markdownlint -c .github/linters/.markdown-lint.yml .
         args: [--ignore=doc/venv, --ignore=node_modules]
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.28.0
+    rev: v1.29.0
     hooks:
       - id: yamllint
         name: Check YAML files with yamllint
         entry: yamllint --strict -c .github/linters/.yaml-lint.yml .
         types: [yaml]
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.4
+    rev: 1.7.5
     hooks:
       - id: bandit
   - repo: https://github.com/pycqa/flake8
@@ -92,7 +93,7 @@ repos:
       - id: flake8
         entry: flake8 --config=".github/linters/.flake8"
   - repo: https://github.com/pycqa/pylint
-    rev: v2.15.9
+    rev: v2.17.0
     hooks:
       - id: pylint
   # - repo: https://github.com/syntaqx/git-hooks
