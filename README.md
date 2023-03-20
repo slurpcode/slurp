@@ -5,6 +5,7 @@
 [![Slurp - Read the Docs](https://img.shields.io/website?label=read%20the%20docs&url=https%3A%2F%2Fslurp.readthedocs.io%2F)](https://slurp.readthedocs.io/)
 [![Preston Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fpreston.slurp.workers.dev%2F)](https://preston.slurp.workers.dev)
 [![Magic Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fmagic.slurp.workers.dev%2F)](https://magic.slurp.workers.dev/)
+[![Discord](https://img.shields.io/discord/696441178421329970?label=Discord&logo=discord&logoColor=white)](https://discord.gg/PW3Fh9Knpp)
 
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/main.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Travis CI](https://travis-ci.org/slurpcode/slurp.svg?branch=master)](https://travis-ci.org/github/slurpcode/slurp)
@@ -59,7 +60,7 @@
 - [hashcheck](https://slurp.readthedocs.io/en/latest/hashcheck.html) - Ruby script to check file checksums with the Windows CertUtil Command
 - [logorama](https://logorama.herokuapp.com/) - Logos done Rama. Hosted on Heroku Cloud Platform
 - [ruby-cheatsheets-to-dita](https://slurp.readthedocs.io/en/latest/ruby-cheat-sheets.html) - Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
-- scrapers - Web scrapers in progress. FQL, Golang, PHP, Perl, Python, Ruby and Shell. Colly, ferret, lxml, Nokogiri, Regex, Scrapy, XPath. awk, cd, curl, echo, exit, grep, mkdir, pcregrep, sed, sort, sleep, tail, uniq
+- scrapers - Web scrapers in progress. FQL, Golang, PHP, Perl, Python, Ruby and Shell. Colly, ferret, Nokogiri, Regex, Scrapy, XPath. awk, cd, curl, echo, exit, grep, mkdir, pcregrep, sed, sort, sleep, tail, uniq
 - [seek](https://slurp.readthedocs.io/en/latest/seek.html) - seek is a Ruby based command line script that builds 🔧 🔩 🔨 CSV results of job searches
 - tests/spelling - Output folder showing misspelled words
 - [well-formed](https://slurp.readthedocs.io/en/latest/well-formed.html) - Ruby script used to check the well formedness of XML files
@@ -133,7 +134,7 @@
 - [AccessLint](https://www.accesslint.com/) - A GitHub App that finds accessibility issues in your pull requests
 - [CodeFactor](https://www.codefactor.io/) - CodeFactor automatically and continuously tracks code quality with every GitHub or BitBucket commit and pull request
 - [DeepScan](https://deepscan.io/) - A cutting-edge static analysis tool for JavaScript
-- [Renovate](https://renovate.whitesourcesoftware.com/) - Save time and reduce risk by automating dependency updates in software projects
+- [Renovate](https://github.com/renovatebot) - Renovate, a bot for automated dependency updates
 - [DeepSource](https://deepsource.io/) - Discover and fix bug risks, anti-patterns, performance issues, and security flaws during code reviews. For Python and Go
 - [Requirements files](https://pip.pypa.io/en/stable/user_guide/#requirements-files) - These files containing a list of items to be installed using pip install
 - [WIP](https://github.com/marketplace/wip) - Allow authors of pull requests to set status to pending while still working on it

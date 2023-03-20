@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- StyleSheets -->
-    <link href="../assets/stylesheets/bootstrap.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
-    <link href="../assets/stylesheets/font-awesome.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
-    <link href="../assets/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/bootstrap.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/font-awesome.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
     <link href="../assets/stylesheets/application.css" media="screen, projection, print" rel="stylesheet" type="text/css">
   </head>
 
@@ -47,7 +47,7 @@
     <div class="file-time">
       <span class="committed-at">
         
-          Updated <time class='js-timeago' datetime='2020-11-10 23:33:08 +1000'>2020-11-10 23:33:08 +1000</time>
+          Updated <time class='js-timeago' datetime='2022-04-10 21:34:16 +0600'>2022-04-10 21:34:16 +0600</time>
         
       </span>
     </div>
@@ -69,11 +69,11 @@
           <div class="code-statistics col-md-11">
             <div class="col-md-3">
               <div><span class="metric">108</span><small> lines of codes</small></div>
-              <div><span class="metric">7</span><small> methods</small></div>
+              <div><span class="metric">6</span><small> methods</small></div>
             </div>
             <div class="col-md-3">
-              <div><span class="metric">4.4</span><small> complexity/method</small></div>
-              <div><span class="metric">13</span><small> churn</small></div>
+              <div><span class="metric">5.1</span><small> complexity/method</small></div>
+              <div><span class="metric">22</span><small> churn</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">30.73</span><small> complexity</small></div>
@@ -97,28 +97,28 @@
       </div>
     </div>
 
-    <code class="prettyprint linenums lang-ruby file-code js-file-code"># Secure Hash Algorithm choices: md2 md4 md5 sha1 sha256 sha384 sha512
+    <code class="prettyprint linenums lang-ruby file-code js-file-code"># frozen_string_literal: true
+
+# Secure Hash Algorithm choices: md2 md4 md5 sha1 sha256 sha384 sha512
 # to finish `time`
 
-require &#39;optparse&#39;
-require &#39;optparse/time&#39;
-require &#39;paint&#39;
+require &quot;optparse&quot;
+require &quot;optparse/time&quot;
+require &quot;paint&quot;
 # require &#39;pp&#39;
 
 # Custom OptionParser class
 class Parser
-  VERSION = &#39;1.0.0&#39;
+  VERSION = &quot;1.0.0&quot;
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
     attr_accessor :file, :algorithm, :delay, :time
 
-    def initialize; end
-
     def define_options(parser)
       parser.banner = &quot;Usage: #{Paint[&#39;hashcheck.rb [options]&#39;, :red, :white]}&quot;
-      parser.separator &#39;&#39;
-      parser.separator &#39;Specific options:&#39;
+      parser.separator &quot;&quot;
+      parser.separator &quot;Specific options:&quot;
 
       # add additional options
       specify_file_option(parser)
@@ -126,34 +126,34 @@ class Parser
       delay_execution_option(parser)
       execute_at_time_option(parser)
 
-      parser.separator &#39;&#39;
-      parser.separator &#39;Common options:&#39;
+      parser.separator &quot;&quot;
+      parser.separator &quot;Common options:&quot;
       # No argument, shows at tail.  This will print an options summary.
       # Try it and see!
-      parser.on_tail(&#39;-h&#39;, &#39;--help&#39;, &#39;Show this message&#39;) do
+      parser.on_tail(&quot;-h&quot;, &quot;--help&quot;, &quot;Show this message&quot;) do
         puts parser
         exit
       end
       # Another typical switch to print the version.
-      parser.on_tail(&#39;--version&#39;, &#39;Show version&#39;) do
+      parser.on_tail(&quot;--version&quot;, &quot;Show version&quot;) do
         puts VERSION
         exit
       end
     end
 
     def specify_file_option(parser)
-      parser.on(&#39;-f&#39;, &#39;--file file&#39;, &#39;Path to file&#39;){|f| self.file = f}
+      parser.on(&quot;-f&quot;, &quot;--file file&quot;, &quot;Path to file&quot;) { |f| self.file = f }
     end
 
     def specify_algorithm_option(parser)
-      parser.on(&#39;-a&#39;, &#39;--algorithm algorithm&#39;, &#39;Algorithm&#39;) do |a|
+      parser.on(&quot;-a&quot;, &quot;--algorithm algorithm&quot;, &quot;Algorithm&quot;) do |a|
         self.algorithm = a
       end
     end
 
     def delay_execution_option(parser)
       # Cast &#39;delay&#39; argument to a Float.
-      parser.on(&#39;--delay N&#39;, Float, &#39;Delay N seconds before executing&#39;) do |n|
+      parser.on(&quot;--delay N&quot;, Float, &quot;Delay N seconds before executing&quot;) do |n|
         self.delay = n
       end
     end
@@ -161,11 +161,11 @@ class Parser
     def execute_at_time_option(parser)
       # Cast &#39;time&#39; argument to a Time object.
       parser.on(
-        &#39;-t&#39;,
-        &#39;--time [TIME]&#39;,
+        &quot;-t&quot;,
+        &quot;--time [TIME]&quot;,
         Time,
-        &#39;Begin execution at given time&#39;
-      ){|time| self.time = time}
+        &quot;Begin execution at given time&quot;
+      ) { |time| self.time = time }
     end
   end
 
@@ -195,11 +195,11 @@ options = example.parse(ARGV)
 
 sleep(options.delay) if options.delay
 if options.file.nil?
-  print &#39;Enter path to file: &#39;
+  print &quot;Enter path to file: &quot;
   options.file = $stdin.gets.chomp
 end
 if options.algorithm.nil?
-  print &#39;Enter algorithm: &#39;
+  print &quot;Enter algorithm: &quot;
   options.algorithm = $stdin.gets.chomp
 end
 
@@ -214,14 +214,14 @@ puts shell_command.inspect.split(&#39;\n&#39;)[1]
     </div>
 
     <!-- JavaScripts -->
-    <script src='../assets/javascripts/jquery.min.js'></script>
-    <script src='../assets/javascripts/jquery.tablesorter.min.js'></script>
-    <script src='../assets/javascripts/jquery.scrollTo.min.js'></script>
-    <script src='../assets/javascripts/jquery.timeago.js'></script>
-    <script src='../assets/javascripts/highcharts.src-4.0.1.js'></script>
-    <script src='../assets/javascripts/prettify.js'></script>
-    <script src='../assets/javascripts/bootstrap.min.js'></script>
-    <script src='../assets/javascripts/application.js'></script>
-    <script src='../assets/javascripts/jquery.filtertable.min.js'></script>
+    <script src="../assets/vendor/javascripts/jquery.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.tablesorter.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.scrollTo.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.timeago.js"></script>
+    <script src="../assets/vendor/javascripts/highcharts.src-4.0.1.js"></script>
+    <script src="../assets/vendor/javascripts/prettify.js"></script>
+    <script src="../assets/vendor/javascripts/bootstrap.min.js"></script>
+    <script src="../assets/javascripts/application.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.filtertable.min.js"></script>
   </body>
 </html>

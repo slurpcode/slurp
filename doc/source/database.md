@@ -392,7 +392,7 @@ need to be referenced by FOREIGN KEY LINKS <br />- add an index to columns that
 are used in any JOINS
 
 Note that there other index types aside from the standard index: unique
-contraints and primary key indices and others. We will not discuss those index
+constraints and primary key indices and others. We will not discuss those index
 types today, except to point out that if a column already has been indexed using
 one of these other index types, it does NOT need to be indexed again. You don't
 need to index the same column twice. A unique constraint index (for example)

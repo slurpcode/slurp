@@ -11,7 +11,7 @@ performers who stood out from the rave era with their artistic attitude, individ
 The term "intelligent dance music" has been widely criticised and dismissed by
 most artists associated with it, including Aphex Twin, Autechre, and μ-Ziq.
 
-![Aphex Twin (Pulzar)]()
+![Aphex Twin (Pulzar)](_static/images/idm/aphex-twin.png)
 
 ## The IDM List
 

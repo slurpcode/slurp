@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- StyleSheets -->
-    <link href="../assets/stylesheets/bootstrap.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
-    <link href="../assets/stylesheets/font-awesome.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
-    <link href="../assets/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/bootstrap.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/font-awesome.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
     <link href="../assets/stylesheets/application.css" media="screen, projection, print" rel="stylesheet" type="text/css">
   </head>
 
@@ -47,7 +47,7 @@
     <div class="file-time">
       <span class="committed-at">
         
-          Updated <time class='js-timeago' datetime='2020-11-10 23:33:08 +1000'>2020-11-10 23:33:08 +1000</time>
+          Updated <time class='js-timeago' datetime='2022-04-10 21:34:16 +0600'>2022-04-10 21:34:16 +0600</time>
         
       </span>
     </div>
@@ -69,11 +69,11 @@
           <div class="code-statistics col-md-11">
             <div class="col-md-3">
               <div><span class="metric">291</span><small> lines of codes</small></div>
-              <div><span class="metric">11</span><small> methods</small></div>
+              <div><span class="metric">10</span><small> methods</small></div>
             </div>
             <div class="col-md-3">
-              <div><span class="metric">5.0</span><small> complexity/method</small></div>
-              <div><span class="metric">13</span><small> churn</small></div>
+              <div><span class="metric">5.5</span><small> complexity/method</small></div>
+              <div><span class="metric">22</span><small> churn</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">54.74</span><small> complexity</small></div>
@@ -98,69 +98,69 @@
     </div>
 
     <code class="prettyprint linenums lang-ruby file-code js-file-code">#!/usr/bin/env ruby
+# frozen_string_literal: true
+
 # Need to finish `time`
 # Wow, looks like there are still jobs for COBOL
 
-require &#39;csv&#39;
-require &#39;fileutils&#39;
-require &#39;mechanize&#39;
-require &#39;optparse&#39;
-require &#39;optparse/time&#39;
-require &#39;paint&#39;
+require &quot;csv&quot;
+require &quot;fileutils&quot;
+require &quot;mechanize&quot;
+require &quot;optparse&quot;
+require &quot;optparse/time&quot;
+require &quot;paint&quot;
 # require &#39;pp&#39;
 
 def wtype(worktype)
   case worktype
-  when &#39;full&#39;
+  when &quot;full&quot;
     242
-  when &#39;part&#39;
+  when &quot;part&quot;
     243
-  when &#39;contract&#39;
+  when &quot;contract&quot;
     244
-  when &#39;casual&#39;
+  when &quot;casual&quot;
     245
-  when &#39;242&#39;
+  when &quot;242&quot;
     242
-  when &#39;243&#39;
+  when &quot;243&quot;
     243
-  when &#39;244&#39;
+  when &quot;244&quot;
     244
-  when &#39;245&#39;
+  when &quot;245&quot;
     245
   else
-    &#39;242%2C243%2C244%2C245&#39;
+    &quot;242%2C243%2C244%2C245&quot;
   end
 end
 
 def enwtype(worktype)
   case worktype
   when 242
-    &#39;full&#39;
+    &quot;full&quot;
   when 243
-    &#39;part&#39;
+    &quot;part&quot;
   when 244
-    &#39;contract&#39;
+    &quot;contract&quot;
   when 245
-    &#39;casual&#39;
+    &quot;casual&quot;
   else
-    &#39;all&#39;
+    &quot;all&quot;
   end
 end
 
 # Custom OptionParser class
 class Parser
-  VERSION = &#39;1.0.0&#39;
+  VERSION = &quot;1.0.0&quot;
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
     attr_accessor :keyword, :location, :range, :worktype, :delay, :time
 
-    def initialize; end
-
     def define_options(parser)
       parser.banner = &quot;Usage: #{Paint[&#39;seek.rb [options]&#39;, :red, :white]}&quot;
-      parser.separator &#39;&#39;
-      parser.separator &#39;Specific options:&#39;
+      parser.separator &quot;&quot;
+      parser.separator &quot;Specific options:&quot;
 
       # add additional options
       specify_keyword_option(parser)
@@ -170,16 +170,16 @@ class Parser
       delay_execution_option(parser)
       execute_at_time_option(parser)
 
-      parser.separator &#39;&#39;
-      parser.separator &#39;Common options:&#39;
+      parser.separator &quot;&quot;
+      parser.separator &quot;Common options:&quot;
       # No argument, shows at tail.  This will print an options summary.
       # Try it and see!
-      parser.on_tail(&#39;-h&#39;, &#39;--help&#39;, &#39;Show this message&#39;) do
+      parser.on_tail(&quot;-h&quot;, &quot;--help&quot;, &quot;Show this message&quot;) do
         puts parser
         exit
       end
       # Another typical switch to print the version.
-      parser.on_tail(&#39;--version&#39;, &#39;Show version&#39;) do
+      parser.on_tail(&quot;--version&quot;, &quot;Show version&quot;) do
         puts VERSION
         exit
       end
@@ -187,47 +187,47 @@ class Parser
 
     def specify_keyword_option(parser)
       parser.on(
-        &#39;-k&#39;,
-        &#39;--keyword keyword&#39;,
+        &quot;-k&quot;,
+        &quot;--keyword keyword&quot;,
         &#39;Keywords to search
                                                separators include:
                                                and, or, not&#39;
-      ){|k| self.keyword = k}
+      ) { |k| self.keyword = k }
     end
 
     def specify_location_option(parser)
-      parser.on(&#39;-l&#39;, &#39;--location location&#39;, &#39;Suburb, city or region&#39;) do |l|
+      parser.on(&quot;-l&quot;, &quot;--location location&quot;, &quot;Suburb, city or region&quot;) do |l|
         self.location = l
       end
     end
 
     def specify_range_option(parser)
       parser.on(
-        &#39;-r&#39;,
-        &#39;--range range&#39;,
+        &quot;-r&quot;,
+        &quot;--range range&quot;,
         &#39;Listed time in days
                                                        999 (default) or
                                                        1, 3, 7, 14, 31 or
                                                        any positive number&#39;
-      ){|r| self.range = r}
+      ) { |r| self.range = r }
     end
 
     def specify_worktype_option(parser)
       parser.on(
-        &#39;-w&#39;,
-        &#39;--worktype worktype&#39;,
+        &quot;-w&quot;,
+        &quot;--worktype worktype&quot;,
         &#39;Work type
                                                  all (default)
                                                  full or 242 (full time)
                                                  part or 243 (part time)
                                                  contract or 244 (contract/temp)
                                                  casual or 245 (casual/vacation)&#39;
-      ){|w| self.worktype = wtype(w)}
+      ) { |w| self.worktype = wtype(w) }
     end
 
     def delay_execution_option(parser)
       # Cast &#39;delay&#39; argument to a Float.
-      parser.on(&#39;--delay N&#39;, Float, &#39;Delay N seconds before executing&#39;) do |n|
+      parser.on(&quot;--delay N&quot;, Float, &quot;Delay N seconds before executing&quot;) do |n|
         self.delay = n
       end
     end
@@ -235,11 +235,11 @@ class Parser
     def execute_at_time_option(parser)
       # Cast &#39;time&#39; argument to a Time object.
       parser.on(
-        &#39;-t&#39;,
-        &#39;--time [TIME]&#39;,
+        &quot;-t&quot;,
+        &quot;--time [TIME]&quot;,
         Time,
-        &#39;Begin execution at given time&#39;
-      ){|time| self.time = time}
+        &quot;Begin execution at given time&quot;
+      ) { |time| self.time = time }
     end
   end
 
@@ -269,15 +269,15 @@ options = example.parse(ARGV)
 
 sleep(options.delay) if options.delay
 if options.keyword.nil?
-  print &#39;Enter the keywords to search separators include: and, or, not: &#39;
+  print &quot;Enter the keywords to search separators include: and, or, not: &quot;
   options.keyword = $stdin.gets.chomp
 end
 if options.location.nil?
-  print &#39;Enter the suburb, city or region: &#39;
+  print &quot;Enter the suburb, city or region: &quot;
   options.location = $stdin.gets.chomp
 end
 if options.range.nil?
-  print &#39;Listed time in days 999 (default) or 1, 3, 7, 14, 31 or any positive number: &#39;
+  print &quot;Listed time in days 999 (default) or 1, 3, 7, 14, 31 or any positive number: &quot;
   options.range = $stdin.gets.chomp
 end
 if options.worktype.nil?
@@ -291,39 +291,39 @@ if options.worktype.nil?
 end
 
 agent = Mechanize.new
-agent.user_agent_alias = &#39;Windows Chrome&#39;
-site = &#39;https://www.seek.com.au&#39;
+agent.user_agent_alias = &quot;Windows Chrome&quot;
+site = &quot;https://www.seek.com.au&quot;
 page =
   agent.get(
     &quot;#{site}/jobs&quot;,
     [
-      [&#39;keywords&#39;, options.keyword],
-      [&#39;where&#39;, options.location],
-      [&#39;range&#39;, options.range],
-      [&#39;worktype&#39;, options.worktype]
+      [&quot;keywords&quot;, options.keyword],
+      [&quot;where&quot;, options.location],
+      [&quot;range&quot;, options.range],
+      [&quot;worktype&quot;, options.worktype]
     ]
   )
 results = []
 results &lt;&lt;
   [
-    &#39;Title&#39;,
-    &#39;URL&#39;,
-    &#39;Advertiser&#39;,
-    &#39;Location&#39;,
-    &#39;Area&#39;,
-    &#39;Listing Date&#39;,
-    &#39;Salary&#39;,
-    &#39;Classification&#39;,
-    &#39;Sub Classification&#39;,
-    &#39;Work Type&#39;,
-    &#39;Short Description&#39;
+    &quot;Title&quot;,
+    &quot;URL&quot;,
+    &quot;Advertiser&quot;,
+    &quot;Location&quot;,
+    &quot;Area&quot;,
+    &quot;Listing Date&quot;,
+    &quot;Salary&quot;,
+    &quot;Classification&quot;,
+    &quot;Sub Classification&quot;,
+    &quot;Work Type&quot;,
+    &quot;Short Description&quot;
   ]
 
 loop do
   # for each page # html = page.body
-  jobs = page.search(&#39;article&#39;)
+  jobs = page.search(&quot;article&quot;)
   jobs.each do |job|
-    title = job.xpath(&#39;@aria-label&#39;)
+    title = job.xpath(&quot;@aria-label&quot;)
     url =
       site + job.xpath(&#39;descendant::a[@data-automation=&quot;jobTitle&quot;]/@href&#39;).to_s
     advertiser =
@@ -365,7 +365,7 @@ loop do
       ]
   end
 
-  if (link = page.link_with(text: &#39;Next&#39;)) # As long as there is still a next page link
+  if (link = page.link_with(text: &quot;Next&quot;)) # As long as there is still a next page link
     page = link.click
   else
     # If no link left, then break out of loop
@@ -374,16 +374,16 @@ loop do
 end
 
 if results.size &gt; 1
-  keyword = options.keyword.tr(&#39; &#39;, &#39;-&#39;)
-  location = options.location.tr(&#39; &#39;, &#39;-&#39;) unless options.location.empty?
+  keyword = options.keyword.tr(&quot; &quot;, &quot;-&quot;)
+  location = options.location.tr(&quot; &quot;, &quot;-&quot;) unless options.location.empty?
   range = &quot;range-#{options.range}&quot; unless options.range.empty?
   options.worktype = enwtype(options.worktype)
   worktype = &quot;worktype-#{options.worktype}&quot; unless options.worktype.empty?
-  filename = [keyword, location, range, worktype].compact.join(&#39;-&#39;).downcase
-  filename = filename[1..] if filename[0] == &#39;-&#39;
-  FileUtils.mkdir_p(&#39;jobs&#39;)
-  CSV.open(&quot;jobs/#{filename}.csv&quot;, &#39;w+&#39;) do |csv_file|
-    results.each{|row| csv_file &lt;&lt; row}
+  filename = [keyword, location, range, worktype].compact.join(&quot;-&quot;).downcase
+  filename = filename[1..] if filename[0] == &quot;-&quot;
+  FileUtils.mkdir_p(&quot;jobs&quot;)
+  CSV.open(&quot;jobs/#{filename}.csv&quot;, &quot;w+&quot;) do |csv_file|
+    results.each { |row| csv_file &lt;&lt; row }
   end
   puts &quot;#{results.size - 1} jobs found&quot;
   `open &quot;jobs/#{filename}.csv&quot;`
@@ -397,14 +397,14 @@ end
     </div>
 
     <!-- JavaScripts -->
-    <script src='../assets/javascripts/jquery.min.js'></script>
-    <script src='../assets/javascripts/jquery.tablesorter.min.js'></script>
-    <script src='../assets/javascripts/jquery.scrollTo.min.js'></script>
-    <script src='../assets/javascripts/jquery.timeago.js'></script>
-    <script src='../assets/javascripts/highcharts.src-4.0.1.js'></script>
-    <script src='../assets/javascripts/prettify.js'></script>
-    <script src='../assets/javascripts/bootstrap.min.js'></script>
-    <script src='../assets/javascripts/application.js'></script>
-    <script src='../assets/javascripts/jquery.filtertable.min.js'></script>
+    <script src="../assets/vendor/javascripts/jquery.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.tablesorter.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.scrollTo.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.timeago.js"></script>
+    <script src="../assets/vendor/javascripts/highcharts.src-4.0.1.js"></script>
+    <script src="../assets/vendor/javascripts/prettify.js"></script>
+    <script src="../assets/vendor/javascripts/bootstrap.min.js"></script>
+    <script src="../assets/javascripts/application.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.filtertable.min.js"></script>
   </body>
 </html>
