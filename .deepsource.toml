@@ -6,6 +6,9 @@ version = 1
 name = "go"
 enabled = true
 
+  [analyzers.meta]
+  import_root = "github.com/slurpcode/slurp"
+
 [[analyzers]]
 name = "javascript"
 enabled = true

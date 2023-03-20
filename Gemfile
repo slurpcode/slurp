@@ -22,14 +22,14 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-avatar"
-  gem "jekyll-feed", "~> 0.15"
+  gem "jekyll-feed"
   gem "jekyll-paginate"
   gem "jekyll-redirect-from"
   gem "jekyll-sitemap"
   gem "jemoji"
 end
 
-gem "activesupport", ">= 4.1.11"
+gem "activesupport"
 gem "chroma"
 gem "csv"
 gem "fileutils"
