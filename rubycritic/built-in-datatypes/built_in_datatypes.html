@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- StyleSheets -->
-    <link href="../assets/stylesheets/bootstrap.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
-    <link href="../assets/stylesheets/font-awesome.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
-    <link href="../assets/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/bootstrap.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/font-awesome.min.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <link href="../assets/vendor/stylesheets/prettify.custom_theme.css" media="screen, projection, print" rel="stylesheet" type="text/css">
     <link href="../assets/stylesheets/application.css" media="screen, projection, print" rel="stylesheet" type="text/css">
   </head>
 
@@ -47,7 +47,7 @@
     <div class="file-time">
       <span class="committed-at">
         
-          Updated <time class='js-timeago' datetime='2020-11-10 23:33:08 +1000'>2020-11-10 23:33:08 +1000</time>
+          Updated <time class='js-timeago' datetime='2022-04-10 21:34:16 +0600'>2022-04-10 21:34:16 +0600</time>
         
       </span>
     </div>
@@ -69,15 +69,15 @@
           <div class="code-statistics col-md-11">
             <div class="col-md-3">
               <div><span class="metric">170</span><small> lines of codes</small></div>
-              <div><span class="metric">7</span><small> methods</small></div>
+              <div><span class="metric">6</span><small> methods</small></div>
             </div>
             <div class="col-md-3">
-              <div><span class="metric">4.1</span><small> complexity/method</small></div>
-              <div><span class="metric">13</span><small> churn</small></div>
+              <div><span class="metric">4.8</span><small> complexity/method</small></div>
+              <div><span class="metric">23</span><small> churn</small></div>
             </div>
             <div class="col-md-3">
               <div><span class="metric">28.77</span><small> complexity</small></div>
-              <div><span class="metric">117</span><small> duplications</small></div>
+              <div><span class="metric">114</span><small> duplications</small></div>
             </div>
           </div>
         </div>
@@ -98,56 +98,56 @@
     </div>
 
     <code class="prettyprint linenums lang-ruby file-code js-file-code">#!/usr/bin/env ruby
+# frozen_string_literal: true
+
 # to finish `time`
 
-require &#39;nokogiri&#39;
-require &#39;optparse&#39;
-require &#39;optparse/time&#39;
-require &#39;paint&#39;
+require &quot;nokogiri&quot;
+require &quot;optparse&quot;
+require &quot;optparse/time&quot;
+require &quot;paint&quot;
 # require &#39;pp&#39;
 
 # Custom OptionParser class
-class Parser<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 4 nodes</span>              <span>Locations:</span>                  <a href="built_in_datatypes.html#L11" class="js-smell-location">0</a>                  <a href="../ruby-eclipse-cheatsheets-to-dita/ruby-cheatsheets-to-dita.html#L13" class="js-smell-location">1</a>                  <a href="../ruby-strip/ruby-strip.html#L11" class="js-smell-location">2</a>                  <a href="../well-formed/well_formed.html#L11" class="js-smell-location">3</a>                  </div>  </li></ol>
-  VERSION = &#39;1.0.0&#39;
+class Parser<ol class="nocode errors smells">  <li>    <div class="description">      <div class="heading">        <span>          <i class="fa fa-warning" aria-hidden="true"></i>          <a href="http://docs.seattlerb.org/flay/" target="_blank"><b>DuplicateCode</b></a>        </span>      </div>      <span>Similar code found in 4 nodes</span>              <span>Locations:</span>                  <a href="built_in_datatypes.html#L13" class="js-smell-location">0</a>                  <a href="../ruby-eclipse-cheatsheets-to-dita/ruby-cheatsheets-to-dita.html#L14" class="js-smell-location">1</a>                  <a href="../ruby-strip/ruby-strip.html#L13" class="js-smell-location">2</a>                  <a href="../well-formed/well_formed.html#L13" class="js-smell-location">3</a>                  </div>  </li></ol>
+  VERSION = &quot;1.0.0&quot;
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
     attr_accessor :path, :delay, :time
 
-    def initialize; end
-
     def define_options(parser)
       parser.banner = &quot;Usage: #{Paint[&#39;built_in_datatypes.rb&#39;, :red, :white]}&quot;
-      parser.separator &#39;&#39;
-      parser.separator &#39;Specific options:&#39;
+      parser.separator &quot;&quot;
+      parser.separator &quot;Specific options:&quot;
 
       # add additional options
       specify_path_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
 
-      parser.separator &#39;&#39;
-      parser.separator &#39;Common options:&#39;
+      parser.separator &quot;&quot;
+      parser.separator &quot;Common options:&quot;
       # No argument, shows at tail.  This will print an options summary.
       # Try it and see!
-      parser.on_tail(&#39;-h&#39;, &#39;--help&#39;, &#39;Show this message&#39;) do
+      parser.on_tail(&quot;-h&quot;, &quot;--help&quot;, &quot;Show this message&quot;) do
         puts parser
         exit
       end
       # Another typical switch to print the version.
-      parser.on_tail(&#39;--version&#39;, &#39;Show version&#39;) do
+      parser.on_tail(&quot;--version&quot;, &quot;Show version&quot;) do
         puts VERSION
         exit
       end
     end
 
     def specify_path_option(parser)
-      parser.on(&#39;-p&#39;, &#39;--path path&#39;, &#39;Path to schema&#39;){|p| self.path = p}
+      parser.on(&quot;-p&quot;, &quot;--path path&quot;, &quot;Path to schema&quot;) { |p| self.path = p }
     end
 
     def delay_execution_option(parser)
       # Cast &#39;delay&#39; argument to a Float.
-      parser.on(&#39;--delay N&#39;, Float, &#39;Delay N seconds before executing&#39;) do |n|
+      parser.on(&quot;--delay N&quot;, Float, &quot;Delay N seconds before executing&quot;) do |n|
         self.delay = n
       end
     end
@@ -155,11 +155,11 @@ class Parser<ol class="nocode errors smells">  <li>    <div class="description">
     def execute_at_time_option(parser)
       # Cast &#39;time&#39; argument to a Time object.
       parser.on(
-        &#39;-t&#39;,
-        &#39;--time [TIME]&#39;,
+        &quot;-t&quot;,
+        &quot;--time [TIME]&quot;,
         Time,
-        &#39;Begin execution at given time&#39;
-      ){|time| self.time = time}
+        &quot;Begin execution at given time&quot;
+      ) { |time| self.time = time }
     end
   end
 
@@ -189,12 +189,12 @@ options = example.parse(ARGV)
 
 sleep(options.delay) if options.delay
 if options.path.nil?
-  print &#39;Enter the path to the schema: &#39;
+  print &quot;Enter the path to the schema: &quot;
   options.path = $stdin.gets.chomp
 end
 
 def create_path(path)
-  path.tr(&#39;\\&#39;, &#39;/&#39;)
+  path.tr(&quot;\\&quot;, &quot;/&quot;)
 end
 
 @error = 0
@@ -251,8 +251,8 @@ project_path = create_path(options.path)
 
 Dir.glob(&quot;#{project_path}/**/*.xsd&quot;).map do |schema|
   doc = Nokogiri.XML(File.open(schema))
-  doc.xpath(&#39;//*[starts-with(@type,&quot;xsd:&quot;)]&#39;).map do |tag|
-    type = tag.attribute(&#39;type&#39;).to_s.split(&#39;:&#39;).last
+  doc.xpath(&#39;//*[starts-with(@type,&quot;xs:&quot;)]&#39;).map do |tag|
+    type = tag.attribute(&quot;type&quot;).to_s.split(&quot;:&quot;).last
     next if @datatypes.include?(type)
 
     @datatypes &lt;&lt; type
@@ -276,14 +276,14 @@ exit 1 unless @error.zero?
     </div>
 
     <!-- JavaScripts -->
-    <script src='../assets/javascripts/jquery.min.js'></script>
-    <script src='../assets/javascripts/jquery.tablesorter.min.js'></script>
-    <script src='../assets/javascripts/jquery.scrollTo.min.js'></script>
-    <script src='../assets/javascripts/jquery.timeago.js'></script>
-    <script src='../assets/javascripts/highcharts.src-4.0.1.js'></script>
-    <script src='../assets/javascripts/prettify.js'></script>
-    <script src='../assets/javascripts/bootstrap.min.js'></script>
-    <script src='../assets/javascripts/application.js'></script>
-    <script src='../assets/javascripts/jquery.filtertable.min.js'></script>
+    <script src="../assets/vendor/javascripts/jquery.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.tablesorter.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.scrollTo.min.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.timeago.js"></script>
+    <script src="../assets/vendor/javascripts/highcharts.src-4.0.1.js"></script>
+    <script src="../assets/vendor/javascripts/prettify.js"></script>
+    <script src="../assets/vendor/javascripts/bootstrap.min.js"></script>
+    <script src="../assets/javascripts/application.js"></script>
+    <script src="../assets/vendor/javascripts/jquery.filtertable.min.js"></script>
   </body>
 </html>

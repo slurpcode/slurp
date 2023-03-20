@@ -47,12 +47,12 @@
     <div class="file-time">
       <span class="committed-at">
         
-          Updated <time class='js-timeago' datetime='2022-04-10 21:34:16 +0600'>2022-04-10 21:34:16 +0600</time>
+          Updated <time class='js-timeago' datetime='2023-03-06 08:29:56 +1000'>2023-03-06 08:29:56 +1000</time>
         
       </span>
     </div>
     <div>
-      <h3><small>hashcheck /</small> hashcheck.rb</h3>
+      <h3><small>drivers /</small> fuchsia.rb</h3>
     </div>
   </div>
   <!--End Page Title -->
@@ -68,15 +68,15 @@
           </div>
           <div class="code-statistics col-md-11">
             <div class="col-md-3">
-              <div><span class="metric">108</span><small> lines of codes</small></div>
-              <div><span class="metric">6</span><small> methods</small></div>
+              <div><span class="metric">22</span><small> lines of codes</small></div>
+              <div><span class="metric">0</span><small> methods</small></div>
             </div>
             <div class="col-md-3">
-              <div><span class="metric">5.1</span><small> complexity/method</small></div>
-              <div><span class="metric">22</span><small> churn</small></div>
+              <div><span class="metric">N/A</span><small> complexity/method</small></div>
+              <div><span class="metric">8</span><small> churn</small></div>
             </div>
             <div class="col-md-3">
-              <div><span class="metric">30.73</span><small> complexity</small></div>
+              <div><span class="metric">0.0</span><small> complexity</small></div>
               <div><span class="metric">0</span><small> duplications</small></div>
             </div>
           </div>
@@ -99,112 +99,26 @@
 
     <code class="prettyprint linenums lang-ruby file-code js-file-code"># frozen_string_literal: true
 
-# Secure Hash Algorithm choices: md2 md4 md5 sha1 sha256 sha384 sha512
-# to finish `time`
+require &quot;selenium-webdriver&quot;
 
-require &quot;optparse&quot;
-require &quot;optparse/time&quot;
-require &quot;paint&quot;
-# require &#39;pp&#39;
+options = Selenium::WebDriver::Options.firefox
+driver = Selenium::WebDriver.for(:firefox, options:)
 
-# Custom OptionParser class
-class Parser
-  VERSION = &quot;1.0.0&quot;
-
-  # Custom OptionParser ScriptOptions
-  class ScriptOptions
-    attr_accessor :file, :algorithm, :delay, :time
-
-    def define_options(parser)
-      parser.banner = &quot;Usage: #{Paint[&#39;hashcheck.rb [options]&#39;, :red, :white]}&quot;
-      parser.separator &quot;&quot;
-      parser.separator &quot;Specific options:&quot;
-
-      # add additional options
-      specify_file_option(parser)
-      specify_algorithm_option(parser)
-      delay_execution_option(parser)
-      execute_at_time_option(parser)
-
-      parser.separator &quot;&quot;
-      parser.separator &quot;Common options:&quot;
-      # No argument, shows at tail.  This will print an options summary.
-      # Try it and see!
-      parser.on_tail(&quot;-h&quot;, &quot;--help&quot;, &quot;Show this message&quot;) do
-        puts parser
-        exit
-      end
-      # Another typical switch to print the version.
-      parser.on_tail(&quot;--version&quot;, &quot;Show version&quot;) do
-        puts VERSION
-        exit
-      end
-    end
-
-    def specify_file_option(parser)
-      parser.on(&quot;-f&quot;, &quot;--file file&quot;, &quot;Path to file&quot;) { |f| self.file = f }
-    end
-
-    def specify_algorithm_option(parser)
-      parser.on(&quot;-a&quot;, &quot;--algorithm algorithm&quot;, &quot;Algorithm&quot;) do |a|
-        self.algorithm = a
-      end
-    end
-
-    def delay_execution_option(parser)
-      # Cast &#39;delay&#39; argument to a Float.
-      parser.on(&quot;--delay N&quot;, Float, &quot;Delay N seconds before executing&quot;) do |n|
-        self.delay = n
-      end
-    end
-
-    def execute_at_time_option(parser)
-      # Cast &#39;time&#39; argument to a Time object.
-      parser.on(
-        &quot;-t&quot;,
-        &quot;--time [TIME]&quot;,
-        Time,
-        &quot;Begin execution at given time&quot;
-      ) { |time| self.time = time }
-    end
-  end
-
-  #
-  # Return a structure describing the options.
-  #
-  def parse(args)
-    # The options specified on the command line will be collected in
-    # *options*.
-
-    @options = ScriptOptions.new
-    @args =
-      OptionParser.new do |parser|
-        @options.define_options(parser)
-        parser.parse!(args)
-      end
-    @options
-  end
-
-  attr_reader :parser, :options
+begin
+  driver.get &quot;https://slurpcode.github.io/slurp/&quot;
+  driver.find_element(tag_name: &quot;body&quot;).send_keys &quot;matrix&quot;, :return
+  sleep(30)
+  driver.find_element(tag_name: &quot;body&quot;).send_keys &quot;jedi&quot;, :return
+  sleep(30)
+  driver.find_element(tag_name: &quot;body&quot;).send_keys &quot;midnight&quot;, :return
+  sleep(15)
+  driver.find_element(tag_name: &quot;body&quot;).send_keys &quot;king&quot;, :return
+  sleep(15)
+  # driver.find_element(tag_name: &quot;body&quot;).send_keys &quot;winter&quot;, :return
+  # sleep(15)
+ensure
+  driver.quit
 end
-
-example = Parser.new
-options = example.parse(ARGV)
-# pp options # example.options
-# pp ARGV
-
-sleep(options.delay) if options.delay
-if options.file.nil?
-  print &quot;Enter path to file: &quot;
-  options.file = $stdin.gets.chomp
-end
-if options.algorithm.nil?
-  print &quot;Enter algorithm: &quot;
-  options.algorithm = $stdin.gets.chomp
-end
-
-shell_command = `CertUtil -hashfile &quot;#{options.file}&quot; &quot;#{options.algorithm}&quot;`
-puts shell_command.inspect.split(&#39;\n&#39;)[1]
 </code>
   </div>
 </div>

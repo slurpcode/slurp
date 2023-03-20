@@ -17,6 +17,7 @@ repos:
       - id: check-case-conflict
       - id: check-docstring-first
       - id: check-executables-have-shebangs
+        exclude: ^rubycritic/assets.*$
       - id: check-json
       - id: check-merge-conflict
       - id: check-toml
@@ -58,9 +59,9 @@ repos:
     rev: v1.3.1
     hooks:
       - id: forbid-tabs
-        exclude: ^doc/Makefile$|go\.mod$|go\.sum$|.*\.go$
+        exclude: ^doc/Makefile$|go\.mod$|go\.sum$|^rubycritic/assets.*$|.*\.go$
       - id: remove-tabs
-        exclude: ^doc/Makefile$|go\.mod$|go\.sum$|.*\.go$
+        exclude: ^doc/Makefile$|go\.mod$|go\.sum$|^rubycritic/assets.*$|.*\.go$
   - repo: https://github.com/pre-commit/pygrep-hooks
     rev: v1.9.0
     hooks:
