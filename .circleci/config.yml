@@ -4,6 +4,7 @@
 #
 version: 2.1
 orbs:
+  python: circleci/python@2.1.1
   shellcheck: circleci/shellcheck@2.0.0
 jobs:
   build-python:
@@ -282,6 +283,20 @@ jobs:
             cd scrapers/php
             php ./github-max-per-day.php fabpot
 
+  spider:
+    executor: python/default
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: pip
+      - python/install-packages:
+          args: Scrapy
+      - run:
+          name: Run the spider
+          command: |
+            cd scrapers/python/scrapy/github
+            scrapy runspider spider.py -a username=ihasidul
+
 workflows:
   build-deploy:
     jobs:
@@ -294,6 +309,7 @@ workflows:
       - shell
       - shellcheck
       - spelling
+      - spider
       - well-formed
       - surge:
           requires:
