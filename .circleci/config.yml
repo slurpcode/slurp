@@ -5,7 +5,7 @@
 version: 2.1
 orbs:
   python: circleci/python@2.1.1
-  shellcheck: circleci/shellcheck@2.2.4
+  shellcheck: circleci/shellcheck@3.1.2
 jobs:
   build-python:
     docker:
