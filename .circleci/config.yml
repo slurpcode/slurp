@@ -284,9 +284,7 @@ jobs:
             php ./github-max-per-day.php fabpot
 
   spider:
-    docker:
-      - image: cimg/base:stable
-    working_directory: ~/repo
+    executor: python/default
     steps:
       - checkout
       - python/install-packages:
