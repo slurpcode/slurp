@@ -10,7 +10,7 @@ Insert your github username.
 """
 import scrapy
 
-user = input("Enter your github username: ")
+# user = input("Enter your github username: ")
 
 
 class GithubSpider(scrapy.Spider):
