@@ -3,6 +3,8 @@
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
 version: 2.1
+orbs:
+  shellcheck: circleci/shellcheck@2.0.0
 jobs:
   build-python:
     docker:
@@ -178,9 +180,10 @@ jobs:
 
   shellcheck:
     docker:
-      - image: nlknguyen/alpine-shellcheck:v0.4.6
+      - image: cimg/base:stable
     steps:
       - checkout
+      - shellcheck/install
       - run:
           name: 🧹 Lint shell scripts
           command: |
@@ -296,7 +299,6 @@ jobs:
             scrapy runspider spider.py -a username=ihasidul
 
 workflows:
-  version: 2
   build-deploy:
     jobs:
       - build
