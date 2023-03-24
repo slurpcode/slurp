@@ -4,6 +4,7 @@
 #
 version: 2.1
 orbs:
+  python: circleci/python@2.1.1
   shellcheck: circleci/shellcheck@2.0.0
 jobs:
   build-python:
