@@ -3,7 +3,7 @@ default_stages: [commit, push]
 default_language_version:
   # force all unspecified Python hooks to run python3
   python: python3
-minimum_pre_commit_version: '1.20.0'
+minimum_pre_commit_version: "1.20.0"
 repos:
   - repo: meta
     hooks:
@@ -96,7 +96,7 @@ repos:
     rev: v2.17.0
     hooks:
       - id: pylint
-   - repo: https://github.com/codespell-project/codespell
+  - repo: https://github.com/codespell-project/codespell
     rev: v2.2.2
     hooks:
       - id: codespell
