@@ -96,6 +96,14 @@ repos:
     rev: v2.17.0
     hooks:
       - id: pylint
+   - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.2
+    hooks:
+      - id: codespell
+        name: Run codespell
+        description: Check spelling with codespell
+        entry: codespell --ignore-words=codespell.txt
+        exclude: ^docs/.*$
   # - repo: https://github.com/syntaqx/git-hooks
   #  rev: v0.0.16
   #  hooks:
