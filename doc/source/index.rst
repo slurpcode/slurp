@@ -35,7 +35,7 @@ Welcome to slurp's documentation!
 
    al-karama.md
    amer.md
-   captian.md
+   captain.md
    omar.md
    teresa.md
    al-latrun.md
