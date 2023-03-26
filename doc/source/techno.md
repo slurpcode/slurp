@@ -25,7 +25,7 @@ parties, with the exception of chill-out room ambient, triphop, drum & bass. Of 
 Cox, who works with three turntables, Laurent Garnier of France, Joey Beltram of New York, the Orbit, or Dave Clarke.
 The most exciting drive of the style is the minimal, streamlined sounds, the ecstatic stream music of the repetitive rhythms unfolding
 like a snail. Its main representatives are Richie Hawtin (aka Plastikman), Maurizio (from Berlin), Robert Hood (from Detroit).
-But the rest of Detroit also likes to excel at a minimum, such as Mad Mike (the soul and lifeblood of Underground Resitance), Kenny
+But the rest of Detroit also likes to excel at a minimum, such as Mad Mike (the soul and lifeblood of Underground Resistance), Kenny
 Larkin, or Season Deason.
 
 Some formations tried to marry the techno with the pop. The experiment proved successful and is still fantastically profitable. For

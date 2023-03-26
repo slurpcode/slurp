@@ -36,7 +36,7 @@ It is the most important temple in Bali and the most sacred, it is considered th
 
 ## Waterfalls
 
-Bali has excellent waterfalls perfect for taking a bath such as Git Git, which is the highest on the island and is very easy to access. Sekumpul is one of the most impressive in Bali but can only be reached by motorcycle. Goa Batu where to get there you have to walk a long way, but the effort is worth it. Aling Aling is one of the most popular in Bali and you can jump from its top and finally the Nung Nung waterfall, which in addition to having easy access has a large waterfall.
+Bali has excellent waterfalls perfect for taking a bath such as Git Git, which is the highest on the island and is very easy to access. Sekumpul is one of the most impressive in Bali but can only be reached by motorcycle. Goa Batu where to get there you have to walk a long way, but the effort is worth it. Aling is one of the most popular in Bali and you can jump from its top and finally the Nung Nung waterfall, which in addition to having easy access has a large waterfall.
 
 ## Ulun Danu Temple
 

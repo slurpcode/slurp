@@ -1,4 +1,4 @@
-# 🎖️ Captian Habis Al-Majali, the legend of the battles of Latrun and Bab Al-Wad
+# 🎖️ Captain Habis Al-Majali, the legend of the battles of Latrun and Bab Al-Wad
 
 ![Habis-Al-Majali](_static/images/captian/image1.jpeg)
 
