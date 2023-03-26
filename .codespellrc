@@ -1,0 +1,10 @@
+[codespell]
+ignore-words-list:
+  - codespell.txt
+-I FILE:
+  - docs/*
+files ...:
+  - .py
+  - .md
+  - .txt
+  - .rst
