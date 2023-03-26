@@ -2,7 +2,7 @@
 ignore-words-list:
   - codespell.txt
 -I FILE:
-  - docs/*
+  - doc/*
 files ...:
   - .py
   - .md
