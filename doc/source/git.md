@@ -7,7 +7,7 @@ should try is
 
 ```
 $ git branch
-* master
+* main
 ```
 
 Now you want to submit a patch or new feature so you can create a new branch and
@@ -24,7 +24,7 @@ branch highlighted by the `*`
 ```
 $ git branch
 * feature-branch
-  master
+  main
 ```
 
 When creating a pull request you need to create a new branch or more technically
@@ -36,14 +36,14 @@ A more verbose version of `git branch` is
 ```
 $ git branch -v
 * improve-docs-2 3d55e793 Merge pull request #244 from fuchsia-programming/pull-243-restyled
-  master         3d55e793 Merge pull request #244 from fuchsia-programming/pull-243-restyled
+  main         3d55e793 Merge pull request #244 from fuchsia-programming/pull-243-restyled
 ```
 
 You can also show the branches in column format
 
 ```
 $ git branch --column
-* codewars   master
+* codewars   main
 ```
 
 Another way to create a new branch is
@@ -59,7 +59,7 @@ again shows this
 ```
 $ git branch
 * codewars
-  master
+  main
   test-branch
 ```
 
@@ -151,7 +151,7 @@ commits
 
 ```
 $ git log
-commit a5cdeaba94db770797fe84bc8666116a97a06d3f (HEAD -> ruby-cheat-sheets, upstream/master, origin/master, origin/HEAD, master)
+commit a5cdeaba94db770797fe84bc8666116a97a06d3f (HEAD -> ruby-cheat-sheets, upstream/main, origin/main, origin/HEAD, main)
 Merge: b4e0ff91 08c5dac7
 Author: John Bampton <jbampton@users.noreply.github.com>
 Date:   Sat Dec 14 08:46:16 2019 +1000
@@ -171,7 +171,7 @@ A more compact version of `git log` is seen below
 
 ```
 $ git log --oneline
-cde978e9 (HEAD -> improve-docs, upstream/master, origin/master, origin/HEAD, master) Merge pull request #242 from fuchsia-programming/pull-241-restyled
+cde978e9 (HEAD -> improve-docs, upstream/main, origin/main, origin/HEAD, main) Merge pull request #242 from fuchsia-programming/pull-241-restyled
 17b1d497 Restyled by prettier-markdown
 cdfe2158 Add more documentation.
 a5cdeaba Merge pull request #240 from fuchsia-programming/pull-239-restyled
@@ -197,11 +197,11 @@ remote `upstream` branches
 
 ```
 $ git branch -a
-  master
+  main
 * ruby-cheat-sheets
-  remotes/origin/HEAD -> origin/master
-  remotes/origin/master
-  remotes/upstream/master
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/upstream/main
   remotes/upstream/pull-183-restyled
   remotes/upstream/pull-190-restyled
   remotes/upstream/pull-196-restyled
@@ -214,9 +214,9 @@ To list your remote branches
 
 ```
 $ git branch -r
-  origin/HEAD -> origin/master
-  origin/master
-  upstream/master
+  origin/HEAD -> origin/main
+  origin/main
+  upstream/main
   upstream/pull-183-restyled
   upstream/pull-190-restyled
   upstream/pull-196-restyled
@@ -244,9 +244,9 @@ Refer to the GitHub help article on
 **[Syncing a fork](https://help.github.com/articles/syncing-a-fork/)**.
 
 ```
-git checkout master
+git checkout main
 git fetch upstream
-git merge upstream/master
+git merge upstream/main
 git push
 ```
 
