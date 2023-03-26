@@ -8,7 +8,6 @@
 [![Discord](https://img.shields.io/discord/696441178421329970?label=Discord&logo=discord&logoColor=white)](https://discord.gg/PW3Fh9Knpp)
 
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/main.svg)](https://circleci.com/gh/slurpcode/slurp)
-[![Travis CI](https://travis-ci.org/slurpcode/slurp.svg?branch=master)](https://travis-ci.org/github/slurpcode/slurp)
 [![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://readthedocs.org/projects/slurp/builds/)
 
 [![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/master/LICENSE)
