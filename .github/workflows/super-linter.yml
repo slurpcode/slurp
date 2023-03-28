@@ -32,7 +32,7 @@ jobs:
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
           VALIDATE_PYTHON_FLAKE8: true
-          VALIDATE_RUBY: false
-          VALIDATE_JAVASCRIPT_ES: false
+          VALIDATE_RUBY: true
+          # VALIDATE_JAVASCRIPT_ES: true
           VALIDATE_YAML: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
