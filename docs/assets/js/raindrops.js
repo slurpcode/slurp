@@ -14,7 +14,7 @@
 
 
 // demo namespace
-var demo = {
+const demo = {
   // CUSTOMIZABLE PROPERTIES
   // - physics speed multiplier: allows slowing down or speeding up simulation
   speed: 1,
@@ -63,9 +63,9 @@ demo.init = function() {
     demo.canvas.height = document.body.clientHeight  - 75;
 
     demo.ctx = demo.canvas.getContext('2d');
-    var c = demo.color;
-    demo.rain_color = 'rgba(' + c.r + ',' + c.g + ',' + c.b + ',' + c.a + ')';
-    demo.rain_color_clear = 'rgba(' + c.r + ',' + c.g + ',' + c.b + ',0)';
+    const c = demo.color;
+    demo.rain_color = `rgba(${  c.r  },${  c.g  },${  c.b  },${  c.a  })`;
+    demo.rain_color_clear = `rgba(${  c.r  },${  c.g  },${  c.b  },0)`;
     demo.resize();
     Ticker.addListener(demo.step);
 
@@ -89,8 +89,8 @@ demo.init = function() {
 // (re)size canvas (clears all particles)
 demo.resize = function() {
   // localize common references
-  var rain = demo.rain;
-  var drops = demo.drops;
+  const rain = demo.rain;
+  const drops = demo.drops;
   // recycle particles
   for (var i = rain.length - 1; i >= 0; i--) {
     rain.pop().recycle();
@@ -107,27 +107,27 @@ demo.resize = function() {
 
 demo.step = function(time, lag) {
   // localize common references
-  var demo = window.demo;
-  var speed = demo.speed;
-  var width = demo.width;
-  var height = demo.height;
-  var wind = demo.wind;
-  var rain = demo.rain;
-  var rain_pool = demo.rain_pool;
-  var drops = demo.drops;
-  var drop_pool = demo.drop_pool;
+  const demo = window.demo;
+  const speed = demo.speed;
+  const width = demo.width;
+  const height = demo.height;
+  const wind = demo.wind;
+  const rain = demo.rain;
+  const rain_pool = demo.rain_pool;
+  const drops = demo.drops;
+  const drop_pool = demo.drop_pool;
 
   // multiplier for physics
-  var multiplier = speed * lag;
+  const multiplier = speed * lag;
 
   // spawn drops
   demo.drop_time += time * speed;
   while (demo.drop_time > demo.drop_delay) {
     demo.drop_time -= demo.drop_delay;
-    var new_rain = rain_pool.pop() || new Rain();
+    const new_rain = rain_pool.pop() || new Rain();
     new_rain.init();
-    var wind_expand = Math.abs(height / new_rain.speed * wind); // expand spawn width as wind increases
-    var spawn_x = Math.random() * (width + wind_expand);
+    const wind_expand = Math.abs(height / new_rain.speed * wind); // expand spawn width as wind increases
+    let spawn_x = Math.random() * (width + wind_expand);
     if (wind > 0) spawn_x -= wind_expand;
     new_rain.x = spawn_x;
     rain.push(new_rain);
@@ -135,7 +135,7 @@ demo.step = function(time, lag) {
 
   // rain physics
   for (var i = rain.length - 1; i >= 0; i--) {
-    var r = rain[i];
+    const r = rain[i];
     r.y += r.speed * r.z * multiplier;
     r.x += r.z * wind * multiplier;
     // remove rain when out of view
@@ -151,9 +151,9 @@ demo.step = function(time, lag) {
   }
 
   // splash drop physics
-  var drop_max_speed = Drop.max_speed;
+  const drop_max_speed = Drop.max_speed;
   for (var i = drops.length - 1; i >= 0; i--) {
-    var d = drops[i];
+    const d = drops[i];
     d.x += d.speed_x * multiplier;
     d.y += d.speed_y * multiplier;
     // apply gravity - magic number 0.3 represents a faked gravity constant
@@ -177,22 +177,22 @@ demo.step = function(time, lag) {
 
 demo.draw = function() {
   // localize common references
-  var demo = window.demo;
-  var width = demo.width;
-  var height = demo.height;
-  var dpr = demo.dpr;
-  var rain = demo.rain;
-  var drops = demo.drops;
-  var ctx = demo.ctx;
+  const demo = window.demo;
+  const width = demo.width;
+  const height = demo.height;
+  const dpr = demo.dpr;
+  const rain = demo.rain;
+  const drops = demo.drops;
+  const ctx = demo.ctx;
 
   // start fresh
   ctx.clearRect(0, 0, width*dpr, height*dpr);
 
   // draw rain (trace all paths first, then stroke once)
   ctx.beginPath();
-  var rain_height = Rain.height * dpr;
+  const rain_height = Rain.height * dpr;
   for (var i = rain.length - 1; i >= 0; i--) {
-    var r = rain[i];
+    const r = rain[i];
     var real_x = r.x * dpr;
     var real_y = r.y * dpr;
     ctx.moveTo(real_x, real_y);
@@ -205,7 +205,7 @@ demo.draw = function() {
 
   // draw splash drops (just copy pre-rendered canvas)
   for (var i = drops.length - 1; i >= 0; i--) {
-    var d = drops[i];
+    const d = drops[i];
     var real_x = d.x * dpr - d.radius;
     var real_y = d.y * dpr - d.radius;
     ctx.drawImage(d.canvas, real_x, real_y);
@@ -235,11 +235,11 @@ Rain.prototype.recycle = function() {
 Rain.prototype.splash = function() {
   if (!this.splashed) {
     this.splashed = true;
-    var drops = demo.drops;
-    var drop_pool = demo.drop_pool;
+    const drops = demo.drops;
+    const drop_pool = demo.drop_pool;
 
-    for (var i=0; i<16; i++) {
-      var drop = drop_pool.pop() || new Drop();
+    for (let i=0; i<16; i++) {
+      const drop = drop_pool.pop() || new Drop();
       drops.push(drop);
       drop.init(this.x);
     }
@@ -258,11 +258,11 @@ function Drop() {
   this.ctx = this.canvas.getContext('2d');
 
   // render once and cache
-  var diameter = this.radius * 2;
+  const diameter = this.radius * 2;
   this.canvas.width = diameter;
   this.canvas.height = diameter;
 
-  var grd = this.ctx.createRadialGradient(this.radius, this.radius , 1, this.radius, this.radius, this.radius);
+  const grd = this.ctx.createRadialGradient(this.radius, this.radius , 1, this.radius, this.radius, this.radius);
   grd.addColorStop(0, demo.rain_color);
   grd.addColorStop(1, demo.rain_color_clear);
   this.ctx.fillStyle = grd;
@@ -274,8 +274,8 @@ Drop.max_speed = 5;
 Drop.prototype.init = function(x) {
   this.x = x;
   this.y = demo.height;
-  var angle = Math.random() * Math.PI - (Math.PI * 0.5);
-  var speed = Math.random() * Drop.max_speed;
+  const angle = Math.random() * Math.PI - (Math.PI * 0.5);
+  const speed = Math.random() * Drop.max_speed;
   this.speed_x = Math.sin(angle) * speed;
   this.speed_y = -Math.cos(angle) * speed;
 };
@@ -292,13 +292,13 @@ demo.mouseHandler = function(evt) {
 };
 demo.touchHandler = function(evt) {
   evt.preventDefault();
-  var touch = evt.touches[0];
+  const touch = evt.touches[0];
   demo.updateCursor(touch.clientX, touch.clientY);
 };
 demo.updateCursor = function(x, y) {
   x /= demo.width;
   y /= demo.height;
-  var y_inverse = (1 - y);
+  const y_inverse = (1 - y);
 
   demo.drop_delay = y_inverse*y_inverse*y_inverse * 100 + 2;
   demo.wind = (x - 0.5) * 50;
@@ -312,7 +312,7 @@ document.addEventListener('touchmove', demo.touchHandler);
 
 // Frame ticker helper module
 var Ticker = (function(){
-  var PUBLIC_API = {};
+  const PUBLIC_API = {};
 
   // public
   // will call function reference repeatedly once registered, passing elapsed time and a lag multiplier as parameters
@@ -330,7 +330,7 @@ var Ticker = (function(){
 
   // private
   var started = false;
-  var last_timestamp = 0;
+  let last_timestamp = 0;
   var listeners = [];
   // queue up a new frame (calls frameHandler)
   function queueFrame() {
@@ -341,7 +341,7 @@ var Ticker = (function(){
     }
   }
   function frameHandler(timestamp) {
-    var frame_time = timestamp - last_timestamp;
+    let frame_time = timestamp - last_timestamp;
     last_timestamp = timestamp;
     // make sure negative time isn't reported (first frame can be whacky)
     if (frame_time < 0) {
@@ -353,7 +353,7 @@ var Ticker = (function(){
     }
 
     // fire custom listeners
-    for (var i = 0, len = listeners.length; i < len; i++) {
+    for (let i = 0, len = listeners.length; i < len; i++) {
       listeners[i].call(window, frame_time, frame_time / 16.67);
     }
 

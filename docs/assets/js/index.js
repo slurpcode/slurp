@@ -1,4 +1,4 @@
-document.addEventListener( 'click', function (e) {
+document.addEventListener( 'click', (e) => {
   Cookies.set('clicks', Cookies.get('clicks') && (+Cookies.get('clicks') + 1) || 0);
   let x;
   if(+Cookies.get('clicks') === 25){
@@ -11,13 +11,13 @@ document.addEventListener( 'click', function (e) {
     Cookies.remove('clicks');
   }
 
-  var cols = ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia',
+  const cols = ['cyan', 'yellow', 'darkpink', 'red', 'blue', 'green', 'white', 'olive', 'black', 'lime', 'fuchsia',
     'purple', 'navy', 'teal', 'aqua', 'maroon', 'pink', 'deeppink', 'lightsalmon', 'teal', 'ivory',
     'orange', 'peru', 'plum'];
-  var randomColor = cols[Math.floor(Math.random()*24)];
-  var randomColor2 = cols[Math.floor(Math.random()*24)];
-  var filler = {};
-  var stroker = {};
+  const randomColor = cols[Math.floor(Math.random()*24)];
+  const randomColor2 = cols[Math.floor(Math.random()*24)];
+  const filler = {};
+  const stroker = {};
   stroker[randomColor2] = randomColor;
   filler[randomColor] = randomColor2;
 
@@ -299,10 +299,10 @@ function bur(b, e){
 }
 
 // animejs code
-var colorTestEls = document.querySelectorAll('.color-test');
+const colorTestEls = document.querySelectorAll('.color-test');
 
 function createTest(el) {
-  var testValues = ['#FF0080', '#800080'];
+  const testValues = ['#FF0080', '#800080'];
   anime({
     targets: el,
     backgroundColor: [testValues[0], testValues[1]],

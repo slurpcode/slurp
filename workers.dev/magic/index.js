@@ -1,15 +1,4 @@
-async function handleRequest(request) {
-  const init = {
-    headers: {
-      'content-type': 'text/html;charset=UTF-8',
-    },
-  };
-  return new Response(someHTML, init);
-}
-addEventListener('fetch', event => {
-  return event.respondWith(handleRequest(event.request));
-});
-const someHTML =  `<!doctype html>
+const someHTML = `<!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
@@ -38,3 +27,15 @@ const someHTML =  `<!doctype html>
   </body>
 </html>
 `;
+async function handleRequest() {
+  const init = {
+    headers: {
+      'content-type': 'text/html;charset=UTF-8',
+    },
+  };
+  return new Response(someHTML, init);
+}
+addEventListener('fetch', event => {
+  return event.respondWith(handleRequest(event.request));
+});
+
