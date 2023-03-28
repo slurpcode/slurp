@@ -17,7 +17,7 @@ function Starfield() {
 
 // The main function - initialises the starfield.
 Starfield.prototype.initialise = function(div) {
-  const self = this;
+  var self = this;
 
   // Store the div.
   this.containerDiv = div;
@@ -33,7 +33,7 @@ Starfield.prototype.initialise = function(div) {
   };
 
   // Create the canvas.
-  const canvas = document.createElement('canvas');
+  var canvas = document.createElement('canvas');
   div.appendChild(canvas);
   this.canvas = canvas;
   this.canvas.width = this.width;
@@ -43,16 +43,16 @@ Starfield.prototype.initialise = function(div) {
 Starfield.prototype.start = function() {
 
   // Create the stars.
-  const stars = [];
-  for(let i=0; i<this.stars; i++) {
+  var stars = [];
+  for(var i=0; i<this.stars; i++) {
     stars[i] = new Star(Math.random()*this.width, Math.random()*this.height, Math.random()*3+1,
       (Math.random()*(this.maxVelocity - this.minVelocity))+this.minVelocity);
   }
   this.stars = stars;
 
-  const self = this;
+  var self = this;
   // Start the timer.
-  this.intervalId = setInterval(() => {
+  this.intervalId = setInterval(function() {
     self.update();
     self.draw();
   }, 1000 / this.fps);
@@ -63,10 +63,10 @@ Starfield.prototype.stop = function() {
 };
 
 Starfield.prototype.update = function() {
-  const dt = 1 / this.fps;
+  var dt = 1 / this.fps;
 
-  for(let i=0; i<this.stars.length; i++) {
-    const star = this.stars[i];
+  for(var i=0; i<this.stars.length; i++) {
+    var star = this.stars[i];
     star.y += dt * star.velocity;
     // If the star has moved from the bottom of the screen, spawn it at the top.
     if(star.y > this.height) {
@@ -79,7 +79,7 @@ Starfield.prototype.update = function() {
 Starfield.prototype.draw = function() {
 
   // Get the drawing context.
-  const ctx = this.canvas.getContext('2d');
+  var ctx = this.canvas.getContext('2d');
 
   // Draw the background.
   ctx.fillStyle = '#000000';
@@ -87,8 +87,8 @@ Starfield.prototype.draw = function() {
 
   // Draw stars.
   ctx.fillStyle = '#ffffff';
-  for(let i=0; i<this.stars.length;i++) {
-    const star = this.stars[i];
+  for(var i=0; i<this.stars.length;i++) {
+    var star = this.stars[i];
     ctx.fillRect(star.x, star.y, star.size, star.size);
   }
 };

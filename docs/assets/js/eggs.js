@@ -1,23 +1,23 @@
-let game;
+var game;
 
 function animate_flower() {
-  $('#imgo').animate({ height: '+=550' }, 4000, () => {
+  $('#imgo').animate({ height: '+=550' }, 4000, function() {
     // Animation complete.
   });
 }
 
 function eggs() {
-  $('#px').click(() => {
+  $('#px').click(function() {
     effect(1);
     $('header').css({ visibility: 'hidden' });
     $('nav').css({ visibility: 'hidden' });
     $('#overlay').css({ display: 'block' });
     animate_flower();
   });
-  $('#overlay').click(() => {
+  $('#overlay').click(function() {
     reset();
   });
-  const easterEggs = [
+  var easterEggs = [
     'reset',
     'fuchsia',
     'king',
@@ -65,13 +65,13 @@ function eggs() {
     'andrew',
     'aleah'
   ];
-  let keyHistory = '';
-  let match;
-  let winter = false;
-  $(document).keypress((e) => {
+  var keyHistory = '';
+  var match;
+  var winter = false;
+  $(document).keypress(function(e) {
     keyHistory += String.fromCharCode(e.which);
-    for (let i = 0; i < easterEggs.length; i++) {
-      const eggLength = easterEggs[i].length;
+    for (var i = 0; i < easterEggs.length; i++) {
+      var eggLength = easterEggs[i].length;
       match = keyHistory.match(easterEggs[i]);
       if (match) {
         // alert(match);
@@ -178,13 +178,13 @@ function eggs() {
                                     'linear-gradient(to bottom,  rgba(8,13,40,1) 0%,rgba(38,19,0,1) 100%)'
             });
           } else {
-            const url =
-                                `assets/images/backgrounds/${ 
-                                  background 
-                                }.jpg`;
+            var url =
+                                'assets/images/backgrounds/' +
+                                background +
+                                '.jpg';
             $('body').css(
               'background',
-              `url(${  url  }) 0px 65px`
+              'url(' + url + ') 0px 65px'
             );
             switch (background) {
             case 'digger':
@@ -265,31 +265,31 @@ function eggs() {
             $('#audio').append(
               '<audio id="my_audio" src="assets/audio/rain.mp4" loop></audio>'
             );
-            const promise = document
+            let promise = document
               .querySelector('audio')
               .play();
             if (promise !== undefined) {
               promise
-                .then((_) => {
+                .then(function(_) {
                   // Autoplay started!
                 })
-                .catch((error) => {
+                .catch(function(error) {
                   // Autoplay was prevented.
                   // Show a "Play" button so that user can start playback.
                 });
             }
             $.getScript(
               'assets/js/raindrops.js',
-              () => {}
+              function() {}
             );
           }
 
           if (match.toString() === 'platformer') {
             h = $(window).height() - 60;
             $('#youtube').after(
-              `<iframe id="c" src="assets/games/platformer/index.html" height="${ 
-                h 
-              }" frameborder="0" allowfullscreen></iframe>`
+              '<iframe id="c" src="assets/games/platformer/index.html" height="' +
+                                    h +
+                                    '" frameborder="0" allowfullscreen></iframe>'
             );
           }
 
@@ -345,22 +345,22 @@ function eggs() {
             $('#audio').append(
               '<audio id="my_audio" src="assets/audio/winter.mp4" loop></audio>'
             );
-            const promise = document
+            let promise = document
               .querySelector('audio')
               .play();
             if (promise !== undefined) {
               promise
-                .then((_) => {
+                .then(function(_) {
                   // Autoplay started!
                 })
-                .catch((error) => {
+                .catch(function(error) {
                   // Autoplay was prevented.
                   // Show a "Play" button so that user can start playback.
                 });
             }
             $.getScript(
               'assets/js/snowstorm-min.js',
-              () => {
+              function() {
                 snowStorm.flakesMaxActive = 75;
                 snowStorm.useTwinkleEffect = true;
                 snowStorm.toggleSnow();
@@ -379,12 +379,12 @@ function eggs() {
 }
 
 function allBeasts(which) {
-  const c = document.getElementById('c');
-  const ctx = c.getContext('2d');
+  var c = document.getElementById('c');
+  var ctx = c.getContext('2d');
   c.height = document.body.scrollHeight;
   c.width = window.innerWidth;
-  const font_size = 32;
-  const columns = c.width / font_size;
+  var font_size = 32;
+  var columns = c.width / font_size;
 
   $('#allBeast').append(
     '<img id="img_orange" src="assets/images/beasts/orange.png">'
@@ -434,31 +434,31 @@ function allBeasts(which) {
 
   // var image = document.getElementById('source');
   // 13 images
-  const image0 = document.getElementById('img_orange');
-  const image1 = document.getElementById('img_alien');
-  const image2 = document.getElementById('img_darth');
-  const image3 = document.getElementById('img_jaguar');
-  const image4 = document.getElementById('img_min');
-  const image5 = document.getElementById('img_ghost');
-  const image6 = document.getElementById('img_bubble');
-  const image7 = document.getElementById('img_bear');
-  const image8 = document.getElementById('img_thexder');
-  const image9 = document.getElementById('img_dino');
-  const image10 = document.getElementById('img_bear');
-  const image11 = document.getElementById('img_space');
-  const image12 = document.getElementById('img_yeti');
-  const image13 = document.getElementById('img_police');
-  const image14 = document.getElementById('img_karate');
-  const image15 = document.getElementById('img_punch');
+  var image0 = document.getElementById('img_orange');
+  var image1 = document.getElementById('img_alien');
+  var image2 = document.getElementById('img_darth');
+  var image3 = document.getElementById('img_jaguar');
+  var image4 = document.getElementById('img_min');
+  var image5 = document.getElementById('img_ghost');
+  var image6 = document.getElementById('img_bubble');
+  var image7 = document.getElementById('img_bear');
+  var image8 = document.getElementById('img_thexder');
+  var image9 = document.getElementById('img_dino');
+  var image10 = document.getElementById('img_bear');
+  var image11 = document.getElementById('img_space');
+  var image12 = document.getElementById('img_yeti');
+  var image13 = document.getElementById('img_police');
+  var image14 = document.getElementById('img_karate');
+  var image15 = document.getElementById('img_punch');
 
   // an array of drops - one per column
-  const drops = [];
+  var drops = [];
 
   // x below is the x coordinate
   // 1 = y co-ordinate of the drop(same for every drop initially)
-  for (let x = 0; x < columns; x++) drops[x] = 0;
+  for (var x = 0; x < columns; x++) drops[x] = 0;
   // single random image
-  const imgRand = Math.floor(Math.random() * 16);
+  var imgRand = Math.floor(Math.random() * 16);
 
   // drawing the characters
   function draw() {
@@ -468,11 +468,11 @@ function allBeasts(which) {
     ctx.fillRect(0, 0, c.width, c.height);
 
     // ctx.fillStyle = fillColor; //orange text
-    ctx.font = `${ font_size  }px arial`;
+    ctx.font = font_size + 'px arial';
     // looping over drops
-    for (let i = 0; i < drops.length; i++) {
+    for (var i = 0; i < drops.length; i++) {
       ctx.drawImage(
-        eval(`image${  which === 'beasts' ? i % 16 : imgRand }`),
+        eval('image' + (which === 'beasts' ? i % 16 : imgRand)),
         i * font_size,
         drops[i] * font_size
       );
@@ -492,21 +492,21 @@ function allBeasts(which) {
 
 function beasts(background) {
   $('#source').remove();
-  const c = document.getElementById('c');
-  const ctx = c.getContext('2d');
+  var c = document.getElementById('c');
+  var ctx = c.getContext('2d');
   c.height = document.body.scrollHeight;
   c.width = window.innerWidth;
-  const font_size = 32;
-  const columns = c.width / font_size;
-  const effectImage = `assets/images/beasts/${  background  }.png`;
-  $('#effect').append(`<img id="source" src="${  effectImage  }">`);
-  const image = document.getElementById('source');
+  var font_size = 32;
+  var columns = c.width / font_size;
+  var effectImage = 'assets/images/beasts/' + background + '.png';
+  $('#effect').append('<img id="source" src="' + effectImage + '">');
+  var image = document.getElementById('source');
   // an array of drops - one per column
-  const drops = [];
+  var drops = [];
 
   // x below is the x coordinate
   // 1 = y co-ordinate of the drop(same for every drop initially)
-  for (let x = 0; x < columns; x++) drops[x] = 0;
+  for (var x = 0; x < columns; x++) drops[x] = 0;
 
   // drawing the characters
   function draw() {
@@ -516,9 +516,9 @@ function beasts(background) {
     ctx.fillRect(0, 0, c.width, c.height);
 
     // ctx.fillStyle = fillColor; //orange text
-    ctx.font = `${ font_size  }px arial`;
+    ctx.font = font_size + 'px arial';
     // looping over drops
-    for (let i = 0; i < drops.length; i++) {
+    for (var i = 0; i < drops.length; i++) {
       // a random chinese character to print
       // var text = chinese[Math.floor(Math.random()*chinese.length)];
       // x = i*font_size, y = value of drops[i]*font_size
@@ -541,21 +541,21 @@ function beasts(background) {
 
 function beastsHorizontal(background) {
   $('#source').remove();
-  const c = document.getElementById('c');
-  const ctx = c.getContext('2d');
+  var c = document.getElementById('c');
+  var ctx = c.getContext('2d');
   c.height = document.body.scrollHeight;
   c.width = window.innerWidth;
-  const font_size = 32;
-  const rows = c.height / font_size;
-  const effectImage = `assets/images/beasts/${  background  }.png`;
-  $('#effect').append(`<img id="source" src="${  effectImage  }">`);
-  const image = document.getElementById('source');
+  var font_size = 32;
+  var rows = c.height / font_size;
+  var effectImage = 'assets/images/beasts/' + background + '.png';
+  $('#effect').append('<img id="source" src="' + effectImage + '">');
+  var image = document.getElementById('source');
   // an array of drops - one per row
-  const drops = [];
+  var drops = [];
 
   // j = x co-ordinate of the drop(same for every drop initially at x=0 moving
   // left to right
-  for (let j = 0; j < rows; j++) drops[j] = 0;
+  for (var j = 0; j < rows; j++) drops[j] = 0;
 
   // drawing the characters
   function draw() {
@@ -565,9 +565,9 @@ function beastsHorizontal(background) {
     ctx.fillRect(0, 0, c.width, c.height);
 
     ctx.fillStyle = 'blue'; // orange text
-    ctx.font = `${ font_size  }px arial`;
+    ctx.font = font_size + 'px arial';
     // looping over drops
-    for (let i = 0; i < drops.length; i++) {
+    for (var i = 0; i < drops.length; i++) {
       // a random chinese character to print
       // var text = chinese[Math.floor(Math.random()*chinese.length)];
       // x = i*font_size, y = value of drops[i]*font_size
@@ -590,21 +590,21 @@ function beastsHorizontal(background) {
 
 function flowers() {
   $('#source').remove();
-  const c = document.getElementById('c');
-  const ctx = c.getContext('2d');
+  var c = document.getElementById('c');
+  var ctx = c.getContext('2d');
   c.height = document.body.scrollHeight;
   c.width = window.innerWidth;
-  const font_size = 32;
-  const columns = c.width / font_size;
+  var font_size = 32;
+  var columns = c.width / font_size;
   $('#effect').append(
     '<img id="source" src="assets/images/icons/favicon-32x32.png">'
   );
-  const image = document.getElementById('source');
+  var image = document.getElementById('source');
   // an array of drops - one per column
-  const drops = [];
+  var drops = [];
   // x below is the x coordinate
   // 1 = y co-ordinate of the drop(same for every drop initially)
-  for (let x = 0; x < columns; x++) drops[x] = 0;
+  for (var x = 0; x < columns; x++) drops[x] = 0;
 
   // drawing the characters
   function draw() {
@@ -614,9 +614,9 @@ function flowers() {
     ctx.fillRect(0, 0, c.width, c.height);
 
     ctx.fillStyle = '#FF0080'; // green text
-    ctx.font = `${ font_size  }px arial`;
+    ctx.font = font_size + 'px arial';
     // looping over drops
-    for (let i = 0; i < drops.length; i++) {
+    for (var i = 0; i < drops.length; i++) {
       // a random chinese character to print
       // var text = chinese[Math.floor(Math.random()*chinese.length)];
       // x = i*font_size, y = value of drops[i]*font_size
@@ -641,38 +641,38 @@ function matrix() {
   $('#audio').append(
     '<audio id="my_audio" src="assets/audio/matrix.mp4" loop></audio>'
   );
-  const promise = document.querySelector('audio').play();
+  let promise = document.querySelector('audio').play();
   if (promise !== undefined) {
     promise
-      .then((_) => {
+      .then(function(_) {
         // Autoplay started!
       })
-      .catch((error) => {
+      .catch(function(error) {
         // Autoplay was prevented.
         // Show a "Play" button so that user can start playback.
       });
   }
 
-  const c = document.getElementById('c');
-  const ctx = c.getContext('2d');
+  var c = document.getElementById('c');
+  var ctx = c.getContext('2d');
 
   // making the canvas full screen
   c.height = document.body.scrollHeight;
   c.width = window.innerWidth;
 
   // chinese characters - taken from the unicode charset
-  let chinese =
+  var chinese =
         '田由甲申甴电甶男甸甹町画甼甽甾甿畀畁畂畃畄畅畆畇畈畉畊畋界畍畎畏畐畑';
     // converting the string into an array of single characters
   chinese = chinese.split('');
 
-  const font_size = 17;
-  const columns = c.width / font_size; // number of columns for the rain
+  var font_size = 17;
+  var columns = c.width / font_size; // number of columns for the rain
   // an array of drops - one per column
-  const drops = [];
+  var drops = [];
   // x below is the x coordinate
   // 1 = y co-ordinate of the drop(same for every drop initially)
-  for (let x = 0; x < columns; x++) drops[x] = 1;
+  for (var x = 0; x < columns; x++) drops[x] = 1;
 
   // drawing the characters
   function draw() {
@@ -682,11 +682,11 @@ function matrix() {
     ctx.fillRect(0, 0, c.width, c.height);
 
     ctx.fillStyle = '#0F0'; // green text
-    ctx.font = `${ font_size  }px arial`;
+    ctx.font = font_size + 'px arial';
     // looping over drops
-    for (let i = 0; i < drops.length; i++) {
+    for (var i = 0; i < drops.length; i++) {
       // a random chinese character to print
-      const text = chinese[Math.floor(Math.random() * chinese.length)];
+      var text = chinese[Math.floor(Math.random() * chinese.length)];
       // x = i*font_size, y = value of drops[i]*font_size
       ctx.fillText(text, i * font_size, drops[i] * font_size);
 
@@ -720,7 +720,7 @@ function play(url, nopicture = 1) {
   $('#youtube').append(
     '<iframe id="vid" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
   );
-  const videoURL = `${ url  }&amp;autoplay=1`;
+  var videoURL = url + '&amp;autoplay=1';
   $('#vid').prop('src', videoURL);
   $('#vid').css({ width: '560', height: '315', visibility: 'visible' });
 }
@@ -768,13 +768,13 @@ function effect(n) {
 
 function invaders() {
   //  Create the starfield.
-  const container = document.getElementById('starfield');
-  const starfield = new Starfield();
+  var container = document.getElementById('starfield');
+  var starfield = new Starfield();
   starfield.initialise(container);
   starfield.start();
 
   //  Setup the canvas.
-  const canvas = document.getElementById('gameCanvas');
+  var canvas = document.getElementById('gameCanvas');
   canvas.width = 800;
   canvas.height = 600;
   //  Create the game.
@@ -787,16 +787,16 @@ function invaders() {
   game.start();
 
   //  Listen for keyboard events.
-  window.addEventListener('keydown', (e) => {
-    const keycode = e.which || window.event.keycode;
+  window.addEventListener('keydown', function keydown(e) {
+    var keycode = e.which || window.event.keycode;
     //  Supress further processing of left/right/space (37/29/32)
     if (keycode == 37 || keycode == 39 || keycode == 32) {
       e.preventDefault();
     }
     game.keyDown(keycode);
   });
-  window.addEventListener('keyup', (e) => {
-    const keycode = e.which || window.event.keycode;
+  window.addEventListener('keyup', function keydown(e) {
+    var keycode = e.which || window.event.keycode;
     game.keyUp(keycode);
   });
 

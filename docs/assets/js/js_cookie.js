@@ -6,7 +6,7 @@
  * Released under the MIT license
  */
 (function (factory) {
-  let registeredInModuleLoader = false;
+  var registeredInModuleLoader = false;
   if (typeof define === 'function' && define.amd) {
     define(factory);
     registeredInModuleLoader = true;
@@ -16,20 +16,20 @@
     registeredInModuleLoader = true;
   }
   if (!registeredInModuleLoader) {
-    const OldCookies = window.Cookies;
-    const api = window.Cookies = factory();
+    var OldCookies = window.Cookies;
+    var api = window.Cookies = factory();
     api.noConflict = function () {
       window.Cookies = OldCookies;
       return api;
     };
   }
-}(() => {
+}(function () {
   function extend () {
-    let i = 0;
-    const result = {};
+    var i = 0;
+    var result = {};
     for (; i < arguments.length; i++) {
-      const attributes = arguments[ i ];
-      for (const key in attributes) {
+      var attributes = arguments[ i ];
+      for (var key in attributes) {
         result[key] = attributes[key];
       }
     }
@@ -38,7 +38,7 @@
 
   function init (converter) {
     function api (key, value, attributes) {
-      let result;
+      var result;
       if (typeof document === 'undefined') {
         return;
       }
@@ -51,7 +51,7 @@
         }, api.defaults, attributes);
 
         if (typeof attributes.expires === 'number') {
-          const expires = new Date();
+          var expires = new Date();
           expires.setMilliseconds(expires.getMilliseconds() + attributes.expires * 864e+5);
           attributes.expires = expires;
         }
@@ -77,19 +77,19 @@
         key = key.replace(/%(23|24|26|2B|5E|60|7C)/g, decodeURIComponent);
         key = key.replace(/[\(\)]/g, escape);
 
-        let stringifiedAttributes = '';
+        var stringifiedAttributes = '';
 
-        for (const attributeName in attributes) {
+        for (var attributeName in attributes) {
           if (!attributes[attributeName]) {
             continue;
           }
-          stringifiedAttributes += `; ${  attributeName }`;
+          stringifiedAttributes += '; ' + attributeName;
           if (attributes[attributeName] === true) {
             continue;
           }
-          stringifiedAttributes += `=${  attributes[attributeName] }`;
+          stringifiedAttributes += '=' + attributes[attributeName];
         }
-        return (document.cookie = `${ key  }=${  value  }${ stringifiedAttributes }`);
+        return (document.cookie = key + '=' + value + stringifiedAttributes);
       }
 
       // Read
@@ -101,20 +101,20 @@
       // To prevent the for loop in the first place assign an empty array
       // in case there are no cookies at all. Also prevents odd result when
       // calling "get()"
-      const cookies = document.cookie ? document.cookie.split('; ') : [];
-      const rdecode = /(%[0-9A-Z]{2})+/g;
-      let i = 0;
+      var cookies = document.cookie ? document.cookie.split('; ') : [];
+      var rdecode = /(%[0-9A-Z]{2})+/g;
+      var i = 0;
 
       for (; i < cookies.length; i++) {
-        const parts = cookies[i].split('=');
-        let cookie = parts.slice(1).join('=');
+        var parts = cookies[i].split('=');
+        var cookie = parts.slice(1).join('=');
 
         if (!this.json && cookie.charAt(0) === '"') {
           cookie = cookie.slice(1, -1);
         }
 
         try {
-          const name = parts[0].replace(rdecode, decodeURIComponent);
+          var name = parts[0].replace(rdecode, decodeURIComponent);
           cookie = converter.read ?
             converter.read(cookie, name) : converter(cookie, name) ||
                         cookie.replace(rdecode, decodeURIComponent);
@@ -161,5 +161,5 @@
     return api;
   }
 
-  return init(() => {});
+  return init(function () {});
 }));
