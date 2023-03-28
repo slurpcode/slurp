@@ -3,12 +3,12 @@ async function handleRequest(request) {
     headers: {
       'content-type': 'text/html;charset=UTF-8',
     },
-  };
-  return new Response(someHTML, init);
+  }
+  return new Response(someHTML, init)
 }
 addEventListener('fetch', event => {
-  return event.respondWith(handleRequest(event.request));
-});
+  return event.respondWith(handleRequest(event.request))
+})
 const someHTML =  `<!doctype html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
@@ -37,4 +37,4 @@ const someHTML =  `<!doctype html>
     </script>
   </body>
 </html>
-`;
+`
