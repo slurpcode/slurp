@@ -32,22 +32,17 @@ class GithubSpider(scrapy.Spider):
         """
         output = {}
         repos = response.xpath("//a[contains(@href,'tab=repositories')]/span")
-        # output["repositories"] = repos.css("::text").get().strip()
-        output["repositories"] = repos.attrib['title']
+        output["repositories"] = repos.attrib["title"]
         stars = response.xpath("//a[contains(@href,'tab=stars')]/span")
-        # output["stars"] = stars.css("::text").get().strip()
-        output["stars"] = stars.attrib['title']
-        follower = response.xpath("//a[contains(@href,'tab=followers')]/span")
-        output["follower"] = follower.css("::text").get().strip()
+        output["stars"] = stars.attrib["title"]
+        followers = response.xpath("//a[contains(@href,'tab=followers')]/span")
+        output["followers"] = followers.css("::text").get().strip()
         following = response.xpath("//a[contains(@href,'tab=following')]/span")
         output["following"] = following.css("::text").get().strip()
-        contribution_in_the_last_year = response.xpath(
+        contributions_in_the_last_year = response.xpath(
             "//h2[@class='f4 text-normal mb-2']/text()"
         )
-        output["contribution_in_the_last_year"] = (
-            contribution_in_the_last_year.get().strip().split("\n")[0]
+        output["contributions_in_the_last_year"] = (
+            contributions_in_the_last_year.get().strip().split("\n")[0]
         )
-        print("--------------------------YOUR STATS--------------------------")
-        print(output)
-        print("-------------------------------------------------------------")
         yield output
