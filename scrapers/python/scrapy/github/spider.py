@@ -32,10 +32,10 @@ class GithubSpider(scrapy.Spider):
         """
         output = {}
         repos = response.xpath("//a[contains(@href,'tab=repositories')]/span")
-        #output["repositories"] = repos.css("::text").get().strip()
+        # output["repositories"] = repos.css("::text").get().strip()
         output["repositories"] = repos.attrib['title']
         stars = response.xpath("//a[contains(@href,'tab=stars')]/span")
-        #output["stars"] = stars.css("::text").get().strip()
+        # output["stars"] = stars.css("::text").get().strip()
         output["stars"] = stars.attrib['title']
         follower = response.xpath("//a[contains(@href,'tab=followers')]/span")
         output["follower"] = follower.css("::text").get().strip()
