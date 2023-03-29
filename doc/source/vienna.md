@@ -92,7 +92,7 @@ views of the center of Vienna.
 
 Inside you can see that the Gothic and Baroque styles intermingle, with
 the most interesting works being the image of the crucified Christ, the
-Pummerin Bell, the Pilgram Pulpit, the Catacombs and the tombs of
+Pummerin Bell, the Pilgrim Pulpit, the Catacombs and the tombs of
 various royal figures including that of Emperor Frederick III.
 
 ## Stadtpark
