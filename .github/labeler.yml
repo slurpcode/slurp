@@ -98,10 +98,6 @@ scrapers:
 seek:
   - any: ["seek/**/*"]
 
-# Add 'super-linter.report' label to any change to super-linter.report files
-super-linter.report:
-  - any: ["super-linter.report/**/*"]
-
 # Add 'tests' label to any change to tests files
 tests:
   - any: ["tests/**/*"]
