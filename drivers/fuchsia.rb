@@ -2,11 +2,11 @@
 
 require "selenium-webdriver"
 
-options = Selenium::WebDriver::Options.firefox
-driver = Selenium::WebDriver.for(:firefox, options:)
+options = Selenium::WebDriver::Firefox::Options.new
+driver = Selenium::WebDriver.for(:firefox, options: options)
 
 begin
-  driver.get "https://slurpcode.github.io/slurp/"
+  driver.get "http://slurpcode.github.io/slurp/"
   driver.find_element(tag_name: "body").send_keys "matrix", :return
   sleep(30)
   driver.find_element(tag_name: "body").send_keys "jedi", :return
