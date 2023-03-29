@@ -1,6 +1,6 @@
 # 🎼 Nu Jazz
 
-Nu Jazz is Acid Jazz withouth the Acid.
+Nu Jazz is Acid Jazz without the Acid.
 
 Nu Jazz is one of the youngest electronic music trends. In terms of its origins, the acid jazz of the early nineties, some easy listening,
 house, trip hop and of course jazz such as Sun Ra (with his intergalactic band) was the starting point. James Blood Ulmer's concept

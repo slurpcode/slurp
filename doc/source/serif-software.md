@@ -20,7 +20,7 @@ and Affinity Publisher. Affinity was originally introduced for use on Macs and
 iPads and then Serif expanded Affinity to include apps for Windows (all file
 format outputs are interchangeable).
 
-I find that there are some features of the older Plus line (the LAGACY apps)
+I find that there are some features of the older Plus line (the LEGACY apps)
 that I prefer and many features of the Affinity line that I prefer. In the
 course of my design work, I’m even able to use a mixture of the older legacy
 Plus apps and the newer Affinity apps. In addition, the Affinity apps can all
@@ -81,7 +81,7 @@ is automatically and non-destructively updated as you go.
 
 ![Designer Persona](_static/images/serif/designer-persona.png "Designer Persona")
 
-The Photo app has a Photo Persona, a Liquify Persona for mesh warping images and
+The Photo app has a Photo Persona, a Liquefy Persona for mesh warping images and
 text, a Develop Persona for detailed photo adjustments, a Tone Mapping Persona
 for more detailed adjustments (I need to learn much more about this), and again,
 an Export Persona with multiple choices for your exports. OK, check out the

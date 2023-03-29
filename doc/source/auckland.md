@@ -26,9 +26,9 @@ You can even eat ice cream over fries or on top of traditional Maori bread. Many
 
 Viaduct Harbor is one of the most fashionable areas in Auckland, in ancient times it was a commercial port and it underwent different processes of change. However, after the two America's Cups that were played in the city, they led this area to become a place of elegant bars and restaurants, from where you can see endless sailboats on the horizon.
 
-## Wynyard Quater
+## Wynyard Quarter
 
-Wynyard Quater connects to Viaduct Harbor by bridge. This area is known for its entertainment venues and its restaurants, as well as a place called "La Lonja del Pescado", which stands out for its cafeterias, restaurants and its cooking school. It is the ideal place to taste the local gastronomy.
+Wynyard Quarter connects to Viaduct Harbor by bridge. This area is known for its entertainment venues and its restaurants, as well as a place called "La Lonja del Pescado", which stands out for its cafeterias, restaurants and its cooking school. It is the ideal place to taste the local gastronomy.
 
 ## Mount Eden
 
