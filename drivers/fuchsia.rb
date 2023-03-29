@@ -2,8 +2,8 @@
 
 require "selenium-webdriver"
 
-options = Selenium::WebDriver::Firefox::Options.new
-driver = Selenium::WebDriver.for(:firefox, options: options)
+options = Selenium::WebDriver::Options.firefox
+driver = Selenium::WebDriver.for(:firefox, options:)
 
 begin
   driver.get "https://slurpcode.github.io/slurp/"
