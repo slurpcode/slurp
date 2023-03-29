@@ -1,6 +1,7 @@
 # Add 'repo' label to any root file changes
 repo:
   - "*"
+
 # Add 'circleci' label to any change to .circleci files
 circleci:
   - any: [".circleci/**/*"]
