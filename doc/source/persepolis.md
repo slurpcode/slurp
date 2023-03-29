@@ -1,7 +1,7 @@
 # 🇮🇷 Persepolis
 
 The full glory of the great Persian Empire was Persepolis a massive palace
-complex which was the ceremonial center of the acient empire.
+complex which was the ceremonial center of the ancient empire.
 
 In 330 BC Alexander the Great destroyed Persepolis. In recent times there has
 been efforts to rebuild and restore some of the amazing columns, buildings,

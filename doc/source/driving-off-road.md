@@ -16,7 +16,7 @@ Among these things are my “high lift” jack. I also have an air tank which I 
 up before I leave home. And rather than a winch, I have what’s called a “come
 along”. It’s a little hand operated winch that takes up little space and weighs
 very little. I can hook it up to the rear, the front or the side of the Jeep, so
-it’s versatile. You may think that limits me because I cant operate it and drive
+it’s versatile. You may think that limits me because I can't operate it and drive
 at the same time, but that’s not exactly true. I have a chain for some added
 length and more importantly, I have a stretchy, heavy duty nylon tow strap.
 
