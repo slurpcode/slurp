@@ -10,10 +10,9 @@
 [![CircleCI branch](https://img.shields.io/circleci/project/github/slurpcode/slurp/main.svg)](https://circleci.com/gh/slurpcode/slurp)
 [![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://readthedocs.org/projects/slurp/builds/)
 
-[![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/master/LICENSE)
+[![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/main/LICENSE)
 [![This project is using Percy.io for visual regression testing](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4199d4805b2a473284988680cffe85db)](https://www.codacy.com/gh/slurpcode/slurp/dashboard)
-[![codebeat](https://codebeat.co/badges/0f22c395-4213-4f0b-b5a6-22b68c1ba7eb)](https://codebeat.co/projects/github-com-slurpcode-slurp-master)
 [![CodeFactor](https://www.codefactor.io/repository/github/slurpcode/slurp/badge)](https://www.codefactor.io/repository/github/slurpcode/slurp)
 ![GitHub repo size](https://img.shields.io/github/repo-size/slurpcode/slurp.svg)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/slurpcode/slurp.svg)
