@@ -16,7 +16,7 @@ is the fundamental basis of any research design and also saves not only
 time but also costs. On the other hand, survey software with appropriate
 sampling techniques can be used to obtain optimal research.
 
-![Sampling](_static/images/sampling_methods/image1.jpeg)
+![Sampling](_static/images/sampling-methods/image1.jpeg)
 
 Let\'s suppose that a drug manufacturer wants to investigate the
 unfavorable side effects of a certain drug on the entire population of a
@@ -26,7 +26,7 @@ why the researcher must choose a sample of people for each demographic
 group, in order to obtain feedback regarding the behavior of the drug
 and its side effects in the population.
 
-![Study drug behavior on patient](_static/images/sampling_methods/image2.jpeg)
+![Study drug behavior on patient](_static/images/sampling-methods/image2.jpeg)
 
 ## Sampling methods
 
@@ -86,7 +86,7 @@ such as location, gender, age, etc. In this way, it is easier for the
 researcher to create a survey to obtain an effective inference, based on
 the feedback.
 
-![Cluster sampling](_static/images/sampling_methods/image3.jpeg)
+![Cluster sampling](_static/images/sampling-methods/image3.jpeg)
 
 For example, suppose the United States government requires an assessment
 of the number of immigrants living within its country. One proposal will
@@ -96,7 +96,7 @@ more effective survey is carried out, since the results will be
 organized by state and in this way, the immigration data will be
 obtained in an objective way.
 
-![State wise immigrant study](_static/images/sampling_methods/image4.jpeg)
+![State wise immigrant study](_static/images/sampling-methods/image4.jpeg)
 
 3.- Systematic sampling technique: Systematic sampling is a method used
 by researchers to choose individuals from a certain population at
@@ -213,7 +213,7 @@ send it to all of their contacts by phone or through their social
 networks, in addition to asking their closest colleagues to help them
 answer the survey, since it requires it to complete their task.
 
-![Survey on Social network](_static/images/sampling_methods/image5.jpeg)
+![Survey on Social network](_static/images/sampling-methods/image5.jpeg)
 
 2.- Deliberate, judgmental or critical sampling technique: The
 deliberate sampling method is at the discretion of the researcher, since
@@ -249,7 +249,7 @@ sampling, whether it is probabilistic or non-probabilistic. It can also
 be used in those circumstances where the sample needs to be filtered or
 approved by other sampling methods.
 
-![Individual](_static/images/sampling_methods/image6.jpeg)
+![Individual](_static/images/sampling-methods/image6.jpeg)
 
 Suppose that a researcher first performs a convenience sampling, to
 collect feedback data from the professors of a certain university, but
@@ -314,7 +314,7 @@ obtained. For ethical reasons, research participants should not be asked
 to identify other potential participants. But they can encourage others
 to participate.
 
-![Snowball Sampling](_static/images/sampling_methods/image7.jpeg)
+![Snowball Sampling](_static/images/sampling-methods/image7.jpeg)
 
 **When can snowball sampling technique be useful?**
 
@@ -327,7 +327,7 @@ in the same situation as them and can help inform their acquaintances
 about the benefits of the research, in addition to ensuring absolute
 confidentiality.
 
-![Friends cheating during exams](_static/images/sampling_methods/image8.jpeg)
+![Friends cheating during exams](_static/images/sampling-methods/image8.jpeg)
 
 4.- Quota sampling technique: In this sampling technique, in order to
 select individuals, a pre-established rule is needed. Given that the
@@ -355,7 +355,7 @@ If the population has 60% men and 40% women, the quota sampling must
 also include this same proportion, to avoid biasing the results
 obtained.
 
-![Quota Sampling](_static/images/sampling_methods/image9.jpeg)
+![Quota Sampling](_static/images/sampling-methods/image9.jpeg)
 
 **Steps to carry out quota sampling:**
 
@@ -367,7 +367,7 @@ on age and evaluate the proportion that exists in the population of each
 of the subgroups, in order to maintain the same percentage in the
 selected sample.
 
-![Headphones](_static/images/sampling_methods/image10.jpeg)
+![Headphones](_static/images/sampling-methods/image10.jpeg)
 
 Suppose that 58% of the individuals interested in buying their
 headphones have an age ranging between 25 and 35 years, the subgroups
