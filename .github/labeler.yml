@@ -1,0 +1,115 @@
+# Add 'repo' label to any root file changes
+repo:
+  - "*"
+
+# Add 'circleci' label to any change to .circleci files
+circleci:
+  - any: [".circleci/**/*"]
+
+# Add 'actions' label to any change to .github files
+actions:
+  - any: [".github/**/*"]
+
+# Add 'assets' label to any change to assets files
+assets:
+  - any: ["assets/**/*"]
+
+# Add 'datatypes' label to any change to built-in-datatypes files
+datatypes:
+  - any: ["built-in-datatypes/**/*"]
+
+# Add 'charts' label to any change to charts files
+charts:
+  - any: ["charts/**/*"]
+
+# Add 'danger' label to any change to danger files
+danger:
+  - any: ["danger/**/*"]
+
+# Add 'doc' label to any change to doc files
+doc:
+  - any: ["doc/**/*"]
+
+# Add 'docs' label to any change to docs files
+docs:
+  - any: ["docs/**/*"]
+
+# Add 'drivers' label to any change to drivers files
+drivers:
+  - any: ["drivers/**/*"]
+
+# Add 'eclipse-cheatsheets' label to any change to eclipse-cheatsheets-to-dita-to-pdf files
+eclipse-cheatsheets:
+  - any: ["eclipse-cheatsheets-to-dita-to-pdf/**/*"]
+
+# Add 'flicker' label to any change to flicker-diff files
+flicker:
+  - any: ["flicker-diff/**/*"]
+
+# Add 'govegas' label to any change to govegas files
+govegas:
+  - any: ["govegas/**/*"]
+
+# Add 'hashcheck' label to any change to hashcheck files
+hashcheck:
+  - any: ["hashcheck/**/*"]
+
+# Add 'logorama' label to any change to logorama files
+logorama:
+  - any: ["logorama/**/*"]
+
+# Add 'losroques' label to any change to losroques files
+losroques:
+  - any: ["losroques/**/*"]
+
+# Add 'macewindu' label to any change to macewindu files
+macewindu:
+  - any: ["macewindu/**/*"]
+
+# Add 'pdfstar' label to any change to pdfstar files
+pdfstar:
+  - any: ["pdfstar/**/*"]
+
+# Add 'railsdudes' label to any change to railsdudes files
+railsdudes:
+  - any: ["railsdudes/**/*"]
+
+# Add 'ruby-eclipse-cheatsheets' label to any change to ruby-eclipse-cheatsheets-to-dita files
+ruby-eclipse-cheatsheets:
+  - any: ["ruby-eclipse-cheatsheets-to-dita/**/*"]
+
+# Add 'ruby-strip' label to any change to ruby-strip files
+ruby-strip:
+  - any: ["ruby-strip/**/*"]
+
+# Add 'rubycritic' label to any change to rubycritic files
+rubycritic:
+  - any: ["rubycritic/**/*"]
+
+# Add 'rubytart' label to any change to rubytart files
+rubytart:
+  - any: ["rubytart/**/*"]
+
+# Add 'scrapers' label to any change to scrapers files
+scrapers:
+  - any: ["scrapers/**/*"]
+
+# Add 'seek' label to any change to seek files
+seek:
+  - any: ["seek/**/*"]
+
+# Add 'tests' label to any change to tests files
+tests:
+  - any: ["tests/**/*"]
+
+# Add 'well-formed' label to any change to well-formed files
+well-formed:
+  - any: ["well-formed/**/*"]
+
+# Add 'workers.dev' label to any change to workers.dev files
+workers.dev:
+  - any: ["workers.dev/**/*"]
+
+# Add 'xsl-schema-sort' label to any change to xsl-schema-sort files
+xsl-schema-sort:
+  - any: ["xsl-schema-sort/**/*"]
