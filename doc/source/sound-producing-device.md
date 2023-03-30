@@ -6,7 +6,7 @@ Severy was also responsible for numerous patents on inventions as diverse as typ
 
 “The object of the present invention is the construction of an improved musical instrument in which the sonorous vibrations are produced electromagnetically by the movement of phonograms of magnetic material past electromagnetic sound producing mechanism.”
 
-![Sound-Producing Device](_static/images/sound_producing_device/sound_producing_device.png)
+![Sound-Producing Device](_static/images/sound-producing-device/sound_producing_device.png)
 
 [Diagram showing the key-action that moves the magnetic pick-up closer to the sound wheel.g]
 

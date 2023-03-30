@@ -9,7 +9,7 @@ the power of each of the tests can be estimated using samples that come
 from known distributions, but yes, we can measure in each of these
 samples how far they are from normality.
 
-![image1](_static/images/tests_to_see_if_the_data_meet_a_normal_distribution/image1.jpeg)
+![image1](_static/images/tests-to-see-if-the-data-meet-a-normal-distribution/image1.jpeg)
 
 Experience leads us to think that a moderate deviation from normality is
 not exactly of great importance in the tests of parametric hypotheses
@@ -173,7 +173,7 @@ a normal distribution
 Ha = The random variable represents the volume served has a normal
 distribution
 
-![image2](_static/images/tests_to_see_if_the_data_meet_a_normal_distribution/image2.jpeg)
+![image2](_static/images/tests-to-see-if-the-data-meet-a-normal-distribution/image2.jpeg)
 
 The steps to follow in the Shapiro Wilks normality test are as follows:
 
@@ -316,7 +316,7 @@ A researcher measured the height of 100 children with an age of five
 years and wants to know if these observations come from a normal
 distribution.
 
-![image3](_static/images/tests_to_see_if_the_data_meet_a_normal_distribution/image3.jpeg)
+![image3](_static/images/tests-to-see-if-the-data-meet-a-normal-distribution/image3.jpeg)
 
 The null and alternative hypotheses are established:
 
@@ -388,7 +388,7 @@ the left column, and we place the second decimal place in the upper
 columns and find the value that intersects both numbers. For example,
 for the first value of Z we have:
 
-![image4](_static/images/tests_to_see_if_the_data_meet_a_normal_distribution/image4.jpeg)
+![image4](_static/images/tests-to-see-if-the-data-meet-a-normal-distribution/image4.jpeg)
 
 As we can see, we obtain a value of 0.4994 in the table for Z = 3.23,
 but since it is negative (-3.23) we must also take the value obtained in
@@ -396,7 +396,7 @@ the table as negative. We carry out the same procedure for the rest of
 the Z values ​​and obtain the following results that we will place in the
 third column:
 
-![image5](_static/images/tests_to_see_if_the_data_meet_a_normal_distribution/image5.jpeg)
+![image5](_static/images/tests-to-see-if-the-data-meet-a-normal-distribution/image5.jpeg)
 
 |                 |                               |                               |                      |                 |      |
 | --------------- | ----------------------------- | ----------------------------- | -------------------- | --------------- | ---- |
@@ -441,7 +441,7 @@ maximum value of the number of samples observed in the table is N = 40
 in this case N = 100, so we must use the formula for a set of
 observations greater than 40.
 
-![image6](_static/images/tests_to_see_if_the_data_meet_a_normal_distribution/image6.jpeg)
+![image6](_static/images/tests-to-see-if-the-data-meet-a-normal-distribution/image6.jpeg)
 
 If we use a significance level of α = 0.05, the corresponding formula
 for the critical value is = $\frac{1,36}{\sqrt{100}}$ = 0,136
