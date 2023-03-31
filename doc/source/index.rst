@@ -56,6 +56,7 @@ Welcome to slurp's documentation!
    curiosities.md
    determination-coefficient.md
    discriminant-analysis.md
+   exponential-distribution.md
    fermat.md
    fibonacci.md
    free-distribution-testing.md
