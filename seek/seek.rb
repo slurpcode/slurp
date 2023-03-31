@@ -92,7 +92,7 @@ class Parser
         "--keyword keyword",
         'Keywords to search
                                                separators include:
-                                               and, or, not'
+                                               "and, or, not"'
       ) { |k| self.keyword = k }
     end
 
@@ -107,9 +107,9 @@ class Parser
         "-r",
         "--range range",
         'Listed time in days
-                                                       999 (default) or
-                                                       1, 3, 7, 14, 31 or
-                                                       any positive number'
+                                                999 (default) or
+                                                1, 3, 7, 14, 31 or
+                                                any positive number'
       ) { |r| self.range = r }
     end
 
@@ -170,7 +170,7 @@ options = example.parse(ARGV)
 
 sleep(options.delay) if options.delay
 if options.keyword.nil?
-  print "Enter the keywords to search separators include: and, or, not: "
+  print 'Enter the keywords to search separators include: "and, or, not": '
   options.keyword = $stdin.gets.chomp
 end
 if options.location.nil?
@@ -200,7 +200,7 @@ page =
     [
       ["keywords", options.keyword],
       ["where", options.location],
-      ["range", options.range],
+      ["daterange", options.range],
       ["worktype", options.worktype]
     ]
   )
@@ -245,10 +245,12 @@ loop do
       )
 
     # get details from job ad page
-    # ad = agent.get(url)
+    ad = agent.get(url)
     # at selects the first using CSS selectors
     # work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
     # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
+    get_script = ad.at('script[data-automation="server-state"]').text
+    salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
 
     results <<
       [
