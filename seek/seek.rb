@@ -216,7 +216,7 @@ results <<
     "Salary",
     "Classification",
     "Sub Classification",
-    "Work Type",
+    # "Work Type",
     "Short Description"
   ]
 
@@ -245,10 +245,10 @@ loop do
       )
 
     # get details from job ad page
-    ad = agent.get(url)
+    # ad = agent.get(url)
     # at selects the first using CSS selectors
-    work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
-    listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
+    # work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
+    # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
 
     results <<
       [
@@ -261,7 +261,7 @@ loop do
         salary,
         classification,
         sub_classification,
-        work_type,
+        # work_type,
         short_description
       ]
   end
@@ -279,8 +279,9 @@ if results.size > 1
   location = options.location.tr(" ", "-") unless options.location.empty?
   range = "range-#{options.range}" unless options.range.empty?
   options.worktype = enwtype(options.worktype)
-  worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
-  filename = [keyword, location, range, worktype].compact.join("-").downcase
+  # worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
+  # filename = [keyword, location, range, worktype].compact.join("-").downcase
+  filename = [keyword, location, range].compact.join("-").downcase
   filename = filename[1..] if filename[0] == "-"
   FileUtils.mkdir_p("jobs")
   CSV.open("jobs/#{filename}.csv", "w+") do |csv_file|
