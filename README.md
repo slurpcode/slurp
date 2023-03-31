@@ -14,9 +14,9 @@
 [![This project is using Percy.io for visual regression testing](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4199d4805b2a473284988680cffe85db)](https://www.codacy.com/gh/slurpcode/slurp/dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/slurpcode/slurp/badge)](https://www.codefactor.io/repository/github/slurpcode/slurp)
-![GitHub repo size](https://img.shields.io/github/repo-size/slurpcode/slurp.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/slurpcode/slurp.svg)
-![GitHub search hit counter](https://img.shields.io/github/search/slurpcode/slurp/jekyll.svg)
+[![GitHub repo size](https://img.shields.io/github/repo-size/slurpcode/slurp.svg)](#)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/slurpcode/slurp.svg)](#)
+[![GitHub search hit counter](https://img.shields.io/github/search/slurpcode/slurp/jekyll.svg)](#)
 
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
