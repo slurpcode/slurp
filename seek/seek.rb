@@ -200,7 +200,7 @@ page =
     [
       ["keywords", options.keyword],
       ["where", options.location],
-      ["range", options.range],
+      ["daterange", options.range],
       ["worktype", options.worktype]
     ]
   )
