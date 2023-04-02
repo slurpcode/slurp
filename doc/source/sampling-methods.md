@@ -1,4 +1,4 @@
-# 📊 **Sampling methods**
+# 📊 Sampling methods
 
 Researchers in their studies often use different sampling methods, so as
 not to have to investigate an entire population in order to collect
@@ -137,17 +137,17 @@ results.
 ## Different utilities of probability sampling
 
 1. Sample bias is reduced: Through probability sampling methods, the
-bias derived from the population sample is nonexistent or negligible.
-Probability sampling allows us to gather data that have a higher
-quality, since the sample represents the population in an adequate way.
+   bias derived from the population sample is nonexistent or negligible.
+   Probability sampling allows us to gather data that have a higher
+   quality, since the sample represents the population in an adequate way.
 
 2. Diverse population: When the population is diverse and extensive, it
-is necessary to have an appropriate representation so that the data does
-not derive from a single demographic group.
+   is necessary to have an appropriate representation so that the data does
+   not derive from a single demographic group.
 
 3. Generate an accurate sample: Probability sampling is very useful for
-researchers, as it helps them plan and create an accurate sample and in
-this way, be able to obtain well-defined data.
+   researchers, as it helps them plan and create an accurate sample and in
+   this way, be able to obtain well-defined data.
 
 ## Different types of non-probability sampling
 

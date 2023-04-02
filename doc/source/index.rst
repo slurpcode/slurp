@@ -137,6 +137,7 @@ Welcome to slurp's documentation!
    radio-harmonium.md
    pianorad.md
    keyboard-electric-harmonium.md
+   kurbelspharophon.md
    clavecin-electrique.md
    helmholtz-sound-synthesiser.md
    choralcelo.md
@@ -280,6 +281,7 @@ Welcome to slurp's documentation!
    rick-grimes.md
    silversmith.md
    steve-irwin.md
+   the-origin-of-cinema.md
    working-out.md
 
 .. toctree::

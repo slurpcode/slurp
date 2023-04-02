@@ -92,7 +92,7 @@ class Parser
         "--keyword keyword",
         'Keywords to search
                                                separators include:
-                                               and, or, not'
+                                               "and, or, not"'
       ) { |k| self.keyword = k }
     end
 
@@ -107,9 +107,9 @@ class Parser
         "-r",
         "--range range",
         'Listed time in days
-                                                       999 (default) or
-                                                       1, 3, 7, 14, 31 or
-                                                       any positive number'
+                                                999 (default) or
+                                                1, 3, 7, 14, 31 or
+                                                any positive number'
       ) { |r| self.range = r }
     end
 
@@ -170,7 +170,7 @@ options = example.parse(ARGV)
 
 sleep(options.delay) if options.delay
 if options.keyword.nil?
-  print "Enter the keywords to search separators include: and, or, not: "
+  print 'Enter the keywords to search separators include: "and, or, not": '
   options.keyword = $stdin.gets.chomp
 end
 if options.location.nil?
@@ -200,7 +200,7 @@ page =
     [
       ["keywords", options.keyword],
       ["where", options.location],
-      ["range", options.range],
+      ["daterange", options.range],
       ["worktype", options.worktype]
     ]
   )
@@ -216,7 +216,7 @@ results <<
     "Salary",
     "Classification",
     "Sub Classification",
-    "Work Type",
+    # "Work Type",
     "Short Description"
   ]
 
@@ -247,8 +247,10 @@ loop do
     # get details from job ad page
     ad = agent.get(url)
     # at selects the first using CSS selectors
-    work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
-    listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
+    # work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
+    # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
+    get_script = ad.at('script[data-automation="server-state"]').text
+    salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
 
     results <<
       [
@@ -261,7 +263,7 @@ loop do
         salary,
         classification,
         sub_classification,
-        work_type,
+        # work_type,
         short_description
       ]
   end
@@ -279,8 +281,9 @@ if results.size > 1
   location = options.location.tr(" ", "-") unless options.location.empty?
   range = "range-#{options.range}" unless options.range.empty?
   options.worktype = enwtype(options.worktype)
-  worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
-  filename = [keyword, location, range, worktype].compact.join("-").downcase
+  # worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
+  # filename = [keyword, location, range, worktype].compact.join("-").downcase
+  filename = [keyword, location, range].compact.join("-").downcase
   filename = filename[1..] if filename[0] == "-"
   FileUtils.mkdir_p("jobs")
   CSV.open("jobs/#{filename}.csv", "w+") do |csv_file|
