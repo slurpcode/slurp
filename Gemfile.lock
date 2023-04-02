@@ -411,7 +411,7 @@ DEPENDENCIES
   kramdown
   mdl
   mechanize
-  minima (~> 2.5)
+  minima
   nokogiri
   paint
   prawn
@@ -420,9 +420,6 @@ DEPENDENCIES
   rubycritic
   selenium-webdriver
   tzinfo-data
-
-RUBY VERSION
-   ruby 3.2.1p31
 
 BUNDLED WITH
    2.4.6
