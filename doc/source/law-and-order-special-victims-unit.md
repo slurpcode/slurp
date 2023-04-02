@@ -2,7 +2,7 @@
 
 Law and Order was a series created in the 1980s by Dick Wolf and co-produced with Machael Mann. It was so successful, that they never imagined that the series would continue to this day, the series begins when the rookie Olivia Benson begins to work in a police force called the "Special Victims Unit" that is dedicated to investigating sexual crimes in the city of New York.
 
-![Law And Order](_static/images/law-and-order-special-victims-unit/image1.jpg)
+![Law And Order](_static/images/law-and-order-special-victims-unit/law-and-order.jpg)
 
 Since its inception, the series has dealt with complex cases that were rarely seen on television, such as: domestic violence, rape, serial murder, abuse, hate crimes, among others. Of course, in most cases, the victims of this type of abuse are usually women and in the background also homosexuals, lesbians and children.
 
@@ -16,7 +16,7 @@ On the other hand, this series has garnered countless accolades, including Maris
 
 Originally the series focused almost exclusively on the actions of the detectives who made up the special victims unit of the 16th district of New York City, but as the series progressed, additional secondary characters were added, who helped the detectives. Detectives in the Manhattan District Attorney's Office, such as Sex Crimes Bureau Assessors, and medical examiners were also included.
 
-![Battered Wife](_static/images/law-and-order-special-victims-unit/image2.jpg)
+![Battered Wife](_static/images/law-and-order-special-victims-unit/battered-wife.jpg)
 
 The personal life of the detectives comes to light in several episodes and their dissociation or not with certain crimes that are dealt with during the program. There are episodes where the detectives develop their own personal dramas and follow them for several chapters as they investigate and prosecute sexual crimes, child abuse, crimes against the elderly, etc. Detective Elliot Stabler accompanies Olivia Benson in her first 12 seasons, but Christopher Meloni decides to leave the series and an agreement could not be reached regarding his contract.
 
