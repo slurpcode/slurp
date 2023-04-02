@@ -280,6 +280,7 @@ Welcome to slurp's documentation!
    rick-grimes.md
    silversmith.md
    steve-irwin.md
+   the-origin-of-cinema.md
    working-out.md
 
 .. toctree::
