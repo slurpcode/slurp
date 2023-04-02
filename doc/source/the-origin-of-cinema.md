@@ -16,7 +16,7 @@ Niepce dies in 1833, but Daguerre continues to investigate and a couple of years
 
 Later Thomas Alva Edison invented the Kinetoscope which was the forerunner of the movie projector, although it is true that it was not exactly a movie projector, it did introduce the fundamental approach that would later become the standard device for cinematographic projections before the appearance of the video. It carried a strip of film with sequential images that were over a light source and a high-speed shutter.
 
-![Kinetoscope ](_static/images/the-origin-of-cinema/image2.jpg)
+![Kinetoscope](_static/images/the-origin-of-cinema/image2.jpg)
 
 The Kinetoscope inspired the Lumiere brothers to create their own cinematographic device based on a record where a tape rotated at 16 frames per second and managed to project the movement of people in December 1895. The success spread not only in France but throughout Europe and North America.
 
@@ -26,7 +26,7 @@ The first person to make a film was Alice Guy, considered the founder of narrati
 
 After the success of Guy, director Georges Meliés entered this magical profession, whose fantastic sets and fascinating stories captivated the viewer. Films such as "Bluebeard" and "Faust" created in 1901 generated new cinematographic techniques, especially with "Journey to the Moon" (1902) and also with "Journey through the impossible" made in 1904, managed to implement the technique of the theater before the cameras and made the first special effects, thus achieving science fiction films. Since then the cinema has evolved by leaps and bounds to the present day. Important directors such as Erich Von Stroheim, Murnau and Charles Chaplin emerged. Adventure films in the United States were not long in coming, such as those made by Douglas Fairbanks or the romantic dramas of Valentino. Then the American comic school that was born from the comedy made by Mack Sennet and these films were cataloged as the most beautiful and were based on stereotyping social characters such as the fat man, the policeman, the mustachioed bourgeois and the miser.
 
-We cannot forget the cinema made by Charles Chaplin and Buster Keaton, but it was not until 1927 when the first sound film called "The Jazz Singer" was released and since then, the cinema ceased to exist as it was known, a greater plot fluidity and continuity of the story, for that same year the dubbing appeared and by 1935 with the film "The vanity fair" is that the cinema appears in Technicolor, but it really reaches color perfection in 1939 with "What the wind took away
+We cannot forget the cinema made by Charles Chaplin and Buster Keaton, but it was not until 1927 when the first sound film called "The Jazz Singer" was released and since then, the cinema ceased to exist as it was known, a greater plot fluidity and continuity of the story, for that same year the dubbing appeared and by 1935 with the film "The vanity fair" is that the cinema appears in Technicolor, but it really reaches color perfection in 1939 with "What the wind took away".
 
 ![Charles Chaplin](_static/images/the-origin-of-cinema/image3.jpg)
 
