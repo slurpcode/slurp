@@ -30,7 +30,7 @@ the intervals between each key and scale the acoustic length of the keyboard. An
 
 ## Next topic
 
- The Luminaphone
+The Luminaphone
 
 ## Sources
 
