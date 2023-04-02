@@ -136,6 +136,7 @@ Welcome to slurp's documentation!
    radio-harmonium.md
    pianorad.md
    keyboard-electric-harmonium.md
+   kurbelspharophon.md
    clavecin-electrique.md
    helmholtz-sound-synthesiser.md
    choralcelo.md
