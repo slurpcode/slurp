@@ -2,7 +2,7 @@
 
 Law and Order was a series created in the 1980s by Dick Wolf and co-produced with Machael Mann. It was so successful, that they never imagined that the series would continue to this day, the series begins when the rookie Olivia Benson begins to work in a police force called the "Special Victims Unit" that is dedicated to investigating sexual crimes in the city of New York.
 
-![Law And Order](_static/images/law-and-order-special-victims-unit/law-and-order.jpg)
+![Law & Order](_static/images/law-and-order-special-victims-unit/law-and-order.jpg)
 
 Since its inception, the series has dealt with complex cases that were rarely seen on television, such as: domestic violence, rape, serial murder, abuse, hate crimes, among others. Of course, in most cases, the victims of this type of abuse are usually women and in the background also homosexuals, lesbians and children.
 
