@@ -1,0 +1,9 @@
+version: '3'
+services:
+  slurp:
+    build:
+      context: .
+    command: sh -c 'SKIP=check-executables-have-shebangs pre-commit run --all-files'
+    working_dir: /app
+    volumes:
+      - ./:/app
