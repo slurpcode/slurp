@@ -56,6 +56,7 @@ Welcome to slurp's documentation!
    curiosities.md
    determination-coefficient.md
    discriminant-analysis.md
+   exponential-distribution.md
    fermat.md
    fibonacci.md
    free-distribution-testing.md
@@ -136,6 +137,7 @@ Welcome to slurp's documentation!
    radio-harmonium.md
    pianorad.md
    keyboard-electric-harmonium.md
+   kurbelspharophon.md
    clavecin-electrique.md
    helmholtz-sound-synthesiser.md
    choralcelo.md
