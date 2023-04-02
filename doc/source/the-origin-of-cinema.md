@@ -16,7 +16,7 @@ Niepce dies in 1833, but Daguerre continues to investigate and a couple of years
 
 Later Thomas Alva Edison invented the Kinetoscope which was the forerunner of the movie projector, although it is true that it was not exactly a movie projector, it did introduce the fundamental approach that would later become the standard device for cinematographic projections before the appearance of the video. It carried a strip of film with sequential images that were over a light source and a high-speed shutter.
 
-![Kinetoscope ](_static/images/the-origin-of-cinema/image2.jpg)
+![Kinetoscope](_static/images/the-origin-of-cinema/image2.jpg)
 
 The Kinetoscope inspired the Lumiere brothers to create their own cinematographic device based on a record where a tape rotated at 16 frames per second and managed to project the movement of people in December 1895. The success spread not only in France but throughout Europe and North America.
 
