@@ -18,8 +18,7 @@ focused on electronic beats produced by drum machines."
 ![[TR-808 drum machine]](_static/images/sound/electro/drum-machine.jpeg)
 [TR-808 drum machine]
 
-"The roots are to be found in Germany's seventies, in Kraftwerk's studio in Düsseldorf. Then came the golden age between 1982 and
-1985. This is New York, the years of post-disco vacuum. The trend was called electro-funk: the second part of the combination of
+"The roots are to be found in Germany's seventies, in Kraftwerk's studio in Düsseldorf. Then came the golden age between 1982 and 1985. This is New York, the years of post-disco vacuum. The trend was called electro-funk: the second part of the combination of
 words is clearly a reference to the North American black music tradition. Electro Phunk was also the title of Shock 82's hit album.
 The big hit was a joint by Herbie Hancock and Bill Laswell, Rock It. "
 

@@ -3,6 +3,7 @@ ans
 buda
 bund
 calle
+classe
 crate
 empress
 empresses

@@ -6,7 +6,7 @@ GEM
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-    addressable (2.8.1)
+    addressable (2.8.2)
       public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.2)
     axiom-types (0.1.1)
@@ -51,7 +51,7 @@ GEM
     ffi (1.15.5)
     ffi-win32-extensions (1.0.4)
       ffi
-    fileutils (1.7.0)
+    fileutils (1.7.1)
     flay (2.13.0)
       erubi (~> 1.10)
       path_expander (~> 1.0)
@@ -291,7 +291,7 @@ GEM
       sawyer (~> 0.9)
     paint (2.3.0)
     parallel (1.22.1)
-    parser (3.2.1.1)
+    parser (3.2.2.0)
       ast (~> 2.4.1)
     path_expander (1.1.1)
     pathutil (0.16.2)
@@ -313,17 +313,17 @@ GEM
     regexp_parser (2.7.0)
     rexml (3.2.5)
     rouge (3.26.0)
-    rubocop (1.48.1)
+    rubocop (1.49.0)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.2.0.0)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 1.8, < 3.0)
       rexml (>= 3.2.5, < 4.0)
-      rubocop-ast (>= 1.26.0, < 2.0)
+      rubocop-ast (>= 1.28.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.27.0)
+    rubocop-ast (1.28.0)
       parser (>= 3.2.1.0)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
@@ -411,7 +411,7 @@ DEPENDENCIES
   kramdown
   mdl
   mechanize
-  minima (~> 2.5)
+  minima
   nokogiri
   paint
   prawn
@@ -420,9 +420,6 @@ DEPENDENCIES
   rubycritic
   selenium-webdriver
   tzinfo-data
-
-RUBY VERSION
-   ruby 3.2.1p31
 
 BUNDLED WITH
    2.4.6
