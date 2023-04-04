@@ -2,3 +2,9 @@
 ignore = E501
 exclude =
     venv
+    migrations
+    __pycache__
+    manage.py
+    settings.py
+    env
+    .env
