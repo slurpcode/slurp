@@ -3,7 +3,7 @@ GEM
   specs:
     chroma (0.2.0)
     csv (3.2.6)
-    fileutils (1.7.0)
+    fileutils (1.7.1)
     kramdown (2.4.0)
       rexml
     pdf-core (0.9.0)
