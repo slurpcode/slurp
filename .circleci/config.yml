@@ -217,7 +217,7 @@ jobs:
       - run:
           name: 📦 Download pdf dependencies
           command: |
-            cd pdfstar && go mod download      
+            cd pdfstar && go mod download
       - run:
           name: 🧪 Run Go test
           command: |
