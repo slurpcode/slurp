@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/jung-kurt/gofpdf/v2"
 	"math/rand"
 	"net/http"
 	"os"
 	"path/filepath"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/jung-kurt/gofpdf/v2"
 )
 
 func main() {
@@ -27,7 +28,10 @@ func main() {
 		c.HTML(http.StatusOK, "index.tmpl.html", gin.H{})
 	})
 	router.POST("/pdf", handler())
-	router.Run(":" + port)
+	err := router.Run(":" + port)
+	if err != nil {
+		fmt.Println(err.Error())
+	}
 }
 
 func handler() gin.HandlerFunc {
@@ -55,6 +59,9 @@ func handler() gin.HandlerFunc {
 		}
 		fp := fmt.Sprintf("%s/%s.pdf", savepath, filename)
 		err := pdf.OutputFileAndClose(fp)
+		if err != nil {
+			fmt.Println(err.Error())
+		}
 
 		absPath, _ := filepath.Abs(fp)
 		f, err := os.Open(absPath)

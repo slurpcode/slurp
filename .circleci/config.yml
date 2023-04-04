@@ -209,6 +209,16 @@ jobs:
           command: |
             sh ./check-revive.sh || exit 1
       - run:
+          name: 📦 Download root dependencies
+          command: |
+            go mod download
+
+      # Download dependencies for the pdf subdirectory
+      - run:
+          name: 📦 Download pdf dependencies
+          command: |
+            cd pdfstar && go mod download      
+      - run:
           name: 🧪 Run Go test
           command: |
             go test -race -covermode atomic -coverprofile=profile.cov ./...
