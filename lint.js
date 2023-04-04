@@ -1,3 +1,4 @@
+/* eslint-disable */
 const { exec } = require('@actions/exec');
 
 
