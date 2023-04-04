@@ -1,16 +1,16 @@
 FROM ruby:3.2.2-bullseye
 
-RUN apt-get update && apt-get -y install python3-pip shellcheck
+RUN apt-get update && apt-get install -y --no-install-recommends python3-pip shellcheck \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
-COPY Gemfile Gemfile
+COPY Gemfile .
 
-COPY Gemfile.lock Gemfile.lock
+COPY Gemfile.lock .
 
-RUN bundle install
-
-RUN pip3 install pre-commit
+RUN bundle install && pip3 install pre-commit
 
 COPY .pre-commit-config.yaml .
 
