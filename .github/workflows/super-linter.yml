@@ -31,8 +31,7 @@ jobs:
           VALIDATE_BASH: true
           VALIDATE_BASH_EXEC: true
           # VALIDATE_EDITORCONFIG: true
-          # VALIDATE_GO: true
-          VALIDATE_GO_GOLANGCI_LINT: true
+          VALIDATE_GO: true
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
           VALIDATE_PYTHON_FLAKE8: true
