@@ -40,11 +40,11 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	record := scrape(username, delay)
+	record := Scrape(username, delay)
 	fmt.Println(record)
 }
 
-func scrape(username string, delay int) []string {
+func Scrape(username string, delay int) []string {
 	time.Sleep(time.Duration(delay) * time.Second)
 	allowed := "github.com"
 	url := "https://%s/%s"
