@@ -293,15 +293,13 @@ if results.size > 1
   puts "#{results.size - 1} jobs found"
 
   # determine the current operating system
-  is_windows = (RbConfig::CONFIG['host_os'] =~ /mswin|mingw|cygwin/)
-  is_linux = (RbConfig::CONFIG['host_os'] =~ /linux/)
-  
+  is_windows = (RbConfig::CONFIG["host_os"] =~ /mswin|mingw|cygwin/)
+  is_linux = (RbConfig::CONFIG["host_os"] =~ /linux/)
   if is_windows
     system("start #{"jobs/#{filename}.csv"}")
   elsif is_linux
     system("xdg-open #{"jobs/#{filename}.csv"}")
   else
     `open "jobs/#{filename}.csv"`
-  end  
-  
+  end
 end
