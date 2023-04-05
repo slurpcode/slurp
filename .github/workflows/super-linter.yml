@@ -21,7 +21,8 @@ jobs:
       - name: Install Golang modules # install go modules before running linter as golang will throw errors on unknown libraries
         run: |
           go mod download -x
-          find . -name go.mod -exec sh -c '(cd "$(dirname "$1")" && go mod download -x)' _ {} \;
+          go mod tidy
+          find . -name go.mod -exec sh -c '(cd "$(dirname "$1")" && go mod download -x && go mod tidy)' _ {} \;
       - name: Lint Code Base
         uses: github/super-linter@v4.10.1
         env:
