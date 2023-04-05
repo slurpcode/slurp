@@ -71,6 +71,7 @@ Welcome to slurp's documentation!
    nonparametric-tests.md
    numeral-symbols.md
    parametric-statistics.md
+   parametric-methods-to-compare-two-means.md
    point-estimation-methods.md
    poisson-distribution.md
    probabilities.md
