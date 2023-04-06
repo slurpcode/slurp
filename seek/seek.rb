@@ -300,6 +300,6 @@ if results.size > 1
   elsif is_linux
     exec("xdg-open \"jobs/#{filename}.csv\"")
   else
-    `open "jobs/#{filename}.csv"`
+    exec("open \"jobs/#{filename}.csv\"")
   end
 end
