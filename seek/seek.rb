@@ -293,7 +293,7 @@ if results.size > 1
   puts "#{results.size - 1} jobs found"
 
   # determine the current operating system
-  is_windows = (RbConfig::CONFIG["host_os"] =~ /mswin|mingw|cygwin/)
+  is_windows = (RbConfig::CONFIG["host_os"] =~ /cygwin|mingw|mswin/)
   is_linux = (RbConfig::CONFIG["host_os"] =~ /linux/)
   if is_windows
     exec(%(start "" "jobs/#{filename}.csv"))
