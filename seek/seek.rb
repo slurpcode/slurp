@@ -298,7 +298,7 @@ if results.size > 1
   if is_windows
     exec(%(start "" "jobs/#{filename}.csv"))
   elsif is_linux
-    exec(%(xdg-open  "jobs/#{filename}.csv"))
+    exec(%(xdg-open "jobs/#{filename}.csv"))
   else
     exec(%(open "jobs/#{filename}.csv"))
   end
