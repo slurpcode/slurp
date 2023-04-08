@@ -296,10 +296,10 @@ if results.size > 1
   is_windows = (RbConfig::CONFIG["host_os"] =~ /mswin|mingw|cygwin/)
   is_linux = (RbConfig::CONFIG["host_os"] =~ /linux/)
   if is_windows
-    exec("start \"\" \"jobs/#{filename}.csv\"")
+    exec(%(start "" "jobs/#{filename}.csv"))
   elsif is_linux
-    exec("xdg-open \"jobs/#{filename}.csv\"")
+    exec(%(xdg-open  "jobs/#{filename}.csv"))
   else
-    exec("open \"jobs/#{filename}.csv\"")
+    exec(%(open "jobs/#{filename}.csv"))
   end
 end
