@@ -2,14 +2,15 @@ package main
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/gocolly/colly/v2"
-	_ "github.com/heroku/x/hmetrics/onload"
 	"math/rand"
 	"net/http"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/gocolly/colly/v2"
+	_ "github.com/heroku/x/hmetrics/onload"
 )
 
 type ScrappedData struct {
@@ -26,7 +27,7 @@ func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "9000"
-		//log.Fatal("$PORT must be set")
+		// log.Fatal("$PORT must be set")
 	}
 	router := gin.New()
 	router.Use(gin.Logger())
@@ -77,7 +78,9 @@ func main() {
 		})
 	})
 
-	router.Run(":" + port)
+	if err := router.Run(":" + port); err != nil {
+		fmt.Println("error: ", err)
+	}
 }
 
 func scrapeGoogle() ScrappedData {
@@ -91,7 +94,7 @@ func scrapeGoogle() ScrappedData {
 
 	co := colly.NewCollector(
 		colly.AllowedDomains(google),
-		//colly.CacheDir("./macewindu_cache"),
+		// colly.CacheDir("./macewindu_cache"),
 	)
 	co.OnRequest(func(r *colly.Request) {
 		url = fmt.Sprintf("%v", r.URL)
@@ -110,7 +113,7 @@ func scrapeGoogle() ScrappedData {
 
 	co.OnScraped(func(r *colly.Response) {
 		t := time.Now()
-		unixTime = fmt.Sprintf("%s", gettime(t.Unix()))
+		unixTime = gettime(t.Unix())
 		regTime = fmt.Sprintf("%d-%02d-%02dT%02d:%02d:%02d\n",
 			t.Year(), t.Month(), t.Day(), t.Hour(), t.Minute(), t.Second())
 	})
@@ -123,7 +126,9 @@ func scrapeGoogle() ScrappedData {
 	}
 	colors := strings.Join(dest, ",")
 
-	co.Visit("https://www.google.com/search?q=mace+windu")
+	if err := co.Visit("https://www.google.com/search?q=mace+windu"); err != nil {
+		fmt.Println("error: ", err)
+	}
 	d := ScrappedData{Data: ret, Address: url, StartTime: startTime, Time: unixTime, RegTime: regTime, Colors: colors}
 	return d
 }
