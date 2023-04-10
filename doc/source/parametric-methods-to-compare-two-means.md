@@ -74,7 +74,7 @@ Once we have verified both the equality of variance and its normal distribution,
 
 The first thing to be clear about is when two groups are independent, they are those whose characteristics are well differentiated, for example: the groups of men and women when measuring blood pressure or two independent groups can also be married people and single people, among others.
 
-![Single MArried](_static/images/parametric-methods-to-compare-two-means/single-married.jpg)
+![Single Married](_static/images/parametric-methods-to-compare-two-means/single-married.jpg)
 
 The other important thing to take into account is that this test can only contrast the means of two groups at a time, where each group has less than 30 individuals.
 
