@@ -18,19 +18,6 @@ jobs:
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
-      - name: Set up Go
-        uses: actions/setup-go@v2
-        with:
-          go-version: 1.19  # Update to the version specified in your go.mod file
-      - name: Set GOROOT environment variable
-        run: echo "export GOROOT=/opt/hostedtoolcache/go/1.19/x64" >> $GITHUB_ENV
-      - name: Install Golang modules # install go modules before running linter as golang will throw errors on unknown libraries
-        env:
-          GO111MODULE: "on"
-        run: |
-          go mod download -x
-          go mod tidy
-          find . -name go.mod -exec sh -c '(cd "$(dirname "$1")" && go mod download -x && go mod tidy)' _ {} \;
       - name: Lint Code Base
         uses: github/super-linter@v4.10.1
         env:
