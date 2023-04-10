@@ -293,15 +293,16 @@ if results.size > 1
   puts "#{results.size - 1} jobs found"
 
   # determine the current operating system
-  is_windows = /cygwin|mingw|mswin/ === RbConfig::CONFIG["host_os"]
-  is_linux = /linux/ === RbConfig::CONFIG["host_os"]
-  is_mac = /darwin/ === RbConfig::CONFIG["host_os"]
+ # determine the current operating system
+host_os = RbConfig::CONFIG["host_os"]
 
-  if is_windows
-    exec(%(start "" "jobs/#{filename}.csv"))
-  elsif is_linux
-    exec(%(xdg-open "jobs/#{filename}.csv"))
-  elsif is_mac
-    exec(%(open "jobs/#{filename}.csv"))
-  end
+case host_os
+when /cygwin|mingw|mswin/
+  exec(%(start "" "jobs/#{filename}.csv"))
+when /linux/
+  exec(%(xdg-open "jobs/#{filename}.csv"))
+when /darwin/
+  exec(%(open "jobs/#{filename}.csv"))
+end
+
 end
