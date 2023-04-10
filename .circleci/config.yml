@@ -204,21 +204,12 @@ jobs:
           keys:
             - v1-pkg-cache
       - run: go install github.com/mgechev/revive@latest
-      - run:
-          name: 🧹 Run Golang revive lint
-          command: |
-            sh ./check-revive.sh || exit 1
-      - run:
-          name: 📦 Download root dependencies
-          command: |
-            go mod download
-            go mod tidy
 
-      # Download dependencies for the pdf subdirectory
-      - run:
-          name: 📦 Download pdf dependencies
-          command: |
-            cd pdfstar && go mod download && go mod tidy
+      ## Download dependencies for the pdf subdirectory
+      #- run:
+      #    name: 📦 Download pdf dependencies
+      #    command: |
+      #      cd pdfstar && go mod download && go mod tidy
       - run:
           name: 🧪 Run Go test
           command: |

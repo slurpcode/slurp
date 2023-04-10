@@ -18,7 +18,13 @@ jobs:
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: 1.19  # Update to the version specified in your go.mod file    
       - name: Install Golang modules # install go modules before running linter as golang will throw errors on unknown libraries
+        env:
+          GO111MODULE: "on"
         run: |
           go mod download -x
           go mod tidy
