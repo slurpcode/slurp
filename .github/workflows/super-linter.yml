@@ -21,7 +21,9 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v2
         with:
-          go-version: 1.19  # Update to the version specified in your go.mod file    
+          go-version: 1.19  # Update to the version specified in your go.mod file
+      - name: Set GOROOT environment variable
+        run: echo "export GOROOT=/opt/hostedtoolcache/go/1.19/x64" >> $GITHUB_ENV
       - name: Install Golang modules # install go modules before running linter as golang will throw errors on unknown libraries
         env:
           GO111MODULE: "on"
