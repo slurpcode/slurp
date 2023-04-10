@@ -2,14 +2,14 @@ name: Lint
 
 on: [pull_request]
 
-permissions:  # added using https://github.com/step-security/secure-workflows
+permissions: # added using https://github.com/step-security/secure-workflows
   contents: read
 
 jobs:
   build:
     permissions:
-      contents: read  # for actions/checkout to fetch code
-      statuses: write  # for github/super-linter to mark status of each linter run
+      contents: read # for actions/checkout to fetch code
+      statuses: write # for github/super-linter to mark status of each linter run
     name: GitHub Super-Linter
     runs-on: ubuntu-latest
     steps:
@@ -18,18 +18,21 @@ jobs:
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
-      - uses: github/super-linter@v4.10.1
+      - name: Lint Code Base
+        uses: github/super-linter@v4.10.1
         env:
           DEFAULT_BRANCH: main
           ERROR_ON_MISSING_EXEC_BIT: true
-          VALIDATE_ALL_CODEBASE: false
+          VALIDATE_ALL_CODEBASE: true
           VALIDATE_BASH: true
           VALIDATE_BASH_EXEC: true
           # VALIDATE_EDITORCONFIG: true
-          VALIDATE_GO: true
+          # VALIDATE_GO: true
+          # VALIDATE_GO_GOLANGCI_LINT: true
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
           VALIDATE_PYTHON_FLAKE8: true
-          VALIDATE_RUBY: true
+          # VALIDATE_RUBY: true
+          VALIDATE_JAVASCRIPT_ES: true
           VALIDATE_YAML: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
