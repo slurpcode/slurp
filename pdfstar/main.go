@@ -53,11 +53,10 @@ func handler() gin.HandlerFunc {
 		b := make([]byte, 8)
 		_, err := rand.Read(b)
 		if err != nil {
-			// handle error here
+			fmt.Println(err)
 		}
 		t := int64(binary.BigEndian.Uint64(b))
 
-		//t := rand.Int63()
 		filename := fmt.Sprintf("hello-%v-%v", nanos, t)
 		savepath := ""
 		if os.Getenv("APP_ENV") == "production" {
@@ -66,7 +65,7 @@ func handler() gin.HandlerFunc {
 			savepath = "./pdfs"
 		}
 		fp := fmt.Sprintf("%s/%s.pdf", savepath, filename)
-		if err := pdf.OutputFileAndClose(fp); err != nil {
+		if errPdf := pdf.OutputFileAndClose(fp); errPdf != nil {
 			fmt.Println(err.Error())
 		}
 
