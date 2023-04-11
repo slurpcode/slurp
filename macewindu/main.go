@@ -60,6 +60,7 @@ func main() {
 	})
 
 	router.GET("/google-charts", func(c *gin.Context) {
+
 		r := rand.New(rand.NewSource(time.Now().UnixNano()))
 
 		offsetNumber := r.Intn(7)

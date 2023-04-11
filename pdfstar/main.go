@@ -1,8 +1,9 @@
 package main
 
 import (
+	"crypto/rand"
+	"encoding/binary"
 	"fmt"
-	"math/rand"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -49,7 +50,14 @@ func handler() gin.HandlerFunc {
 
 		now := time.Now()
 		nanos := now.UnixNano()
-		t := rand.Int63()
+		b := make([]byte, 8)
+		_, err := rand.Read(b)
+		if err != nil {
+			// handle error here
+		}
+		t := int64(binary.BigEndian.Uint64(b))
+
+		//t := rand.Int63()
 		filename := fmt.Sprintf("hello-%v-%v", nanos, t)
 		savepath := ""
 		if os.Getenv("APP_ENV") == "production" {
@@ -58,8 +66,7 @@ func handler() gin.HandlerFunc {
 			savepath = "./pdfs"
 		}
 		fp := fmt.Sprintf("%s/%s.pdf", savepath, filename)
-		err := pdf.OutputFileAndClose(fp)
-		if err != nil {
+		if err := pdf.OutputFileAndClose(fp); err != nil {
 			fmt.Println(err.Error())
 		}
 
