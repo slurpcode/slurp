@@ -205,11 +205,6 @@ jobs:
             - v1-pkg-cache
       - run: go install github.com/mgechev/revive@latest
 
-      ## Download dependencies for the pdf subdirectory
-      #- run:
-      #    name: 📦 Download pdf dependencies
-      #    command: |
-      #      cd pdfstar && go mod download && go mod tidy
       - run:
           name: 🧪 Run Go test
           command: |
