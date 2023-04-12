@@ -23,7 +23,7 @@ GEM
       execjs
     coffee-script-source (1.11.1)
     colorator (1.1.0)
-    commonmarker (0.23.7)
+    commonmarker (0.23.9)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.0)
     csv (3.2.6)
