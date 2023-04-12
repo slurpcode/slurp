@@ -57,7 +57,7 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :keyword, :location, :range, :worktype, :delay, :time
+    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total
 
     def define_options(parser)
       parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
@@ -71,6 +71,7 @@ class Parser
       specify_worktype_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
+      print_total_number_option(parser)
 
       parser.separator ""
       parser.separator "Common options:"
@@ -143,6 +144,19 @@ class Parser
         "Begin execution at given time"
       ) { |time| self.time = time }
     end
+
+    def print_total_number_option(parser)
+      parser.on("--print-total [BOOLEAN]", "Print the total number of jobs found and don't auto-open the CSV file if BOOLEAN is true") do |value|
+        self.print_total = case value
+                           when TrueClass
+                             true
+                           when FalseClass, NilClass
+                             false
+                           else
+                             value.to_s.downcase == "true"
+                           end
+      end
+    end
   end
 
   #
@@ -190,6 +204,10 @@ if options.worktype.nil?
             contract or 244 (contract/temp)
             casual or 245 (casual/vacation): '
   options.worktype = $stdin.gets.chomp
+end
+if options.print_total.nil?
+  print "Only print the total number of jobs found? (yes/no): "
+  options.print_total = $stdin.gets.chomp.downcase == "yes"
 end
 
 agent = Mechanize.new
@@ -292,16 +310,18 @@ if results.size > 1
   end
   puts "#{results.size - 1} jobs found"
 
-  # determine the current operating system
-  host_os = RbConfig::CONFIG["host_os"]
+  unless options.print_total
+    # determine the current operating system
+    host_os = RbConfig::CONFIG["host_os"]
 
-  case host_os
-  when /cygwin|mingw|mswin/
-    exec(%(start "" "jobs/#{filename}.csv"))
-  when /linux/
-    exec(%(xdg-open "jobs/#{filename}.csv"))
-  when /darwin/
-    exec(%(open "jobs/#{filename}.csv"))
+    case host_os
+    when /cygwin|mingw|mswin/
+      exec(%(start "" "jobs/#{filename}.csv"))
+    when /linux/
+      exec(%(xdg-open "jobs/#{filename}.csv"))
+    when /darwin/
+      exec(%(open "jobs/#{filename}.csv"))
+    end
   end
 
 end
