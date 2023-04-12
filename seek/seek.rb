@@ -10,6 +10,7 @@ require "mechanize"
 require "optparse"
 require "optparse/time"
 require "paint"
+require "rbconfig"
 # require 'pp'
 
 def wtype(worktype)
@@ -290,5 +291,17 @@ if results.size > 1
     results.each { |row| csv_file << row }
   end
   puts "#{results.size - 1} jobs found"
-  `open "jobs/#{filename}.csv"`
+
+  # determine the current operating system
+  host_os = RbConfig::CONFIG["host_os"]
+
+  case host_os
+  when /cygwin|mingw|mswin/
+    exec(%(start "" "jobs/#{filename}.csv"))
+  when /linux/
+    exec(%(xdg-open "jobs/#{filename}.csv"))
+  when /darwin/
+    exec(%(open "jobs/#{filename}.csv"))
+  end
+
 end
