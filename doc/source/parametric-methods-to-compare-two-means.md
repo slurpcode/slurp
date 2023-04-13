@@ -44,7 +44,7 @@ This test is used to compare the means of a certain quantitative and continuous 
 
 ![Formula](_static/images/parametric-methods-to-compare-two-means/formula-1.jpg)
 
-Where (X1)<sup> ̅ </sup>and (S1)<sup>2 </sup> are the mean and variance of the first sample and in the same way, (X2) ̅  and (S2)<sup>2 </sup> are the mean and variance of the second sample.
+Where <img src="_static/images/parametric-methods-to-compare-two-means/x1.jpg" width=17 height = 13 alt="Formula"> and (S1)<sup>2 </sup> are the mean and variance of the first sample and in the same way, <img src="_static/images/parametric-methods-to-compare-two-means/x2.jpg" width=17 height = 13 alt="Formula"> and (S2)<sup>2 </sup> are the mean and variance of the second sample.
 The assumption of the null hypothesis is that both means are equal, so the value of t will also be equal to zero (0). It is important to emphasize that the further away t is from this value, the less likely it is that both equal means are due to chance.
 
 The conditions that are required to be able to apply this test are the following:
