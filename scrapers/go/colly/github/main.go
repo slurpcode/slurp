@@ -44,6 +44,7 @@ func main() {
 
 }
 
+// Main scraper function that gets all the stats
 func Scrape(username string, delay int) []string {
 	time.Sleep(time.Duration(delay) * time.Second)
 	allowed := "github.com"
