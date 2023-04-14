@@ -64,7 +64,6 @@ func main() {
 
 		max := big.NewInt(7)
 		offsetNumber, _ := rand.Int(rand.Reader, max)
-
 		offsetAmount := 0.2
 
 		c.HTML(http.StatusOK, "charts.tmpl.html", map[string]interface{}{
