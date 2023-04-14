@@ -204,7 +204,6 @@ jobs:
           keys:
             - v1-pkg-cache
       - run: go install github.com/mgechev/revive@latest
-
       - run:
           name: 🧪 Run Go test
           command: |
