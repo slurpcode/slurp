@@ -162,7 +162,7 @@ jobs:
 
   surge:
     docker:
-      - image: cimg/python:3.11.2-node
+      - image: cimg/python:3.11.3-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -237,7 +237,7 @@ jobs:
 
   shell:
     docker:
-      - image: cimg/python:3.11.2-node
+      - image: cimg/python:3.11.3-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -269,7 +269,7 @@ jobs:
 
   php:
     docker:
-      - image: cimg/php:8.2.4
+      - image: cimg/php:8.2.5
     working_directory: ~/repo
     steps:
       - checkout
