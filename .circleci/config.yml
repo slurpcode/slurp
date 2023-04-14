@@ -162,7 +162,7 @@ jobs:
 
   surge:
     docker:
-      - image: cimg/python:3.11.3-node
+      - image: cimg/python:3.11.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -205,6 +205,10 @@ jobs:
             - v1-pkg-cache
       - run: go install github.com/mgechev/revive@latest
       - run:
+          name: 🧹 Run Golang revive lint
+          command: |
+            sh ./check-revive.sh || exit 1
+      - run:
           name: 🧪 Run Go test
           command: |
             go test -race -covermode atomic -coverprofile=profile.cov ./...
@@ -237,7 +241,7 @@ jobs:
 
   shell:
     docker:
-      - image: cimg/python:3.11.3-node
+      - image: cimg/python:3.11.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -269,7 +273,7 @@ jobs:
 
   php:
     docker:
-      - image: cimg/php:8.2.5
+      - image: cimg/php:8.2.4
     working_directory: ~/repo
     steps:
       - checkout
