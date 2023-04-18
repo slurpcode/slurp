@@ -146,14 +146,14 @@ class Parser
     end
 
     def print_total_number_option(parser)
-      parser.on("--print-total [BOOLEAN]", "Print the total number of jobs found and don't auto-open the CSV file if BOOLEAN is true") do |value|
+      parser.on("--print-total [BOOLEAN]", "Print the total number of jobs found and don't auto-open the CSV file if BOOLEAN is true or 'yes'") do |value|
         self.print_total = case value
-                           when TrueClass
+                           when TrueClass, "yes", "Yes", "YES"
                              true
-                           when FalseClass, NilClass
+                           when FalseClass, NilClass, "no", "No", "NO"
                              false
                            else
-                             value.to_s.downcase == "true"
+                             value.to_s.downcase == "true" || value.to_s.downcase == "yes"
                            end
       end
     end
