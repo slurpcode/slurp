@@ -242,7 +242,8 @@ results <<
 if options.print_total
   # Using the CSS selector
   element = page.at('#SearchSummary > h1 > span[data-automation="totalJobsCount"]')
-  puts "#{element.text} jobs found"
+  job_count = element ? element.text : "0"
+  puts "#{job_count} jobs found"
 else
 
   loop do
