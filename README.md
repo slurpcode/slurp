@@ -14,12 +14,14 @@
 [![This project is using Percy.io for visual regression testing](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4199d4805b2a473284988680cffe85db)](https://www.codacy.com/gh/slurpcode/slurp/dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/slurpcode/slurp/badge)](https://www.codefactor.io/repository/github/slurpcode/slurp)
-![GitHub repo size](https://img.shields.io/github/repo-size/slurpcode/slurp.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/slurpcode/slurp.svg)
-![GitHub search hit counter](https://img.shields.io/github/search/slurpcode/slurp/jekyll.svg)
+[![GitHub repo size](https://img.shields.io/github/repo-size/slurpcode/slurp.svg)](#)
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/slurpcode/slurp.svg)](#)
+[![GitHub search hit counter](https://img.shields.io/github/search/slurpcode/slurp/jekyll.svg)](#)
 
 ![Lode Runner](docs/assets/images/gifs/lode-runner.gif "Lode Runner")
 ![Star Wars](docs/assets/images/gifs/star-wars-2.gif "Star Wars")
+
+---
 
 <div align="center">
 
@@ -34,9 +36,6 @@
 [Onelang.org](https://onelang.org) |
 [Help wanted](https://github.com/One-Language/One/issues/new)
 
-</div>
-<div align="center">
-
 <!--
 [![Build Status][WorkflowBadge]][WorkflowUrl]
 -->
@@ -47,6 +46,8 @@
 
 </div>
 
+---
+
 ## slurp overview
 
 - [built-in-datatypes](https://slurp.readthedocs.io/en/latest/built-in-datatypes.html) - Command line Ruby script that checks if XML schema files are using the correct built-in data types
@@ -54,6 +55,7 @@
 - [danger](https://danger.onrender.com/) - Danger on [Render](https://render.com/)
 - [doc](https://slurp.readthedocs.io/) - Welcome to slurp’s documentation! Python, Sphinx and Markdown mainly
 - [docs](https://slurpcode.github.io/slurp/) - Fuchsia Programming Jekyll website with Easter Eggs hosted on GitHub Pages with Tunes !!!
+- drivers - Selenium WebDriver scripts to test the Fuchsia Programming website
 - [eclipse-cheatsheets-to-dita-to-pdf](https://slurp.readthedocs.io/en/latest/eclipse-cheatsheets-to-dita-to-pdf.html) - Eclipse cheat sheets to DITA to PDF
 - [hashcheck](https://slurp.readthedocs.io/en/latest/hashcheck.html) - Ruby script to check file checksums with the Windows CertUtil Command
 - [logorama](https://logorama.herokuapp.com/) - Logos done Rama. Hosted on Heroku Cloud Platform

@@ -7,10 +7,15 @@
     "doc": "docs"
   },
   "dependencies": {
-    "markdownlint": "^0.28.0",
+    "@actions/core": "^1.10.0",
+    "@actions/exec": "^1.1.1",
+    "@actions/github": "^5.1.1",
+    "markdownlint": "^0.28.1",
     "surge": "0.24.0-rc.15"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.38.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified.\""
   },

@@ -10,6 +10,7 @@ require "mechanize"
 require "optparse"
 require "optparse/time"
 require "paint"
+require "rbconfig"
 # require 'pp'
 
 def wtype(worktype)
@@ -56,7 +57,7 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :keyword, :location, :range, :worktype, :delay, :time
+    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total
 
     def define_options(parser)
       parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
@@ -70,6 +71,7 @@ class Parser
       specify_worktype_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
+      print_total_number_option(parser)
 
       parser.separator ""
       parser.separator "Common options:"
@@ -92,7 +94,7 @@ class Parser
         "--keyword keyword",
         'Keywords to search
                                                separators include:
-                                               and, or, not'
+                                               "and, or, not"'
       ) { |k| self.keyword = k }
     end
 
@@ -107,9 +109,9 @@ class Parser
         "-r",
         "--range range",
         'Listed time in days
-                                                       999 (default) or
-                                                       1, 3, 7, 14, 31 or
-                                                       any positive number'
+                                                999 (default) or
+                                                1, 3, 7, 14, 31 or
+                                                any positive number'
       ) { |r| self.range = r }
     end
 
@@ -142,6 +144,19 @@ class Parser
         "Begin execution at given time"
       ) { |time| self.time = time }
     end
+
+    def print_total_number_option(parser)
+      parser.on("--print-total [BOOLEAN]", "Print the total number of jobs found and don't auto-open the CSV file if BOOLEAN is true") do |value|
+        self.print_total = case value
+                           when TrueClass
+                             true
+                           when FalseClass, NilClass
+                             false
+                           else
+                             value.to_s.downcase == "true"
+                           end
+      end
+    end
   end
 
   #
@@ -170,7 +185,7 @@ options = example.parse(ARGV)
 
 sleep(options.delay) if options.delay
 if options.keyword.nil?
-  print "Enter the keywords to search separators include: and, or, not: "
+  print 'Enter the keywords to search separators include: "and, or, not": '
   options.keyword = $stdin.gets.chomp
 end
 if options.location.nil?
@@ -190,6 +205,10 @@ if options.worktype.nil?
             casual or 245 (casual/vacation): '
   options.worktype = $stdin.gets.chomp
 end
+if options.print_total.nil?
+  print "Only print the total number of jobs found? (yes/no): "
+  options.print_total = $stdin.gets.chomp.downcase == "yes"
+end
 
 agent = Mechanize.new
 agent.user_agent_alias = "Windows Chrome"
@@ -200,7 +219,7 @@ page =
     [
       ["keywords", options.keyword],
       ["where", options.location],
-      ["range", options.range],
+      ["daterange", options.range],
       ["worktype", options.worktype]
     ]
   )
@@ -216,7 +235,7 @@ results <<
     "Salary",
     "Classification",
     "Sub Classification",
-    "Work Type",
+    # "Work Type",
     "Short Description"
   ]
 
@@ -247,8 +266,10 @@ loop do
     # get details from job ad page
     ad = agent.get(url)
     # at selects the first using CSS selectors
-    work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
-    listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
+    # work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
+    # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
+    get_script = ad.at('script[data-automation="server-state"]').text
+    salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
 
     results <<
       [
@@ -261,7 +282,7 @@ loop do
         salary,
         classification,
         sub_classification,
-        work_type,
+        # work_type,
         short_description
       ]
   end
@@ -279,13 +300,28 @@ if results.size > 1
   location = options.location.tr(" ", "-") unless options.location.empty?
   range = "range-#{options.range}" unless options.range.empty?
   options.worktype = enwtype(options.worktype)
-  worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
-  filename = [keyword, location, range, worktype].compact.join("-").downcase
+  # worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
+  # filename = [keyword, location, range, worktype].compact.join("-").downcase
+  filename = [keyword, location, range].compact.join("-").downcase
   filename = filename[1..] if filename[0] == "-"
   FileUtils.mkdir_p("jobs")
   CSV.open("jobs/#{filename}.csv", "w+") do |csv_file|
     results.each { |row| csv_file << row }
   end
   puts "#{results.size - 1} jobs found"
-  `open "jobs/#{filename}.csv"`
+
+  unless options.print_total
+    # determine the current operating system
+    host_os = RbConfig::CONFIG["host_os"]
+
+    case host_os
+    when /cygwin|mingw|mswin/
+      exec(%(start "" "jobs/#{filename}.csv"))
+    when /linux/
+      exec(%(xdg-open "jobs/#{filename}.csv"))
+    when /darwin/
+      exec(%(open "jobs/#{filename}.csv"))
+    end
+  end
+
 end
