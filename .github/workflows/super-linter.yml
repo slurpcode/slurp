@@ -18,6 +18,8 @@ jobs:
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
+      - name: Download Dependencies
+        run: go mod download
       - name: Lint Code Base
         uses: github/super-linter@v5.0.0
         env:
@@ -27,8 +29,7 @@ jobs:
           VALIDATE_BASH: true
           VALIDATE_BASH_EXEC: true
           # VALIDATE_EDITORCONFIG: true
-          # VALIDATE_GO: true
-          # VALIDATE_GO_GOLANGCI_LINT: true
+          VALIDATE_GO: true
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
           VALIDATE_PYTHON_FLAKE8: true
