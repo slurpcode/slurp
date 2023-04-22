@@ -1,10 +1,11 @@
 # 📐 Descriptive Statistics
 
 ## Random descriptive statistics
+
 Descriptive statistics is nothing more than a set of collected data where mathematics intervenes to order, characterize and present them. For example, the age of the students of a high school, the different temperatures in the winter months, the height of the workers of a certain company, etc. In order to describe in an appropriate way, the different characteristics of that specific set.
 Now, we call a statistical variable the set of different numerical values that are capable of adopting a quantitative character. Variables can be considered of two types:
 \-Quantitative variables: are those measurable and that can be represented numerically such as annual income, the price of a product, the age of a certain population, etc.
- 
+
  ![Annual Income](_static/images/descriptive_statistics/image_1.jpg)
 
 Annual income
@@ -12,7 +13,7 @@ Annual income
 On the other hand, we can also classify the variables in:
 \-One-dimensional variables: as their name implies, they only reflect information on a single characteristic, for example, the purchasing power of the members of a building.
 \-Three-dimensional variables: are those that collect the information referring to two characteristics of a certain population, for example, the height and if they are female or male of the students of a certain school.
- 
+
 ![Multidimensional variables](_static/images/descriptive_statistics/image_2.jpg)
 
 \-Multidimensional variables: are those that gather information on at least three characteristics, for example: the weight, age and height of the students in a certain classroom.
@@ -23,16 +24,16 @@ When studying the behavior of any variable, it is important to differentiate the
 \-Individual: any element that contains the information about what we are investigating is called. For example, if we study the ages of the boys in a classroom, each one of the students is an individual; But if the investigation is about the price of houses in a city, our individual in this case will be each house that is part of that particular city.
 
 ![Individual](_static/images/descriptive_statistics/image_3.jpg)
- 
+
 \-Population: it is the set made up of all the individuals in a study, for example: animals, people, objects, etc. that contain the relevant information from our investigation.
- 
+
 ![Population](_static/images/descriptive_statistics/image_4.jpg)
 
 \-Sample: it is the subset that we select from a population, since we cannot study the entire population.
 Suppose that we are studying the cost of the houses that are part of a certain city, as we have already said, in this case the individual is the house and the population will be made up of the total number of houses that make up that city. As we refer to the cost of the dwellings, the sample will depend on the small sectors or subgroups of dwellings, which represent the different economic strata of the aforementioned city.
 
 ![Sample](_static/images/descriptive_statistics/image_5.jpg)
- 
+
 On the other hand, the random variables are those chosen at random or by some random processes.
 Statistical data: are the numbers or measures collected through observation and can be conceived as the necessary numerical information, for making better decisions and with a greater basis, for a particular situation.
 To obtain the necessary data, there are endless methods such as looking for data that have been published by other sources, but you can also design an experiment capable of measuring what you want to verify, you can also carry out an investigation or make observations of the attitudes, behaviors or opinions of the individuals that make up the study.
@@ -43,6 +44,7 @@ Measurement scales
 In order to carry out a measurement in the field of exact sciences, one quantity must be compared with another, which must be taken arbitrarily as a reference point and is called a "standard". While for the social sciences the measurement process consists of linking abstract concepts with empirical indicators.
 Now, to measure the different variables, four different measurement scales are used: ordinal, nominal, interval and ratio. In this way, the variables are classified, the questions that the researcher must ask to measure these variables are designed and it is also established which is the most appropriate type of statistical analysis to use, in the treatment of the data obtained.
 It is important to emphasize that the reliability and validity of the measurement of a certain variable depends directly on the decisions that the researcher makes when handling it, so that an adequate understanding of the concept can be achieved. Thus avoiding ambiguities and inaccuracies, since otherwise, the variable may give unreliable information.
+
 1. Nominal Measurement
 Although it is true that there are different categories in this type of measurement, there is no specific order among them.
 To better exemplify, suppose that we have a group of people that must be classified according to their sex, we can establish: female (F), male (M) and other (O). In this way, respondents only have to indicate their gender and this does not imply a real order.
@@ -55,7 +57,7 @@ In this field we can also include measurements that express a certain attitude o
 \-Indifferent
 \-Agree
 \-Totally agree
- 
+
 ![Privatize electricity service](_static/images/descriptive_statistics/image_6.jpg)
 
 Depending on the answer alternatives, these can be coded with numbers ranging between 1 and 5, suggesting a pre-established order, but without implying the same distance between each of the numbers.
@@ -73,7 +75,7 @@ Table 1: Originally collected data
 5 7 8 6 6 8 5 9 5 5 7 5 6 4 5 8 5 6 2 4 5 4 6 4 6
 3 6 2 4 9 4 3 5 3 7 4 5 8 5 6 5 4 1 3 3 1 4 3 4 8
 6 4 4 2 1 3 6 3 1 4 2 4 8 5 7 6 4 4 6 4 2 4 7 4 2
-5 6 7 5 5 7 5 6 4 5 4 6 6 5 6 1 5 4 5 5 5 2 6 5 6 
+5 6 7 5 5 7 5 6 4 5 4 6 6 5 6 1 5 4 5 5 5 2 6 5 6
 5 4 7 2 8 1 2 4 7 4 4 2 3 7 5 6 3 4 9 5 5 3 4 4 5
 7 6 7 6 6 5 8 6 1 5 5 7 5 6 3 5 5 5 8 5 6 2 5 7 7
 
@@ -87,14 +89,14 @@ The recommendation is to organize the data in such a way that it is easier for u
 
 Table 2
 
-1 1 1 1 1 1 
-2 2 2 2 2 2 2 2 2 2 2 
+1 1 1 1 1 1
+2 2 2 2 2 2 2 2 2 2 2
 3 3 3 3 3 3 3 3 3 3 3 3
 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4
 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5
 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-8 8 8 8 8 8 8 8 8 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7
+8 8 8 8 8 8 8 8 8
 9 9 9
 
 As we can see, it is easier to understand the values shown in Table 2 and although the information is exactly the same, the only change is the way of ordering the data. While it is true that the solution is not complete and can definitely be improved, it is still somewhat difficult to respond to the concerns raised.
@@ -145,11 +147,10 @@ If we add all the values and divide them by the number of data (n), we will obta
 For example, if we have the following data: 2, 8, 9, 15, 3, 5, the arithmetic mean will be: = (2 + 8 + 9 + 15 + 3 + 5) / 6 = 7
 
 However, when the data obtained has more than one frequency, we can obtain the arithmetic mean by adding a new column. Let's suppose that the following frequency distribution shows the heights measured in centimeters of the students in a secondary school classroom
- 
+
  ![Image for X Bar](_static/images/descriptive_statistics/imagex.png)=(∑_(i=1)^n▒〖 ƒ .  xi  〗)/n
 
-![Arithmatic mean](_static/images/descriptive_statistics/image_9.png)
- 
+![Arithmetic mean](_static/images/descriptive_statistics/image_9.png)
 
 ![Image for X Bar](_static/images/descriptive_statistics/imagex.png)= 7852 / 47 = 167.06 cm
 As we can see, the arithmetic mean is a numerical measure, that is, it can be expressed quantitatively. For its calculation, each and every one of the values of the variable must be taken into account.
@@ -172,8 +173,9 @@ If we count the amount of data, they give us 8 (even) and the first thing is, or
 
 We look for the two central values, which in this case are: 2 and 4. Their arithmetic mean is:
 
-	= (2 + 4) / 2 = 3
-2) When the number of data is odd: 
+= (2 + 4) / 2 = 3
+
+2) When the number of data is odd:
 
 4, 9, -2, 8, 6, -1, 3
 
@@ -202,7 +204,7 @@ Let's look at another case, if the data we have is the following:
 
 7, 2, -5, 0, 4, 5, -4, 1, 3, -2, -3
 
-Ordering from least to greatest: 
+Ordering from least to greatest:
 
 -5, -4, -3, -2, 0, 1, 2, 3, 4, 5, 7
 
