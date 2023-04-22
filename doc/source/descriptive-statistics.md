@@ -6,7 +6,7 @@ Descriptive statistics is nothing more than a set of collected data where mathem
 Now, we call a statistical variable the set of different numerical values that are capable of adopting a quantitative character. Variables can be considered of two types:
 \-Quantitative variables: are those measurable and that can be represented numerically such as annual income, the price of a product, the age of a certain population, etc.
 
- ![Annual Income](_static/images/descriptive_statistics/image_1.jpg)
+![Annual Income](_static/images/descriptive_statistics/image_1.jpg)
 
 Annual income
 \-Qualitative variables: are those that cannot be quantified, for example: the sex of a population, its skin color, nationality, etc.
@@ -46,24 +46,22 @@ Now, to measure the different variables, four different measurement scales are u
 It is important to emphasize that the reliability and validity of the measurement of a certain variable depends directly on the decisions that the researcher makes when handling it, so that an adequate understanding of the concept can be achieved. Thus avoiding ambiguities and inaccuracies, since otherwise, the variable may give unreliable information.
 
 1. Nominal Measurement
-Although it is true that there are different categories in this type of measurement, there is no specific order among them.
-To better exemplify, suppose that we have a group of people that must be classified according to their sex, we can establish: female (F), male (M) and other (O). In this way, respondents only have to indicate their gender and this does not imply a real order.
-As in the previous example, numbers can be assigned to each of the genders to identify them: F = 1, M = 2 and O = 3, but as we know, none of these numbers quantifies the number of people corresponding to each gender.
+   Although it is true that there are different categories in this type of measurement, there is no specific order among them.
+   To better exemplify, suppose that we have a group of people that must be classified according to their sex, we can establish: female (F), male (M) and other (O). In this way, respondents only have to indicate their gender and this does not imply a real order.
+   As in the previous example, numbers can be assigned to each of the genders to identify them: F = 1, M = 2 and O = 3, but as we know, none of these numbers quantifies the number of people corresponding to each gender.
 2. Ordinal Measurement
-This measurement scale is quantitative, since it allows ordering each of the events according to the minor or major characteristic of a specific attribute. For example, in schools at the primary level, students are usually trained by height, this allows a quantitative order, but the measures of the students are not provided.
-In this field we can also include measurements that express a certain attitude of the population with respect to some situation. For example: Do you agree to privatize the electricity service? So people will be able to answer alternatives such as:
-\-Strongly disagree
-\-In disagreement
-\-Indifferent
-\-Agree
-\-Totally agree
+   This measurement scale is quantitative, since it allows ordering each of the events according to the minor or major characteristic of a specific attribute. For example, in schools at the primary level, students are usually trained by height, this allows a quantitative order, but the measures of the students are not provided.
+   In this field we can also include measurements that express a certain attitude of the population with respect to some situation. For example: Do you agree to privatize the electricity service? So people will be able to answer alternatives such as:
+   \-Strongly disagree
+   \-In disagreement
+   \-Indifferent
+   \-Agree
+   \-Totally agree
 
 ![Privatize electricity service](_static/images/descriptive_statistics/image_6.jpg)
 
-Depending on the answer alternatives, these can be coded with numbers ranging between 1 and 5, suggesting a pre-established order, but without implying the same distance between each of the numbers.
-3. Interval Measurement
-This measurement has the characteristics of both ordinal and nominal measurements and establishes a constant distance between one measurement and another. While it is true that the established interval scale applies to continuous variables, it is no less true that this type of measurement lacks a point indicated as absolute zero. A representative example of the interval measurement is a thermometer, since when it is at 0 ° C it is an indication of the freezing temperature of water; while when it is at 100 ° C, it reveals its boiling level. But as we all know, the zero point is taken at an arbitrary level and this does not imply that at this point, there is a total absence of temperature.
-4. Ratio Measurement
+Depending on the answer alternatives, these can be coded with numbers ranging between 1 and 5, suggesting a pre-established order, but without implying the same distance between each of the numbers. 3. Interval Measurement
+This measurement has the characteristics of both ordinal and nominal measurements and establishes a constant distance between one measurement and another. While it is true that the established interval scale applies to continuous variables, it is no less true that this type of measurement lacks a point indicated as absolute zero. A representative example of the interval measurement is a thermometer, since when it is at 0 ° C it is an indication of the freezing temperature of water; while when it is at 100 ° C, it reveals its boiling level. But as we all know, the zero point is taken at an arbitrary level and this does not imply that at this point, there is a total absence of temperature. 4. Ratio Measurement
 This type of measurement includes the characteristics of all the measurements mentioned above, that is, nominal, ordinal and interval measurement. It also establishes an exact difference between its intervals, but unlike the previous one, it has an absolute zero point. Of course, at this zero point there is no attribute or characteristic that is being measured. For example, variables such as: number of children, age, height, etc.
 How the data is organized
 The data is nothing more than the information collected and it can mean either the opinion of many people regarding a subject, the age of a population, where they live, how many people live in a house, the type of blood that a certain group of individuals, etc.
@@ -109,7 +107,7 @@ However, the information can still be indicated so that it is much easier to res
 
 Table 3 - Frequencies (ƒ)
 
- ![Table of frequencies](_static/images/descriptive_statistics/image_7.jpg)
+![Table of frequencies](_static/images/descriptive_statistics/image_7.jpg)
 
 With this new table it is much easier to answer the concerns or questions previously raised
 
@@ -122,7 +120,7 @@ We can realize that all the questions asked have not been implemented the same e
 
 Now, this type of summation of consecutive results is what we call accumulated frequency and a table of accumulated frequencies will help us to answer many questions.
 
- ![Table of accumulated frequencies](_static/images/descriptive_statistics/image_8.png)
+![Table of accumulated frequencies](_static/images/descriptive_statistics/image_8.png)
 
 If we know how to correctly interpret the accumulated frequencies, we can predict environmental phenomena such as hurricanes, river overflows, earthquakes, etc.
 
@@ -142,13 +140,13 @@ Arithmetic average
 
 If we add all the values and divide them by the number of data (n), we will obtain the arithmetic mean
 
- ![Image for X Bar](_static/images/descriptive_statistics/imagex.png)=(∑_(i=1)^n▒〖xi  〗)/n
+![Image for X Bar](_static/images/descriptive_statistics/imagex.png)=(∑\_(i=1)^n▒〖xi 〗)/n
 
 For example, if we have the following data: 2, 8, 9, 15, 3, 5, the arithmetic mean will be: = (2 + 8 + 9 + 15 + 3 + 5) / 6 = 7
 
 However, when the data obtained has more than one frequency, we can obtain the arithmetic mean by adding a new column. Let's suppose that the following frequency distribution shows the heights measured in centimeters of the students in a secondary school classroom
 
- ![Image for X Bar](_static/images/descriptive_statistics/imagex.png)=(∑_(i=1)^n▒〖 ƒ .  xi  〗)/n
+![Image for X Bar](_static/images/descriptive_statistics/imagex.png)=(∑\_(i=1)^n▒〖 ƒ . xi 〗)/n
 
 ![Arithmetic mean](_static/images/descriptive_statistics/image_9.png)
 
@@ -161,7 +159,7 @@ Median
 
 We call the central point of the ordered data set median either ascending or descending and depending on the amount of data there are two ways to calculate it:
 
-1) When the number of data is even: In this case, the arithmetic mean between the two central values must be calculated.
+1. When the number of data is even: In this case, the arithmetic mean between the two central values must be calculated.
 
 For example, if we want to obtain the median of the following data:
 
@@ -175,7 +173,7 @@ We look for the two central values, which in this case are: 2 and 4. Their arith
 
 = (2 + 4) / 2 = 3
 
-2) When the number of data is odd:
+2. When the number of data is odd:
 
 4, 9, -2, 8, 6, -1, 3
 
@@ -212,7 +210,7 @@ We observe that no value is repeated, so its mode does not exist
 
 Another example: In a store there are 20 employees, who present us with the following information regarding the hours worked per day:
 
- ![Hours worked per day](_static/images/descriptive_statistics/image_10.jpg)
+![Hours worked per day](_static/images/descriptive_statistics/image_10.jpg)
 
 We realize that there are two frequency values 5, so we can conclude that there is more than one mode, in addition, that the highest frequency is 8 and 9 working hours of daily work.
 
