@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/jung-kurt/gofpdf/v2"
+	"github.com/jung-kurt/gofpdf"
 )
 
 func main() {
