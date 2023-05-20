@@ -1,11 +1,9 @@
 import chromedriver_autoinstaller
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.common.by import By
 
 chromedriver_autoinstaller.install()
-# Check if the current version of chromedriver exists
-# and if it doesn't exist, download it automatically,
-# then add chromedriver to path
 
 
 def get_energy_points(user):
@@ -14,11 +12,12 @@ def get_energy_points(user):
     driver.implicitly_wait(20)
     driver.get(f"https://www.khanacademy.org/profile/{user}/")
     try:
-        energy_points_elem = driver.find_element_by_css_selector(".energy-points-badge")
+        energy_points_elem = driver.find_element(
+            By.CSS_SELECTOR, ".energy-points-badge")
         return energy_points_elem.text
     except NoSuchElementException as nosee:
         print(str(nosee))
-        return "Could not find Energy Points Element. "
+        return "Could not find Energy Points Element."
 
 
 def main():
