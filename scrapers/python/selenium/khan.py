@@ -13,7 +13,8 @@ def get_energy_points(user):
     driver.get(f"https://www.khanacademy.org/profile/{user}/")
     try:
         energy_points_elem = driver.find_element(
-            By.CSS_SELECTOR, ".energy-points-badge")
+            By.CSS_SELECTOR, ".energy-points-badge"
+        )
         return energy_points_elem.text
     except NoSuchElementException as nosee:
         print(str(nosee))
