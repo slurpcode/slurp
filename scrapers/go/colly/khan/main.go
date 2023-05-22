@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	
+
 	ctx, cancel := chromedp.NewContext(context.Background())
 	defer cancel()
 
@@ -46,7 +46,8 @@ func main() {
 		chromedp.Sleep(2*time.Second),
 	)
 	if err != nil {
-		log.Fatal("Error waiting for the page to load:", err)
+		log.Println("Error navigating to the page:", err)
+
 	}
 
 
