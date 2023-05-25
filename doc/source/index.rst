@@ -57,9 +57,9 @@ Welcome to slurp's documentation!
    determination-coefficient.md
    discriminant-analysis.md
    exponential-distribution.md
-   fractal-ingles.md
    fermat.md
    fibonacci.md
+   fractal-ingles.md
    free-distribution-testing.md
    frequentist.md
    gauss-jordan.md
