@@ -308,7 +308,6 @@ workflows:
       - php
       - shell
       - shellcheck
-      - spelling
       - spider
       - well-formed
       - surge:
@@ -321,6 +320,7 @@ workflows:
             - php
             - shell
             - shellcheck
+            - spider
             - well-formed
           filters:
             branches:
