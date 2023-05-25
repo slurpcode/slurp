@@ -57,7 +57,7 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :keyword, :location, :range, :worktype, :delay, :time
+    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total
 
     def define_options(parser)
       parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
@@ -71,6 +71,7 @@ class Parser
       specify_worktype_option(parser)
       delay_execution_option(parser)
       execute_at_time_option(parser)
+      print_total_number_option(parser)
 
       parser.separator ""
       parser.separator "Common options:"
@@ -143,6 +144,19 @@ class Parser
         "Begin execution at given time"
       ) { |time| self.time = time }
     end
+
+    def print_total_number_option(parser)
+      parser.on("--print-total [BOOLEAN]", "Print the total number of jobs found and don't auto-open the CSV file if BOOLEAN is true or 'yes'") do |value|
+        self.print_total = case value
+                           when TrueClass, "yes", "Yes", "YES"
+                             true
+                           when FalseClass, NilClass, "no", "No", "NO"
+                             false
+                           else
+                             value.to_s.downcase == "true" || value.to_s.downcase == "yes"
+                           end
+      end
+    end
   end
 
   #
@@ -191,6 +205,10 @@ if options.worktype.nil?
             casual or 245 (casual/vacation): '
   options.worktype = $stdin.gets.chomp
 end
+if options.print_total.nil?
+  print "Only print the total number of jobs found? (yes/no): "
+  options.print_total = $stdin.gets.chomp.downcase == "yes"
+end
 
 agent = Mechanize.new
 agent.user_agent_alias = "Windows Chrome"
@@ -221,87 +239,94 @@ results <<
     "Short Description"
   ]
 
-loop do
-  # for each page # html = page.body
-  jobs = page.search("article")
-  jobs.each do |job|
-    title = job.xpath("@aria-label")
-    url =
-      site + job.xpath('descendant::a[@data-automation="jobTitle"]/@href').to_s
-    advertiser =
-      job.xpath('descendant::a[@data-automation="jobCompany"]/text()')
-    location = job.xpath('descendant::a[@data-automation="jobLocation"]/text()')
-    area = job.xpath('descendant::a[@data-automation="jobArea"]/text()')
-    listing_date =
-      job.xpath('descendant::span[@data-automation="jobListingDate"]/text()')
-    salary =
-      job.xpath('descendant::span[@data-automation="jobSalary"]/span/text()')
-    classification =
-      job.xpath('descendant::a[@data-automation="jobClassification"]/text()')
-    sub_classification =
-      job.xpath('descendant::a[@data-automation="jobSubClassification"]/text()')
-    short_description =
-      job.xpath(
-        'descendant::span[@data-automation="jobShortDescription"]//text()'
-      )
+if options.print_total
+  # Using the CSS selector
+  element = page.at('#SearchSummary > h1 > span[data-automation="totalJobsCount"]')
+  job_count = element ? element.text : "0"
+  puts "#{job_count} jobs found"
+else
 
-    # get details from job ad page
-    ad = agent.get(url)
-    # at selects the first using CSS selectors
-    # work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
-    # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
-    get_script = ad.at('script[data-automation="server-state"]').text
-    salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
+  loop do
+    # for each page # html = page.body
+    jobs = page.search("article")
+    jobs.each do |job|
+      title = job.xpath("@aria-label")
+      url =
+        site + job.xpath('descendant::a[@data-automation="jobTitle"]/@href').to_s
+      advertiser =
+        job.xpath('descendant::a[@data-automation="jobCompany"]/text()')
+      location = job.xpath('descendant::a[@data-automation="jobLocation"]/text()')
+      area = job.xpath('descendant::a[@data-automation="jobArea"]/text()')
+      listing_date =
+        job.xpath('descendant::span[@data-automation="jobListingDate"]/text()')
+      salary =
+        job.xpath('descendant::span[@data-automation="jobSalary"]/span/text()')
+      classification =
+        job.xpath('descendant::a[@data-automation="jobClassification"]/text()')
+      sub_classification =
+        job.xpath('descendant::a[@data-automation="jobSubClassification"]/text()')
+      short_description =
+        job.xpath(
+          'descendant::span[@data-automation="jobShortDescription"]//text()'
+        )
 
-    results <<
-      [
-        title,
-        url,
-        advertiser,
-        location,
-        area,
-        listing_date,
-        salary,
-        classification,
-        sub_classification,
-        # work_type,
-        short_description
-      ]
+      # get details from job ad page
+      ad = agent.get(url)
+      # at selects the first using CSS selectors
+      # work_type = ad.at('dd[data-automation="job-detail-work-type"]').text
+      # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
+      get_script = ad.at('script[data-automation="server-state"]').text
+      salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
+
+      results <<
+        [
+          title,
+          url,
+          advertiser,
+          location,
+          area,
+          listing_date,
+          salary,
+          classification,
+          sub_classification,
+          # work_type,
+          short_description
+        ]
+    end
+
+    if (link = page.link_with(text: "Next")) # As long as there is still a next page link
+      page = link.click
+    else
+      # If no link left, then break out of loop
+      break
+    end
   end
 
-  if (link = page.link_with(text: "Next")) # As long as there is still a next page link
-    page = link.click
-  else
-    # If no link left, then break out of loop
-    break
+  if results.size > 1
+    keyword = options.keyword.tr(" ", "-")
+    location = options.location.tr(" ", "-") unless options.location.empty?
+    range = "range-#{options.range}" unless options.range.empty?
+    options.worktype = enwtype(options.worktype)
+    # worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
+    # filename = [keyword, location, range, worktype].compact.join("-").downcase
+    filename = [keyword, location, range].compact.join("-").downcase
+    filename = filename[1..] if filename[0] == "-"
+    FileUtils.mkdir_p("jobs")
+    CSV.open("jobs/#{filename}.csv", "w+") do |csv_file|
+      results.each { |row| csv_file << row }
+    end
+    puts "#{results.size - 1} jobs found"
+
+    # determine the current operating system
+    host_os = RbConfig::CONFIG["host_os"]
+
+    case host_os
+    when /cygwin|mingw|mswin/
+      exec(%(start "" "jobs/#{filename}.csv"))
+    when /linux/
+      exec(%(xdg-open "jobs/#{filename}.csv"))
+    when /darwin/
+      exec(%(open "jobs/#{filename}.csv"))
+    end
   end
-end
-
-if results.size > 1
-  keyword = options.keyword.tr(" ", "-")
-  location = options.location.tr(" ", "-") unless options.location.empty?
-  range = "range-#{options.range}" unless options.range.empty?
-  options.worktype = enwtype(options.worktype)
-  # worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
-  # filename = [keyword, location, range, worktype].compact.join("-").downcase
-  filename = [keyword, location, range].compact.join("-").downcase
-  filename = filename[1..] if filename[0] == "-"
-  FileUtils.mkdir_p("jobs")
-  CSV.open("jobs/#{filename}.csv", "w+") do |csv_file|
-    results.each { |row| csv_file << row }
-  end
-  puts "#{results.size - 1} jobs found"
-
-  # determine the current operating system
-  host_os = RbConfig::CONFIG["host_os"]
-
-  case host_os
-  when /cygwin|mingw|mswin/
-    exec(%(start "" "jobs/#{filename}.csv"))
-  when /linux/
-    exec(%(xdg-open "jobs/#{filename}.csv"))
-  when /darwin/
-    exec(%(open "jobs/#{filename}.csv"))
-  end
-
 end

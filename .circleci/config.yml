@@ -9,7 +9,7 @@ orbs:
 jobs:
   build-python:
     docker:
-      - image: cimg/ruby:3.2.1-browsers
+      - image: cimg/ruby:3.2.2-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -44,7 +44,7 @@ jobs:
 
   build:
     docker:
-      - image: cimg/ruby:3.2.1-browsers
+      - image: cimg/ruby:3.2.2-browsers
     working_directory: ~/repo
     steps:
       - checkout
@@ -112,7 +112,7 @@ jobs:
 
   well-formed:
     docker:
-      - image: cimg/ruby:3.2.1-node
+      - image: cimg/ruby:3.2.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -129,7 +129,7 @@ jobs:
 
   built-in-datatypes:
     docker:
-      - image: cimg/ruby:3.2.1-node
+      - image: cimg/ruby:3.2.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -146,7 +146,7 @@ jobs:
 
   spelling:
     docker:
-      - image: cimg/ruby:3.2.1-node
+      - image: cimg/ruby:3.2.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -162,7 +162,7 @@ jobs:
 
   surge:
     docker:
-      - image: cimg/python:3.11.3-node
+      - image: cimg/python:3.11.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -194,7 +194,7 @@ jobs:
   go-test:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: cimg/go:1.20.3
+      - image: cimg/go:1.20.4
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: ~/repo
     steps:
@@ -241,7 +241,7 @@ jobs:
 
   shell:
     docker:
-      - image: cimg/python:3.11.3-node
+      - image: cimg/python:3.11.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -273,7 +273,7 @@ jobs:
 
   php:
     docker:
-      - image: cimg/php:8.2.5
+      - image: cimg/php:8.2.6
     working_directory: ~/repo
     steps:
       - checkout
@@ -308,7 +308,6 @@ workflows:
       - php
       - shell
       - shellcheck
-      - spelling
       - spider
       - well-formed
       - surge:
@@ -321,6 +320,7 @@ workflows:
             - php
             - shell
             - shellcheck
+            - spider
             - well-formed
           filters:
             branches:

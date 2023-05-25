@@ -1,14 +1,16 @@
 package main
 
 import (
+	"crypto/rand"
+	"encoding/binary"
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/jung-kurt/gofpdf/v2"
-	"math/rand"
 	"net/http"
 	"os"
 	"path/filepath"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/jung-kurt/gofpdf/v2"
 )
 
 func main() {
@@ -27,7 +29,10 @@ func main() {
 		c.HTML(http.StatusOK, "index.tmpl.html", gin.H{})
 	})
 	router.POST("/pdf", handler())
-	router.Run(":" + port)
+	err := router.Run(":" + port)
+	if err != nil {
+		fmt.Println(err.Error())
+	}
 }
 
 func handler() gin.HandlerFunc {
@@ -45,7 +50,13 @@ func handler() gin.HandlerFunc {
 
 		now := time.Now()
 		nanos := now.UnixNano()
-		t := rand.Int63()
+		b := make([]byte, 8)
+		_, err := rand.Read(b)
+		if err != nil {
+			fmt.Println(err)
+		}
+		t := int64(binary.BigEndian.Uint64(b))
+
 		filename := fmt.Sprintf("hello-%v-%v", nanos, t)
 		savepath := ""
 		if os.Getenv("APP_ENV") == "production" {
@@ -54,7 +65,9 @@ func handler() gin.HandlerFunc {
 			savepath = "./pdfs"
 		}
 		fp := fmt.Sprintf("%s/%s.pdf", savepath, filename)
-		err := pdf.OutputFileAndClose(fp)
+		if errPdf := pdf.OutputFileAndClose(fp); errPdf != nil {
+			fmt.Println(err.Error())
+		}
 
 		absPath, _ := filepath.Abs(fp)
 		f, err := os.Open(absPath)
