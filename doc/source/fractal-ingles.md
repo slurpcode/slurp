@@ -106,7 +106,7 @@ Waclaw Sierpinski devised the triangle that bears his name in 1915. Its construc
 
 ![Sierpinski triangle](_static/images/fractal-ingles/sierpinski-triangle.png)
 
- This process is repeated infinitely again and thus we achieve the Sierpinski triangle as a result.
+This process is repeated infinitely again and thus we achieve the Sierpinski triangle as a result.
 
 ![Sierpinski triangle](_static/images/fractal-ingles/sierpinski-triangle1.png)
 
