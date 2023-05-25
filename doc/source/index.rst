@@ -59,6 +59,7 @@ Welcome to slurp's documentation!
    exponential-distribution.md
    fermat.md
    fibonacci.md
+   fractal-ingles.md
    free-distribution-testing.md
    frequentist.md
    gauss-jordan.md
