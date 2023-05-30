@@ -36,7 +36,7 @@
  <item
        title="Getting a feel for the data">
     <description>
-       Right we&apos;ve now got our first track section loaded.  You can also see it in the Outline View view.  If this isn&apos;t open, either select it from <b>Window/Show View/Outline View</b> or click the shortcut immediately below.  It would be useful to show symbols for all of the data points on the track. So, right-click on Track:Frigate.  A large popup menu will appear - which shows the range of items we can edit for this track, and operations we can apply to this track.  From the menu, select <b>Frigate</b> to see the list of editable items specific to this track.  From the popup menu, open the <b>Symbol Freqency</b> menu, and select <b>All</b>.  This will switch on a symbol at every data point.
+       Right we&apos;ve now got our first track section loaded.  You can also see it in the Outline View view.  If this isn&apos;t open, either select it from <b>Window/Show View/Outline View</b> or click the shortcut immediately below.  It would be useful to show symbols for all of the data points on the track. So, right-click on Track:Frigate.  A large popup menu will appear - which shows the range of items we can edit for this track, and operations we can apply to this track.  From the menu, select <b>Frigate</b> to see the list of editable items specific to this track.  From the popup menu, open the <b>Symbol Frequency</b> menu, and select <b>All</b>.  This will switch on a symbol at every data point.
     </description>
     <command
           required="false"
