@@ -10,7 +10,7 @@
     "@actions/core": "^1.10.0",
     "@actions/exec": "^1.1.1",
     "@actions/github": "^5.1.1",
-    "markdownlint": "^0.28.2",
+    "markdownlint": "^0.29.0",
     "surge": "0.24.0-rc.15"
   },
   "devDependencies": {
