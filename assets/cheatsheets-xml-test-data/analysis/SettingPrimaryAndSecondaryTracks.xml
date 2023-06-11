@@ -22,7 +22,7 @@
         <description>Ok, now open the Time Controller (in the top-section of the left hand column once again, open it from the Window menu if you can't see it).  If you drag the time-slider in the time-controller you will see the calculated data fields update.</description>
     </item>
     <item title="Removing a track" href="\org.mwc.debrief.help\html\legacy\analysing_data.html#removing_tracks">
-        <description>As an experiement with managing the tracks on the tote, right-click on the right-hand tote's columns (but not the header) and select "Remove this track".  Yes, the secondary track will be removed, and with only one track remaining.  </description>
+        <description>As an experiment with managing the tracks on the tote, right-click on the right-hand tote's columns (but not the header) and select "Remove this track".  Yes, the secondary track will be removed, and with only one track remaining.  </description>
     </item>
     <item title="Adding a track to the tote" href="\org.mwc.debrief.help\html\legacy\analysing_data.html#assigning_tracks">
         <description>Open the Outline View (you must know where to find that by now...).  Observe the '1' and '2' buttons on the view's toolbar, they're probably currently disabled.  They become enabled depending upon whether the currently selected item is suitable for inclusion on the tote.  Click once on the track you just removed from the tote, and both buttons will be enabled - allowing you to make the current track primary or secondary. Go on, have a go at assigning it...  It's more than just tracks that can be put on the tote, any data-item that has time and location attributes can be placed on the tote: items such as circles and labels are particularly suited.</description>

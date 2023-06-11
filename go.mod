@@ -7,7 +7,7 @@ require (
 	github.com/chromedp/chromedp v0.9.1
 	github.com/gocolly/colly/v2 v2.1.0
 	github.com/spf13/pflag v1.0.5
-	github.com/urfave/cli/v2 v2.25.3
+	github.com/urfave/cli/v2 v2.25.5
 )
 
 require (

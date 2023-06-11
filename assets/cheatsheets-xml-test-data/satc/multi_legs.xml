@@ -75,7 +75,7 @@
       <description>
          Ok, let&apos;s generate a new solution.  A constraint of 0-40 knots isn&apos;t much of a constraint at all, so it has little effect.  So,
          expand the <b>Speed Constraint - overall speed</b> item in the <b>Maintain Contributions</b> view. Now reduce the maximum speed from
-         40 knots down to 15 knots.  If you still have the Location constraints visible, you will see them adjust to repesent the new constraint.
+         40 knots down to 15 knots.  If you still have the Location constraints visible, you will see them adjust to represent the new constraint.
          <br/>This is because the vessel can&apos;t travel as far in each leg.  Also, increase the minimum speed to 8 knots.  Re-generate the solution
          and see what you think.
       </description>
