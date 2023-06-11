@@ -5,9 +5,6 @@ AllCops:
   TargetRubyVersion: 3.2.1
 
 ### LAYOUT
-Layout/EndOfLine:
-  Enabled: false
-
 Layout/LineLength:
   Enabled: false
 
