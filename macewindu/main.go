@@ -1,15 +1,17 @@
 package main
 
 import (
+	"crypto/rand"
 	"fmt"
-	"github.com/gin-gonic/gin"
-	"github.com/gocolly/colly/v2"
-	_ "github.com/heroku/x/hmetrics/onload"
-	"math/rand"
+	"math/big"
 	"net/http"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/gocolly/colly/v2"
+	_ "github.com/heroku/x/hmetrics/onload"
 )
 
 type ScrappedData struct {
@@ -26,7 +28,7 @@ func main() {
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "9000"
-		//log.Fatal("$PORT must be set")
+		// log.Fatal("$PORT must be set")
 	}
 	router := gin.New()
 	router.Use(gin.Logger())
@@ -59,25 +61,32 @@ func main() {
 	})
 
 	router.GET("/google-charts", func(c *gin.Context) {
-		r := rand.New(rand.NewSource(time.Now().UnixNano()))
 
-		offsetNumber := r.Intn(7)
+		max := big.NewInt(7)
+		offsetNumber, _ := rand.Int(rand.Reader, max)
 		offsetAmount := 0.2
 
 		c.HTML(http.StatusOK, "charts.tmpl.html", map[string]interface{}{
-			"pie_cool":      r.Intn(50),
-			"pie_battles":   r.Intn(50),
-			"pie_sleep":     r.Intn(50),
-			"pie_council":   r.Intn(50),
-			"pie_eat":       r.Intn(50),
-			"pie_commute":   r.Intn(50),
-			"pie_tv":        r.Intn(50),
+			"pie_cool":      randIntn(50),
+			"pie_battles":   randIntn(50),
+			"pie_sleep":     randIntn(50),
+			"pie_council":   randIntn(50),
+			"pie_eat":       randIntn(50),
+			"pie_commute":   randIntn(50),
+			"pie_tv":        randIntn(50),
 			"offset_number": offsetNumber,
 			"offset_amount": offsetAmount,
 		})
 	})
 
-	router.Run(":" + port)
+	if err := router.Run(":" + port); err != nil {
+		fmt.Println("error: ", err)
+	}
+}
+
+func randIntn(max int) int {
+	n, _ := rand.Int(rand.Reader, big.NewInt(int64(max+1)))
+	return int(n.Int64())
 }
 
 func scrapeGoogle() ScrappedData {
@@ -91,7 +100,7 @@ func scrapeGoogle() ScrappedData {
 
 	co := colly.NewCollector(
 		colly.AllowedDomains(google),
-		//colly.CacheDir("./macewindu_cache"),
+		// colly.CacheDir("./macewindu_cache"),
 	)
 	co.OnRequest(func(r *colly.Request) {
 		url = fmt.Sprintf("%v", r.URL)
@@ -110,20 +119,36 @@ func scrapeGoogle() ScrappedData {
 
 	co.OnScraped(func(r *colly.Response) {
 		t := time.Now()
-		unixTime = fmt.Sprintf("%s", gettime(t.Unix()))
+		unixTime = gettime(t.Unix())
 		regTime = fmt.Sprintf("%d-%02d-%02dT%02d:%02d:%02d\n",
 			t.Year(), t.Month(), t.Day(), t.Hour(), t.Minute(), t.Second())
 	})
 	// randomize color array
 	col := [10]string{"#641E16", "#85C1E9", "#512E5F", "#154360", "#85C1E9", "#0E6251", "#145A32", "#7D6608", "#784212", "#85C1E9"}
 	dest := make([]string, len(col))
-	perm := rand.Perm(len(col))
-	for i, v := range perm {
+	indices := make([]int, len(col))
+	for i := range indices {
+		indices[i] = i
+	}
+
+	// Shuffle the slice using Fisher-Yates algorithm and a cryptographically secure random number generator
+	rng := rand.Reader
+	for i := len(indices) - 1; i > 0; i-- {
+		j, err := rand.Int(rng, big.NewInt(int64(i+1)))
+		if err != nil {
+			fmt.Println("error:", err)
+		}
+		indices[i], indices[j.Int64()] = indices[j.Int64()], indices[i]
+	}
+
+	for i, v := range indices {
 		dest[v] = col[i]
 	}
 	colors := strings.Join(dest, ",")
 
-	co.Visit("https://www.google.com/search?q=mace+windu")
+	if err := co.Visit("https://www.google.com/search?q=mace+windu"); err != nil {
+		fmt.Println("error: ", err)
+	}
 	d := ScrappedData{Data: ret, Address: url, StartTime: startTime, Time: unixTime, RegTime: regTime, Colors: colors}
 	return d
 }

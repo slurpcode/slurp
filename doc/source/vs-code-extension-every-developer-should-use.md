@@ -20,7 +20,7 @@ is running behind and then selecting the Open with Live Server option.
 ## 2. Prettier
 
 Prettier is a code formatting extension therefore it helps you to clean and
-format the code automatically. It does the work everytime whenever someone saves
+format the code automatically. It does the work every time whenever someone saves
 the work in VS code and therefore reduces the time of formatting. It is very
 useful whenever a team is working on some project as it leads to better and
 clear understanding of the code.

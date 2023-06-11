@@ -1,0 +1,11 @@
+version: '3'
+services:
+  test:
+    build:
+      context: .
+    command: sh -c 'pre-commit run --all-files'
+    environment:
+      - SKIP=check-executables-have-shebangs
+    working_dir: /app
+    volumes:
+      - ./:/app

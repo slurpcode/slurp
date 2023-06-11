@@ -5,7 +5,7 @@ The progressive marker was used to distinguish the works of performers experimen
 In the electronic music scene, the word progressive refers both to the gradual construction that can be observed in the recordings and
 to the willingness to incorporate the characteristic stylistic elements of other trends. Again, the label was first used by Mixmag
 experts.
-Its roots go back to the early 1990s, with critics considering the early maxi of Guerilla Records and Leftfield (especially the 1992
+Its roots go back to the early 1990s, with critics considering the early maxi of Guerrilla Records and Leftfield (especially the 1992
 Song Of Live) as the very first progressive house recordings. The cradle of the trend is Mansfield, England, where the Renaissance
 Club opened its doors in 1992, with residents of later key players, Sasha and John Digweed. The popularity of progressive really
 grew until the mid-1990s, when the increasingly kitschy, distorted, commercial eurotrance no longer met the expectations of more

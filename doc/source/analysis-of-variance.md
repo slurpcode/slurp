@@ -381,7 +381,7 @@ To calculate the sum of squares of the interaction between both SSAB factors, we
 The sum of each row and column is also calculated
 
 | Sum Factor Intersection | 1     | 2     | Sum of Columns |
-|-------------------------|-------|-------|----------------|
+| ----------------------- | ----- | ----- | -------------- |
 | 1                       | 6,5   | 6,08  | 12,58          |
 | 2                       | 6,08  | 5,65  | 11,73          |
 | Sum of Rows             | 12,58 | 11,73 | 24,31          |

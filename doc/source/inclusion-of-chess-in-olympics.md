@@ -36,7 +36,7 @@ Federation are aged under 18 years old. FIDE was created in Paris in
 1924. Inclusion of chess in the Olympic program of Paris-2024 would be
 an outstanding symbolic gift for FIDE's 100th anniversary.\"
 
-![Chess at the Paris Olympic Games 2024?](_static/images/inclusion_of_chess_in_olympics/image1.jpeg)
+![Chess at the Paris Olympic Games 2024?](_static/images/inclusion-of-chess-in-olympics/image1.jpeg)
 
 >Chess at the Paris Olympic Games 2024? \| Photo: FIDE Facebook page
 

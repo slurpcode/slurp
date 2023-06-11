@@ -18,7 +18,7 @@ most often used for small pieces.
 The process, simplified here, is described in detail in the references. First of
 all a piece must be created out of wax (although other materials are sometimes
 used). The wax comes in different forms. Some are wires, ribbons or other shapes
-that are preformed commercially. Also wax comes in different hardnesses, so in
+that are pre-formed commercially. Also wax comes in different hardnesses, so in
 some cases it can be squeezed and shaped by hand or with small metal tools, or
 in other cases it can be shaved, cut, or scraped with an engraving type of tool.
 Wax is available to be dispensed using a heated tool sort of like a pen or small

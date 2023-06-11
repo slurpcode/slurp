@@ -237,7 +237,7 @@ function eggs() {
                                     break;
                                 case "jedi":
                                     play(
-                                        "https://www.youtube-nocookie.com/embed/ut4WoDi-AEM?rel=0&amp;start=11",
+                                        "https://www.youtube-nocookie.com/embed/ZAc3dCRnB1c?rel=0",
                                         2
                                     );
                                     break;

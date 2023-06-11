@@ -37,13 +37,13 @@ To get an idea of how much wheat is that amount, since of course it is not easy 
 
 Which are approximately 922,337,203,685 metric tons (Tm) and according to the FAO for the year 2017 the world wheat production was:
 
-||(Tm)|
-| ----------- | ----------- |
-|Asia|335.444.298|
-|America|106.754.182|
-|Europe|270.142.633|
-|Oceania|32.223.937|
-|Total|771.718.579|
+|         | (Tm)        |
+| ------- | ----------- |
+| Asia    | 335.444.298 |
+| America | 106.754.182 |
+| Europe  | 270.142.633 |
+| Oceania | 32.223.937  |
+| Total   | 771.718.579 |
 
 If we take the total value as the annual average wheat harvest worldwide, we can say that:
 
@@ -315,4 +315,4 @@ What is most surprising about this game is that with a moderate amount of chips,
 
 ## About the Author
 
- Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes
+Idais, Graduated in Mechanical Engineering, and a master’s degree in teaching component, she gave classes in several institutes of mathematics and physics, but she also dedicated several years of my life as a television producer, she did the scripts for mikes, the camera direction, editing of video and even the location. Later she was dedicated to SEO writing for a couple of years. she like poetry, chess and dominoes

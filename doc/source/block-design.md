@@ -9,7 +9,7 @@ application in different areas of knowledge and allows the researcher to
 obtain valid deductions and satisfactory results, with respect to the
 established problem.
 
-![Design](_static/images/block_design/image1.jpeg)
+![Design](_static/images/block-design/image1.jpeg)
 
 An experimental unit is usually considered as part of a set of elements
 that in principle are equivalent and each of its elements is subjected
@@ -72,7 +72,7 @@ humidity, temperature and the operator\'s handling of the press. It is
 also necessary to use a random order of the runs that are made within
 the blocks.
 
-![Experiment](_static/images/block_design/image2.jpeg)
+![Experiment](_static/images/block-design/image2.jpeg)
 
 Designing an experiment can give us the necessary information when
 measurements are very expensive or difficult to perform, or simply
@@ -87,7 +87,7 @@ random factors. The most usual thing is to suppose that the block per
 interaction in the treatment is zero, this interaction is going to be
 the error term, in order to check the effects of the treatment.
 
-![Operator in a Factory](_static/images/block_design/image3.jpeg)
+![Operator in a Factory](_static/images/block-design/image3.jpeg)
 
 In other words, when we study the influence of a certain factor on a
 quantitative variable, it is most likely that other factors or variables
@@ -118,7 +118,7 @@ W - walk
 
 E - eat
 
-![Persons Nomenclature](_static/images/block_design/image4.png)
+![Persons Nomenclature](_static/images/block-design/image4.png)
 
 Important observations: It should be remembered that the block variable
 does not interact with the factors under study. It can be determined
@@ -241,7 +241,7 @@ each component, as well as the value of F.
 
 Variance analysis
 
-![Variance Analysis Table](_static/images/block_design/image5.png)
+![Variance Analysis Table](_static/images/block-design/image5.png)
 
 Let\'s go with an illustrative example: Let us suppose that we have a
 field and according to the characteristics of the place and the
@@ -255,7 +255,7 @@ experimental units, we can use a completely randomized and balanced
 design (without blocks). But if we have lost some experimental units, we
 must work with a completely random but unbalanced design.
 
-![Piece of land](_static/images/block_design/image6.jpeg)
+![Piece of land](_static/images/block-design/image6.jpeg)
 
 What happens if on my land I have a gradient, soil effect, terrain
 topography or simply certain conditions surrounding the investigation
@@ -271,9 +271,9 @@ is less fertile than the other and also, we are going to plant corn and
 we are going to apply a fertilizer in different doses, to see what is
 the amount of fertilizer that generates greater productivity.
 
-![Soil Sample 1](_static/images/block_design/image7.jpeg)
+![Soil Sample 1](_static/images/block-design/image7.jpeg)
 
-![Soil Sample 2](_static/images/block_design/image8.jpeg)
+![Soil Sample 2](_static/images/block-design/image8.jpeg)
 
 But in this case, there is a serious disadvantage if we intend to use
 the completely random design when measuring the productivity of corn
@@ -284,7 +284,7 @@ concentrated in the area of less fertility, our conclusions will be
 affected. We are now going to show a design where several treatments
 have been applied at random, to clarify the aforementioned.
 
-![Soil fertility area table](_static/images/block_design/image9.jpeg)
+![Soil fertility area table](_static/images/block-design/image9.jpeg)
 
 As we can see, we could come to the conclusion that treatment A does not
 generate higher productivity, but if we realize that treatment A is
@@ -392,7 +392,7 @@ fertility, we can establish a gradient in this sense and the Blocks must
 be oriented perpendicular to the direction of the gradient. So there
 should be one block for each repetition and 4 treatments in each block.
 
-![Block wise fertility table](_static/images/block_design/image10.jpeg)
+![Block wise fertility table](_static/images/block-design/image10.jpeg)
 
 This time randomness will be in the arrangement of the treatments in
 each block, unlike the figure that represented the completely random
@@ -418,7 +418,7 @@ case acted as blocks.
 
 The results obtained by treatment and by block are presented below:
 
-![Urea in blocks table](_static/images/block_design/image11.png)
+![Urea in blocks table](_static/images/block-design/image11.png)
 
 The null hypothesis is stated as that there are no significant
 differences between the treatments, that is, that all the treatments are
@@ -439,7 +439,7 @@ The ANOVA table will be as follows:
 
 Variance analysis
 
-![Variance analysis table](_static/images/block_design/image12.png)
+![Variance analysis table](_static/images/block-design/image12.png)
 
 Being "r" the number of repetitions, which in this case is equal to 4
 (one for each block) and "t" the number of treatments that are 5.
@@ -447,7 +447,7 @@ Being "r" the number of repetitions, which in this case is equal to 4
 We are going to find the elements that make up the sum of squares
 formula and show where they come from.
 
-![Sum of squares table](_static/images/block_design/image13.png)
+![Sum of squares table](_static/images/block-design/image13.png)
 
 As we can observe:
 
@@ -497,7 +497,7 @@ F = ![\\frac{MSTreat}{MSEE}](https://latex.codecogs.com/png.latex?%5Cfrac%7BMSTr
 ![\\frac{1072861,08}{25809,7}](https://latex.codecogs.com/png.latex?%5Cfrac%7B1072861%2C08%7D%7B25809%2C7%7D "\frac{1072861,08}{25809,7}")
 = 41,57
 
-![Summarized Table](_static/images/block_design/image14.png)
+![Summarized Table](_static/images/block-design/image14.png)
 
 We are going to summarize the results of
 the analysis of variance in a table

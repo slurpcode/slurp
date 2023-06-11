@@ -22,7 +22,7 @@ and cynical it is ready to help anyone ignoring opinions and
 preferences."
 
 ![Stockfish 14.1 (Strongest chess engine
-with rated elo of 3566)8^th^ Feb,2022](_static/images/effect_of_modern_chess_engines_on_professional_chess_players/image1.png)
+with rated elo of 3566)8^th^ Feb,2022](_static/images/effect-of-modern-chess-engines-on-professional-chess-players/image1.png)
 
 > Stockfish 14.1 (Strongest chess engine with rated elo of 3566)8^th^ Feb,2022
 
@@ -48,7 +48,7 @@ FIDE has already approved a complex cheat detection system with a
 behavior-tracking module for FIDE Online Arena games.
 
 ![Former world champion Garry Kasparov playing against Deep Blue. CREDIT:
-Sovfoto / Universal Images Group Rights Managed / For Education Use Only](_static/images/effect_of_modern_chess_engines_on_professional_chess_players/image2.jpeg)
+Sovfoto / Universal Images Group Rights Managed / For Education Use Only](_static/images/effect-of-modern-chess-engines-on-professional-chess-players/image2.jpeg)
 
 > Former world champion Garry Kasparov playing against Deep Blue. CREDIT:
 > Sovfoto / Universal Images Group Rights Managed / For Education Use Only

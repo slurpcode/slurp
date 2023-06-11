@@ -1,3 +1,4 @@
+// nolint
 package main
 
 import (
@@ -6,19 +7,19 @@ import (
 )
 
 func TestLength(t *testing.T) {
-	got := len(scrape("jbampton", 60))
+	got := len(Scrape("jbampton", 60))
 	if got != 5 {
-		t.Errorf("len(scrape(\"jbampton\")) = %d; want 5", got)
+		t.Errorf("len(Scrape(\"jbampton\")) = %d; want 5", got)
 	}
 }
 
 func TestIntegers(t *testing.T) {
-	got := scrape("prestonhunter", 60)
+	got := Scrape("prestonhunter", 60)
 	for _, v := range got {
 		i, _ := strconv.Atoi(v)
 		s := strconv.Itoa(i)
 		if v != s {
-			t.Errorf("scrape(\"prestonhunter\") = %s; want all numeric", got)
+			t.Errorf("Scrape(\"prestonhunter\") = %s; want all numeric", got)
 		}
 	}
 }

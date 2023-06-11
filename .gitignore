@@ -9,6 +9,7 @@ ferret.log
 scapers/shell/logos
 scapers/shell/random
 scrapers/python/scrapy/github/__pycache__
+seek/jobs
 logorama/_site
 logorama/.jekyll-cache
 logorama/.sass-cache
@@ -27,3 +28,4 @@ workers.dev/preston/node_modules/
 workers.dev/preston/worker/
 .vscode/settings.json
 .vscode/c_cpp_properties.json
+.env

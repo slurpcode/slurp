@@ -16,7 +16,7 @@ The simplest vacuum tube, the diode, invented in 1904 by
 John Ambrose Fleming, contains only a heated electron-emitting cathode and an anode. Electrons can only flow in one direction through the device—from the cathode to the anode.
 Adding one or more control grids within the tube allows the current between the cathode and anode to be controlled by the voltage on the grids.
 
-![The Radio Harmonium](_static/images/radio_harmonium/sir_john.png)
+![The Radio Harmonium](_static/images/radio-harmonium/sir_john.png)
 
 [Sir John Ambrose Fleming]
 

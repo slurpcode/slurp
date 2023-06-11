@@ -28,7 +28,7 @@ the same.
 <br>Many conditions and occurrences may appear to be the same on the
 surface, but digging deeper reveals a few unexpected twists, turns, and
 bends that are unfamiliar. How many times have you noticed that
-something that looked to be the same wasn\'t exactly what it was?
+something that looked to be the same wasn't exactly what it was?
 According to Einstein, "the only thing I know is that I know nothing".
 \"Subtle Act of Not Giving a F\*ck\" author Mark Manson says that you
 are not fully wrong, but rather more or less wrong, and that the more

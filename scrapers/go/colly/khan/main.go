@@ -28,7 +28,7 @@ func main() {
 	})
 
 	c.OnXML("//div[@id='footer']/following::script[contains(.,'prefersReducedMotion')]", func(e *colly.XMLElement) {
-		re, _ := regexp.Compile("points\":(\\d+),\"prefersReducedMotion")
+		re := regexp.MustCompile("points\":(\\d+),\"prefersReducedMotion")
 		res := re.FindAllStringSubmatch(e.Text, -1)
 		if len(res) > 0 {
 			fmt.Println(res[0][1])

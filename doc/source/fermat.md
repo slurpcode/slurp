@@ -41,7 +41,7 @@ is applied for n = 2.
 
 ![Right Trianle](_static/images/fermat/right-triangle.png)
 
-It is no secret to anyone that this equality is al reves, is equaly true for all
+It is no secret to anyone that this equality is al reves, is equally true for all
 possible combinations and different numbers. But if we go further and ask
 ourselves what happens when n = 3? Will there be a numerical combination that by
 raising two numbers to the cube to the third power and adding them, we will

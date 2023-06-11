@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/gocolly/colly/v2"
-	flag "github.com/spf13/pflag"
 	"log"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/gocolly/colly/v2"
+	flag "github.com/spf13/pflag"
 )
 
 // flags
@@ -38,7 +39,7 @@ func scrape(keywords string) {
 
 	c := colly.NewCollector(
 		colly.AllowedDomains(allowed),
-		//colly.CacheDir(""),
+		// colly.CacheDir(""),
 	)
 
 	err := c.Limit(&colly.LimitRule{

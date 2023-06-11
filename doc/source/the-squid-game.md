@@ -6,13 +6,13 @@ The story is about a man who has accumulated large debts to loan sharks named Se
 
 The venue is managed by a fully masked staff and each player was anesthetized so that the site's whereabouts are unknown. All the contestants are in dire financial straits and it is proposed that the winner will receive billions of won, but must win six games over six days.
 
-![squid](_static/images/the_squid_game/squid.jpeg)
+![squid](_static/images/the-squid-game/squid.jpeg)
 
 Gi-hun befriends an old man with a brain tumor and is player 001, but he also recognizes Cho Sang-woo who is an investment broker and former classmate from his school, he also manages to recognize a girl who is the player 067 and that he had previously stolen the money he won in a horse race.
 
 The first game that the 456 players face is red light, green light and those who lose, are killed during the game. It is there when a Pakistani saves Gi-hun's life and that is why he can complete the game. It should be noted that at the end of this first game, more than half of the participants have already been eliminated.
 
-![squid](_static/images/the_squid_game/squid1.jpeg)
+![squid](_static/images/the-squid-game/squid1.jpeg)
 
 To the surprise of the players who may die, they appeal to the third clause of the contract, where it is specified that everyone will be sent home if the majority of the participants vote in favor of ending the games, but yes, they will not receive money any. All the participants vote and it is the player 001 with the decisive vote of him, the one who places the balance in favor of everyone returning home safe and sound.
 

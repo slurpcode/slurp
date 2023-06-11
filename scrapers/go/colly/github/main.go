@@ -14,37 +14,38 @@ import (
 func main() {
 	var delay int
 	var username string
-	app := &cli.App{
-		Flags: []cli.Flag{
-			&cli.StringFlag{
-				Name:        "username",
-				Aliases:     []string{"u"},
-				Usage:       "GitHub username",
-				Destination: &username,
-				Required:    true,
-			},
-			&cli.IntFlag{
-				Name:        "delay",
-				Aliases:     []string{"d"},
-				Usage:       "Time to delay in seconds",
-				Destination: &delay,
-				Required:    false,
-				Value:       60,
-			},
+	app := cli.NewApp()
+	app.Flags = []cli.Flag{
+		&cli.StringFlag{
+			Name:        "username",
+			Aliases:     []string{"u"},
+			Usage:       "GitHub username",
+			Destination: &username,
+			Required:    true,
 		},
-		Action: func(c *cli.Context) error {
-			return nil
+		&cli.IntFlag{
+			Name:        "delay",
+			Aliases:     []string{"d"},
+			Usage:       "Time to delay in seconds",
+			Destination: &delay,
+			Required:    false,
+			Value:       60,
 		},
+	}
+	app.Action = func(c *cli.Context) error {
+		record := Scrape(username, delay)
+		fmt.Println(record)
+		return nil
 	}
 	err := app.Run(os.Args)
 	if err != nil {
 		log.Fatal(err)
 	}
-	record := scrape(username, delay)
-	fmt.Println(record)
+
 }
 
-func scrape(username string, delay int) []string {
+// Scrape is the main function that gets all the stats
+func Scrape(username string, delay int) []string {
 	time.Sleep(time.Duration(delay) * time.Second)
 	allowed := "github.com"
 	url := "https://%s/%s"

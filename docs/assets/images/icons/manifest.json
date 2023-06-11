@@ -1,10 +1,11 @@
 {
+  "id": "/slurp/?utm_source=pwa",
   "short_name": "Fuchsia",
   "name": "Fuchsia Programming",
   "display": "standalone",
   "background_color": "#FF0080",
   "theme_color": "#FF0080",
-  "start_url": "/?utm_source=pwa",
+  "start_url": "/slurp/?utm_source=pwa",
   "scope": "/",
   "icons": [
     {

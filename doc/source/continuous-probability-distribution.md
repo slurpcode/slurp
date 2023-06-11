@@ -77,7 +77,7 @@ Actually the integral must be from -∞ to ∞, but in the gamma function only v
 
 This expression is a factorial that ends up extending to the field of complex numbers, but we are not going to extend much in this area. Once we know what the gamma function is and we substitute it in the integral of the density function, when performing the corresponding calculations, we can establish the gamma distribution that we can define as:
 
-`F(x) = {█(1/(β^α Γ(α))*x^(α-1) e^((-x)/β) @0;in the oder case)┤; if x > 0`
+`F(x) = {█(1/(β^α Γ(α))*x^(α-1) e^((-x)/β) @0;in the other case)┤; if x > 0`
 
 On the other hand, we are going to establish the expected value of x from the gamma distribution:
 
@@ -219,7 +219,7 @@ Main characteristics of the Beta distribution
 2. It depends on two parameters that are α and β, where both are greater than zero: α > 0 and β > 0
 
 3. The density function of the random variable X is represented by:
-   `f(x) {█(x^(α-1〖(1-x)〗^(b-1) )/(B(α,β))@0 ;in the oder case)┤ ; 0 < x < 1`
+   `f(x) {█(x^(α-1〖(1-x)〗^(b-1) )/(B(α,β))@0 ;in the other case)┤ ; 0 < x < 1`
 
 4. The Beta function is defined by:
    `B(α,β)= ∫_0^1▒〖x^(α-1) 〖(1-x)〗^(β-1) dx 〗= (Γ(α)Γ(β))/(Γ(α+β))`

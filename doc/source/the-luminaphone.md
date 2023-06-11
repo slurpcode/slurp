@@ -7,13 +7,13 @@ However, when the British Admiralty requested a demonstration of the Aerophone, 
 
 Newspapers rushed to Matthews' defence. The War Office denied any tampering and claimed that the demonstration was a failure. The government later stated that the affair was just a misunderstanding.
 
-![The Luminaphone](_static/images/the_luminaphone/the_luminaphone.jpeg)
+![The Luminaphone](_static/images/the-luminaphone/the_luminaphone.jpeg)
 
 [The Luminaphone]
 
 The Luminaphone of 1926 was one of a long line of inventions by the British inventor Harry Grindell Matthews, well known at the time for his much publicised invention of a ‘Death Ray’ in 1923 – an unsubstantiated or proven method of destroying objects and stopping electric engines through an invisible ray-gun. Matthew’s roster of inventions included a light controlled submarine (from which he received a £25,000 prize from the British admiralty), a mobile projector for projecting images onto clouds, an early method of recording sound on to film (1921), an underwater submarine detector, ground-to-plane radio-telephone, and a self-righting flying machine, amongst many others.
 
-![The Luminaphone](_static/images/the_luminaphone/the_luminaphone_diagram.jpeg)
+![The Luminaphone](_static/images/the-luminaphone/the_luminaphone_diagram.jpeg)
 
 [Diagram showing the operation of the light beams]
 
