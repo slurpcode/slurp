@@ -31,7 +31,7 @@ it is necessary to use a sample of the population. For example, if we
 want to infer regarding the results of certain elections, it will be
 impossible for us to investigate the entire population of a country.
 
-![Elect](./_static/images/parametric_statistics/image1.jpeg)
+![Elect](./_static/images/parametric-statistics/image1.jpeg)
 
 To solve problems of this type, a representative and varied sample is
 chosen, which can lead us to extract an estimate regarding the final
@@ -169,9 +169,9 @@ rejected. In other words, there is a critical region where the null
 hypothesis is rejected and conversely, there is also an acceptance zone
 where the null hypothesis is accepted.
 
-![Hypothesis - Acceptance Region 1](./_static/images/parametric_statistics/image2.jpeg)
+![Hypothesis - Acceptance Region 1](./_static/images/parametric-statistics/image2.jpeg)
 
-![Hypothesis - Acceptance Region 2](./_static/images/parametric_statistics/image3.jpeg)
+![Hypothesis - Acceptance Region 2](./_static/images/parametric-statistics/image3.jpeg)
 
 On the other hand, the hypothesis is simple when the value of the
 parameter is perfectly specified and it is compound, if it has two or
@@ -251,7 +251,7 @@ age in a specific way, it is as simple as adding the 20 data from the
 sample and dividing it by the total data, in this case it will be 20
 data.
 
-![Group of people - Sample data](./_static/images/parametric_statistics/image4.jpeg)
+![Group of people - Sample data](./_static/images/parametric-statistics/image4.jpeg)
 
 However, if we want to estimate their average height from that same
 sample, unlike age, we simply do not have the measurements of the
@@ -262,7 +262,7 @@ estimate, in other words, limit the lowest and highest values
 ​​corresponding to the heights of the people in the sample, with a
 certain level of confidence or security.
 
-![People of different heights](./_static/images/parametric_statistics/image5.jpeg)
+![People of different heights](./_static/images/parametric-statistics/image5.jpeg)
 
 When we want to obtain a point estimate, we use a statistic that we call
 the decision function or estimator. Some of the most widely used
@@ -282,7 +282,7 @@ results and come to the conclusion that there are an average of 3.2
 children per woman in this population. But this has a drawback and it is
 that the error that is being executed is unknown.
 
-![Women and children - Sample data](./_static/images/parametric_statistics/image6.jpeg)
+![Women and children - Sample data](./_static/images/parametric-statistics/image6.jpeg)
 
 It would be advisable to assume an estimation interval with a lower
 limit and an upper limit than that average of 3.2. This is how an
@@ -310,7 +310,7 @@ values:
 ![\\frac{\\alpha}{2}](https://latex.codecogs.com/png.latex?%5Cfrac%7B%5Calpha%7D%7B2%7D "\frac{\alpha}{2}")
 = 0.025, already having both data we go to the table:
 
-![Table](./_static/images/parametric_statistics/image7.jpeg)
+![Table](./_static/images/parametric-statistics/image7.jpeg)
 
 The value obtained in the table is: t = 2.093
 
@@ -431,7 +431,7 @@ To simplify the calculations, the natural logarithm function of the
 maximum likelihood estimate should be used, since the properties of
 logarithms help greatly in its calculation.
 
-![Formula](./_static/images/parametric_statistics/formula1.jpeg)
+![Formula](./_static/images/parametric-statistics/formula1.jpeg)
 
 By properties of logarithms, the multiplications of the values ​​of the
 density function become the sum of their natural logarithms and that is

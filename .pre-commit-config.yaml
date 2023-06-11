@@ -3,7 +3,7 @@ default_stages: [commit, push]
 default_language_version:
   # force all unspecified Python hooks to run python3
   python: python3
-minimum_pre_commit_version: '1.20.0'
+minimum_pre_commit_version: "1.20.0"
 repos:
   - repo: meta
     hooks:
@@ -55,6 +55,7 @@ repos:
       - id: markdownlint # Configure in .mdlrc
       - id: reek
       - id: rubocop
+        args: ["--autocorrect-all"]
       - id: shellcheck
   - repo: https://github.com/Lucas-C/pre-commit-hooks
     rev: v1.4.2
@@ -101,7 +102,7 @@ repos:
     hooks:
       - id: codespell
         entry: codespell -I codespell.txt ./doc/source
-        exclude: ^assets/.*$|^charts/.*$|^docs/assets/.*$|^eclipse-cheatsheets-to-dita-to-pdf/.*$|^Gemfile\.lock$|^logorama/.*$|rubycritic/.*$|^ruby-eclipse-cheatsheets-to-dita/.*$|^tests/spelling/.*$
+        exclude: ^assets/.*$|^charts/.*$|^docs/assets/.*$|^eclipse-cheatsheets-to-dita-to-pdf/.*$|^Gemfile\.lock$|^go\.work\.sum$|^logorama/.*$|^rubycritic/.*$|^ruby-eclipse-cheatsheets-to-dita/.*$|^tests/spelling/.*$
   # - repo: https://github.com/syntaqx/git-hooks
   #  rev: v0.0.16
   #  hooks:

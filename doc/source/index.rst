@@ -56,8 +56,10 @@ Welcome to slurp's documentation!
    curiosities.md
    determination-coefficient.md
    discriminant-analysis.md
+   exponential-distribution.md
    fermat.md
    fibonacci.md
+   fractal-ingles.md
    free-distribution-testing.md
    frequentist.md
    gauss-jordan.md
@@ -136,6 +138,7 @@ Welcome to slurp's documentation!
    radio-harmonium.md
    pianorad.md
    keyboard-electric-harmonium.md
+   kurbelspharophon.md
    clavecin-electrique.md
    helmholtz-sound-synthesiser.md
    choralcelo.md
@@ -279,6 +282,7 @@ Welcome to slurp's documentation!
    rick-grimes.md
    silversmith.md
    steve-irwin.md
+   the-origin-of-cinema.md
    working-out.md
 
 .. toctree::
@@ -379,6 +383,7 @@ Welcome to slurp's documentation!
 
    downton-abbey.md
    law-and-order.md
+   law-and-order-special-victims-unit.md
    the-squid-game.md
 
 

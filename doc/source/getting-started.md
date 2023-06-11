@@ -30,10 +30,6 @@ Discussion about code base improvements happens in GitHub
 
 The project requires Golang, Node, Ruby, Python and more.
 
-```shell
-npm install -g npm@latest
-```
-
 From the root of the repository:
 
 ```shell
@@ -77,6 +73,30 @@ is stored in the `docs` folder. Don't get mixed up with `doc` from the
 ```shell
 cd docs || exit
 bundle exec jekyll serve
+```
+
+For ease of use and for those that don't have Ruby installed we now have
+a Dockerfile that runs the Fuchsia Programming site.
+
+Run `$ docker build --tag slurp .` to build the image.
+Then to run the container:
+
+`$ docker run --publish 4000:4000 slurp`
+
+Example output:
+
+```
+slurp % docker run --publish 4000:4000 slurp
+Configuration file: /app/docs/_config.yml
+            Source: /app/docs
+       Destination: /app/docs/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+                    done in 2.102 seconds.
+ Auto-regeneration: enabled for '/app/docs'
+    Server address: http://0.0.0.0:4000/slurp/
+  Server running... press ctrl-c to stop.
 ```
 
 ## Logorama
