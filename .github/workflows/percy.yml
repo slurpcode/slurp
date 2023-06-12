@@ -1,9 +1,6 @@
 name: Percy
 
-on:
-  push:
-    branches:
-      - main
+on: [pull_request]
 
 jobs:
   percy:
