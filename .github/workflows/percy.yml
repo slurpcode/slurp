@@ -1,9 +1,6 @@
 name: Percy
 
-on:
-  push:
-    branches:
-      - main
+on: [pull_request]
 
 jobs:
   percy:
@@ -11,6 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
