@@ -6,10 +6,9 @@ on:
       - main
 
 jobs:
-  name: CI
-  build:
+  percy:
+    name: CI
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
