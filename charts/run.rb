@@ -1,6 +1,5 @@
 #!/usr/bin/env ruby
 
-
 # Reach your final destination
 
 require "chroma"
