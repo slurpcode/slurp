@@ -16,7 +16,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: 'workers.dev/magic'
-          command: 'deploy'
+          command: deploy
   preston:
     runs-on: ubuntu-latest
     name: Preston
