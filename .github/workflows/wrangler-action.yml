@@ -27,4 +27,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: 'workers.dev/preston'
-          command: 'deploy'
+          command: deploy
