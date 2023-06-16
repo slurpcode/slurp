@@ -7,6 +7,7 @@ on:
 
 jobs:
   magic:
+    if: github.repository == 'slurpcode/slurp'
     runs-on: ubuntu-latest
     name: Magic
     steps:
@@ -18,6 +19,7 @@ jobs:
           workingDirectory: 'workers.dev/magic'
           command: deploy
   preston:
+    if: github.repository == 'slurpcode/slurp'
     runs-on: ubuntu-latest
     name: Preston
     steps:
