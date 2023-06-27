@@ -1,4 +1,5 @@
 name = "preston"
-type = "webpack"
 account_id = "716a4fb5f5ec1ff5ec1a990259927847"
+compatibility_date = "2023-06-16"
 workers_dev = true
+main = "index.js"

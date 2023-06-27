@@ -47,7 +47,7 @@ Metrics/PerceivedComplexity:
 
 ### STYLING
 Style/FrozenStringLiteralComment:
-  Enabled: true
+  Enabled: false
 
 Style/GuardClause:
   Enabled: false
