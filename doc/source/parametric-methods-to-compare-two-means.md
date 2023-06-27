@@ -54,6 +54,7 @@ The conditions that are required to be able to apply this test are the following
 2.- The variable to be considered must be continuous and have a normal distribution in both groups.
 
 3.- The homoscedasticity assumption must be fulfilled, that is, the variance must be the same in the two groups.
+
 To verify if the distribution of the variable is normal in both groups, the Shapiro Wilk test can be performed for when the samples are small (less than 50). For large samples, it is best to use the Kolmogorov Smirnof test and in case of having a large sample and not knowing both the standard deviation and the population mean, it is advisable to use this same test but with the modification of Lilliefors.
 
 On the other hand, both normality tests have the disadvantage of assuming a null hypothesis of normality. This implies that when the result is significant, the null hypothesis can be discarded and the conclusion reached that the variable simply does not have a normal distribution. But for non-significant results, this does not allow us to precisely assert the normality of the alternative hypothesis, that is, it only indicates that we cannot reject the null hypothesis.
