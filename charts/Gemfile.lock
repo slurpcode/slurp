@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     chroma (0.2.0)
-    csv (3.2.6)
+    csv (3.2.7)
     fileutils (1.7.1)
     kramdown (2.4.0)
       rexml
