@@ -269,7 +269,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.18.1)
+    minitest (5.19.0)
     mixlib-cli (2.1.8)
     mixlib-config (3.0.27)
       tomlrb
