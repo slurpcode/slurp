@@ -13,6 +13,7 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
+    base64 (0.1.1)
     chef-utils (18.1.0)
       concurrent-ruby
     chroma (0.2.0)
@@ -314,7 +315,8 @@ GEM
     regexp_parser (2.8.1)
     rexml (3.2.6)
     rouge (3.26.0)
-    rubocop (1.55.1)
+    rubocop (1.56.0)
+      base64 (~> 0.1.1)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
