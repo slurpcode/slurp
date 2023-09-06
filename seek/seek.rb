@@ -236,7 +236,8 @@ results <<
     "Classification",
     "Sub Classification",
     # "Work Type",
-    "Short Description"
+    "Short Description",
+    "Content"
   ]
 
 if options.print_total
@@ -277,7 +278,7 @@ else
       # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
       get_script = ad.at('script[data-automation="server-state"]').text
       salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
-
+      content = get_script.gsub(/(.*"content\(\{\\"platform\\":\\"WEB\\"\}\)":")(.*?)(".*")/m, '\2')
       results <<
         [
           title,
@@ -290,7 +291,8 @@ else
           classification,
           sub_classification,
           # work_type,
-          short_description
+          short_description,
+          content
         ]
     end
 
