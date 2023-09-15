@@ -153,7 +153,7 @@ class Parser
                            when FalseClass, NilClass, "no", "No", "NO"
                              false
                            else
-                             value.to_s.downcase == "true" || value.to_s.downcase == "yes"
+                             value.to_s.casecmp("true").zero? || value.to_s.casecmp("yes").zero?
                            end
       end
     end
@@ -207,7 +207,7 @@ if options.worktype.nil?
 end
 if options.print_total.nil?
   print "Only print the total number of jobs found? (yes/no): "
-  options.print_total = $stdin.gets.chomp.downcase == "yes"
+  options.print_total = $stdin.gets.chomp.casecmp("yes").zero?
 end
 
 agent = Mechanize.new
