@@ -153,7 +153,7 @@ class Parser
                            when FalseClass, NilClass, "no", "No", "NO"
                              false
                            else
-                             value.to_s.downcase == "true" || value.to_s.downcase == "yes"
+                             value.to_s.casecmp("true").zero? || value.to_s.casecmp("yes").zero?
                            end
       end
     end
@@ -207,7 +207,7 @@ if options.worktype.nil?
 end
 if options.print_total.nil?
   print "Only print the total number of jobs found? (yes/no): "
-  options.print_total = $stdin.gets.chomp.downcase == "yes"
+  options.print_total = $stdin.gets.chomp.casecmp("yes").zero?
 end
 
 agent = Mechanize.new
@@ -236,7 +236,8 @@ results <<
     "Classification",
     "Sub Classification",
     # "Work Type",
-    "Short Description"
+    "Short Description",
+    "Content"
   ]
 
 if options.print_total
@@ -277,7 +278,7 @@ else
       # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
       get_script = ad.at('script[data-automation="server-state"]').text
       salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
-
+      content = get_script.gsub(/(.*"content\(\{\\"platform\\":\\"WEB\\"\}\)":")(.*?)(".*")/m, '\2')
       results <<
         [
           title,
@@ -290,7 +291,8 @@ else
           classification,
           sub_classification,
           # work_type,
-          short_description
+          short_description,
+          content
         ]
     end
 
