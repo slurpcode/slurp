@@ -139,6 +139,10 @@ function eggs() {
                         loadUrl(
                             "https://www.upwork.com/freelancers/~012f83431b8bc482b3"
                         );
+                    case "amir":
+                        loadUrl(
+                            "https://www.upwork.com/freelancers/amirtallap"
+                        );
                         break;
                     default:
                         effect(1);
