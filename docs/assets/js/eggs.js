@@ -140,6 +140,11 @@ function eggs() {
                             "https://www.upwork.com/freelancers/~012f83431b8bc482b3"
                         );
                         break;
+                    case "amir":
+                        loadUrl(
+                            "https://www.upwork.com/freelancers/amirtallap"
+                        );
+                        break;
                     default:
                         effect(1);
                         var background = match.toString();
