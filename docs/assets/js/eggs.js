@@ -63,7 +63,8 @@ function eggs() {
         "platformer",
         "fighter",
         "andrew",
-        "aleah"
+        "aleah",
+        "amir"
     ];
     var keyHistory = "";
     var match;
