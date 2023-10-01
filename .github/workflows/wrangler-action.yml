@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Magic
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Deploy
-        uses: cloudflare/wrangler-action@2.0.0
+        uses: cloudflare/wrangler-action@v3.1.1
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: 'workers.dev/magic'
@@ -23,9 +23,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Preston
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Deploy
-        uses: cloudflare/wrangler-action@2.0.0
+        uses: cloudflare/wrangler-action@v3.1.1
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           workingDirectory: 'workers.dev/preston'

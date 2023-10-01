@@ -63,7 +63,8 @@ function eggs() {
         "platformer",
         "fighter",
         "andrew",
-        "aleah"
+        "aleah",
+        "amir"
     ];
     var keyHistory = "";
     var match;
@@ -138,6 +139,11 @@ function eggs() {
                     case "aleah":
                         loadUrl(
                             "https://www.upwork.com/freelancers/~012f83431b8bc482b3"
+                        );
+                        break;
+                    case "amir":
+                        loadUrl(
+                            "https://www.upwork.com/freelancers/amirtallap"
                         );
                         break;
                     default:

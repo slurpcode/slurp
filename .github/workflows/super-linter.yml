@@ -9,19 +9,19 @@ jobs:
   build:
     permissions:
       contents: read # for actions/checkout to fetch code
-      statuses: write # for github/super-linter to mark status of each linter run
+      statuses: write # for super-linter/super-linter to mark status of each linter run
     name: GitHub Super-Linter
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
       - name: Download Dependencies
         run: go mod download
       - name: Lint Code Base
-        uses: github/super-linter@v5.0.0
+        uses: super-linter/super-linter@v5.3.1
         env:
           DEFAULT_BRANCH: main
           ERROR_ON_MISSING_EXEC_BIT: true
