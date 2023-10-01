@@ -1,0 +1,24 @@
+name: Percy
+
+on: [pull_request]
+
+jobs:
+  percy:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: npm install --save-dev @percy/cli
+      - run: |
+          cd docs
+          bundle exec jekyll build
+          npx percy snapshot _site/ # or any directory such as public/
+        env:
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}

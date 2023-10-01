@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
-# frozen_string_literal: true
 
 # Reach your final destination
 
@@ -545,7 +544,7 @@ end
 # replaces 'd3pie' with one of 'Google Charts', 'Chart.js', 'plotly.js' or 'd3pie' or 'All chart types'
 # used in h1 on the main charting pages
 def site_type(chart_pages_heading, chart_type)
-  gs(Kramdown::Document.new(chart_pages_heading.gsub(/d3pie/, chart_type)).to_html)
+  gs(Kramdown::Document.new(chart_pages_heading.gsub("d3pie", chart_type)).to_html)
 end
 
 # data variable

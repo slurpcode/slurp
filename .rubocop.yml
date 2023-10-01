@@ -5,9 +5,6 @@ AllCops:
   TargetRubyVersion: 3.2.1
 
 ### LAYOUT
-Layout/EndOfLine:
-  Enabled: false
-
 Layout/LineLength:
   Enabled: false
 
@@ -34,7 +31,7 @@ Metrics/AbcSize:
   Enabled: false
 
 Metrics/BlockLength:
-  Max: 44
+  Max: 45
 
 Metrics/CyclomaticComplexity:
   Enabled: false
@@ -50,7 +47,7 @@ Metrics/PerceivedComplexity:
 
 ### STYLING
 Style/FrozenStringLiteralComment:
-  Enabled: true
+  Enabled: false
 
 Style/GuardClause:
   Enabled: false
