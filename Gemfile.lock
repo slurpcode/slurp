@@ -14,7 +14,7 @@ GEM
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
     base64 (0.1.1)
-    chef-utils (18.1.0)
+    chef-utils (18.3.0)
       concurrent-ruby
     chroma (0.2.0)
     coercible (1.0.0)
@@ -48,7 +48,7 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
-    ffi (1.15.5)
+    ffi (1.16.2)
     ffi-win32-extensions (1.0.4)
       ffi
     fileutils (1.7.1)
@@ -244,7 +244,7 @@ GEM
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    mdl (0.12.0)
+    mdl (0.13.0)
       kramdown (~> 2.3)
       kramdown-parser-gfm (~> 1.1)
       mixlib-cli (~> 2.1, >= 2.1.1)
