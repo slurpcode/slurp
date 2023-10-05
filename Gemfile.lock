@@ -1,10 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.8)
+    activesupport (7.1.0)
+      base64
+      bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
+      mutex_m
       tzinfo (~> 2.0)
     addressable (2.8.5)
       public_suffix (>= 2.0.2, < 6.0)
@@ -14,6 +19,7 @@ GEM
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
     base64 (0.1.1)
+    bigdecimal (1.4.4)
     chef-utils (18.3.0)
       concurrent-ruby
     chroma (0.2.0)
@@ -35,6 +41,8 @@ GEM
     docile (1.4.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    drb (2.1.1)
+      ruby2_keywords
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -270,7 +278,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.19.0)
+    minitest (5.20.0)
     mixlib-cli (2.1.8)
     mixlib-config (3.0.27)
       tomlrb
@@ -281,6 +289,7 @@ GEM
       ffi-win32-extensions (~> 1.0.3)
       win32-process (~> 0.9)
       wmi-lite (~> 1.0)
+    mutex_m (0.1.2)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.2)
       connection_pool (~> 2.2)
