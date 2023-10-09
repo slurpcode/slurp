@@ -273,7 +273,7 @@ jobs:
 
   php:
     docker:
-      - image: cimg/php:8.2.10
+      - image: cimg/php:8.2.11
     working_directory: ~/repo
     steps:
       - checkout
