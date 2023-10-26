@@ -30,8 +30,8 @@ Lately the factory has received complaints from some customers, who are dissatis
 
 The way to measure the viscosity is using an instrument that has a rotor that is submerged inside the jar of adhesive gel. This is how the mean value of resistance to torsion can be measured and this procedure is carried out with five jars from each of the 5 batches and they are chosen at random. In turn, each batch has five levels, this implies that the test is repeated five times per batch and is what is called “one factor design”. The results obtained are expressed below:
 
-|       | Description | Lot 1 | Lot 2 | Lot 3 | Lot 4 | Lot 5 |
-| ----- | ----------- | ----- | ----- | ----- | ----- | ----- |
+|       | Description | Lot 1 | Lot 2 | Lot 3 | Lot 4 |
+| ----- | ----------- | ----- | ----- | ----- | ----- |
 | Jar 1 | 29,39       | 30,63 | 27,16 | 31,03 | 29,67 |
 | Jar 2 | 31,51       | 32,10 | 26,63 | 30,98 | 29,32 |
 | Jar 3 | 30,88       | 30,11 | 25,31 | 28,95 | 26,87 |

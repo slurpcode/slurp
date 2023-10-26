@@ -563,8 +563,8 @@ looking for the corresponding values ​​in the table for each value of Z
 and we can place them in the following table:
 
 ||||||
-|-|-|-|-|-|
-| $$X_{i}$$  | $S_{7}$ (X) | $\varphi_{7}$($X_{i}$) | $$\|{S_{7}\ \left( X_{i} \right) - \varphi}_{7}(X_{i})\|$$ | $$\| {S_{7}\ \left( X_{i - 1} \right) - \varphi}_{7}(X_{i}) \|$$ |
+|---|---|---|---|---|
+| $$X_{i}$$  | $S_{7}$ (X) | $\varphi_{7}$($X_{i}$) | $$ {S_{7}\ \left( X_{i} \right) - \varphi}_{7}(X_{i})$$ | $$ {S_{7}\ \left( X_{i - 1} \right) - \varphi}_{7}(X_{i}) $$ |
 | \-4       | 1/7 = 0,1428  | 0,0885                     | 0,0543                                                                | 0 – 0,0885 = 0,0885                                                       |
 | \-2       | 2/7 = 0,2857  | 0,1841                     | 0,1016                                                                | 0,1428 - 0,1841= 0,0413                                                   |
 | 0         | 3/7 = 0,4285  | 0,3264                     | 0,1021                                                                | 0,2857 - 0,3264 = 0,0407                                                  |

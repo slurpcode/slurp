@@ -47,9 +47,9 @@ Let's go with an example to find the mathematical expectation of an event: suppo
 Since x is the square of the result, the values that the random variable will take are: 1, 4, 9, 16, 25 and 36. On the other hand, what is the probability that any of the heads will fall? Each head has a 1/6 chance.
 
 |x|1|4|9|16|25|36|
-|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |P(x)|1\6|1\6|1\6|1\6|1\6|1\6|
-|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 According to the mathematical expectation formula, we must carry out the summation of the multiplication of the values that x takes multiplied by its probability, that is:
 
@@ -70,14 +70,14 @@ Find the value of the constant k
 To find the probability of the values of between 1 and 5, we simply need to multiply them by k. But for the values of x that are between 6 and 9 (both inclusive) we must apply the formula k (10 – x) so:
 
 |x|1|2|3|4|5|6|7|8|9|
-|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |P(x)|1k|2k|3k|4k|5k|k(10-6)|k(10-7)|k(10-8)|k(10-9)|
-|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 |x|1|2|3|4|5|6|7|8|9|
-|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |P(x)|1k|2k|3k|4k|5k|4k|3k|2k|1k|
-|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 In order to find the constant k we must take into account that the sum of the probabilities is always equal to unity:
 

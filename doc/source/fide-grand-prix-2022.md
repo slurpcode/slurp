@@ -7,7 +7,7 @@ This tournament is bifurcated in three legs (Berlin and Belgrade will host these
 ## -PLAYERS
 
 |**Country** |**Player** |**Qualification Method** |**Rating** |
-| - | - | - | - |
+| --- | --- | --- | --- |
 |***China*** |***Ding Liren*** |***Rating*** |***2799*** |
 |***USA*** |***Levon Aronian*** |***Rating*** |***2772*** |
 |***Netherlands*** |***Anish Giri*** |***Rating*** |***2772*** |
@@ -38,7 +38,7 @@ This tournament is bifurcated in three legs (Berlin and Belgrade will host these
 ***Each player will earn points for their individual performance which will be added to decide the final standings.**
 
 |**Place in each Tournament** |**Grand Prix Points** |
-| - | - |
+| --- | --- |
 |**Winner** |**13** |
 |**Runner-up** |**10** |
 |**Semifinalist (2 Players)** |**7** |
@@ -85,7 +85,7 @@ The first leg of the event takes place from February 3 to February 17 at Berlin.
 The Second leg will be held in Belgrade.
 
 |**Country** |**Player** |**Rating** |
-| - | - | - |
+| --- | --- | --- |
 |***China*** |***Ding Liren*** |***2799*** |
 |***Netherlands*** |***Anish Giri*** |***2772*** |
 |***Azerbaijan*** |***Shakhriyar Mamedyarov*** |***2767*** |
@@ -108,7 +108,7 @@ The Second leg will be held in Belgrade.
 Third leg will be held in Berlin, Germany.
 
 |**Country** |**Player** |**Rating** |
-| - | - | - |
+| --- | --- | --- |
 |***Netherlands*** |***Anish Giri*** |***2772*** |
 |***USA*** |***Wesley So*** |***2772*** |
 |***USA*** |***Levon Aronian*** |***2772*** |
@@ -131,7 +131,7 @@ Third leg will be held in Berlin, Germany.
 Each tournament has a monetary prize fund of 150,000 Euros which will be distributed as tabulated below.
 
 |**Place in Tournament** |**Prize** |
-| - | - |
+| --- | --- |
 |***Winner*** |***24,000*** |
 |***Runner-up*** |***18,000*** |
 |***Semifinalist*** |***12,000*** |

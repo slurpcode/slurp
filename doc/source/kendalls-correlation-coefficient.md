@@ -118,11 +118,11 @@ We should notice that the values of the ranges are repeated and that changes the
 We must now make a table where the age range is specified, what positions that range occupies in the previous table, for example: how can you observe the age range 1 occupies positions 1 and 2, it is repeated twice that is our value from (t), if we add the positions that are 1 + 2 = 3, we can obtain the data in the table that correspond to the sum of positions.
 
 | Age Range | Positions          | Amount Of Repetitions(t) | Sum Of Positions | Assigned Rank | t(t-1) |
-| --------- | ------------------ | ------------------------ | ---------------- | ------------- | ------ | --- |
+| --------- | ------------------ | ------------------------ | ---------------- | ------------- | ------ |
 | 1         | 1 y 2              | 2                        | 3                | 1,5           | 2      |
 | 2         | 3,4,5,6,7,8,9 y 10 | 8                        | 52               | 6,5           | 56     |
 | 3         | 11,12,13,14 y 15   | 5                        | 65               | 13            | 20     |
-|           |                    |                          |                  |               | Sum    | 78  |
+|           |                    |                          |                  |               | 78  |
 
 To obtain the assigned range we must divide the sum of positions by the number of repetitions, in the first row we can observe `3/2 = 1.5` and the last column we obtain it with the value of the number of repetitions (t), with the formula `t (t - 1)` and in this case it is `2 (2-1) = 2`.
 
@@ -153,11 +153,11 @@ Now we will repeat the entire previous process, but this time for blood pressure
 | 3              | 15      |
 
 | Blood Pressure Range | Positions           | Amount Of Repetitions(t) | Sum Of Positions | Assigned Rank | t(t-1) |
-| -------------------- | ------------------- | ------------------------ | ---------------- | ------------- | ------ | --- |
+| -------------------- | ------------------- | ------------------------ | ---------------- | ------------- | ------ |
 | 1                    | 1 y 2               | 2                        | 3                | 1.5           | 2      |
 | 2                    | 3,4,5,6,7,8 y 9     | 8                        | 42               | 6             | 42     |
 | 3                    | 10,11,12,13,14 y 15 | 6                        | 75               | 12.5          | 30     |
-|                      |                     |                          |                  |               | Sum    | 74  |
+|                      |                     |                          |                  |            Sum    | 74  |
 
 We can then find `Ty = 1/2 ∑▒〖t(t-1)〗 = 74/2 = 37`
 

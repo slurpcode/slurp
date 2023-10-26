@@ -134,11 +134,10 @@ Remember that to use the integral tabulation method we must derive the first fun
 
 |     | a(x) = x^2and its derivatives | b(x) = e^((-x)/2) and its integrals | b(x) = e^((-x)/2) and its integrals |
 | --- | ----------------------------- | ----------------------------------- | ----------------------------------- |
-
-|Step 1|x^2|e^((-x)/2)|
-|Step 2|2x|-2e^(-x/2)|
-|Step 3|2|4e^(-x/2)|
-|Step 4|0|-8e^(-x/2)
+|Step 1|x^2|e^((-x)/2)| |
+|Step 2|2x|-2e^((-x)/2)| |
+|Step 3|2|4e^(-x/2)| |
+|Step 4|0|-8e^(-x/2)| |
 
 ![Multiplying by cross as indicated by arrows](_static/images/continuous-probability-distribution/image6.jpeg)
 
