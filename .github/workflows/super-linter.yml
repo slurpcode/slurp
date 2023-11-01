@@ -21,7 +21,7 @@ jobs:
       - name: Download Dependencies
         run: go mod download
       - name: Lint Code Base
-        uses: super-linter/super-linter@v5.3.1
+        uses: super-linter/super-linter@v5.4.3
         env:
           DEFAULT_BRANCH: main
           ERROR_ON_MISSING_EXEC_BIT: true

@@ -55,6 +55,7 @@ Welcome to slurp's documentation!
    correlation.md
    curiosities.md
    determination-coefficient.md
+   descriptive-statistics.md
    discriminant-analysis.md
    exponential-distribution.md
    fermat.md
