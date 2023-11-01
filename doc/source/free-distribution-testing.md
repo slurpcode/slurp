@@ -68,11 +68,7 @@ Hypothesis tests for a population median
 
 |            |      Left Tail Test      | Right tail test | Two Tail Test |
 | :--------: | :----------------------: | :-------------: | ------------- |
-| Hypothesis | `Ho: Median ≥ 〖Med〗_0` |
-
-`Ha: Median < 〖Med〗_0`
-| `Ho: Median ≤ 〖Med〗_0`
-`Ha: Median > 〖Med〗_0`
+| Hypothesis | `Ho: Median ≥ 〖Med〗_0` `Ha: Median < 〖Med〗_0`| `Ho: Median ≤ 〖Med〗_0` `Ha: Median > 〖Med〗_0`
 |`Ho: Median = 〖Med〗_0`
 `Ha: Median ≠ 〖Med〗_0`
 |
@@ -117,7 +113,7 @@ As the statement of the exercise urges us to test if the median "is equal to" an
 The simplest way is to test the null hypothesis is to compare it with the given value and that it is based on the sample of size n. Then each value of the sample that is greater than 〖Med〗 \_0 is replaced by the sign (+), while each value of the sample less than 〖Med〗\_0 is replaced by the sign (-). In other words, each of the sample values are compared with 22.5 and if they are greater we will denote them with a sign (+), while if they are less we will place a sign (-) and those values equal to 22, 5 should be completely ignored.
 
 | Weight (Kg) | Sign |
-| :---------: | :--: |
+| :---------: | :---: |
 |    22,80    |  +   |
 |    20,71    |  -   |
 |    23,71    |  +   |
@@ -131,7 +127,7 @@ The simplest way is to test the null hypothesis is to compare it with the given 
 Now we go on to count how many positive signs there are, how many negative signs, and how many were ignored with the symbol (0).
 
 |   +   |  6  |
-| :---: | :-: |
+| :---: | :---: |
 |   -   |  2  |
 |   0   |  1  |
 | Total |  9  |
@@ -162,10 +158,10 @@ In the hypothesis test with paired samples, the formulation of the null hypothes
 
 |                   |  Left Tail Test   | Right Tail Test | Two Tail Test |
 | :---------------: | :---------------: | :-------------: | :-----------: |
-|    Hypothesis     | `Ho: p(+) ≥ p(-)` |
-| `Ha: p(+) < p(-)` | `Ho: p(+) ≤ p(-)` |
-| `Ha: p(+) > p(-)` | `Ho: p(+) = p(-)` |
-| `Ha: p(+) ≠ p(-)` |
+|    Hypothesis     | `Ho: p(+) ≥ p(-)` | --- | --- |
+| `Ha: p(+) < p(-)` | `Ho: p(+) ≤ p(-)` | --- | --- |
+| `Ha: p(+) > p(-)` | `Ho: p(+) = p(-)` | --- | --- |
+| `Ha: p(+) ≠ p(-)` | --- | --- | --- |
 
 Let us remember that the paired samples are those extracted from a population, where that same sample is going to be compared at two different moments and in the period that exists between those two times, an intervention or factor will be applied to modify the response of the sample. To later check if there really is a significant difference after that intervention, between one moment and another.
 
@@ -200,7 +196,7 @@ The idea is to try to verify that after the improvements, the patients increased
 Now we are going to compare the satisfaction levels after the improvements with those of before, if they are greater than we will place a sign (+), if on the contrary they are less we will assign a sign (-) and again we will discard those data that are equal.
 
 | Before | After | Sign |
-| :----: | :---: | :--: |
+| :----: | :---: | :---: |
 |   7    |   8   |  +   |
 |   6    |   7   |  +   |
 |   6    |   6   |  0   |
@@ -214,7 +210,9 @@ Now we are going to compare the satisfaction levels after the improvements with 
 |   5    |   6   |  +   |
 |   9    |   8   |  -   |
 
-|+| 8|
+|||
+| --- | --- |
+|+|8|
 |-|2|
 |0|2|
 |Total|12|
@@ -294,7 +292,7 @@ A manufacturer of electric irons requires testing the accuracy of a thermostat i
 The idea is to test if the median varies from 500 ° F with 95% confidence (α = 0.05)
 
 |  Xi   | Xi - Me | Sign | Rank |
-| :---: | :-----: | :--: | :--: |
+| :---: | :-----: | :---: | :---: |
 | 494.6 |  -5.4   |  -   | 7.5  |
 | 510.8 |  10.8   |  +   |  13  |
 | 487.5 |  -12.5  |  -   |  14  |
@@ -373,7 +371,7 @@ The hypotheses are as:
 The first thing we need to do is subtract the values between the defective units before the salary increase and the number of defective items after the incentive. To then order the absolute value of the range from lowest to highest, assigning values from 1 onwards.
 
 | Before (X1) | After (X2) | X1 – X2 | Sign | Rank |
-| :---------: | :--------: | :-----: | :--: | :--: |
+| :---------: | :--------: | :-----: | :---: | :---: |
 |      8      |     6      |    2    |  +   |  6   |
 |      7      |     5      |    2    |  +   |  6   |
 |      6      |     8      |   -2    |  -   |  6   |
