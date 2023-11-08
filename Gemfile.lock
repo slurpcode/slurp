@@ -33,7 +33,7 @@ GEM
     commonmarker (0.23.10)
     concurrent-ruby (1.2.2)
     connection_pool (2.4.1)
-    csv (3.2.7)
+    csv (3.2.8)
     descendants_tracker (0.0.4)
       thread_safe (~> 0.3, >= 0.3.1)
     dnsruby (1.61.9)
