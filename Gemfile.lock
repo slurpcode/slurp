@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.1.1)
+    activesupport (7.1.2)
       base64
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.0.2)
@@ -18,8 +18,8 @@ GEM
       descendants_tracker (~> 0.0.4)
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
-    base64 (0.1.1)
-    bigdecimal (1.4.4)
+    base64 (0.2.0)
+    bigdecimal (3.1.4)
     chef-utils (18.3.0)
       concurrent-ruby
     chroma (0.2.0)
@@ -41,7 +41,7 @@ GEM
     docile (1.4.0)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
-    drb (2.1.1)
+    drb (2.2.0)
       ruby2_keywords
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
@@ -289,7 +289,7 @@ GEM
       ffi-win32-extensions (~> 1.0.3)
       win32-process (~> 0.9)
       wmi-lite (~> 1.0)
-    mutex_m (0.1.2)
+    mutex_m (0.2.0)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.2)
       connection_pool (~> 2.2)
