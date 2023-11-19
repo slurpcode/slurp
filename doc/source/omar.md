@@ -24,25 +24,6 @@ Al-Abdallat participated in more than one operetta, most notably: "The Arab
 Dream", "Baghdad Don't be in Pain", "The Arab Conscience", "Voice of Peace", and
 participated in many festivals at the local and Arab levels.
 
-Omar Al-Abdallat married the Jordanian media, Nariman Hamid, and after a 10-year
-marriage they had two sons Hussein and Diala, and then they separated for a
-short period during which he married an Egyptian girl from outside the artistic
-community, an Egyptian and her name was Suzy, while he was holding a party in
-Jerash at the Jerash Roman Theater Then the couple could not bear the separation
-in 2011, so they returned to resume their married life one week after his second
-marriage.
-
-Nariman Hamid started her media career more than fifteen years ago, during which
-she presented many public programs. In 2019, their daughter Diala graduated, and
-Omar congratulated her with moving words: "When you were born, I was very happy
-with you, I planted you love in my heart and I saw you as a feeling from my soul
-until you grew up and became a flower that smells of perfume, magic and beauty,
-and God willing, literature, balance, and commitment."
-
-He added: "My affectionate daughter, Diala, today is the day you graduate from
-your school life to start a new stage of your life in seeking knowledge. You
-don't know my joy when I see you excel, successful, and determined to achieve
-your dreams. I love you so much and I always pray for you, the sweetest girls."
 
 ![Omar-Al-Abdallat](_static/images/omar/image2.jpeg)
 
