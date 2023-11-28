@@ -24,7 +24,6 @@ Al-Abdallat participated in more than one operetta, most notably: "The Arab
 Dream", "Baghdad Don't be in Pain", "The Arab Conscience", "Voice of Peace", and
 participated in many festivals at the local and Arab levels.
 
-
 ![Omar-Al-Abdallat](_static/images/omar/image2.jpeg)
 
 In 2019, Omar Al-Abdullah was a guest on one of the programs, and the presenter
