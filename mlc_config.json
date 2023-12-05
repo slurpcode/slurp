@@ -7,5 +7,10 @@
       }
     }
   ],
-  "aliveStatusCodes": [200, 429]
+  "aliveStatusCodes": [200, 429],
+  "ignorePatterns": [
+    {
+      "pattern": "^https://render\\.githubusercontent\\.com/"
+    }
+  ]
 }
