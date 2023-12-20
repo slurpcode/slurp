@@ -1,18 +1,18 @@
 *                   @jbampton
-.*                  @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal
-*.html              @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal @VictorAraica
-*.go                @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
-*.js                @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal @VictorAraica
-*.json              @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal
-*.md                @BaseMax @jbampton @smriad @VictorAraica
-*.mod               @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
-*.php               @Andrew-Colman @jbampton @BaseMax @smriad @ugifractal
-*.py                @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal @VictorAraica
-*.rb                @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal
-*.sh                @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
-*.sum               @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
-*.toml              @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal @VictorAraica
-*.xsl               @Andrew-Colman @BaseMax @jbampton @prio101 @ugifractal
-*.yaml              @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
-*.yml               @Andrew-Colman @BaseMax @jbampton @prio101 @smriad @ugifractal
-requirements.txt    @Andrew-Colman @BaseMax @jbampton @smriad @ugifractal @VictorAraica
+.*                  @AmirTallap @BaseMax @jbampton @prio101 @ugifractal
+*.html              @AmirTallap @BaseMax @jbampton @prio101 @smriad @ugifractal @VictorAraica
+*.go                @AmirTallap @BaseMax @jbampton @prio101 @smriad @ugifractal
+*.js                @AmirTallap @BaseMax @jbampton @prio101 @ugifractal @VictorAraica
+*.json              @AmirTallap @BaseMax @jbampton @prio101 @ugifractal
+*.md                @AmirTallap @BaseMax @jbampton @smriad @VictorAraica
+*.mod               @AmirTallap @BaseMax @jbampton @prio101 @smriad @ugifractal
+*.php               @AmirTallap @BaseMax @jbampton @smriad @ugifractal
+*.py                @AmirTallap @BaseMax @jbampton @prio101 @ugifractal @VictorAraica
+*.rb                @AmirTallap @BaseMax @jbampton @prio101 @ugifractal
+*.sh                @AmirTallap @BaseMax @jbampton @prio101 @smriad @ugifractal
+*.sum               @AmirTallap @BaseMax @jbampton @prio101 @smriad @ugifractal
+*.toml              @AmirTallap @BaseMax @jbampton @prio101 @smriad @ugifractal @VictorAraica
+*.xsl               @AmirTallap @BaseMax @jbampton @prio101 @ugifractal
+*.yaml              @AmirTallap @BaseMax @jbampton @prio101 @smriad @ugifractal
+*.yml               @AmirTallap @BaseMax @jbampton @prio101 @smriad @ugifractal
+requirements.txt    @AmirTallap @BaseMax @jbampton @smriad @ugifractal @VictorAraica
