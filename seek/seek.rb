@@ -230,7 +230,6 @@ results <<
     "URL",
     "Advertiser",
     "Location",
-    "Area",
     "Listing Date",
     "Salary",
     "Classification",
@@ -256,8 +255,7 @@ else
         site + job.xpath('descendant::a[@data-automation="jobTitle"]/@href').to_s
       advertiser =
         job.xpath('descendant::a[@data-automation="jobCompany"]/text()')
-      location = job.xpath('descendant::a[@data-automation="jobLocation"]/text()')
-      area = job.xpath('descendant::a[@data-automation="jobArea"]/text()')
+      location = job.xpath('descendant::a[@data-automation="jobLocation"][1]/parent::span//text()')
       listing_date =
         job.xpath('descendant::span[@data-automation="jobListingDate"]/text()')
       salary =
@@ -285,7 +283,6 @@ else
           url,
           advertiser,
           location,
-          area,
           listing_date,
           salary,
           classification,
