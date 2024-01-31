@@ -1,4 +1,5 @@
 """Python file to create Matplotlib and Seaborn based charts"""
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
