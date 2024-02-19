@@ -33,5 +33,6 @@ jobs:
           VALIDATE_PYTHON_FLAKE8: true
           # VALIDATE_RUBY: true
           VALIDATE_JAVASCRIPT_ES: true
+          VALIDATE_XML: true
           VALIDATE_YAML: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
