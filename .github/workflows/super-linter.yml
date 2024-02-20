@@ -32,6 +32,7 @@ jobs:
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
           VALIDATE_PYTHON_FLAKE8: true
+          VALIDATE_RENOVATE: true
           # VALIDATE_RUBY: true
           VALIDATE_SHELL_SHFMT: true
           VALIDATE_XML: true
