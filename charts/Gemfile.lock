@@ -3,7 +3,7 @@ GEM
   specs:
     bigdecimal (3.1.6)
     chroma (0.2.0)
-    csv (3.2.8)
+    csv (3.3.0)
     fileutils (1.7.2)
     kramdown (2.4.0)
       rexml
