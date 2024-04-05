@@ -10,7 +10,7 @@ circleci:
   - any:
       - changed-files:
           - any-glob-to-any-file:
-             - ".circleci/**/*"
+              - ".circleci/**/*"
 
 # Add 'actions' label to any change to .github files
 actions:
