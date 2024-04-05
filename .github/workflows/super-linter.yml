@@ -21,19 +21,20 @@ jobs:
       - name: Download Dependencies
         run: go mod download
       - name: Lint Code Base
-        uses: super-linter/super-linter@v6.0.0
+        uses: super-linter/super-linter@v6.3.1
         env:
           DEFAULT_BRANCH: main
-          ERROR_ON_MISSING_EXEC_BIT: true
           VALIDATE_ALL_CODEBASE: true
           VALIDATE_BASH: true
           VALIDATE_BASH_EXEC: true
           # VALIDATE_EDITORCONFIG: true
-          VALIDATE_GO: true
+          VALIDATE_JAVASCRIPT_ES: true
           VALIDATE_MARKDOWN: true
           VALIDATE_PHP: true
           VALIDATE_PYTHON_FLAKE8: true
+          VALIDATE_RENOVATE: true
           # VALIDATE_RUBY: true
-          VALIDATE_JAVASCRIPT_ES: true
+          VALIDATE_SHELL_SHFMT: true
+          VALIDATE_XML: true
           VALIDATE_YAML: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

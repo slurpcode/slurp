@@ -175,7 +175,7 @@ jobs:
   go-test:
     docker: # run the steps with Docker
       # CircleCI Go images available at: https://hub.docker.com/r/circleci/golang/
-      - image: cimg/go:1.21.6
+      - image: cimg/go:1.22.2
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: ~/repo
     steps:
@@ -222,7 +222,7 @@ jobs:
 
   shell:
     docker:
-      - image: cimg/python:3.12.1-node
+      - image: cimg/python:3.12.2-node
     working_directory: ~/repo
     steps:
       - checkout
@@ -254,7 +254,7 @@ jobs:
 
   php:
     docker:
-      - image: cimg/php:8.3.2
+      - image: cimg/php:8.3.4
     working_directory: ~/repo
     steps:
       - checkout

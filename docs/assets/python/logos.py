@@ -1,4 +1,5 @@
 """Creates logos from the Matplotlib Colormaps."""
+
 import glob
 import os
 import sys
