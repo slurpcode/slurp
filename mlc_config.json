@@ -10,7 +10,7 @@
   "aliveStatusCodes": [200, 429],
   "ignorePatterns": [
     {
-      "pattern": "^https://render\\.githubusercontent\\.com/"
+      "pattern": "^https://render\.githubusercontent\.com/.*"
     }
   ]
 }
