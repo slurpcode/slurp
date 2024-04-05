@@ -20,7 +20,7 @@ Development was originally done in
 [oXygen XML Editor](https://www.oxygenxml.com) then ported to Eclipse.
 
 Since Java is now ranked number two on the
-[TIOBE Index](http://www.tiobe.com/tiobe_index), this project aims to be an easy
+[TIOBE Index](https://www.tiobe.com/tiobe-index/), this project aims to be an easy
 to follow tutorial on all the technologies listed.
 
 The roadmap for this project is to keep the "info.debrief" custom DITA-OT plugin
