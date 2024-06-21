@@ -149,7 +149,7 @@ GEM
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    http-cookie (1.0.5)
+    http-cookie (1.0.6)
       domain_name (~> 0.5)
     http_parser.rb (0.8.0)
     i18n (1.14.5)
@@ -282,7 +282,7 @@ GEM
       mixlib-cli (~> 2.1, >= 2.1.1)
       mixlib-config (>= 2.2.1, < 4)
       mixlib-shellout
-    mechanize (2.10.0)
+    mechanize (2.10.1)
       addressable (~> 2.8)
       base64
       domain_name (~> 0.5, >= 0.5.20190701)
@@ -341,7 +341,7 @@ GEM
       matrix (~> 0.4)
       pdf-core (~> 0.10.0)
       ttfunk (~> 1.8)
-    public_suffix (5.0.4)
+    public_suffix (5.0.5)
     racc (1.8.0)
     rainbow (3.1.1)
     rb-fsevent (0.11.2)
@@ -384,7 +384,8 @@ GEM
       simplecov (>= 0.22.0)
       tty-which (~> 0.5.0)
       virtus (~> 2.0)
-    rubyntlm (0.6.3)
+    rubyntlm (0.6.5)
+      base64
     rubyzip (2.3.2)
     safe_yaml (1.0.5)
     sass (3.7.4)
