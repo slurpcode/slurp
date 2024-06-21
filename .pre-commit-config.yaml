@@ -76,6 +76,15 @@ repos:
         name: Run markdownlint
         entry: markdownlint -c .github/linters/.markdown-lint.yml .
         args: [--ignore=doc/venv, --ignore=node_modules, --ignore=charts/assets/js/d3/CHANGES.md]
+  - repo: https://github.com/tcort/markdown-link-check
+    rev: v3.11.2
+    hooks:
+      - id: markdown-link-check
+        name: Run markdown-link-check
+        description: Checks hyperlinks in Markdown files
+        args: [-q]
+        types: [markdown]
+        files: \.(md|mdown|markdown)$
   - repo: https://github.com/adrienverge/yamllint
     rev: v1.33.0
     hooks:
