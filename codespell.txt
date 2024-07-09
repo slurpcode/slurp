@@ -1,8 +1,10 @@
+accademia
 aling
 ans
 buda
 bund
 calle
+carrer
 classe
 crate
 empress
@@ -12,6 +14,8 @@ fro
 leibnitz
 lew
 lod
+manuel
+momentos
 pase
 pinter
 pont
