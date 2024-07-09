@@ -32,8 +32,8 @@ pdftocairo -png new/"$filename".pdf new/images/"$filename"/"$filename"
 
 # Fix to get number or pages ???
 for i in {01..03}; do
-  # create the difference between each png page and generate a flicker based GIF image difference
-  convert -delay 50 old/images/"$filename"/"$filename"-"$i".png new/images/"$filename"/"$filename"-"$i".png flicker/"$filename"/"$filename"-"$i"-difference-flicker.gif
+	# create the difference between each png page and generate a flicker based GIF image difference
+	convert -delay 50 old/images/"$filename"/"$filename"-"$i".png new/images/"$filename"/"$filename"-"$i".png flicker/"$filename"/"$filename"-"$i"-difference-flicker.gif
 done
 
 # zero file
@@ -47,7 +47,7 @@ echo "<!doctype html><html><head><meta charset=\"UTF-8\"></head><body>" >&3
 
 # loop over flicker GIFs
 for f in flicker/"$filename"/*; do
-  echo "<img src='$f' alt='$f'>" >&3
+	echo "<img src='$f' alt='$f'>" >&3
 done
 # finish HTML page
 echo "</body></html>" >&3
