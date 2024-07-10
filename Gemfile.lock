@@ -332,7 +332,7 @@ GEM
       sawyer (~> 0.9)
     paint (2.3.0)
     parallel (1.25.1)
-    parser (3.3.3.0)
+    parser (3.3.4.0)
       ast (~> 2.4.1)
       racc
     path_expander (1.1.1)
