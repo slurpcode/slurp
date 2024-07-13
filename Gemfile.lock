@@ -335,7 +335,7 @@ GEM
     parser (3.3.4.0)
       ast (~> 2.4.1)
       racc
-    path_expander (1.1.1)
+    path_expander (1.1.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     pdf-core (0.10.0)
