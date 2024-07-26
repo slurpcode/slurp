@@ -50,8 +50,6 @@
 ## slurp overview
 
 - [built-in-datatypes](https://slurp.readthedocs.io/en/latest/built-in-datatypes.html) - Command line Ruby script that checks if XML schema files are using the correct built-in data types
-- [charts](https://slurp.onrender.com/) - Static site built with Ruby on [Render](https://render.com/)
-- [danger](https://danger.onrender.com/) - Danger on [Render](https://render.com/)
 - [doc](https://slurp.readthedocs.io/) - Welcome to slurp’s documentation! Python, Sphinx and Markdown mainly
 - [docs](https://slurpcode.github.io/slurp/) - Fuchsia Programming Jekyll website with Easter Eggs hosted on GitHub Pages with Tunes !!!
 - drivers - Selenium WebDriver scripts to test the Fuchsia Programming website
