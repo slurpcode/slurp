@@ -441,7 +441,7 @@ GEM
     win32-process (0.10.0)
       ffi (>= 1.0.0)
     wmi-lite (1.0.7)
-    zeitwerk (2.6.16)
+    zeitwerk (2.6.17)
 
 PLATFORMS
   ruby
