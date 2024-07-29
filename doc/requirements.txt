@@ -1,6 +1,6 @@
 docutils
 myst-parser
-sphinx<8
+sphinx<9
 sphinx-intl
 sphinx-markdown-tables
 sphinx_rtd_theme
