@@ -433,7 +433,7 @@ GEM
       axiom-types (~> 0.1)
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
-    webrick (1.8.1)
+    webrick (1.8.2)
     webrobots (0.1.2)
     websocket (1.2.11)
     win32-process (0.10.0)
