@@ -239,13 +239,9 @@ page =
       ["worktype", options.worktype]
     ]
   )
-results = []
-results <<
-  if options.lite
-    ["Title", "URL", "Advertiser", "Location", "Listing Date", "Salary", "Classification", "Sub Classification", "Short Description"]
-  else
-    ["Title", "URL", "Advertiser", "Location", "Listing Date", "Salary", "Classification", "Sub Classification", "Short Description", "Content"]
-  end
+results = [
+  ["Title", "URL", "Advertiser", "Location", "Listing Date", "Salary", "Classification", "Sub Classification", "Short Description"] + (options.lite ? [] : ["Content"])
+]
 
 if options.print_total
   # Using the CSS selector
@@ -284,26 +280,21 @@ else
       # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
       get_script = ad.at('script[data-automation="server-state"]').text
       salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
-      content = if !options.lite
-        get_script.gsub(/(.*"content\(\{\\"platform\\":\\"WEB\\"\}\)":")(.*?)(".*)/m, '\2')
-      else
-        nil
-      end
-      
-      results <<
-        [
-          title,
-          url,
-          advertiser,
-          location,
-          listing_date,
-          salary,
-          classification,
-          sub_classification,
-          # work_type,
-          short_description,
-          content
-        ]
+      content = options.lite ? nil : get_script.gsub(/(.*"content\(\{\\"platform\\":\\"WEB\\"\}\)":")(.*?)(".*)/m, '\2')
+      resultsrow = [
+        title,
+        url,
+        advertiser,
+        location,
+        listing_date,
+        salary,
+        classification,
+        sub_classification,
+        # work_type,
+        short_description,
+      ]
+      resultsrow << content unless options.lite
+      results << resultsrow
     end
 
     if (link = page.link_with(text: "Next")) # As long as there is still a next page link
