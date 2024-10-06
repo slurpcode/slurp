@@ -57,7 +57,7 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total
+    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total, :lite
 
     def define_options(parser)
       parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
@@ -72,6 +72,7 @@ class Parser
       delay_execution_option(parser)
       execute_at_time_option(parser)
       print_total_number_option(parser)
+      lite_option(parser)
 
       parser.separator ""
       parser.separator "Common options:"
@@ -157,11 +158,22 @@ class Parser
                            end
       end
     end
+
+    def lite_option(parser)
+      parser.on("--lite [BOOLEAN]", "If BOOLEAN is true or 'yes', do not include the content column in the CSV") do |value|
+        self.lite = case value
+                    when TrueClass, "yes", "Yes", "YES"
+                      true
+                    when FalseClass, NilClass, "no", "No", "NO"
+                      false
+                    else
+                      value.to_s.casecmp("true").zero? || value.to_s.casecmp("yes").zero?
+                    end
+      end
+    end
+  
   end
 
-  #
-  # Return a structure describing the options.
-  #
   def parse(args)
     # The options specified on the command line will be collected in
     # *options*.
@@ -209,6 +221,10 @@ if options.print_total.nil?
   print "Only print the total number of jobs found? (yes/no): "
   options.print_total = $stdin.gets.chomp.casecmp("yes").zero?
 end
+if options.lite.nil?
+  print "Discard the content column in the results? (yes/no): "
+  options.lite = $stdin.gets.chomp.casecmp("yes").zero?
+end
 
 agent = Mechanize.new
 agent.user_agent_alias = "Windows Chrome"
@@ -223,21 +239,9 @@ page =
       ["worktype", options.worktype]
     ]
   )
-results = []
-results <<
-  [
-    "Title",
-    "URL",
-    "Advertiser",
-    "Location",
-    "Listing Date",
-    "Salary",
-    "Classification",
-    "Sub Classification",
-    # "Work Type",
-    "Short Description",
-    "Content"
-  ]
+results = [
+  ["Title", "URL", "Advertiser", "Location", "Listing Date", "Salary", "Classification", "Sub Classification", "Short Description"] + (options.lite ? [] : ["Content"])
+]
 
 if options.print_total
   # Using the CSS selector
@@ -276,21 +280,21 @@ else
       # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
       get_script = ad.at('script[data-automation="server-state"]').text
       salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
-      content = get_script.gsub(/(.*"content\(\{\\"platform\\":\\"WEB\\"\}\)":")(.*?)(".*)/m, '\2')
-      results <<
-        [
-          title,
-          url,
-          advertiser,
-          location,
-          listing_date,
-          salary,
-          classification,
-          sub_classification,
-          # work_type,
-          short_description,
-          content
-        ]
+      content = options.lite ? nil : get_script.gsub(/(.*"content\(\{\\"platform\\":\\"WEB\\"\}\)":")(.*?)(".*)/m, '\2')
+      resultsrow = [
+        title,
+        url,
+        advertiser,
+        location,
+        listing_date,
+        salary,
+        classification,
+        sub_classification,
+        # work_type,
+        short_description,
+      ]
+      resultsrow << content unless options.lite
+      results << resultsrow
     end
 
     if (link = page.link_with(text: "Next")) # As long as there is still a next page link
