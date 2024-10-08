@@ -1,6 +1,6 @@
-require "mechanize"
-require "json"
 require "fileutils"
+require "json"
+require "mechanize"
 
 def initialize_agent
   agent = Mechanize.new
