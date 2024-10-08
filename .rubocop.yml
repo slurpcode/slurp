@@ -33,6 +33,9 @@ Metrics/AbcSize:
 Metrics/BlockLength:
   Max: 45
 
+Metrics/ClassLength:
+  Max: 120
+
 Metrics/CyclomaticComplexity:
   Enabled: false
 
@@ -68,6 +71,3 @@ Style/StringLiterals:
 
 Style/StringLiteralsInInterpolation:
   Enabled: true
-
-Metrics/ClassLength:
-  Max: 120
