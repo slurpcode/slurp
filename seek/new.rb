@@ -1,8 +1,8 @@
 require 'json'
 
 # Load the JSON data from the files
-file1_path = 'job_ind.json'
-file2_path = 'new.json'
+file1_path = 'seek/job_ind.json'
+file2_path = 'seek/new.json'
 
 file1_content = File.read(file1_path)
 file2_content = File.read(file2_path)
