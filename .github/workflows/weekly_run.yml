@@ -21,7 +21,7 @@ jobs:
 
       - name: Run t.rb
         run: |
-          ruby t.rb
+          ruby ./e/OS/slurp/t.rb
         id: run_t
 
       - name: Check t.rb exit code
@@ -34,7 +34,7 @@ jobs:
 
       - name: Run tk.rb
         run: |
-          ruby tk.rb
+          ruby ./e/OS/slurp/tk.rb
         id: run_tk
 
       - name: Check tk.rb exit code
@@ -47,7 +47,7 @@ jobs:
 
       - name: Run tf.rb
         run: |
-          ruby tf.rb
+          ruby ./e/OS/slurp/tf.rb
         id: run_tf
 
       - name: Check tf.rb exit code
@@ -60,7 +60,7 @@ jobs:
 
       - name: Run new.rb
         run: |
-          ruby new.rb
+          ruby ./e/OS/slurp/new.rb
         id: run_new
 
       - name: Check new.rb exit code
