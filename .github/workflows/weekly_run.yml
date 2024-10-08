@@ -1,0 +1,52 @@
+name: Weekly Ruby Script Runner
+
+on:
+  # for testing purposes
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 0 * * 0' # Runs every weekend
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.1
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.3.4
+
+      - name: Install mechanize gem
+        run: |
+          gem install mechanize;
+
+      - name: Run new.rb script
+        id: run-new-rb-script
+        run: |
+          ruby seek/new.rb;
+          exit_code=$?;
+          echo "new.rb exit code: $exit_code";
+          echo "exit_code=$exit_code" >> $GITHUB_ENV;
+          if [ $exit_code -eq 0 ]; then
+            echo "new.rb succeeded.";
+          else
+            echo "new.rb failed with exit code $exit_code.";
+            exit $exit_code;  # Exit with the last exit code
+          fi;
+
+      - name: Commit and push changes if any
+        if: env.exit_code == '0'
+        run: |
+          git config --global user.name "github-actions[bot]";
+          git config --global user.email "github-actions[bot]@users.noreply.github.com";
+          git add seek/job_ind.json;
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit.";
+          else
+            git commit -m "Update seek/job_ind.json";
+            git push origin main;
+          fi;
