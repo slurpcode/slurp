@@ -1,141 +1,129 @@
 require 'mechanize'
 require 'json'
 
-def scrape_and_process
-  # Initialize Mechanize agent
+def initialize_agent
   agent = Mechanize.new
   agent.user_agent_alias = 'Windows Chrome'
+  agent
+end
 
-  # Fetch the main page
-  site = 'https://www.seek.com.au'
-  page = agent.get(site)
+def fetch_main_page(agent, site)
+  agent.get(site)
+end
 
-  # Find the navigation element
-  nav = page.at('nav')
-
-  # Initialize a hash to store the results
+def scrape_navigation(nav)
   results = {}
-
-  # Iterate through each `li` element within the `nav`
   nav.search('li').each do |li|
-    # Click on the `li` element
     link = li.at('a')
     next unless link
 
     puts "Processing link: #{link['href']}"
-    # sleep(1) # Add a small delay
-
-    # Fetch the linked page
     linked_page = agent.click(link)
 
-    # Find elements with `data-testid` attributes
     linked_page.search('*[data-testid]').each do |element|
       data_testid = element['data-testid']
       inner_text = element.text.strip
       puts "Found element with data-testid: #{data_testid}, text: #{inner_text}"
-      # sleep(0.2) # Add a small delay
       results[data_testid] = inner_text
     end
   end
+  results
+end
 
-  # Write the results to a JSON file
-  File.open('seek_data.json', 'w') do |file|
-    file.write(JSON.pretty_generate(results))
+def write_to_json(file_path, data)
+  File.open(file_path, 'w') do |file|
+    file.write(JSON.pretty_generate(data))
   end
+end
 
-  puts 'Data has been scraped and saved to seek_data.json'
+def read_json(file_path)
+  JSON.parse(File.read(file_path))
+end
 
-  # Read the JSON file
-  file_path = 'seek_data.json'
-  data = JSON.parse(File.read(file_path))
-
-  # Identify keys to remove
+def remove_keys(data)
   keys_to_remove = data.keys.select do |key|
     key_without_all = key.sub(/^all-/, '')
     data.key?(key_without_all) && key.start_with?('all-')
   end.map { |key| key.sub(/^all-/, '') }
 
-  # Remove the identified keys
   keys_to_remove.each { |key| data.delete(key) }
+  data
+end
 
-  # Write the modified data back to the JSON file
-  File.open(file_path, 'w') do |file|
-    file.write(JSON.pretty_generate(data))
-  end
-
-  puts 'Keys have been removed and the JSON file has been updated.'
-
-  # Initialize an empty hash for the new structure
+def transform_data(data)
   result = {}
-
   current_category = nil
 
   data.each do |key, value|
     if key.start_with?("all-")
-      # Create a new category when we encounter an 'all-*' key
-      current_category = value.sub(/^All\s+/, '')  # Remove the "All" prefix from the value
+      current_category = value.sub(/^All\s+/, '')
       result[current_category] = { "all" => key.split('-').last, "list" => [] }
     else
-      # If we have a current category, add the key-value pair to the list
       if current_category
-        # Remove trailing comma from the value if it exists
         cleaned_value = value.sub(/,\s*$/, '')
         result[current_category]["list"] << { key => cleaned_value }
       end
     end
   end
+  result
+end
 
-  # Output the new JSON structure
-  puts JSON.pretty_generate(result)
+def count_keys(data)
+  count = 0
+  data.each do |key, value|
+    count += 1
+    count += count_keys(value) if value.is_a?(Hash)
+  end
+  count
+end
 
-  # Write the result to a new JSON file
-  File.write('new.json', JSON.pretty_generate(result))
-
-  # Load the JSON data from the files
-  file1_path = 'seek/job_ind.json'
-  file2_path = 'seek/new.json'
-
-  file1_content = File.read(file1_path)
-  file2_content = File.read(file2_path)
-
-  data1 = JSON.parse(file1_content)
-  data2 = JSON.parse(file2_content)
+def compare_and_update(file1_path, file2_path)
+  data1 = read_json(file1_path)
+  data2 = read_json(file2_path)
 
   puts 'first 15 keys of file1'
   puts data1.keys.first(15)
   puts 'first 15 keys of file2'
   puts data2.keys.first(15)
 
-  # Function to count all keys and subkeys in the JSON data
-  def count_keys(data)
-    count = 0
-    data.each do |key, value|
-      count += 1
-      count += count_keys(value) if value.is_a?(Hash)
-    end
-    count
-  end
-
-  # Count the keys in both JSON data
   total_keys1 = count_keys(data1)
   total_keys2 = count_keys(data2)
 
-  # Compare the total number of keys
   if total_keys2 >= total_keys1
-    # If they are equal, update job_ind.json with the content of new.json
     if total_keys2 == total_keys1
-      File.open(file1_path, 'w') do |file|
-        file.write(JSON.pretty_generate(data2))
-      end
+      write_to_json(file1_path, data2)
     end
     puts 'No errors found.'
-    return true
+    true
   else
     puts 'errors found.'
-    return false
+    false
   end
 end
 
+def scrape_and_process
+  agent = initialize_agent
+  site = 'https://www.seek.com.au'
+  page = fetch_main_page(agent, site)
+  nav = page.at('nav')
+
+  results = scrape_navigation(nav)
+  write_to_json('seek_data.json', results)
+  puts 'Data has been scraped and saved to seek_data.json'
+
+  data = read_json('seek_data.json')
+  data = remove_keys(data)
+  write_to_json('seek_data.json', data)
+  puts 'Keys have been removed and the JSON file has been updated.'
+
+  transformed_data = transform_data(data)
+  write_to_json('seek/new.json', transformed_data)
+  puts JSON.pretty_generate(transformed_data)
+
+  compare_and_update('seek/job_ind.json', 'seek/new.json')
+end
+
+ 
 max_retries = 3
 attempt = 0
 
