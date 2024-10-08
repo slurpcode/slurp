@@ -1,7 +1,7 @@
 name: Weekly Ruby Script Runner
 
 on:
-  # for testing purposes 
+  # for testing purposes
   push:
     branches:
       - category
