@@ -1,5 +1,6 @@
 require 'mechanize'
 require 'json'
+require 'fileutils'
 
 def initialize_agent
   agent = Mechanize.new
@@ -70,7 +71,7 @@ end
 
 def count_keys(data)
   count = 0
-  data.each do |key, value|
+  data.each do |_key, value|
     count += 1
     count += count_keys(value) if value.is_a?(Hash)
   end
@@ -152,8 +153,8 @@ if success
     end
 
     # Delete the seek/seek_data.json file and the seek/new.json file if they exist
-    File.delete('seek/seek_data.json') if File.exist?('seek/seek_data.json')
-    File.delete('seek/new.json') if File.exist?('seek/new.json')
+    FileUtils.rm_f('seek/seek_data.json')
+    FileUtils.rm_f('seek/new.json')
 
   rescue => e
     retries += 1
