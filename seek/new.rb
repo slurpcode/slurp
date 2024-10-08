@@ -1,10 +1,10 @@
-require 'mechanize'
-require 'json'
-require 'fileutils'
+require "mechanize"
+require "json"
+require "fileutils"
 
 def initialize_agent
   agent = Mechanize.new
-  agent.user_agent_alias = 'Windows Chrome'
+  agent.user_agent_alias = "Windows Chrome"
   agent
 end
 
@@ -14,15 +14,15 @@ end
 
 def scrape_navigation(agent, nav)
   results = {}
-  nav.search('li').each do |li|
-    link = li.at('a')
+  nav.search("li").each do |li|
+    link = li.at("a")
     next unless link
 
     puts "Processing link: #{link['href']}"
     linked_page = agent.click(link)
 
-    linked_page.search('*[data-testid]').each do |element|
-      data_testid = element['data-testid']
+    linked_page.search("*[data-testid]").each do |element|
+      data_testid = element["data-testid"]
       inner_text = element.text.strip
       puts "Found element with data-testid: #{data_testid}, text: #{inner_text}"
       results[data_testid] = inner_text
@@ -32,9 +32,7 @@ def scrape_navigation(agent, nav)
 end
 
 def write_to_json(file_path, data)
-  File.open(file_path, 'w') do |file|
-    file.write(JSON.pretty_generate(data))
-  end
+  File.write(file_path, JSON.pretty_generate(data))
 end
 
 def read_json(file_path)
@@ -43,9 +41,9 @@ end
 
 def remove_keys(data)
   keys_to_remove = data.keys.select do |key|
-    key_without_all = key.sub(/^all-/, '')
-    data.key?(key_without_all) && key.start_with?('all-')
-  end.map { |key| key.sub(/^all-/, '') }
+    key_without_all = key.sub(/^all-/, "")
+    data.key?(key_without_all) && key.start_with?("all-")
+  end.map { |key| key.sub(/^all-/, "") }
 
   keys_to_remove.each { |key| data.delete(key) }
   data
@@ -57,13 +55,11 @@ def transform_data(data)
 
   data.each do |key, value|
     if key.start_with?("all-")
-      current_category = value.sub(/^All\s+/, '')
-      result[current_category] = { "all" => key.split('-').last, "list" => [] }
-    else
-      if current_category
-        cleaned_value = value.sub(/,\s*$/, '')
-        result[current_category]["list"] << { key => cleaned_value }
-      end
+      current_category = value.sub(/^All\s+/, "")
+      result[current_category] = {"all" => key.split("-").last, "list" => []}
+    elsif current_category
+      cleaned_value = value.sub(/,\s*$/, "")
+      result[current_category]["list"] << {key => cleaned_value}
     end
   end
   result
@@ -71,7 +67,7 @@ end
 
 def count_keys(data)
   count = 0
-  data.each do |_key, value|
+  data.each_value do |value|
     count += 1
     count += count_keys(value) if value.is_a?(Hash)
   end
@@ -82,46 +78,44 @@ def compare_and_update(file1_path, file2_path)
   data1 = read_json(file1_path)
   data2 = read_json(file2_path)
 
-  puts 'first 15 keys of file1'
+  puts "first 15 keys of file1"
   puts data1.keys.first(15)
-  puts 'first 15 keys of file2'
+  puts "first 15 keys of file2"
   puts data2.keys.first(15)
 
   total_keys1 = count_keys(data1)
   total_keys2 = count_keys(data2)
 
   if total_keys2 >= total_keys1
-    if total_keys2 == total_keys1
-      write_to_json(file1_path, data2)
-    end
-    puts 'No errors found.'
+    write_to_json(file1_path, data2) if total_keys2 == total_keys1
+    puts "No errors found."
     true
   else
-    puts 'errors found.'
+    puts "errors found."
     false
   end
 end
 
 def scrape_and_process
   agent = initialize_agent
-  site = 'https://www.seek.com.au'
+  site = "https://www.seek.com.au"
   page = fetch_main_page(agent, site)
-  nav = page.at('nav')
+  nav = page.at("nav")
 
   results = scrape_navigation(agent, nav)
-  write_to_json('seek/seek_data.json', results)
-  puts 'Data has been scraped and saved to seek/seek_data.json'
+  write_to_json("seek/seek_data.json", results)
+  puts "Data has been scraped and saved to seek/seek_data.json"
 
-  data = read_json('seek/seek_data.json')
+  data = read_json("seek/seek_data.json")
   data = remove_keys(data)
-  write_to_json('seek/seek_data.json', data)
-  puts 'Keys have been removed and the JSON file has been updated.'
+  write_to_json("seek/seek_data.json", data)
+  puts "Keys have been removed and the JSON file has been updated."
 
   transformed_data = transform_data(data)
-  write_to_json('seek/new.json', transformed_data)
+  write_to_json("seek/new.json", transformed_data)
   puts JSON.pretty_generate(transformed_data)
 
-  compare_and_update('seek/job_ind.json', 'seek/new.json')
+  compare_and_update("seek/job_ind.json", "seek/new.json")
 end
 
 max_retries = 3
@@ -138,7 +132,7 @@ while attempt < max_retries
     print "."
     sleep(1)
   end
-  puts ""  # Move to the next line after waiting
+  puts "" # Move to the next line after waiting
 end
 
 # Delete the seek/seek_data.json file and the seek/new.json file if they exist
@@ -147,16 +141,13 @@ if success
   max_retries = 10
   begin
     # Overwrite the contents of seek/job_ind.json with the contents of seek/new.json file
-    new_data = File.read('seek/new.json')
-    File.open('seek/job_ind.json', 'w') do |file|
-      file.write(new_data)
-    end
+    new_data = File.read("seek/new.json")
+    File.write("seek/job_ind.json", new_data)
 
     # Delete the seek/seek_data.json file and the seek/new.json file if they exist
-    FileUtils.rm_f('seek/seek_data.json')
-    FileUtils.rm_f('seek/new.json')
-
-  rescue => e
+    FileUtils.rm_f("seek/seek_data.json")
+    FileUtils.rm_f("seek/new.json")
+  rescue StandardError => e
     retries += 1
     if retries <= max_retries
       puts "An error occurred: #{e.message}. Retrying (#{retries}/#{max_retries})..."
