@@ -91,7 +91,7 @@ def compare_and_update(file1_path, file2_path)
     puts "No errors found."
     true
   else
-    puts "errors found."
+    puts "Errors found."
     false
   end
 end
