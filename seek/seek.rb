@@ -36,7 +36,6 @@ def wtype(worktype)
     "242%2C243%2C244%2C245"
   end
 end
-git push --set-upstream origin fix-spelling
 def enwtype(worktype)
   case worktype
   when 242
