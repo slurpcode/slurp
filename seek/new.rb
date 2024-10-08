@@ -108,19 +108,19 @@ def scrape_and_process
   nav = page.at('nav')
 
   results = scrape_navigation(agent, nav)
-  write_to_json('seek_data.json', results)
-  puts 'Data has been scraped and saved to seek_data.json'
+  write_to_json('seek/seek_data.json', results)
+  puts 'Data has been scraped and saved to seek/seek_data.json'
 
-  data = read_json('seek_data.json')
+  data = read_json('seek/seek_data.json')
   data = remove_keys(data)
-  write_to_json('seek_data.json', data)
+  write_to_json('seek/seek_data.json', data)
   puts 'Keys have been removed and the JSON file has been updated.'
 
   transformed_data = transform_data(data)
-  write_to_json('new.json', transformed_data)
+  write_to_json('seek/new.json', transformed_data)
   puts JSON.pretty_generate(transformed_data)
 
-  compare_and_update('job_ind.json', 'new.json')
+  compare_and_update('seek/job_ind.json', 'seek/new.json')
 end
 
 max_retries = 3
@@ -140,20 +140,20 @@ while attempt < max_retries
   puts ""  # Move to the next line after waiting
 end
 
-# Delete the seek_data.json file and the new.json file if they exist
+# Delete the seek/seek_data.json file and the seek/new.json file if they exist
 if success
   retries = 0
   max_retries = 3
   begin
-    # Overwrite the contents of job_ind.json with the contents of new.json file
-    new_data = File.read('new.json')
-    File.open('job_ind.json', 'w') do |file|
+    # Overwrite the contents of seek/job_ind.json with the contents of seek/new.json file
+    new_data = File.read('seek/new.json')
+    File.open('seek/job_ind.json', 'w') do |file|
       file.write(new_data)
     end
 
-    # Delete the seek_data.json file and the new.json file if they exist
-    File.delete('seek_data.json') if File.exist?('seek_data.json')
-    File.delete('new.json') if File.exist?('new.json')
+    # Delete the seek/seek_data.json file and the seek/new.json file if they exist
+    File.delete('seek/seek_data.json') if File.exist?('seek/seek_data.json')
+    File.delete('seek/new.json') if File.exist?('seek/new.json')
 
   rescue => e
     retries += 1
