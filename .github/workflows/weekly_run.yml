@@ -1,9 +1,10 @@
 name: Weekly Ruby Script Runner
 
 on:
-  push:
-    branches:
-      - category
+  # for testing purposes 
+  # push:
+  #   branches:
+  #     - category
   schedule:
     - cron: '0 0 * * 0' # Runs every weekend 
 
