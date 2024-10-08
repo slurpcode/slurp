@@ -21,29 +21,31 @@ jobs:
 
       - name: Install mechanize gem
         run: |
-          gem install mechanize
+          gem install mechanize;
 
       - name: Run new.rb script
         id: run-new-rb-script
         run: |
-          ruby seek/new.rb
-          exit_code=$?
-          echo "new.rb exit code: $exit_code"
-          echo "exit_code=$exit_code" >> $GITHUB_ENV
+          ruby seek/new.rb;
+          exit_code=$?;
+          echo "new.rb exit code: $exit_code";
+          echo "exit_code=$exit_code" >> $GITHUB_ENV;
           if [ $exit_code -eq 0 ]; then
-            echo "new.rb succeeded."
+            echo "new.rb succeeded.";
           else
-            echo "new.rb failed with exit code $exit_code."
-            exit $exit_code  # Exit with the last exit code
+            echo "new.rb failed with exit code $exit_code.";
+            exit $exit_code;  # Exit with the last exit code
+          fi;
 
       - name: Commit and push changes if any
         if: env.exit_code == '0'
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add seek/job_ind.json
+          git config --global user.name "github-actions[bot]";
+          git config --global user.email "github-actions[bot]@users.noreply.github.com";
+          git add seek/job_ind.json;
           if git diff-index --quiet HEAD; then
-            echo "No changes to commit."
+            echo "No changes to commit.";
           else
-            git commit -m "Update seek/job_ind.json"
-            git push origin category
+            git commit -m "Update seek/job_ind.json";
+            git push origin category;
+          fi;
