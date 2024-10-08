@@ -91,7 +91,7 @@ class Parser
       end
     end
 
-       def categories_option(parser)
+    def categories_option(parser)
       parser.on("--categories [BOOLEAN]", "If BOOLEAN is true or 'yes', prompt for job categories before searching") do |value|
         self.categories = %w[yes Yes YES true].include?(value.to_s) || value == true
       end
