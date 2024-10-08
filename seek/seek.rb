@@ -6,6 +6,7 @@
 
 require "csv"
 require "fileutils"
+require "json"
 require "mechanize"
 require "optparse"
 require "optparse/time"
@@ -57,7 +58,7 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total, :lite
+    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total, :lite, :classification, :subclassification, :categories
 
     def define_options(parser)
       parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
@@ -73,6 +74,7 @@ class Parser
       execute_at_time_option(parser)
       print_total_number_option(parser)
       lite_option(parser)
+      categories_option(parser)
 
       parser.separator ""
       parser.separator "Common options:"
@@ -86,6 +88,12 @@ class Parser
       parser.on_tail("--version", "Show version") do
         puts VERSION
         exit
+      end
+    end
+
+    def categories_option(parser)
+      parser.on("--categories [BOOLEAN]", "If BOOLEAN is true or 'yes', prompt for job categories before searching") do |value|
+        self.categories = %w[yes Yes YES true].include?(value.to_s) || value == true
       end
     end
 
@@ -225,19 +233,126 @@ if options.lite.nil?
   options.lite = $stdin.gets.chomp.casecmp("yes").zero?
 end
 
+if options.categories.nil?
+  print "Do you want to select job categories? (yes/no): "
+  options.categories = $stdin.gets.chomp.casecmp("yes").zero?
+end
+
+if options.categories
+  json_file_path = nil
+  Dir.entries(__dir__).each do |file|
+    if file.casecmp("job_ind.json").zero?
+      json_file_path = File.join(__dir__, file)
+      break
+    end
+  end
+
+  if json_file_path && File.exist?(json_file_path)
+    begin
+      file_content = File.read(json_file_path)
+      data = JSON.parse(file_content)
+    rescue JSON::ParserError => e
+      puts "Error parsing JSON: #{e.message}"
+      exit
+    end
+  else
+    puts "Error: job_ind.json not found in the script directory."
+    exit
+  end
+
+  def get_main_selection(data)
+    puts "Select main categories by number (comma-separated):"
+    data.keys.each_with_index do |key, index|
+      puts "#{index + 1}. #{key}"
+    end
+    main_choice = $stdin.gets.chomp.downcase
+    main_choice.split(",").map(&:strip).map { |i| data.keys[i.to_i - 1] }
+  end
+
+  def get_sub_selection(data, selected_main_options)
+    selected_options = {}
+
+    selected_main_options.each do |key|
+      obj = data[key]
+      puts "You selected '#{key}'. Select suboptions by number (comma-separated), or type 'all' to select all:"
+      obj["list"].each_with_index do |item, index|
+        item_key = item.keys.first
+        item_value = item.values.first
+        puts "  #{index + 1}. #{item_value} (#{item_key})"
+      end
+      sub_choice = $stdin.gets.chomp.downcase
+      selected_options[key] = {"all" => obj["all"], "list" => []}
+      next unless sub_choice != "all"
+
+      sub_choice.split(",").map(&:strip).each do |sub_index|
+        selected_options[key]["list"] << obj["list"][sub_index.to_i - 1]
+      end
+    end
+
+    selected_options
+  end
+
+  def create_output_object(selected_options)
+    output_obj = {"class" => []}
+    selected_options.each_value do |obj|
+      if obj["list"].empty?
+        output_obj["class"] << {obj["all"] => []}
+      else
+        grouped_items = obj["list"].group_by { |_item| obj["all"] }
+        grouped_items.each do |all_key, items|
+          output_obj["class"] << {all_key => items.map { |item| item.keys.first }}
+        end
+      end
+    end
+    output_obj
+  end
+
+  File.read(json_file_path)
+
+  selected_main_options = get_main_selection(data)
+
+  selected_options = get_sub_selection(data, selected_main_options)
+
+  output_obj = create_output_object(selected_options)
+  def extract_keys_and_values(output_obj)
+    keys_arr = []
+    vals_arr = []
+
+    output_obj["class"].each do |item|
+      item.each do |key, values|
+        keys_arr << key
+        vals_arr.concat(values)
+      end
+    end
+
+    [keys_arr, vals_arr]
+  end
+  classification, subclassification = extract_keys_and_values(output_obj)
+
+  classificationstr = classification.join(",")
+  options.classification = classificationstr
+  # puts "classification str: #{classificationstr}"
+  unless subclassification.empty?
+    subclassificationstr = subclassification.join(",")
+    # puts "subclassification str: #{subclassificationstr}"
+    options.subclassification = subclassificationstr
+  end
+end
+
 agent = Mechanize.new
 agent.user_agent_alias = "Windows Chrome"
 site = "https://www.seek.com.au"
-page =
-  agent.get(
-    "#{site}/jobs",
-    [
-      ["keywords", options.keyword],
-      ["where", options.location],
-      ["daterange", options.range],
-      ["worktype", options.worktype]
-    ]
-  )
+params = [
+  ["keywords", options.keyword],
+  ["where", options.location],
+  ["daterange", options.range],
+  ["worktype", options.worktype]
+]
+if options.categories
+  params << ["classification", options.classification]
+  params << ["subclassification", options.subclassification] if options.subclassification
+end
+page = agent.get("#{site}/jobs", params)
 results = [
   ["Title", "URL", "Advertiser", "Location", "Listing Date", "Salary", "Classification", "Sub Classification", "Short Description"] + (options.lite ? [] : ["Content"])
 ]
@@ -312,6 +427,7 @@ else
     # worktype = "worktype-#{options.worktype}" unless options.worktype.empty?
     # filename = [keyword, location, range, worktype].compact.join("-").downcase
     filename = [keyword, location, range].compact.join("-").downcase
+    filename = "jobs" if filename.empty?
     filename = filename[1..] if filename[0] == "-"
     FileUtils.mkdir_p("jobs")
     CSV.open("jobs/#{filename}.csv", "w+") do |csv_file|

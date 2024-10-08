@@ -1,0 +1,1334 @@
+{
+  "Accounting": {
+    "all": "1200",
+    "list": [
+      {
+        "6140": "Accounts Officers/Clerks"
+      },
+      {
+        "1303": "Accounts Payable"
+      },
+      {
+        "6141": "Accounts Receivable/Credit Control"
+      },
+      {
+        "6143": "Analysis & Reporting"
+      },
+      {
+        "6142": "Assistant Accountants"
+      },
+      {
+        "6144": "Audit - External"
+      },
+      {
+        "6145": "Audit - Internal"
+      },
+      {
+        "6146": "Bookkeeping & Small Practice Accounting"
+      },
+      {
+        "6147": "Business Services & Corporate Advisory"
+      },
+      {
+        "6148": "Company Secretaries"
+      },
+      {
+        "6149": "Compliance & Risk"
+      },
+      {
+        "6150": "Cost Accounting"
+      },
+      {
+        "6151": "Financial Accounting & Reporting"
+      },
+      {
+        "6152": "Financial Managers & Controllers"
+      },
+      {
+        "6153": "Forensic Accounting & Investigation"
+      },
+      {
+        "6154": "Insolvency & Corporate Recovery"
+      },
+      {
+        "6155": "Inventory & Fixed Assets"
+      },
+      {
+        "6156": "Management"
+      },
+      {
+        "6157": "Management Accounting & Budgeting"
+      },
+      {
+        "1468": "Payroll"
+      },
+      {
+        "6158": "Strategy & Planning"
+      },
+      {
+        "6159": "Systems Accounting & IT Audit"
+      },
+      {
+        "6160": "Taxation"
+      },
+      {
+        "6161": "Treasury"
+      },
+      {
+        "6162": "Other"
+      }
+    ]
+  },
+  "Administration & Office Support": {
+    "all": "6251",
+    "list": [
+      {
+        "6252": "Administrative Assistants"
+      },
+      {
+        "6253": "Client & Sales Administration"
+      },
+      {
+        "6254": "Contracts Administration"
+      },
+      {
+        "6255": "Data Entry & Word Processing"
+      },
+      {
+        "6256": "Office Management"
+      },
+      {
+        "6257": "PA, EA & Secretarial"
+      },
+      {
+        "6258": "Receptionists"
+      },
+      {
+        "6259": "Records Management & Document Control"
+      },
+      {
+        "6260": "Other"
+      }
+    ]
+  },
+  "Advertising, Arts & Media": {
+    "all": "6304",
+    "list": [
+      {
+        "6305": "Agency Account Management"
+      },
+      {
+        "6306": "Art Direction"
+      },
+      {
+        "6307": "Editing & Publishing"
+      },
+      {
+        "6308": "Event Management"
+      },
+      {
+        "6309": "Journalism & Writing"
+      },
+      {
+        "6310": "Management"
+      },
+      {
+        "6311": "Media Strategy, Planning & Buying"
+      },
+      {
+        "6312": "Performing Arts"
+      },
+      {
+        "6313": "Photography"
+      },
+      {
+        "6314": "Programming & Production"
+      },
+      {
+        "6315": "Promotions"
+      },
+      {
+        "6316": "Other"
+      }
+    ]
+  },
+  "Banking & Financial Services": {
+    "all": "1203",
+    "list": [
+      {
+        "6174": "Account & Relationship Management"
+      },
+      {
+        "6175": "Analysis & Reporting"
+      },
+      {
+        "6177": "Banking - Business"
+      },
+      {
+        "6178": "Banking - Corporate & Institutional"
+      },
+      {
+        "6176": "Banking - Retail/Branch"
+      },
+      {
+        "1352": "Client Services"
+      },
+      {
+        "6179": "Compliance & Risk"
+      },
+      {
+        "6180": "Corporate Finance & Investment Banking"
+      },
+      {
+        "6181": "Credit"
+      },
+      {
+        "1392": "Financial Planning"
+      },
+      {
+        "1404": "Funds Management"
+      },
+      {
+        "6182": "Management"
+      },
+      {
+        "6183": "Mortgages"
+      },
+      {
+        "6184": "Settlements"
+      },
+      {
+        "6185": "Stockbroking & Trading"
+      },
+      {
+        "6186": "Treasury"
+      },
+      {
+        "6187": "Other"
+      }
+    ]
+  },
+  "Call Centre & Customer Service": {
+    "all": "1204",
+    "list": [
+      {
+        "6084": "Collections"
+      },
+      {
+        "6085": "Customer Service - Call Centre"
+      },
+      {
+        "6086": "Customer Service - Customer Facing"
+      },
+      {
+        "6087": "Management & Support"
+      },
+      {
+        "6088": "Sales - Inbound"
+      },
+      {
+        "6089": "Sales - Outbound"
+      },
+      {
+        "6090": "Supervisors/Team Leaders"
+      },
+      {
+        "6091": "Other"
+      }
+    ]
+  },
+  "CEO & General Management": {
+    "all": "7019",
+    "list": [
+      {
+        "7020": "Board Appointments"
+      },
+      {
+        "7021": "CEO"
+      },
+      {
+        "7022": "COO & MD"
+      },
+      {
+        "7023": "General/Business Unit Manager"
+      },
+      {
+        "7024": "Other"
+      }
+    ]
+  },
+  "Community Services & Development": {
+    "all": "6163",
+    "list": [
+      {
+        "6164": "Aged & Disability Support"
+      },
+      {
+        "6165": "Child Welfare, Youth & Family Services"
+      },
+      {
+        "6166": "Community Development"
+      },
+      {
+        "6167": "Employment Services"
+      },
+      {
+        "6168": "Fundraising"
+      },
+      {
+        "6169": "Housing & Homelessness Services"
+      },
+      {
+        "6170": "Indigenous & Multicultural Services"
+      },
+      {
+        "6171": "Management"
+      },
+      {
+        "6172": "Volunteer Coordination & Support"
+      },
+      {
+        "6173": "Other"
+      }
+    ]
+  },
+  "Construction": {
+    "all": "1206",
+    "list": [
+      {
+        "6113": "Contracts Management"
+      },
+      {
+        "1387": "Estimating"
+      },
+      {
+        "6114": "Foreperson/Supervisors"
+      },
+      {
+        "6115": "Health, Safety & Environment"
+      },
+      {
+        "6116": "Management"
+      },
+      {
+        "6117": "Planning & Scheduling"
+      },
+      {
+        "6118": "Plant & Machinery Operators"
+      },
+      {
+        "6119": "Project Management"
+      },
+      {
+        "6120": "Quality Assurance & Control"
+      },
+      {
+        "6121": "Surveying"
+      },
+      {
+        "6122": "Other"
+      }
+    ]
+  },
+  "Consulting & Strategy": {
+    "all": "6076",
+    "list": [
+      {
+        "6077": "Analysts"
+      },
+      {
+        "6078": "Corporate Development"
+      },
+      {
+        "6079": "Environment & Sustainability Consulting"
+      },
+      {
+        "6080": "Management & Change Consulting"
+      },
+      {
+        "6081": "Policy"
+      },
+      {
+        "6082": "Strategy & Planning"
+      },
+      {
+        "6083": "Other"
+      }
+    ]
+  },
+  "Design & Architecture": {
+    "all": "6263",
+    "list": [
+      {
+        "6265": "Architectural Drafting"
+      },
+      {
+        "6264": "Architecture"
+      },
+      {
+        "6267": "Fashion & Textile Design"
+      },
+      {
+        "6268": "Graphic Design"
+      },
+      {
+        "6266": "Illustration & Animation"
+      },
+      {
+        "6269": "Industrial Design"
+      },
+      {
+        "6270": "Interior Design"
+      },
+      {
+        "6271": "Landscape Architecture"
+      },
+      {
+        "6272": "Urban Design & Planning"
+      },
+      {
+        "6273": "Web & Interaction Design"
+      },
+      {
+        "6274": "Other"
+      }
+    ]
+  },
+  "Education & Training": {
+    "all": "6123",
+    "list": [
+      {
+        "6124": "Childcare & Outside School Hours Care"
+      },
+      {
+        "6125": "Library Services & Information Management"
+      },
+      {
+        "6126": "Management - Schools"
+      },
+      {
+        "6127": "Management - Universities"
+      },
+      {
+        "6128": "Management - Vocational"
+      },
+      {
+        "6129": "Research & Fellowships"
+      },
+      {
+        "6130": "Student Services"
+      },
+      {
+        "6132": "Teaching - Early Childhood"
+      },
+      {
+        "6133": "Teaching - Primary"
+      },
+      {
+        "6134": "Teaching - Secondary"
+      },
+      {
+        "6135": "Teaching - Tertiary"
+      },
+      {
+        "6136": "Teaching - Vocational"
+      },
+      {
+        "6131": "Teaching Aides & Special Needs"
+      },
+      {
+        "6137": "Tutoring"
+      },
+      {
+        "6138": "Workplace Training & Assessment"
+      },
+      {
+        "6139": "Other"
+      }
+    ]
+  },
+  "Engineering": {
+    "all": "1209",
+    "list": [
+      {
+        "6022": "Aerospace Engineering"
+      },
+      {
+        "6023": "Automotive Engineering"
+      },
+      {
+        "6024": "Building Services Engineering"
+      },
+      {
+        "6026": "Chemical Engineering"
+      },
+      {
+        "6027": "Civil/Structural Engineering"
+      },
+      {
+        "6028": "Electrical/Electronic Engineering"
+      },
+      {
+        "6025": "Engineering Drafting"
+      },
+      {
+        "6029": "Environmental Engineering"
+      },
+      {
+        "6030": "Field Engineering"
+      },
+      {
+        "6031": "Industrial Engineering"
+      },
+      {
+        "6032": "Maintenance"
+      },
+      {
+        "6033": "Management"
+      },
+      {
+        "6034": "Materials Handling Engineering"
+      },
+      {
+        "6035": "Mechanical Engineering"
+      },
+      {
+        "6036": "Process Engineering"
+      },
+      {
+        "6038": "Project Engineering"
+      },
+      {
+        "6037": "Project Management"
+      },
+      {
+        "6039": "Supervisors"
+      },
+      {
+        "6040": "Systems Engineering"
+      },
+      {
+        "6041": "Water & Waste Engineering"
+      },
+      {
+        "6042": "Other"
+      }
+    ]
+  },
+  "Farming, Animals & Conservation": {
+    "all": "6205",
+    "list": [
+      {
+        "6206": "Agronomy & Farm Services"
+      },
+      {
+        "6207": "Conservation, Parks & Wildlife"
+      },
+      {
+        "6208": "Farm Labour"
+      },
+      {
+        "6209": "Farm Management"
+      },
+      {
+        "6210": "Fishing & Aquaculture"
+      },
+      {
+        "6211": "Horticulture"
+      },
+      {
+        "6212": "Veterinary Services & Animal Welfare"
+      },
+      {
+        "6213": "Winery & Viticulture"
+      },
+      {
+        "6214": "Other"
+      }
+    ]
+  },
+  "Government & Defence": {
+    "all": "1210",
+    "list": [
+      {
+        "1314": "Air Force"
+      },
+      {
+        "1322": "Army"
+      },
+      {
+        "1378": "Emergency Services"
+      },
+      {
+        "1409": "Government - Federal"
+      },
+      {
+        "1410": "Government - Local"
+      },
+      {
+        "1411": "Government - State"
+      },
+      {
+        "1450": "Navy"
+      },
+      {
+        "6359": "Police & Corrections"
+      },
+      {
+        "6360": "Policy, Planning & Regulation"
+      },
+      {
+        "6361": "Other"
+      }
+    ]
+  },
+  "Healthcare & Medical": {
+    "all": "1211",
+    "list": [
+      {
+        "6329": "Ambulance/Paramedics"
+      },
+      {
+        "6330": "Chiropractic & Osteopathic"
+      },
+      {
+        "1353": "Clinical/Medical Research"
+      },
+      {
+        "1372": "Dental"
+      },
+      {
+        "6331": "Dieticians"
+      },
+      {
+        "1386": "Environmental Services"
+      },
+      {
+        "6332": "General Practitioners"
+      },
+      {
+        "6333": "Management"
+      },
+      {
+        "6334": "Medical Administration"
+      },
+      {
+        "6335": "Medical Imaging"
+      },
+      {
+        "6336": "Medical Specialists"
+      },
+      {
+        "6337": "Natural Therapies & Alternative Medicine"
+      },
+      {
+        "6338": "Nursing - A&E, Critical Care & ICU"
+      },
+      {
+        "6339": "Nursing - Aged Care"
+      },
+      {
+        "6340": "Nursing - Community, Maternal & Child Health"
+      },
+      {
+        "6341": "Nursing - Educators & Facilitators"
+      },
+      {
+        "6342": "Nursing - General Medical & Surgical"
+      },
+      {
+        "6343": "Nursing - High Acuity"
+      },
+      {
+        "6344": "Nursing - Management"
+      },
+      {
+        "6345": "Nursing - Midwifery, Neo-Natal, SCN & NICU"
+      },
+      {
+        "6346": "Nursing - Paediatric & PICU"
+      },
+      {
+        "6347": "Nursing - Psych, Forensic & Correctional Health"
+      },
+      {
+        "6348": "Nursing - Theatre & Recovery"
+      },
+      {
+        "6349": "Optical"
+      },
+      {
+        "1467": "Pathology"
+      },
+      {
+        "6350": "Pharmaceuticals & Medical Devices"
+      },
+      {
+        "1470": "Pharmacy"
+      },
+      {
+        "6352": "Physiotherapy, OT & Rehabilitation"
+      },
+      {
+        "6351": "Psychology, Counselling & Social Work"
+      },
+      {
+        "6370": "Residents & Registrars"
+      },
+      {
+        "6353": "Sales"
+      },
+      {
+        "6354": "Speech Therapy"
+      },
+      {
+        "6355": "Other"
+      }
+    ]
+  },
+  "Hospitality & Tourism": {
+    "all": "1212",
+    "list": [
+      {
+        "1315": "Airlines"
+      },
+      {
+        "1332": "Bar & Beverage Staff"
+      },
+      {
+        "6052": "Chefs/Cooks"
+      },
+      {
+        "6053": "Front Office & Guest Services"
+      },
+      {
+        "1405": "Gaming"
+      },
+      {
+        "1415": "Housekeeping"
+      },
+      {
+        "6054": "Kitchen & Sandwich Hands"
+      },
+      {
+        "6055": "Management"
+      },
+      {
+        "6056": "Reservations"
+      },
+      {
+        "1537": "Tour Guides"
+      },
+      {
+        "1542": "Travel Agents/Consultants"
+      },
+      {
+        "1549": "Waiting Staff"
+      },
+      {
+        "6057": "Other"
+      }
+    ]
+  },
+  "Human Resources & Recruitment": {
+    "all": "6317",
+    "list": [
+      {
+        "6318": "Consulting & Generalist HR"
+      },
+      {
+        "6319": "Industrial & Employee Relations"
+      },
+      {
+        "6320": "Management - Agency"
+      },
+      {
+        "6321": "Management - Internal"
+      },
+      {
+        "6322": "Occupational Health & Safety"
+      },
+      {
+        "6323": "Organisational Development"
+      },
+      {
+        "6324": "Recruitment - Agency"
+      },
+      {
+        "6325": "Recruitment - Internal"
+      },
+      {
+        "6326": "Remuneration & Benefits"
+      },
+      {
+        "6327": "Training & Development"
+      },
+      {
+        "6328": "Other"
+      }
+    ]
+  },
+  "Information & Communication Technology": {
+    "all": "6281",
+    "list": [
+      {
+        "6282": "Architects"
+      },
+      {
+        "6283": "Business/Systems Analysts"
+      },
+      {
+        "6284": "Computer Operators"
+      },
+      {
+        "6285": "Consultants"
+      },
+      {
+        "6286": "Database Development & Administration"
+      },
+      {
+        "6287": "Developers/Programmers"
+      },
+      {
+        "6288": "Engineering - Hardware"
+      },
+      {
+        "6289": "Engineering - Network"
+      },
+      {
+        "6290": "Engineering - Software"
+      },
+      {
+        "6291": "Help Desk & IT Support"
+      },
+      {
+        "6292": "Management"
+      },
+      {
+        "6293": "Networks & Systems Administration"
+      },
+      {
+        "6294": "Product Management & Development"
+      },
+      {
+        "6295": "Programme & Project Management"
+      },
+      {
+        "6296": "Sales - Pre & Post"
+      },
+      {
+        "6297": "Security"
+      },
+      {
+        "6298": "Team Leaders"
+      },
+      {
+        "6299": "Technical Writing"
+      },
+      {
+        "6300": "Telecommunications"
+      },
+      {
+        "6301": "Testing & Quality Assurance"
+      },
+      {
+        "6302": "Web Development & Production"
+      },
+      {
+        "6303": "Other"
+      }
+    ]
+  },
+  "Insurance & Superannuation": {
+    "all": "1214",
+    "list": [
+      {
+        "6275": "Actuarial"
+      },
+      {
+        "6276": "Assessment"
+      },
+      {
+        "6277": "Brokerage"
+      },
+      {
+        "1350": "Claims"
+      },
+      {
+        "6278": "Fund Administration"
+      },
+      {
+        "6279": "Management"
+      },
+      {
+        "1499": "Risk Consulting"
+      },
+      {
+        "1524": "Superannuation"
+      },
+      {
+        "1544": "Underwriting"
+      },
+      {
+        "1553": "Workers' Compensation"
+      },
+      {
+        "6280": "Other"
+      }
+    ]
+  },
+  "Legal": {
+    "all": "1216",
+    "list": [
+      {
+        "6188": "Banking & Finance Law"
+      },
+      {
+        "6190": "Construction Law"
+      },
+      {
+        "6191": "Corporate & Commercial Law"
+      },
+      {
+        "6189": "Criminal & Civil Law"
+      },
+      {
+        "6192": "Environment & Planning Law"
+      },
+      {
+        "6193": "Family Law"
+      },
+      {
+        "6194": "Generalists - In-house"
+      },
+      {
+        "6195": "Generalists - Law Firm"
+      },
+      {
+        "6196": "Industrial Relations & Employment Law"
+      },
+      {
+        "6197": "Insurance & Superannuation Law"
+      },
+      {
+        "6198": "Intellectual Property Law"
+      },
+      {
+        "1429": "Law Clerks & Paralegals"
+      },
+      {
+        "6199": "Legal Practice Management"
+      },
+      {
+        "1431": "Legal Secretaries"
+      },
+      {
+        "6200": "Litigation & Dispute Resolution"
+      },
+      {
+        "6201": "Personal Injury Law"
+      },
+      {
+        "6202": "Property Law"
+      },
+      {
+        "6203": "Tax Law"
+      },
+      {
+        "6204": "Other"
+      }
+    ]
+  },
+  "Manufacturing, Transport & Logistics": {
+    "all": "6092",
+    "list": [
+      {
+        "6095": "Analysis & Reporting"
+      },
+      {
+        "6093": "Assembly & Process Work"
+      },
+      {
+        "6094": "Aviation Services"
+      },
+      {
+        "6096": "Couriers, Drivers & Postal Services"
+      },
+      {
+        "6097": "Fleet Management"
+      },
+      {
+        "6098": "Freight/Cargo Forwarding"
+      },
+      {
+        "6099": "Import/Export & Customs"
+      },
+      {
+        "6101": "Machine Operators"
+      },
+      {
+        "6102": "Management"
+      },
+      {
+        "6104": "Pattern Makers & Garment Technicians"
+      },
+      {
+        "6105": "Pickers & Packers"
+      },
+      {
+        "6103": "Production, Planning & Scheduling"
+      },
+      {
+        "6100": "Public Transport & Taxi Services"
+      },
+      {
+        "6109": "Purchasing, Procurement & Inventory"
+      },
+      {
+        "6106": "Quality Assurance & Control"
+      },
+      {
+        "6110": "Rail & Maritime Transport"
+      },
+      {
+        "6111": "Road Transport"
+      },
+      {
+        "6107": "Team Leaders/Supervisors"
+      },
+      {
+        "6108": "Warehousing, Storage & Distribution"
+      },
+      {
+        "6112": "Other"
+      }
+    ]
+  },
+  "Marketing & Communications": {
+    "all": "6008",
+    "list": [
+      {
+        "6009": "Brand Management"
+      },
+      {
+        "6010": "Digital & Search Marketing"
+      },
+      {
+        "6011": "Direct Marketing & CRM"
+      },
+      {
+        "6012": "Event Management"
+      },
+      {
+        "6013": "Internal Communications"
+      },
+      {
+        "6017": "Management"
+      },
+      {
+        "6014": "Market Research & Analysis"
+      },
+      {
+        "6015": "Marketing Assistants/Coordinators"
+      },
+      {
+        "6016": "Marketing Communications"
+      },
+      {
+        "6018": "Product Management & Development"
+      },
+      {
+        "6019": "Public Relations & Corporate Affairs"
+      },
+      {
+        "6020": "Trade Marketing"
+      },
+      {
+        "6021": "Other"
+      }
+    ]
+  },
+  "Mining, Resources & Energy": {
+    "all": "6058",
+    "list": [
+      {
+        "6059": "Analysis & Reporting"
+      },
+      {
+        "6060": "Health, Safety & Environment"
+      },
+      {
+        "6061": "Management"
+      },
+      {
+        "6062": "Mining - Drill & Blast"
+      },
+      {
+        "6063": "Mining - Engineering & Maintenance"
+      },
+      {
+        "6064": "Mining - Exploration & Geoscience"
+      },
+      {
+        "6066": "Mining - Operations"
+      },
+      {
+        "6065": "Mining - Processing"
+      },
+      {
+        "6073": "Natural Resources & Water"
+      },
+      {
+        "6067": "Oil & Gas - Drilling"
+      },
+      {
+        "6068": "Oil & Gas - Engineering & Maintenance"
+      },
+      {
+        "6069": "Oil & Gas - Exploration & Geoscience"
+      },
+      {
+        "6071": "Oil & Gas - Operations"
+      },
+      {
+        "6070": "Oil & Gas - Production & Refinement"
+      },
+      {
+        "6072": "Power Generation & Distribution"
+      },
+      {
+        "6074": "Surveying"
+      },
+      {
+        "6075": "Other"
+      }
+    ]
+  },
+  "Real Estate & Property": {
+    "all": "1220",
+    "list": [
+      {
+        "6371": "Administration"
+      },
+      {
+        "6001": "Analysts"
+      },
+      {
+        "6002": "Body Corporate & Facilities Management"
+      },
+      {
+        "6003": "Commercial Sales, Leasing & Property Mgmt"
+      },
+      {
+        "6004": "Residential Leasing & Property Management"
+      },
+      {
+        "6005": "Residential Sales"
+      },
+      {
+        "6006": "Retail & Property Development"
+      },
+      {
+        "1546": "Valuation"
+      },
+      {
+        "6007": "Other"
+      }
+    ]
+  },
+  "Retail & Consumer Products": {
+    "all": "6043",
+    "list": [
+      {
+        "6044": "Buying"
+      },
+      {
+        "6045": "Management - Area/Multi-site"
+      },
+      {
+        "6046": "Management - Department/Assistant"
+      },
+      {
+        "6047": "Management - Store"
+      },
+      {
+        "6048": "Merchandisers"
+      },
+      {
+        "6049": "Planning"
+      },
+      {
+        "6050": "Retail Assistants"
+      },
+      {
+        "6051": "Other"
+      }
+    ]
+  },
+  "Sales": {
+    "all": "6362",
+    "list": [
+      {
+        "6363": "Account & Relationship Management"
+      },
+      {
+        "6364": "Analysis & Reporting"
+      },
+      {
+        "6366": "Management"
+      },
+      {
+        "6365": "New Business Development"
+      },
+      {
+        "6367": "Sales Coordinators"
+      },
+      {
+        "6368": "Sales Representatives/Consultants"
+      },
+      {
+        "6369": "Other"
+      }
+    ]
+  },
+  "Science & Technology": {
+    "all": "1223",
+    "list": [
+      {
+        "6215": "Biological & Biomedical Sciences"
+      },
+      {
+        "6216": "Biotechnology & Genetics"
+      },
+      {
+        "6217": "Chemistry & Physics"
+      },
+      {
+        "6218": "Environmental, Earth & Geosciences"
+      },
+      {
+        "6219": "Food Technology & Safety"
+      },
+      {
+        "6220": "Laboratory & Technical Services"
+      },
+      {
+        "6221": "Materials Sciences"
+      },
+      {
+        "6222": "Mathematics, Statistics & Information Sciences"
+      },
+      {
+        "6223": "Modelling & Simulation"
+      },
+      {
+        "6224": "Quality Assurance & Control"
+      },
+      {
+        "6225": "Other"
+      }
+    ]
+  },
+  "Self Employment": {
+    "all": "6261",
+    "list": [
+      {
+        "6262": "Self Employment"
+      }
+    ]
+  },
+  "Sport & Recreation": {
+    "all": "6246",
+    "list": [
+      {
+        "6247": "Coaching & Instruction"
+      },
+      {
+        "6248": "Fitness & Personal Training"
+      },
+      {
+        "6249": "Management"
+      },
+      {
+        "6250": "Other"
+      }
+    ]
+  },
+  "Trades & Services": {
+    "all": "1225",
+    "list": [
+      {
+        "1313": "Air Conditioning & Refrigeration"
+      },
+      {
+        "1328": "Automotive Trades"
+      },
+      {
+        "6226": "Bakers & Pastry Chefs"
+      },
+      {
+        "6227": "Building Trades"
+      },
+      {
+        "6228": "Butchers"
+      },
+      {
+        "1345": "Carpentry & Cabinet Making"
+      },
+      {
+        "6229": "Cleaning Services"
+      },
+      {
+        "6230": "Electricians"
+      },
+      {
+        "6231": "Fitters, Turners & Machinists"
+      },
+      {
+        "6232": "Floristry"
+      },
+      {
+        "1406": "Gardening & Landscaping"
+      },
+      {
+        "6233": "Hair & Beauty Services"
+      },
+      {
+        "6234": "Labourers"
+      },
+      {
+        "6235": "Locksmiths"
+      },
+      {
+        "6236": "Maintenance & Handyperson Services"
+      },
+      {
+        "6237": "Nannies & Babysitters"
+      },
+      {
+        "6238": "Painters & Sign Writers"
+      },
+      {
+        "6240": "Plumbers"
+      },
+      {
+        "6239": "Printing & Publishing Services"
+      },
+      {
+        "6241": "Security Services"
+      },
+      {
+        "6242": "Tailors & Dressmakers"
+      },
+      {
+        "6243": "Technicians"
+      },
+      {
+        "6244": "Welders & Boilermakers"
+      },
+      {
+        "6245": "Other"
+      }
+    ]
+  }
+}
