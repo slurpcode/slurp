@@ -6,7 +6,12 @@ file2_path = 'seek/new.json'
 
 file1_content = File.read(file1_path)
 file2_content = File.read(file2_path)
-
+# output first 15 key of file1
+puts 'heres the first 15 keys of file1'
+puts file1_content[0..15]
+# output first 15 key of file2
+puts 'heres the first 15 keys of file2'
+puts file2_content[0..15]
 data1 = JSON.parse(file1_content)
 data2 = JSON.parse(file2_content)
 
