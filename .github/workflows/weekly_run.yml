@@ -4,7 +4,7 @@ on:
   # for testing purposes
   push:
     branches:
-      - category
+      - main
   schedule:
     - cron: '0 0 * * 0' # Runs every weekend
 
