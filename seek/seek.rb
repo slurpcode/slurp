@@ -58,7 +58,7 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total, :lite, :categories, :classification, :subclassification
+    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total, :lite,:classification, :subclassification, :categories
 
     def define_options(parser)
       parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
@@ -76,6 +76,8 @@ class Parser
       lite_option(parser)
       categories_option(parser)
 
+      
+
       parser.separator ""
       parser.separator "Common options:"
       # No argument, shows at tail.  This will print an options summary.
@@ -90,7 +92,18 @@ class Parser
         exit
       end
     end
-
+    def categories_option(parser)
+      parser.on("--categories [BOOLEAN]", "If BOOLEAN is true or 'yes', prompt for job categories before searching") do |value|
+        self.categories = case value
+                          when TrueClass, "yes", "Yes", "YES"
+                            true
+                          when FalseClass, NilClass, "no", "No", "NO"
+                            false
+                          else
+                            value.to_s.casecmp("true").zero? || value.to_s.casecmp("yes").zero?
+                          end
+      end
+    end
     def specify_keyword_option(parser)
       parser.on(
         "-k",
@@ -173,21 +186,10 @@ class Parser
                     end
       end
     end
-
-    def categories_option(parser)
-      parser.on("--categories [BOOLEAN]", "If BOOLEAN is true or 'yes', prompt for job categories before searching") do |value|
-        self.categories = case value
-                          when TrueClass, "yes", "Yes", "YES"
-                            true
-                          when FalseClass, NilClass, "no", "No", "NO"
-                            false
-                          else
-                            value.to_s.casecmp("true").zero? || value.to_s.casecmp("yes").zero?
-                          end
-      end
-    end
+  
   end
 
+  
   def parse(args)
     # The options specified on the command line will be collected in
     # *options*.
@@ -247,7 +249,7 @@ end
 if options.categories
   json_file_path = nil
   Dir.entries(__dir__).each do |file|
-    if file.casecmp('job_ind.json').zero?  # Ignore case to find the exact file
+    if file.casecmp('job_ind.json').zero?
       json_file_path = File.join(__dir__, file)
       break
     end
@@ -266,7 +268,6 @@ if options.categories
     exit
   end
 
-  # Function to display main options and get user selection
   def get_main_selection(data)
     puts "Select main categories by number (comma-separated):"
     data.keys.each_with_index do |key, index|
@@ -277,56 +278,50 @@ if options.categories
     selected_main_options
   end
 
-    # Function to display suboptions and get user selection
-    def get_sub_selection(data, selected_main_options)
-        selected_options = {}
-      
-        selected_main_options.each do |key|
-          obj = data[key]
-          puts "You selected '#{key}'. Select suboptions by number (comma-separated), or type 'all' to select all:"
-          obj['list'].each_with_index do |item, index|
-            item_key = item.keys.first
-            item_value = item.values.first
-            puts "  #{index + 1}. #{item_value} (#{item_key})"
-          end
-          sub_choice = $stdin.gets.chomp.downcase
-          selected_options[key] = { 'all' => obj['all'], 'list' => [] }
-          if sub_choice != 'all'
-            sub_choice.split(',').map(&:strip).each do |sub_index|
-              selected_options[key]['list'] << obj['list'][sub_index.to_i - 1]
-            end
-          end
-        end
-      
-        selected_options
-      end
-      
-      # Create the output object
-      def create_output_object(selected_options)
-        output_obj = { 'class' => [] }
-        selected_options.each do |key, obj|
-          if obj['list'].empty?
-            output_obj['class'] << { obj['all'] => [] }
-          else
-            grouped_items = obj['list'].group_by { |item| obj['all'] }
-            grouped_items.each do |all_key, items|
-              output_obj['class'] << { all_key => items.map { |item| item.keys.first } }
-            end
-          end
-        end
-        output_obj
-      end
+  def get_sub_selection(data, selected_main_options)
+    selected_options = {}
   
-  # Load the JSON data
+    selected_main_options.each do |key|
+      obj = data[key]
+      puts "You selected '#{key}'. Select suboptions by number (comma-separated), or type 'all' to select all:"
+      obj['list'].each_with_index do |item, index|
+        item_key = item.keys.first
+        item_value = item.values.first
+        puts "  #{index + 1}. #{item_value} (#{item_key})"
+      end
+      sub_choice = $stdin.gets.chomp.downcase
+      selected_options[key] = { 'all' => obj['all'], 'list' => [] }
+      if sub_choice != 'all'
+        sub_choice.split(',').map(&:strip).each do |sub_index|
+          selected_options[key]['list'] << obj['list'][sub_index.to_i - 1]
+        end
+      end
+    end
+  
+    selected_options
+  end
+  
+  def create_output_object(selected_options)
+    output_obj = { 'class' => [] }
+    selected_options.each do |key, obj|
+      if obj['list'].empty?
+        output_obj['class'] << { obj['all'] => [] }
+      else
+        grouped_items = obj['list'].group_by { |item| obj['all'] }
+        grouped_items.each do |all_key, items|
+          output_obj['class'] << { all_key => items.map { |item| item.keys.first } }
+        end
+      end
+    end
+    output_obj
+  end
+
   file_content = File.read(json_file_path)
   
-  # Get main selection from user
   selected_main_options = get_main_selection(data)
   
-  # Get sub selection from user
   selected_options = get_sub_selection(data, selected_main_options)
   
-  # Create the output object
   output_obj = create_output_object(selected_options)
   def extract_keys_and_values(output_obj)
     keys_arr = []
@@ -343,7 +338,6 @@ if options.categories
   end
   classification, subclassification = extract_keys_and_values(output_obj)
 
-  # Print the arrays
   classificationstr = classification.join(',')
   options.classification = classificationstr
   puts "classification str: #{classificationstr}"
@@ -369,17 +363,10 @@ if options.categories
     params << ["subclassification", options.subclassification]
   end
 end
-page = agent.get(
-  "#{site}/jobs",
-  params
-)
-results = []
-results <<
-  if options.lite
-    ["Title", "URL", "Advertiser", "Location", "Listing Date", "Salary", "Classification", "Sub Classification", "Short Description"]
-  else
-    ["Title", "URL", "Advertiser", "Location", "Listing Date", "Salary", "Classification", "Sub Classification", "Short Description", "Content"]
-  end
+page = agent.get("#{site}/jobs", params)
+results = [
+  ["Title", "URL", "Advertiser", "Location", "Listing Date", "Salary", "Classification", "Sub Classification", "Short Description"] + (options.lite ? [] : ["Content"])
+]
 
 if options.print_total
   # Using the CSS selector
@@ -418,26 +405,22 @@ else
       # listing_date = ad.at('dd[data-automation="job-detail-date"]').text if listing_date.empty?
       get_script = ad.at('script[data-automation="server-state"]').text
       salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
-      content = if !options.lite
-        get_script.gsub(/(.*"content\(\{\\"platform\\":\\"WEB\\"\}\)":")(.*?)(".*)/m, '\2')
-      else
-        nil
-      end
+      content = options.lite ? nil : get_script.gsub(/(.*"content\(\{\\"platform\\":\\"WEB\\"\}\)":")(.*?)(".*)/m, '\2')
       
-      results <<
-        [
-          title,
-          url,
-          advertiser,
-          location,
-          listing_date,
-          salary,
-          classification,
-          sub_classification,
-          # work_type,
-          short_description,
-          content
-        ]
+      resultsrow = [
+        title,
+        url,
+        advertiser,
+        location,
+        listing_date,
+        salary,
+        classification,
+        sub_classification,
+        # work_type,
+        short_description,
+      ]
+      resultsrow << content unless options.lite
+      results << resultsrow
     end
 
     if (link = page.link_with(text: "Next")) # As long as there is still a next page link
