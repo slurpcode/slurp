@@ -23,53 +23,43 @@ jobs:
         run: |
           gem install mechanize
 
-      - name: Run seek/t.rb 
-        run: |
-          ruby seek/t.rb
-        id: run_t
-
-      - name: Check seek/t.rb exit code
-        run: |
-          if [ ${{ steps.run_t.outcome }} != 'success' ]; then
-            echo "t.rb failed, retrying ..."
-            exit 1
-          fi
-
-      - name: Run tk.rb
-        run: |
-          ruby seek/tk.rb
-        id: run_tk
-
-      - name: Check tk.rb exit code
-        run: |
-          if [ ${{ steps.run_tk.outcome }} != 'success' ]; then
-            echo "tk.rb failed, retrying ..."
-            exit 1
-          fi
-
-      - name: Run tf.rb
-        run: |
-          ruby seek/tf.rb
-        id: run_tf
-
-      - name: Check tf.rb exit code
-        run: |
-          if [ ${{ steps.run_tf.outcome }} != 'success' ]; then
-            echo "tf.rb failed, retrying ..."
-            exit 1
-          fi
-
-      - name: Run new.rb
-        id: run_new
+      - name: Run scripts with retry
         run: |
           retry_count=0
           max_retries=3
           exit_code=1  # Initialize exit_code to 1 (failure)
 
           while [ $retry_count -lt $max_retries ]; do
-            ruby seek/new.rb
-            exit_code=$?  # Capture the exit code of new.rb
+            # Run t.rb
+            ruby seek/t.rb
+            exit_code=$?
+            if [ $exit_code -ne 0 ]; then
+              echo "t.rb failed with exit code $exit_code, retrying..."
+              retry_count=$((retry_count + 1))
+              continue
+            fi
 
+            # Run tk.rb
+            ruby seek/tk.rb
+            exit_code=$?
+            if [ $exit_code -ne 0 ]; then
+              echo "tk.rb failed with exit code $exit_code, retrying..."
+              retry_count=$((retry_count + 1))
+              continue
+            fi
+
+            # Run tf.rb
+            ruby seek/tf.rb
+            exit_code=$?
+            if [ $exit_code -ne 0 ]; then
+              echo "tf.rb failed with exit code $exit_code, retrying..."
+              retry_count=$((retry_count + 1))
+              continue
+            fi
+
+            # Run new.rb
+            ruby seek/new.rb
+            exit_code=$?
             if [ $exit_code -eq 0 ]; then
               echo "new.rb succeeded."
               break
@@ -86,11 +76,4 @@ jobs:
           if [ $exit_code -ne 0 ]; then
             echo "new.rb failed after $max_retries attempts."
             exit $exit_code  # Exit with the last exit code
-          fi
-
-      - name: Check new.rb exit code
-        run: |
-          if [ ${{ steps.run_new.outcome }} != 'success' ]; then
-            echo "new.rb failed, retrying ..."
-            exit 1
           fi
