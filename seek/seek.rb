@@ -36,6 +36,7 @@ def wtype(worktype)
     "242%2C243%2C244%2C245"
   end
 end
+
 def enwtype(worktype)
   case worktype
   when 242
