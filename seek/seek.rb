@@ -6,12 +6,12 @@
 
 require "csv"
 require "fileutils"
+require "json"
 require "mechanize"
 require "optparse"
 require "optparse/time"
 require "paint"
 require "rbconfig"
-require "json"
 # require 'pp'
 
 def wtype(worktype)
