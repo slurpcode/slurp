@@ -82,5 +82,8 @@ jobs:
           done
 
           if [ $exit_code -ne 0 ]; then
-            echo "new.rb failed after $max_retries attempts. (new.rb)"
+            echo "failed after $max_retries attempts. (new.rb)"
             exit $exit_code  # Exit with the last exit code
+          else
+            echo "All scripts succeeded."
+          fi
