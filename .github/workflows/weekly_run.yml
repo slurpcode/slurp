@@ -1,0 +1,72 @@
+name: Weekly Ruby Script Runner
+
+on:
+  push:
+    branches:
+      - category
+  schedule:
+    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+
+jobs:
+  run-scripts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.5
+
+      - name: Run t.rb
+        run: |
+          ruby t.rb
+        id: run_t
+
+      - name: Check t.rb exit code
+        run: |
+          if [ ${{ steps.run_t.outcome }} != 'success' ]; then
+            echo "t.rb failed, retrying in 5 minutes..."
+            sleep 300
+            exit 1
+          fi
+
+      - name: Run tk.rb
+        run: |
+          ruby tk.rb
+        id: run_tk
+
+      - name: Check tk.rb exit code
+        run: |
+          if [ ${{ steps.run_tk.outcome }} != 'success' ]; then
+            echo "tk.rb failed, retrying in 5 minutes..."
+            sleep 300
+            exit 1
+          fi
+
+      - name: Run tf.rb
+        run: |
+          ruby tf.rb
+        id: run_tf
+
+      - name: Check tf.rb exit code
+        run: |
+          if [ ${{ steps.run_tf.outcome }} != 'success' ]; then
+            echo "tf.rb failed, retrying in 5 minutes..."
+            sleep 300
+            exit 1
+          fi
+
+      - name: Run new.rb
+        run: |
+          ruby new.rb
+        id: run_new
+
+      - name: Check new.rb exit code
+        run: |
+          if [ ${{ steps.run_new.outcome }} != 'success' ]; then
+            echo "new.rb failed, retrying in 5 minutes..."
+            sleep 300
+            exit 1
+          fi
