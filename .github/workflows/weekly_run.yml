@@ -5,14 +5,14 @@ on:
     branches:
       - category
   schedule:
-    - cron: '0 0 * * 0' # Runs every Sunday at midnight
+    - cron: '0 0 * * 0' # Runs every weekend 
 
 jobs:
   run-scripts:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.2.1
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -31,8 +31,7 @@ jobs:
       - name: Check seek/t.rb exit code
         run: |
           if [ ${{ steps.run_t.outcome }} != 'success' ]; then
-            echo "t.rb failed, retrying in 5 minutes..."
-            sleep 300
+            echo "t.rb failed, retrying ..."
             exit 1
           fi
 
@@ -44,8 +43,7 @@ jobs:
       - name: Check tk.rb exit code
         run: |
           if [ ${{ steps.run_tk.outcome }} != 'success' ]; then
-            echo "tk.rb failed, retrying in 5 minutes..."
-            sleep 300
+            echo "tk.rb failed, retrying ..."
             exit 1
           fi
 
@@ -57,20 +55,42 @@ jobs:
       - name: Check tf.rb exit code
         run: |
           if [ ${{ steps.run_tf.outcome }} != 'success' ]; then
-            echo "tf.rb failed, retrying in 5 minutes..."
-            sleep 300
+            echo "tf.rb failed, retrying ..."
             exit 1
           fi
 
       - name: Run new.rb
-        run: |
-          ruby seek/new.rb
         id: run_new
+        run: |
+          retry_count=0
+          max_retries=3
+          exit_code=1  # Initialize exit_code to 1 (failure)
+
+          while [ $retry_count -lt $max_retries ]; do
+            ruby seek/new.rb
+            exit_code=$?  # Capture the exit code of new.rb
+
+            if [ $exit_code -eq 0 ]; then
+              echo "new.rb succeeded."
+              break
+            elif [ $exit_code -eq 1 ]; then
+              echo "new.rb failed with exit code 1, waiting for 30 seconds before retrying..."
+              sleep 30
+            else
+              echo "new.rb failed with exit code $exit_code, retrying..."
+            fi
+
+            retry_count=$((retry_count + 1))
+          done
+
+          if [ $exit_code -ne 0 ]; then
+            echo "new.rb failed after $max_retries attempts."
+            exit $exit_code  # Exit with the last exit code
+          fi
 
       - name: Check new.rb exit code
         run: |
           if [ ${{ steps.run_new.outcome }} != 'success' ]; then
-            echo "new.rb failed, retrying in 5 minutes..."
-            sleep 300
+            echo "new.rb failed, retrying ..."
             exit 1
           fi
