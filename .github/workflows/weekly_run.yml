@@ -34,46 +34,52 @@ jobs:
             ruby seek/t.rb
             exit_code=$?
             if [ $exit_code -ne 0 ]; then
-              echo "t.rb failed with exit code $exit_code, retrying..."
+              echo "t.rb failed with exit code $exit_code, retrying... (t.rb)"
               retry_count=$((retry_count + 1))
               continue
+            else
+              echo "t.rb succeeded. (t.rb)"
             fi
 
             # Run tk.rb
             ruby seek/tk.rb
             exit_code=$?
             if [ $exit_code -ne 0 ]; then
-              echo "tk.rb failed with exit code $exit_code, retrying..."
+              echo "tk.rb failed with exit code $exit_code, retrying... (tk.rb)"
               retry_count=$((retry_count + 1))
               continue
+            else
+              echo "tk.rb succeeded. (tk.rb)"
             fi
 
             # Run tf.rb
             ruby seek/tf.rb
             exit_code=$?
             if [ $exit_code -ne 0 ]; then
-              echo "tf.rb failed with exit code $exit_code, retrying..."
+              echo "tf.rb failed with exit code $exit_code, retrying... (tf.rb)"
               retry_count=$((retry_count + 1))
               continue
+            else
+              echo "tf.rb succeeded. (tf.rb)"
             fi
 
             # Run new.rb
             ruby seek/new.rb
             exit_code=$?
             if [ $exit_code -eq 0 ]; then
-              echo "new.rb succeeded."
+              echo "new.rb succeeded. (new.rb)"
               break
             elif [ $exit_code -eq 1 ]; then
-              echo "new.rb failed with exit code 1, waiting for 30 seconds before retrying..."
+              echo "new.rb failed with exit code 1, waiting for 30 seconds before retrying... (new.rb)"
               sleep 30
             else
-              echo "new.rb failed with exit code $exit_code, retrying..."
+              echo "new.rb failed with exit code $exit_code, retrying... (new.rb)"
             fi
 
             retry_count=$((retry_count + 1))
           done
 
           if [ $exit_code -ne 0 ]; then
-            echo "new.rb failed after $max_retries attempts."
+            echo "new.rb failed after $max_retries attempts. (new.rb)"
             exit $exit_code  # Exit with the last exit code
           fi
