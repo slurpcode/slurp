@@ -41,7 +41,7 @@ if total_keys2 >= total_keys1
   puts 0 
   exit 0
 else
-  puts 'No errors found.'
+  puts 'errors found.'
   puts 1
   exit 1
 end
