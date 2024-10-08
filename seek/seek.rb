@@ -36,7 +36,7 @@ def wtype(worktype)
     "242%2C243%2C244%2C245"
   end
 end
-
+git push --set-upstream origin fix-spelling
 def enwtype(worktype)
   case worktype
   when 242
@@ -239,6 +239,7 @@ if options.lite.nil?
   print "Discard the content column in the results? (yes/no): "
   options.lite = $stdin.gets.chomp.casecmp("yes").zero?
 end
+
 if options.categories.nil?
   print "Do you want to select job categories? (yes/no): "
   options.categories = $stdin.gets.chomp.casecmp("yes").zero?
@@ -401,7 +402,6 @@ else
       get_script = ad.at('script[data-automation="server-state"]').text
       salary = get_script.gsub(/(.*"jobSalary":")(.*?)(".*)/m, '\2') if salary.empty? && get_script.include?("jobSalary")
       content = options.lite ? nil : get_script.gsub(/(.*"content\(\{\\"platform\\":\\"WEB\\"\}\)":")(.*?)(".*)/m, '\2')
-
       resultsrow = [
         title,
         url,
