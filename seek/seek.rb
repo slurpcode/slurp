@@ -303,11 +303,11 @@ if options.categories
   
   def create_output_object(selected_options)
     output_obj = { 'class' => [] }
-    selected_options.each do |key, obj|
+    selected_options.each do |_key, obj|
       if obj['list'].empty?
         output_obj['class'] << { obj['all'] => [] }
       else
-        grouped_items = obj['list'].group_by { |item| obj['all'] }
+        grouped_items = obj['list'].group_by { |_item| obj['all'] }
         grouped_items.each do |all_key, items|
           output_obj['class'] << { all_key => items.map { |item| item.keys.first } }
         end
