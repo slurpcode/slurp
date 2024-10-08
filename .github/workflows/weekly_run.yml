@@ -48,5 +48,5 @@ jobs:
             echo "No changes to commit.";
           else
             git commit -m "Update seek/job_ind.json";
-            git push origin category;
+            git push origin main;
           fi;
