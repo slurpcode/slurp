@@ -6,7 +6,7 @@ on:
     branches:
       - category
   schedule:
-    - cron: '0 0 * * 0' # Runs every weekend 
+    - cron: '0 0 * * 0' # Runs every weekend
 
 jobs:
   run-scripts:
