@@ -32,9 +32,11 @@ if total_keys2 >= total_keys1
       file.write(JSON.pretty_generate(data2))
     end
   end
+  puts 'No errors found.'
   puts 0 
   exit 0
 else
+  puts 'No errors found.'
   puts 1
   exit 1
 end
