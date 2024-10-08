@@ -25,17 +25,16 @@ jobs:
 
       - name: Run scripts with retry
         run: |
-          retry_count=0
           max_retries=3
-          exit_code=1  # Initialize exit_code to 1 (failure)
 
-          while [ $retry_count -lt $max_retries ]; do
+          for attempt in $(seq 1 $max_retries); do
+            echo "Attempt $attempt of $max_retries"
+
             # Run t.rb
             ruby seek/t.rb
             exit_code=$?
             if [ $exit_code -ne 0 ]; then
               echo "t.rb failed with exit code $exit_code, retrying... (t.rb)"
-              retry_count=$((retry_count + 1))
               continue
             else
               echo "t.rb succeeded. (t.rb)"
@@ -46,7 +45,6 @@ jobs:
             exit_code=$?
             if [ $exit_code -ne 0 ]; then
               echo "tk.rb failed with exit code $exit_code, retrying... (tk.rb)"
-              retry_count=$((retry_count + 1))
               continue
             else
               echo "tk.rb succeeded. (tk.rb)"
@@ -57,7 +55,6 @@ jobs:
             exit_code=$?
             if [ $exit_code -ne 0 ]; then
               echo "tf.rb failed with exit code $exit_code, retrying... (tf.rb)"
-              retry_count=$((retry_count + 1))
               continue
             else
               echo "tf.rb succeeded. (tf.rb)"
@@ -78,12 +75,10 @@ jobs:
               done
               echo ""
             fi
-
-            retry_count=$((retry_count + 1))
           done
 
           if [ $exit_code -ne 0 ]; then
-            echo "failed after $max_retries attempts. (new.rb)"
+            echo "new.rb failed after $max_retries attempts. (new.rb)"
             exit $exit_code  # Exit with the last exit code
           else
             echo "All scripts succeeded."
