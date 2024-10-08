@@ -24,10 +24,12 @@ jobs:
           gem install mechanize
 
       - name: Run new.rb script
+        id: run-new-rb-script
         run: |
           ruby seek/new.rb
           exit_code=$?
           echo "new.rb exit code: $exit_code"
+          echo "::set-output name=exit_code::$exit_code"
           if [ $exit_code -eq 0 ]; then
             echo "new.rb succeeded."
           else
@@ -35,7 +37,7 @@ jobs:
             exit $exit_code  # Exit with the last exit code
 
       - name: Commit and push changes if any
-        if: success() && steps.run-new-rb-script.outputs.exit_code == '0'
+        if: steps.run-new-rb-script.outputs.exit_code == '0'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
