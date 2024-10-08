@@ -29,7 +29,7 @@ jobs:
           ruby seek/new.rb
           exit_code=$?
           echo "new.rb exit code: $exit_code"
-          echo "::set-output name=exit_code::$exit_code"
+          echo "exit_code=$exit_code" >> $GITHUB_ENV
           if [ $exit_code -eq 0 ]; then
             echo "new.rb succeeded."
           else
@@ -37,7 +37,7 @@ jobs:
             exit $exit_code  # Exit with the last exit code
 
       - name: Commit and push changes if any
-        if: steps.run-new-rb-script.outputs.exit_code == '0'
+        if: env.exit_code == '0'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -47,4 +47,3 @@ jobs:
           else
             git commit -m "Update seek/job_ind.json"
             git push origin category
-          fi
