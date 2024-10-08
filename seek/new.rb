@@ -143,7 +143,7 @@ end
 # Delete the seek/seek_data.json file and the seek/new.json file if they exist
 if success
   retries = 0
-  max_retries = 3
+  max_retries = 10
   begin
     # Overwrite the contents of seek/job_ind.json with the contents of seek/new.json file
     new_data = File.read('seek/new.json')
