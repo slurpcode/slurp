@@ -171,7 +171,6 @@ class Parser
                     end
       end
     end
-  
   end
 
   def parse(args)
@@ -291,7 +290,7 @@ else
         classification,
         sub_classification,
         # work_type,
-        short_description,
+        short_description
       ]
       resultsrow << content unless options.lite
       results << resultsrow
