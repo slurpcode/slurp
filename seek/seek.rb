@@ -91,16 +91,9 @@ class Parser
       end
     end
 
-    def categories_option(parser)
+       def categories_option(parser)
       parser.on("--categories [BOOLEAN]", "If BOOLEAN is true or 'yes', prompt for job categories before searching") do |value|
-        self.categories = case value
-                          when TrueClass, "yes", "Yes", "YES"
-                            true
-                          when FalseClass, NilClass, "no", "No", "NO"
-                            false
-                          else
-                            value.to_s.casecmp("true").zero? || value.to_s.casecmp("yes").zero?
-                          end
+        self.categories = %w[yes Yes YES true].include?(value.to_s) || value == true
       end
     end
 
@@ -338,10 +331,10 @@ if options.categories
 
   classificationstr = classification.join(",")
   options.classification = classificationstr
-  puts "classification str: #{classificationstr}"
+  # puts "classification str: #{classificationstr}"
   unless subclassification.empty?
     subclassificationstr = subclassification.join(",")
-    puts "subclassification str: #{subclassificationstr}"
+    # puts "subclassification str: #{subclassificationstr}"
     options.subclassification = subclassificationstr
   end
 end
