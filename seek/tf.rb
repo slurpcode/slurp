@@ -28,4 +28,4 @@ end
 puts JSON.pretty_generate(result)
 
 # Optionally, write the result to a new JSON file
-File.write('job_ind.json', JSON.pretty_generate(result))
+File.write('new.json', JSON.pretty_generate(result))
