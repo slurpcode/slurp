@@ -68,3 +68,6 @@ Style/StringLiterals:
 
 Style/StringLiteralsInInterpolation:
   Enabled: true
+
+Metrics/ClassLength:
+  Max: 120
