@@ -27,7 +27,7 @@ repos:
       - id: debug-statements
       - id: detect-private-key
       - id: end-of-file-fixer
-        exclude: ^charts/assets/.*$|^charts/lang/README\.de\.md$|^charts/log\.txt$|^charts/README\.md$|^docs/assets/js/.*$|^docs/assets/games/.*$|rubycritic/.*$
+        exclude: ^charts/assets/.*$|^charts/lang/README\.de\.md$|^charts/log\.txt$|^charts/README\.md$|^docs/assets/js/.*$|^docs/assets/games/.*$|^rubycritic/.*$|^seek/job_ind\.json$
       - id: file-contents-sorter
         files: ^requirements.txt$
         args: [--unique]
