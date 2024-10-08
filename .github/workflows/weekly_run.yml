@@ -23,64 +23,26 @@ jobs:
         run: |
           gem install mechanize
 
-      - name: Run scripts with retry
+      - name: Run new.rb script
         run: |
-          max_retries=3
-          attempt=0
-
-          while [ $attempt -lt $max_retries ]; do
-            attempt=$((attempt + 1))
-            echo "Attempt $attempt of $max_retries"
-
-            # Run t.rb
-            ruby seek/t.rb
-            exit_code=$?
-            if [ $exit_code -ne 0 ]; then
-              echo "t.rb failed with exit code $exit_code, retrying... (t.rb)"
-            else
-              echo "t.rb succeeded. (t.rb)"
-            fi
-
-            # Run tk.rb
-            ruby seek/tk.rb
-            exit_code=$?
-            if [ $exit_code -ne 0 ]; then
-              echo "tk.rb failed with exit code $exit_code, retrying... (tk.rb)"
-            else
-              echo "tk.rb succeeded. (tk.rb)"
-            fi
-
-            # Run tf.rb
-            ruby seek/tf.rb
-            exit_code=$?
-            if [ $exit_code -ne 0 ]; then
-              echo "tf.rb failed with exit code $exit_code, retrying... (tf.rb)"
-            else
-              echo "tf.rb succeeded. (tf.rb)"
-            fi
-
-            # Run new.rb
-            ruby seek/new.rb
-            exit_code=$?
-            echo "new.rb exit code with respect to the file is: $exit_code"
-            if [ $exit_code -eq 0 ]; then
-              echo "new.rb succeeded. (new.rb)"
-              break  # Exit the retry loop if new.rb succeeds
-            else
-              echo "new.rb failed with exit code $exit_code, waiting for 30 seconds before retrying... (new.rb)"
-              
-              # Print dots while waiting
-              for i in $(seq 1 30); do
-                echo -n "."
-                sleep 1
-              done
-              echo ""  # Move to the next line after waiting
-            fi
-          done
-
-          if [ $exit_code -ne 0 ]; then
-            echo "new.rb failed after $max_retries attempts. (new.rb)"
-            exit $exit_code  # Exit with the last exit code
+          ruby seek/new.rb
+          exit_code=$?
+          echo "new.rb exit code: $exit_code"
+          if [ $exit_code -eq 0 ]; then
+            echo "new.rb succeeded."
           else
-            echo "All scripts succeeded."
+            echo "new.rb failed with exit code $exit_code."
+            exit $exit_code  # Exit with the last exit code
+
+      - name: Commit and push changes if any
+        if: success() && steps.run-new-rb-script.outputs.exit_code == '0'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add seek/job_ind.json
+          if git diff-index --quiet HEAD; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update seek/job_ind.json"
+            git push origin category
           fi
