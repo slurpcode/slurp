@@ -372,9 +372,9 @@ end
 page = agent.get("#{site}/jobs", params)
 results = [
   ["Title", "URL", "Advertiser", "Location", "Listing Date"] +
-  (options.discard_salary ? [] : ["Salary"]) +
-  ["Classification", "Sub Classification", "Short Description"] +
-  (options.lite ? [] : ["Content"])
+    (options.discard_salary ? [] : ["Salary"]) +
+    ["Classification", "Sub Classification", "Short Description"] +
+    (options.lite ? [] : ["Content"])
 ]
 
 if options.print_total
