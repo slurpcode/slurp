@@ -58,7 +58,7 @@ class Parser
 
   # Custom OptionParser ScriptOptions
   class ScriptOptions
-    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total, :lite, :classification, :subclassification, :categories
+    attr_accessor :keyword, :location, :range, :worktype, :delay, :time, :print_total, :lite, :classification, :subclassification, :categories, :discard_salary
 
     def define_options(parser)
       parser.banner = "Usage: #{Paint['seek.rb [options]', :red, :white]}"
@@ -74,6 +74,7 @@ class Parser
       execute_at_time_option(parser)
       print_total_number_option(parser)
       lite_option(parser)
+      discard_salary_option(parser)
       categories_option(parser)
 
       parser.separator ""
@@ -169,14 +170,26 @@ class Parser
 
     def lite_option(parser)
       parser.on("--lite [BOOLEAN]", "If BOOLEAN is true or 'yes', do not include the content column in the CSV") do |value|
-        self.lite = case value
-                    when TrueClass, "yes", "Yes", "YES"
-                      true
-                    when FalseClass, NilClass, "no", "No", "NO"
-                      false
-                    else
-                      value.to_s.casecmp("true").zero? || value.to_s.casecmp("yes").zero?
-                    end
+        self.lite = parse_boolean_option(value)
+      end
+    end
+
+    def discard_salary_option(parser)
+      parser.on("--discard-salary [BOOLEAN]", "If BOOLEAN is true or 'yes', do not include the salary column in the CSV") do |value|
+        self.discard_salary = parse_boolean_option(value)
+      end
+    end
+
+    private
+
+    def parse_boolean_option(value)
+      case value
+      when TrueClass, "yes", "Yes", "YES"
+        true
+      when FalseClass, NilClass, "no", "No", "NO"
+        false
+      else
+        value.to_s.casecmp("true").zero? || value.to_s.casecmp("yes").zero?
       end
     end
   end
@@ -231,6 +244,10 @@ end
 if options.lite.nil?
   print "Discard the content column in the results? (yes/no): "
   options.lite = $stdin.gets.chomp.casecmp("yes").zero?
+end
+if options.discard_salary.nil?
+  print "Discard the salary column in the results? (yes/no): "
+  options.discard_salary = $stdin.gets.chomp.casecmp("yes").zero?
 end
 
 if options.categories.nil?
@@ -354,7 +371,10 @@ if options.categories
 end
 page = agent.get("#{site}/jobs", params)
 results = [
-  ["Title", "URL", "Advertiser", "Location", "Listing Date", "Salary", "Classification", "Sub Classification", "Short Description"] + (options.lite ? [] : ["Content"])
+  ["Title", "URL", "Advertiser", "Location", "Listing Date"] +
+  (options.discard_salary ? [] : ["Salary"]) +
+  ["Classification", "Sub Classification", "Short Description"] +
+  (options.lite ? [] : ["Content"])
 ]
 
 if options.print_total
@@ -400,8 +420,10 @@ else
         url,
         advertiser,
         location,
-        listing_date,
-        salary,
+        listing_date
+      ]
+      resultsrow << salary unless options.discard_salary
+      resultsrow += [
         classification,
         sub_classification,
         # work_type,
