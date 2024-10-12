@@ -28,6 +28,9 @@
     },
     {
       "pattern": "^https://fuchsia.herokuapp.com/"
+    },
+    {
+      "pattern": "^https://www.adobe.com/au/acrobat/about-adobe-pdf.html"
     }
   ]
 }
