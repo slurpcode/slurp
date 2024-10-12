@@ -24,7 +24,7 @@ The **plotly.js** pie charts are by far the most interactive out of the box.
 
 Even the README.md file is created from the **`config.xml`** config file.
 
-Demo can be seen here: [Slurp Code - Charts](https://slurpcode.netlify.com/)
+Demo can be seen here: [Slurp Code - Charts](https://slurp.rtfd.io/)
 
 ## This repository is built with
 
