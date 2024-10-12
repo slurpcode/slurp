@@ -193,7 +193,7 @@
 
 The original **`Fuchsia`** Programming on Heroku
 
-[https://fuchsia.herokuapp.com/](https://fuchsia.herokuapp.com/)
+~~[https://fuchsia.herokuapp.com/](https://fuchsia.herokuapp.com/)~~ _(deprecated)_
 
 ## Contributors
 

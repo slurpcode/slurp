@@ -13,6 +13,9 @@
     "./doc/source/nu-skool-breaks.md"
   ],
   "excludeUrls": [
-    "https://en.wikipedia.org/"
+    "https://en.wikipedia.org/",
+    "https://upload.wikimedia.org/",
+    "https://lawandorder.fandom.com/",
+    "https://fuchsia.herokuapp.com/"
   ]
 }

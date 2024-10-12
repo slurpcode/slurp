@@ -117,7 +117,7 @@ Generate sample DITA-OT plugin -
 <https://dita-generator.elovirta.com/>
 
 Creating DITA-OT plugins -
-<http://dita-ot.sourceforge.net/1.5.4/dev_ref/plugins-overview.html>
+<https://sourceforge.net/projects/dita-ot/>
 
 Customizing PDF output -
 <http://www.dita-ot.org/1.8/readme/dita2pdf-customization.html>
@@ -148,8 +148,6 @@ Mastering Markdown - <https://guides.github.com/features/mastering-markdown/>
 
 GitHub Desktop - <https://desktop.github.com/>
 
-Microsoft File Checksum Integrity Verifier -
-<https://web.archive.org/web/20200728195620/https://www.microsoft.com/en-us/download/details.aspx?id=11533>
 
 TechSmith Camtasia - <https://www.techsmith.com/camtasia.html>
 
