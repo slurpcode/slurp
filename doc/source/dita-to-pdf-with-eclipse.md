@@ -111,7 +111,7 @@ The Organization for the Advancement of Structured Information Standards
 oXygen XML Editor - <http://www.oxygenxml.com>
 
 DITA-OT installing plugins -
-<http://dita-ot.sourceforge.net/1.7/dev_ref/plugins-installing.html>
+<https://dita-ot.sourceforge.net/>
 
 Generate sample DITA-OT plugin -
 <https://dita-generator.elovirta.com/>
