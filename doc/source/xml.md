@@ -43,7 +43,6 @@ processor
 [lxml](https://lxml.de/) - the most feature-rich and easy-to-use library for
 processing XML and HTML in the Python language.
 
-
 Both _xsltproc_ and _xmllint_ come in handy if you like the command line.
 
 ### Links
