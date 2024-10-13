@@ -52,7 +52,7 @@ front-end for working on a website.
 
 For example, go to:
 
-<https://id.cpanel.net/get/login?url=aHR0cHM6Ly9tYW5hZ2UyLmNwYW5lbC5uZXQvbG9naW4uY2dp>
+<https://id.cpanel.net>
 
 Enter credentials: username: YourWebHostingAccountUsername password: [*******]
 
