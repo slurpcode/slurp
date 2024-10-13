@@ -31,6 +31,9 @@
     },
     {
       "pattern": "^https://www.adobe.com/au/acrobat/about-adobe-pdf.html"
+    },
+    {
+      "pattern":"^https://www.emacswiki.org/"
     }
   ]
 }
