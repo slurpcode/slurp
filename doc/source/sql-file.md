@@ -54,7 +54,6 @@ For example, go to:
 
 <https://id.cpanel.net/get/login?url=aHR0cHM6Ly9tYW5hZ2UyLmNwYW5lbC5uZXQvbG9naW4uY2dp>
 
-
 Enter credentials: username: YourWebHostingAccountUsername password: [*******]
 
 2. Within cPanel, click on "phpMyAdmin"
