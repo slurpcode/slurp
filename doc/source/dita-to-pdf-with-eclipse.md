@@ -148,7 +148,6 @@ Mastering Markdown - <https://guides.github.com/features/mastering-markdown/>
 
 GitHub Desktop - <https://desktop.github.com/>
 
-
 TechSmith Camtasia - <https://www.techsmith.com/camtasia.html>
 
 MD5 - <https://en.wikipedia.org/wiki/MD5>
