@@ -50,6 +50,9 @@
       },
       {
         "pattern":"^http://www.barebones.com/"
+      },
+      {
+        "pattern":"^https://web.archive.org/"
       }
     ]
 }
