@@ -14,7 +14,8 @@
   "aliveStatusCodes": [200, 206, 300, 301, 302, 303, 304, 305, 306, 307, 308, 403, 429, 999],
   "excludeFiles": [
     "./doc/source/iran-kashan-tabatabai-house.md",
-    "./doc/source/nu-skool-breaks.md"
+    "./doc/source/nu-skool-breaks.md",
+    "./charts/assets/**"
   ],
   "ignorePatterns": [
     {
