@@ -1,0 +1,36 @@
+headers:
+  "https://docs.github.com/":
+    Accept-Encoding: "zstd, br, gzip, deflate"
+timeout: 20000
+retryOn429: true
+retryCount: 5
+retryDelay: 30000
+aliveStatusCodes:
+  - 200
+  - 206
+  - 300
+  - 301
+  - 302
+  - 303
+  - 304
+  - 305
+  - 306
+  - 307
+  - 308
+  - 403
+  - 429
+  - 999
+excludeFiles:
+  - "./doc/source/iran-kashan-tabatabai-house.md"
+  - "./doc/source/nu-skool-breaks.md"
+excludedDirs:
+  - "./charts/assets/"
+ignorePatterns:
+  - "^https://en.wikipedia.org/"
+  - "^https://fuchsia.herokuapp.com/"
+  - "^https://lawandorder.fandom.com/"
+  - "^https://upload.wikimedia.org/"
+  - "^https://www.adobe.com/au/acrobat/about-adobe-pdf.html"
+  - "^https://www.emacswiki.org/"
+  - "^https://www.gnu.org/"
+  - "^https://www.json.org/"

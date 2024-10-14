@@ -2,7 +2,7 @@ name: Check Markdown links
 
 on: [pull_request]
 
-permissions:  # added using https://github.com/step-security/secure-workflows
+permissions: 
   contents: read
 
 jobs:
@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gaurav-nelson/github-action-markdown-link-check@v1
+      - name: Run Linkspector
+        uses: linkspector/github-action@v1
         with:
-          base-branch: 'main'
-          config-file: 'mlc_config.json'
-          use-quiet-mode: 'yes'
-          use-verbose-mode: 'yes'
+          config-file: 'linkspector_config.json'
+          quiet: true  # equivalent to quiet mode
+          verbose: true  # equivalent to verbose mode
