@@ -35,6 +35,9 @@
     },
     {
       "pattern":"^https://www.emacswiki.org/"
+    },
+    {
+      "pattern":"^https://www.gnu.org/"
     }
   ]
 }
