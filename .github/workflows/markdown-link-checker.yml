@@ -11,5 +11,5 @@ jobs:
       - name: Run linkspector
         uses: umbrelladocs/action-linkspector@v1
         with:
-          config-file: 'linkspector_config.json'
+          config_file: 'linkspector_config.json'
           fail_on_error: true
