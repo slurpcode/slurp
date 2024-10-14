@@ -1,18 +1,17 @@
-name: Check Markdown links
-
+name: Linkspector
 on: [pull_request]
-
 permissions: 
   contents: read
-
 jobs:
-  markdown-link-check:
+  check-links:
+    name: runner / linkspector
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Run Linkspector
-        uses: linkspector/github-action@v1
+      - name: Run linkspector
+        uses: umbrelladocs/action-linkspector@v1
         with:
           config-file: 'linkspector_config.json'
           quiet: true  # equivalent to quiet mode
           verbose: true  # equivalent to verbose mode
+          fail_on_error: true
