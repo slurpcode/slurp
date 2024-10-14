@@ -12,6 +12,4 @@ jobs:
         uses: umbrelladocs/action-linkspector@v1
         with:
           config-file: 'linkspector_config.json'
-          quiet: true  # equivalent to quiet mode
-          verbose: true  # equivalent to verbose mode
           fail_on_error: true
