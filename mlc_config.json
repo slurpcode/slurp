@@ -15,7 +15,7 @@
   "excludeFiles": [
     "./doc/source/iran-kashan-tabatabai-house.md",
     "./doc/source/nu-skool-breaks.md",
-    "./charts/assets/"
+    "./charts/assets/^"
   ],
   "ignorePatterns": [
     {
