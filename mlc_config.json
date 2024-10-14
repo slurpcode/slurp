@@ -41,6 +41,15 @@
       },
       {
         "pattern":"^https://www.json.org/"
+      },
+      {
+        "pattern":"^https://www.win.tue.nl"
+      },
+      {
+        "pattern":"^https://cdnjs.com"
+      },
+      {
+        "pattern":"^http://www.barebones.com/"
       }
     ]
 }  
