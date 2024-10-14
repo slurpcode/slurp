@@ -38,6 +38,9 @@
     },
     {
       "pattern":"^https://www.gnu.org/"
+    },
+    {
+      "pattern":"^https://www.json.org/"
     }
   ]
 }
