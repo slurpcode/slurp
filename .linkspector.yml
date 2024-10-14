@@ -1,3 +1,5 @@
+dirs:
+  - "."
 headers:
   "https://docs.github.com/":
     Accept-Encoding: "zstd, br, gzip, deflate"
