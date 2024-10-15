@@ -2,9 +2,9 @@
 
 ## Guides
 
-- [CSS 3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+- [CSS 3](https://developer.mozilla.org/en-US/search?q=CSS3)
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-- [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+- [JavaScript](https://developer.mozilla.org/en-US/search?q=JavaScript)
 - [jQuery](https://jquery.com)
 - [JSON](https://www.json.org/)
 - [Open Graph protocol](http://ogp.me)
@@ -19,7 +19,6 @@
 ## GitHub Cheat Sheets
 
 - [Awesome](https://github.com/tiimgreen/github-cheat-sheet)
-- [GitHub Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 - [Tower](https://www.git-tower.com/blog/git-cheat-sheet)
 
 ## Git GUI clients

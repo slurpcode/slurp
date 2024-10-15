@@ -1,11 +1,58 @@
 {
-  "httpHeaders": [
-    {
-      "urls": ["https://docs.github.com/"],
-      "headers": {
-        "Accept-Encoding": "zstd, br, gzip, deflate"
+    "httpHeaders": [
+      {
+        "urls": ["https://docs.github.com/"],
+        "headers": {
+          "Accept-Encoding": "zstd, br, gzip, deflate"
+        }
       }
-    }
-  ],
-  "aliveStatusCodes": [200, 429]
+    ],
+    "timeout": "20s",
+    "retryOn429": true,
+    "retryCount": 5,
+    "fallbackRetryDelay": "30s",
+    "aliveStatusCodes": [200, 206, 300, 301, 302, 303, 304, 305, 306, 307, 308, 403, 429, 999],
+    "excludeFiles": [
+      "./doc/source/iran-kashan-tabatabai-house.md",
+      "./doc/source/nu-skool-breaks.md",
+      "./charts/assets/"
+    ],
+    "ignorePatterns": [
+      {
+        "pattern": "^https://en.wikipedia.org/"
+      },
+      {
+        "pattern": "^https://fuchsia.herokuapp.com/"
+      },
+      {
+        "pattern": "^https://lawandorder.fandom.com/"
+      },
+      {
+        "pattern": "^https://upload.wikimedia.org/"
+      },
+      {
+        "pattern": "^https://www.adobe.com/au/acrobat/about-adobe-pdf.html"
+      },
+      {
+        "pattern":"^https://www.emacswiki.org/"
+      },
+      {
+        "pattern":"^https://www.gnu.org/"
+      },
+      {
+        "pattern":"^https://www.json.org/"
+      },
+      {
+        "pattern":"^https://www.win.tue.nl"
+      },
+      {
+        "pattern":"^https://cdnjs.com"
+      },
+      {
+        "pattern":"^http://www.barebones.com/"
+      },
+      {
+        "pattern":"^https://web.archive.org/"
+      }
+    ]
 }

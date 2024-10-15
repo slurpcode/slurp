@@ -18,8 +18,6 @@ You can find more details about its formation and development on Ishkur's Guide 
 
 The Every Noise at Once platform provides an opportunity for people to get to know better the names of the creators who have ever been in the genre and thus the peculiarities of it.
 
-<https://everynoise.com/everynoise1d.cgi?root=drum%20and%20bass&scope=all>
-
 ## Sources
 
 - MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)
