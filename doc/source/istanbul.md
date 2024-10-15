@@ -27,6 +27,4 @@ After giving all the information we have given, it is important to say the cityâ
 ## RESOURCES â€“ You can see these websites for further reading about Istanbul
 
 - <https://en.wikipedia.org/wiki/Istanbul>
-- <https://www.ibb.istanbul/en>
-- <https://www.mmi-eurasia.com/en/information-about-istanbul>
 - <https://istanbeautiful.com/about-istanbul/>
