@@ -25,7 +25,6 @@ You can find more details about its formation and development on Ishkur's Guide 
 <https://music.ishkur.com/?query=Progressive>
 
 The Every Noise at Once platform provides an opportunity for people to get to know better the names of the creators who have ever been in the genre and thus the peculiarities of it.<br />
-<https://everynoise.com/everynoise1d.cgi?root=progressive%20trance&scope=all>
 
 <ins>Sources:</ins>
 

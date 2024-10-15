@@ -24,7 +24,7 @@ The **plotly.js** pie charts are by far the most interactive out of the box.
 
 Even the README.md file is created from the **`config.xml`** config file.
 
-Demo can be seen here: [Slurp Code - Charts](https://slurpcode.netlify.com/)
+Demo can be seen here: [Slurp Code - Charts](https://slurp.rtfd.io/)
 
 ## This repository is built with
 
@@ -66,7 +66,7 @@ Demo can be seen here: [Slurp Code - Charts](https://slurpcode.netlify.com/)
 36. [Chart.js](http://www.chartjs.org/)
 37. [plotly.js](https://plot.ly/javascript/)
 38. [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-39. [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+39. [CSS3](https://developer.mozilla.org/en-US/search?q=CSS3)
 40. [Bootstrap](https://getbootstrap.com/)
 41. [jQuery](https://jquery.com/)
 42. [JSON](https://www.json.org/)

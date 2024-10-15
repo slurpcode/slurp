@@ -46,7 +46,6 @@ links that I used in researching this article:
 
 - <https://en.wikipedia.org/wiki/Beer>
 - <https://www.thespruceeats.com/india-pale-ale-ipa-profile-history-ingredients-352843>
-- <https://www.departures.com/lifestyle/wine-spirits/beer-guide-ale-lager>
 
 ENJOY! Seriously, but not too much!
 
