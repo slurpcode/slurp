@@ -1,8 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.2.1.2)
+    activesupport (7.2.2)
       base64
+      benchmark (>= 0.3)
       bigdecimal
       concurrent-ruby (~> 1.0, >= 1.3.1)
       connection_pool (>= 2.2.5)
@@ -20,6 +21,7 @@ GEM
       ice_nine (~> 0.11.0)
       thread_safe (~> 0.3, >= 0.3.1)
     base64 (0.2.0)
+    benchmark (0.3.0)
     bigdecimal (3.1.8)
     chef-utils (18.3.0)
       concurrent-ruby
@@ -311,7 +313,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.24.1)
+    minitest (5.25.1)
     mixlib-cli (2.1.8)
     mixlib-config (3.0.27)
       tomlrb
