@@ -72,5 +72,4 @@ part of my experience through Upwork.
 
 - <https://www.lonelyplanet.com/jordan/amman>
 - <http://www.kinghussein.gov.jo/tourism1.html>
-- <http://www.visitjordan.com/>
 - <https://www.aviontourism.com/en/destinations/amman-17584>

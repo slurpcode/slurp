@@ -1,7 +1,7 @@
 # 🌘 Eclipse cheat sheets to DITA to PDF
 
 The original project created a set of DITA XML files and one highly customized
-[PDF](https://acrobat.adobe.com/au/en/products/about-adobe-pdf.html) and there
+[PDF](https://www.adobe.com/au/acrobat/about-adobe-pdf.html) and there
 are a couple of example PDFs that can be seen in the root of this repository.
 Recently I added support for other output formats that are not customized
 including HTMLHelp, TocJS and XHTML.

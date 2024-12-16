@@ -1,7 +1,7 @@
 # slurp
 
 [![Fuchsia Programming](https://img.shields.io/website?label=github%20pages&url=https%3A%2F%2Fslurpcode.github.io%2Fslurp)](https://slurpcode.github.io/slurp)
-[![Logorama](https://img.shields.io/website?label=heroku&url=https%3A%2F%2Flogorama.herokuapp.com%2F)](https://logorama.herokuapp.com/)
+<!-- [![Logorama](https://img.shields.io/website?label=heroku&url=https%3A%2F%2Flogorama.herokuapp.com%2F)](https://logorama.herokuapp.com/) -->
 [![Slurp - Read the Docs](https://img.shields.io/website?label=read%20the%20docs&url=https%3A%2F%2Fslurp.readthedocs.io%2F)](https://slurp.readthedocs.io/)
 [![Magic Worker](https://img.shields.io/website?label=workers.dev&url=https%3A%2F%2Fmagic.slurp.workers.dev%2F)](https://magic.slurp.workers.dev/)
 [![Discord](https://img.shields.io/discord/696441178421329970?label=Discord&logo=discord&logoColor=white)](https://discord.gg/h3WGCf2CN2)
@@ -10,8 +10,8 @@
 [![Slurp - Read the Docs](https://img.shields.io/readthedocs/slurp)](https://readthedocs.org/projects/slurp/builds/)
 
 [![Slurp is GPL-3.0](https://img.shields.io/github/license/slurpcode/slurp.svg)](https://github.com/slurpcode/slurp/blob/main/LICENSE)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4199d4805b2a473284988680cffe85db)](https://app.codacy.com/gh/slurpcode/slurp/dashboard)
 [![This project is using Percy.io for visual regression testing](https://percy.io/static/images/percy-badge.svg)](https://percy.io)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4199d4805b2a473284988680cffe85db)](https://www.codacy.com/gh/slurpcode/slurp/dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/slurpcode/slurp/badge)](https://www.codefactor.io/repository/github/slurpcode/slurp)
 [![GitHub repo size](https://img.shields.io/github/repo-size/slurpcode/slurp.svg)](#)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/slurpcode/slurp.svg)](#)
@@ -55,7 +55,6 @@
 - drivers - Selenium WebDriver scripts to test the Fuchsia Programming website
 - [eclipse-cheatsheets-to-dita-to-pdf](https://slurp.readthedocs.io/en/latest/eclipse-cheatsheets-to-dita-to-pdf.html) - Eclipse cheat sheets to DITA to PDF
 - [hashcheck](https://slurp.readthedocs.io/en/latest/hashcheck.html) - Ruby script to check file checksums with the Windows CertUtil Command
-- [logorama](https://logorama.herokuapp.com/) - Logos done Rama. Hosted on Heroku Cloud Platform
 - [ruby-cheatsheets-to-dita](https://slurp.readthedocs.io/en/latest/ruby-cheat-sheets.html) - Eclipse cheat sheets (XML) to DITA with Ruby, XSL, Nokogiri
 - scrapers - Web scrapers in progress. FQL, Golang, PHP, Perl, Python, Ruby and Shell. Colly, ferret, Nokogiri, Regex, Scrapy, XPath. awk, cd, curl, echo, exit, grep, mkdir, pcregrep, sed, sort, sleep, tail, uniq
 - [seek](https://slurp.readthedocs.io/en/latest/seek.html) - seek is a Ruby based command line script that builds 🔧 🔩 🔨 CSV results of job searches
@@ -196,7 +195,7 @@
 
 The original **`Fuchsia`** Programming on Heroku
 
-[https://fuchsia.herokuapp.com/](https://fuchsia.herokuapp.com/)
+~~[https://fuchsia.herokuapp.com/](https://fuchsia.herokuapp.com/)~~ _(deprecated)_
 
 ## Contributors
 

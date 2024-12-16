@@ -24,8 +24,6 @@ Die plotly.js Tortendiagramme sind die mit Abstand interaktivsten von allen.
 
 Sogar die README.md-Datei wird aus der config.xml-Konfigurationsdatei erstellt.
 
-Eine Demo finden Sie hier: <http://thebeast.me/charts/>
-
 Dieses Repository besteht aus:
 
 1. [macOS High Sierra](https://www.apple.com/macos/high-sierra/)
@@ -66,7 +64,7 @@ Dieses Repository besteht aus:
 36. [Chart.js](http://www.chartjs.org/)
 37. [plotly.js](https://plot.ly/javascript/)
 38. [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-39. [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+39. [CSS3](https://developer.mozilla.org/en-US/search?q=CSS3)
 40. [Bootstrap](https://getbootstrap.com/)
 41. [jQuery](https://jquery.com/)
 42. [JSON](https://www.json.org/)

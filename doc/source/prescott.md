@@ -58,7 +58,6 @@ and its varied attractions and statistics:
 - <https://www.prescott-az.gov/>
 - <https://en.wikipedia.org/wiki/List_of_people_from_Prescott,_Arizona>
 - <https://www.bestplaces.net/people/metro/arizona/prescott>
-- <https://www.whiskeyrowpalace.com/>
 - <https://www.visit-prescott.com/>
 - <https://www.tripadvisor.com/Tourism-g31323-Prescott_Arizona-Vacations.html>
 

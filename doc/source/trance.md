@@ -27,8 +27,6 @@ music right away.
 
 The Every Noise at Once platform provides an opportunity for people to get to know better the names of the creators who have ever been in the genre and thus the peculiarities of it.
 
-<https://everynoise.com/everynoise1d.cgi?root=trance&scope=all>
-
 ## Sources
 
 - MENNYEK KAPUI - Az elektroniks zene évtizede (The decade of electronic music)
