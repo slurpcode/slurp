@@ -13,7 +13,7 @@
     "markdownlint": "^0.37.0"
   },
   "devDependencies": {
-    "eslint": "^9.6.0"
+    "eslint": "^9.17.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified.\""
