@@ -1,4 +1,4 @@
-FROM ruby:3.3.6-bullseye
+FROM ruby:3.4.1-bullseye
 
 RUN apt-get update && apt-get install -y --no-install-recommends python3-pip shellcheck \
     && apt-get clean \
