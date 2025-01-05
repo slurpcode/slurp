@@ -284,7 +284,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.3)
+    logger (1.6.4)
     matrix (0.4.2)
     mdl (0.13.0)
       kramdown (~> 2.3)
@@ -292,7 +292,7 @@ GEM
       mixlib-cli (~> 2.1, >= 2.1.1)
       mixlib-config (>= 2.2.1, < 4)
       mixlib-shellout
-    mechanize (2.13.0)
+    mechanize (2.14.0)
       addressable (~> 2.8)
       base64
       domain_name (~> 0.5, >= 0.5.20190701)
