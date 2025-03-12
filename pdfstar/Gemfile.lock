@@ -8,7 +8,7 @@ GEM
     ffi (1.16.2)
     ffi-win32-extensions (1.0.4)
       ffi
-    json (2.10.1)
+    json (2.10.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
