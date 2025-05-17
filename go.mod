@@ -2,13 +2,13 @@ module github.com/slurpcode/slurp
 
 go 1.23.0
 
-toolchain go1.24.2
+toolchain go1.24.3
 
 require (
 	github.com/gocolly/colly/v2 v2.2.0
 	github.com/spf13/pflag v1.0.6
-	github.com/urfave/cli/v3 v3.3.2
-	github.com/urfave/cli/v3 v3.3.2
+	github.com/urfave/cli/v3 v3.3.3
+	github.com/urfave/cli/v3 v3.3.3
 )
 
 require (
