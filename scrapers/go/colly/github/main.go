@@ -1,3 +1,4 @@
+// go test -race -covermode atomic -coverprofile=profile.cov ./...
 package main
 
 import (
