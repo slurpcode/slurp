@@ -1,4 +1,4 @@
 [codespell]
+skip = package-lock.json
 ignore-words-list:
   - codespell.txt
-  - package-lock.json
