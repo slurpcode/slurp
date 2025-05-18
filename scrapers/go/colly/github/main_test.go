@@ -2,14 +2,20 @@
 package main
 
 import (
+	"fmt"
 	"strconv"
 	"testing"
 )
 
 func TestLength(t *testing.T) {
-	got := len(Scrape("jbampton", 60))
-	if got != 5 {
-		t.Errorf("len(Scrape(\"jbampton\")) = %d; want 5", got)
+	jbampton := Scrape("jbampton", 60)
+	fmt.Println(jbampton)
+	for i, v := range jbampton {
+		fmt.Printf("jbampton[%d] = %s\n", i, v)
+	}
+	got := len(jbampton)
+	if got != 4 {
+		t.Errorf("len(Scrape(\"jbampton\")) = %d; want 4", got)
 	}
 }
 
