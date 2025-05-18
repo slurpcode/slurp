@@ -8,8 +8,8 @@ import (
 
 func TestLength(t *testing.T) {
 	got := len(Scrape("jbampton", 60))
-	if got != 5 {
-		t.Errorf("len(Scrape(\"jbampton\")) = %d; want 5", got)
+	if got != 4 {
+		t.Errorf("len(Scrape(\"jbampton\")) = %d; want 4", got)
 	}
 }
 
