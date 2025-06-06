@@ -222,7 +222,7 @@ jobs:
 
   shell:
     docker:
-      - image: cimg/python:3.13.3-node
+      - image: cimg/python:3.13.4-node
     working_directory: ~/repo
     steps:
       - checkout
