@@ -7,7 +7,7 @@ toolchain go1.24.5
 require (
 	github.com/gin-gonic/gin v1.10.1
 	github.com/gocolly/colly/v2 v2.2.0
-	github.com/heroku/x v0.5.0
+	github.com/heroku/x v0.5.1
 )
 
 require (
