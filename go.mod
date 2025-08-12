@@ -8,7 +8,7 @@ require (
 	github.com/gocolly/colly/v2 v2.2.0
 	github.com/spf13/pflag v1.0.7
 	github.com/urfave/cli/v2 v2.27.7
-	github.com/urfave/cli/v3 v3.3.8
+	github.com/urfave/cli/v3 v3.4.0
 )
 
 require (
