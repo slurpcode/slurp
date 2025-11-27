@@ -30,3 +30,5 @@ workers.dev/preston/worker/
 .vscode/settings.json
 .vscode/c_cpp_properties.json
 .env
+.venv
+uv.lock
