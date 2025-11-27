@@ -1,5 +1,5 @@
 ---
-default_stages: [commit, push]
+default_stages: [pre-commit, pre-push]
 default_language_version:
   # force all unspecified Python hooks to run python3
   python: python3
@@ -10,7 +10,7 @@ repos:
       - id: identity
       - id: check-hooks-apply
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v6.0.0
     hooks:
       - id: check-ast
       - id: check-builtin-literals
@@ -38,7 +38,7 @@ repos:
       - id: trailing-whitespace
         exclude: ^rubycritic/.*$
   - repo: https://github.com/psf/black
-    rev: 24.1.1
+    rev: 25.11.0
     hooks:
       - id: black
         name: Run black on Python files
@@ -57,7 +57,7 @@ repos:
         args: ["--autocorrect-all"]
       - id: shellcheck
   - repo: https://github.com/Lucas-C/pre-commit-hooks
-    rev: v1.5.4
+    rev: v1.5.5
     hooks:
       - id: forbid-tabs
         exclude: ^doc/Makefile$|go\.mod$|go\.sum$|^go\.work$|^rubycritic/assets.*$|.*\.go|.*\.sh$
@@ -70,34 +70,34 @@ repos:
       - id: python-no-eval
       - id: python-no-log-warn
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.39.0
+    rev: v0.46.0
     hooks:
       - id: markdownlint
         name: Run markdownlint
         entry: markdownlint -c .github/linters/.markdown-lint.yml .
         args: [--ignore=doc/venv, --ignore=node_modules, --ignore=charts/assets/js/d3/CHANGES.md]
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.33.0
+    rev: v1.37.1
     hooks:
       - id: yamllint
         name: Check YAML files with yamllint
         entry: yamllint --strict -c .github/linters/.yaml-lint.yml .
         types: [yaml]
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.7
+    rev: 1.9.2
     hooks:
       - id: bandit
   - repo: https://github.com/pycqa/flake8
-    rev: 7.0.0
+    rev: 7.3.0
     hooks:
       - id: flake8
         entry: flake8 --config=".github/linters/.flake8"
   - repo: https://github.com/pycqa/pylint
-    rev: v3.0.3
+    rev: v4.0.3
     hooks:
       - id: pylint
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.2.6
+    rev: v2.4.1
     hooks:
       - id: codespell
         entry: codespell -I codespell.txt ./doc/source
