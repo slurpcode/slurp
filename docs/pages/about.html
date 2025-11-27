@@ -24,10 +24,8 @@ Please check out our sister site, the original
             {%- endif -%}
         {% endcapture %}
         <li>
-            <a href="https://www.upwork.com/fl/{{ contributor.upwork }}">
-                <img src="{{site.baseurl}}/assets/images/gophers/{{ contributor.name }}.{{filetype}}"
-                     alt="{{ display }}" title="{{ display }}">
-            </a>
+            <img src="{{site.baseurl}}/assets/images/gophers/{{ contributor.name }}.{{filetype}}"
+                 alt="{{ display }}" title="{{ display }}">
         </li>
     {% endfor %}
 </ul>

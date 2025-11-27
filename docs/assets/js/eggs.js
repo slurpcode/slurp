@@ -48,7 +48,6 @@ function eggs() {
         "lucky",
         "harley",
         "jorge",
-        "barney",
         "karine",
         "sugi",
         "jedi",
@@ -102,9 +101,6 @@ function eggs() {
                         loadUrl(
                             "https://www.upwork.com/freelancers/~01abf139414e3d1c0d"
                         );
-                        break;
-                    case "barney":
-                        loadUrl("https://www.upwork.com/o/profiles/users/~015e56316c3aa9a286");
                         break;
                     case "karine":
                         loadUrl(
