@@ -182,7 +182,7 @@ class Parser
 
     private
 
-    def parse_boolean_option(value)
+    def parse_boolean_option?(value)
       case value
       when TrueClass, "yes", "Yes", "YES"
         true

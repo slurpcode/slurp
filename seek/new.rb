@@ -74,7 +74,7 @@ def count_keys(data)
   count
 end
 
-def compare_and_update(file1_path, file2_path)
+def compare_and_update?(file1_path, file2_path)
   data1 = read_json(file1_path)
   data2 = read_json(file2_path)
 
