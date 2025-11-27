@@ -6,18 +6,6 @@ permissions:  # added using https://github.com/step-security/secure-workflows
   contents: read
 
 jobs:
-  misspell:
-    name: Check Spelling
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check Out
-        uses: actions/checkout@v6
-      - name: Install
-        run: |
-          wget -O - -q https://git.io/misspell | sh -s -- -b .
-      - name: Misspell
-        run: |
-          git ls-files --empty-directory | grep -v charts/assets/js | grep -v charts/config/de.yml | grep -v charts/lang/README.de.md | grep -v charts/site.yml | grep -v doc/source/codewars.md | grep -v docs/assets/games | grep -v docs/assets/js | grep -v rubycritic | xargs ./misspell -i "calcular,momentos" -error
   pre-commit:
     name: Run pre-commit  # https://pre-commit.com/
     runs-on: ubuntu-latest
@@ -32,7 +20,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pre-commit
       - name: Set PY
-        run: echo "PY=$(python -VV | sha256sum | cut -d' ' -f1)" >> $GITHUB_ENV
+        run: echo "PY=$(python -VV | sha256sum | cut -d' ' -f1)" >> "$GITHUB_ENV"
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pre-commit
