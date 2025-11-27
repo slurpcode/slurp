@@ -227,7 +227,7 @@ def add_links(page_count, use_spacing=0)
   page = ""
   (0..page_count).map do |i|
     page += %(
-          #{use_spacing.positive? ? '' : '  '}<li><a href="index#{ii(i)}.html">Page #{i + 1}</a></li>)
+          #{'  ' unless use_spacing.positive?}<li><a href="index#{ii(i)}.html">Page #{i + 1}</a></li>)
   end
   page
 end
@@ -269,7 +269,7 @@ def draw_d3pie_chart(type, which, data, num, colors, title, width, height,
   end
   footertext = if high > 1 && seen.size > 1 && seen.count(high) == 1
                  if type.zero?
-                   "#{high} \"#{element}\"#{element == 'folders' ? '' : ' files'} occurred most frequently"
+                   "#{high} \"#{element}\"#{' files' unless element == 'folders'} occurred most frequently"
                  elsif type == 1
                    "#{high} maximum occurrences in file \"#{element}\""
                  else
@@ -633,7 +633,7 @@ page_header(site_config, page_count)
 page = ""
 # create main page heading
 if site_config["chart_type"] == "all"
-  (0..page_count - 1).map do |i|
+  (0..(page_count - 1)).map do |i|
     type = case i % 8
            when 0..1
              "d3pie"
