@@ -39,7 +39,6 @@
 -->
 
 [![Patreon][patreonbadge]][patreonurl]
-[![Discord][discordbadge]][discordurl]
 [![Twitter][twitterurl]][twitterbadge]
 
 </div>
