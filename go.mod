@@ -7,8 +7,8 @@ toolchain go1.25.6
 require (
 	github.com/gocolly/colly/v2 v2.3.0
 	github.com/spf13/pflag v1.0.10
-	github.com/urfave/cli/v3 v3.6.1
-	github.com/urfave/cli/v3 v3.6.1
+	github.com/urfave/cli/v3 v3.6.2
+	github.com/urfave/cli/v3 v3.6.2
 )
 
 require (
