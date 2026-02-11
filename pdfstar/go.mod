@@ -2,7 +2,7 @@ module github.com/slurpcode/slurp/pdfstar
 
 go 1.24.0
 
-toolchain go1.25.7
+toolchain go1.26.0
 
 require (
 	github.com/gin-gonic/gin v1.11.0
