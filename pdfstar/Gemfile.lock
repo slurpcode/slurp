@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    addressable (2.8.8)
+      public_suffix (>= 2.0.2, < 8.0)
     ast (2.4.3)
     chef-utils (18.8.54)
       concurrent-ruby
@@ -9,12 +11,16 @@ GEM
     ffi-win32-extensions (1.0.4)
       ffi
     json (2.18.1)
+    json-schema (4.3.1)
+      addressable (>= 2.8)
     kramdown (2.5.1)
       rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
+    mcp (0.7.1)
+      json-schema (>= 4.1)
     mdl (0.15.0)
       kramdown (~> 2.3)
       kramdown-parser-gfm (~> 1.1)
@@ -32,18 +38,20 @@ GEM
       win32-process (~> 0.9)
       wmi-lite (~> 1.0)
     parallel (1.27.0)
-    parser (3.3.10.1)
+    parser (3.3.10.2)
       ast (~> 2.4.1)
       racc
     prism (1.9.0)
+    public_suffix (2.0.5)
     racc (1.8.1)
     rainbow (3.1.1)
     regexp_parser (2.11.3)
     rexml (3.4.4)
-    rubocop (1.84.2)
+    rubocop (1.85.0)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
+      mcp (~> 0.6)
       parallel (~> 1.10)
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
