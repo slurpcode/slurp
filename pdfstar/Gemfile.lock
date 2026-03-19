@@ -10,7 +10,7 @@ GEM
     ffi (1.17.2)
     ffi-win32-extensions (1.0.4)
       ffi
-    json (2.18.1)
+    json (2.19.2)
     json-schema (4.3.1)
       addressable (>= 2.8)
     kramdown (2.5.1)
@@ -71,7 +71,7 @@ GEM
 
 PLATFORMS
   ruby
-  x64-mingw32
+  x64-mingw-ucrt
 
 DEPENDENCIES
   mdl
