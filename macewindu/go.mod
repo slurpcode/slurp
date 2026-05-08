@@ -2,12 +2,12 @@ module github.com/slurpcode/slurp/macewindu
 
 go 1.23.0
 
-toolchain go1.26.1
+toolchain go1.26.3
 
 require (
 	github.com/gin-gonic/gin v1.12.0
 	github.com/gocolly/colly/v2 v2.3.0
-	github.com/heroku/x v0.5.3
+	github.com/heroku/x v0.6.0
 )
 
 require (
