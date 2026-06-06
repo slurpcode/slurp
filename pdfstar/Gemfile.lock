@@ -15,7 +15,7 @@ GEM
       kramdown (~> 2.0)
     language_server-protocol (3.17.0.5)
     lint_roller (1.1.0)
-    mdl (0.16.0)
+    mdl (0.17.0)
       kramdown (~> 2.5)
       kramdown-parser-gfm (~> 1.1)
       mixlib-cli
