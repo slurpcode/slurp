@@ -10,7 +10,7 @@
     "@actions/core": "^3.0.0",
     "@actions/exec": "^3.0.0",
     "@actions/github": "^9.1.1",
-    "markdownlint": "^0.40.0"
+    "markdownlint": "^0.41.0"
   },
   "devDependencies": {
     "eslint": "^10.2.1"
