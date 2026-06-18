@@ -10,7 +10,7 @@ jobs:
     name: Run pre-commit  # https://pre-commit.com/
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
       - uses: actions/setup-python@v6
         with:
           python-version: '3.x'  # Version range or exact version of a Python version to use, using SemVer's version range syntax
