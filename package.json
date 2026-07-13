@@ -10,10 +10,10 @@
     "@actions/core": "^3.0.0",
     "@actions/exec": "^3.0.0",
     "@actions/github": "^9.1.1",
-    "markdownlint": "^0.41.0"
+    "markdownlint": "^0.41.1"
   },
   "devDependencies": {
-    "eslint": "^10.2.1"
+    "eslint": "^10.7.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified.\""
