@@ -1,3 +1,4 @@
+pip requirements
 chromedriver-autoinstaller
 defusedxml
 flake8
@@ -5,7 +6,8 @@ matplotlib
 pandas
 pylint
 requests
-scrapy
+scrapy>=2.13.5
 seaborn
 selenium
 yamllint
+
