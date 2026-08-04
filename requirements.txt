@@ -3,6 +3,9 @@ chromedriver-autoinstaller
 defusedxml
 flake8
 matplotlib
+# Pin Pillow to mitigate CVE-2026-40192 (upgrade to 12.2.0)
+# See: https://github.com/python-pillow/Pillow/security/advisories/GHSA-whj4-6x5xc4v2j
+pillow>=12.2.0
 pandas
 pylint
 requests
