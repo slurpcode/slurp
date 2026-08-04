@@ -1,3 +1,4 @@
+pip requirements
 chromedriver-autoinstaller
 defusedxml
 flake8
@@ -8,7 +9,8 @@ pillow>=12.2.0
 pandas
 pylint
 requests
-scrapy
+scrapy>=2.13.5
 seaborn
 selenium
 yamllint
+
