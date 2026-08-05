@@ -1,3 +1,6 @@
 matplotlib
 pandas
 seaborn
+
+# Ensure Pillow is at least the patched version
+Pillow>=12.2.0
