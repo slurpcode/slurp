@@ -2,7 +2,7 @@ module github.com/slurpcode/slurp
 
 go 1.24.0
 
-toolchain go1.26.7
+toolchain go1.27.0
 
 require (
 	github.com/gocolly/colly/v2 v2.3.0
