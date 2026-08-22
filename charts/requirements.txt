@@ -1,4 +1,6 @@
 matplotlib
+# Ensure Pillow >=12.2.0 because matplotlib may pull Pillow as a dependency
+pillow>=12.2.0
 pandas
 seaborn
 
