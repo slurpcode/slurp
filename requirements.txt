@@ -13,4 +13,3 @@ scrapy>=2.13.5
 seaborn
 selenium
 yamllint
-
