@@ -72,7 +72,7 @@ DEPENDENCIES
   rubocop
 
 RUBY VERSION
-   ruby 4.0.6p0
+   ruby 4.0.7p0
 
 BUNDLED WITH
    2.4.6
