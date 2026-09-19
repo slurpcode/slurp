@@ -1,12 +1,12 @@
 chromedriver-autoinstaller
 defusedxml
 flake8
-matplotlib>=3.10.0
+matplotlib>=3.11.2
 pandas
 pillow>=12.3.0
 pylint
-requests>=2.33.0
-scrapy>=2.13.5
+requests>=2.34.2
+scrapy>=2.19.0
 seaborn
 selenium
 yamllint
