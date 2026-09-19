@@ -1,43 +1,61 @@
 version: 2
 updates:
-  - package-ecosystem: bundler
+  - package-ecosystem: "bundler"
     directory: "/"
     schedule:
-      interval: daily
+      interval: "daily"
     open-pull-requests-limit: 10
-    ignore:
-      - dependency-name: rubocop
-        versions:
-          - 1.12.0
-          - 1.12.1
-          - 1.13.0
-          - 1.9.1
-      - dependency-name: nokogiri
-        versions:
-          - 1.11.3
-      - dependency-name: mechanize
-        versions:
-          - 2.8.0
-      - dependency-name: github-pages
-        versions:
-          - "213"
+    groups:
+      bundler-dependencies:
+        patterns:
+          - '*'
+    cooldown:
+      default-days: 7
+
     # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
+    groups:
+      github-actions-dependencies:
+        patterns:
+          - '*'
+    cooldown:
+      default-days: 7
+
   # Maintain dependencies for npm
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "daily"
+    groups:
+      npm-dependencies:
+        patterns:
+          - '*'
+    cooldown:
+      default-days: 7
+
   # Maintain dependencies for pip
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "daily"
+    groups:
+      pip-dependencies:
+        patterns:
+          - '*'
+    cooldown:
+      default-days: 7
+
   # Maintain dependencies for Go
   - package-ecosystem: "gomod"
     directory: "/"
     schedule:
       interval: "daily"
+    groups:
+      go-dependencies:
+        patterns:
+          - '*'
+    cooldown:
+      default-days: 7
