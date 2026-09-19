@@ -2,8 +2,8 @@ chromedriver-autoinstaller
 defusedxml
 flake8
 matplotlib
-pillow>=12.2.0
 pandas
+pillow>=12.2.0
 pylint
 requests
 scrapy>=2.13.5
