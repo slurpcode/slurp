@@ -5,7 +5,7 @@ matplotlib>=3.10.0
 pandas
 pillow>=12.3.0
 pylint
-requests
+requests>=2.33.0
 scrapy>=2.13.5
 seaborn
 selenium
