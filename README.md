@@ -178,4 +178,3 @@ amazing graphics work he did for `Fuchsia` and `Slurp Code`.
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
-
