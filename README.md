@@ -136,7 +136,6 @@
 - [OpenSearch](https://developer.mozilla.org/en-US/docs/Web/OpenSearch) - The OpenSearch description format lets a website describe a search engine for itself, so that a browser or other client application can use that search engine
 - [Markdownlint](https://github.com/markdownlint/markdownlint) - A tool to check markdown files and flag style issues and is distributed as a rubygem
 - [yamllint](https://yamllint.readthedocs.io/en/stable/index.html) - A linter for YAML files
-- [Percy](https://percy.io) - Percy provides developers with a platform and workflow to run visual testing and reviews on web apps, static sites, or component libraries
 - [LGTM](https://lgtm.com) - A code analysis platform for finding zero-days and preventing critical vulnerabilities
 - [Dependabot](https://dependabot.com/) - creates pull requests to keep your dependencies secure and up-to-date
 - [Snyk](https://snyk.io/) - Snyk empowers developers worldwide to own security by natively integrating into existing workflows and dev tools
