@@ -3,7 +3,7 @@ defusedxml
 flake8
 matplotlib
 pandas
-pillow>=12.2.0
+pillow>=12.3.0
 pylint
 requests
 scrapy>=2.13.5
