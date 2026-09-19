@@ -1,5 +1,7 @@
+const ALLOWED_TARGET_URL = "https://prestonhunter.github.io/resume/"
+
 addEventListener("fetch", event => {
   return event.respondWith(
-    fetch("https://prestonhunter.github.io/resume/")
+    fetch(new URL(ALLOWED_TARGET_URL).toString())
   )
 })
