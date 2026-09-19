@@ -1,7 +1,7 @@
 chromedriver-autoinstaller
 defusedxml
 flake8
-matplotlib
+matplotlib>=3.10.0
 pandas
 pillow>=12.3.0
 pylint

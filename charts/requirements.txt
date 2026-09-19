@@ -1,4 +1,4 @@
-matplotlib
+matplotlib>=3.10.0
 pandas
 pillow>=12.3.0
 seaborn
