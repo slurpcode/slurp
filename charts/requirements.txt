@@ -1,8 +1,8 @@
 matplotlib
-# Ensure Pillow >=12.2.0 because matplotlib may pull Pillow as a dependency
-pillow>=12.2.0
 pandas
-seaborn
+# Ensure Pillow >=12.3.0 because matplotlib may pull Pillow as a dependency
+pillow>=12.3.0
 
 # Ensure Pillow is at least the patched version
-Pillow>=12.2.0
+Pillow>=12.3.0
+seaborn
