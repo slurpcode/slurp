@@ -4,7 +4,7 @@ GEM
     bigdecimal (3.1.6)
     chroma (0.2.0)
     csv (3.3.6)
-    fileutils (1.8.0)
+    fileutils (1.8.1)
     kramdown (2.5.2)
       rexml (>= 3.4.4)
     matrix (0.4.2)
