@@ -23,7 +23,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.1)
     base64 (0.3.0)
     bigdecimal (3.3.1)
-    chef-utils (18.8.54)
+    chef-utils (18.11.11)
       concurrent-ruby
     childprocess (5.1.0)
       logger (~> 1.5)
@@ -92,7 +92,9 @@ GEM
       logger
     faraday-net_http (3.4.4)
       net-http (~> 0.5)
-    ffi (1.17.2)
+    ffi (1.17.4)
+    ffi (1.17.4-x64-mingw-ucrt)
+    ffi (1.17.4-x86_64-darwin)
     ffi-win32-extensions (1.0.4)
       ffi
     fileutils (1.8.0)
@@ -330,9 +332,9 @@ GEM
     mixlib-cli (2.1.8)
     mixlib-config (3.0.27)
       tomlrb
-    mixlib-shellout (3.3.9)
+    mixlib-shellout (3.4.10)
       chef-utils
-    mixlib-shellout (3.3.9-universal-mingw32)
+    mixlib-shellout (3.4.10-x64-mingw-ucrt)
       chef-utils
       ffi-win32-extensions (~> 1.0.3)
       win32-process (~> 0.9)
@@ -443,7 +445,7 @@ GEM
     simpleidn (0.2.3)
     terminal-table (1.6.0)
     thread_safe (0.3.6)
-    tomlrb (2.0.3)
+    tomlrb (2.0.4)
     ttfunk (1.8.0)
       bigdecimal (~> 3.1)
     tty-which (0.5.0)
