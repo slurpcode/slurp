@@ -46,7 +46,7 @@ GEM
       logger (~> 1.6)
       simpleidn (~> 0.2.1)
     docile (1.4.1)
-    domain_name (0.6.20240107)
+    domain_name (0.6.20260921)
     drb (2.2.3)
     dry-configurable (1.4.0)
       dry-core (~> 1.0)
@@ -304,7 +304,7 @@ GEM
       mixlib-cli
       mixlib-config
       mixlib-shellout
-    mechanize (2.14.1)
+    mechanize (2.14.2)
       addressable (~> 2.8)
       base64
       domain_name (~> 0.5, >= 0.5.20190701)
@@ -321,7 +321,7 @@ GEM
     mime-types (3.7.0)
       logger
       mime-types-data (~> 3.2025, >= 3.2025.0507)
-    mime-types-data (3.2026.0701)
+    mime-types-data (3.2026.1020)
     mini_portile2 (2.8.9)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
@@ -418,7 +418,7 @@ GEM
       simplecov (>= 0.22.0)
       tty-which (~> 0.5.0)
       virtus (~> 2.0)
-    rubyntlm (0.6.5)
+    rubyntlm (0.6.8)
       base64
     rubyzip (2.4.1)
     safe_yaml (1.0.5)
