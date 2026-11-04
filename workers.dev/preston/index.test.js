@@ -38,11 +38,12 @@ const attacks = [
 ]
 
 for (const request of attacks) {
-  test(`only fetches the fixed upstream for ${request.method} ${request.url}`, async () => {
+  test(`only fetches the fixed upstream for ${request.method} ${request.url}`, () => {
     const { handler, fetched } = loadWorker()
     let responded
     handler({ request, respondWith: r => (responded = r) })
-    await responded
-    assert.deepStrictEqual(fetched, [TARGET_URL])
+    return Promise.resolve(responded).then(() => {
+      assert.deepStrictEqual(fetched, [TARGET_URL])
+    })
   })
 }
