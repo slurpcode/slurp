@@ -5,7 +5,7 @@
   "description": "A template for Cloudflare Workers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "author": "John Bampton",
