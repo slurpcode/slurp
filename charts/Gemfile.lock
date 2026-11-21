@@ -5,7 +5,7 @@ GEM
     chroma (0.2.0)
     csv (3.3.7)
     fileutils (1.8.1)
-    kramdown (2.5.2)
+    kramdown (2.6.1)
       rexml (>= 3.4.4)
     matrix (0.4.2)
     pdf-core (0.10.0)
