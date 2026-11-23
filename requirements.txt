@@ -6,7 +6,7 @@ pandas
 pillow>=13.0.0
 pylint
 requests>=2.34.2
-scrapy>=2.19.0
+scrapy>=2.20.0
 seaborn
 selenium
 yamllint
